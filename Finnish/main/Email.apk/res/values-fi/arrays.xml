@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="all_month_str">
+        <item>Tammi</item>
+        <item>Helmi</item>
+        <item>Maalis</item>
+        <item>Huhti</item>
+        <item>Touko</item>
+        <item>Kesä</item>
+        <item>Heinä</item>
+        <item>Elo</item>
+        <item>Syys</item>
+        <item>Loka</item>
+        <item>Marras</item>
+        <item>Joulu</item>
+    </string-array>
+    <string-array name="calendar_remind_string_array">
+        <item>Tänä iltana</item>
+        <item>Huomenna</item>
+        <item>Viikonloppu</item>
+        <item>Ensi viikolla</item>
+        <item>Ensi kuussa</item>
+        <item>Valitse päivämäärä</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>Pikkuinen</item>
+        <item>Pieni</item>
+        <item>Normaali</item>
+        <item>Suuri</item>
+        <item>Valtava</item>
+    </string-array>
+    <string-array name="menu_att_mgr_sort_string_array">
+        <item>Äskettäin katsottu</item>
+        <item>Formaatti</item>
+        <item>Nimi</item>
+        <item>Lähettäjä</item>
+        <item>Vastaanotettu</item>
+    </string-array>
+    <string-array name="moveto_folder_sections">
+        <item>Järjestelmä</item>
+        <item>Usein käytetyt</item>
+        <item>Kaikki kansiot</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Uudempi viesti</item>
+        <item>Vanhempi viesti</item>
+        <item>Saapuneet</item>
+    </string-array>
+    <string-array name="prefEntries_contact_add">
+        <item>Kaikki</item>
+        <item>Vain lähettäjät</item>
+    </string-array>
+    <string-array name="signature_normal_string_array_next">
+        <item>Osoite:</item>
+        <item>Puhelin:</item>
+        <item>Nimi:</item>
+        <item>Sähköposti:</item>
+        <item>Puhelin:</item>
+        <item>WeChat:</item>
+        <item>Faksi:</item>
+        <item>Postinumero:</item>
+    </string-array>
+    <string-array name="signature_special_string_array_next">
+        <item>Kiitos,</item>
+        <item>Parhain terveisin</item>
+        <item>Lähetetty minun</item>
+        <item>Alkuperäinen sähköposti</item>
+        <item>Lähetetty minun</item>
+        <item>Lähetetty kohteesta</item>
+        <item>Lähettäjä</item>
+        <item>Tämä sähköposti</item>
+        <item>Vastuuvapauslauseke</item>
+        <item>Sähköpostin vastuuvapauslauseke</item>
+    </string-array>
+</resources>
