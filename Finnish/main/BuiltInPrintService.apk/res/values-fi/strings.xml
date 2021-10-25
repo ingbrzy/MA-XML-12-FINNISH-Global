@@ -11,8 +11,6 @@
     <string name="connections">Yhteydet</string>
     <string name="connects_via_network">Yhdistää nykyisen verkon kautta kohteessa %1$s</string>
     <string name="connects_via_wifi_direct">Yhdistetään kohteen Wi-Fi Direct kautta</string>
-    <string name="disable_wifi_direct">Poista Wi-Fi Direct käytöstä</string>
-    <string name="enable_location">Sijainti käyttöön</string>
     <string name="failed_connection">Ei voitu yhdistää kohteeseen %1$s</string>
     <string name="failed_printer_connection">Tulostimeen ei saatu yhteyttä</string>
     <string name="find_wifi_direct">Etsi Wi-Fi Direct -tulostimia</string>
@@ -56,9 +54,7 @@
     <string name="unreadable_input">Asiakirjaa ei voitu lukea</string>
     <string name="waiting_to_send">Odotetaan lähettämistä</string>
     <string name="wifi_direct">Wi-Fi Direct</string>
-    <string name="wifi_direct_location_rationale">Oletustulostuspalvelu tarvitsee sijaintipalveluita lähellä olevien laitteiden löytämiseen.</string>
     <string name="wifi_direct_permission_rationale">Oletustulostuspalvelu tarvitsee sijaintiluvan läheisten laitteiden löytämiseen.</string>
     <string name="wifi_direct_printers">Wi-Fi Direct -tulostimet</string>
     <string name="wifi_direct_printing">Wi-Fi Direct -tulostus</string>
-    <string name="wifi_direct_problem">Oletustulostuspalvelu ei löydä Wi-Fi Direct -tulostimia</string>
 </resources>

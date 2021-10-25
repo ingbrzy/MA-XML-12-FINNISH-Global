@@ -525,6 +525,10 @@
     <string name="micloud_upgrade_member">Hanki tallennustilaa</string>
     <string name="micloud_upgrade_storage">Päivitä tallennustilasuunnitelma</string>
     <string name="micloud_user_space_title">Tallennustila</string>
+    <string name="micloud_warn_full_sum">Uusia kohteita ei synkronoida Xiaomi Cloudin kanssa.</string>
+    <string name="micloud_warn_full_title">Tallennustila on loppu</string>
+    <string name="micloud_warn_low_sum">Sinun Xiaomi Cloud on 90% täynnä.</string>
+    <string name="micloud_warn_low_title">Tallennustila on lähes loppu</string>
     <string name="micloud_web_discription_place_holder">Avaa %1$s tietokoneellasi hallitaksesi tietojasi.</string>
     <string name="micloud_wipe_data_confirm_label">Poistetaanko synkronoidut kohteet tästä laitteesta?</string>
     <string name="micloud_wipe_data_confirm_title">Jotkut seuraavien sovellusten kohteet synkronoidaan Xiaomi Cloudin kanssa. Voit poistaa ne tästä laitteesta pitäen ne edelleen pilvessä.</string>

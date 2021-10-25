@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Jaa: %s</string>
     <string name="abc_toolbar_collapse_description">Tiivistä</string>
     <string name="about_device_info">Näytä laitteen tiedot</string>
+    <string name="accept">Salli</string>
     <string name="access_token_expired_warning">Weibo-tili on vanhentunut</string>
     <string name="access_token_invalid_warning">Weibo-tili on virheellinen</string>
     <string name="account">Tili</string>
@@ -107,6 +108,7 @@
     <string name="binded_description" formatted="false">"%s on yhdistetty Mi-tiliisi.
 Voit kirjautua Mi-tilillesi kohteen %s avulla nyt."</string>
     <string name="button_unbind">Katkaise yhteys</string>
+    <string name="cancel">Peruuta</string>
     <string name="change_activate_email">Vaihda sähköpostiosoite</string>
     <string name="change_email_address">Vaihda sähköpostiosoite</string>
     <string name="change_password">Vaihda salasana</string>
@@ -123,7 +125,7 @@ Voit kirjautua Mi-tilillesi kohteen %s avulla nyt."</string>
     <string name="com_facebook_internet_permission_error_title">AndroidManifest-virhe</string>
     <string name="com_facebook_like_button_liked">Tykätty</string>
     <string name="com_facebook_like_button_not_liked">Tykkää</string>
-    <string name="com_facebook_loading">Ladataan…</string>
+    <string name="com_facebook_loading">Ladataan...</string>
     <string name="com_facebook_loginview_cancel_action">Peruuta</string>
     <string name="com_facebook_loginview_log_in_button">Kirjaudu sisään</string>
     <string name="com_facebook_loginview_log_in_button_continue">Jatka Facebook-tunnuksilla</string>
@@ -180,6 +182,7 @@ Voit kirjautua Mi-tilillesi kohteen %s avulla nyt."</string>
     <string name="delete_device_btn">Poista</string>
     <string name="delete_device_failed">Laitetta ei voi poistaa</string>
     <string name="delete_device_notice">Kun laite on poistettu, se kirjautuu ulos Mi-tililtäsi automaattisesti. Et voi enää käyttää tätä laitetta kuvien, viestien tai muun sisällön pääsyyn tililläsi.</string>
+    <string name="deny">Kiellä</string>
     <string name="device_delete_success_message">Jos et kirjautunut sisään tällä laitteella, vaihda salasanasi välittömästi.</string>
     <string name="device_delete_success_title">Kirjauduttu ulos</string>
     <string name="device_list__header">Laitteeni</string>
@@ -193,6 +196,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="early_morning">Aamu</string>
     <string name="empty" />
     <string name="empty_device_list_notice">Ei laitteita</string>
+    <string name="enable">Asetukset</string>
     <string name="ep_unsupported">Ei voi kirjautua Mi-tiliin laitteessasi</string>
     <string name="eras_ad">jKr.</string>
     <string name="eras_bc">eKr.</string>
@@ -301,6 +305,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="get_phone_verifycode_exceed_limit">Liian monta vahvistuskoodia on lähetetty tälle numerolle. Odota 24 tuntia ja yritä uudelleen.</string>
     <string name="google">Google</string>
     <string name="google_login">Kirjaudu sisään kohteella Google</string>
+    <string name="goto_accept">OK</string>
     <string name="guest_account_label">Mi-vierastili</string>
     <string name="health_action_activate">Aktivoi</string>
     <string name="health_action_install">Asenna</string>
@@ -325,9 +330,11 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="kr_permission_sms_desc">Vahvistuskoodien automaattiseen täyttämiseen</string>
     <string name="kr_permission_storage_desc">Diagnostiikan tallennus</string>
     <string name="loading_micloud_sync_data">Hetki vain…</string>
+    <string name="login_3rd_app_with_system_account">Kirjaudu sisään kohteeseen %s</string>
     <string name="login_check_find_device">Haetaan laitteen turvallisuustietoa…</string>
     <string name="login_check_find_device_failed_title">Laitteen turvallisuustietoa ei voitu tarkistaa</string>
     <string name="login_find_device_bind">Tämä laite on liitettynä olemassa olevaan Mi-tilin tunnukseen (%s).</string>
+    <string name="login_with_other">Lisää vaihtoehtoja</string>
     <string name="logout_account">Kirjaudu ulos</string>
     <string name="logout_failed">Uloskirjautuminen epäonnistui</string>
     <string name="mi_account_identity_title">Vahvista henkilöllisyytesi</string>
@@ -459,7 +466,6 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="passport_activing_account">Aktivoidaan…</string>
     <string name="passport_adding_account">Luodaan tiliä…</string>
     <string name="passport_area_code_hot">USEIN KÄYTETYT</string>
-    <string name="passport_area_code_others">Käytä toista etuliitettä</string>
     <string name="passport_area_code_title">Maatunnus</string>
     <string name="passport_auto_generate_pwd">Luo turvallinen salasana</string>
     <string name="passport_back">Takaisin</string>
@@ -686,10 +692,14 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="passport_yes">Kyllä</string>
     <string name="password_view_hide_password">Piilota salasana</string>
     <string name="password_view_show_password">Näytä salasana</string>
+    <string name="permission_desc_read_sms">Automaattisesti täytettäville vahvistuskoodeille</string>
+    <string name="permission_desc_write_external_storage">Lokien lataamiseksi palautetta varten</string>
     <string name="permission_group_contacts">Yhteystiedot</string>
     <string name="permission_group_phone">Puhelin</string>
     <string name="permission_group_sms">Tekstiviesti</string>
     <string name="permission_group_storage">Tallennustila</string>
+    <string name="permission_read_sms">Pääsy viesteihin</string>
+    <string name="permission_write_external_storage">Käytä ja tallenna kohteita muistiin</string>
     <string name="personal_info_desc">Valokuva, lempinimi ja paljon muuta</string>
     <string name="phone_num_use_for">Puhelinnumeroa käytetään:</string>
     <string name="photoPickerNotFoundText">Kuvia ei saatavilla.</string>
@@ -708,6 +718,12 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="recycle_phone_notification_title">Mi-tilin turvallisuusriski</string>
     <string name="removing_account">Kirjaudutaan ulos…</string>
     <string name="replace_binded_phone">Korvaa puhelin</string>
+    <string name="request_open_permission">Käyttöoikeuksia vaaditaan</string>
+    <string name="request_use_camera_message">Salli Mi-tilin käyttää puhelimesi kameraa?</string>
+    <string name="request_use_camera_title">Pääsy kameraan</string>
+    <string name="request_use_gallery_message">Salli Mi-tilin käyttää Galleriaa?</string>
+    <string name="request_use_gallery_title">Pääsy Galleriaan</string>
+    <string name="request_use_writing_clipboard_message">Jos haluat kopioida Mi-tilisi tunnuksen, anna Mi-tilin tallentaa kohteita leikepöydälle.</string>
     <string name="resend_active_email">Lähetä uudelleen</string>
     <string name="resend_email_reach_limit_message">Olet pyytänyt liian monta vahvistusviestiä. Varmista, että vahvistusviesti ei ole päätynyt roskapostikansioon.</string>
     <string name="resend_email_reach_limit_title">Sähköpostin lähettäminen epäonnistui</string>
@@ -840,6 +856,10 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="used_cloud_storage_info">Käytetty %s</string>
     <string name="user_avatar_update_title">Muuta profiilikuva</string>
     <string name="user_avatar_uploading">Hetki vain…</string>
+    <string name="user_instruction_all_purpose">Tervetuloa Mi-tilille! Voit käyttää tiliäsi käyttääksesi Xiaomin ja sen tytäryhtiöiden tarjoamia palveluita, kuten Mi.com, Xiaomi Cloud ja GetApps. Voit hankkia Mi-kolikoita, ostaa virtuaalisia tavaroita ja nauttia lisäarvopalveluista, kuten peleistä, teemoista ja e-kirjoista.</string>
+    <string name="user_instruction_tip">Voit kirjautua sisään, lukea ja hyväksyä käyttöehdot.</string>
+    <string name="user_license_with_3rd_app">&lt;Data>Kirjautumalla sisään Mi-tililläni vahvistan, että olen lukenut ja hyväksynyt &lt;a href=%1$s>Käyttäjäsopimuksen&lt;/a> ja &lt;a href=%2$s>Tietosuojakäytännön&lt;/a> ja Mi-tilin &lt;a href=%3$s>käyttäjäsopimuksen&lt;/a> ja &lt;a href=%4$s> tietosuojakäytännön&lt;/a>.&lt;/Data></string>
+    <string name="user_license_without_3rd_app">&lt;Data>Olen lukenut ja hyväksynyt Mi-tilin &lt;a href=%1$s>käyttäjäsopimuksen&lt;/a> ja &lt;a href=%2$s>tietosuojakäytännön&lt;/a>.&lt;/Data></string>
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
     <string name="v7_preference_on">KÄYTÖSSÄ</string>
     <string name="vip_account_settings">VIP-asetukset</string>

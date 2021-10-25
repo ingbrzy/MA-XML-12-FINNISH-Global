@@ -10,7 +10,6 @@
     <string name="HIPS_Perm_External_Storage_Desc">Käytä ja tallenna tiedostoja ja valokuvia sisäiseen tallennustilaan</string>
     <string name="HIPS_Perm_External_Storage_Group">Hallitse muistitilan käyttöoikeuksia</string>
     <string name="HIPS_Perm_External_Storage_Group_Desc">Valitse, mitä kohteita sovellukset saavat käyttää</string>
-    <string name="HIPS_Perm_GetInstall_Desc">Hanki tietoja tähän laitteeseen asennetuista sovelluksista</string>
     <string name="HIPS_Perm_PhoneID_Desc">Pääsy puhelinnumeroon, kohteeseen IMEI ja IMSI</string>
     <string name="HIPS_Perm_PhoneID_Desc_Q">Puhelinnumeron ja laitteen tilan käyttö</string>
     <string name="HIPS_Perm_Read_Call_Log_Desc">Lue puheluhistoria</string>
@@ -169,8 +168,6 @@
     <string name="antispam_notificaiton_type_show_none">Ei koskaan</string>
     <string name="antispam_notification_setting_title">Ilmoitukset</string>
     <string name="antispam_xpace_text">Vaihda ensimmäiseen tilaan asettaaksesi estolistalle</string>
-    <string name="antivirus_browser_check">Tarkista verkkosivustot Mi-selaimesta</string>
-    <string name="antivirus_browser_check_summary">Tarkista verkkosivustot Mi-selaimessa automaattisesti ja vastaanota varoituksia mahdollisista riskeistä</string>
     <string name="antivirus_choose_engine">%s</string>
     <string name="antivirus_choose_engine_dialog_title">Valitse tunnisteet</string>
     <string name="antivirus_choose_engine_settings">Virustunnisteiden asetukset</string>
@@ -184,21 +181,17 @@
     <string name="antivirus_monitor_risk_advice">Tämä sovellus ei ole turvallinen, poista se</string>
     <string name="antivirus_monitor_virus_advice">Tämä sovellus saattaa sisältää viruksen, poista se</string>
     <string name="antivirus_monitored_app_empty">Ei voitu löytää yhteensopivia maksusovelluksia</string>
-    <string name="antivirus_monitored_tips">Tarkista maksuympäristö mahdollisten riskien varalta automaattisesti</string>
     <string name="antivirus_none_engine_dialog_ok">OK</string>
     <string name="antivirus_not_wlan">Et ole yhteydessä Wi-Fi-verkkoon. Mobiilidatan käyttö voi aiheuttaa lisämaksuja. Jatketaanko joka tapauksessa?</string>
     <string name="antivirus_privacy_dialog_cloudscan">Lähetä sovellusten nimet ja tiedot</string>
     <string name="antivirus_privacy_dialog_cloudscan_description">Virusten havaitsemiseksi ja neutraloimiseksi tehokkaammin lataamme sovelluspakettien nimet ja ominaisuudet skannataksesi ne pilvimoottorin avulla.</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
     <string name="antivirus_privacy_dialog_summary">&lt;Data>Tämän ominaisuuden tarjoaa kolmannen osapuolen antivirusmoottori. Tutustu lisää lukemalla &lt;a href=\"%1$s\">Lisenssisopimus&lt;/a>, jonka tarjoaa kolmas osapuoli.&lt;/Data></string>
-    <string name="antivirus_privacy_dialog_summary_kddi">&lt;Data>Kun suoritat tietoturvatarkistuksen, laitemallisi ja skannaustulokset ladataan %1$s-palvelimille ja niitä käytetään vastaavien &lt;a href=\"%2$s\">käyttöehtojen&lt;/a> mukaisesti.&lt;br/>&lt;br/>Lue ja hyväksy %3$s-käyttöehdot ennen tietoturvatarkistusten suorittamista.&lt;br/>&lt;br/>Jos et suostu lataamaan tietoja %4$s-palvelimille, voit silti käyttää laitteellesi paikallisesti tallennettuja virustunnisteita.&lt;/Data></string>
+    <string name="antivirus_privacy_dialog_summary_kddi"><Data>Kun suoritat tietoturvatarkistuksen, laitemallisi ja skannaustulokset ladataan %1$s-palvelimille ja niitä käytetään vastaavien &lt;a href=\"%2$s\">käyttöehtojen&lt;/a> mukaisesti.&lt;br/>&lt;br/>Lue ja hyväksy %3$s-käyttöehdot ennen tietoturvatarkistusten suorittamista.&lt;br/>&lt;br/>Jos et suostu lataamaan tietoja %4$s-palvelimille, voit silti käyttää laitteellesi paikallisesti tallennettuja virustunnisteita.</Data></string>
     <string name="antivirus_privacy_dialog_summary_link">Tietosuojakäytäntö</string>
     <string name="antivirus_privacy_dialog_title">Tietosuojakäytäntö</string>
     <string name="antivirus_privacy_dialog_title_kddi">Käyttöehdot</string>
-    <string name="antivirus_riskapp_title">Mahdolliset riskit</string>
     <string name="antivirus_sec_network_unavailable">Tietoturva ei voi päivittää, koska olet rajoittanut verkkoyhteyttä. Sallitaanko Tietoturvan muodostaa internettiin?</string>
-    <string name="antivirus_sms_check">Tarkista linkit Viesteissä</string>
-    <string name="antivirus_sms_check_summary">Tarkista saapuvien viestien linkit ja vastaanota varoituksia mahdollisista riskeistä</string>
     <string name="antivirus_third_privacy_title">Kolmansien osapuolien tietosuojakäytännöt</string>
     <string name="antivirus_toast_already_update">Ajantasalla</string>
     <string name="antivirus_toast_network_unavailable">Ei voitu yhdistää verkkoon</string>
@@ -208,8 +201,6 @@
     <string name="antivirus_update_btn_contiue">Jatka</string>
     <string name="antivirus_update_btn_open">Salli</string>
     <string name="antivirus_update_btn_update">Päivitys</string>
-    <string name="antivirus_website_check_status">Päällä</string>
-    <string name="antivirus_website_check_title">Suojattu verkkoselaaminen</string>
     <string name="apn_exception_modify_summary">Operaattorin oletustukipistettä ei käytetä tai muokata</string>
     <string name="apn_exception_summary">Testaa operaattorin APN määritykset</string>
     <string name="apn_exception_title">Tarkista APN määritykset</string>
@@ -217,11 +208,10 @@
     <string name="app_behavior_about_content_no_link">MIUI voi näyttää, kun sovellukset käynnistävät muita sovelluksia, käynnistyvät automaattisesti, käyttävät käyttöoikeuksia ja suorittavat arkaluontoisia toimia. Android-version yhteensopivuusongelmien vuoksi jotkut näistä merkinnöistä eivät ehkä ole tarkkoja. Jos löydät sovelluksen käyttäytymismerkinnän, joka ei ole tarkka, ilmoita siitä meille käyttämällä sovellusta \"Palvelut &amp; palaute\".</string>
     <string name="app_behavior_about_negative">Ilmoita epätarkkuudet</string>
     <string name="app_behavior_about_positive">Selvä</string>
-    <string name="app_behavior_about_setting">Asetukset</string>
-    <string name="app_behavior_access_gallery">%1s pääsi Galleriaan</string>
-    <string name="app_behavior_access_gallery_single">Tämä sovellus pääsi Galleriaan</string>
-    <string name="app_behavior_access_sociality">%1s pääsi sosiaalisen median sovelluksiin</string>
-    <string name="app_behavior_access_sociality_single">Tämä sovellus pääsi sosiaalisen median sovelluksiin</string>
+    <string name="app_behavior_access_gallery">%1s accessed Gallery</string>
+    <string name="app_behavior_access_gallery_single">This app accessed Gallery</string>
+    <string name="app_behavior_access_sociality">%1s accessed social media apps</string>
+    <string name="app_behavior_access_sociality_single">This app accessed social media apps</string>
     <string name="app_behavior_allowed">Salli</string>
     <string name="app_behavior_audio">%1s tallensi ääntä</string>
     <string name="app_behavior_audio_bg">%1s tallensi ääntä taustalla</string>
@@ -255,31 +245,15 @@
     <string name="app_behavior_contacts_bg">%1s pääsi yhteystietoihin taustalla</string>
     <string name="app_behavior_contacts_bg_single">Tämä sovellus pääsi yhteystietoihin taustalla</string>
     <string name="app_behavior_contacts_single">Tämä sovellus yritti päästä yhteystietoihin</string>
-    <string name="app_behavior_dashboard_desc">Toiminta viimeisten %d tunnin aikana</string>
-    <string name="app_behavior_dashboard_total_usage_title">Näytä kaikki merkinnät</string>
-    <string name="app_behavior_dashboard_usage">Luvan käyttö</string>
-    <string name="app_behavior_dashboard_usage_list_title">Näytä luvalla</string>
-    <string name="app_behavior_dashboard_usage_unit">%1$s / %2$s</string>
     <string name="app_behavior_delete_pic">%1s poisti kohteita Galleriasta</string>
     <string name="app_behavior_delete_pic_single">Tämä sovellus poisti kohteita Galleriasta</string>
     <string name="app_behavior_denied">Rajoita</string>
     <string name="app_behavior_desc_allow_once">Sallittu klo %1$s</string>
-    <string name="app_behavior_desc_allowed">Sallittu</string>
-    <string name="app_behavior_desc_allowed_at">Sallittu klo %s</string>
-    <string name="app_behavior_desc_allowed_on_background">Sallittu taustalla</string>
-    <string name="app_behavior_desc_allowed_on_background_at">Sallittu taustalla klo %s</string>
-    <string name="app_behavior_desc_denied">Evätty</string>
-    <string name="app_behavior_desc_denied_at">Evätty klo %s</string>
-    <string name="app_behavior_desc_denied_on_background">Evätty taustalla</string>
-    <string name="app_behavior_desc_denied_on_background_at">Evätty taustalla klo %s</string>
     <string name="app_behavior_desc_deny_once">Rajoitettu klo %1$s</string>
-    <string name="app_behavior_desc_other_perm_allowed">Viimeisin toiminta: %s</string>
-    <string name="app_behavior_desc_other_perm_denied">Toiminta viimeisten %d tunnin aikana</string>
     <string name="app_behavior_desc_virtual_once">Palautti tyhjän viestin klo %1$s</string>
     <string name="app_behavior_door">Sovelluksen käyttäytyminen</string>
     <string name="app_behavior_get_install">%1s pääsi sovellusluetteloosi</string>
     <string name="app_behavior_get_install_single">Tämä sovellus pääsi sovellusluetteloosi</string>
-    <string name="app_behavior_global_settings_perm_tips">Vastaanota tilarivihälytys, kun sovellukset tallentavat ääntä tai käyttävät kameraa</string>
     <string name="app_behavior_header_time">d. MMMM</string>
     <string name="app_behavior_key_audio">Tallennetaan ääntä</string>
     <string name="app_behavior_key_camera">Otetaan kuvia</string>
@@ -340,11 +314,6 @@
     <string name="app_behavior_read_clipboard_bg">%1s käytti kohteita leikepöydällä taustalla</string>
     <string name="app_behavior_recognition">%1s pääsi toimintatietoihin</string>
     <string name="app_behavior_recognition_single">Tämä sovellus pääsi toimintatietoihin</string>
-    <string name="app_behavior_record_setting_button_title">Näytä järjestelmäpalvelujen käyttäytyminen</string>
-    <string name="app_behavior_record_setting_show_system">Näytä järjestelmäpalvelujen käyttäytyminen</string>
-    <string name="app_behavior_record_setting_show_system_desc">Ota käyttöön nähdäksesi perusjärjestelmän palveluiden käyttäytymisen. Järjestelmän vakauden varmistamiseksi nämä palvelut käyttävät vaadittuja käyttöoikeuksia, joita ei voida rajoittaa.</string>
-    <string name="app_behavior_record_setting_show_system_title">Näytä järjestelmäpalvelujen käyttäytyminen</string>
-    <string name="app_behavior_record_setting_title">Käyttäytymistiedot</string>
     <string name="app_behavior_search">Etsi</string>
     <string name="app_behavior_sensor">%1s pääsi anturitietoihin</string>
     <string name="app_behavior_sensor_single">Tämä sovellus pääsi anturitietoihin</string>
@@ -563,12 +532,11 @@ Et menetä mitään sovellustietoja."</string>
     <string name="applock_bind_account_dialog_content">Mi-tilisi on ainoa tapa palauttaa sovelluslukko, jos unohdat sen. Kirjaudu sisään lisätäksesi Mi-tilisi.</string>
     <string name="applock_bind_account_dialog_title">Lisää Mi-tilisi</string>
     <string name="applock_bind_account_title">Unohda salasana</string>
-    <string name="applock_close_dialog_summary">Your App lock password will be deleted. Turn off App lock now?</string>
+    <string name="applock_close_dialog_summary">Kaikki piilotetut sovellukset tullaan näyttämään, niiden aloitusnäytöllä olevat pikavalinnat palautetaan ja sovelluslukon salasanasi poistetaan. Poistetaanko sovelluslukko käytöstä?</string>
     <string name="applock_close_dialog_title">Sammutetaanko sovelluslukko?</string>
     <string name="applock_exit_account_info">Tili poistetaan automaattisesti, kun kirjaudut ulos</string>
     <string name="applock_face_unlock_summary">Avaa sovellukset käyttäen kasvotietoja</string>
     <string name="applock_face_unlock_title">Lukituksen avaus kasvoilla</string>
-    <string name="applock_fingerprint_unlock">Käytä sormenjälkeä</string>
     <string name="applock_function_base_settings">Sovelluslukko</string>
     <string name="applock_function_pwd_settings">Salasana</string>
     <string name="applock_go_to">Asetukset</string>
@@ -590,12 +558,9 @@ Et menetä mitään sovellustietoja."</string>
     <string name="applock_header_text_less_than_half">Liian pieni. Vedä hieman pidemmälle.</string>
     <string name="applock_lock_all">Lukitse kaikki</string>
     <string name="applock_login_and_add_account">Kirjaudu &amp; lisää</string>
-    <string name="applock_mixtype_hidepwd_icon">Piilota</string>
-    <string name="applock_mixtype_showpwd_icon">Näytä</string>
     <string name="applock_no_account_login">Et ole kirjautunut Mi-tilillesi</string>
     <string name="applock_not_add_account"><u>Ei nyt</u></string>
     <string name="applock_not_login_account">Et ole kirjautunut sisään</string>
-    <string name="applock_numeric_pwd_type_line">Salasanassa olevien numeroiden kokonaismäärä: %1$d. Annetut numerot: %2$d.</string>
     <string name="applock_operate_faceunlock_summary">Avaa sovellusten lukitus katsomalla näyttöä</string>
     <string name="applock_operate_faceunlock_title">Käytä kasvotietoja</string>
     <string name="applock_operate_fingerprint_summary">Sovelluslukko tukee useiden sormenjälkien lisäämistä</string>
@@ -609,10 +574,6 @@ Et menetä mitään sovellustietoja."</string>
     <string name="applock_settings_unlock_all_toast">Kaikki sovellukset avattu</string>
     <string name="applock_toast_tip">Sovelluslukko vahvistettu onnistuneesti</string>
     <string name="applock_unlock_all">Avaa kaikki</string>
-    <string name="apps_item_scan_risk_summary_installed">Asennettu | Riskit</string>
-    <string name="apps_item_scan_risk_summary_uninstalled">APK | Riskit</string>
-    <string name="apps_item_scan_virus_summary_installed">Asennettu | Virus</string>
-    <string name="apps_item_scan_virus_summary_uninstalled">APK | Virus</string>
     <string name="apps_item_sign_dialog_content">Kohteen %s allekirjoitus on eri kuin App Store -version. Poistetaanko tämä sovellus ja asennetaanko virallinen versio? Huomio: ristiriitaisen allekirjoituksen omaavan sovelluksen asentaminen saattaa johtaa sovellustietojen menettämiseen.</string>
     <string name="apps_item_sign_dialog_title">Asenna virallinen sovellus</string>
     <string name="apps_item_sign_install_button_text">Korvaa</string>
@@ -625,7 +586,6 @@ Et menetä mitään sovellustietoja."</string>
     <string name="apps_item_title_system">Järjestelmäpäivitys</string>
     <string name="apps_item_virus_cleanup_success">Tyhjennetty onnistuneesti</string>
     <string name="apps_item_virus_cleanup_text">Tyhjennä</string>
-    <string name="apps_item_virus_ignore_text">Ohita</string>
     <string name="apps_item_virus_summary_installed">Asennettu sovellus</string>
     <string name="apps_item_virus_summary_uninstalled">APK</string>
     <string name="apps_list_header_title_sms">Tarkasta viestisovellus</string>
@@ -772,11 +732,6 @@ Et menetä mitään sovellustietoja."</string>
     <string name="battery_status_unknown">Tuntematon virhe</string>
     <string name="battery_temperature_title">Lämpötila</string>
     <string name="begin_date">Käytön palautuspäivä</string>
-    <string name="behavior_widget_get_installed_apps">Käytetyt sovellukset</string>
-    <string name="behavior_widget_get_location">Käytetty sijainti</string>
-    <string name="behavior_widget_read_clipboard">Käytetty leikepöytä</string>
-    <string name="behavior_widget_read_contact">Käytetyt yhteystiedot</string>
-    <string name="behavior_widget_read_write_external_storage">Käytetyt tiedostot</string>
     <string name="best_booster_status">Pelinopeus on paras käytettävissä nyt.</string>
     <string name="bg_network_exception_title">Rajoitettu taustayhteys</string>
     <string name="bill_limit_notification_text_format">Kortti: %1$s | Saldo: %2$s CNY</string>
@@ -858,7 +813,7 @@ Et menetä mitään sovellustietoja."</string>
     <string name="call_contact_block">Estä puhelut yhteystiedoilta</string>
     <string name="call_delete_all_hint">Poistetaanko kaikki estetyt puhelut?</string>
     <string name="call_delete_hint">Poistetaanko kaikki estetyt puhelut tästä numerosta?</string>
-    <string name="call_delete_title">Poista puheluhistoria</string>
+    <string name="call_delete_title">Tyhjennä soittohistoria</string>
     <string name="call_oversea_block">Estää puhelut ulkomailta</string>
     <string name="call_prefix">Prefix estolista</string>
     <string name="call_private">Estä puhelut piilotetuilta numeroilta</string>
@@ -905,18 +860,6 @@ Et menetä mitään sovellustietoja."</string>
     <string name="cd_back">Takaisin</string>
     <string name="cellular_data_auto_check">Tarkista automaattisesti</string>
     <string name="cellular_package_daily_input">Aseta</string>
-    <string name="cetus_invisible_mode">Inkognito</string>
-    <string name="cetus_invisible_mode_description_card">Keskeytä käyttöoikeudet</string>
-    <string name="cetus_invisible_mode_description_switch">Ota käyttöön, jos haluat keskeyttää mikrofonin, kameran ja sijaintiin liittyvät käyttöoikeudet kaikille sovelluksille</string>
-    <string name="cetus_invisible_mode_warn_all">Olet inkognito-tilassa. Mikrofonin, kameran ja sijainnin käyttöoikeudet on keskeytetty.</string>
-    <string name="cetus_invisible_mode_warn_camera">Olet inkognito-tilassa. Kameran käyttöoikeudet on keskeytetty.</string>
-    <string name="cetus_invisible_mode_warn_location">Olet inkognito-tilassa. Sijainnin käyttöoikeudet on keskeytetty.</string>
-    <string name="cetus_invisible_mode_warn_open">Inkognito-tila keskeyttää mikrofonin, kameran ja sijaintiin liittyvät käyttöoikeudet kaikille sovelluksille. Otetaanko nyt käyttöön?</string>
-    <string name="cetus_invisible_mode_warn_record_audio">Olet inkognito-tilassa. Mikrofonin käyttöoikeudet on keskeytetty.</string>
-    <string name="charge_high_temp_warning_dialog_ok">Selvä</string>
-    <string name="charge_high_temp_warning_dialog_text">Looks like the charging port is overheated now. Disconnect the charger and let the battery cool down before you start charging again.</string>
-    <string name="charge_high_temp_warning_text">Disconnect the charger and let the battery cool down</string>
-    <string name="charge_high_temp_warning_title">Charging port is too hot</string>
     <string name="charger_detect_button_ok">Selvä</string>
     <string name="charger_detect_info1">Tarkista, että virtalähde ja kaapeli on kytketty oikein.</string>
     <string name="charger_detect_info2">Lataus voi myös hidastua, jos käytät epätyypillisiä tai vanhoja virtalähteitä ja kaapeleita.</string>
@@ -1072,14 +1015,14 @@ Kaikki laitteellasi olevat tiedot voidaan poistaa ja lukitusnäytön salasana va
     <string name="dialog_roaming_warning_checkbox">Älä näytä uudelleen</string>
     <string name="dialog_roaming_warning_message">Operaattori veloittaa sinua kansainvälisen verkkovierailun käytöstä. Otetaanko silti käyttöön?</string>
     <string name="dialog_roaming_warning_ok">Ota käyttöön</string>
-    <string name="dialog_skt_roaming_warning_cancel">Älä hyväksy</string>
-    <string name="dialog_skt_roaming_warning_message">"Lue ja hyväksy alla olevat ehdot verkkovierailun käyttämiseksi. Kansainvälisiä verkkovierailumaksuja saatetaan veloittaa. Ilman verkkovierailupakettia sovelluksista, jotka päivittyvät automaattisesti, saatetaan veloittaa merkittäviä maksuja, kuten sosiaalinen media, sähköposti ja säähän liittyvät sovellukset.
- * Kun et hyväksy verkkovierailua, verkkovierailu poistetaan käytöstä.
- * HD Voicea käytetään oletuksena tuetuissa verkoissa.
- * 5G-verkkovierailu on käytettävissä vain kumppaniverkkoissamme.
+    <string name="dialog_skt_roaming_warning_cancel">Disagree</string>
+    <string name="dialog_skt_roaming_warning_message">"Read and agree to the conditions below to use data roaming. International data roaming charges may apply. Without a data roaming plan, significant charges may apply to apps that auto-update, such as apps related to social networking, email and weather.
+ * When you disagree to use data roaming, data roaming will be disabled.
+ * HD Voice is used as default on supported networks.
+ * 5G data roaming is available only in our partner networks.
 "</string>
-    <string name="dialog_skt_roaming_warning_ok">Hyväksy</string>
-    <string name="dialog_skt_roaming_warning_title">Verkkovierailusopimus</string>
+    <string name="dialog_skt_roaming_warning_ok">Agree</string>
+    <string name="dialog_skt_roaming_warning_title">Data roaming agreement</string>
     <string name="dialog_title_attention">Huomio</string>
     <string name="dialog_title_auto_start_declare">Tietoja automaattisesta käynnistyksestä</string>
     <string name="dialog_title_stop_virus_scan">Lopeta tietoturvatarkistus</string>
@@ -1192,7 +1135,6 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="exit_dialog_release_memory_positive_button">Sulje</string>
     <string name="exit_dialog_release_memory_title">&lt;Data>Nopeuta laitettasi &lt;font color=#0099ff>%d%%&lt;/font> verran&lt;/Data></string>
     <string name="exit_dialog_release_storage_message">Yli 80% laitteesi tallennustilasta on varattu. Vapauta tilaa poistamalla sovelluksia, joita et koskaan käytä.</string>
-    <string name="exit_dialog_release_storage_message_new">Yli %s laitteesi tallennustilasta on varattu. Vapauta tilaa poistamalla sovelluksia, joita et koskaan käytä.</string>
     <string name="exit_dialog_release_storage_positive_button">Vapauta tilaa</string>
     <string name="exit_dialog_release_storage_title">Vapauta tilaa</string>
     <string name="exit_dialog_scan_message">Laitteesi suorituskykypisteytys on alle 75. Optimoi nyt?</string>
@@ -1377,7 +1319,7 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy</string>
     <string name="fmt_time">T</string>
-    <string name="fmt_time_12hour">"'klo' h"</string>
+    <string name="fmt_time_12hour">"h 'o''clock'"</string>
     <string name="fmt_time_12hour_minute">h:mm</string>
     <string name="fmt_time_12hour_minute_pm">h:mm a</string>
     <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
@@ -1385,7 +1327,7 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
     <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
     <string name="fmt_time_12hour_pm">ha</string>
-    <string name="fmt_time_24hour">"'Klo' h"</string>
+    <string name="fmt_time_24hour">"H 'o''clock'"</string>
     <string name="fmt_time_24hour_minute">H:mm</string>
     <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
     <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
@@ -1480,11 +1422,9 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="gamebooster_lowbattery_notification_summary">Lataa laite ennen kuin se sammuu.</string>
     <string name="gamebooster_lowbattery_notification_title">Akun varaus on vähemmän kuin 5%%</string>
     <string name="gamebooster_main_activity_back">Takaisin</string>
-    <string name="gamebooster_network_dialog_cn_message">Et voi käyttää Game Turboa, kun Tietoturvan ei sallita muodostaa yhteyttä Internetiin ja käyttää sijaintiasi. Sallitaanko nyt?</string>
     <string name="gamebooster_network_dialog_message">Sallitaanko Tietoturvan muodostaa yhteys verkkoon, jotta voit käyttää kaikkia Game Turbo -ominaisuuksia?</string>
     <string name="gamebooster_network_dialog_title">Jotkut ominaisuudet ei ole saatavilla</string>
     <string name="gamebox_app_not_find">Asenna sovellus ensin.</string>
-    <string name="gamebox_brightness">Kirkkaus</string>
     <string name="gamebox_browser_not_find">Asenna Mi Browser ensin</string>
     <string name="gamebox_collimator">Tähtäin</string>
     <string name="gamebox_display_1">Ei mitään</string>
@@ -1508,21 +1448,18 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="gamebox_immersion_tips_content">Koko näytön tila rajoittaa kaikkia SIM-kortti toimintoja mobiilidatayhteyttä lukuun ottamatta. Puhelut tai viestit vastaamatta jääneistä puheluista eivät keskeytä sinua. Kaikki SIM-kortin ominaisuudet palautetaan kun koko näytön tila on pois käytöstä. Laita koko näytön tila päälle?</string>
     <string name="gamebox_immersion_tips_title">Huomio</string>
     <string name="gamebox_immerson_open">Koko näytön tila otetaan käyttöön, älä vaihda verkkoja</string>
-    <string name="gamebox_macro">Yhdistelmät</string>
+    <string name="gamebox_macro">Combos</string>
     <string name="gamebox_manual_record">Nauhoita</string>
-    <string name="gamebox_mem_clean">Tyhjennä muisti</string>
     <string name="gamebox_milink">Peilaa</string>
     <string name="gamebox_positive_button_text">OK (%1$ds)</string>
     <string name="gamebox_qq_not_find">Asenna QQ ja yritä uudelleen.</string>
     <string name="gamebox_recent_task_expand_fail">Pikavalintoja käyttäviä sovelluksia ei ole asennettu</string>
-    <string name="gamebox_screenrecord">Nauhoita</string>
-    <string name="gamebox_screenshot">Kuvakaappaus</string>
     <string name="gamebox_simcard">Vaihda SIM-kortteja</string>
     <string name="gamebox_time">Ajastin</string>
     <string name="gamebox_type_close">Älä näytä</string>
     <string name="gamebox_type_float">Kiinteä pikavalinta</string>
     <string name="gamebox_type_gesture">Näytä pyyhkäisemällä</string>
-    <string name="gamebox_voicechanger">Äänenvaihtaja</string>
+    <string name="gamebox_voicechanger">Äänen muuntaja</string>
     <string name="gamebox_wechat_not_find">Asenna WeChat ja yritä uudelleen.</string>
     <string name="gamebox_wifi">Wi-Fi</string>
     <string name="gamecenter_install_fail">Asennus epäonnistui</string>
@@ -1538,10 +1475,10 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="gb_adv_touch_custom2">Herkkyys jatkuville napautuksille</string>
     <string name="gb_adv_touch_custom3">Kohdistustarkkuus</string>
     <string name="gb_adv_touch_custom4">Napautusvakaus</string>
-    <string name="gb_adv_touch_custom_tip1">Korkeampi pyyhkäisyreaktiivisuus lisää reaktionopeutta tähän eleeseen, kun taas matalampi pyyhkäisyreaktiivisuus tekee eleestä vakaamman.</string>
-    <string name="gb_adv_touch_custom_tip2">Korkeampi herkkyys jatkuville napautuksille lisää reaktionopeutta tähän eleeseen, kun taas matalampi herkkyys tekee eleestä vakaamman.</string>
-    <string name="gb_adv_touch_custom_tip3">Korkeampi kohdistustarkkuus tekee pienemmistä pyyhkäisystä tarkempia, kun taas matalampi kohdistustarkkuus tekee eleestä vakaamman.</string>
-    <string name="gb_adv_touch_custom_tip4">Korkeampi napautusvakaus tekee napautuksista vakaammat, kun taas matalampi napautusvakaus lisää pienempien pyyhkäisyjen tarkkuutta.</string>
+    <string name="gb_adv_touch_custom_tip1">Korkeampi pyyhkäisyreaktiivisuus lisää reaktionopeutta tähän eleeseen, kun taas alempi pyyhkäisyreaktiivisuus tekee eleestä vakaamman.</string>
+    <string name="gb_adv_touch_custom_tip2">Korkeampi herkkyys jatkuville napautuksille lisää reaktionopeutta tähän eleeseen, kun taas alempi herkkyys tekee eleestä vakaamman.</string>
+    <string name="gb_adv_touch_custom_tip3">Korkeampi kohdistustarkkuus tekee pienemmistä pyyhkäisystä tarkempia, kun taas alempi kohdistustarkkuus tekee eleestä vakaamman.</string>
+    <string name="gb_adv_touch_custom_tip4">Korkeampi napautusvakaus tekee napautuksista vakaammat, kun taas alempi napautusvakaus lisää pienempien pyyhkäisyjen tarkkuutta.</string>
     <string name="gb_adv_touch_custom_title">Mukauta</string>
     <string name="gb_adv_touch_mode_pro_tips">*Tämä tila on tarkoitettu ammattipelaajille. Tavalliset pelaajat saattavat pitää tätä tilaa epäkäytännöllisenä.</string>
     <string name="gb_adv_touch_mode_select_title">Eleet</string>
@@ -1605,9 +1542,9 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="gb_first_window_summary">Nostaa nopeutta ja suorituskykyä järjestelmän tasolla</string>
     <string name="gb_first_window_title">Game Turbo</string>
     <string name="gb_game_end_toast">Koe pelisi tärkeät hetket uudelleen</string>
-    <string name="gb_game_macro_bubble_tips">Kokeile yhdistelmiä</string>
-    <string name="gb_game_macro_toast_tips">"Kokeile yhdistelmiä!
-Tallenna sekvenssit ja käytä niitä milloin tahansa!"</string>
+    <string name="gb_game_macro_bubble_tips">Try combos</string>
+    <string name="gb_game_macro_toast_tips">"Try combos!
+Record sequences and use them anytime!"</string>
     <string name="gb_game_time_toast">Ajastin on nyt saatavilla!</string>
     <string name="gb_game_video_bottom_tips">Palaa uudelleen tärkeimpiin hetkiin peli-istunnoissasi kohteessa Game Turbo. Videot poistetaan automaattisesti 7 päivän kuluttua.</string>
     <string name="gb_game_video_item_tag">Tärkeä hetki</string>
@@ -1636,13 +1573,7 @@ Tallenna sekvenssit ja käytä niitä milloin tahansa!"</string>
     <string name="gb_msg_transparent_dispaly_summary">Läpinäkyvä</string>
     <string name="gb_network_status_bad">Tapahtui yhteysvirhe.</string>
     <string name="gb_new_feature">Uusi ominaisuus</string>
-    <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
     <string name="gb_operat_frequently">Ei niin nopeasti!</string>
-    <string name="gb_performance_balance">Tasapainotettu</string>
-    <string name="gb_performance_high">Suorituskyky</string>
-    <string name="gb_performance_mode">Pelitila</string>
-    <string name="gb_performance_tips">"Suorituskykytilan käyttäminen pitkään
- voi tyhjentää akun ja johtaa ylikuumenemiseen"</string>
     <string name="gb_shortcut_pref_title">Aloitusnäytön pikavalinta</string>
     <string name="gb_shoulder_key">Olkapainikkeet</string>
     <string name="gb_shoulder_key_add_show_btn">Näytä virtuaaliset painikkeet pelien aikana</string>
@@ -1655,10 +1586,6 @@ Tallenna sekvenssit ja käytä niitä milloin tahansa!"</string>
     <string name="gb_shoulder_key_guide_btn_next">Seuraava</string>
     <string name="gb_shoulder_key_guide_tips">Määritä olkapainikkeet pelataksesi kuin ammattilainen!</string>
     <string name="gb_shoulder_key_guide_tips1">Avaa työkalupakki ja määritä olkapainikkeet</string>
-    <string name="gb_shoulder_key_light_effect">Värianimaatiot</string>
-    <string name="gb_shoulder_key_light_effect_color">Väri</string>
-    <string name="gb_shoulder_key_light_effect_subtitle">Värianimaatiot näytetään, kun olkapainikkeet ovat päällä ja pelaat pelejä</string>
-    <string name="gb_shoulder_key_light_effect_title">Animaatiot</string>
     <string name="gb_shoulder_key_settings_guide_tips1">Siirrä [L] ja [R]-painikkeet mihin tahansa toimintoasentoon konfiguroinnin viimeistelemiseksi</string>
     <string name="gb_shoulder_key_settings_guide_tips2">Käytä olkapainikkeita ominaisuuksiin, jotka olet määrittänyt niille pelien aikana</string>
     <string name="gb_shoulder_key_settings_summary">Käynnistä Game Turbo molemmilla olkapainikkeilla, kun et pelaa pelejä</string>
@@ -1676,19 +1603,12 @@ Tallenna sekvenssit ja käytä niitä milloin tahansa!"</string>
     <string name="gb_storage_game_uninstall">Poista pelejä</string>
     <string name="gb_storage_summary">Älä näytä pelejä, jotka on lisätty pelikenttiin, aloitusnäytössä</string>
     <string name="gb_storage_title">Poista lisätyt pelit aloitusnäytöltä</string>
-    <string name="gb_turbo_collimator_subtitle">Käytä kohdistuslaitetta</string>
-    <string name="gb_turbo_macro_subtitle">Suorita korkean tason toimia</string>
-    <string name="gb_turbo_shoulder_subtitle">Määritä peliohjaimet</string>
-    <string name="gb_turbo_time_subtitle">Ajoita istunnot</string>
-    <string name="gb_turbo_voice_subtitle">Piristä keskustelujasi</string>
-    <string name="gb_turbo_wonder_subtitle">Tallenna tärkeimmät hetket</string>
-    <string name="gb_voice_change_audition_tip">Esittely</string>
-    <string name="gb_voice_change_settinged">Äänenvaihtaja on päällä</string>
+    <string name="gb_voice_change_settinged">Äänen muuntaja on päällä</string>
     <string name="gb_voice_changer_cartoon">Piirretty</string>
     <string name="gb_voice_changer_dialog_upgrade_vip">Uusi tilauksesi, jotta voit käyttää reaaliaikaista palautetta.</string>
     <string name="gb_voice_changer_dlg_button_agree">Salli</string>
     <string name="gb_voice_changer_dlg_button_refuse">Rajoita</string>
-    <string name="gb_voice_changer_dlg_title">Äänenvaihtaja</string>
+    <string name="gb_voice_changer_dlg_title">Äänen muuntaja</string>
     <string name="gb_voice_changer_free">Ilmainen</string>
     <string name="gb_voice_changer_gender_female">Nainen</string>
     <string name="gb_voice_changer_gender_man">Mies</string>
@@ -1697,7 +1617,7 @@ Tallenna sekvenssit ja käytä niitä milloin tahansa!"</string>
     <string name="gb_voice_changer_loli">Tyttö</string>
     <string name="gb_voice_changer_men">Mies</string>
     <string name="gb_voice_changer_normal">Alkuperäinen</string>
-    <string name="gb_voice_changer_permission_dlg_msg">Äänenvaihtajan on pystyttävä tallentamaan ääntä toimiakseen normaalisti.</string>
+    <string name="gb_voice_changer_permission_dlg_msg">Äänen muuttajan on pystyttävä tallentamaan ääntä toimiakseen normaalisti.</string>
     <string name="gb_voice_changer_permission_dlg_title">Käyttöoikeuksia vaaditaan</string>
     <string name="gb_voice_changer_recommend">Suositellut</string>
     <string name="gb_voice_changer_renew_dailog">Uusi tilauksesi voidaksesi käyttää tätä tehostetta.</string>
@@ -1717,15 +1637,13 @@ Vaihda eri merkkien ja erikoistehosteiden välillä."</string>
     <string name="gb_voice_changer_trial_gender_dialog">Ilmaiskokeilu hankittu onnistuneesti! Valitse sukupuoli säätääksesi vaikutuksia ja suosituksia vastaavasti.</string>
     <string name="gb_voice_changer_trial_gender_dialog_title">Ilmaiskokeilu</string>
     <string name="gb_voice_changer_trial_progress_dialog_message">Hankitaan ilmaiskokeilua…</string>
-    <string name="gb_voice_changer_user_status_expired">Tilaus vanhentunut</string>
+    <string name="gb_voice_changer_user_status_expired">Tilaus vanhentui</string>
     <string name="gb_voice_changer_user_status_get_trial_card_dialog">"Hanki %d päivän ilmaiskokeilu
 ja tutustu Äänenvaihtajaamme!"</string>
     <string name="gb_voice_changer_user_status_no_login">Kirjaudu Mi-tilillesi</string>
     <string name="gb_voice_changer_user_status_remain_time">Viimeinen käyttöpäivä: %s</string>
     <string name="gb_voice_changer_user_status_renew">Uusi</string>
     <string name="gb_voice_changer_user_tips_info_vip_expire">Tilauksesi on vanhentunut. Uusi tilaus nyt saadaksesi etuja!</string>
-    <string name="gb_voice_changer_user_vip_expired">Vanhentunut</string>
-    <string name="gb_voice_changer_user_vip_remain_time">Päättymispäivä: %s</string>
     <string name="gb_wonderful_moment_toast_window_new_pop">"Tallenna peli-istuntojen
 tärkeimmät hetket"</string>
     <string name="gb_wonderful_video_cancel">Peruuta</string>
@@ -1746,7 +1664,6 @@ tärkeimmät hetket"</string>
     <string name="gmscore_support_remind">Ota tämä toiminto käyttöön, jos sinulla on ongelmia Gmailin, Google Mapsin ja muiden Google-sovellusten käytön kanssa. Se vähentää hieman akun käyttöikää.</string>
     <string name="gmscore_support_service">Google-peruspalvelut</string>
     <string name="go_to">Avaa</string>
-    <string name="go_to_mi_sim">Tap to use Mi SIM.</string>
     <string name="go_to_send">Lähetä</string>
     <string name="go_to_setting_fingerprint">Asetukset</string>
     <string name="google_base_app_fail">Ei voitu ladata. Tarkista, sallitaanko Tietoturvan muodostaa Internet-yhteys.</string>
@@ -1795,10 +1712,6 @@ tärkeimmät hetket"</string>
     <string name="gs_show_way_vertical">Pystysuora</string>
     <string name="gs_sign_notification">Muistuta tarkastuksesta kello 20 joka päivä</string>
     <string name="gs_slip_gamebox_detail">Käytä liukusäädintä tai pyyhkäise näytön ylälaidasta saadaksesi pikavalintapaneelin näkyviin</string>
-    <string name="gtb_brightness_dialog_right_btn">Pidä päällä</string>
-    <string name="gtb_brightness_dialog_sub_message">*Voit ottaa tämän ominaisuuden käyttöön ja poistaa sen käytöstä kohdassa Asetukset.</string>
-    <string name="gtb_content_switch">Sisältösuositukset</string>
-    <string name="gtb_content_switch_summary">Vastaanota pelaamiseen liittyviä sisältösuosituksia</string>
     <string name="gtb_dialog_btn_close">Poista käytöstä</string>
     <string name="gtb_dialog_btn_open">Ota käyttöön</string>
     <string name="gtb_dialog_hint_smart_5g">Voit kytkeä tämän ominaisuuden päälle ja pois kohdassa Game Turbo > Asetukset.</string>
@@ -1806,36 +1719,10 @@ tärkeimmät hetket"</string>
     <string name="gtb_dialog_title_smart_5g">5G-verkon optimointi</string>
     <string name="gtb_exit_game_to_gtb">Avaa pelilaatikko</string>
     <string name="gtb_exit_game_to_home">Takaisin aloitusnäyttöön</string>
-    <string name="gtb_guide_finish">Ohita</string>
-    <string name="gtb_guide_gtb_button_done">Valmis</string>
-    <string name="gtb_guide_gtb_community_desc">Jaa kokemuksesi muiden pelaajien kanssa</string>
-    <string name="gtb_guide_gtb_community_title">Yhteisö</string>
-    <string name="gtb_guide_gtb_func_desc">Tehosta peliäsi</string>
-    <string name="gtb_guide_gtb_func_title">Game Turbo</string>
-    <string name="gtb_guide_gtb_game_effected">Asetettu</string>
-    <string name="gtb_guide_gtb_game_new">Uusi</string>
-    <string name="gtb_guide_gtb_line_new">Tehosta peliäsi uuden Game Turbon avulla!</string>
-    <string name="gtb_guide_small_window_app_desc">Käytä muita sovelluksia pelatessasi</string>
-    <string name="gtb_guide_small_window_app_title">Kelluvat ikkunat</string>
     <string name="gtb_setting_item_summary_smart_5g">Aina kun Game Turbo havaitsee 5G-verkon, se voi yhdistää laitteen parhaaseen käytettävissä olevaan verkkoon verkon viiveen vähentämiseksi.</string>
     <string name="gtb_setting_item_summary_smart_wlan_speed" formatted="false">Lisää yhteyden nopeutta 10%-20%, kun olet yhteydessä Mi/Redmi-reitittimiin</string>
-    <string name="gtb_setting_item_title_brightness">Vähennä näytön kirkkautta automaattisesti</string>
     <string name="gtb_setting_item_title_smart_5g">5G-verkon optimointi</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Mi WiFi:n nopeutus</string>
-    <string name="gtb_spring_festival_back_game">Back to game</string>
-    <string name="gtb_spring_festival_egg_obtain_fail">"Couldn't connect to the network"</string>
-    <string name="gtb_spring_festival_goto_gameturbo">View</string>
-    <string name="gtb_spring_festival_guide">"Switch to landscape mode
-to join our egg hunt!"</string>
-    <string name="gtb_spring_festival_guide_know">Got it</string>
-    <string name="gtb_spring_festival_push_active_desc">Win phones, smart devices and coupons</string>
-    <string name="gtb_spring_festival_push_active_title">Easter egg hunt is on!</string>
-    <string name="gtb_spring_festival_push_desc">Join our egg hunt to win prizes</string>
-    <string name="gtb_spring_festival_push_egg_title">You received an Easter egg!</string>
-    <string name="gtb_spring_festival_push_gift_title">Egg hunt prizes are coming!</string>
-    <string name="gtb_spring_festival_push_join">Join</string>
-    <string name="gtb_spring_festival_push_see">View</string>
-    <string name="gtb_spring_festival_shortcut_create">Create a Home screen shortcut</string>
     <string name="gtb_wlan_speed_tips">Käytetään kohdetta Mi WiFi…</string>
     <string name="guide_get_operator_error">"&lt;font color='#33b4ff'>&lt;U>Väärä operaattori?&lt;/U>&lt;/font>"</string>
     <string name="guide_operator_text">"Nykyinen operaattorisi: "</string>
@@ -2154,13 +2041,11 @@ Laitteesi on %d%% nopeampi nyt."</string>
     <string name="mi_ime_not_used">Käytä Xiaomin hyväksymää näppäimistöä</string>
     <string name="mi_service_app_detail">Datan käytön tiedot</string>
     <string name="mi_service_traffic_detail">Rungon tiedot</string>
-    <string name="mi_sim_link">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Tap to top up open Mi Sim.&lt;/U>&lt;/font>"</string>
-    <string name="mi_sim_link_custom">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>%2$s&lt;/U>&lt;/font>"</string>
     <string name="midnight">Yö</string>
+    <string name="midrop_post_notification_contentText">Siirrä tiedostoja jopa 50 Mbps nopeuksilla kohteessa Mi Drop.</string>
     <string name="midrop_post_notification_contentTitle">Tarvitseeko sinun jakaa tiedostoja?</string>
     <string name="miui_optimization_close_final_tip">Poistetaanko MIUI-optimointi käytöstä?</string>
     <string name="miui_optimization_close_title">Tämä ominaisuus on tarkoitettu kehittäjille, eikä se välttämättä ole kätevä tavallisille käyttäjille. MIUI-optimoinnin poistaminen käytöstä saattaa aiheuttaa seuraavia muutoksia:</string>
-    <string name="miuix_access_state_desc">Valittu</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
@@ -2190,7 +2075,6 @@ Laitteesi on %d%% nopeampi nyt."</string>
     <string name="mixed_recording_intro_header">Syötä %1$s-%2$s merkkiä</string>
     <string name="mixed_retry_button_text">Peruuta</string>
     <string name="mixed_settings_help_how_to_record">Miten salasana asetetaan</string>
-    <string name="mm_app_name">Mi SIM</string>
     <string name="modify_cellular_type">Napauta valitaksesi pakettisi</string>
     <string name="modify_password_mode"><u>Muuta salasanan tyyppi</u></string>
     <string name="modifypassword">Muuta salasanan tyyppi</string>
@@ -2430,10 +2314,8 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="numeric_recording_intro_header">Anna salasana</string>
     <string name="numeric_retry_button_text">Peruuta</string>
     <string name="numeric_settings_help_how_to_record">Miten PIN-koodi asetetaan</string>
-    <string name="oaid_apps_title">Hallinnoi virtuaalitunnusta</string>
     <string name="oaid_reset_content_tip">Jos poistat virtuaalitunnuksen käytöstä nyt, jotkut sovellukset saattavat lakata toimimasta kunnolla, osa sovellustiedoista saattaa kadota tai tulla käyttökelvottomiksi.</string>
     <string name="oaid_reset_final_tip">Poistetaanko virtuaalitunnus käytöstä?</string>
-    <string name="oaid_tips_content">Virtuaalitunnuksia (OAID) voidaan käyttää käyttäytymisen seuraamiseen ja mainosten mukauttamiseen puolestasi. Voit valita, mitkä sovellukset saavat käyttää virtuaalitunnustasi. Huomaa, että jos rajoitat pääsyä, mainossuositukset voivat olla merkityksettömiä tai sovellukset eivät välttämättä toimi normaalisti.</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
     <string name="old_sdk_deny_warning">Sovellus ei ole yhteensopiva viimeisimmän Android-käyttöoikeusvaatimuksien kanssa. Kielletyt käyttöoikeudet saattavat vaikuttaa siihen, kuinka tämä sovellus toimii.</string>
@@ -2560,19 +2442,6 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="pc_battery_history_show_imei">IMEI:</string>
     <string name="pc_battery_history_total_consumption_title">Kokonaisvirrankulutus</string>
     <string name="pc_battery_history_usetime_title">Aktiivinen</string>
-    <string name="pc_fast_charge_notifi_action_text_off">Lopeta</string>
-    <string name="pc_fast_charge_notifi_action_text_on">Nopeuta</string>
-    <string name="pc_fast_charge_notifi_power_threshold_title">Aseta muistutuksia akun varaustasosta</string>
-    <string name="pc_fast_charge_notifi_summary">Ladataan jopa %s tavallista nopeammin…</string>
-    <string name="pc_fast_charge_notifi_summary_on">Tämä ominaisuus saattaa lämmittää laitettasi</string>
-    <string name="pc_fast_charge_notifi_switch_summary">Ilmoita latauksen nopeuttamisesta, kun toimitettu %dW laturi on kytketty ja akku on alle asetetun tason</string>
-    <string name="pc_fast_charge_notifi_switch_title">Ilmoita nopeutuksesta</string>
-    <string name="pc_fast_charge_notifi_title">%dW lataus</string>
-    <string name="pc_fast_charge_notifi_title_on">Lopeta latauksen nopeutus</string>
-    <string name="pc_fast_charge_switch_summary">Kytke virta nopeuttamaan latausta. MIUI priorisoi latausnopeuden varmistaen samalla laitteen turvallisuuden. Mitä matalampi akku on, sitä nopeammin se latautuu. Tämä ominaisuus saattaa lämmittää laitettasi.</string>
-    <string name="pc_fast_charge_switch_title">Nopeuta latausta</string>
-    <string name="pc_fast_charge_switch_toast_message">Muutokset otetaan käyttöön seuraavan kerran, kun lataat tätä laitetta</string>
-    <string name="pc_fast_charge_title">Nopeuta latausta</string>
     <string name="pc_hidemode_normal">Tasapainotettu</string>
     <string name="pc_hidemode_normal_title">Tasapainotettu</string>
     <string name="pc_hidemode_performance">Suorituskyky</string>
@@ -2662,7 +2531,7 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="permission_instruction_dont_disturb">This permission allows apps to turn DND mode on and off.</string>
     <string name="permission_instruction_draw_overlay">This permission allows apps to display floating windows over any other interface on your device, which may affect the normal use of other apps. Malicious apps might use this permission to read or collect private information (e.g. passwords) through transparent floating windows.</string>
     <string name="permission_instruction_external_storage">This permission allows apps to access photos, media, and files on your device. Be careful with this permission to avoid unnecessary disclosure of private information.</string>
-    <string name="permission_instruction_gallery">Jos annat sovellusten käyttää tiedostoja omissa kansioissaan, MIUI antaa sinun päättää, haluatko näiden sovellusten myös käyttää Gallerian kohteita yksityisyyden suojaamiseksi. Koska sovellukset, joiden Android-sovellusliittymätaso on vähintään 29, tukevat jo tallennusosioita, tätä kytkintä ei tarjota heille.</string>
+    <string name="permission_instruction_gallery">Yksityisyyden suojaamiseksi MIUI antaa sinun päättää, annatko sovelluksille, joilla on tallennusoikeudet, pääsyn Galleriaan.</string>
     <string name="permission_instruction_get_accounts">This permission allows apps to access the list of accounts stored on your device. This list might contain all your personal accounts created by installed apps, as well as the accounts from social media platforms and communication tools.</string>
     <string name="permission_instruction_install_shortcuts">This permission allows apps to create Home screen shortcuts.</string>
     <string name="permission_instruction_install_unknown_source">This permission allows apps to install other apps on your device. Malicious apps use this permission to install apps without your confirmation.</string>
@@ -2689,8 +2558,8 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="permission_instruction_send_payment_sms">This permission allows apps to send paid text messages.</string>
     <string name="permission_instruction_send_sms">This permission allows apps to send text messages, which may generate additional fees. Malicious apps might use this permission to send paid messages without your consent.</string>
     <string name="permission_instruction_show_locked">This permission allows apps to display items on your Lock screen. Malicious apps might use this permission to show you annoying ads.</string>
-    <string name="permission_instruction_sociality">Jos annat sovellusten käyttää tiedostoja omissa kansioissaan, MIUI antaa sinun päättää, haluatko näiden sovellusten myös käyttää sosiaalisen median sovelluksissa luotuja tiedostoja yksityisyytesi suojaamiseksi. Koska sovellukset, joiden Android-sovellusliittymätaso on vähintään 29, tukevat jo tallennusosioita, tätä kytkintä ei tarjota heille.</string>
-    <string name="permission_instruction_storage">Jos annat sovellusten käyttää tiedostoja omissa kansioissaan, MIUI antaa sinun päättää, haluatko näiden sovellusten myös käyttää Gallerian kohteita ja sosiaalisen median sovelluksissa luotuja tiedostoja yksityisyytesi suojaamiseksi. Koska sovellukset, joiden Android-sovellusliittymätaso on vähintään 29, tukevat jo tallennusosioita, tätä kytkintä ei tarjota heille.</string>
+    <string name="permission_instruction_sociality">Yksityisyyden suojaamiseksi MIUI antaa sinun päättää, annatko sovelluksille, joilla on tallennusoikeudet, pääsyn viesteihisi sosiaalisen median sovelluksissa.</string>
+    <string name="permission_instruction_storage">Yksityisyyden suojaamiseksi MIUI antaa sinun päättää, annatko sovelluksille, joilla on tallennusoikeudet, pääsyn Galleriaan ja viesteihisi sosiaalisen median sovelluksissa.</string>
     <string name="permission_instruction_touch_pay">This permission allows apps to perform contactless payments.</string>
     <string name="permission_instruction_use_sip">This permission allows apps to use SIP video services.</string>
     <string name="permission_instruction_vr_assistant">This permission allows apps to use VR assistant services.</string>
@@ -2794,11 +2663,6 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="power_center_list_item_wake_notification">Älä herätä näyttöä ilmoituksia varten</string>
     <string name="power_center_list_item_wake_notification_summary">Saapuvat ilmoitukset näytetään vain, kun kytket näytön päälle</string>
     <string name="power_center_main_percent_formatted">%s%%</string>
-    <string name="power_center_night_charge_noti_subtitle">Akku ladattu täyteen %s kuluttua</string>
-    <string name="power_center_night_charge_noti_title">Optimoitu lataus käytössä</string>
-    <string name="power_center_night_charge_protection">Optimoitu lataus</string>
-    <string name="power_center_night_charge_protection_setting">Näytä lisää vaihtoehtoja kohdassa Tietoturva > Akku.</string>
-    <string name="power_center_night_charge_protection_summary">Akun ikääntymisen vähentämiseksi MIUI oppii päivittäisestä latausrutiinistasi tarpeettoman jatkuvan latauksen vähentämiseksi</string>
     <string name="power_center_one_key_save">Optimoi</string>
     <string name="power_center_ontime_boot">Virta päällä</string>
     <string name="power_center_ontime_shutdown">Virta pois päältä</string>
@@ -2832,8 +2696,6 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="power_center_super_wireless_charge_dialog_summary">Tämä tila lisää langattoman laturin jäähdyttimen tuuletusnopeutta. Pidä tämä tila päällä, jotta laitteesi latautuu nopeammin tai sammuta se, jos mielestäsi melu on liian kova.</string>
     <string name="power_center_super_wireless_charge_dialog_summary2">Mene kohtaan Tietoturva > Akku > Asetukset saadaksesi lisää vaihtoehtoja.</string>
     <string name="power_center_super_wireless_charge_dialog_title">Langaton pikalataus</string>
-    <string name="power_center_super_wireless_charge_enter_noti_summary">无线充电器风扇转速提高，充电速度更快</string>
-    <string name="power_center_super_wireless_charge_enter_noti_title">可开启极速无线充电模式</string>
     <string name="power_center_super_wireless_charge_noti_summary">Napauta avataksesi Asetukset</string>
     <string name="power_center_super_wireless_charge_noti_switch">Ilmoita langattomasta pikalatauksesta</string>
     <string name="power_center_super_wireless_charge_noti_title">Langaton pikalataus on päällä</string>
@@ -2842,15 +2704,6 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="power_center_time_to_boot">Virta päällä</string>
     <string name="power_center_time_to_shutdown">Virta pois päältä</string>
     <string name="power_center_title">Akku</string>
-    <string name="power_center_unoffical_battery_button">Etsi valtuutettu palveluntarjoaja</string>
-    <string name="power_center_unoffical_battery_dialog">Luvattoman akun varoitus</string>
-    <string name="power_center_unoffical_battery_dialog_positive">Tutustu lisää</string>
-    <string name="power_center_unoffical_battery_dialog_summary">Näyttää siltä, että tähän laitteeseen on asennettu luvaton akku. Lataustehoa lasketaan laitteen suojaamiseksi. Luvattomien akkujen käyttö voi johtaa akun turvotukseen, ylikuumenemiseen ja vuotamiseen. Se voi myös aiheuttaa tulipalon tai muita vaaroja. Etsi valtuutettu palveluntarjoaja vaihtamaan akku.</string>
-    <string name="power_center_unoffical_battery_noti_summary">Nykyinen akku saattaa aiheuttaa turvallisuusriskejä</string>
-    <string name="power_center_unoffical_battery_summary1">Tämä laite oli varustettu sisäänrakennetulla akulla, jonka saa vaihtaa vain valtuutettu palveluntarjoaja.</string>
-    <string name="power_center_unoffical_battery_summary2">Akun vaihtaminen muualla voi vahingoittaa tätä laitetta. Luvattomien akkujen käyttö voi johtaa akun turvotukseen, ylikuumenemiseen ja vuotamiseen. Se voi myös aiheuttaa tulipalon tai muita vaaroja. Älä käytä luvattomia akkuja.</string>
-    <string name="power_center_unoffical_battery_tip">Terveystietoja ei ole saatavana tälle luvattomalle akulle. Napauta tutustuaksesi lisää tietoturvariskeihin.</string>
-    <string name="power_center_unoffical_battery_title">Luvattomien akkujen käytöstä aiheutuvat riskit</string>
     <string name="power_center_used_time_Introduction">Akun käyttöaika sen jälkeen, kun se on viimeksi ladattu %s</string>
     <string name="power_consume_hardware_total_format">Laitteisto: %s</string>
     <string name="power_consume_other">Muut</string>
@@ -2859,8 +2712,6 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="power_consume_rank_title">Virrankäyttö</string>
     <string name="power_consume_software_total_format">Sovellukset: %s</string>
     <string name="power_customize_giveup_change">Hylätäänkö muutokset?</string>
-    <string name="power_dailog_night_charge_protection_done">Selvä</string>
-    <string name="power_dailog_night_charge_protection_summary">Näyttää siltä, että akku on ladattu suurimman osan ajasta, mikä voi nopeuttaa sen ikääntymistä. MIUI otti käyttöön optimoidun latauksen, jotta vältät tällaiset ongelmat.</string>
     <string name="power_dialog_cancel">Peruuta</string>
     <string name="power_dialog_ok">OK</string>
     <string name="power_dialog_super_save_msg">Ultravirransäästö rajoittaa valtaosa akkua kuluttavia ominaisuuksia ja laskee laitteesi suorituskykyä salliakseen perustoiminnot (esim. puhelut, tekstiviestit ja verkkoon yhdistäminen) toimimaan mahdollisimman kauan. Otetaanko ultravirransäästö käyttöön?</string>
@@ -2971,7 +2822,6 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="power_setting_super_save_summary_text">Rajoita valtaosa järjestelmäominaisuuksista säästääksesi akkua</string>
     <string name="power_setting_warm_configure">Lämpötilan säätö</string>
     <string name="power_setting_warm_performance_tip">Tilanteet, jotka vaativat suurta virrankulutusta, nostavat laitteen lämpötilan oletuslämpötilansäätötilan tason yläpuolelle.</string>
-    <string name="power_setting_wireless_reverse_charging_fg_control_title">Latausraja</string>
     <string name="power_setting_wireless_reverse_charging_summary">Lataa yhteensopivat laitteet langattomasti</string>
     <string name="power_setting_wireless_reverse_charging_title">Käänteinen langaton lataus</string>
     <string name="power_settings_category_title">Akkukuvake</string>
@@ -2984,20 +2834,6 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="power_superpower_title_systemui_highpower">Jäljellä oleva aika</string>
     <string name="power_superpower_title_systemui_lowpower">Yhdistä laturi</string>
     <string name="power_wifi">Wi-Fi</string>
-    <string name="power_wireless_need_update_text">Päivitetään…</string>
-    <string name="power_wireless_ubable_update_toast">Laiteohjelmistoa ei voi päivittää langattoman latauksen aikana</string>
-    <string name="power_wireless_update_button_text">Päivitä</string>
-    <string name="power_wireless_update_dialog_button">Selvä</string>
-    <string name="power_wireless_update_dialog_message">Lataa laite vähintään %s asti, jotta voit päivittää langattoman latauksen laiteohjelmiston.</string>
-    <string name="power_wireless_update_dialog_title">Akku vähissä</string>
-    <string name="power_wireless_update_driver">Laiteohjelmiston päivitykset</string>
-    <string name="power_wireless_update_notification_button">Näytä</string>
-    <string name="power_wireless_update_notification_subtitle">Päivitä laiteohjelmisto parantaaksesi langattoman latauksen vakautta</string>
-    <string name="power_wireless_update_notification_title">Langattoman latauksen päivitys</string>
-    <string name="power_wireless_update_text">Ajan tasalla</string>
-    <string name="power_wireless_update_tv_text">Päivitetään laiteohjelmistoa… Älä sammuta laitetta.</string>
-    <string name="pp_read_phone_info_summary">Pääsy SIM-tietoihin</string>
-    <string name="pp_sms_and_contacts">Yhteystiedot ja viestit</string>
     <string name="pref_about_traffic_title">Datankäyttöasetukset</string>
     <string name="pref_adjust_data_usage">Operaattorin viestipohja</string>
     <string name="pref_adjust_data_usage_summary">Kun olet vaihtanut kalibrointimallin, MIUI käyttää sitä saadakseen tiedonsiirtotilastot operaattoriltasi</string>
@@ -3088,20 +2924,20 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="privacy_app_permission_manage_summary">Hallinnoi asennettujen sovellusten käyttöoikeuksia</string>
     <string name="privacy_app_permission_manage_title">Hallitse käyttöoikeuksia</string>
     <string name="privacy_apps">Piilotetut sovellukset</string>
-    <string name="privacy_apps_add">Lisää</string>
+    <string name="privacy_apps_begin_use">Aloita</string>
     <string name="privacy_apps_button_know">Selvä</string>
+    <string name="privacy_apps_category_title">Piilotetut sovellukset</string>
+    <string name="privacy_apps_checkbox_remind_choice">Älä näytä uudelleen</string>
     <string name="privacy_apps_close">Sulje</string>
     <string name="privacy_apps_enable_summary">Siirrä sovellukset piilotettuun kansioon ja poista niiden pikavalinnat aloitusnäytöltä</string>
     <string name="privacy_apps_go_to_use">Aloita</string>
+    <string name="privacy_apps_manage">Hallitse piilotettuja sovelluksia</string>
+    <string name="privacy_apps_manage_dialog_title">Tietoja piilotetuista sovelluksista</string>
     <string name="privacy_apps_manager_dialog_message">Tätä sovelluskuvaketta ei näytetä aloitusnäytöllä piilotettuasi tämän sovelluksen. Piilotetaanko sovellus nyt?</string>
     <string name="privacy_apps_next_stup">Seuraava</string>
-    <string name="privacy_apps_password_enable_summay">Protect private files with App lock</string>
-    <string name="privacy_apps_password_enable_title">Sovelluksen lukitus</string>
-    <string name="privacy_apps_shield_message_summary">"Don't show the notifications from hidden apps"</string>
-    <string name="privacy_apps_shield_message_title">Piilota ilmoitukset</string>
-    <string name="privacy_apps_tutorial">Eleet</string>
-    <string name="privacy_apps_tutorial_dlg_message_1">Spread two fingers apart on the Home screen to view hidden apps</string>
-    <string name="privacy_apps_tutorial_dlg_message_2">Note: When you hide an app, only its Home screen shortcut is hidden.</string>
+    <string name="privacy_apps_shield_message_summary">Älä näytä suojattuja sovelluksia koskevia ilmoituksia</string>
+    <string name="privacy_apps_shield_message_title">Älä näytä ilmoituksia</string>
+    <string name="privacy_apps_tutorial">Ohje</string>
     <string name="privacy_apps_tutorial_dlg_title">Kuinka löytää piilotettuja sovelluksia</string>
     <string name="privacy_apps_tutorial_prompt_pageone">Tämä ominaisuus sallii sinun piilottaa sovellusten kuvakkeita, jotta ne eivät enää näy aloitusnäytölläsi.</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">Piilotettujen sovellusten hakemisto näytetään salasanan syötettyäsi.</string>
@@ -3140,10 +2976,8 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="privacy_empty_location">Ei päässyt sijaintiin tänään</string>
     <string name="privacy_empty_record">Ei tallentanut ääntä tänään</string>
     <string name="privacy_empty_storage">Ei päässyt tallennustilaan tänään</string>
-    <string name="privacy_global_guide_permission_guide_text">Saat tilarivihälytyksen, kun sovellukset tallentavat ääntä tai käyttävät kameraa. Napauta ilmoitusta selvittääksesi mikä sovellus tekee sen.</string>
     <string name="privacy_guide_permission_guide_text">Voit saada hälytyksen tilapalkilla, kun sovellukset käyttävät sijaintiasi, nauhoittavat ääntä tai ottavat valokuvia.</string>
     <string name="privacy_guide_permission_use_text">MIUI laskee ja näyttää kuinka monta kertaa sovellus käyttää arkaluontoisia käyttöoikeuksia, mukaan lukien sijainnin, yhteystiedon, puheluhistorian ja tallennustilan käyttöoikeudet sekä äänen tallentaminen. Voit oppia kuinka monta kertaa kukin sovellus käyttää näitä oikeuksia ja määrittää, onko sinun mukautettava lupa-asetuksia.</string>
-    <string name="privacy_hide_other_permissions">Piilota muut käyttöoikeudet</string>
     <string name="privacy_informed_title">Tilastot</string>
     <string name="privacy_input_model_tips">Suojattu syöttö on päällä. Näppäimistö ei voi näyttää ponnahdusikkunoita tai käyttää yhteystietoja, sijaintitietoja ja puheluhistoriaa.</string>
     <string name="privacy_location_info_summary">Hallinnoi sijaintisi käyttöä</string>
@@ -3265,15 +3099,8 @@ Kalibroinnin aikana MIUI lähettää tekstiviestin operaattorillesi saadakseen k
     <string name="privacy_search_key_5">Erikoiskäyttöoikeudet</string>
     <string name="privacy_search_key_6">Lupailmoitukset</string>
     <string name="privacy_search_key_7">Sijaintitiedot</string>
-    <string name="privacy_search_key_8">Älä seuraa</string>
+    <string name="privacy_search_key_8">Yksityisyyssuoja</string>
     <string name="privacy_search_key_9">Virtuaalinen tunnus</string>
-    <string name="privacy_search_keyword_1">Yksityisyys</string>
-    <string name="privacy_search_keyword_2">Piilota sovellukset</string>
-    <string name="privacy_search_keyword_3">Piilota kuvakkeet</string>
-    <string name="privacy_search_keyword_4">Piilota aloitusnäytön pikavalinnat</string>
-    <string name="privacy_search_keyword_5">Private apps</string>
-    <string name="privacy_search_keyword_6">Piilota</string>
-    <string name="privacy_show_other_permissions">Näytä muut käyttöoikeudet</string>
     <string name="privacy_show_password">Näytä salasanat</string>
     <string name="privacy_show_password_summary">Pidä salasanat näkyvissä lyhyen aikaa</string>
     <string name="privacy_special_permission_summary">Seuraa, kuinka sovellukset käyttävät arkaluontoisia käyttöoikeuksia</string>
@@ -3379,11 +3206,7 @@ Kalibroinnin aikana MIUI lähettää tekstiviestin operaattorillesi saadakseen k
     <string name="risk_app_install_item_des">Versio: %1$s</string>
     <string name="risk_app_install_manager">Sovellukset mahdollisine riskeineen</string>
     <string name="risk_count_suffix" />
-    <string name="risk_detail_app">Aiheuttaa riskejä</string>
-    <string name="risk_detail_title">Mahdolliset riskit</string>
-    <string name="risk_info_title">Kuvaus</string>
     <string name="risk_tip">Uhka havaittu</string>
-    <string name="risk_type_title">Tyyppi</string>
     <string name="roaming_allow_network_dialog_title">Sallitaanko mobiilidata verkkovierailussa?</string>
     <string name="roaming_limit_dialog_message">Saavutettiin verkkovierailun päiväkohtainen datakatto.</string>
     <string name="roaming_limit_network_notification_body">Napauta nähdäksesi käytettävissä olevat dataverkot</string>
@@ -3423,12 +3246,10 @@ Kalibroinnin aikana MIUI lähettää tekstiviestin operaattorillesi saadakseen k
     <string name="sc_system_risk_fix_info_xspace">Tätä ei voida ratkaista toisessa tilassa. Yritä uudelleen ensimmäisessä tilassa.</string>
     <string name="sc_warning_updater_not_found">Päivittäjäsovellusta ei löytynyt.</string>
     <string name="scan_installed_games">Tarkistetaan asennettuja pelejä…</string>
-    <string name="scan_open_shut_down_password_content">Suojaa laitettasi luvattomalta käytöltä</string>
-    <string name="scan_open_shut_down_password_title">Sammutusvahvistus</string>
     <string name="scan_status_risk">Riskialtis</string>
     <string name="scan_status_safe">Turvallinen</string>
     <string name="scanning_bar_number">%d%%</string>
-    <string name="screenrecord_not_find">Asenna näytöntallentimen uusin versio ja yritä uudelleen.</string>
+    <string name="screenrecord_not_find">Asenna Ruuduntallentimen uusin versio ja yritä uudelleen.</string>
     <string name="sd_eject">Irrota SD-kortti</string>
     <string name="sd_eject_summary">Irrota SD-kortti, jotta se voidaan poistaa turvallisesti</string>
     <string name="sd_format">Alusta SD-kortti</string>
@@ -3448,8 +3269,8 @@ Kalibroinnin aikana MIUI lähettää tekstiviestin operaattorillesi saadakseen k
     <string name="security_bottom_guide_to_pm_text">Vapauta avataksesi apuohjelmat</string>
     <string name="security_center_slogan">Pidä laitteesi nopeana ja turvallisena</string>
     <string name="security_guide_bubble_text">Avaa</string>
-    <string name="security_protection_bottom_slogon">Tietoturvaa parhaimmillaan</string>
-    <string name="security_protection_title">Tietoturva</string>
+    <string name="security_guide_summary">Yhden paikan pysähdys työkaluja ja palveluita varten</string>
+    <string name="security_guide_title">MIUI-apuohjelmapaketti</string>
     <string name="security_scan_optimizing">Optimoidaan…</string>
     <string name="securityadd_install_fail">Liitännäisen päivittäminen ei onnistunut. Yritä uudelleen.</string>
     <string name="securityadd_update_tips_cancle">Ei nyt</string>
@@ -3475,8 +3296,6 @@ Kalibroinnin aikana MIUI lähettää tekstiviestin operaattorillesi saadakseen k
     <string name="setting">Asetukset</string>
     <string name="setting_online_service">Verkkopalvelut</string>
     <string name="setting_privacy_password">Lisää kuvio</string>
-    <string name="setting_wireless_reverse_charging_fg_control_summary">Lopeta käänteinen langaton lataus, kun tämän laitteen akun varaustaso on %s</string>
-    <string name="setting_wireless_reverse_charging_summary">Aseta laite, joka tukee langatonta Qi-latausta (esim. puhelin tai puettava laite) tämän laitteen takaosan keskelle</string>
     <string name="settings">Datankäyttöasetukset</string>
     <string name="settings_battery_consume_abnormal_summary">Vastaanota ilmoituksia, kun akku tyhjentyy nopeasti</string>
     <string name="settings_battery_consume_abnormal_title">Akun tyhjennysilmoitukset</string>
@@ -3518,11 +3337,6 @@ Kalibroinnin aikana MIUI lähettää tekstiviestin operaattorillesi saadakseen k
     <string name="sim_location_error_dialog_message">SIM-kortti, jota käytät on sijainnista %1$s. Tämä on eri sijainti, jonka asetit manuaalisesti (%2$s). Muutetaanko SIM-kortin sijainniksi %3$s?</string>
     <string name="sim_location_error_notify_message">Napauta vaihtaaksesi SIM-kortin sijaintia.</string>
     <string name="sim_location_error_notify_title">SIM-korttivirhe</string>
-    <string name="sim_lock_guide_button">Asetukset</string>
-    <string name="sim_lock_guide_message">Yhdistä SIM-korttisi tähän laitteeseen, jotta se on vähemmän alttiina tietoturvariskeille</string>
-    <string name="sim_lock_guide_title">Suojaa SIM-korttisi</string>
-    <string name="sim_lock_setting_title">SIM-tietoturva</string>
-    <string name="sim_lock_start_title">SIM-tietoturva</string>
     <string name="sim_not_ready_toast">SIM-kortti ei ole valmis</string>
     <string name="sim_state_exception_summary">SIM-kortin tila ilmaisee, että SIM-kortilla voi olla vikoja.</string>
     <string name="sip_phone">SIP Phone</string>
@@ -3553,10 +3367,6 @@ Kalibroinnin aikana MIUI lähettää tekstiviestin operaattorillesi saadakseen k
     <string name="sms_smart_engine_update_now">Päivitä</string>
     <string name="sms_stranger_block">Estetty</string>
     <string name="sorted_dialog_title">Lajittele</string>
-    <string name="sp_abnormal_scan_summary">Tunnista ja ratkaise ongelmia</string>
-    <string name="sp_abnormal_scan_title">Ratkaise ongelmat</string>
-    <string name="sp_antispam_scan_summary">Suojaudu petoksilta</string>
-    <string name="sp_antispam_scan_title">Estolista</string>
     <string name="sp_background_risk_dialog_summary">, tarkasta ja korjaa maksuongelmat.</string>
     <string name="sp_background_risk_dialog_summary_new">Nykyinen maksuympäristö saattaa aiheuttaa turvallisuusriskejä. Varaa hetki ratkaistaksesi olemassa olevat ongelmat.</string>
     <string name="sp_background_risk_dialog_summary_wifi_approve">Olet yhteydessä julkiseen Wi-Fi-verkkoon, joka voi olla turvaton. Varmista, että maksusi on suojattu ennen kuin olet suorittanut sen.</string>
@@ -3567,50 +3377,19 @@ Kalibroinnin aikana MIUI lähettää tekstiviestin operaattorillesi saadakseen k
     <string name="sp_background_risk_type_sign">Epävirallinen sovellus on käynnissä</string>
     <string name="sp_background_risk_type_virus">Virus on käynnissä taustalla</string>
     <string name="sp_background_risk_type_wifi">Tämä Wi-Fi-verkko on vaarallinen</string>
-    <string name="sp_basestation_scan_summary">Suojaa laitteesi väärennetyiltä tukiasemilta</string>
-    <string name="sp_basestation_scan_title">Väärennetyt tukiasemat</string>
     <string name="sp_button_text_ignore_alert_title">Ohitetaanko tämä kohde</string>
-    <string name="sp_device_security_title">Laitteen tietoturva</string>
-    <string name="sp_eew_summary">Varoitukset tulevista maanjäristyksistä</string>
-    <string name="sp_eew_title">Varoitus maanjäristyksestä</string>
     <string name="sp_empty_title_sign_exception">Lisää sovellus poikkeuksiin painamalla sitä pitkään</string>
-    <string name="sp_find_device_summary">Paikanna laitteesi etänä</string>
-    <string name="sp_find_device_title">Etsi laite</string>
-    <string name="sp_guard_summary">Hallinnoi ystäviesi ja perheesi laitteita</string>
-    <string name="sp_guard_title">Perhesuojaus</string>
-    <string name="sp_lock_screen_password_summary">Aseta näytönlukitus</string>
-    <string name="sp_lock_screen_password_title">Näytönlukitus</string>
-    <string name="sp_micare_summary">Henkilökohtainen turvallisuus</string>
-    <string name="sp_micare_title">MIUI-varoituskeskus</string>
     <string name="sp_monitored_apps_count_zero">Maksuohjelmia ei ole suojattu</string>
-    <string name="sp_monitored_apps_list_title">Maksuturva</string>
-    <string name="sp_more_security_settings">Lisäasetukset</string>
+    <string name="sp_monitored_apps_list_title">Seuranta-asetukset</string>
     <string name="sp_network_privacy_dialog_message">Tietoturva ei toimi kunnolla, koska olet rajoittanut verkkoyhteyttä. Sallitaanko Tietoturvan muodostaa yhteys internettiin?</string>
     <string name="sp_network_privacy_dialog_title">Tietoturvatarkistusta ei voi käyttää</string>
-    <string name="sp_payment_protect_summary">Suojaa verkkomaksuympäristöä</string>
-    <string name="sp_payment_protect_title">Maksuturva</string>
-    <string name="sp_person_security_title">Henkilökohtainen turvallisuus</string>
-    <string name="sp_phone_scan_summary">Tunnista tietoturvariskit</string>
-    <string name="sp_phone_scan_title">Skannaa</string>
-    <string name="sp_power_off_password_summary">Vaadi salasana, ennen kuin laitteesta katkaistaan virta</string>
-    <string name="sp_power_off_password_title">Sammutusvahvistus</string>
-    <string name="sp_privacy_protect_summary">Suojaa henkilökohtaisia tietojasi</string>
-    <string name="sp_privacy_protect_title">Yksityisyydensuoja</string>
-    <string name="sp_property_security_title">Taloudellinen turva</string>
     <string name="sp_scan_item_monitor">Monitoroi maksuja</string>
     <string name="sp_scan_item_url_antispam">Suojaa vaarallisilta URL-osoitteilta</string>
-    <string name="sp_security_center_title">Tietoturva</string>
-    <string name="sp_security_check_status_off">Pois</string>
-    <string name="sp_security_check_status_on">Päällä</string>
-    <string name="sp_security_input_summary">Pidä kirjoittamasi asiat yksityisinä</string>
-    <string name="sp_security_input_title">Salattu näppäimistö</string>
-    <string name="sp_security_scan_summary">Tarkista laite virusten varalta</string>
-    <string name="sp_security_scan_title">Tietoturvatarkistus</string>
     <string name="sp_settings_check_item_summary_sign_exception">Hallitse allekirjoituksien poikkeuksia</string>
     <string name="sp_settings_check_item_summary_virus_exception">Hallitse viruksien poikkeuksia</string>
     <string name="sp_settings_check_item_title_root">Root</string>
     <string name="sp_settings_check_item_title_sign_exception">Allekirjoituksien poikkeukset</string>
-    <string name="sp_settings_check_item_title_update">Järjestelmäpäivitykset</string>
+    <string name="sp_settings_check_item_title_update">Järjestelmä päivitykset</string>
     <string name="sp_settings_check_item_title_virus_exception">Poikkeukset</string>
     <string name="sp_settings_check_item_title_wifi">Wi-Fi</string>
     <string name="sp_settings_exception_count_zero">Ei kohteita</string>
@@ -3618,14 +3397,7 @@ Kalibroinnin aikana MIUI lähettää tekstiviestin operaattorillesi saadakseen k
     <string name="sp_settings_info_input_method">Testaa näppäimistöt tietoturvaongelmien varalta samalla kun suoritat maksuja</string>
     <string name="sp_settings_info_monitor">Tarkkaile järjestelmäympäristöä, kun maksusovellus käynnistetään</string>
     <string name="sp_settings_title_input_method">Testaa näppäimistöt tietoturvaongelmien varalta</string>
-    <string name="sp_sim_protect_summary">Suojaa SIM-tietoja</string>
-    <string name="sp_sim_protect_title">SIM-tietoturva</string>
-    <string name="sp_sos_summary">Hanki apua vaaratilanteessa</string>
-    <string name="sp_sos_title">Hätätila</string>
-    <string name="sp_system_security_title">Järjestelmän tietoturva</string>
     <string name="sp_toast_removed_from_sign_white_list">Poistettiin poikkeuksista. Kohde skannataan seuraavalla kerralla.</string>
-    <string name="sp_website_scan_summary">Suojattu verkkoselaaminen</string>
-    <string name="sp_website_scan_title">Tarkista verkkosivustot</string>
     <string name="special_number_group">Estä ilmoitetut numerot</string>
     <string name="special_perm_above_msg">Salli sovellusten näyttää kohteita muiden sovellusten päällä</string>
     <string name="special_perm_above_title">Näytä kohteet muiden sovellusten päällä</string>
@@ -3904,17 +3676,10 @@ Käyttääksesi tätä ^1 tällä laitteella sinun täytyy asettaa se ensin."</s
 
 Alustaminen poistaa nykyisen sisällön kohteesta ^2. Sisällön menettämisen välttämiseksi varmuuskopioi se toiseen ^3 tai laitteeseen."</string>
     <string name="storage_wizard_format_confirm_v2_title">Alustetaanko tämä ^1 nyt?</string>
-    <string name="stranger_call_dialog_add_block_list">Estä</string>
-    <string name="stranger_call_dialog_add_contacts">Uusi yhteystieto</string>
-    <string name="stranger_call_dialog_notification_body">Lisää yhteystietoihin tai estä tämä numero</string>
-    <string name="stranger_call_dialog_notification_title_format">Tuntematon numero %s</string>
-    <string name="stranger_call_dialog_subtitle_format">%s ei ole yhteystietojesi joukossa. Voit lisätä tämän puhelinnumeron yhteystietoihin tai estää sen.</string>
-    <string name="stranger_call_dialog_title">"Tuntematon numero "</string>
     <string name="suggest_app_tolock">Suositukset</string>
     <string name="suggest_app_tolock_masked">Sisältö piilotettu</string>
     <string name="suggest_app_tolock_unmasked">Näkyvät ilmoitukset</string>
     <string name="suggest_scan_again">Suorita skannaus turvallisuussyistä.</string>
-    <string name="suggest_to_use_mi_sim">Use Mi Sim to prevent you from generating additional carrier fees.</string>
     <string name="summary_app_lock_disable">Suojaa tietosi sovelluslukolla</string>
     <string name="summary_app_update_new">Päivitä sovellukset uusiin ominaisuuksiin pääsemiseksi</string>
     <string name="summary_auto_update">MIUI valitsee sopivimman ajan ladatakseen ja asentaakseen päivitykset.</string>
@@ -4310,7 +4075,6 @@ Jäljellä oleva data sisältää datan, joka jäi viime kuukaudeltä yli."</str
     <string name="traffic_setting_fragment_title_guide">Puhelinoperaattorit ja datasuunnitelmat</string>
     <string name="traffic_to_limit_warning">"You've used up %s of your data limit"</string>
     <string name="traffic_usage_warning_body">Olet jo käyttänyt %s mobiilidataa tässä kuussa.</string>
-    <string name="traffic_usage_warning_body_go_to_mi_sim">"You've already used %s of mobile data this month,Tap to use Mi SIM."</string>
     <string name="traffic_usage_warning_limit">Datankäyttövaroituksen raja</string>
     <string name="traffic_usage_warning_title">Datankäyttövaroitus</string>
     <string name="traffic_warning_purchase_title">Mobiilidatan käyttövaroitus</string>
@@ -4414,11 +4178,11 @@ Jäljellä oleva data sisältää datan, joka jäi viime kuukaudeltä yli."</str
     <string name="vb_video_effects_settings_stereo">Äänenvoimakkuus</string>
     <string name="vb_video_effects_srs_premium_sound">Ääni</string>
     <string name="vb_video_super_division">Korota</string>
-    <string name="vb_video_super_division_desc">"Korota resoluutiota automaattisesti, kun se on ≤ 720p.
+    <string name="vb_video_super_division_desc">"Korota resoluutiota automaattisesti, kun se on ≤720p.
 
 Tämän ominaisuuden käyttö lisää virrankulutusta.
 
-Tämä ominaisuus ei toimi liikkeen tasoittamisen kanssa.
+Tämä ominaisuus ei toimi liikkeen pehmennyksen kanssa.
 Yhden ominaisuuden kytkeminen päälle poistaa toisen käytöstä."</string>
     <string name="vb_video_super_division_tips">"Ei tarpeeksi selkeä?
 Kokeile resoluution korottamista!"</string>
@@ -4433,31 +4197,11 @@ Kokeile resoluution korottamista!"</string>
     <string name="videobox_settings_manager_apps">Hallitse videosovelluksia</string>
     <string name="videobox_settings_switch_desc">Erikoistehosteet ja -ominaisuudet videotoistoa varten</string>
     <string name="videobox_settings_switch_title">Videotyökalulaatikko</string>
-    <string name="videobox_settings_timing">Hälytys pitkittyneestä istunnosta</string>
-    <string name="videobox_settings_timing_desc">Vastaanota joka tunti hälytys, joka muistuttaa sinua pitämään tauon</string>
     <string name="videobox_settings_title">Videotyökalulaatikko</string>
     <string name="view_traffic_detail">Näytä lisätietoja</string>
     <string name="view_traffic_details">View data usage stats</string>
-    <string name="virus_app_delete_installed">Poista</string>
-    <string name="virus_app_delete_uninstalled">Poista</string>
-    <string name="virus_app_ignore">Ohita</string>
-    <string name="virus_app_size_text">Koko: %s</string>
-    <string name="virus_app_type_installed">Asennettu</string>
-    <string name="virus_app_type_uninstalled">APK</string>
-    <string name="virus_app_verison_text">Versio: %s</string>
     <string name="virus_auto_update_engine">Automaattiset päivitykset: %s</string>
-    <string name="virus_clear_dialog_title">Tyhjennä haitalliset sovellukset</string>
-    <string name="virus_detail_app">Sisältää viruksia</string>
-    <string name="virus_detail_title">Virukset</string>
-    <string name="virus_engine_choose_text">Online-virusten määritelmät</string>
-    <string name="virus_engine_split_text">", "</string>
-    <string name="virus_ignore_dialog_content">Jos päätät jättää huomiotta sovelluksen mahdolliset riskit, sinulle ei enää ilmoiteta niistä. Muista kuitenkin, että se ei tarkoita, että tällaiset riskit neutralisoidaan.</string>
-    <string name="virus_ignore_dialog_no_remind">Älä näytä uudelleen</string>
-    <string name="virus_ignore_dialog_title">Riskien ohittaminen</string>
-    <string name="virus_info_title">Kuvaus</string>
-    <string name="virus_news_title">Liittyvät tiedot</string>
     <string name="virus_scan_process_pre">%</string>
-    <string name="virus_type_title">Tyyppi</string>
     <string name="virus_update_tips_title">Varoitus</string>
     <string name="virus_wait_network_dialog_message">Puhelimesi ei ole yhteydessä Wi-Fi-verkkoon. Käytetäänkö mobiilidatayhteyttä?</string>
     <string name="vtb_func_desc">Tietoja tästä ominaisuudesta</string>
@@ -4496,15 +4240,6 @@ Kokeile resoluution korottamista!"</string>
     <string name="wifi_optizition_loading">Käynnistetään Xunyou-verkon nopeutus…</string>
     <string name="wifi_optizition_tip">Käynnistä Wi-Fi:n nopeutus Wi-Fi-yhteyden vakauttamiseksi. Pieni määrä mobiilidataa käytetään.</string>
     <string name="wifi_optizition_title">Wi-Fi:n nopeutus</string>
-    <string name="wireless_charging_connected_message">Käänteistä langatonta latausta ei voi käyttää, kun laite latautuu langattomasti.</string>
-    <string name="wireless_charging_fg_control_cancel">Peruuta</string>
-    <string name="wireless_charging_fg_control_messgae">Käänteinen langaton lataus poistettiin käytöstä, koska akusta on jäljellä alle %s. Voit säätää asetuksia, jotta käänteinen langaton lataus voi toimia pidempään.</string>
-    <string name="wireless_charging_fg_control_ok">Säädä</string>
-    <string name="wireless_charging_low_battery_level_message">Käänteistä langatonta latausta ei voi käyttää, kun akun varaus on alle %s.</string>
-    <string name="wireless_charging_ok">Selvä</string>
-    <string name="wireless_charging_saver_cancel">Poista käytöstä</string>
-    <string name="wireless_charging_saver_message">Virransäästö on nyt käytössä. Pidetäänkö käänteinen langaton lataus käytettävissä?</string>
-    <string name="wireless_charging_saver_ok">Pidä</string>
     <string name="wl_no_whitelist">Ei poikkeuksia.</string>
     <string name="wlan_booster">Wi-Fi-optimointi</string>
     <string name="wlan_change_protection_detail">Älä vaihda Wi-Fi-verkkoon automaattisesti, kun mobiilidataverkkoon ollaan yhteydessä</string>
@@ -4514,9 +4249,6 @@ Kokeile resoluution korottamista!"</string>
     <string name="write_clipboard_tip_content">Tämän luvan avulla sovellukset voivat tallentaa kohteita leikepöydälle. Roskapostiviestit voivat vaikuttaa leikepöydän normaaliin käyttöön.</string>
     <string name="write_clipboard_tip_title">Kohteiden tallentaminen leikepöydälle</string>
     <string name="wrong_password">Väärä salasana</string>
-    <string name="xspace_warning_dialog_button">Selvä</string>
-    <string name="xspace_warning_dialog_message">Kohteessa Android %d käyttöönotettujen rajoitusten vuoksi kaikki kaksoissovellukset voivat käyttää vain itse vastaavassa kaksoissovelluksessa luotuja ja tallennettuja valokuvia ja videoita.</string>
-    <string name="xspace_warning_dialog_title">Huomio</string>
     <string name="xunyou_net_booster">Verkon nopeutus</string>
     <string name="xunyou_net_booster_detail">Käytä Xunyou nopeuttajapalvelua peleissä</string>
     <string name="xunyou_pay_webview">Xunyou palvelut</string>

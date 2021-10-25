@@ -1372,6 +1372,7 @@ Tilisi turvallisuuden parantaminen."</string>
     <string name="tab_name_moment">Hetket</string>
     <string name="tab_name_trending">Nousussa</string>
     <string name="tab_name_video">Videot</string>
+    <string name="target_sdk_version_30_upgrade_tips">Joitakin videoita ei ehkä voi katsoa täällä Android 11 -rajoitusten vuoksi. Napauta \"Tiedostot\" löytääksesi muita videoita.</string>
     <string name="temporary_not_available">Tämä ominaisuus ei ole saatavilla vielä</string>
     <string name="the_anniversary_of_lifting_martial_law">Sotalain nostamisen vuosipäivä</string>
     <string name="the_anti_aggression_day">Anti-Aggression Day</string>

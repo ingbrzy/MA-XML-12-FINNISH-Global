@@ -56,14 +56,6 @@
         <item quantity="other">Voit luoda enintään %d kloonia kerralla.</item>
         <item quantity="one">Voit luoda enintään %d kloonin kerralla.</item>
     </plurals>
-    <plurals name="exit_camera_hint">
-        <item quantity="other">&lt;Data>Ei voi muodostaa yhteyttä kameraan.&lt;br>Tämä sovellus suljetaan &lt;font color=#FFCE16>&lt;b>%1$d sekunnin kuluttua&lt;/b>&lt;/font>. Odota tämän jälkeen pari minuuttia ja yritä uudelleen.&lt;/Data></item>
-        <item quantity="one">&lt;Data>Ei voi muodostaa yhteyttä kameraan.&lt;br>Tämä sovellus suljetaan &lt;font color=#FFCE16>&lt;b>%1$d sekunnin kuluttua&lt;/b>&lt;/font>. Odota tämän jälkeen pari minuuttia ja yritä uudelleen.&lt;/Data></item>
-    </plurals>
-    <plurals name="exit_thermal_hint">
-        <item quantity="other">&lt;Data>Tämä laite on nyt liian kuuma.&lt;br>Tämä sovellus suljetaan &lt;font color=#FFCE16>&lt;b>%1$d sekunnin kuluttua&lt;/b>&lt;/font>. Tämänhetkinen edistyminen tallennettiin automaattisesti.&lt;/Data></item>
-        <item quantity="one">&lt;Data>Tämä laite on nyt liian kuuma.&lt;br>Tämä sovellus suljetaan &lt;font color=#FFCE16>&lt;b>%1$d sekunnin kuluttua&lt;/b>&lt;/font>. Tämänhetkinen edistyminen tallennettiin automaattisesti.&lt;/Data></item>
-    </plurals>
     <plurals name="fastmotion_pro_min_unit">
         <item quantity="other">%1$d minuuttia</item>
         <item quantity="one">%1$d minuutti</item>

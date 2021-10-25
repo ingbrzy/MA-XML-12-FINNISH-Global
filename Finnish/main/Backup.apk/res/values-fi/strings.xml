@@ -165,7 +165,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="dialog_app_upgrade_download">Päivitä</string>
     <string name="dialog_app_upgrade_exit">Poistu</string>
     <string name="dialog_app_upgrade_message">Kohteesta Mi Mover on saatavilla uusi versio. Päivitetäänkö Mi Mover nyt?</string>
-    <string name="dialog_backup_password_auto_backup_tips">Varmuuskopiointi automaattisesti ei onnistu, kun varmuuskopioinnin salasana on käytössä. Poista varmuuskopioinnin salasana käytöstä.</string>
+    <string name="dialog_backup_password_auto_backup_tips">Varmuuskopiointi ei onnistu, kun varmuuskopioinnin salasana on käytössä. Poista varmuuskopioinnin salasana käytöstä.</string>
     <string name="dialog_backup_password_backup_tips">Varmuuskopiointi ei onnistu, kun varmuuskopioinnin salasana on käytössä. Poista varmuuskopioinnin salasana käytöstä.</string>
     <string name="dialog_backup_password_cancel">Peruuta</string>
     <string name="dialog_backup_password_change_device_restore_tips">Kohdetta Mi Mover ei voida käyttää, kun varmuuskopioinnin salasana on käytössä. Poista varmuuskopioinnin salasana käytöstä ensin.</string>
@@ -386,7 +386,6 @@ sinun on luotava ensin iCloud-varmuuskopio."</string>
     <string name="midnight">Yö</string>
     <string name="miliao_account_guide">Käytä Mi-tiliäsi kirjautuaksesi sisään kohteisiin Xiaomi Cloud, MIUI Theme Store ja muihin Mi-palveluihin mistä tahansa.</string>
     <string name="miliao_account_login">Kirjaudu sisään kohteen Mi Talk avulla</string>
-    <string name="miuix_access_state_desc">Valittu</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
@@ -468,7 +467,7 @@ sinun on luotava ensin iCloud-varmuuskopio."</string>
     <string name="new_local_button_backup">Varmuuskopioi</string>
     <string name="new_local_button_restore">Palauta</string>
     <string name="new_local_click_to_jump">Napauta nähdäksesi yksityiskohtaiset ohjeet</string>
-    <string name="new_local_detail_description">"Huomautus:
+    <string name="new_local_detail_description">"Note:
 %1$d. Kopioi varmuuskopiot tietokoneellesi tietojen menetyksen välttämiseksi. %2$s.
 %3$d. Varmuuskopiot tallennetaan kohteeseen MIUI-Backup-AllBackup."</string>
     <string name="new_local_tab_backup">Varmuuskopioi</string>
@@ -504,7 +503,7 @@ sinun on luotava ensin iCloud-varmuuskopio."</string>
     <string name="new_tab_pc_backup">Varmuuskopioi</string>
     <string name="new_tab_pc_restore">Palauta</string>
     <string name="new_task_finished">Valmis</string>
-    <string name="new_usb_detail_description">"Huomautus:
+    <string name="new_usb_detail_description">"Huomaa:
 %1$d. Tämä menetelmä mahdollistaa kolmannen osapuolen sovellusten ja sovellustietojen varmuuskopioinnin.
 %2$d. Varmista, että USB-asemassa on tarpeeksi tallennustilaa varmuuskopioiden tallentamiseksi."</string>
     <string name="new_usb_disconnect_dialog_message">Kytke ensin USB-asema.</string>
@@ -850,7 +849,7 @@ ladataksesi ja asentaaksesi Mi Mover."</string>
     <string name="trans_intro_title_new">Uudesta puhelimesta:</string>
     <string name="trans_intro_title_old">Vanhasta puhelimesta:</string>
     <string name="trans_intro_title_private">Piilotettu albumi:</string>
-    <string name="trans_main_tutor">Siirrä yhteystiedot, puheluhistoria, viestit, aloitusnäytön ulkoasu, sovellukset, asetukset, jne. uuteen laitteeseen</string>
+    <string name="trans_main_tutor">Siirrä yhteystiedot, puheluhistoria, viestit, aloitusnäytön asettelu, sovellukset, asetukset, jne. uuteen laitteeseen</string>
     <string name="trans_my_device">Laitteeni</string>
     <string name="trans_native_no_space">"Vanhalla laitteella ei ole tarpeeksi vapaata tallennustilaa (%s käytettävissä).
 Vapauta tallennustilaa tai siirrä vain tärkeät tiedostot."</string>

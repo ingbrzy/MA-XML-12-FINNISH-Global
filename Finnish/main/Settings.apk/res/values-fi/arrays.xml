@@ -1,51 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="accessibility_button_gesture_selector_titles">
-        <item>Painike</item>
-        <item>Ele</item>
+    <string-array name="agps_apn_entries">
+        <item>CMWAP</item>
+        <item>CMNET</item>
     </string-array>
-    <string-array name="accessibility_button_location_selector_titles">
-        <item>Kelluu muiden sovellusten päällä</item>
-        <item>Navigointipalkki</item>
+    <string-array name="agps_apn_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
-    <string-array name="accessibility_button_size_selector_titles">
-        <item>Pieni</item>
-        <item>Suuri</item>
+    <string-array name="agps_network_entries">
+        <item>Kotiverkko</item>
+        <item>Kaikki verkkoyhteydet</item>
+    </string-array>
+    <string-array name="agps_network_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="agps_reset_type_entries">
+        <item>KUUMA</item>
+        <item>LÄMMIN</item>
+        <item>KYLMÄ</item>
+    </string-array>
+    <string-array name="agps_reset_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="agps_si_mode_entries">
+        <item>MSB</item>
+        <item>MSA</item>
     </string-array>
     <string-array name="ai_key_item_name">
-        <item>Talk to Google Assistant</item>
-        <item>Open Google search</item>
-        <item>Open rear camera</item>
-        <item>Open front camera</item>
-        <item>Open previous app</item>
-        <item>Turn on flashlight</item>
-        <item>Turn on Reading mode</item>
-        <item>None</item>
+        <item>Puhu Google Assistentille</item>
+        <item>Avaa Google-haku</item>
+        <item>Avaa takakamera</item>
+        <item>Avaa etukamera</item>
+        <item>Avaa edellinen sovellus</item>
+        <item>Ota taskulamppu käyttöön</item>
+        <item>Ota lukutila käyttöön</item>
+        <item>Ei mitään</item>
     </string-array>
     <string-array name="alarm_repeat_type">
-        <item>Every day</item>
-        <item>Weeknights</item>
-        <item>Weekend</item>
-        <item>Custom</item>
+        <item>Joka päivä</item>
+        <item>Arki-illat</item>
+        <item>Viikonloppu</item>
+        <item>Mukautettu</item>
     </string-array>
     <string-array name="alarm_repeat_type_no_workdays">
-        <item>Every day</item>
-        <item>Weeknights</item>
-        <item>Weekend</item>
-        <item>Custom</item>
+        <item>Joka päivä</item>
+        <item>Arki-illat</item>
+        <item>Viikonloppu</item>
+        <item>Mukautettu</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
-        <item>Animaatio pois käytöstä</item>
-        <item>Animaatioasteikko 0,5-kertainen</item>
-        <item>Animaatioasteikko 1-kertainen</item>
-        <item>Animaatioasteikko 1,5-kertainen</item>
-        <item>Animaatioasteikko 2-kertainen</item>
-        <item>Animaatioasteikko 5-kertainen</item>
-        <item>Animaatioasteikko 10-kertainen</item>
+        <item>Animaatio pois</item>
+        <item>Animaation skaalaus .5x</item>
+        <item>Animaation skaalaus 1x</item>
+        <item>Animaation skaalaus 1.5x</item>
+        <item>Animaation skaalaus 2x</item>
+        <item>Animaation skaalaus 5x</item>
+        <item>Animaation skaalaus 10x</item>
     </string-array>
     <string-array name="ap_identify">
-        <item>Default</item>
-        <item>Portable hotspot</item>
+        <item>Oletus</item>
+        <item>Kannettava tukiasema</item>
     </string-array>
     <string-array name="apn_auth_entries">
         <item>Ei mitään</item>
@@ -205,9 +223,9 @@
         <item>esteettömyys äänenvoimakkuus</item>
     </string-array>
     <string-array name="app_process_limit_entries">
-        <item>Vakioraja</item>
+        <item>Vakiorajoitus</item>
         <item>Ei taustaprosesseja</item>
-        <item>Enintään 4 prosessia</item>
+        <item>Enintään 1 prosessi</item>
         <item>Enintään 2 prosessia</item>
         <item>Enintään 3 prosessia</item>
         <item>Enintään 4 prosessia</item>
@@ -223,10 +241,10 @@
         <item>Yli 90 päivää vanhat</item>
     </string-array>
     <string-array name="battery_indicator_style_entries">
-        <item>Graphical</item>
-        <item>Percentage (in the icon)</item>
-        <item>Percentage (next to the icon)</item>
-        <item>Top bar</item>
+        <item>Graafinen</item>
+        <item>Prosenttimäärä (kuvakkeessa)</item>
+        <item>Prosenttimäärä (kuvakkeen vieressä)</item>
+        <item>Yläpalkki</item>
     </string-array>
     <string-array name="battery_labels">
         <item>0 %</item>
@@ -253,131 +271,131 @@
         <item>NR</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_aptxadaptive_mode_summaries">
-        <item>High quality mode (Default)</item>
-        <item>Low latency mode</item>
+        <item>Korkealaatuinen tila (Oletus)</item>
+        <item>Matalan viiven tila</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_aptxadaptive_mode_titles">
-        <item>High quality mode (Default)</item>
-        <item>Low latency mode</item>
+        <item>Korkealaatuinen tila (Oletus)</item>
+        <item>Matalan viiven tila</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Käytä järjestelmän valintaa (oletus)</item>
-        <item>16 bittiä/näyte</item>
-        <item>24 bittiä/näyte</item>
-        <item>32 bittiä/näyte</item>
+        <item>Käytä järjestelmän asetusta (Oletus)</item>
+        <item>16 bittiä/otos</item>
+        <item>24 bittiä/otos</item>
+        <item>32 bittiä/otos</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Käytä järjestelmän valintaa (oletus)</item>
-        <item>16 bittiä/näyte</item>
-        <item>24 bittiä/näyte</item>
-        <item>32 bittiä/näyte</item>
+        <item>Käytä järjestelmän asetusta (Oletus)</item>
+        <item>16 bittiä/otos</item>
+        <item>24 bittiä/otos</item>
+        <item>32 bittiä/otos</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>Käytä järjestelmän asetusta (Oletus)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>Käytä järjestelmän asetusta (Oletus)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Optimoi äänenlaatu</item>
-        <item>Tasapainoinen yhteyden ja äänenlaadun optimointi</item>
-        <item>Optimoi yhteyden laatu</item>
-        <item>Paras mahdollinen (mukautuva siirtonopeus)</item>
+        <item>Optimoitu äänenlaadulle</item>
+        <item>Tasapainotettu äänen- ja yhteydenlaadulle</item>
+        <item>Optimoitu yhteydenlaadulle</item>
+        <item>Paras teho (mukautuva bittivirta)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Optimized for audio quality (990kbps/909kbps)</item>
-        <item>Balanced audio and connection quality (660kbps/606kbps)</item>
-        <item>Optimized for connection quality (330kbps/303kbps)</item>
-        <item>Best effect (Adaptive bit rate)</item>
+        <item>Optimoitu äänenlaadulle (990kbps/909kbps)</item>
+        <item>Tasapainotettu äänen- ja yhteydenlaadulle (660kbps/606kbps)</item>
+        <item>Optimoitu yhteydenlaadulle (330kbps/303kbps)</item>
+        <item>Paras teho (mukautuva bittivirta)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_latency_summaries">
-        <item>Short latency</item>
-        <item>Middle latency</item>
-        <item>Long latency</item>
+        <item>Lyhyt latenssi</item>
+        <item>Keskilatenssi</item>
+        <item>Pitkä latenssi</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_latency_titles">
-        <item>Short latency (50~100ms)</item>
-        <item>Middle latency (150~200ms)</item>
-        <item>Long latency (300~500ms)</item>
+        <item>Lyhyt latenssi (50~100 ms)</item>
+        <item>Keskilatenssi (150~200 ms)</item>
+        <item>Pitkä latenssi (300~500 ms)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_summaries">
-        <item>Optimized for low latency</item>
-        <item>Optimized for connection quality</item>
-        <item>Balanced audio and connection quality</item>
-        <item>Optimized for audio quality</item>
-        <item>Best effort (Auto bit rate)</item>
+        <item>Optimoitu alhaiseen latenssiin</item>
+        <item>Optimoitu yhteydenlaadulle</item>
+        <item>Tasapainotettu äänen ja yhteyden laatu</item>
+        <item>Optimoitu äänenlaadulle</item>
+        <item>Paras teho (mukautuva bittivirta)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_titles">
-        <item>Optimized for low latency (256kbps)</item>
-        <item>Optimized for connection quality (400kbps)</item>
-        <item>Balanced audio and connection quality (500/560kbps)</item>
-        <item>Optimized for audio quality (900kbps)</item>
-        <item>Best effort (Auto bit rate)</item>
+        <item>Optimoitu alhaiseen latenssiin (256 kbps)</item>
+        <item>Optimoitu yhteydenlaatuun (400 kbps)</item>
+        <item>Tasapainotettu äänen ja yhteyden laatu (500/560 kbps)</item>
+        <item>Optimoitu äänenlaadulle (900 kbps)</item>
+        <item>Paras teho (mukautuva bittivirta)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Käytä järjestelmän valintaa (oletus)</item>
-        <item>44,1 kHz</item>
-        <item>48,0 kHz</item>
-        <item>88,2 kHz</item>
-        <item>96,0 kHz</item>
+        <item>Käytä järjestelmän asetusta (Oletus)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Käytä järjestelmän valintaa (oletus)</item>
-        <item>44,1 kHz</item>
-        <item>48,0 kHz</item>
-        <item>88,2 kHz</item>
-        <item>96,0 kHz</item>
+        <item>Käytä järjestelmän asetusta (Oletus)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Use system preference (Default)</item>
+        <item>Käytä järjestelmän asetusta (Oletus)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ audio</item>
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Qualcomm® aptX™ Mukautuva audio</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
-        <item>LHDC_V3</item>
-        <item>LHDC_V2</item>
-        <item>LHDC_V1</item>
-        <item>Enable optional codecs</item>
-        <item>Disable optional codecs</item>
+        <item>LHDC V3/V4</item>
+        <item>LHDC V2</item>
+        <item>LHDC V1</item>
+        <item>Ota valinnaiset koodekit käyttöön</item>
+        <item>Ota valinnaiset koodekit pois käytöstä</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Use system preference (Default)</item>
+        <item>Käytä järjestelmän asetusta (Oletus)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ audio</item>
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Qualcomm® aptX™ Mukautuva audio</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
-        <item>LHDC_V3</item>
-        <item>LHDC_V2</item>
-        <item>LHDC_V1</item>
-        <item>Enable optional codecs</item>
-        <item>Disable optional codecs</item>
+        <item>LHDC V3/V4</item>
+        <item>LHDC V2</item>
+        <item>LHDC V1</item>
+        <item>Ota valinnaiset koodekit käyttöön</item>
+        <item>Ota valinnaiset koodekit pois käytöstä</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
-        <item>, aktiivinen</item>
-        <item>, aktiivinen (media)</item>
-        <item>, aktiivinen (puhelin)</item>
+        <item>" | Aktiivinen"</item>
+        <item>" | Aktiivinen (media)"</item>
+        <item>" | Aktiivinen (puhelin)"</item>
     </string-array>
     <string-array name="bluetooth_avrcp_version_values">
-        <item>avrcp15</item>
-        <item>avrcp13</item>
         <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.5 (oletus)</item>
+        <item>AVRCP 1.4 (Oletus)</item>
         <item>AVRCP 1.3</item>
-        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
     <string-array name="bluetooth_map_version_values">
@@ -386,7 +404,7 @@
         <item>map14</item>
     </string-array>
     <string-array name="bluetooth_map_versions">
-        <item>MAP 1.2 (oletus)</item>
+        <item>MAP 1.2 (Oletus)</item>
         <item>MAP 1.3</item>
         <item>MAP 1.4</item>
     </string-array>
@@ -405,17 +423,19 @@
         <item>Ei aikakatkaisua</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
-        <item>Ei käytössä</item>
-        <item>Suodatus käytössä</item>
-        <item>Päällä</item>
+        <item>Poistettu päältä</item>
+        <item>Suodatettu</item>
+        <item>Sallittu</item>
+        <item>Otsikot suodatettiin</item>
+        <item>Mediapaketit suodatettu</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
-        <item>1 second</item>
-        <item>2 seconds</item>
-        <item>5 seconds</item>
-        <item>10 seconds</item>
-        <item>20 seconds</item>
-        <item>Always</item>
+        <item>1 sekunti</item>
+        <item>2 sekuntia</item>
+        <item>5 sekuntia</item>
+        <item>10 sekuntia</item>
+        <item>20 sekuntia</item>
+        <item>Aina</item>
     </string-array>
     <string-array name="captioning_edge_type_selector_titles">
         <item>Oletusarvo</item>
@@ -426,11 +446,11 @@
         <item>Laskettu</item>
     </string-array>
     <string-array name="captioning_font_size_selector_summaries">
-        <item>Very small text size</item>
-        <item>Small text size</item>
-        <item>Default text size</item>
-        <item>Large text size</item>
-        <item>Very large text size</item>
+        <item>Hyvin pieni teksti</item>
+        <item>Pieni teksti</item>
+        <item>Oletuskokoinen teksti</item>
+        <item>Suuri teksti</item>
+        <item>Hyvin suuri teksti</item>
     </string-array>
     <string-array name="captioning_font_size_selector_titles">
         <item>Hyvin pieni</item>
@@ -473,19 +493,19 @@
         <item>Automaattinen</item>
     </string-array>
     <string-array name="change_security_lock_picker">
-        <item>Face unlock</item>
-        <item>Pattern</item>
-        <item>PIN</item>
-        <item>Password</item>
+        <item>Lukituksen poisto kasvojentunnistuksella</item>
+        <item>Kuvio</item>
+        <item>PIN-koodi</item>
+        <item>Salasana</item>
     </string-array>
     <string-array name="city_name">
         <item>Abidjan</item>
         <item>Accra</item>
-        <item>Addis Ababa</item>
-        <item>Algiers</item>
+        <item>Addis Abeba</item>
+        <item>Alger</item>
         <item>Blantyre</item>
         <item>Brazzaville</item>
-        <item>Cairo</item>
+        <item>Kairo</item>
         <item>Casablanca</item>
         <item>Conakry</item>
         <item>Dakar</item>
@@ -496,7 +516,7 @@
         <item>Harare</item>
         <item>Johannesburg</item>
         <item>Kampala</item>
-        <item>Khartoum</item>
+        <item>Khartum</item>
         <item>Kigali</item>
         <item>Kinshasa</item>
         <item>Lagos</item>
@@ -517,7 +537,7 @@
         <item>Buenos Aires</item>
         <item>Cancun</item>
         <item>Caracas</item>
-        <item>Cayman Islands</item>
+        <item>Caymansaaret</item>
         <item>Chicago</item>
         <item>Costa Rica</item>
         <item>Curaçao</item>
@@ -572,51 +592,51 @@
         <item>Toronto</item>
         <item>Vancouver</item>
         <item>Winnipeg</item>
-        <item>South Pole</item>
+        <item>Etelänapa</item>
         <item>Longyearbyen</item>
         <item>Almaty</item>
         <item>Amman</item>
         <item>Anadyr</item>
         <item>Aqtau</item>
-        <item>Baghdad</item>
+        <item>Bagdad</item>
         <item>Bahrain</item>
         <item>Baku</item>
         <item>Bangkok</item>
         <item>Beirut</item>
-        <item>Calcutta</item>
-        <item>Damascus</item>
+        <item>Kalkutta</item>
+        <item>Damaskos</item>
         <item>Dhaka</item>
         <item>Dubai</item>
         <item>Gaza</item>
         <item>Hebron</item>
         <item>Ho Chi Minh</item>
-        <item>Hong Kong</item>
+        <item>Hongkong</item>
         <item>Jakarta</item>
         <item>Jerusalem</item>
         <item>Kabul</item>
         <item>Karachi</item>
-        <item>Kathmandu</item>
+        <item>Katmandu</item>
         <item>Kuala Lumpur</item>
         <item>Kuwait</item>
-        <item>Macau</item>
+        <item>Macao</item>
         <item>Manila</item>
         <item>Muscat</item>
         <item>Phnom Penh</item>
-        <item>Pyongyang</item>
+        <item>Pjongjang</item>
         <item>Qatar</item>
         <item>Yangon</item>
         <item>Riyadh</item>
-        <item>Seoul</item>
+        <item>Soul</item>
         <item>Shanghai</item>
         <item>Singapore</item>
         <item>Taipei</item>
-        <item>Tehran</item>
+        <item>Teheran</item>
         <item>Tel Aviv</item>
-        <item>Tokyo</item>
+        <item>Tokio</item>
         <item>Ulaanbaatar</item>
         <item>Bermuda</item>
-        <item>Canary Islands</item>
-        <item>Cape Verde</item>
+        <item>Kanariansaaret</item>
+        <item>Kap Verde</item>
         <item>Reykjavik</item>
         <item>Adelaide</item>
         <item>Brisbane</item>
@@ -630,55 +650,55 @@
         <item>Victoria</item>
         <item>Newfoundland</item>
         <item>Saskatchewan</item>
-        <item>Easter Island</item>
+        <item>Pääsiäissaari</item>
         <item>Amsterdam</item>
         <item>Andorra</item>
-        <item>Athens</item>
+        <item>Ateena</item>
         <item>Belfast</item>
-        <item>Belgrade</item>
-        <item>Berlin</item>
+        <item>Belgrad</item>
+        <item>Berliini</item>
         <item>Bratislava</item>
-        <item>Brussels</item>
-        <item>Bucharest</item>
+        <item>Bryssel</item>
+        <item>Bukarest</item>
         <item>Budapest</item>
         <item>Chisinau</item>
-        <item>Copenhagen</item>
+        <item>Kööpenhamina</item>
         <item>Dublin</item>
         <item>Gibraltar</item>
         <item>Helsinki</item>
-        <item>Isle of Man</item>
+        <item>Mansaari</item>
         <item>Istanbul</item>
-        <item>Lisbon</item>
-        <item>London</item>
-        <item>Luxembourg</item>
+        <item>Lissabon</item>
+        <item>Lontoo</item>
+        <item>Luxemburg</item>
         <item>Madrid</item>
         <item>Malta</item>
         <item>Minsk</item>
         <item>Monaco</item>
-        <item>Moscow</item>
+        <item>Moskova</item>
         <item>Oslo</item>
-        <item>Paris</item>
-        <item>Prague</item>
-        <item>Riga</item>
-        <item>Rome</item>
+        <item>Pariisi</item>
+        <item>Praha</item>
+        <item>Riika</item>
+        <item>Rooma</item>
         <item>San Marino</item>
         <item>Sarajevo</item>
         <item>Simferopol</item>
         <item>Skopje</item>
         <item>Sofia</item>
-        <item>Stockholm</item>
-        <item>Tallinn</item>
-        <item>Vatican City</item>
-        <item>Vienna</item>
-        <item>Vilnius</item>
-        <item>Warsaw</item>
+        <item>Tukholma</item>
+        <item>Tallinna</item>
+        <item>Vatikaanivaltio</item>
+        <item>Wien</item>
+        <item>Vilna</item>
+        <item>Varsova</item>
         <item>Zagreb</item>
         <item>Zurich</item>
         <item>Antananarivo</item>
-        <item>Maldives</item>
+        <item>Malediivit</item>
         <item>Mauritius</item>
         <item>Auckland</item>
-        <item>Fiji</item>
+        <item>Fidži</item>
         <item>Guam</item>
         <item>Honolulu</item>
         <item>Kiritimati</item>
@@ -725,21 +745,21 @@
         <item>Mountain View</item>
         <item>Reno</item>
         <item>Doha</item>
-        <item>Beijing</item>
+        <item>Peking</item>
         <item>Mumbai</item>
         <item>Delhi</item>
         <item>Osaka</item>
         <item>Lahore</item>
-        <item>"Sana'a"</item>
+        <item>Sanaa</item>
         <item>Barcelona</item>
-        <item>Munich</item>
-        <item>Milan</item>
+        <item>München</item>
+        <item>Milano</item>
         <item>Frankfurt</item>
         <item>Hanoi</item>
         <item>Ankara</item>
-        <item>Bengaluru</item>
-        <item>Brasília</item>
-        <item>Cape Town</item>
+        <item>Bangalore</item>
+        <item>Brasilia</item>
+        <item>Kapkaupunki</item>
         <item>Islamabad</item>
         <item>Rio de Janeiro</item>
         <item>Ann Arbor</item>
@@ -757,11 +777,11 @@
         <item>Chihuahua</item>
         <item>Gurugram</item>
         <item>Manchester</item>
-        <item>Kyiv</item>
-        <item>St. Petersburg</item>
-        <item>Kraków</item>
+        <item>Kiova</item>
+        <item>Pietari</item>
+        <item>Krakova</item>
         <item>Wroclaw</item>
-        <item>Hamburg</item>
+        <item>Hampuri</item>
         <item>Oulu</item>
         <item>Haifa</item>
         <item>San Juan</item>
@@ -795,14 +815,14 @@
         <item>@drawable/clickbottom01</item>
     </array>
     <string-array name="color_mode_descriptions">
-        <item>Tehostetut värit</item>
-        <item>Ihmissilmän näkemät luonnolliset värit</item>
-        <item>Digitaaliselle sisällölle parhaiten sopivat värit</item>
+        <item>Parannetut värit</item>
+        <item>Luonnolliset värit silmin nähden</item>
+        <item>Digitaaliselle sisällölle optimoidut värit</item>
     </string-array>
     <string-array name="color_mode_names">
-        <item>Voimakas (oletus)</item>
+        <item>Eloisa (oletus)</item>
         <item>Luonnollinen</item>
-        <item>Normaali</item>
+        <item>Standardi</item>
     </string-array>
     <string-array name="color_picker">
         <item>Sinivihreä</item>
@@ -813,16 +833,16 @@
         <item>Punainen</item>
     </string-array>
     <string-array name="common_password_business_names">
-        <item>Lock screen</item>
-        <item>Privacy password</item>
-        <item>Child mode</item>
-        <item>File Manager</item>
-        <item>App lock</item>
-        <item>Second space</item>
+        <item>Lukitusnäyttö</item>
+        <item>Tietosuojasalasana</item>
+        <item>Lapsitila</item>
+        <item>Tiedostonhallinta</item>
+        <item>Sovelluslukko</item>
+        <item>Toinen tila</item>
     </string-array>
     <string-array name="connect_mode_entries">
-        <item>Compatibility</item>
-        <item>High speed</item>
+        <item>Yhteensopivuus</item>
+        <item>Suuri nopeus</item>
     </string-array>
     <string-array name="connect_mode_values">
         <item>0</item>
@@ -855,9 +875,9 @@
         <item>"Viime kuussa: "</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Ei päällä</item>
-        <item>Näytä päällekkäiset alueet</item>
-        <item>Näytä alueet puna-vihersokeille näkyvinä</item>
+        <item>Pois</item>
+        <item>Näytä ylitetyt alueet</item>
+        <item>Näytä alueet kohteelle Deuteranomaly</item>
     </string-array>
     <string-array name="dream_timeout_entries">
         <item>Ei koskaan</item>
@@ -870,15 +890,16 @@
         <item>30 minuuttia</item>
     </string-array>
     <string-array name="eap_ocsp_type">
-        <item>Älä todenna</item>
+        <item>Älä vahvista</item>
         <item>Pyydä varmenteen status</item>
         <item>Vaadi varmenteen status</item>
+        <item>Vaadi kaikkien ei-luotettujen varmenteiden status</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Ei mitään</item>
         <item>Logcat</item>
         <item>Systrace (grafiikka)</item>
-        <item>Kutsu pinoa, jos glGetError tapaht.</item>
+        <item>Kutsupino kohteessa glGetError</item>
     </string-array>
     <string-array name="entries_font_size">
         <item>Pieni</item>
@@ -887,36 +908,41 @@
         <item>Suurin</item>
     </string-array>
     <string-array name="fluency_mode_confirms">
-        <item>Reboot your device to apply this setting?</item>
-        <item>Reboot your device to apply this setting?</item>
+        <item>Käynnistetäänkö laite uudelleen asetuksen sallimiseksi?</item>
+        <item>Käynnistetäänkö laite uudelleen asetuksen sallimiseksi?</item>
     </string-array>
     <string-array name="fluency_mode_entries">
-        <item>Hide system animations</item>
-        <item>Show system animations</item>
+        <item>Piilota järjestelmän animaatiot</item>
+        <item>Näytä järjestelmän animaatiot</item>
     </string-array>
     <string-array name="fluency_mode_summaries">
-        <item>"Speeds up device's performance"</item>
-        <item>"May slow down device's performance"</item>
+        <item>Nopeuttaa laitteen suorituskykyä</item>
+        <item>Saattaa hidastaa laitteen suorituskykyä</item>
     </string-array>
     <string-array name="handy_mode_size_text_entries">
-        <item>4.5 inches</item>
-        <item>4.0 inches</item>
-        <item>3.5 inches</item>
+        <item>4,5 tuumaa</item>
+        <item>4,0 tuumaa</item>
+        <item>3,5 tuumaa</item>
+    </string-array>
+    <string-array name="handy_mode_size_value_entries">
+        <item>4.5</item>
+        <item>4.0</item>
+        <item>3.5</item>
     </string-array>
     <string-array name="haptic_feedback_level_texts">
-        <item>Off</item>
-        <item>Light</item>
-        <item>Medium</item>
-        <item>Strong</item>
+        <item>Pois</item>
+        <item>Kevyt</item>
+        <item>Kohtalainen</item>
+        <item>Vahva</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>Älä koskaan käytä HDCP-tarkistusta</item>
-        <item>Käytä HDCP-tarkistusta vain DRM-suojatulle sisällölle</item>
+        <item>Käytä HDCP-tarkistusta vain digitalisen oikeushallinnan sisältöä varten</item>
         <item>Käytä aina HDCP-tarkistusta</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
         <item>Älä tarkista koskaan</item>
-        <item>Tarkista vain DRM-suojattu sisältö</item>
+        <item>Tarkista vain digitaalisen oikeushallinnan sisältö</item>
         <item>Tarkista aina</item>
     </string-array>
     <string-array name="hide_account_list">
@@ -938,23 +964,23 @@
         <item>Näytä animaatio</item>
     </string-array>
     <string-array name="led_color_entries">
-        <item>Blue</item>
-        <item>Red</item>
-        <item>Yellow</item>
-        <item>Green</item>
-        <item>Cyan</item>
-        <item>White</item>
-        <item>Violet</item>
+        <item>Sininen</item>
+        <item>Punainen</item>
+        <item>Keltainen</item>
+        <item>Vihreä</item>
+        <item>Syaani</item>
+        <item>Valkoinen</item>
+        <item>Violetti</item>
     </string-array>
     <string-array name="led_freq_entries">
-        <item>2 seconds</item>
-        <item>3 seconds</item>
-        <item>4 seconds</item>
-        <item>5 seconds</item>
-        <item>6 seconds</item>
-        <item>7 seconds</item>
-        <item>8 seconds</item>
-        <item>9 seconds</item>
+        <item>2 sekuntia</item>
+        <item>3 sekuntia</item>
+        <item>4 sekuntia</item>
+        <item>5 sekuntia</item>
+        <item>6 sekuntia</item>
+        <item>7 sekuntia</item>
+        <item>8 sekuntia</item>
+        <item>9 sekuntia</item>
     </string-array>
     <string-array name="lock_after_timeout_entries">
         <item>Heti</item>
@@ -968,12 +994,12 @@
         <item>30 minuuttia</item>
     </string-array>
     <string-array name="lock_screen_secure_after_timeout_entries">
-        <item>Immediately</item>
-        <item>After 30 seconds</item>
-        <item>After 1 minute</item>
-        <item>After 2 minutes</item>
-        <item>After 5 minutes</item>
-        <item>Never</item>
+        <item>Heti</item>
+        <item>30 sekunnin kuluttua</item>
+        <item>Minuutin kuluttua</item>
+        <item>2 minuutin kuluttua</item>
+        <item>5 minuutin kuluttua</item>
+        <item>Ei koskaan</item>
     </string-array>
     <array name="long_press">
         <item>@drawable/clickbottom01</item>
@@ -1012,21 +1038,16 @@
         <item>@drawable/clickbottom01</item>
         <item>@drawable/clickbottom01</item>
     </array>
-    <string-array name="long_press_timeout_selector_list_titles">
-        <item>Lyhyt</item>
-        <item>Keskipitkä</item>
-        <item>Pitkä</item>
-    </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Lyhyt</item>
         <item>Keskipitkä</item>
         <item>Pitkä</item>
     </string-array>
     <string-array name="long_press_volume_down_action">
-        <item>None</item>
-        <item>Quick snap mode (photo)</item>
-        <item>Quick snap mode (video)</item>
-        <item>Public transportation shortcuts</item>
+        <item>Ei mitään</item>
+        <item>Pikakuvaustila (kuva)</item>
+        <item>Pikakuvaustila (video)</item>
+        <item>Julkisen liikenteen pikavalinnat</item>
     </string-array>
     <string-array name="max_number_titles">
         <item>6</item>
@@ -1035,20 +1056,20 @@
         <item>3</item>
         <item>2</item>
         <item>1</item>
-        <item>Unlimited</item>
+        <item>Rajoittamaton</item>
     </string-array>
     <string-array name="media_feedback_level_entries">
-        <item>Strong</item>
-        <item>Medium</item>
-        <item>Light</item>
+        <item>Vahva</item>
+        <item>Kohtalainen</item>
+        <item>Kevyt</item>
     </string-array>
     <string-array name="mi1_led_color_entries">
-        <item>Blue</item>
-        <item>Red</item>
-        <item>Green</item>
-        <item>Pink</item>
-        <item>Violet</item>
-        <item>Purple</item>
+        <item>Sininen</item>
+        <item>Punainen</item>
+        <item>Vihreä</item>
+        <item>Vaaleanpunainen</item>
+        <item>Violetti</item>
+        <item>Liila</item>
     </string-array>
     <string-array name="miui_entries_font_size">
         <item>XS</item>
@@ -1059,31 +1080,31 @@
         <item>XXL</item>
     </string-array>
     <string-array name="msd_pc_system">
-        <item>Windows XP and older</item>
-        <item>Windows Vista and newer</item>
+        <item>Windows XP tai vanhempi</item>
+        <item>Windows Vista tai uudempi</item>
         <item>OSX</item>
         <item>Linux</item>
     </string-array>
     <string-array name="msd_pc_system_install_finish_summary">
         <item>@string/msd_pc_system_install_finish_summary_xp</item>
         <item>@string/msd_pc_system_install_finish_summary_vista</item>
-        <item>USB mass storage will open automatically when connected to a computer.</item>
+        <item>USB-massamuisti avautuu automaattisesti, kun laite liitetään tietokoneeseen.</item>
         <item></item>
     </string-array>
     <string-array name="msd_pc_system_install_summary">
-        <item>2. Follow the onscreen instructions</item>
+        <item>2. Seuraa näytön ohjeita</item>
         <item></item>
         <item></item>
         <item></item>
     </string-array>
     <string-array name="msd_pc_system_retry_linux">
-        <item>Install tool: sudo aptitude install mtpfs libfuse-dev libmad0-dev</item>
-        <item>Create a directory: mkdir /media/mtp</item>
-        <item>Confirm user group permissions in the current fuse user group</item>
-        <item>Sign in again</item>
-        <item>Access mounted device: mtpfs /media/mtp via File Manager; same as local folder.</item>
-        <item>"Uninstall device: fusermount -u /media/mtp
-Note: Only for Ubuntu 8.04!"</item>
+        <item>Asennustyökalu: sudo aptitude install mtpfs libfuse-dev libmad0-dev</item>
+        <item>Luo hakemisto: mkdir /media/mtp</item>
+        <item>Vahvista käyttäjäryhmän käyttöoikeudet nykyiseltä käyttäjäryhmältä</item>
+        <item>Kirjaudu uudelleen</item>
+        <item>Käytä asennettua laitetta: mtpfs/media/mtp Tiedostonhallinnan kautta; sama kuin paikallinen kansio.</item>
+        <item>"Poista laite: fusermount -u /media/mtp
+Huomautus: Vain Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="msd_pc_system_retry_mac">
         <item>@string/msd_install_retry_reinstall_mac</item>
@@ -1095,18 +1116,19 @@ Note: Only for Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="msd_pc_system_retry_xp">
         <item>@string/msd_install_retry_connect</item>
-        <item>Reinstall Mi PC Suite</item>
+        <item>Asenna uudelleen Mi PC Suite</item>
     </string-array>
     <string-array name="mvno_type_entries">
         <item>Ei mitään</item>
         <item>SPN</item>
         <item>IMSI</item>
         <item>GID</item>
+        <item>ICCID</item>
     </string-array>
     <string-array name="network_speed_slow_summary">
-        <item>Network is slow due to too much traffic</item>
-        <item>Network is slow due to weak signal strength</item>
-        <item>Moving…</item>
+        <item>Verkko on hidas johtuen liiallisesta liikenteestä</item>
+        <item>Verkko on hidas johtuen signaalin heikkoudesta</item>
+        <item>Siirretään…</item>
     </string-array>
     <string-array name="notch_battery_indicator_style_entries">
         <item>Graafinen</item>
@@ -1184,18 +1206,18 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>720p, 1080p (kaksoisnäyttö)</item>
     </string-array>
     <string-array name="paper_color_values">
-        <item>Full colors</item>
-        <item>Light colors</item>
-        <item>Black and white</item>
+        <item>Täydet värit</item>
+        <item>Vaaleat värit</item>
+        <item>Mustavalkoinen</item>
     </string-array>
     <string-array name="perm_hips_action">
-        <item>Allow</item>
-        <item>Ask</item>
-        <item>Deny</item>
+        <item>Salli</item>
+        <item>Kysy</item>
+        <item>Kiellä</item>
     </string-array>
     <string-array name="phone_call_noise_suppression_title">
-        <item>Single mic noise suppression</item>
-        <item>Dual mic noise suppression</item>
+        <item>Yhden mikrofonin äänenvaimennus</item>
+        <item>Kahden mikrofonin äänenvaimennus</item>
     </string-array>
     <array name="power_click">
         <item>@drawable/powerclick01</item>
@@ -1289,19 +1311,19 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@drawable/powerclick01</item>
     </array>
     <string-array name="power_mode_entries">
-        <item>Performance</item>
-        <item>Balanced</item>
+        <item>Suorituskyky</item>
+        <item>Tasapainotettu</item>
     </string-array>
     <string-array name="preferred_app_entries">
-        <item>Launcher</item>
-        <item>Dial</item>
-        <item>Messaging</item>
-        <item>Browser</item>
-        <item>Camera</item>
-        <item>Gallery</item>
-        <item>Music</item>
-        <item>Email</item>
-        <item>Play video</item>
+        <item>Käynnistysohjelma</item>
+        <item>Soita</item>
+        <item>Viestit</item>
+        <item>Selain</item>
+        <item>Kamera</item>
+        <item>Galleria</item>
+        <item>Musiikki</item>
+        <item>Sähköposti</item>
+        <item>Toista video</item>
     </string-array>
     <string-array name="preferred_network_mode_choices">
         <item>Ensisijaisesti GSM/WCDMA</item>
@@ -1314,7 +1336,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>CDMA/EvDo/GSM/WCDMA</item>
         <item>CDMA + LTE/EvDo</item>
         <item>GSM/WCDMA/LTE</item>
-        <item>LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>Maailmanlaajuinen</item>
         <item>LTE</item>
         <item>LTE/WCDMA</item>
         <item>Vain TDSCDMA</item>
@@ -1331,7 +1353,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>NR/LTE</item>
         <item>NR/LTE/CDMA/EvDo</item>
         <item>NR/LTE/GSM/WCDMA</item>
-        <item>Yleiset</item>
+        <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
         <item>NR/LTE/WCDMA</item>
         <item>NR/LTE/TDSCDMA</item>
         <item>NR/LTE/TDSCDMA/GSM</item>
@@ -1340,8 +1362,8 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
     </string-array>
     <string-array name="priority_storage_entries">
-        <item>Internal storage</item>
-        <item>External storage</item>
+        <item>Sisäinen tallennustila</item>
+        <item>Ulkoinen tallennustila</item>
     </string-array>
     <string-array name="privacy_password_function_specfication_names">
         <item>Viestit</item>
@@ -1379,37 +1401,37 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>\?</item>
     </string-array>
     <string-array name="screen_button_style">
-        <item>Left hand style</item>
-        <item>Right hand style</item>
+        <item>Vasenkätinen tyyli</item>
+        <item>Oikeakätinen tyyli</item>
     </string-array>
     <string-array name="screen_color_title">
-        <item>Warm</item>
-        <item>Standard</item>
-        <item>Cool</item>
+        <item>Lämmin</item>
+        <item>Standardi</item>
+        <item>Viileä</item>
     </string-array>
     <string-array name="screen_key_long_press_timeout">
-        <item>0.5 seconds</item>
-        <item>1 second</item>
-        <item>1.5 seconds</item>
-        <item>2 seconds</item>
+        <item>0,5 sekuntia</item>
+        <item>1 sekunti</item>
+        <item>1,5 sekuntia</item>
+        <item>2 sekuntia</item>
     </string-array>
     <string-array name="screen_key_position_action">
-        <item>Menu button on the left, Back button on the right</item>
-        <item>Back button on the left, Menu button on the right</item>
+        <item>Valikkopainike vasemmalla, Takaisin-painike oikealla</item>
+        <item>Takaisin-painike vasemmalla, valikkopainike oikealla</item>
     </string-array>
     <string-array name="screen_key_press_action">
-        <item>Show recent apps tray</item>
-        <item>Show menu</item>
+        <item>Näytä viimeisimmät sovellukset</item>
+        <item>Näytä valikko</item>
     </string-array>
     <string-array name="screen_optimize_summary">
-        <item>Adjust colors based on the content displayed</item>
-        <item>Always enhance colors</item>
-        <item>Contrast will remain constant</item>
+        <item>Säädä värejä näytetyn sisällön perusteella</item>
+        <item>Korosta värejä aina</item>
+        <item>Kontrasti pysyy vakiona</item>
     </string-array>
     <string-array name="screen_optimize_title">
-        <item>Vivid (recommended)</item>
-        <item>Saturated</item>
-        <item>Standard</item>
+        <item>Eloisa (suositeltava)</item>
+        <item>Kyllästetty</item>
+        <item>Standardi</item>
     </string-array>
     <string-array name="screen_resolution_format">
         <item>@string/screen_resolution_ultrahigh_format</item>
@@ -1422,17 +1444,17 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>720p</item>
     </string-array>
     <string-array name="screen_saturation_title">
-        <item>Brilliant</item>
-        <item>Standard</item>
+        <item>Loistava</item>
+        <item>Standardi</item>
     </string-array>
     <string-array name="screen_timeout_entries">
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>Never</item>
+        <item>15 sekuntia</item>
+        <item>30 sekuntia</item>
+        <item>1 minuutti</item>
+        <item>2 minuuttia</item>
+        <item>5 minuuttia</item>
+        <item>10 minuuttia</item>
+        <item>Ei koskaan</item>
     </string-array>
     <string-array name="screen_zoom_level">
         <item>XS</item>
@@ -1445,54 +1467,54 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Salli aina</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Ei päällä</item>
-        <item>64 kt</item>
-        <item>256 kt</item>
+        <item>Pois</item>
+        <item>64 Kt</item>
+        <item>256 Kt</item>
         <item>1 Mt</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Ei päällä</item>
-        <item>64 kt / lokipuskuri</item>
-        <item>256 kt / lokipuskuri</item>
-        <item>1 Mt / lokipuskuri</item>
-        <item>4 Mt / lokipuskuri</item>
-        <item>8 megatavua / lokipuskuri</item>
+        <item>Pois</item>
+        <item>64 Kt lokipuskuria kohden</item>
+        <item>256 Kt lokipuskuria kohden</item>
+        <item>1 Mt lokipuskuria kohden</item>
+        <item>4 Mt lokipuskuria kohden</item>
+        <item>16 Mt lokipuskuria kohden</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Ei päällä</item>
-        <item>64 kt</item>
-        <item>256 kt</item>
+        <item>Pois</item>
+        <item>64 Kt</item>
+        <item>256 Kt</item>
         <item>1 Mt</item>
         <item>4 Mt</item>
-        <item>8 megatavua</item>
+        <item>16 Mt</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
-        <item>Ei päällä</item>
+        <item>Pois</item>
         <item>Kaikki lokipuskurit</item>
         <item>Kaikki paitsi radiolokipuskurit</item>
-        <item>vain kernel-lokipuskuri</item>
+        <item>Vain ytimen lokipuskuri</item>
     </string-array>
     <string-array name="select_logpersist_titles">
-        <item>Ei päällä</item>
+        <item>Pois</item>
         <item>Kaikki</item>
         <item>Kaikki paitsi radio</item>
-        <item>vain kernel</item>
+        <item>Vain ydin</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Pois</item>
-        <item>Piirrä ei-suorakulm. leikealue sinisellä</item>
-        <item>Korosta testatut piirtokom. vihreällä</item>
+        <item>Piirrä suorakulmion muotoinen leikealue sinisellä</item>
+        <item>Korosta testatut piirustuskomennot vihreällä</item>
     </string-array>
     <string-array name="silent_entries">
         <item>@string/standard</item>
         <item>@string/total</item>
     </string-array>
     <string-array name="silent_mode_duration_text">
-        <item>Always</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>8 hours</item>
+        <item>Aina</item>
+        <item>30 minuuttia</item>
+        <item>1 tunti</item>
+        <item>2 tuntia</item>
+        <item>8 tuntia</item>
     </string-array>
     <string-array name="silent_mode_duration_value">
         <item>0</item>
@@ -1506,17 +1528,12 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>1</item>
     </string-array>
     <string-array name="startup_hips_action">
-        <item>Allow</item>
-        <item>Deny</item>
+        <item>Salli</item>
+        <item>Kiellä</item>
     </string-array>
     <string-array name="swipe_direction_values">
         <item>1</item>
         <item>0</item>
-    </string-array>
-    <string-array name="tabs_taptic_detail">
-        <item>Crisp</item>
-        <item>Base</item>
-        <item>Pop</item>
     </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
@@ -1543,10 +1560,36 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
     </array>
+    <array name="three_long_press">
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
     <string-array name="time_format_entries">
-        <item>12-hour 1:00 PM</item>
-        <item>24-hour 13:00</item>
-        <item>Auto (based on system language)</item>
+        <item>12 tuntia 1:00 PM</item>
+        <item>24 tuntia 13:00</item>
+        <item>Automaattinen (perustuu järjestelmäkieleen)</item>
     </string-array>
     <string-array name="timezone_filters">
         <item>Amerikka</item>
@@ -1558,14 +1601,14 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Kaikki</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Pois päältä</item>
-        <item>Ruudulla palkkeina</item>
+        <item>Pois</item>
+        <item>Palkkeina näytöllä</item>
         <item>Kohteessa adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="traffic_balance_entries">
-        <item>Off</item>
-        <item>Regular</item>
-        <item>Extreme</item>
+        <item>Pois</item>
+        <item>Säännöllinen</item>
+        <item>Äärimmäinen</item>
     </string-array>
     <string-array name="traffic_balance_values">
         <item>0</item>
@@ -1577,23 +1620,23 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>"Wi-Fin käyttö "</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Animaatio pois käytöstä</item>
-        <item>Animaatioasteikko 0,5-kertainen</item>
-        <item>Animaatioasteikko 1-kertainen</item>
-        <item>Animaatioasteikko 0,5-kertainen</item>
-        <item>Animaatioasteikko 2-kertainen</item>
-        <item>Animaatioasteikko 5-kertainen</item>
-        <item>Animaatioasteikko 10-kertainen</item>
+        <item>Animaatio pois</item>
+        <item>Animaation skaalaus .5x</item>
+        <item>Animaation skaalaus 1x</item>
+        <item>Animaation skaalaus 1.5x</item>
+        <item>Animaation skaalaus 2x</item>
+        <item>Animaation skaalaus 5x</item>
+        <item>Animaation skaalaus 10x</item>
     </string-array>
     <string-array name="true_color_screen_optimize_summary">
-        <item>Adjust colors based on the content displayed</item>
-        <item>Always enhance colors</item>
-        <item>Restore standard color of screen content with color calibration</item>
+        <item>Säädä värejä näytetyn sisällön perusteella</item>
+        <item>Korosta värejä aina</item>
+        <item>Palauta näytön sisällön vakioväri värikalibroinnilla</item>
     </string-array>
     <string-array name="true_color_screen_optimize_title">
-        <item>Vivid (recommended)</item>
-        <item>Saturated</item>
-        <item>Original color</item>
+        <item>Eloisa (suositeltava)</item>
+        <item>Kyllästetty</item>
+        <item>Alkuperäinen väri</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>Hyvin hidas</item>
@@ -1602,16 +1645,27 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Nopea</item>
         <item>Nopeampi</item>
         <item>Hyvin nopea</item>
-        <item>Nopea</item>
-        <item>Erittäin nopea</item>
+        <item>Pikainen</item>
+        <item>Hyvin pikainen</item>
         <item>Nopein</item>
     </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
     <string-array name="tts_rate_xunfei_entries">
-        <item>Very slow</item>
-        <item>Slow</item>
-        <item>Normal</item>
-        <item>Fast</item>
-        <item>Faster</item>
+        <item>Hyvin hidas</item>
+        <item>Hidas</item>
+        <item>Normaali</item>
+        <item>Nopea</item>
+        <item>Nopeampi</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
         <item>Käyttöaika</item>
@@ -1619,23 +1673,23 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Sovelluksen nimi</item>
     </string-array>
     <string-array name="usb_configuration_titles">
-        <item>Lataaminen</item>
-        <item>MTP (median siirtoprotokolla)</item>
-        <item>PTP (kuvan siirtoprotokolla)</item>
-        <item>RNDIS (USB-ethernet)</item>
-        <item>Äänilähde</item>
+        <item>Lataus</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Audiolähde</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="usb_connection_mode_entries">
-        <item>Ask upon connection</item>
-        <item>Charge only</item>
-        <item>Mount SD card</item>
+        <item>Kysy yhdistettäessä</item>
+        <item>Ainoastaan lataus</item>
+        <item>Aseta SD-kortti</item>
     </string-array>
     <string-array name="vip_mode_text">
-        <item>From anyone</item>
-        <item>From contacts only</item>
-        <item>From starred contacts only</item>
-        <item>None</item>
+        <item>Keneltä tahansa</item>
+        <item>Vain yhteystiedoista</item>
+        <item>Vain tähdellä merkityistä yhteystiedoista</item>
+        <item>Ei mitään</item>
     </string-array>
     <string-array name="vip_mode_value">
         <item>0</item>
@@ -1667,18 +1721,24 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>IKEv2- ja IPSec-pohjainen VPN varmenteilla</item>
     </string-array>
     <string-array name="wfd_status">
-        <item>Starting session…</item>
-        <item>Session started</item>
-        <item>Turning off service…</item>
-        <item>"Can't start session"</item>
-        <item>Timed out. Retrying…</item>
-        <item>Device connected</item>
+        <item>Aloitetaan istuntoa…</item>
+        <item>Istunto aloitettiin</item>
+        <item>Sammutetaan palvelua…</item>
+        <item>Istuntoa ei voi aloittaa</item>
+        <item>Aika loppui. Yritetään uudelleen…</item>
+        <item>Laite yhdistetty</item>
     </string-array>
     <string-array name="whetstone_level_entries">
-        <item>Off</item>
-        <item>Low</item>
-        <item>Middle</item>
-        <item>High</item>
+        <item>Pois</item>
+        <item>Matala</item>
+        <item>Kohtalainen</item>
+        <item>Korkea</item>
+    </string-array>
+    <string-array name="whetstone_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
     <string-array name="wide_notch_battery_indicator_style_entries">
         <item>Graafinen</item>
@@ -1707,9 +1767,9 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Mobiili</item>
     </string-array>
     <string-array name="wifi_connect_type_entries">
-        <item>Connect automatically</item>
-        <item>Connect manually</item>
-        <item>Always ask</item>
+        <item>Yhdistä automaattisesti</item>
+        <item>Yhdistä manuaalisesti</item>
+        <item>Kysy aina</item>
     </string-array>
     <string-array name="wifi_eap_entries">
         <item>PEAP</item>
@@ -1724,14 +1784,6 @@ Note: Only for Ubuntu 8.04!"</item>
     <string-array name="wifi_ip_settings">
         <item>DHCP</item>
         <item>Staattinen</item>
-    </string-array>
-    <string-array name="wifi_link_turbo_mode_entries">
-        <item>Auxiliary</item>
-        <item>Full</item>
-    </string-array>
-    <string-array name="wifi_link_turbo_mode_summary_entries">
-        <item>Boost speed using mobile data only when Wi-Fi signal is poor</item>
-        <item>Combine Wi-Fi and mobile data to boost connection speed</item>
     </string-array>
     <string-array name="wifi_metered_entries">
         <item>Tunnista automaattisesti</item>
@@ -1762,8 +1814,8 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>"AKA'"</item>
     </string-array>
     <string-array name="wifi_privacy_entries">
-        <item>Use randomized MAC</item>
-        <item>Use device MAC</item>
+        <item>Käytä satunnaistettua MAC:ta</item>
+        <item>Käytä laitteen MAC:ia</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
         <item>Ei mitään</item>
@@ -1778,8 +1830,8 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Erinomainen</item>
     </string-array>
     <string-array name="wifi_ssid_type_entries">
-        <item>Connect automatically</item>
-        <item>Connect manually</item>
+        <item>Yhdistä automaattisesti</item>
+        <item>Yhdistä manuaalisesti</item>
     </string-array>
     <string-array name="wifi_status">
         <item></item>
@@ -1815,27 +1867,13 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
-    <string-array name="wifitrackerlib_wifi_status">
-        <item></item>
-        <item>Etsitään…</item>
-        <item>Yhdistetään…</item>
-        <item>Todennetaan…</item>
-        <item>Haetaan IP-osoitetta…</item>
-        <item>Yhdistetty</item>
-        <item>Jäädytetty</item>
-        <item>Katkaistaan yhteyttä…</item>
-        <item>Yhteys katkaistu</item>
-        <item>Epäonnistui</item>
-        <item>Estetty</item>
-        <item>Vältetään huonoa yhteyttä tilapäisesti</item>
-    </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Animaatio pois käytöstä</item>
-        <item>Animaatioasteikko 0,5-kertainen</item>
-        <item>Animaatioasteikko 1-kertainen</item>
-        <item>Animaatioasteikko 1,5-kertainen</item>
-        <item>Animaatioasteikko 2-kertainen</item>
-        <item>Animaatioasteikko 5-kertainen</item>
-        <item>Animaatioasteikko 10-kertainen</item>
+        <item>Animaatio pois</item>
+        <item>Animaation skaalaus .5x</item>
+        <item>Animaation skaalaus 1x</item>
+        <item>Animaation skaalaus 1.5x</item>
+        <item>Animaation skaalaus 2x</item>
+        <item>Animaation skaalaus 5x</item>
+        <item>Animaation skaalaus 10x</item>
     </string-array>
 </resources>

@@ -23,24 +23,24 @@
         <item>100 %</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>Käytä järjestelmän valintaa (oletus).</item>
         <item>16 bittiä/näyte</item>
         <item>24 bittiä/näyte</item>
         <item>32 bittiä/näyte</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>Käytä järjestelmän valintaa (oletus).</item>
         <item>16 bittiä/näyte</item>
         <item>24 bittiä/näyte</item>
         <item>32 bittiä/näyte</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>Käytä järjestelmän valintaa (oletus).</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>Käytä järjestelmän valintaa (oletus).</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
@@ -57,21 +57,21 @@
         <item>Paras mahdollinen (mukautuva siirtonopeus)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>Käytä järjestelmän valintaa (oletus).</item>
         <item>44,1 kHz</item>
         <item>48,0 kHz</item>
         <item>88,2 kHz</item>
         <item>96,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>Käytä järjestelmän valintaa (oletus).</item>
         <item>44,1 kHz</item>
         <item>48,0 kHz</item>
         <item>88,2 kHz</item>
         <item>96,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>Käytä järjestelmän valintaa (oletus).</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ ‑ääni</item>
@@ -79,7 +79,7 @@
         <item>LDAC</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>Käytä järjestelmän valintaa (oletus).</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ ‑ääni</item>
@@ -93,15 +93,15 @@
         <item>, aktiivinen (puhelin)</item>
     </string-array>
     <string-array name="bluetooth_avrcp_version_values">
-        <item>avrcp15</item>
-        <item>avrcp13</item>
         <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.5 (oletus)</item>
+        <item>AVRCP 1.4 (oletus)</item>
         <item>AVRCP 1.3</item>
-        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
     <string-array name="bluetooth_map_version_values">
@@ -163,7 +163,7 @@
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>Älä koskaan käytä HDCP-tarkistusta</item>
-        <item>Käytä HDCP-tarkistusta vain DRM-suojatulle sisällölle</item>
+        <item>Käytä HDCP-tarkistusta vain DRM-suojatulle sisällölle.</item>
         <item>Käytä aina HDCP-tarkistusta</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
@@ -261,7 +261,7 @@
         <item>256 kt / lokipuskuri</item>
         <item>1 Mt / lokipuskuri</item>
         <item>4 Mt / lokipuskuri</item>
-        <item>8 megatavua / lokipuskuri</item>
+        <item>16 Mt / lokipuskuri</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Ei päällä</item>
@@ -269,7 +269,7 @@
         <item>256 kt</item>
         <item>1 Mt</item>
         <item>4 Mt</item>
-        <item>8 megatavua</item>
+        <item>16 Mt</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Ei päällä</item>
@@ -350,20 +350,6 @@
         <item>Yhdistetty verkkoon %1$s</item>
         <item>Pidätetty</item>
         <item>Katkaistaan yhteys verkosta %1$s…</item>
-        <item>Yhteys katkaistu</item>
-        <item>Epäonnistui</item>
-        <item>Estetty</item>
-        <item>Vältetään huonoa yhteyttä tilapäisesti</item>
-    </string-array>
-    <string-array name="wifitrackerlib_wifi_status">
-        <item></item>
-        <item>Etsitään…</item>
-        <item>Yhdistetään…</item>
-        <item>Todennetaan…</item>
-        <item>Haetaan IP-osoitetta…</item>
-        <item>Yhdistetty</item>
-        <item>Jäädytetty</item>
-        <item>Katkaistaan yhteyttä…</item>
         <item>Yhteys katkaistu</item>
         <item>Epäonnistui</item>
         <item>Estetty</item>

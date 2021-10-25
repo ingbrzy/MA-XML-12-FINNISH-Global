@@ -187,7 +187,7 @@ siirtymällä %s toisella yhdistetyllä laitteella."</string>
     <string name="pre_installed_apps">Esiasennetut sovellukset</string>
     <string name="privacy_policy">Tietosuojakäytäntö</string>
     <string name="privacy_station_title">Yksityisyys Xiaomissa</string>
-    <string name="sar">RF-altistustiedot</string>
+    <string name="sar">RF Exposure Information</string>
     <string name="saturday">Lauantai</string>
     <string name="saturday_short">La</string>
     <string name="saturday_shortest">La</string>

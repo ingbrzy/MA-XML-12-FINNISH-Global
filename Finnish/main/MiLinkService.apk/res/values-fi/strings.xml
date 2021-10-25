@@ -31,7 +31,6 @@
     <string name="actionbar_button_up_description">Takaisin</string>
     <string name="afternoon">Iltapäivä</string>
     <string name="am">ap.</string>
-    <string name="app_name">Peilaus</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -66,9 +65,9 @@
     <string name="dialog_miplay_permission_message">Salli kohteen Casting nauhoittaa ääntä, käyttää tiedostoja sisäisessä tallennustilassa ja käyttää sijaintiasi voidaksesi käyttää tätä ominaisuutta normaalisti. Napauta \"Asetukset\" ja valitse \"Sovelluksen käyttöoikeudet\" jatkaaksesi.</string>
     <string name="dialog_miplay_permission_positive">Asetukset</string>
     <string name="dialog_miplay_permission_title">Käyttöoikeuksia vaaditaan</string>
-    <string name="dialog_nfc_cast_wifi_off">Kytke WLAN päälle, jotta peilaus voi tapahtua kohdetta NFC käyttämällä. Ota nyt käyttöön?</string>
-    <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Yhdistä mobiililaite ja televisio samaan Wi-Fi-verkkoon.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Joissakin televisiomalleissa tämä ominaisuus on käytettävissä vain, kun näytön peilaus on käytössä. Katso &lt;a href=milink://com.milink.service/specification>\"Ohje\"&lt;/a> tutustuaksesi lisää.&lt;/Data></string>
-    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
+    <string name="dialog_nfc_cast_wifi_off">Kytke Wi-Fi päälle, jotta peilaus voi tapahtua kohdetta NFC käyttämällä. Ota nyt käyttöön?</string>
+    <string name="dialog_no_device_message">&lt;Data>1. Kytke sekä puhelin että televisio samaan Wi-Fi-verkkoon.&lt;br>&lt;br>2. Joillakin TV-malleilla tämä ominaisuus on käytettävissä vain, kun näytönpeilaus on käytössä. Katso &lt;a href=milink://com.milink.service/specification>\"Ohje\"&lt;/a> tutustuaksesi lisää.&lt;/Data></string>
+    <string name="dialog_no_device_message_china">&lt;Data>1. Kytke sekä puhelin että televisio samaan WLAN-verkkoon.&lt;br>&lt;br>2. Joillakin TV-malleilla tämä ominaisuus on käytettävissä vain, kun näytönpeilaus on käytössä. Katso &lt;a href=milink://com.milink.service/specification>\"Ohje\"&lt;/a> tutustuaksesi lisää.&lt;/Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Suoratoista valokuvia, videoita tai musiikkia</string>
     <string name="dialog_open_wifi_bt">Ota käyttöön</string>
@@ -76,17 +75,17 @@
 Katso ohjeita, jos yhteyden muodostamisessa on ongelmia."</string>
     <string name="dialog_recent_connected">Viimeaikaiset</string>
     <string name="dialog_retry">Yritä uudelleen</string>
-    <string name="dialog_scan_message">"%1$d. Yhdistä mobiililaite ja televisio samaan Wi-Fi-verkkoon.
+    <string name="dialog_scan_message">"1. Kytke sekä puhelin että televisio samaan Wi-Fi-verkkoon.
 
-%2$d. Katso \"Ohje\" saadaksesi lisätietoja."</string>
-    <string name="dialog_scan_message_china">"%1$d. Yhdistä mobiililaite ja televisio samaan WLAN-verkkoon.
+2. Joillakin TV-malleilla tämä ominaisuus on käytettävissä vain, kun näytönpeilaus on käytössä. Katso \"Ohje\" tutustuaksesi lisää."</string>
+    <string name="dialog_scan_message_china">"1. Kytke sekä puhelin että televisio samaan WLAN-verkkoon.
 
-%2$d. Katso \"Ohje\" saadaksesi lisätietoja."</string>
+2. Joillakin TV-malleilla tämä ominaisuus on käytettävissä vain, kun näytönpeilaus on käytössä. Katso \"Ohje\" tutustuaksesi lisää."</string>
     <string name="dialog_scanning_device">Etsitään lähistöllä olevia laitteita…</string>
     <string name="dialog_scanning_precondition">Ota langaton näyttö käyttöön puhelimen Wi-Fi:n ja Bluetoothin avulla.</string>
     <string name="dialog_scanning_precondition_new_china">Ota WLAN, Bluetooth ja sijaintipalvelut käyttöön, jotta voit käyttää peilausta. Otetaanko nyt käyttöön?</string>
     <string name="dialog_scanning_precondition_new_global">Ota Wi-Fi, Bluetooth ja sijaintipalvelut käyttöön, jotta voit käyttää peilausta. Otetaanko nyt käyttöön?</string>
-    <string name="dialog_select_tv">Valitse laite (%1$d)</string>
+    <string name="dialog_select_tv">Valitse laite (%d)</string>
     <string name="dialog_show_help">Ohje</string>
     <string name="disconnect">Lopeta peilaus</string>
     <string name="early_morning">Aamu</string>
@@ -96,58 +95,42 @@ Katso ohjeita, jos yhteyden muodostamisessa on ongelmia."</string>
     <string name="eras_bc">eKr.</string>
     <string name="evening">Iltapäivä</string>
     <string name="expand_button_title">Lisäasetukset</string>
-    <string name="fmt_chinese_date">N月e</string>
-    <string name="fmt_date">D</string>
-    <string name="fmt_date_day">d</string>
+    <string name="fmt_date_day">dd</string>
     <string name="fmt_date_long_month">MMMM</string>
-    <string name="fmt_date_long_month_day">d MMMM</string>
+    <string name="fmt_date_long_month_day">d. MMMM</string>
     <string name="fmt_date_long_year_month">MMMM yyyy</string>
     <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
-    <string name="fmt_date_numeric_day">d</string>
-    <string name="fmt_date_numeric_month">M</string>
-    <string name="fmt_date_numeric_month_day">d-M</string>
+    <string name="fmt_date_numeric_day">dd</string>
+    <string name="fmt_date_numeric_month">MM</string>
+    <string name="fmt_date_numeric_month_day">d.M</string>
     <string name="fmt_date_numeric_year">yyyy</string>
-    <string name="fmt_date_numeric_year_month">M.yyyy</string>
+    <string name="fmt_date_numeric_year_month">MM/yyyy</string>
     <string name="fmt_date_numeric_year_month_day">d.M.yyyy</string>
-    <string name="fmt_date_short_month">MMM</string>
-    <string name="fmt_date_short_month_day">d MMM</string>
+    <string name="fmt_date_short_month">MM</string>
+    <string name="fmt_date_short_month_day">d.M</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
-    <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
-    <string name="fmt_date_time">D T</string>
-    <string name="fmt_date_time_timezone">D T z</string>
-    <string name="fmt_date_timezone">D z</string>
+    <string name="fmt_date_short_year_month_day">d.M.yyyy</string>
     <string name="fmt_date_year">yyyy</string>
-    <string name="fmt_time">T</string>
-    <string name="fmt_time_12hour">"'klo' h"</string>
-    <string name="fmt_time_12hour_minute">h:mm</string>
-    <string name="fmt_time_12hour_minute_pm">h:mm a</string>
-    <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
-    <string name="fmt_time_12hour_minute_second_millis">h:mm:ss.S</string>
-    <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
-    <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
-    <string name="fmt_time_12hour_pm">ha</string>
-    <string name="fmt_time_24hour">"'Klo' h"</string>
-    <string name="fmt_time_24hour_minute">H:mm</string>
-    <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
-    <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
-    <string name="fmt_time_millis">"S'ms'"</string>
-    <string name="fmt_time_minute">"m'min'"</string>
-    <string name="fmt_time_minute_second">"m'min' s's'"</string>
-    <string name="fmt_time_minute_second_millis">"m'min' s.S's'"</string>
-    <string name="fmt_time_second">"s's'"</string>
-    <string name="fmt_time_second_millis">"s.S's'"</string>
-    <string name="fmt_time_timezone">T z</string>
-    <string name="fmt_timezone">z</string>
-    <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">W, D</string>
-    <string name="fmt_weekday_date_time">W, D T</string>
-    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
-    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_time_12hour">hh</string>
+    <string name="fmt_time_12hour_minute">hh:mm</string>
+    <string name="fmt_time_12hour_minute_pm">hh:mm aa</string>
+    <string name="fmt_time_12hour_minute_second">hh:mm:ss</string>
+    <string name="fmt_time_12hour_minute_second_millis">hh:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_millis_pm">hh:mm:ss.S aa</string>
+    <string name="fmt_time_12hour_minute_second_pm">hh:mm:ss aa</string>
+    <string name="fmt_time_12hour_pm">hh aa</string>
+    <string name="fmt_time_24hour">H</string>
+    <string name="fmt_time_24hour_minute">HH:mm</string>
+    <string name="fmt_time_24hour_minute_second">HH:mm:s</string>
+    <string name="fmt_time_24hour_minute_second_millis">HH:mm:ss.S</string>
+    <string name="fmt_time_millis">S</string>
+    <string name="fmt_time_minute">m</string>
+    <string name="fmt_time_minute_second">m:s</string>
+    <string name="fmt_time_minute_second_millis">m:s.S</string>
+    <string name="fmt_time_second">s</string>
+    <string name="fmt_time_second_millis">s.S</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
-    <string name="fmt_weekday_time">W T</string>
-    <string name="fmt_weekday_time_timezone">W T z</string>
-    <string name="fmt_weekday_timezone">W z</string>
     <string name="friday">Perjantai</string>
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
@@ -168,34 +151,30 @@ Katso ohjeita, jos yhteyden muodostamisessa on ongelmia."</string>
     <string name="help_page_text_02">Mikä on peilaaminen?</string>
     <string name="help_page_text_03">Peilaaminen heijastaa kohteita puhelimesi näytöltä suuremmalle ulkoiselle näytölle. Sen avulla voit jakaa kuvia ja videoita ystävien ja perheen kanssa käyttämättä mobiilidataa.</string>
     <string name="help_page_text_04">Kuinka lähetän kohteita suuremmalle näytölle?</string>
-    <string name="help_page_text_05">Vaihe %1$d: Tarkista laitteesi ja verkkoympäristösi</string>
-    <string name="help_page_text_06">"%1$d. Xiaomi-televisiot, digisovittimet, projektorit:
-Kytke mobiililaite ja ulkoinen näyttö samaan WLAN-verkkoon parhaan mahdollisen tehon saamiseksi. Jos ne on yhdistetty eri verkkoihin, ulkoisen näytön etsiminen ja yhdistäminen voi viedä enemmän aikaa.
-Huomautus: Vanhemmat televisiomallit eivät ehkä tue suoratoistoa eri verkoissa.
-%2$d. Jos käytät televisioita, digisovittimia tai muiden merkkien projektoreita, yhdistä mobiililaite ja ulkoinen näyttö samaan WLAN-verkkoon.
-Jos kahta laitetta ei voi yhdistää samaan verkkoon, ota Miracast käyttöön ulkoisessa näytössä. Miracast-toimintojen nimet voivat vaihdella."</string>
-    <string name="help_page_text_06_global">"%1$d. Xiaomi-televisiot, digisovittimet, projektorit:
-Kytke mobiililaite ja ulkoinen näyttö samaan Wi-Fi-verkkoon parhaan mahdollisen tehon saamiseksi. Jos ne on yhdistetty eri verkkoihin, ulkoisen näytön etsiminen ja yhdistäminen voi viedä enemmän aikaa.
-Huomautus: Vanhemmat televisiomallit eivät ehkä tue suoratoistoa eri verkoissa.
-%2$d. Jos käytät televisioita, digisovittimia tai muiden merkkien projektoreita, yhdistä mobiililaite ja ulkoinen näyttö samaan Wi-Fi-verkkoon.
-Jos kahta laitetta ei voi yhdistää samaan verkkoon, ota Miracast käyttöön ulkoisessa näytössä. Miracast-toimintojen nimet voivat vaihdella."</string>
-    <string name="help_page_text_08">Vaihe %1$d: Ota suoratoisto käyttöön</string>
-    <string name="help_page_text_09">Napauta \"Peilaa\" -vaihtoehtoa puhelimen ilmoitusalueella. Ota käyttöön sekä WLAN että Bluetooth saadaksesi vakaampi yhteys.</string>
-    <string name="help_page_text_09_global">Napauta \"Peilaa\" -vaihtoehtoa laitteesi ilmoitusalueella. Ota käyttöön sekä Wi-Fi että Bluetooth saadaksesi vakaampi yhteys.</string>
-    <string name="help_page_text_10">Jos haluat lähettää valokuvia, videoita, pelejä tai esityksiä, voit käyttää vastaavien sovellusten sisäänrakennettuja suoratoistotoimintoja.</string>
-    <string name="help_page_text_11">Vaihe %1$d: Valitse laite</string>
+    <string name="help_page_text_05">Vaihe 1: Tarkista laitteet ja verkkoympäristö</string>
+    <string name="help_page_text_06">"1. Sinun ei tarvitse muodostaa yhteyttä Internettiin, jos haluat lähettää jotain Mi-puhelimesta Mi-televisioon.
+2. Jos et pysty muodostamaan yhteyttä kahden laitteen välille, yritä yhdistää molemmat samaan Wi-Fi-verkkoon."</string>
+    <string name="help_page_text_06_global">"1. Mi-televisiot, Mi-sovittimet ja Mi-projektorit:
+Yhdistä sekä puhelin että ulkoinen näyttö samaan Wi-Fi-verkkoon parhaan mahdollisen vaikutuksen saavuttamiseksi. Jos ne on kytketty eri verkkoihin, ulkoisen näytön löytäminen ja yhteyden muodostaminen voi viedä enemmän aikaa.
+Huomio: Vanhemmat Mi-televisiot eivät ehkä tue suoratoistoa eri verkoissa
+2. Jos käytät muiden merkkien televisioita, digisovittimia tai projektoria, kytke puhelin ja ulkoinen näyttö samaan Wi-Fi-verkkoon.
+Jos kahta laitetta ei voida yhdistää samaan verkkoon, kytke Miracast ulkoisella näytöllä. Miracast-toimintojen nimeäminen voi vaihdella."</string>
+    <string name="help_page_text_08">Vaihe 2: Ota peilaus käyttöön</string>
+    <string name="help_page_text_09">Napauta \"Peilaa\" -vaihtoehtoa puhelimen ilmoitusalueella. Ota käyttöön sekä Wi-Fi että Bluetooth saadaksesi vakaampi yhteys.</string>
+    <string name="help_page_text_10">Jos haluat lähettää kohteita galleriasta tai Mi Videosta, voit käyttää sisäänrakennettuja peilausominaisuuksia näissä sovelluksissa.</string>
+    <string name="help_page_text_11">Vaihe 3: Valitse laite</string>
     <string name="help_page_text_12">Aloita peilaus valitsemalla ulkoinen laite käytettävissä olevien laitteiden luettelosta.</string>
     <string name="help_page_text_13">Etkö voi muodostaa yhteyttä ulkoiseen laitteeseen?</string>
-    <string name="help_page_text_14">"%1$d. If you want to use a Xiaomi device, but can't find it in the list of available devices, try the following:
-Connect both your mobile device and the external monitor (e.g. your TV) to the same network, or connect the external monitor to your mobile device's hotspot. If there aren't any networks available or you can't connect both devices to the same network, check whether the casting features on your external monitor are up to date, turn on Bluetooth both on your mobile device and the external monitor, and turn on Miracast on your TV.
-%2$d. If you're casting on a Xiaomi device for the first time, you need to complete verification.
-%3$d. If you want to use a non-Xiaomi device, but can't find it in the list of available devices, try the following:
-Connect both your mobile device and the external monitor (e.g. your TV) to the same network, or connect the external monitor to your mobile device's hotspot. If this doesn't help, install the HappyCast app on your TV and follow the instructions."</string>
-    <string name="help_page_text_14_global">"%1$d. Jos haluat käyttää Xiaomi-laitetta, mutta et löydä sitä käytettävissä olevien laitteiden luettelosta, kokeile seuraavaa:
-Kytke sekä mobiililaitteesi että ulkoinen näyttö (esim. televisio) samaan verkkoon tai kytke ulkoinen näyttö mobiililaitteesi tukiasemaan. Jos käytettävissä ei ole verkkoja tai et voi yhdistää molempia laitteita samaan verkkoon, tarkista, ovatko ulkoisen näytön peilausominaisuudet ajan tasalla, kytke sekä mobiililaitteesi että ulkoisen näytön Bluetooth päälle, ja kytke Miracast päälle televisiossa.
-%2$d. Jos peilaat Xiaomi-laitteelle ensimmäistä kertaa, sinun on suoritettava vahvistus.
-%3$d. Jos haluat käyttää muuta kuin Xiaomi-laitetta, mutta et löydä sitä käytettävissä olevien laitteiden luettelosta, kokeile seuraavaa:
-Kytke sekä mobiililaitteesi että ulkoinen näyttö (esim. televisio) samaan verkkoon tai kytke ulkoinen näyttö mobiililaitteesi tukiasemaan."</string>
+    <string name="help_page_text_14">"1. Jos haluat käyttää Xiaomi-laitetta, mutta et löydä sitä käytettävissä olevien laitteiden luettelosta, kokeile seuraavaa:
+Kytke sekä puhelin että ulkoinen näyttö (esim. televisio) samaan Wi-Fi-verkkoon tai kytke ulkoinen näyttö puhelimen tukiasemaan. Jos käytettävissä ei ole Wi-Fi-verkkoja tai et voi yhdistää molempia laitteita samaan verkkoon, tarkista, ovatko ulkoisen näytön peilausominaisuudet ajan tasalla, kytke sekä puhelimen että ulkoisen näytön Bluetooth päälle, ja kytke Miracast päälle televisiossa. 
+2. Jos peilaat Xiaomi-laitteelle ensimmäistä kertaa, sinun on suoritettava vahvistus.          
+3. Jos haluat käyttää muuta kuin Xiaomi-laitetta, mutta et löydä sitä käytettävissä olevien laitteiden luettelosta, kokeile seuraavaa:
+Kytke sekä puhelin että ulkoinen näyttö (esim. televisio) samaan Wi-Fi-verkkoon tai kytke ulkoinen näyttö puhelimen tukiasemaan. Jos tämä ei auta, asenna LeEco-peilaussovellus televisioon ja seuraa ohjeita."</string>
+    <string name="help_page_text_14_global">"1. Jos haluat käyttää Xiaomi-laitetta, mutta et löydä sitä käytettävissä olevien laitteiden luettelosta, kokeile seuraavaa:
+Kytke sekä puhelin että ulkoinen näyttö (esim. televisio) samaan Wi-Fi-verkkoon tai kytke ulkoinen näyttö puhelimen tukiasemaan. Jos käytettävissä ei ole Wi-Fi-verkkoja tai et voi yhdistää molempia laitteita samaan verkkoon, tarkista, ovatko ulkoisen näytön peilausominaisuudet ajan tasalla, kytke sekä puhelimen että ulkoisen näytön Bluetooth päälle, ja kytke Miracast päälle televisiossa.
+2. Jos peilaat Xiaomi-laitteelle ensimmäistä kertaa, sinun on suoritettava vahvistus.
+3. Jos haluat käyttää muuta kuin Xiaomi-laitetta, mutta et löydä sitä käytettävissä olevien laitteiden luettelosta, kokeile seuraavaa:
+Kytke sekä puhelin että ulkoinen näyttö (esim. televisio) samaan Wi-Fi-verkkoon tai kytke ulkoinen näyttö puhelimen tukiasemaan."</string>
     <string name="help_page_text_15">Miracast-toiminto eri laitteissa</string>
     <string name="help_page_text_16">Mi TV/Mi-projektori</string>
     <string name="help_page_text_17">"Voit projisoida kohteita Mi-puhelimestasi useimmissa Mi-TV-malleissa, joissa on Bluetooth-ominaisuudet kytkemättä Miracastia päälle manuaalisesti.
@@ -220,7 +199,7 @@ Jos sinun tarvitsee ottaa Miracast käyttöön, paina [MENU]-painiketta ja valit
     <string name="help_page_text_34">Varmista ensin, että laitteesi tukee Miracast-toimintoa. Joissakin malleissa voit valita Sovellukset > Peilaaminen > Android-laite > Miracast.</string>
     <string name="help_page_text_35">Skyworth-asiakaspalvelu: 95105555</string>
     <string name="help_page_text_36">Sony</string>
-    <string name="help_page_text_37">Varmista ensin, että laitteesi tukee Miracast-toimintoja. Joissakin malleissa voit painaa [SOURCE]-painiketta kaukosäätimessä ja valitse sitten \"Näytön peilaus\". Joissakin muissa malleissa voit ottaa tämän ominaisuuden käyttöön kohdassa Verkot > WLAN Direct. Tämä ominaisuus on oletuksena käytössä eri malleissa.</string>
+    <string name="help_page_text_37">Varmista ensin, että laitteesi tukee Miracast-toimintoja. Joissakin malleissa voit painaa [SOURCE]-painiketta kaukosäätimessä ja valitse sitten \"Näytön peilaus\". Joissakin muissa malleissa voit ottaa tämän ominaisuuden käyttöön kohdassa Verkot > Wi-Fi Direct. Tämä ominaisuus on oletuksena käytössä eri malleissa.</string>
     <string name="help_page_text_38">Sony-asiakaspalvelu: 400-810-9000</string>
     <string name="help_page_text_39">Panasonic</string>
     <string name="help_page_text_40">Varmista ensin, että laitteesi tukee Miracast-toimintoa. Joissakin malleissa voit valita Sovellukset > Näytön peilikuva.</string>
@@ -238,9 +217,9 @@ Jos sinun tarvitsee ottaa Miracast käyttöön, paina [MENU]-painiketta ja valit
     <string name="help_page_text_52">Varmista ensin, että laitteesi tukee Miracast-toimintoa. Joissakin malleissa voit ottaa tämän ominaisuuden käyttöön kohdassa Asetukset > Verkot > Useat näytöt > Langaton näyttö.</string>
     <string name="help_page_text_53">LeEco-asiakaspalvelu: 10109000</string>
     <string name="help_page_text_55">"Jos et pysty muodostamaan yhteyttä verkkoon, varmista, että ulkoinen näyttö tukee Miracast-toimintoa ja että se on päällä. Joissakin malleissa tätä ominaisuutta kutsutaan langattomaksi näytöksi, näytön peilikuvaksi tai useaksi näytöksi. Katso alla olevat tiedot oppiaksesi, kuinka Miracast otetaan käyttöön.
-%1$d. Jos sinulla on ongelmia, voit ilmoittaa niistä käyttämällä meidän sovellusta \"Palvelut &amp; palaute\"."</string>
+4. Jos sinulla on ongelmia, voit ilmoittaa niistä käyttämällä meidän sovellusta \"Palvelut &amp; palaute\"."</string>
     <string name="help_page_text_55_global">"Jos et pysty muodostamaan yhteyttä verkkoon, varmista, että ulkoinen näyttö tukee Miracast-toimintoa ja että se on päällä. Joissakin malleissa tätä ominaisuutta kutsutaan langattomaksi näytöksi, näytön peilikuvaksi tai useaksi näytöksi.
-%1$d. Jos sinulla on ongelmia, voit ilmoittaa niistä käyttämällä meidän sovellusta \"Palvelut &amp; palaute\"."</string>
+4. Jos sinulla on ongelmia, voit ilmoittaa niistä käyttämällä meidän sovellusta \"Palvelut &amp; palaute\"."</string>
     <string name="help_page_text_end">Jos laitteesi tuotemerkkiä ei ole lueteltu tässä, ota yhteyttä valmistajaan saadaksesi lisätietoja peilaustoiminnoista.</string>
     <string name="keyguard_security_setting_privacy_policy">Tietosuojakäytäntö</string>
     <string name="midnight">Yö</string>
@@ -360,7 +339,6 @@ Lue ja hyväksy meidän &lt;a href=%1$s>Käyttäjäsopimus&lt;/a> ja &lt;a href=
 　　•Käytä sijaintiasi lähellä olevien laitteiden löytämistä varten"</string>
     <string name="privacy_title">Huomio</string>
     <string name="private_protect">Piilota yksityiset kohteet</string>
-    <string name="required_permissions">android.permission.ACCESS_FINE_LOCATION;android.permission.ACCESS_COARSE_LOCATION;android.permission.ACCESS_BACKGROUND_LOCATION;android.permission.READ_PHONE_STATE;android.permission.READ_EXTERNAL_STORAGE;android.permission.RECORD_AUDIO;</string>
     <string name="san_wait_msg_1">Ota langaton lähetys käyttöön kohdelaitteessa</string>
     <string name="san_wait_msg_2">Laitteiden etsiminen saattaa kestää jonkin aikaa…</string>
     <string name="san_wait_msg_3">Ulkoiset laitteet on helpompi löytää, kun ne on kytketty samaan verkkoon kuin puhelimesi</string>
@@ -445,10 +423,8 @@ Lue ja hyväksy meidän &lt;a href=%1$s>Käyttäjäsopimus&lt;/a> ja &lt;a href=
     <string name="time_picker_dialog_title">Aseta aika</string>
     <string name="time_picker_label_hour">T</string>
     <string name="time_picker_label_minute">M</string>
-    <string name="title_activity_permission">PermissionActivity</string>
     <string name="toast_guide_show_more">Tutustu lisää</string>
     <string name="toast_guide_title">Tutustu meidän uusiin ominaisuuksiin täällä</string>
-    <string name="toast_invisible_mode">Olet inkognito. Suoratoistoa ei voi nyt käyttää.</string>
     <string name="toast_msg_for_multi_window">Tätä toimintoa ei voi käyttää jaetussa näytössä</string>
     <string name="toast_msg_for_small_window">Voit pienentää ikkunan, jota peilataan muiden ominaisuuksien käyttämiseksi puhelimellasi ilman peilausprosessin keskeyttämistä.</string>
     <string name="toast_nfc_dont_move">Älä siirrä puhelinta poispäin</string>

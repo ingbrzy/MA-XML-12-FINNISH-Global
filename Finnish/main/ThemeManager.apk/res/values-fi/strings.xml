@@ -472,9 +472,6 @@
     <string name="payment_coins_balance">(Saldo: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Riittämätön saldo)</string>
     <string name="payment_method">Maksutapa</string>
-    <string name="permission_desc">Tallennettujen teemojen ja muiden kohteiden tallentamiseen</string>
-    <string name="permission_summary">Pakolliset käyttöoikeudet (sovelluksen peruspalveluihin ja -toimintoihin)</string>
-    <string name="permission_title">Pääsy laitteen valokuviin tai tiedostoihin</string>
     <string name="personal_recommend_desc">Vastaanota sisältösuosituksia kiinnostuksen kohteidesi perusteella</string>
     <string name="personal_recommend_title">Yksilöidyt suositukset</string>
     <string name="peyment_pay_now_btn">Maksa</string>
@@ -533,7 +530,6 @@
     <string name="related_theme">Teemat</string>
     <string name="related_wallpaper">Taustakuvat</string>
     <string name="reload">Yritä uudelleen</string>
-    <string name="res_migrate_tip">Jotta Teemat olisivat yhteensopivia tulevien Android-versioiden kanssa, muutimme lataamasi kohteet uuteen paikkaan. Ota muutokset käyttöön ja katso lataamaasi sisältöä käynnistämällä sovellus uudelleen.</string>
     <string name="resource_account_abnormal_state">Tilivirhe. Odota muutama minuutti ja yritä uudelleen.</string>
     <string name="resource_account_fail_to_add">Tilin lisääminen epäonnistui</string>
     <string name="resource_account_login">Kirjaudu</string>
@@ -684,7 +680,6 @@
     <string name="resource_ranking">Suosittu</string>
     <string name="resource_ranking_free">Ilmainen</string>
     <string name="resource_ranking_purchase">Maksullinen</string>
-    <string name="resource_right_ack_check_error">Tämä koodi vanhentui</string>
     <string name="resource_ringtone_default">Soittoäänet</string>
     <string name="resource_ringtone_playing_error">Virhe</string>
     <string name="resource_ringtone_volume_mute">Soittoääni on äänettömällä</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">Yhteystietojen muisti</string>
-    <string name="call_log_provider_label">Puheluhistoria</string>
+    <string name="call_log_provider_label">Soittohistoria</string>
     <string name="debug_dump_database_message">Sinä olet 1) tehnyt kopion tietokannasta, joka sisältää kaikki yhteystietoihin liittyvät tiedot ja koko puhelulokin sisäiseen tallennustilaan, ja 2) lähettänyt sen sähköpostilla. Muista poistaa kopio heti, kun olet kopioinut sen pois laitteesta tai sähköpostiviesti on vastaanotettu.</string>
     <string name="debug_dump_delete_button">Poista nyt</string>
     <string name="debug_dump_email_body">Liitetty yhteystietojen tietokanta, jossa on kaikki yhteystiedot. Käsittele varoen.</string>

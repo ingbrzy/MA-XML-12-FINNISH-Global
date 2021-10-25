@@ -47,7 +47,7 @@
     <string name="user_cert_is_added">Käyttäjävarmenne asennettu</string>
     <string name="user_certificate">VPN- ja sovelluskäytön varmenne</string>
     <string name="userkey_type">Algoritmi:</string>
-    <string name="wifi_cancel_label">Peru</string>
+    <string name="wifi_cancel_label">Peruuta</string>
     <string name="wifi_cert_is_added">Wi‑Fi-varmenne asennettu</string>
     <string name="wifi_certificate">Wi‑Fi-varmenne</string>
     <string name="wifi_config_text">"Nimi: %1$s

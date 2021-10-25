@@ -36,7 +36,6 @@
     <string name="captcha">Captcha</string>
     <string name="change_find_device_status_failed">Ei voida avata. %s.</string>
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
-    <string name="close">Sulje</string>
     <string name="copy">Kopioi</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -62,10 +61,10 @@ Ota yhteyttä myyjään saadaksesi lisätietoja."</string>
     <string name="evening">Iltapäivä</string>
     <string name="expand_button_title">Lisäasetukset</string>
     <string name="find_device">Etsi laite</string>
-    <string name="find_device_capture_done_notification_content">View the photo on i.mi.com</string>
-    <string name="find_device_capture_done_notification_title">Find device took a photo remotely</string>
-    <string name="find_device_capture_notification_content">A request to take a photo remotely with this device was submitted by your account</string>
-    <string name="find_device_capture_notification_title">Find device is about to take a photo</string>
+    <string name="find_device_capture_done_notification_content">Katso kuva sivulla i.mi.com</string>
+    <string name="find_device_capture_done_notification_title">Etsi laite otti valokuvan etänä</string>
+    <string name="find_device_capture_notification_content">Tilisi lähetti pyynnön ottaa valokuva etänä tällä laitteella</string>
+    <string name="find_device_capture_notification_title">Etsi laite on ottamassa valokuvaa</string>
     <string name="find_device_crash">Etsi laite -toiminto sulkeutui yllättäen.</string>
     <string name="find_device_error_access_denied">Pääsy evätty.</string>
     <string name="find_device_error_account_sys_timeout">"Mi-tiliin ei saatu yhteyttä. "</string>
@@ -76,7 +75,7 @@ Ota yhteyttä myyjään saadaksesi lisätietoja."</string>
     <string name="find_device_error_server">Palvelinvirhe (%s).</string>
     <string name="find_device_error_unknown">Tuntematon virhe (%s).</string>
     <string name="find_device_noise_title">Etsi laite -hälytys</string>
-    <string name="find_device_notice">Siirry osoitteeseen &lt;b>&lt;font color=#0099FF>i.mi.com&lt;/font>&lt;/b>, jotta voit paikantaa ja lukita laitteesi, merkitä sen kadonneeksi, poistaa tietoja tai ottaa valokuvia etäyhteyden kautta.</string>
+    <string name="find_device_notice">Jos laitteesi on kadonnut, voit käydä osoitteessa &lt;b>&lt;font color=#0099FF>i.mi.com&lt;/font>&lt;/b> etsiäksesi, lukitaksesi tai poistaaksesi tietoja etänä.</string>
     <string name="find_device_notice_sms_alert_with_common_charge_hint">Päivittääksesi SIM-kortin tilan ja varmistaaksesi kaikkien palveluiden toimivan normaalisti yksi&lt;font color=#0097FF>&lt;b>maksullinen tekstiviesti&lt;/b>&lt;/font> lähetetään, kun vaihdat SIM-korttia. Operaattorisi veloittaa tästä viestistä.</string>
     <string name="find_device_notice_sms_alert_with_domestic_charge_hint">Päivittääksesi SIM-kortin tilan ja varmistaaksesi kaikkien palveluiden toimivan normaalisti yksi&lt;font color=#0097FF>&lt;b>kotimainen maksullinen tekstiviesti&lt;/b>&lt;/font> lähetetään, kun vaihdat SIM-korttia. Operaattorisi veloittaa tästä viestistä.</string>
     <string name="find_device_notice_sms_alert_with_internal_charge_hint">Päivittääksesi SIM-kortin tilan ja varmistaaksesi kaikkien palveluiden toimivan normaalisti yksi&lt;font color=#0097FF>&lt;b>kansainvälinen maksullinen tekstiviesti&lt;/b>&lt;/font> lähetetään, kun vaihdat SIM-korttia. Operaattorisi veloittaa tästä viestistä.</string>
@@ -84,8 +83,6 @@ Ota yhteyttä myyjään saadaksesi lisätietoja."</string>
     <string name="find_device_storage_corrupted">Etsi Laite -tallennustila on vioittunut. Laitteesi ei ole nyt turvassa.</string>
     <string name="find_device_success_title">Etsi laite on päällä</string>
     <string name="find_device_telephony_fault">Etsi laite: Puhelimen vika (%s).</string>
-    <string name="fmt_chinese_date">N月e</string>
-    <string name="fmt_date">D</string>
     <string name="fmt_date_day">dd</string>
     <string name="fmt_date_long_month">MMMM</string>
     <string name="fmt_date_long_month_day">d. MMMM</string>
@@ -101,11 +98,7 @@ Ota yhteyttä myyjään saadaksesi lisätietoja."</string>
     <string name="fmt_date_short_month_day">d.M</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
     <string name="fmt_date_short_year_month_day">d.M.yyyy</string>
-    <string name="fmt_date_time">D T</string>
-    <string name="fmt_date_time_timezone">D T z</string>
-    <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy</string>
-    <string name="fmt_time">T</string>
     <string name="fmt_time_12hour">hh</string>
     <string name="fmt_time_12hour_minute">hh:mm</string>
     <string name="fmt_time_12hour_minute_pm">hh:mm aa</string>
@@ -124,18 +117,8 @@ Ota yhteyttä myyjään saadaksesi lisätietoja."</string>
     <string name="fmt_time_minute_second_millis">m:s.S</string>
     <string name="fmt_time_second">s</string>
     <string name="fmt_time_second_millis">s.S</string>
-    <string name="fmt_time_timezone">T z</string>
-    <string name="fmt_timezone">z</string>
-    <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">W, D</string>
-    <string name="fmt_weekday_date_time">W, D T</string>
-    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
-    <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
-    <string name="fmt_weekday_time">W T</string>
-    <string name="fmt_weekday_time_timezone">W T z</string>
-    <string name="fmt_weekday_timezone">W z</string>
     <string name="friday">Perjantai</string>
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
@@ -229,7 +212,6 @@ Ota yhteyttä myyjään saadaksesi lisätietoja."</string>
     <string name="saturday_short">La</string>
     <string name="saturday_shortest">La</string>
     <string name="search_menu_title">Haku</string>
-    <string name="send">Lähetä</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_on_empty_captcha">Captcha ei voi olla tyhjä</string>
     <string name="stop_on_empty_password">Salasana ei voi olla tyhjä</string>
