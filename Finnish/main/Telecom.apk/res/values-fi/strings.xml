@@ -489,7 +489,6 @@ Valinta"</string>
     <string name="private_dns_mode_provider">Yksityisen DNS-tarjoajan isäntänimi</string>
     <string name="private_dns_mode_provider_failure">Ei yhteyttä</string>
     <string name="private_dns_mode_provider_hostname_hint">Anna isäntänimi tai DNS-tarjoaja</string>
-    <string name="process_kernel_label">Android-käyttöjärjestelmä</string>
     <string name="profile_connect_timeout_subtext">Yhteysvirhe. Sammuta laite ja käynnistä se uudelleen.</string>
     <string name="profile_info_settings_title">Profiilin tiedot</string>
     <string name="remaining_length_format">%1$s jäljellä</string>

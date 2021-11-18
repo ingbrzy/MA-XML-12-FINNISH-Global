@@ -210,7 +210,6 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="sns_access_token_expired_warning">Istunto vanhentunut. Yhdistä tili uudelleen kirjautumalla sisään uudelleen.</string>
     <string name="sns_bind_limit">Liian monta yritystä. Kokeile muita kirjautumistapoja.</string>
     <string name="sns_sign_in">Muita kirjautumistapoja</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="temporary_not_available">Tämä ominaisuus ei ole saatavilla vielä</string>
     <string name="ticket_hint">Vahvistuskoodi</string>
     <string name="ticket_invalid">Syöttämäsi koodi on virheellinen</string>
