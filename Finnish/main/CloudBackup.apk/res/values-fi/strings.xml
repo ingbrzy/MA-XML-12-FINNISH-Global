@@ -326,8 +326,6 @@ Yritä uudelleen"</string>
     <string name="open_backup_switch">Vaihda varmuuskopiokytkin</string>
     <string name="other_device_main_space">Ensimmäinen tila</string>
     <string name="other_device_second_space">Toinen näkymä</string>
-    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
-    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Kohteita ei voi palauttaa työpöytätilassa. Sammuta työpöytätila ja yritä uudelleen.</string>
     <string name="pm">ip.</string>
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>

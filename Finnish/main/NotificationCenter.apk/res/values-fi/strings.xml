@@ -256,7 +256,6 @@
     <string name="settings_guide_title">Tarvitsetko muita asetuksia?</string>
     <string name="show_badge_notifications">Ilmoitusmerkit</string>
     <string name="show_badge_notifications_short">Merkit</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Tilapalkki</string>
     <string name="summary_aggregate_default">Mainos- ja sisältöön liittyvät push-ilmoitukset ryhmitellään</string>
     <string name="summary_aggregate_home">Push-ilmoituksia ei ryhmitellä</string>

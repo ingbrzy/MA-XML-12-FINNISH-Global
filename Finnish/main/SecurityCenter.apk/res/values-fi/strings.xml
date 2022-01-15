@@ -849,7 +849,6 @@ Et menetä mitään sovellustietoja."</string>
     <string name="card_main_private_space_summary">Toisen tilan käyttäminen on, kuin olisi kaksi laitetta</string>
     <string name="card_main_private_space_title">Toinen näkymä</string>
     <string name="card_main_sectool_title">Työkalut</string>
-    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">Luo</string>
     <string name="card_main_xspace_summary">Käytä kahta tiliä millä tahansa sovelluksella</string>
     <string name="card_main_xspace_title">Kaksoissovellukset</string>
@@ -1100,7 +1099,6 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
     <string name="early_morning">Aamu</string>
-    <string name="ellipsis">…</string>
     <string name="email">Sähköposti</string>
     <string name="empty" />
     <string name="empty_app">Ei sovelluksia</string>
@@ -1174,9 +1172,7 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="exo_download_notification_channel_name">Lataukset</string>
     <string name="exo_download_removing">Poistetaan latauksia</string>
     <string name="exo_item_list">%1$s, %2$s</string>
-    <string name="exo_track_bitrate">%1$.2f Mt/s</string>
     <string name="exo_track_mono">Mono</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Vaihtoehtoinen</string>
     <string name="exo_track_role_closed_captions">Tekstitykset</string>
     <string name="exo_track_role_commentary">Kommenttiraita</string>
@@ -2028,7 +2024,6 @@ Laitteesi on %d%% nopeampi nyt."</string>
     <string name="menu_text_license_manager">Käyttöoikeudet</string>
     <string name="menu_text_networkassistants">Datan käyttö</string>
     <string name="menu_text_networkassistants_danger">%s yli</string>
-    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s jäljellä</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">Gt</string>
@@ -2037,7 +2032,6 @@ Laitteesi on %d%% nopeampi nyt."</string>
     <string name="menu_text_optimize_manage">Nopeuta</string>
     <string name="menu_text_optimize_manage_1">Nopeuta</string>
     <string name="menu_text_power_manager">Akku</string>
-    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Poista poikkeuksista</string>
     <string name="menu_white">Lisää poikkeuksiin</string>
     <string name="mi_ime_not_used">Käytä Xiaomin hyväksymää näppäimistöä</string>
@@ -2649,11 +2643,6 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="power_center_dialog_msg_top">Kun virransäästö on päällä, MIUI optimoi seuraavat:</string>
     <string name="power_center_hints_scan_danger_result">Voit korjata akkuongelmat nyt</string>
     <string name="power_center_list_item_auto_brightness">Säädä näytön kirkkautta automaattisesti</string>
-    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
-    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
-    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
-    <string name="power_center_list_item_battery_status_capacity">mAh</string>
-    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">t</string>
     <string name="power_center_list_item_close_bluetooth">Poista Bluetooth käytöstä</string>
     <string name="power_center_list_item_deep_save_title">Lisäasetukset</string>
@@ -2879,7 +2868,6 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="pref_normal_traffic_limit">Kun päiväkohtainen datasuunnitelma on käytetty</string>
     <string name="pref_open_adjust_traffic">Päivitä datan käyttö päivittäin käyttäen operaattorilta saamia tilastoja</string>
     <string name="pref_operator_not_set">Operaattoria ei ole asetettu</string>
-    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Kun menet yli datasuunnitelmasi</string>
     <string name="pref_package_traffic_settings">Datasuunnitelma</string>
     <string name="pref_pkg_begin_date">Käytön palautuspäivä</string>
@@ -3121,7 +3109,6 @@ Kalibroinnin aikana MIUI lähettää tekstiviestin operaattorillesi saadakseen k
     <string name="privacy_using_record">Äänen tallentaminen</string>
     <string name="privacyapp_number_masked_text">Ilmoituksen sisältö on piilotettu</string>
     <string name="privacyapp_number_unmasked_text">Ilmoituksen sisällön voi piilottaa</string>
-    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediapalvelin</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
     <string name="promotion">Mainos</string>

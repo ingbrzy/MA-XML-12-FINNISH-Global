@@ -1037,7 +1037,6 @@ tärkeät"</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-korttia ei löydy tai ei voi lukea. Aseta SIM-kortti.</string>
     <string name="keyguard_missing_sim_message">Puhelimessa ei ole SIM-korttia.</string>
     <string name="keyguard_missing_sim_message_short">Ei SIM-korttia</string>
-    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Verkko lukittu</string>
     <string name="keyguard_password_enter_password_code">Poista lukitus antamalla salasana.</string>
     <string name="keyguard_password_enter_pin_code">Anna PIN-koodi.</string>
@@ -1273,14 +1272,12 @@ Lisäksi olet yhteydessä sovellukseen %3$s, joka voi valvoa henkilökohtaista t
 
 Pyydä lisätietoja järjestelmänvalvojalta."</string>
     <string name="monitoring_description_ca_cert_settings">Avaa luotetut todennustiedot</string>
-    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Laitteeseen on asennettu varmenteen myöntäjä. Suojattua verkkoliikennettäsi voidaan valvoa tai muuttaa.</string>
     <string name="monitoring_description_do_body">Järjestelmänvalvoja voi valvoa ja hallita asetuksia, yrityskäyttöä, sovelluksia sekä laitteeseen yhdistettyjä tietoja ja sen sijaintitietoja.</string>
     <string name="monitoring_description_do_body_vpn">Olet yhteydessä sovellukseen %1$s, joka voi valvoa verkkotoimintaasi, esimerkiksi sähköposteja, sovelluksia ja verkkosivustoja.</string>
     <string name="monitoring_description_do_header_generic">Laitettasi hallinnoi %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s hallinnoi laitettasi sovelluksen %2$s avulla.</string>
     <string name="monitoring_description_do_learn_more">Lisätietoja</string>
-    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Organisaatiosi lisäsi työprofiiliin varmenteen myöntäjän. Suojattua verkkoliikennettäsi voidaan valvoa tai muuttaa.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Työprofiilisi on yhteydessä sovellukseen %1$s, joka voi valvoa toimintaasi verkossa, esimerkiksi sähköposteja, sovelluksia ja verkkosivustoja.</string>
     <string name="monitoring_description_management">"Organisaatiosi omistaa tämän laitteen.
@@ -1312,7 +1309,6 @@ Pyydä lisätietoja järjestelmänvalvojalta.
 
 Olet myös yhteydessä VPN:ään, joka voi valvoa toimintaasi verkossa."</string>
     <string name="monitoring_description_vpn_settings">Avaa VPN-asetukset</string>
-    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-varmenteet</string>
     <string name="monitoring_subtitle_network_logging">Lokitiedostojen tallennus</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1347,7 +1343,6 @@ Olet myös yhteydessä VPN:ään, joka voi valvoa toimintaasi verkossa."</string
     <string name="nav_bar">Navigointipalkki</string>
     <string name="nav_bar_default">(oletus)</string>
     <string name="nav_bar_layout">Asettelu</string>
-    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Ei mitään</string>
     <string name="no_auto_saver_action">Ei kiitos</string>
     <string name="no_shortcut">%1$s ei tue keskusteluominaisuuksia</string>
@@ -1530,7 +1525,6 @@ Olet myös yhteydessä VPN:ään, joka voi valvoa toimintaasi verkossa."</string
     <string name="private_dns_mode_provider">Yksityisen DNS-tarjoajan isäntänimi</string>
     <string name="private_dns_mode_provider_failure">Ei voi yhdistää</string>
     <string name="private_dns_mode_provider_hostname_hint">Syötä DNS-tarjoajan isäntänimi</string>
-    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">Ongelma yhteyden muodostamisessa. Sammuta laite &amp; kytke se takaisin päälle</string>
     <string name="profile_info_settings_title">Profiilitiedot</string>
     <string name="profile_owned_footer">Profiilia saatetaan valvoa</string>
