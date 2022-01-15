@@ -67,6 +67,7 @@
     <string name="alert_vibrate_enable_summary">Värise, kun hälytys soi</string>
     <string name="alert_volume">Soittoäänen voimakkuus</string>
     <string name="alert_volume_summary">Aseta soittoäänen voimakkuus hälytyksille ja ajastimille</string>
+    <string name="alert_xiaoai_ringtone_desc">Mi AI puhuu…</string>
     <string name="already_exist">Tämä ajastin on jo olemassa</string>
     <string name="am">ap.</string>
     <string name="analog_gadget">Analoginen kello</string>
@@ -110,6 +111,7 @@
     <string name="channel_name_timer">Ajastin</string>
     <string name="check_theme_app_install">Varmista, että Teemat-sovellus on asennettu laitteellesi.</string>
     <string name="check_voice_assist_app_version">Päivitä Mi AI uusimpaan versioon.</string>
+    <string name="cities_show_limit_desc">Ei voi näyttää enempää kelloja</string>
     <string name="city_time_contrast_desc">Napauta verrataksesi aikaa eri kaupungeissa</string>
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
     <string name="clock_bg_button_setting_summary_common">Valitse Kello-sovelluksen taustaväri</string>
@@ -444,6 +446,7 @@
     <string name="repeat_count_value_ten">10</string>
     <string name="repeat_count_value_three">3</string>
     <string name="repeat_count_value_two">2</string>
+    <string name="repeat_type">Toista</string>
     <string name="reset">Tyhjennä</string>
     <string name="revert">Palauta</string>
     <string name="ringtone_all">Kaikki soittoäänet</string>
@@ -463,7 +466,9 @@
     <string name="search_stopwatch_keywords">Sekuntikello</string>
     <string name="search_timer_keywords">Ajasta</string>
     <string name="search_worldclock_keywords">Aika; Maailmankello; Kello</string>
+    <string name="select_all">Valitse kaikki</string>
     <string name="select_operation">Valitse</string>
+    <string name="selected">Valittu</string>
     <string name="send">Lähetä</string>
     <string name="set_alarm">Valitse aika</string>
     <string name="set_alarm_choose_ringtone">Valitse soittoääni</string>
@@ -486,6 +491,7 @@
     <string name="shutdown_alarm_enable_summary">Hälytys tulee soimaan, jos se on asetettu vähintään 10 minuuttia laitteesi sammuttamisen jälkeen</string>
     <string name="shutdown_alarm_title">Sammutushälytys</string>
     <string name="silent_alarm_summary">Äänetön</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Sammuta kerran %s</string>
     <string name="sleep_analysis">Tilastot</string>
     <string name="sleep_analysis_chart_date_format">d.M</string>
@@ -529,6 +535,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Ei kierroksia</string>
     <string name="stopwatch_reset_notification">Sekuntikello nollattiin</string>
     <string name="stopwatch_running_notification">Sekuntikello</string>
@@ -537,6 +544,7 @@
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>
     <string name="sunday_shortest">Su</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Salli tämän sovelluksen muodostaa yhteys Internettiin käyttääksesi kaikkia sen ominaisuuksia.</string>
     <string name="system_permission_main_purpose">Ajan tarkastelu, hälytysten ja ajastimien asettaminen, sekuntikellon käyttäminen</string>
     <string name="system_permission_purpose">Arkipäivähälytysten luominen ja mukautettujen soittoäänien asettaminen</string>
@@ -643,6 +651,11 @@
     <string name="tuesday_shortest">Ti</string>
     <string name="turn_off_a_repeat_alarm">Sammuta toistuva hälytys</string>
     <string name="turn_off_this_repeat_alarm">Sammuta tämä toistuva hälytys</string>
+    <string name="tv_blank_list_other_text">Täällä ei ole vielä mitään</string>
+    <string name="tv_blank_list_show_text">Täällä ei vielä mitään. Etsi paikka lisätäksesi se maailmankellosi.</string>
+    <string name="tv_world_clock_edit_title1">Aloitusnäytössä näkyvät sijainnit</string>
+    <string name="tv_world_clock_edit_title2">Muut tallennetut sijainnit</string>
+    <string name="unselect_all">Kumoa kaikkien valinta</string>
     <string name="upcoming_alarm">Tuleva hälytys: %s</string>
     <string name="upcoming_alarm_hint">Voit sammuttaa tämän hälytyksen nyt</string>
     <string name="update_health_app">Päivitä Xiaomi Health</string>
@@ -670,8 +683,10 @@
     <string name="wednesday_short">Ke</string>
     <string name="wednesday_shortest">Ke</string>
     <string name="week_ringtone_recommend_desc">Luontohälytys toistaa erilaisia ääniä päivämäärästä riippuen. Asetetaanko se oletushälytykseksi?</string>
+    <string name="white_noise">Ympäröivä melu</string>
     <string name="white_noise_selector">Valitse ääni</string>
     <string name="workday_alarm_clock">Työpäivien hälytys</string>
+    <string name="worldclock_edit_label">Maailmankello</string>
     <string name="worldclock_empty_text">Ei kelloja</string>
     <string name="worldclock_input_hint_text">Etsi maan tai kaupungin mukaan</string>
     <string name="worldclock_local_time">Paikallinen aika</string>
@@ -689,5 +704,6 @@
     <string name="worldcolock_timezone_date">d. MMM</string>
     <string name="worldcolock_timezone_gap">%s T</string>
     <string name="worldcolock_timezone_local">Sama kuin paikallinen aika</string>
+    <string name="xiaoai_ringtone_title">Mi AI -soittoäänet</string>
     <string name="yesterday">Eilen</string>
 </resources>

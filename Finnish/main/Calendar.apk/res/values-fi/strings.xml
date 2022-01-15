@@ -175,6 +175,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Perinteinen kiinalainen kalenteri</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Aseta päivä ja aika</string>
     <string name="date_today">" (tänään)"</string>
     <string name="day">Päivä</string>
@@ -433,6 +434,7 @@
     <string name="midnight">Yö</string>
     <string name="missing_name">(Nimetön)</string>
     <string name="missing_required_permission">Olet rajoittanut vaaditut käyttöoikeudet.</string>
+    <string name="miuix_access_state_desc">Valittu</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
@@ -762,6 +764,7 @@ Voit myös lisätä muistutuksia, jotta et ohita mitään tärkeää."</string>
     <string name="talk_back_read_date">%1$s(%2$s kuukalenterin mukaan).</string>
     <string name="talk_back_setting">Asetukset</string>
     <string name="talk_back_tab_switch">Vaihda näkymien välillä</string>
+    <string name="talk_back_tab_switch_language">Valitse Kalenterin kieli</string>
     <string name="talkback_bengali">Bengali</string>
     <string name="talkback_english">Englanti</string>
     <string name="talkback_gujarati">Gujarati</string>

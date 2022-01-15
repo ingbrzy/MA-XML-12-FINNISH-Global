@@ -63,6 +63,8 @@ You'll be able to track your workouts and activity."</string>
     <string name="am">ap.</string>
     <string name="audio_permission_dialog_desc">Xiaomi Health tarvitsee luvan äänen nauhoittamiseen unisyklin analysoimiseksi sekä unissapuhumisen ja kuorsausten tallentamiseksi.</string>
     <string name="audio_permission_dialog_title">Salli äänen tallennus</string>
+    <string name="audio_permission_subtitle">For detecting snoring and talking</string>
+    <string name="audio_permission_title">Record audio</string>
     <string name="audio_record_perm_description">Kuorsauksen ja unissapuhumisen nauhoittamiseksi unisyklin analysoinnin aikana</string>
     <string name="audio_record_permission_description">For recording talking and snoring while analyzing your sleep cycle</string>
     <string name="auto_start_fail">Ei voitu myöntää käyttöoikeutta</string>
@@ -103,9 +105,13 @@ You'll be able to track your workouts and activity."</string>
     <string name="bg_control_dialog_go_set">Asetukset</string>
     <string name="bg_control_dialog_msg">Virransäästö rajoittaa Xiaomi Healthin taustatoimintaa. Salli Xiaomi Healthin toimia taustalla aina saadaksesi tarkat tilastot.</string>
     <string name="bg_control_dialog_title">Taustarajoitukset</string>
+    <string name="body_sport_permission_subtitle">For tracking your steps</string>
+    <string name="body_sport_permission_title">Access health and activity data</string>
     <string name="breaststroke">Rintauinti</string>
     <string name="butterfly_stroke">Perhosuinti</string>
     <string name="button_record_menstruation">Record</string>
+    <string name="camera_permission_subtitle">For obtaining blood flow changes for heart rate detection and setting profile photos</string>
+    <string name="camera_permission_title">Use camera</string>
     <string name="cancel">Peruuta</string>
     <string name="cancel_edit">Hylkää muutokset</string>
     <string name="cancel_mark_end">Kuukautiset eivät ole päättyneet</string>
@@ -126,6 +132,8 @@ You'll be able to track your workouts and activity."</string>
     <string name="complete_preference_basic_info">Complete your profile</string>
     <string name="complete_progress">Progress</string>
     <string name="completed">"Valmis "</string>
+    <string name="contact_permission_subtitle">For setting emergency contacts</string>
+    <string name="contact_permission_title">Access contacts</string>
     <string name="copy">Kopioi</string>
     <string name="copy_done">Kopioitu onnistuneesti</string>
     <string name="copyright_statement">Tekijänoikeus © Xiaomi Inc. Kaikki oikeudet pidätetään.</string>
@@ -323,6 +331,8 @@ Jos laitteesi on lueteltu tässä, voit lisätä tietolähteitä manuaalisesti k
     <string name="exit_running_tips_title">Lopeta treeni</string>
     <string name="expand_all">Näytä kaikki</string>
     <string name="expand_button_title">Lisäasetukset</string>
+    <string name="external_storage_permission_subtitle">For setting profile photos</string>
+    <string name="external_storage_permission_title">Access and save items to storage</string>
     <string name="fall_sleep_hard">Nukahtamisvaikeus</string>
     <string name="falling_duration">Nukahtaminen</string>
     <string name="falling_duration_hard_description">"Nukahtaminen on ajanjakso nukkumaanmenon ja kokonaan nukahtamisen välillä. Jos nukahtaminen vie kauemmin kuin 30 minuuttia, tämä voi olla merkki unettomuudesta.
@@ -476,6 +486,8 @@ Jos sinun on edelleen vaikea nukahtaa 30 minuutin jälkeen sängyssä, vähennä
     <string name="load_failed">"Couldn't load items. Wait a minute or two and try again."</string>
     <string name="loading">Hetki vain…</string>
     <string name="location_perm_description">Ulkoilutreenien seuraamiseen ja reittien tallentamiseen</string>
+    <string name="location_permission_subtitle">For tracking outdoor workouts and recording routes</string>
+    <string name="location_permission_title">Access location</string>
     <string name="low">Matala</string>
     <string name="low_intensity">Matala</string>
     <string name="low_intensity_description">Säännöllinen hengitysnopeus, jonka avulla voit pitää keskustelua</string>
@@ -932,6 +944,9 @@ unitietoja"</string>
     <string name="snore_record_audio_delete_title">Poistetaanko nauhoitus?</string>
     <string name="snore_section">Kuorsaus %1$s</string>
     <string name="snore_write_description">For saving audio recordings to your device</string>
+    <string name="sport_data_use_subtitle">To track your workouts and fitness progress, we collect and process your information including workout routes, sleep data, heart rate, and weight.</string>
+    <string name="sport_data_use_tip">"Read and agree to our &lt;font color=\"#0D84FF\">&lt;a href=%1$s>Health and Activity Data Use Policy&lt;/a>&lt;/font> to better understand how we collect and process your information. You won't be able to use this service if you don't consent to our collection and processing."</string>
+    <string name="sport_data_use_title">Data permissions</string>
     <string name="sport_type">Treenityyppi</string>
     <string name="standard_format">(standard: %1s)</string>
     <string name="state_agree">Hyväksy</string>
@@ -964,6 +979,7 @@ unitietoja"</string>
     <string name="swim_type">Tyyli</string>
     <string name="swipe_right_to_end">Lopeta pyyhkäisemällä oikealle</string>
     <string name="swipe_up_to_end">Lopeta pyyhkäisemällä ylös</string>
+    <string name="system_permission">Permissions details</string>
     <string name="tb_mens_mark_success">Merkitty onnistuneesti</string>
     <string name="tb_mens_select_column">Cycle starts on%1$s.%2$s.%3$s.</string>
     <string name="tb_mens_unmark_success">Canceled successfully</string>

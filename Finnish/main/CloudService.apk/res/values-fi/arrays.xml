@@ -56,6 +56,11 @@
         <item>Laitteesi tunnistamiseen</item>
         <item>Laitteen etsimiseen ja kadonnut-tilaan vaihtamiseen</item>
     </string-array>
+    <string-array name="privacy_dialog_finddevice_runtime_perm_desc_new">
+        <item>Laitteen etsimiseen ja kadonnut-tilaan vaihtamiseen</item>
+        <item>Tämän laitteen paikantamiseen, kun se ei ole yhteydessä Internetiin</item>
+        <item>Puhelinnumeron käyttäminen tämän laitteen paikantamiseen, kun se ei ole yhteydessä Internetiin</item>
+    </string-array>
     <string-array name="privacy_dialog_sync_runtime_perm_desc">
         <item>Tapahtumien synkronointia varten</item>
         <item>Viestien synkronointia varten</item>
@@ -63,6 +68,14 @@
         <item>Yhteystietojen synkronointia varten</item>
         <item>Yhteystietojen synkronointia varten</item>
         <item>Laitteen kohteiden tallentamiseen (esim. kuvat, videot, kappaleet)</item>
+    </string-array>
+    <string-array name="privacy_dialog_sync_runtime_perm_title">
+        <item>Pääsy kalenteritapahtumiin</item>
+        <item>Lähetä SMS</item>
+        <item>Lue multimediaviesti</item>
+        <item>Pääsy yhteystietoihin</item>
+        <item>Muokkaa ja poista yhteystietoja</item>
+        <item>Pääsy laitteen valokuviin tai tiedostoihin</item>
     </string-array>
     <string-array name="settings_search_backup_manage">
         <item>Varmuuskopiot</item>

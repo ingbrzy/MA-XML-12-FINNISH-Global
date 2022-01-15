@@ -141,6 +141,8 @@
     <string name="created_successfully">Luotu onnistuneesti</string>
     <string name="crowned_hornbill">Crowned hornbill</string>
     <string name="cu_confirm">Aseta</string>
+    <string name="customize_radio_btn_summary">Suosi valittua virkistystaajuutta</string>
+    <string name="customize_radio_btn_title">Mukautettu</string>
     <string name="dall_sheep">Dall sheep</string>
     <string name="dart_frog_info">Its bright blue skin and poisonous glands are defense mechanisms to potential predators.</string>
     <string name="date_picker_label_day" />
@@ -150,7 +152,11 @@
     <string name="date_time_picker_dialog_title">Aseta päivä ja aika</string>
     <string name="dc_light_hint_enable_title">Huomio</string>
     <string name="dc_light_hint_normal">DC-himmennys voi vaikuttaa tapaan, jolla jotkut kohteet näkyvät.</string>
+    <string name="dc_light_hint_normal_anit">Välkkymisenesto voi vaikuttaa joidenkin kohteiden asettelutapaan.</string>
+    <string name="dc_light_hint_normal_other">Välkkymisenesto voi vaikuttaa virkistystaajuuteen ja joidenkin kohteiden asettelutapaan.</string>
     <string name="dc_light_hint_other">DC-himmennys voi vaikuttaa virkistystaajuuteen ja tapaan, jolla jotkut kohteet näkyvät.</string>
+    <string name="dc_light_hint_unnormal_low">Heikon valon välkkymisenestotila voi vaikuttaa joidenkin kohteiden asettelutapaan.</string>
+    <string name="dc_light_hint_unnormal_other">Heikon valon välkkymisenestotila voi vaikuttaa virkistystaajuuteen ja joidenkin kohteiden asettelutapaan.</string>
     <string name="dc_lignt_enable_hint">Vilkkumisen estotila asettaa näytön virkistystaajuudeksi 60 Hz. Vaihdetaanko vilkkumisen estotilaan?</string>
     <string name="delete_first_to_add_animal">To add a new item, delete one first.</string>
     <string name="desktop_widget_authorization">Napauta antaaksesi käyttöoikeudet, jotta voit tarkastella tilastoja</string>
@@ -288,13 +294,19 @@ ei ole luotu toisessa tilassa"</string>
     <string name="focus_mode_timer_pick_dialog_title">Syötä kesto</string>
     <string name="focus_time_exception_tip">Näyttää siltä, että järjestelmän aika on muuttunut. Tarkennustila poistettu käytöstä.</string>
     <string name="follow_sim1">Käytä SIM 1 -asetuksia</string>
+    <string name="fps_high">Korkea</string>
     <string name="fps_nature_summary">Maksimivirkistystaajuus pitää kaiken terävänä ja selkeänä</string>
     <string name="fps_nature_title">Maksimi</string>
+    <string name="fps_normal">Vakio</string>
+    <string name="fps_radio_btn_title">Virkistystaajuus</string>
+    <string name="fps_save_battery_tips">Virransäästö on päällä. Virkistystaajuudeksi on asetettu %d Hz.</string>
     <string name="fps_smooth_summary">Korkea virkistystaajuus tuo yksityiskohtiin selkeyttä</string>
     <string name="fps_smooth_title">Korkea</string>
     <string name="fps_standard_summary">Normaali virkistystaajuus säästää akkua</string>
     <string name="fps_standard_title">Normaali</string>
     <string name="fps_user_tip">- Nämä demoanimaatiot toistetaan pienellä nopeudella. Todellinen suorituskyky saattaa näyttää erilaiselta riippuen vaihtelevista tekijöistä.</string>
+    <string name="fps_user_tip_footer">"%1$d. Jotta ymmärrät eron korkeamman ja matalamman virkistystaajuuden välillä, demoja toistetaan täällä hitaammin. Sinun voi olla vaikeampi huomata ero säännöllisen käytön aikana.
+%2$d. Joissakin tapauksissa virkistystaajuutta voidaan säätää dynaamisesti riippuen siitä, mitä kohteita näytetään."</string>
     <string name="friday">Perjantai</string>
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
@@ -320,11 +332,14 @@ ei ole luotu toisessa tilassa"</string>
     <string name="healthy_use_phone">Hallitse ruutuaikaa</string>
     <string name="helmeted_guineafowl">Guineafowl</string>
     <string name="high_fps_description">Korkea näytön virkistystaajuus. Korkeampi virrankulutus.</string>
+    <string name="high_fps_tip_footer">Korkeamman virkistystaajuuden käyttö tekee katselukokemuksesta tasaisemman, mutta kuluttaa enemmän virtaa.</string>
     <string name="hippopotamus">Hippo</string>
     <string name="hsv_space_color">HSV-väritila</string>
     <string name="hsv_space_color_hue">Värisävy</string>
     <string name="hsv_space_color_saturation">Kylläisyys</string>
     <string name="hsv_space_color_value">Arvo</string>
+    <string name="intelligent_radio_btn_summary">Säädä virkistystaajuutta dynaamisesti skenaarioiden perusteella tasapainottamaan suorituskykyä virrankulutuksen kanssa</string>
+    <string name="intelligent_radio_btn_title">Auto (suositeltu)</string>
     <string name="intelligent_recognition_item_summary">Käytä määritettyä soittoääntä toimitus- ja taksipalveluihin. Tämä ominaisuus toimii, kun %s on asetettu sinun oletussoittoääneksi.</string>
     <string name="intelligent_recognition_item_title">Tunnista palvelut</string>
     <string name="item_anura">Anura</string>
@@ -365,6 +380,8 @@ ei ole luotu toisessa tilassa"</string>
     <string name="lion_info">Lions are fierce and powerful predators. They live in groups and have a strong sense of territory.</string>
     <string name="lock_summary">Suojaa henkilökohtaisia tietojasi</string>
     <string name="long_tai1ed_iaeger">Long-tailed jaeger</string>
+    <string name="low_flicker_mode">Heikko valo</string>
+    <string name="low_flicker_mode_summary">Vältä välkkymistä heikossa valaistuksessa vähentääksesi silmien rasitusta</string>
     <string name="low_fps_description">Alhainen näytön virkistystaajuus. Alhaisempi virrankulutus.</string>
     <string name="low_light_preview">Esikatselu heikossa valossa</string>
     <string name="lynx">Lynx</string>
@@ -374,6 +391,7 @@ ei ole luotu toisessa tilassa"</string>
     <string name="masked_palm_civet">Masked palm civet</string>
     <string name="medium_tree_finch">Medium tree finch</string>
     <string name="midnight">Yö</string>
+    <string name="miuix_access_state_desc">Valittu</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
@@ -466,6 +484,7 @@ ei ole luotu toisessa tilassa"</string>
     <string name="noon">Keskipäivä</string>
     <string name="normal_mode">Normaali</string>
     <string name="normal_mode_summary">Älä vähennä vilkkumista heikossa valaistuksessa</string>
+    <string name="normal_mode_summary_new">Salli välkkyminen heikossa valaistuksessa</string>
     <string name="north_white_rhinoceros">White rhinoceros</string>
     <string name="norway_lemmings">Norway lemmings</string>
     <string name="norway_lemmings_info">The Norway lemming dwells in tundra and fells, and prefers to live near water.</string>
@@ -545,7 +564,7 @@ ei ole luotu toisessa tilassa"</string>
     <string name="several_days_use_time">Ruutuaika: %2$s</string>
     <string name="short_eared_owl">Short-eared owl</string>
     <string name="shortcut_created">Tämä pikavalinta on jo olemassa</string>
-    <string name="silent_ringtone_hint">Ääni on nyt mykistetty. Lisää äänenvoimakkuutta ja yritä uudelleen.</string>
+    <string name="silent_ringtone_hint">Sammuta äänetön tila ensin</string>
     <string name="silver_pheasant">Silver pheasant</string>
     <string name="sim_slot_1">" (SIM 1)"</string>
     <string name="sim_slot_2">" (SIM 2)"</string>
@@ -557,6 +576,8 @@ ei ole luotu toisessa tilassa"</string>
     <string name="snowy_owl">Snowy owl</string>
     <string name="southern_elephant_seal">Southern elephant seal</string>
     <string name="southern_ground_hornbill">Ground hornbill</string>
+    <string name="split_page_authorization">Tervetuloa Näyttöaikaan! Täällä voit asettaa näyttöaikarajoja ja tarkastella tilastoja. Ota tämä ominaisuus käyttöön napauttamalla \"Käynnistä\".</string>
+    <string name="split_page_start">Aloita</string>
     <string name="spotted_hyaena">Spotted hyena</string>
     <string name="spotted_hyaena_info">Hyenas are nocturnal predators with the most complex social behaviours.</string>
     <string name="spur_winged_plover">Spur-winged lapwing</string>
@@ -673,12 +694,15 @@ ei ole luotu toisessa tilassa"</string>
     <string name="usage_app_over_content">Olet jo käyttänyt tätä sovellusta %s tänään.</string>
     <string name="usage_app_over_summary">Olet saavuttanut käyttörajasi. Aika on ohi!</string>
     <string name="usage_app_set_limit_time">Aseta raja</string>
+    <string name="usage_app_stop_desc">All Screen time data and permissions, including individual settings, as well as the related items stored locally, will be deleted after you turn this feature off.​</string>
     <string name="usage_app_system_app_summary">Ei voi rajoittaa käyttöaikaa järjestelmäsovelluksille</string>
     <string name="usage_app_weekday_limit">Arkipäivisin</string>
     <string name="usage_app_weekend_limit">Viikonloppuisin</string>
     <string name="usage_beat_fans">Paremmin kuin %s Mi-fania</string>
     <string name="usage_continuous_days">Putki</string>
     <string name="usage_creating_weekly_report">Luodaan viikoittaista raporttia…</string>
+    <string name="usage_cta_desc">"Welcome to Settings! To provide Screen time and Focus mode stats to you, this app needs to collect the following data: the number of times you unlock the device, the list of your apps along with the corresponding usage duration, the number of times your screen lights up, and Focus mode settings. The collected data will only be stored locally on this device.
+"</string>
     <string name="usage_current_week_usage">%s keskimäärin viimeisten 7 päivän aikana</string>
     <string name="usage_device_limit_app_prolong">Lisää aika</string>
     <string name="usage_device_limit_app_prolong_time1">Lisää 20 minuuttia</string>

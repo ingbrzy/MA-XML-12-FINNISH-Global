@@ -236,8 +236,8 @@ d.M"</string>
     <string name="night">Ilta</string>
     <string name="noon">Keskipäivä</string>
     <string name="not_set">Ei asetettu</string>
-    <string name="notification_anim_pulse">Syke</string>
-    <string name="notification_anim_rhythm">Rytmi</string>
+    <string name="notification_anim_pulse">Pulssi (punainen)</string>
+    <string name="notification_anim_rhythm">Pulssi (sininen)</string>
     <string name="notification_anim_star">Tähtivalo</string>
     <string name="notification_nothing">Ei mitään</string>
     <string name="notification_screen_on">Valaise näyttö</string>
@@ -283,6 +283,7 @@ d.M"</string>
 upeaa tapahtuu"</string>
     <string name="standard_clock_panel">Standardi</string>
     <string name="standard_style">Vakio</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Askellaskelman tarjoaa Xiaomi Health. Hyväksy Xiaomi Health -käyttöehdot jatkaaksesi.</string>
     <string name="step_component_info_desc">Askelmäärä muuttuu palkinnoksi, kun tavoitteesi saavutetaan. Askellaskelman tarjoaa Xiaomi Health.</string>
     <string name="step_component_info_tip">Askellaskelman tarjoaa Xiaomi Health. Asenna tai päivitä Xiaomi Health ja hyväksy sen käyttöehdot jatkaaksesi.</string>
@@ -293,6 +294,7 @@ upeaa tapahtuu"</string>
     <string name="sunday_short">Su</string>
     <string name="sunday_shortest">Su</string>
     <string name="temporary_style">10 sekunnin ajan napautuksen jälkeen</string>
+    <string name="temporary_style_5">5 sekunnin ajan napautuksen jälkeen</string>
     <string name="temporary_style_summary">Suositeltu</string>
     <string name="text_color">Tekstin väri</string>
     <string name="text_length_exceed_limit_alert">*Syöttämäsi teksti on liian pitkä</string>

@@ -37,6 +37,7 @@
     <string name="alert_message_delete_record">Nauhoituksen poistaminen laitteestasi poistaa myös nauhoituksen kohteesta Xiaomi Cloud. Poistetaanko nyt?</string>
     <string name="alert_message_delete_record_title">Poistetaanko nauhoitus?</string>
     <string name="all_record">Kaikki tallenteet</string>
+    <string name="allowed">Myönnetty</string>
     <string name="am">ap.</string>
     <string name="app_name">Ääninauhuri</string>
     <string name="app_record">Sovellusnauhoitukset</string>
@@ -184,6 +185,7 @@
     <string name="head_set_tip_dialog_title">Käytä sisäistä mikrofonia</string>
     <string name="icon_content_description">Valintaikkunan kuvake</string>
     <string name="invalid_argument">Virheellinen argumentti</string>
+    <string name="invisible_mode_error_tip">Poista inkognito-tila käytöstä Asetuksista, jotta voit käyttää mikrofonia</string>
     <string name="item_view_role_description">Välilehti</string>
     <string name="keywords_search_call_record">Nauhoita puhelut;Nauhoita puhelu;Puhelun tallennus;Puhelu tullennukset</string>
     <string name="keywords_search_record">Uusi nauhoitus;Lisää nauhoitus;Nauhoitetaan;Nauhoitukset;Jäljennös;Jäljennä;Ääninauhuri;Puheen nauhoitus; Äänen nauhoitus;Nauhoitus sovellus;Nauhoitus sovellus;Miten tehdä nauhoitus;Miten nauhoittaa ääntä;Missä on nauhuri;MIUI nauhuri</string>
@@ -221,6 +223,7 @@
     <string name="mi_account_ok">Kirjaudu sisään</string>
     <string name="mi_account_title">Kirjaudu Mi-tililläsi</string>
     <string name="midnight">Yö</string>
+    <string name="miuix_access_state_desc">Valittu</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
@@ -293,6 +296,7 @@
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -333,6 +337,7 @@
     <string name="no_records">Täällä ei ole vielä tallenteita</string>
     <string name="noon">Keskipäivä</string>
     <string name="normal_settings_pref_title">Yleiset asetukset</string>
+    <string name="not_allowed">Ei myönnetty</string>
     <string name="not_set">Ei asetettu</string>
     <string name="notification_message_all_paused">Odotetaan Wi-Fi-yhteyttä.</string>
     <string name="notification_playback">Toistetaan…</string>
@@ -378,6 +383,15 @@
     <string name="pay_error_cancel">Maksu peruutettiin</string>
     <string name="pay_error_null">Ei voitu suorittaa maksua. Tarkista tilisi.</string>
     <string name="pay_error_unknown">Tuntematon virhe</string>
+    <string name="permission_desc">Käyttöoikeustiedot</string>
+    <string name="permission_dialog_cancel">Peruuta</string>
+    <string name="permission_dialog_ok">Asetukset</string>
+    <string name="permission_record">Tallenna ääntä</string>
+    <string name="permission_record_description">Äänitallennuspalvelujen tarjoamiseen</string>
+    <string name="permission_storage">Pääsy tallennustilaan</string>
+    <string name="permission_storage_description">Tallenteiden hallintaan ja niiden lataamiseen pilvestä</string>
+    <string name="permission_storage_description_for_download">Tallenteiden lataamiseen pilvestä</string>
+    <string name="permission_storage_description_for_manage_files">Tallenteiden hallintaan</string>
     <string name="play_speed">%1$.1fX nopeus</string>
     <string name="playback_delete_records">Poista nauhoitus</string>
     <string name="playback_share_records">Jaa nauhoitus</string>
@@ -399,6 +413,8 @@
     <string name="preference_status_bar_indicator_prompt">Näytä sininen osoitin lukitusnäytössä tallennuksen aikana</string>
     <string name="preference_tip_rename">Nimeä nauhoitukset manuaalisesti</string>
     <string name="privacy_policy_title">Tietosuojakäytäntö</string>
+    <string name="privacy_settings">Tietosuoja</string>
+    <string name="progress">Toiston edistymispalkki</string>
     <string name="recognition_button_add_to_queue">Lisää jonoon</string>
     <string name="recognition_button_cancel">Ei nyt</string>
     <string name="recognition_button_start">Transkriboi</string>
@@ -466,6 +482,7 @@
     <string name="record_mark_point">Merkitse %s</string>
     <string name="record_name_hour">.</string>
     <string name="record_name_minute">​</string>
+    <string name="record_permission_dialog_title">Mikrofonin käyttöoikeudet vaaditaan</string>
     <string name="record_quliaty_preference_title">Nauhoituksen laatu</string>
     <string name="record_resotre">Palautetut tiedot</string>
     <string name="recorder_record">Ääni</string>
@@ -498,6 +515,11 @@
     <string name="rename_no_more_tip">Älä näytä uudelleen</string>
     <string name="retry">Yritä uudelleen</string>
     <string name="runtime_permission_ungranted">Nauhurin käyttö ei ole sallittua sallittujen käyttöoikeuksien vuoksi</string>
+    <string name="saf_permission_dialog_content">Android-rajoitusten vuoksi Tallennin tarvitsee luvan käyttää muiden sovellusten tallenteita. Salli Tallentimen käyttää näitä tallenteita katsellakseen niitä.</string>
+    <string name="saf_permission_dialog_grant_permission_immediately">Asetukset</string>
+    <string name="saf_permission_dialog_later">Ei kiitos</string>
+    <string name="saf_permission_dialog_no_more_tip">Älä näytä uudelleen</string>
+    <string name="saf_permission_dialog_title">Käyttöoikeuksia tarvitaan</string>
     <string name="saturday">Lauantai</string>
     <string name="saturday_short">La</string>
     <string name="saturday_shortest">La</string>
@@ -516,6 +538,7 @@
     <string name="search_tip_rename">Nimeä nauhoitukset manuaalisesti</string>
     <string name="send">Lähetä</string>
     <string name="service_instructions">Tietoja iflyrec.comista</string>
+    <string name="settings_saf_permission">Tiedostonhallintaoikeudet</string>
     <string name="share">Jaa</string>
     <string name="share_dialog_title">Jaa kohteella</string>
     <string name="shortcut_records">Nauhoitukset</string>
@@ -536,6 +559,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Nauhoitetaan…</string>
     <string name="status_bar_recording_pause">Nauhoitus pysäytetty</string>
+    <string name="storage_permission_dialog_title">Tallennustilan käyttöoikeudet vaaditaan</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>
@@ -625,6 +649,7 @@
     <string name="user_feedback">Palaute</string>
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
     <string name="v7_preference_on">KÄYTÖSSÄ</string>
+    <string name="view_privacy">Katso Tietosuojakäytäntö</string>
     <string name="webview_check_network">Verkkoasetukset</string>
     <string name="webview_data_error">Tapahtui virhe</string>
     <string name="webview_locating_fail">Sijaintiasi ei löytynyt</string>

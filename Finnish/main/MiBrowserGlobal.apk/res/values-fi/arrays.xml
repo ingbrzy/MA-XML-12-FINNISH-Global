@@ -12,12 +12,20 @@
         <item>Vihreä</item>
         <item>Sininen</item>
     </string-array>
+    <string-array name="nf_ad_feedback_reason">
+        <item>En ole kiinnostunut tästä</item>
+        <item>Toistuva</item>
+        <item>Heikko laatu</item>
+        <item>Sopimaton kuva</item>
+        <item>Vilpillistä tietoa</item>
+    </string-array>
     <string-array name="nf_feedback_reason">
         <item>Aikuisille suunnattua sisältöä</item>
         <item>Valheellista sisältöä</item>
         <item>Vanhoja uutisia</item>
         <item>Ääriajatuksellista sisältöä</item>
         <item>Tiedostamatonta mainontaa</item>
+        <item>En pidä siitä</item>
     </string-array>
     <string-array name="pref_fling_on_border_gesture_entries">
         <item>Takaisin/eteenpäin</item>

@@ -79,10 +79,14 @@
     <string name="device_status_success">Lähetetty onnistuneesti</string>
     <string name="device_status_waiting">Odotetaan…</string>
     <string name="device_type_pc">Tietokone</string>
+    <string name="disable_nfc">NFC poistettu käytöstä langatonta latausta varten</string>
+    <string name="disable_nfc_reverse">NFC poistettu käytöstä käänteistä langatonta latausta varten</string>
     <string name="eighthours">8 tuntia</string>
     <string name="enable_livetalk_summary">Säästä jopa 70% puhelinlaskua</string>
     <string name="enable_livetalk_title">Laita Top-up paketti päälle</string>
     <string name="enable_midrop">Ota käyttöön</string>
+    <string name="enable_nfc">Ei lataa enää. NFC on taas päällä.</string>
+    <string name="enable_nfc_reverse">Ei lataa käänteisesti enää. NFC on taas päällä.</string>
     <string name="fc_dialog_body">Lähetetäänkö vikaraportti Xiaomille tutkittavaksi? Tämä saattaa sisältää henkilökohtaiseksi tunnistettavia tietoja. Raporttiasi käytetään vian korjaamista varten, eikä sitä tulla jakamaan eteenpäin mainostamista varten.</string>
     <string name="fc_dialog_jump_to_preview">Näytä yhteenveto</string>
     <string name="file_cannot_print">Tätä kohdetta ei voi tulostaa.</string>
@@ -159,7 +163,6 @@
     <string name="open_close_tip_content">Sulje kelluva ikkuna pitämällä toimintapalkkia painettuna ja pyyhkäisemällä sitten ylöspäin</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
-    <string name="other_ime">Muut näppäimistöt</string>
     <string name="package_delete_confirm_step_1">Poistetaanko %s?</string>
     <string name="package_delete_confirm_step_2">Tämän sovelluksen poistaminen saattaa aiheuttaa järjestelmän epävakautta.</string>
     <string name="package_delete_confirm_step_3">Et voi enää avata tätä sovellusta poistamisen jälkeen.</string>

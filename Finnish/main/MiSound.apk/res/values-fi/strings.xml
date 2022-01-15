@@ -61,6 +61,9 @@
     <string name="dolby_dax_setting">Dolby-tehosteet</string>
     <string name="dolby_dax_title">Surround-ääni</string>
     <string name="early_morning">Aamu</string>
+    <string name="effect_3dsurround">Surround-ääni</string>
+    <string name="effect_3dsurround_summary">Paranna äänentoiston syvyyttä kuulokkeissa ja kaiuttimissa</string>
+    <string name="effect_3dsurround_summary_headphone">Paranna äänentoiston syvyyttä kuulokkeissa</string>
     <string name="empty" />
     <string name="end_wireless_transmission">Lopeta</string>
     <string name="eq_auto">Muokattu</string>
@@ -115,7 +118,7 @@
     <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy</string>
     <string name="fmt_time">T</string>
-    <string name="fmt_time_12hour">"h 'o''clock'"</string>
+    <string name="fmt_time_12hour">"'klo' h"</string>
     <string name="fmt_time_12hour_minute">h:mm</string>
     <string name="fmt_time_12hour_minute_pm">h:mm a</string>
     <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
@@ -123,7 +126,7 @@
     <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
     <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
     <string name="fmt_time_12hour_pm">ha</string>
-    <string name="fmt_time_24hour">"H 'o''clock'"</string>
+    <string name="fmt_time_24hour">"'Klo' h"</string>
     <string name="fmt_time_24hour_minute">H:mm</string>
     <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
     <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
@@ -264,6 +267,7 @@
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>

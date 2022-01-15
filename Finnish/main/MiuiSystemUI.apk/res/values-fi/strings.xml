@@ -131,7 +131,6 @@
     <string name="accessibility_keyguard_face_unlock_view">Lukituksen poisto kasvojentunnistuksella</string>
     <string name="accessibility_left_control_center_button">Pikavalinta</string>
     <string name="accessibility_left_lock_screen_magazine_button">Taustakuvakaruselli</string>
-    <string name="accessibility_left_xmyzl_button">Xiaomi Magic Control</string>
     <string name="accessibility_location_active">Sijaintipyynnöt aktiiviset</string>
     <string name="accessibility_long_click_tile">Avaa asetukset</string>
     <string name="accessibility_manage_notification">Ilmoitusasetusten muuttaminen</string>
@@ -561,7 +560,6 @@ Valinta"</string>
     <string name="cell_data_off">Pois käytöstä</string>
     <string name="cell_data_off_content_description">Mobiilidata poistettu käytöstä</string>
     <string name="charge_length_format">%1$s sitten</string>
-    <string name="choose_clock_dual_clock_hint_text">Muotoa ei voi muuttaa, kun kaksoiskello on päällä</string>
     <string name="choose_clock_panel_title">Lukitusnäytön asettelu</string>
     <string name="choose_clock_third_theme_hint_text">Lukitusnäyttö valitusta teemasta</string>
     <string name="choose_clock_title_left_top">Tasattu vasemmalle</string>
@@ -705,9 +703,6 @@ Jos jatkat käyttöä, datan käytöstä saatetaan periä maksuja."</string>
     <string name="development_settings_not_available">Kehittäjäasetukset eivät ole saatavilla tälle käyttäjälle</string>
     <string name="development_settings_summary">Aseta vaihtoehtoja sovellusten kehittämiseen</string>
     <string name="development_settings_title">Kehittäjäasetukset</string>
-    <string name="device_locked_without_biometric">Tämän laitteen lukitusta ei voi avata sormenjäljillä tai kasvotiedoilla, kun käytät kolmannen osapuolen näytönlukitusta</string>
-    <string name="device_locked_without_biometric_face">Tämän laitteen lukitusta ei voi avata kasvotiedoilla, kun käytät kolmannen osapuolen näytönlukitusta</string>
-    <string name="device_locked_without_biometric_finger">Tämän laitteen lukitusta ei voi avata sormenjäljillä, kun käytät kolmannen osapuolen näytönlukitusta</string>
     <string name="device_services">Laitepalvelut</string>
     <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Huomautus: Uudelleenkäynnistämisen jälkeen tämä sovellus ei voi aueta siihen asti, kunnes poistat laitteesi lukituksen.</string>
@@ -783,7 +778,6 @@ Jos jatkat käyttöä, datan käytöstä saatetaan periä maksuja."</string>
     <string name="face_unlock_pin_and_fingerprint">Anna PIN tai avaa lukitus sormenjäljellä</string>
     <string name="face_unlock_reveal_eye">Tee silmäsi näkyviksi</string>
     <string name="face_unlock_reveal_mouth">Tee huulesi näkyviksi</string>
-    <string name="face_unlock_success">Lukitus avattu onnistuneesti</string>
     <string name="failed_to_open_app_settings_toast">Sovelluksen %1$s asetuksia ei voitu avata</string>
     <string name="fingerprint_add_text">Sormenjäljen käyttöliittymä päivitettiin. Lisää sormenjälkesi uudelleen.</string>
     <string name="fingerprint_add_title">Lisää sormenjälki</string>
@@ -812,7 +806,6 @@ Jos jatkat käyttöä, datan käytöstä saatetaan periä maksuja."</string>
     <string name="fs_gesture_back_ready_title">Mene takaisin</string>
     <string name="fs_gesture_final_over">Olen valmis</string>
     <string name="fs_gesture_final_restart">Vielä kerran</string>
-    <string name="fs_gesture_final_see_more">Katso lisää esittelyjä kohdassa Asetukset > Aloitusnäyttö > Järjestelmän navigointi</string>
     <string name="fs_gesture_final_summary">Voit palata käyttämään painikkeita Asetukset > Koko näyttö</string>
     <string name="fs_gesture_final_title">Olet valmis rokkaamaan!</string>
     <string name="fs_gesture_finish">Hienoa!</string>
@@ -843,6 +836,28 @@ Jos jatkat käyttöä, datan käytöstä saatetaan periä maksuja."</string>
     <string name="guest_wipe_session_wipe">Aloita alusta</string>
     <string name="gxzw_area">Sormenjälkitunnistin</string>
     <string name="gxzw_press_harder">Paina hieman kovemmin</string>
+    <string name="gxzw_quick_close">Sulje</string>
+    <string name="gxzw_quick_open_add_event">Lisää tapahtuma</string>
+    <string name="gxzw_quick_open_add_event_sub">Kalenteri</string>
+    <string name="gxzw_quick_open_alipay_pay">Maksukoodi</string>
+    <string name="gxzw_quick_open_alipay_pay_sub">Alipay</string>
+    <string name="gxzw_quick_open_alipay_scan">Skanneri</string>
+    <string name="gxzw_quick_open_alipay_scan_sub">Alipay</string>
+    <string name="gxzw_quick_open_qr_code">QR-koodi</string>
+    <string name="gxzw_quick_open_qr_code_sub">Skanneri</string>
+    <string name="gxzw_quick_open_search">Etsi</string>
+    <string name="gxzw_quick_open_search_sub">Selain</string>
+    <string name="gxzw_quick_open_skip_teach">Ohita ohje</string>
+    <string name="gxzw_quick_open_title">Pikavalikko avattu</string>
+    <string name="gxzw_quick_open_wechat_pay">Maksukoodi</string>
+    <string name="gxzw_quick_open_wechat_pay_sub">WeChat</string>
+    <string name="gxzw_quick_open_wechat_scan">Skanneri</string>
+    <string name="gxzw_quick_open_wechat_scan_sub">WeChat</string>
+    <string name="gxzw_quick_open_xiaoai_sub">Mi AI</string>
+    <string name="gxzw_quick_open_xiaoai_title1">Sano sen sovelluksen nimi, jonka haluat avata</string>
+    <string name="gxzw_quick_open_xiaoai_title2">Sano sen ominaisuuden nimi, jota haluat käyttää</string>
+    <string name="gxzw_quick_tip_press">Jatka painamista…</string>
+    <string name="gxzw_quick_tip_slide">Älä nosta sormeasi. Valitse pyyhkäisemällä.</string>
     <string name="gxzw_try_again">Yritä uudelleen</string>
     <string name="gxzw_try_more_again">Yritä uudelleen</string>
     <string name="gxzw_use_password">Avaa salasanallasi</string>
@@ -911,15 +926,13 @@ Haluatko, että niitä näytetään myös jatkossa?"</string>
     <string name="input_lockscreen_password_hint_text">Syötä salasana</string>
     <string name="input_lockscreen_pattern_hint_text">Piirrä kuvio</string>
     <string name="input_lockscreen_pin_hint_text">Anna PIN</string>
-    <string name="input_password_after_boot_msg">Salasanan syöttäminen vaaditaan, kun laite käynnistetään uudelleen</string>
+    <string name="input_password_after_boot_msg">Avaa laite syöttämällä salasana</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Ei voi vaihtaa tilojen välillä puhelun aikana</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Tilojen välillä vaihtaminen lapsilukkoa käytettäessä ei ole mahdollista</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_superpower_active">Et voi vaihtaa tilojen välillä, kun ultravirransäästö on päällä</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Sinun on syötettävä ensimmäiseen tilaan, kun laite käynnistettiin uudelleen</string>
     <string name="input_password_hint_text">Anna salasana</string>
-    <string name="input_pattern_after_boot_msg">Kuvion piirtäminen vaaditaan, kun laite käynnistyy uudelleen</string>
     <string name="input_pattern_hint_text">Piirrä kuvio</string>
-    <string name="input_pin_after_boot_msg">PIN-koodiasi vaaditaan, kun laite käynnistetään uudelleen</string>
     <string name="input_pin_code">Anna PIN-koodi</string>
     <string name="input_puk_code">Syötä PUK-koodi</string>
     <string name="install_other_apps">Asenna tuntemattomia sovelluksia</string>
@@ -998,7 +1011,6 @@ tärkeät"</string>
     <string name="keyguard_charged">Ladattu</string>
     <string name="keyguard_charging_back_to_lockscreen">Takaisin lukitusnäyttöön</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
-    <string name="keyguard_charging_double_fast_and_level_tip">Latausnopeuden lisääminen %s</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Tänään %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Eilen %s</string>
@@ -1025,6 +1037,7 @@ tärkeät"</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-korttia ei löydy tai ei voi lukea. Aseta SIM-kortti.</string>
     <string name="keyguard_missing_sim_message">Puhelimessa ei ole SIM-korttia.</string>
     <string name="keyguard_missing_sim_message_short">Ei SIM-korttia</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Verkko lukittu</string>
     <string name="keyguard_password_enter_password_code">Poista lukitus antamalla salasana.</string>
     <string name="keyguard_password_enter_pin_code">Anna PIN-koodi.</string>
@@ -1260,12 +1273,14 @@ Lisäksi olet yhteydessä sovellukseen %3$s, joka voi valvoa henkilökohtaista t
 
 Pyydä lisätietoja järjestelmänvalvojalta."</string>
     <string name="monitoring_description_ca_cert_settings">Avaa luotetut todennustiedot</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Laitteeseen on asennettu varmenteen myöntäjä. Suojattua verkkoliikennettäsi voidaan valvoa tai muuttaa.</string>
     <string name="monitoring_description_do_body">Järjestelmänvalvoja voi valvoa ja hallita asetuksia, yrityskäyttöä, sovelluksia sekä laitteeseen yhdistettyjä tietoja ja sen sijaintitietoja.</string>
     <string name="monitoring_description_do_body_vpn">Olet yhteydessä sovellukseen %1$s, joka voi valvoa verkkotoimintaasi, esimerkiksi sähköposteja, sovelluksia ja verkkosivustoja.</string>
     <string name="monitoring_description_do_header_generic">Laitettasi hallinnoi %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s hallinnoi laitettasi sovelluksen %2$s avulla.</string>
     <string name="monitoring_description_do_learn_more">Lisätietoja</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Organisaatiosi lisäsi työprofiiliin varmenteen myöntäjän. Suojattua verkkoliikennettäsi voidaan valvoa tai muuttaa.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Työprofiilisi on yhteydessä sovellukseen %1$s, joka voi valvoa toimintaasi verkossa, esimerkiksi sähköposteja, sovelluksia ja verkkosivustoja.</string>
     <string name="monitoring_description_management">"Organisaatiosi omistaa tämän laitteen.
@@ -1297,6 +1312,7 @@ Pyydä lisätietoja järjestelmänvalvojalta.
 
 Olet myös yhteydessä VPN:ään, joka voi valvoa toimintaasi verkossa."</string>
     <string name="monitoring_description_vpn_settings">Avaa VPN-asetukset</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-varmenteet</string>
     <string name="monitoring_subtitle_network_logging">Lokitiedostojen tallennus</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1327,11 +1343,11 @@ Olet myös yhteydessä VPN:ään, joka voi valvoa toimintaasi verkossa."</string
     <string name="mr_dialog_transferable_header">Toista ryhmässä</string>
     <string name="mr_system_route_name">Järjestelmä</string>
     <string name="mr_user_route_category_name">Laitteet</string>
-    <string name="msim_set_sub_not_supported_phone_in_call">Ei voi asettaa puhelun aikana</string>
     <string name="music_controls_no_title">Ei nimeä</string>
     <string name="nav_bar">Navigointipalkki</string>
     <string name="nav_bar_default">(oletus)</string>
     <string name="nav_bar_layout">Asettelu</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Ei mitään</string>
     <string name="no_auto_saver_action">Ei kiitos</string>
     <string name="no_shortcut">%1$s ei tue keskusteluominaisuuksia</string>
@@ -1403,7 +1419,6 @@ Olet myös yhteydessä VPN:ään, joka voi valvoa toimintaasi verkossa."</string
     <string name="open_lock_screen_magazine_hint_text">Pyyhkäise oikealle saadaksesi lisää vaihtoehtoja</string>
     <string name="open_remote_center_hint_text">Pyyhkäise oikealle nähdäksesi ohjaimet</string>
     <string name="open_saver_setting_action">Asetukset</string>
-    <string name="open_xmyzl_hint_text">Avaa Xiaomi Magic Control pyyhkäisemällä oikealle</string>
     <string name="orb_search_action">Hakutoiminto</string>
     <string name="osu_completing_sign_up">Suoritetaan kirjautumista…</string>
     <string name="osu_connect_failed">Ei voi yhdistää</string>
@@ -1429,7 +1444,7 @@ Olet myös yhteydessä VPN:ään, joka voi valvoa toimintaasi verkossa."</string
     <string name="phone_locked_foget_password_method_content">&lt;Data>Sinun on &lt;font color=#a5220e>poistettava kaikki tiedot &lt;/font>laitteestasi, mukaan lukien valokuvat ja yhteystiedot, ja aseta sitten uusi lukitusnäytön salasana.&lt;/Data></string>
     <string name="phone_locked_foget_password_method_next">Seuraava</string>
     <string name="phone_locked_foget_password_ok">Selvä</string>
-    <string name="phone_locked_forget_password_suggesstion_one_content"><Data>Katkaise laitteestasi virta ja pidä sitten painettuna &lt;font color=#e6e6e6>[Virta]&lt;/font> ja &lt;font color=#e6e6e6>[Äänenvoimakkuus +]&lt;/font> -painikkeita, kunnes näet kohteen &lt;img src=\"\">.</Data></string>
+    <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data>Kytke laitteesi virta pois ja paina &lt;font color=#a5220e>Virtapainiketta&lt;/font> ja &lt;font color=#a5220e>Äänenvoimakkuuden lisäyspainiketta&lt;/font> samanaikaisesti, kunnes näet Mi-logon.&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Valitse &lt;font color=#a5220e>\"Puuhi &amp;amp; Tyhjennä\"&lt;/font> ja odota, kunnes laite käynnistyy uudelleen.&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">Kuinka poistaa tiedot?</string>
     <string name="phone_locked_string">Tämä laite on lukittu</string>
@@ -1515,6 +1530,7 @@ Olet myös yhteydessä VPN:ään, joka voi valvoa toimintaasi verkossa."</string
     <string name="private_dns_mode_provider">Yksityisen DNS-tarjoajan isäntänimi</string>
     <string name="private_dns_mode_provider_failure">Ei voi yhdistää</string>
     <string name="private_dns_mode_provider_hostname_hint">Syötä DNS-tarjoajan isäntänimi</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">Ongelma yhteyden muodostamisessa. Sammuta laite &amp; kytke se takaisin päälle</string>
     <string name="profile_info_settings_title">Profiilitiedot</string>
     <string name="profile_owned_footer">Profiilia saatetaan valvoa</string>
@@ -1648,7 +1664,7 @@ Olet myös yhteydessä VPN:ään, joka voi valvoa toimintaasi verkossa."</string
     <string name="quick_settings_rotation_locked_landscape_label">Vaaka</string>
     <string name="quick_settings_rotation_locked_portrait_label">Pysty</string>
     <string name="quick_settings_rotation_unlocked_label">Automaattinen kääntö</string>
-    <string name="quick_settings_rotationlock_label">Lukituksen suunta</string>
+    <string name="quick_settings_rotationlock_label">Näytön kierto</string>
     <string name="quick_settings_rssi_emergency_only">Vain hätäpuhelut</string>
     <string name="quick_settings_rssi_label">RSSI</string>
     <string name="quick_settings_screen_record_label">Tallennus</string>
@@ -1806,8 +1822,6 @@ Olet myös yhteydessä VPN:ään, joka voi valvoa toimintaasi verkossa."</string
     <string name="show_silently">Näytä ilmoitukset hiljennettyinä</string>
     <string name="show_touches">Näytä napautukset</string>
     <string name="show_touches_summary">Näytä visuaalinen palaute napautuksille</string>
-    <string name="shut_down_password_forget_password_suggesstion_one_content"><Data>Press and hold the &lt;font color=#e6e6e6>[Power]&lt;/font> and &lt;font color=#e6e6e6>[Volume +]&lt;/font> buttons until you see &lt;img src=\"\">.</Data></string>
-    <string name="shut_down_password_forget_password_suggesstion_two_content"><Data>Select &lt;font color=#e6e6e6>[Wipe data]&lt;/font> and tap &lt;font color=#e6e6e6>[Reboot]&lt;/font> after that.</Data></string>
     <string name="sim_state_locked_dialog_title">Virheellinen SIM-kortti</string>
     <string name="sim_state_locked_puk_dialog_message">Olet syöttänyt väärän PUK-koodin ainakin %d kertaa. SIM-korttisi on nyt käyttökelvoton. Korvaa tämä SIM-kortti toisella.</string>
     <string name="simulate_color_space">Jäljittele väritila</string>

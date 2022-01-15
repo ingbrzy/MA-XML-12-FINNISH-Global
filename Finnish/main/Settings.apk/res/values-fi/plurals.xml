@@ -92,10 +92,6 @@
         <item quantity="other">%d laitetta saatavissa</item>
         <item quantity="one">%d laite saatavissa</item>
     </plurals>
-    <plurals name="color_game_led_freq_entries">
-        <item quantity="other">Joka %d. sekunti</item>
-        <item quantity="one">Joka %d sekunti</item>
-    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d laitetta</item>
         <item quantity="one">%d laite</item>

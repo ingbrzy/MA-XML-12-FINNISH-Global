@@ -150,6 +150,7 @@
     <string name="dynamic_weather">Sää</string>
     <string name="early_morning">Aamu</string>
     <string name="edit_city">Hallitse kaupunkeja</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Päivitetään…</string>
     <string name="empty_view_net_unavailable">Ei voitu yhdistää verkkoon</string>
     <string name="empty_view_refresh">Yritä uudelleen</string>
@@ -259,13 +260,17 @@
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
     <string name="hourly_forcast_now">Nyt</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d.M</string>
     <string name="index_item_experience_now">Asenna nyt</string>
     <string name="indices_title_chance_of_rain">Sateen mahdollisuus</string>
     <string name="indices_title_feel">Tuntuu kuin</string>
     <string name="indices_title_pressure">Paine</string>
     <string name="indices_title_wind_speed">Tuulen nopeus</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV-Indeksi</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Ota sijaintipalvelut käyttöön</string>
     <string name="location_tag">Paikanna</string>
     <string name="manager_city_option_add_home">Lisää aloitussivulle</string>
@@ -408,6 +413,7 @@
     <string name="save_to_gallery_icon_name">Tallenna Galleriaan</string>
     <string name="save_to_gallery_success_message">Tallennettu Galleriaan onnistuneesti</string>
     <string name="search_menu_title">Haku</string>
+    <string name="select_show_city">Valitse sijainti</string>
     <string name="send">Lähetä</string>
     <string name="set_degree_centigrade">°C</string>
     <string name="set_fahrenheit">°F</string>
@@ -422,6 +428,7 @@
     <string name="share_menu_title">Jaa</string>
     <string name="share_subject">Jaa</string>
     <string name="share_weather_desc">\#MIUI Sää#Tänään %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kuvakaappausta ei voitu ottaa</string>
     <string name="shortcut_short_label_24_hour_forecast">24 tunnin ennuste</string>

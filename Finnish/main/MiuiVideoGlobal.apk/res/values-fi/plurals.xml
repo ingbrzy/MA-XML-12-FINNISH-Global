@@ -176,4 +176,12 @@
         <item quantity="other">Tekstitys on viivästetty %.1f sekunnilla</item>
         <item quantity="one">Tekstitys on viivästetty %.1f sekunnilla</item>
     </plurals>
+    <plurals name="toast_bookmark_max_size">
+        <item quantity="other">Lisää enintään %d kirjanmerkkiä</item>
+        <item quantity="one">Lisää enintään %d kirjanmerkki</item>
+    </plurals>
+    <plurals name="video_view_count">
+        <item quantity="other">%d näyttökertaa</item>
+        <item quantity="one">%d näyttökerta</item>
+    </plurals>
 </resources>

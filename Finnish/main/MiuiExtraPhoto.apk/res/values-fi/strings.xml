@@ -81,6 +81,5 @@
     <string name="refocus_type_relighting_small_face">Studiovalaistus toimii valokuvissa joissa kasvoilla on enemmän kuva-alaa kuin tässä.</string>
     <string name="refocus_type_static">Sumenna</string>
     <string name="refocus_type_video">Valojuovat</string>
-    <string name="save">Tallenna</string>
     <string name="status_bar_notification_info_overflow">999+</string>
 </resources>

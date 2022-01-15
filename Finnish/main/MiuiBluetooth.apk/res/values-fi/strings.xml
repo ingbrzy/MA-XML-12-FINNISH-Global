@@ -352,7 +352,6 @@ Nopeampi yhteysprotokolla."</string>
     <string name="headset_device_error_multconnect">Ei voi päivittää, kun useita laitteita on kytketty</string>
     <string name="headset_device_error_no_device">Ainakin yksi kuuloke puuttuu latauskotelosta</string>
     <string name="headset_device_error_single_device">Yhtä kuuloketta ei voi päivittää. Yhdistä uudelleen.</string>
-    <string name="headset_device_sync">Synkronoidaan…</string>
     <string name="headset_device_sync_donot_move_device">Synkronoidaan… Odota, kunnes synkronointi on valmis, ennen kuin käytät kuulokkeita.</string>
     <string name="headset_device_sync_wait_connect">Synkronoidaan… Odota, kunnes yhteys muodostuu automaattisesti, ennen kuin käytät kuulokkeita.</string>
     <string name="headset_download_failed">Ei voitu ladata</string>
@@ -366,7 +365,6 @@ Nopeampi yhteysprotokolla."</string>
     <string name="headset_fw_file_position_failed">Tiedostoon ei päästy</string>
     <string name="headset_fw_file_readfailed">Päivitystietoa ei saatu</string>
     <string name="headset_loss_notify_summary">Näyttää siltä, että ainakin yksi kuulokkeistasi ei ole latauskotelossa. Katso ympärillesi!</string>
-    <string name="headset_loss_notify_summary1">Näyttää siltä, että kuulokkeet eivät ole kotelossa. Laita ne takaisin, jotta ne latautuvat.</string>
     <string name="headset_loss_notify_title">Hälytys hävinneestä kuulokkeesta</string>
     <string name="headset_read_fw_state">Päivitystietoja ei saatu</string>
     <string name="headset_update_failed">Ei voitu päivittää</string>

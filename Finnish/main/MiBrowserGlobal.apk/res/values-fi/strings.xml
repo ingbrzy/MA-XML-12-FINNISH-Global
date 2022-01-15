@@ -235,7 +235,7 @@ Kytke synkronointi pois käytöstä."</string>
     <string name="category_folder">Kansiot</string>
     <string name="category_installed_app">Asennetut sovellukset</string>
     <string name="category_midrive">Mi Drive</string>
-    <string name="category_move_limit_notice">Voit siirtää 3-7 kohdetta näytön yläosaan</string>
+    <string name="category_move_limit_notice">Voit siirtyä paikasta %1$d kohtaan %2$d kohteita näytön yläosaan</string>
     <string name="category_music">Musiikki</string>
     <string name="category_other">Muut</string>
     <string name="category_photo">Valokuvat</string>
@@ -374,6 +374,9 @@ Kytke synkronointi pois käytöstä."</string>
     <string name="copy">Kopioi</string>
     <string name="copy_url">Kopioi URL</string>
     <string name="could_not_load_data">"Couldn't load data, refresh and try again"</string>
+    <string name="crash_page_button">Yritä uudelleen</string>
+    <string name="crash_page_description">Jotain meni vikaan tämän verkkosivun näyttämisessä.</string>
+    <string name="crash_page_title">Hups!</string>
     <string name="create_qr_code">QR-koodi</string>
     <string name="current_version_pad">Tabletti</string>
     <string name="current_version_pc">Työpöytä</string>
@@ -432,7 +435,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="download_btn_select_none">Kumoa kaikkien valinta</string>
     <string name="download_business_app_new_version">Uusin versio tästä sovelluksesta on jo asennettu</string>
     <string name="download_business_app_update_install">Valmis asentamaan päivityksen.</string>
-    <string name="download_business_v5_edit_mode_title_empty">0 valittu</string>
+    <string name="download_business_v5_edit_mode_title_empty">Valitse kohteet</string>
     <string name="download_change_dir">Vaihda kansiota</string>
     <string name="download_complete">Ladattu onnistuneesti</string>
     <string name="download_completed">Ladattu</string>
@@ -453,7 +456,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="download_dialog_failed_body">Yritä uudelleen tai poista tämä tiedosto latausjonosta?</string>
     <string name="download_dialog_file_already_exists">Olet jo ladannut tämän tiedoston</string>
     <string name="download_dialog_file_length_hint_txt">"Tiedoston koko: "</string>
-    <string name="download_dialog_file_length_lessthan1kb">Alle 1 Kt</string>
+    <string name="download_dialog_file_length_lessthan1kb">Alle %1$d kt</string>
     <string name="download_dialog_file_length_nolength_error_txt">Ei voi ladata</string>
     <string name="download_dialog_file_length_nolength_txt">Hetki vain…</string>
     <string name="download_dialog_file_missing_body">Tiedostoa ei löytynyt. Siirsitkö tai poistitko sen?</string>
@@ -694,6 +697,8 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="friday">Perjantai</string>
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
+    <string name="game_center_recommend_play">Pelaa</string>
+    <string name="game_center_recommend_title">Sinulle suositeltu</string>
     <string name="game_played">Viimeaikaiset</string>
     <string name="gcm_fallback_notification_channel_label">Muut</string>
     <string name="geolocation_permissions_prompt_dont_share">Kieltäydy</string>
@@ -805,9 +810,9 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="lockpattern_need_to_unlock_wrong">Yritä uudelleen</string>
     <string name="lockpattern_pattern_confirmed_header">Tässä on lukituksenpoistokuviosi:</string>
     <string name="lockpattern_pattern_entered_header">Valmis!</string>
-    <string name="lockpattern_recording_incorrect_too_short">Yritä uudelleen. Yhdistä ainakin 4 pistettä.</string>
+    <string name="lockpattern_recording_incorrect_too_short">Yritä uudelleen. Yhdistä vähintään %1$d pistettä.</string>
     <string name="lockpattern_recording_inprogress">Vapauta, kun kuvio on valmis</string>
-    <string name="lockpattern_recording_intro_header">Yhdistä ainakin 4 pistettä</string>
+    <string name="lockpattern_recording_intro_header">Yhdistä vähintään %1$d pistettä</string>
     <string name="lockpattern_retry_button_text">Nollaa</string>
     <string name="login_failed_toast">Kirjautuminen epäonnistui, päivitä ja yritä uudelleen</string>
     <string name="login_or_register">tai</string>
@@ -818,7 +823,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="make_private_msg_1">Piilotetaanko tämä tiedosto?</string>
     <string name="make_private_msg_2">Piilotetaanko nämä tiedostot?</string>
     <string name="max_tabs_warning">Ei voida avata lisää välilehtiä</string>
-    <string name="maximum_input_alert">Et voi syöttää enempää, kuin 2048 merkkiä</string>
+    <string name="maximum_input_alert">Enintään %1$d merkkiä</string>
     <string name="menu_addtodesk">Lisää aloitusnäyttöön</string>
     <string name="menu_exit_nightmode">Poistu</string>
     <string name="menu_hv_swap">V/H-näyttö</string>
@@ -1330,7 +1335,7 @@ Poistutaanko tältä sivulta nyt?"</string>
     <string name="pf_guide_msg_if_has_downloading">Käynnissä olevia latauksia ei voi lisätä yksityiseen kansioon</string>
     <string name="pf_move_out">Poista yksityisestä kansiosta</string>
     <string name="pf_move_out_dialog_btn_confirm">Poista</string>
-    <string name="pf_move_out_dialog_content">Poistetut kohteet tallennetaan niiden alkuperäiseen sijaintiin.</string>
+    <string name="pf_move_out_dialog_content">Poistetut kohteet näkyvät viimeaikaisten tiedostojen joukossa.</string>
     <string name="pf_move_out_dialog_title">Poistetaan yksityisestä kansiosta</string>
     <string name="pf_toast_add_success">Siirretty yksityiseen kansioon onnistuneesti</string>
     <string name="phone">Tallennustila</string>
@@ -1621,7 +1626,7 @@ Tietyt sivustot eivät käytä aiempaa selaushistoriaasi yksilöidäkseen mainok
     <string name="rlv_pull_to_refresh">Virkistä vetämällä alas</string>
     <string name="rlv_refreshing">Virkistetään…</string>
     <string name="rlv_release_to_refresh">Vapauta virkistääksesi</string>
-    <string name="rlz_access_point">Y1</string>
+    <string name="rlz_access_point">Y%1$d</string>
     <string name="root_folder_lable">Ei mitään</string>
     <string name="router_download_exist">Tämä tiedosto on jo olemassa</string>
     <string name="router_download_failed">Ei voi ladata</string>
@@ -1679,7 +1684,7 @@ Tietyt sivustot eivät käytä aiempaa selaushistoriaasi yksilöidäkseen mainok
     <string name="search_google">Google</string>
     <string name="search_hint">Etsi</string>
     <string name="search_menu_title">Haku</string>
-    <string name="search_s139">139</string>
+    <string name="search_s139">%1$d</string>
     <string name="search_settings_description">Kirjanmerkit ja selaushistoria</string>
     <string name="search_shipin">Video</string>
     <string name="search_sm">SM</string>
@@ -1978,8 +1983,8 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="vpn_data_used_info">%2$s/%1$s käytetty</string>
     <string name="vpn_detail_guide1">Avaa kaikki palvelimet nopeuttaaksesi yhteyttäsi</string>
     <string name="vpn_detail_guide2">Tilaa VPN-palvelut päästäksesi lisää verkkosivustoihin</string>
-    <string name="vpn_detail_guide3">Olet melkein poissa liikenteestä. Kokeile 12 kuukauden suunnitelmaa! Napauta tutustuaksesi vaihtoehtoihin.</string>
-    <string name="vpn_detail_guide4">Olet poissa liikenteestä. Kokeile 12 kuukauden suunnitelmaa! Napauta tutustuaksesi vaihtoehtoihin.</string>
+    <string name="vpn_detail_guide3">Olet melkein poissa liikenteestä. Kokeile %1$d kuukauden pakettia! Napauta saadaksesi lisätietoja vaihtoehdoistasi.</string>
+    <string name="vpn_detail_guide4">Olet poissa liikenteestä. Kokeile %1$d kuukauden pakettia! Napauta saadaksesi lisätietoja vaihtoehdoistasi.</string>
     <string name="vpn_detail_guide5">Olet melkein poissa liikenteestä</string>
     <string name="vpn_detail_guide6">Olet poissa liikenteestä</string>
     <string name="vpn_detail_subscribe">Tilaa</string>
@@ -2010,7 +2015,7 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="whatsapp_how_it_works">Miten se toimii</string>
     <string name="whatsapp_intro_dialog_title">Uusi ominaisuus</string>
     <string name="whatsapp_no_status_tips">Ei vielä kuvia tai videoita täällä. Tarkastele WhatsApp-tilasi päivityksiä ja palaa tänne uudelleen.</string>
-    <string name="whatsapp_principle_page_message">WhatsApp tallentaa kuvat ja videot, joita selaat, piilotettuun kansioon. Nämä kohteet häviävät 24 tunnin kuluttua. Nyt voit käyttää Mi Selainta tallentaaksesi ne.</string>
+    <string name="whatsapp_principle_page_message">WhatsApp tallentaa selaamasi valokuvat ja videot piilotettuun kansioon. Nämä kohteet katoavat %1$d tunnin kuluttua. Nyt voit käyttää Mi-selainta niiden tallentamiseen.</string>
     <string name="whatsapp_principle_page_title">Voit tallentaa kuvia ja videoita WhatsApp-tiloista Mi Selaimen avulla</string>
     <string name="whatsapp_principle_step_1">Selaa kuvia ja videoita \"Tila\"-välilehdellä WhatsAppissa.</string>
     <string name="whatsapp_principle_step_2">Palaa tänne tallentaaksesi ne.</string>

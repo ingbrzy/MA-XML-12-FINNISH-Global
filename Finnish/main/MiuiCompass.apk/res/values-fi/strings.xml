@@ -51,6 +51,7 @@
     <string name="calibrate_success">Kalibroitu</string>
     <string name="calibrate_tip">Vieritä palloa kehän ympäri kallistamalla laitettasi</string>
     <string name="calibrate_title">Kalibroi kompassi</string>
+    <string name="calibrating">Kalibroidaan kompassia</string>
     <string name="cancel">Peruuta</string>
     <string name="cannot_get_location">--</string>
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
@@ -225,6 +226,7 @@
     <string name="month_september_shortest">Syys</string>
     <string name="more">Lisää</string>
     <string name="morning">Aamu</string>
+    <string name="new_cta_app_purpose">tarkastele ohjeita ja koordinaatteja</string>
     <string name="new_cta_v2_app_purpose">Reittiohjeiden, koordinaattien, ilmanpaineen ja nykyisen leveysasteen näyttäminen</string>
     <string name="new_permission_camera_desc">Kalibrointia varten</string>
     <string name="new_permission_location_desc">Koordinaattien näyttämiseksi</string>
@@ -236,6 +238,7 @@
     <string name="open_perm_msg">Kompassi tarvitsee pääsyn sijaintitietoihin ja kameraan määrittääkseen koordinaatit ja antaakseen reaaliaikaisia esikatselukuvia. Hyväksy?</string>
     <string name="open_perm_msg_no_camera">Kompassin on käytettävä sijaintitietoja voidakseen määrittää koordinaatit. Sallitaanko?</string>
     <string name="open_perm_title">Käyttöoikeuksia vaaditaan</string>
+    <string name="pageIndicator">%1$s, %2$s.</string>
     <string name="permission_camera_desc">Atsimuutin näyttämiseksi suorassa esikatselussa</string>
     <string name="permission_description">Käyttöoikeustiedot</string>
     <string name="permission_location_desc">Koordinaattien näyttämiseksi</string>

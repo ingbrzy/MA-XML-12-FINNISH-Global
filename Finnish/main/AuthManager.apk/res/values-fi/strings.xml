@@ -165,7 +165,6 @@
     <string name="clipboard_read_ai_deny_once">Pääsy leikepöydälle rajoitettu kohteelle %1$s</string>
     <string name="clipboard_read_allow_once">%1$s käytti kohteita leikepöydällä</string>
     <string name="clipboard_read_deny_dialog_title">Pääsy leikepöydälle rajoitettu kohteelle %1$s</string>
-    <string name="close">Sulje</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -358,7 +357,6 @@
     <string name="screen_overlay_message">Vaihtaaksesi tämän käyttöluvan, laita ensin näytön päällys pois päältä menemällä Asetukset > Sovellukset.</string>
     <string name="screen_overlay_title">Näytön päällys tunnistettu</string>
     <string name="search_menu_title">Haku</string>
-    <string name="send">Lähetä</string>
     <string name="size_byte">t</string>
     <string name="size_giga_byte">Gt</string>
     <string name="size_kilo_byte">Kt</string>

@@ -107,6 +107,9 @@
     <string name="binded">Yhdistetty</string>
     <string name="binded_description" formatted="false">"%s on yhdistetty Mi-tiliisi.
 Voit kirjautua Mi-tilillesi kohteen %s avulla nyt."</string>
+    <string name="button_agree">Hyväksy</string>
+    <string name="button_close">Sulje</string>
+    <string name="button_refuse">Älä hyväksy</string>
     <string name="button_unbind">Katkaise yhteys</string>
     <string name="cancel">Peruuta</string>
     <string name="change_activate_email">Vaihda sähköpostiosoite</string>
@@ -466,6 +469,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="passport_activing_account">Aktivoidaan…</string>
     <string name="passport_adding_account">Luodaan tiliä…</string>
     <string name="passport_area_code_hot">USEIN KÄYTETYT</string>
+    <string name="passport_area_code_others">Käytä toista etuliitettä</string>
     <string name="passport_area_code_title">Maatunnus</string>
     <string name="passport_auto_generate_pwd">Luo turvallinen salasana</string>
     <string name="passport_back">Takaisin</string>
@@ -698,13 +702,19 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="permission_group_phone">Puhelin</string>
     <string name="permission_group_sms">Tekstiviesti</string>
     <string name="permission_group_storage">Tallennustila</string>
+    <string name="permission_instructions">Luvan käyttö</string>
     <string name="permission_read_sms">Pääsy viesteihin</string>
+    <string name="permission_withdraw">Peruuta suostumus</string>
     <string name="permission_write_external_storage">Käytä ja tallenna kohteita muistiin</string>
     <string name="personal_info_desc">Valokuva, lempinimi ja paljon muuta</string>
     <string name="phone_num_use_for">Puhelinnumeroa käytetään:</string>
     <string name="photoPickerNotFoundText">Kuvia ei saatavilla.</string>
     <string name="pm">ip.</string>
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
+    <string name="privacy_policy_reject_confirm_msg">Et voi jatkaa Mi-tilin käyttöä, ellet hyväksy sen tietosuojakäytännön uutta versiota. Hyväksytkö päivitetyn Mi-tilin &lt;a href=%1$s>tietosuojakäytännön&lt;/a> nyt?</string>
+    <string name="privacy_policy_reject_confirm_title">Mi-tiliä ei voi käyttää</string>
+    <string name="privacy_policy_update_msg">Mi-tilin tietosuojakäytäntö päivitettiin:&lt;br/>%1$s&lt;br/>Lue ja hyväksy &lt;a href=%2$s>&lt;u>tietosuojakäytännön&lt;/u>&lt;/a> uusi versio ennen kuin jatkat.</string>
+    <string name="privacy_policy_update_title">Päivitetty tietosuojakäytäntö</string>
     <string name="provision_back">Takaisin</string>
     <string name="provision_next">Seuraava</string>
     <string name="provision_skip_underline">Ohita</string>
@@ -731,6 +741,9 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="restart_action">Aloita alusta</string>
     <string name="restart_phone_bind_message">Tekstiviestin saapumisessa saattaa kestää hetki. Aloitetaanko alusta tästä huolimatta?</string>
     <string name="restart_phone_bind_title">Vaihda palautuspuhelin</string>
+    <string name="revoke_privacy_policy">Suostumuksen peruuttaminen</string>
+    <string name="revoke_privacy_policy_instructions">Jos jatkat, peruutat suostumuksesi Mi-tilin tietosuojakäytäntöön. Lopetamme henkilötietojesi keräämisen. Valmiiksi kerätyt ja säilytetyt henkilötiedot poistetaan tietyn ajan kuluessa sovellettavien lakien ja määräysten mukaisesti, ellei toisin edellytetä. Koska Mi-tili tarjoaa palvelujaan tarvittavien henkilökohtaisten tietojen keräämisen pohjalta, suostumuksesi peruuttaminen katsotaan kieltäytymiseksi hyväksyä Mi-tilin palveluja. Perutaanko suostumus nyt?</string>
+    <string name="revoke_privacy_policy_title">Suostumuksen peruuttaminen</string>
     <string name="risky_pwd_not_allow">Uusi salasana ei ole suojattu. Aseta toinen.</string>
     <string name="same_new_and_old_pwd">Uuden salasanan on oltava erilainen kuin vanha</string>
     <string name="saturday">Lauantai</string>
@@ -859,7 +872,15 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="user_instruction_all_purpose">Tervetuloa Mi-tilille! Voit käyttää tiliäsi käyttääksesi Xiaomin ja sen tytäryhtiöiden tarjoamia palveluita, kuten Mi.com, Xiaomi Cloud ja GetApps. Voit hankkia Mi-kolikoita, ostaa virtuaalisia tavaroita ja nauttia lisäarvopalveluista, kuten peleistä, teemoista ja e-kirjoista.</string>
     <string name="user_instruction_tip">Voit kirjautua sisään, lukea ja hyväksyä käyttöehdot.</string>
     <string name="user_license_with_3rd_app">&lt;Data>Kirjautumalla sisään Mi-tililläni vahvistan, että olen lukenut ja hyväksynyt &lt;a href=%1$s>Käyttäjäsopimuksen&lt;/a> ja &lt;a href=%2$s>Tietosuojakäytännön&lt;/a> ja Mi-tilin &lt;a href=%3$s>käyttäjäsopimuksen&lt;/a> ja &lt;a href=%4$s> tietosuojakäytännön&lt;/a>.&lt;/Data></string>
+    <string name="user_license_with_3rd_app_mobile">&lt;Data>Olen lukenut ja hyväksynyt &lt;a href=%1$s>Käyttäjäsopimuksen&lt;/a> ja &lt;a href=%2$s>Tietosuojakäytännön&lt;/a>, Mi-tilin &lt;a href=%3$s>käyttäjäsopimuksen&lt;/a> ja &lt;a href=%4$s>tietosuojakäytännön&lt;/a> sekä &lt;a href=%5$s>ehdot ja China Mobile -vahvistuspalvelujen ehdot&lt;/a>.&lt;/Data></string>
+    <string name="user_license_with_3rd_app_no_operator">&lt;Data>Olen lukenut ja hyväksynyt &lt;a href=%1$s>Käyttäjäsopimuksen&lt;/a> ja &lt;a href=%2$s>Tietosuojakäytännön&lt;/a> ja Mi-tilin &lt;a href=%3$s>käyttäjäsopimuksen&lt;/a> ja &lt;a href=%4$s>tietosuojakäytännön&lt;/a>.&lt;/Data></string>
+    <string name="user_license_with_3rd_app_telcom">&lt;Data>Olen lukenut ja hyväksynyt &lt;a href=%1$s>Käyttäjäsopimuksen&lt;/a> ja &lt;a href=%2$s>Tietosuojakäytännön&lt;/a>, Mi-tilin &lt;a href=%3$s>käyttäjäsopimuksen&lt;/a> ja &lt;a href=%4$s>tietosuojakäytännön&lt;/a> sekä &lt;a href=%5$s>ehdot ja eSurfing-vahvistuspalvelujen ehdot&lt;/a>.&lt;/Data></string>
+    <string name="user_license_with_3rd_app_unicom">&lt;Data>Olen lukenut ja hyväksynyt &lt;a href=%1$s>Käyttäjäsopimuksen&lt;/a> ja &lt;a href=%2$s>Tietosuojakäytännön&lt;/a>, Mi-tilin &lt;a href=%3$s>käyttäjäsopimuksen&lt;/a> ja &lt;a href=%4$s>tietosuojakäytännön&lt;/a> sekä &lt;a href=%5$s>ehdot ja China Unicom -vahvistuspalvelujen ehdot&lt;/a>.&lt;/Data></string>
+    <string name="user_license_with_out_3rd_app_no_operator">&lt;Data>Olen lukenut ja hyväksynyt Mi-tilin &lt;a href=%1$s>käyttäjäsopimuksen&lt;/a> ja &lt;a href=%2$s>tietosuojakäytännön&lt;/a>.&lt;/Data></string>
     <string name="user_license_without_3rd_app">&lt;Data>Olen lukenut ja hyväksynyt Mi-tilin &lt;a href=%1$s>käyttäjäsopimuksen&lt;/a> ja &lt;a href=%2$s>tietosuojakäytännön&lt;/a>.&lt;/Data></string>
+    <string name="user_license_without_3rd_mobile">&lt;Data>Olen lukenut ja hyväksynyt Mi-tilin &lt;a href=%1$s>käyttäjäsopimuksen&lt;/a> ja &lt;a href=%2$s>tietosuojakäytännön&lt;/a> sekä China Mobile -vahvistuspalvelujen &lt;a href=%3$s>käyttöehdot&lt;/a>.&lt;/Data></string>
+    <string name="user_license_without_3rd_telcom">&lt;Data>Olen lukenut ja hyväksynyt Mi-tilin &lt;a href=%1$s>käyttäjäsopimuksen&lt;/a> ja &lt;a href=%2$s>tietosuojakäytännön&lt;/a> sekä eSurfing-vahvistuspalvelujen &lt;a href=%3$s>käyttöehdot&lt;/a>.&lt;/Data></string>
+    <string name="user_license_without_3rd_unicom">&lt;Data>Olen lukenut ja hyväksynyt Mi-tilin &lt;a href=%1$s>käyttäjäsopimuksen&lt;/a> ja &lt;a href=%2$s>tietosuojakäytännön&lt;/a> sekä China Unicom -vahvistuspalvelujen &lt;a href=%3$s>käyttöehdot&lt;/a>.&lt;/Data></string>
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
     <string name="v7_preference_on">KÄYTÖSSÄ</string>
     <string name="vip_account_settings">VIP-asetukset</string>
