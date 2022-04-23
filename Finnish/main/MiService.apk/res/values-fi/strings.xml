@@ -99,7 +99,7 @@
     <string name="friday">Perjantai</string>
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
-    <string name="i_get_it">Got it</string>
+    <string name="i_get_it">Selvä</string>
     <string name="icon_add_description">Lisää aloitusnäytön pikavalinta</string>
     <string name="icon_remove_confirm">Poista</string>
     <string name="icon_remove_description_content">\"Palvelut &amp; palaute\" on järjestelmäsovellus. Voit silti käyttää sitä Asetusten kautta poistettuasi aloitusnäytön pikavalinnan.</string>
@@ -185,6 +185,9 @@
     <string name="miui_feedback_edit_toast_screenshot_too_large">Kuvia tai videoita, joiden koko on suurempi kuin 100 Mt, ei voi ladata</string>
     <string name="miui_feedback_edit_toast_third_packagename_required">Syötä sovelluksen nimi</string>
     <string name="miui_feedback_main_answer_title">Tähän kysymykseen on vastaus</string>
+    <string name="miui_feedback_main_customer_service_onfo_for_jp">"Palvelupuhelin: 0120-300-521
+Aukioloajat: 9:00 - 18:00 (paitsi pyhäpäivinä)
+Sähköposti:service.jp@xiaomi.com"</string>
     <string name="miui_feedback_main_frequent_question_title">Ohje</string>
     <string name="miui_feedback_main_item_catch_full_log">Hanki lokit</string>
     <string name="miui_feedback_main_item_customer_service">Myynnin jälkeiset palvelut</string>
@@ -340,10 +343,10 @@
     <string name="permission_user_protocol">Käyttäjäsopimus (pakollinen)</string>
     <string name="pm">ip.</string>
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
-    <string name="privacy_policy_update_hint">"%1$s Privacy Policy was updated:
+    <string name="privacy_policy_update_hint">"%1$s-tietosuojakäytäntö päivitettiin:
 %2$s
-Read and agree to the new version of %3$s before you continue."</string>
-    <string name="privacy_policy_update_title">Updated Privacy Policy</string>
+Lue ja hyväksy uusi %3$s-versio ennen kuin jatkat."</string>
+    <string name="privacy_policy_update_title">Päivitetty tietosuojakäytäntö</string>
     <string name="public_authorize_now">Asetukset</string>
     <string name="public_loading_text">Hetki vain…</string>
     <string name="public_net_error_retry">Yritä uudelleen</string>
@@ -413,16 +416,16 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="tuesday">Tiistai</string>
     <string name="tuesday_short">Ti</string>
     <string name="tuesday_shortest">Ti</string>
-    <string name="user_must_known">Attention</string>
-    <string name="user_must_known_content">"You won't be able to keep using our services unless you agree to the new version of our %s. Agree to the updated Privacy Policy now?"</string>
+    <string name="user_must_known">Huomio</string>
+    <string name="user_must_known_content">Et voi jatkaa palveluidemme käyttöä, ellet hyväksy uutta %s-versiota. Hyväksytkö päivitetyn tietosuojakäytännön nyt?</string>
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
     <string name="v7_preference_on">KÄYTÖSSÄ</string>
     <string name="wednesday">Keskiviikko</string>
     <string name="wednesday_short">Ke</string>
     <string name="wednesday_shortest">Ke</string>
-    <string name="withdraw_consent_failed">"Couldn't withdraw consent"</string>
-    <string name="withdraw_consent_failed_hint">A server error occurred. Wait a minute or two and try again.</string>
-    <string name="withdraw_consent_failed_hint_connect_net">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
-    <string name="withdrawing">Withdrawing consent…</string>
+    <string name="withdraw_consent_failed">Suostumusta ei voitu peruuttaa</string>
+    <string name="withdraw_consent_failed_hint">Tapahtui palvelinvirhe. Odota pari minuuttia ja yritä uudelleen.</string>
+    <string name="withdraw_consent_failed_hint_connect_net">Laitteesi on muodostettava yhteys verkkoon, jotta voit peruuttaa suostumuksesi. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
+    <string name="withdrawing">Peruutetaan suostumusta…</string>
     <string name="yesterday">Eilen</string>
 </resources>

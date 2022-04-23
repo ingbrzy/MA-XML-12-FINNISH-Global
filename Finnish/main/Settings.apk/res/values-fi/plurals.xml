@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1 tunti sitten</item>
+        <item quantity="one">1 tunti sitten</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1 tunti sitten</item>
+        <item quantity="one">1 tunti sitten</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Puoli tuntia sitten</item>
+        <item quantity="one">Puoli tuntia sitten</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">1 tunnin kuluttua</item>
+        <item quantity="one">1 tunnin kuluttua</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Puolen tunnin kuluttua</item>
+        <item quantity="one">Puolen tunnin kuluttua</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Heti</item>
+        <item quantity="one">Heti</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d minuutin kuluttua</item>
+        <item quantity="one">1 min kuluttua</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Juuri nyt</item>
+        <item quantity="one">Juuri nyt</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d minuuttia sitten</item>
+        <item quantity="one">1 minuutti sitten</item>
+    </plurals>
     <plurals name="abc_slice_duration_days">
         <item quantity="other">%d päivää sitten</item>
         <item quantity="one">%d päivä sitten</item>
@@ -92,6 +128,10 @@
         <item quantity="other">%d laitetta saatavissa</item>
         <item quantity="one">%d laite saatavissa</item>
     </plurals>
+    <plurals name="color_game_led_freq_entries">
+        <item quantity="other">Joka %d. sekunti</item>
+        <item quantity="one">Joka %d sekunti</item>
+    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d laitetta</item>
         <item quantity="one">%d laite</item>
@@ -148,13 +188,37 @@
         <item quantity="other">%1$d henkilöä yhdistetty</item>
         <item quantity="one">%1$d henkilö yhdistetty</item>
     </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Puoli tuntia sitten</item>
+        <item quantity="one">Puoli tuntia sitten</item>
+    </plurals>
     <plurals name="hours">
         <item quantity="other">%s tuntia</item>
         <item quantity="one">1 tunti</item>
     </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">1 tunnin kuluttua</item>
+        <item quantity="one">1 tunnin kuluttua</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Puolen tunnin kuluttua</item>
+        <item quantity="one">Puolen tunnin kuluttua</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Heti</item>
+        <item quantity="one">Heti</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d minuutin kuluttua</item>
+        <item quantity="one">1 minuutin kuluttua</item>
+    </plurals>
     <plurals name="interact_across_profiles_number_of_connected_apps">
         <item quantity="other">%d sovellusta yhdistetty</item>
         <item quantity="one">%d sovellus yhdistetty</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Juuri nyt</item>
+        <item quantity="one">Juuri nyt</item>
     </plurals>
     <plurals name="location_app_permission_summary_location_on">
         <item quantity="other">%1$d/%2$d sovelluksella on sijainnin käyttöoikeus</item>
@@ -248,6 +312,10 @@
         <item quantity="other">Wi-Fi kytketään päälle automaattisesti, kun laite havaitsee lähellä olevat tallennetut verkot ja sammuu %d minuutin kuluttua, jos yhteyttä ei ole muodostettu</item>
         <item quantity="one">Wi-Fi otetaan käyttöön automaattisesti, kun laite havaitsee lähellä olevat tallennetut verkot ja sammuu %d minuutin kuluttua, jos yhteyttä ei ole muodostettu</item>
     </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d kohdetta valittu</item>
+        <item quantity="one">%d kohde valittu</item>
+    </plurals>
     <plurals name="mobile_network_summary_count">
         <item quantity="other">%1$d SIM-korttia</item>
         <item quantity="one">%1$d SIM-kortti</item>
@@ -279,6 +347,10 @@
     <plurals name="notifications_sent_weekly">
         <item quantity="other">~%d ilmoitusta viikossa</item>
         <item quantity="one">~%d ilmoitus viikossa</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minuuttia sitten</item>
+        <item quantity="one">1 minuutti sitten</item>
     </plurals>
     <plurals name="number_of_device_admins">
         <item quantity="other">%d aktiivista sovellusta</item>

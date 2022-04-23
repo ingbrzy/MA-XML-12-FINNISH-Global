@@ -77,6 +77,8 @@
         <item>Qualcomm® aptX™ ‑ääni</item>
         <item>Qualcomm® aptX™ HD ‑ääni</item>
         <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive ‑ääni</item>
+        <item>Qualcomm® aptX™ TWS+ ‑ääni</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Käytä järjestelmän valintaa (oletus).</item>
@@ -85,6 +87,8 @@
         <item>Qualcomm® aptX™ ‑ääni</item>
         <item>Qualcomm® aptX™ HD ‑ääni</item>
         <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive ‑ääni</item>
+        <item>Qualcomm® aptX™ TWS+ ‑ääni</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -93,15 +97,15 @@
         <item>, aktiivinen (puhelin)</item>
     </string-array>
     <string-array name="bluetooth_avrcp_version_values">
-        <item>avrcp14</item>
-        <item>avrcp13</item>
         <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.4 (oletus)</item>
+        <item>AVRCP 1.5 (oletus)</item>
         <item>AVRCP 1.3</item>
-        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.4</item>
         <item>AVRCP 1.6</item>
     </string-array>
     <string-array name="bluetooth_map_version_values">

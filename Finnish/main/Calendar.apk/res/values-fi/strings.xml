@@ -60,6 +60,7 @@
     <string name="alert_title">Kalenteri-ilmoitukset</string>
     <string name="all_events">Kaikki tapahtumat</string>
     <string name="all_records">Kaikki merkinnät</string>
+    <string name="already_num">Aikaa tapahtumasta %s</string>
     <string name="am">ap.</string>
     <string name="anniversary_event_title">Vuosipäivä: %1$s</string>
     <string name="anniversary_secondary_tag">Vuosipäivä</string>
@@ -138,6 +139,7 @@
     <string name="copy">Kopioi</string>
     <string name="copy_email">Kopioi sähköpostiosoite</string>
     <string name="copy_number">Kopioi puhelinnumero</string>
+    <string name="count_down_date_view">Lähtölaskenta</string>
     <string name="countdown_event_title">Lähtölaskenta: %1$s</string>
     <string name="countdown_notify_before_3_day_title">Lähtölaskenta: %1$s %2$d päivän päästä</string>
     <string name="countdown_notify_title">Lähtölaskenta: %1$s</string>
@@ -175,8 +177,10 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Perinteinen kiinalainen kalenteri</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Aseta päivä ja aika</string>
     <string name="date_today">" (tänään)"</string>
+    <string name="date_view">Päivämäärä</string>
     <string name="day">Päivä</string>
     <string name="day_view_new_event_hint">Uusi tapahtuma</string>
     <string name="default_reminder_mode">Muistutukset</string>
@@ -374,6 +378,7 @@
     <string name="import_action">Tuo</string>
     <string name="import_birthday">Tuo syntymäpäivä</string>
     <string name="imported">Tuotu</string>
+    <string name="in_progress">Käynnissä</string>
     <string name="insert_event_dialog_btn_negative">Ei</string>
     <string name="insert_event_dialog_btn_positive">Kyllä</string>
     <string name="insert_event_dialog_message">Lisätäänkö tämä tapahtuma kalenteriin?</string>
@@ -525,6 +530,7 @@
     <string name="movie_card_title">Elokuvat</string>
     <string name="movie_card_trailer">Traileri</string>
     <string name="name_title_menstruation_today_end">Kuukautisten odotetaan päättyvän tänään</string>
+    <string name="near_agenda_view">Tulevat tapahtumat</string>
     <string name="network_not_available">Ei voi yhdistää verkkoon</string>
     <string name="never">Ei koskaan</string>
     <string name="new_event_description">Uusi</string>
@@ -728,9 +734,12 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="size_tera_byte">Tt</string>
     <string name="skip">Ohita</string>
     <string name="small_week_date_format">EEE d.M.yyyy</string>
+    <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
+    <string name="spec_agenda_view">Erityiset tapahtumat</string>
     <string name="start_date_calculate">Laske</string>
     <string name="stats_title">Tilastot</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_num">Aikaa %s asti</string>
     <string name="storage_permission_denied">Salli pääsy tallennustilaan ensin</string>
     <string name="subscribe_card">Tilaa nyt</string>
     <string name="subscribe_card_success">Tilaus onnistui! Tarkista tiedot aloitussivulta.</string>
@@ -855,6 +864,7 @@ Voit myös lisätä muistutuksia, jotta et ohita mitään tärkeää."</string>
     <string name="today">Tänään</string>
     <string name="today_at_time_fmt">Tänään kello %s</string>
     <string name="today_icon_voice_contentdescription">Palaa tähän päivään</string>
+    <string name="today_no_event">Ei tapahtumia tänään.</string>
     <string name="today_no_events">Ei tapahtumia</string>
     <string name="todays_panchang_title">Päivän Panchang</string>
     <string name="todo_audio_event">"[Äänitehtävä] "</string>
@@ -920,7 +930,13 @@ Voit myös lisätä muistutuksia, jotta et ohita mitään tärkeää."</string>
     <string name="widget_events">Seuraava tapahtuma</string>
     <string name="widget_get_weather_info">Hae säätiedot</string>
     <string name="widget_no_events">Ei tapahtumia</string>
+    <string name="widget_normal_agenda_tip_empty">Ei tapahtumia tänään.</string>
+    <string name="widget_normal_agenda_today_done">Kaikki päivän tapahtumat on suoritettu.</string>
+    <string name="widget_normal_more_event">Lisää tapahtumia</string>
+    <string name="widget_normal_new_event">Lisää tapahtuma</string>
+    <string name="widget_normal_weekN">Viikko %d</string>
     <string name="widget_select_style">Valitse tyyli</string>
+    <string name="widget_spec_agenda_birth_today">Tänään</string>
     <string name="work_day_indication">: (</string>
     <string name="xiaomi_calendar_delete_description">Kalenteri on järjestelmäsovellus, jonka avulla voit luoda ja hallita tapahtumia. Jotkut sen ominaisuuksista ovat edelleen käytettävissä, kun poistat aloitusnäytön pikavalinnan.</string>
     <string name="xiaomi_calendar_delete_title">Poistetaanko Kalenteri aloitusnäytöltä?</string>

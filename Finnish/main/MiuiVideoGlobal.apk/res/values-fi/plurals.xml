@@ -100,6 +100,18 @@
         <item quantity="other">%d videota</item>
         <item quantity="one">%d video</item>
     </plurals>
+    <plurals name="mangotv_feature_list_title1">
+        <item quantity="other">%1$1d/%2$2d jaksoa saatavilla</item>
+        <item quantity="one">%1$1d/%2$2d jakso saatavilla</item>
+    </plurals>
+    <plurals name="mangotv_feature_list_title2">
+        <item quantity="other">%1$1d/%2$2d jaksoa saatavilla</item>
+        <item quantity="one">%1$1d/%2$2d jakso saatavilla</item>
+    </plurals>
+    <plurals name="mangotv_feature_list_title_all">
+        <item quantity="other">%d jaksoa yhteensä</item>
+        <item quantity="one">%d jakso yhteensä</item>
+    </plurals>
     <plurals name="mediation_animate_close_after">
         <item quantity="other">%s sekuntia jäljellä</item>
         <item quantity="one">%s sekunti jäljellä</item>
@@ -107,6 +119,10 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d kohdetta valittu</item>
         <item quantity="one">%d kohde valittu</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d uutta ilmoitusta</item>
+        <item quantity="one">%d uusi ilmoitus</item>
     </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Sisältösi sisältää kohteita (%1$s), jotka rikkovat yhteisön normeja. Tilisi on jäädytetty %2$d päiväksi %3$s saakka.</item>

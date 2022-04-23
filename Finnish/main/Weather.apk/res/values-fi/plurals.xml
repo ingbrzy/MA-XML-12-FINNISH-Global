@@ -125,8 +125,8 @@
         <item quantity="one">Matalin lämpötila: %1$s Fahrenheit astetta</item>
     </plurals>
     <plurals name="view_realtime_clear">
-        <item quantity="other">Kirkas</item>
-        <item quantity="one">Kirkas</item>
+        <item quantity="other">Selkeää</item>
+        <item quantity="one">Selkeää</item>
     </plurals>
     <plurals name="yes_vote_num">
         <item quantity="other"> | %1$s ihmistä</item>

@@ -152,14 +152,15 @@
     <string name="date_time_picker_dialog_title">Aseta päivä ja aika</string>
     <string name="dc_light_hint_enable_title">Huomio</string>
     <string name="dc_light_hint_normal">DC-himmennys voi vaikuttaa tapaan, jolla jotkut kohteet näkyvät.</string>
-    <string name="dc_light_hint_normal_anit">Välkkymisenesto voi vaikuttaa joidenkin kohteiden asettelutapaan.</string>
-    <string name="dc_light_hint_normal_other">Välkkymisenesto voi vaikuttaa virkistystaajuuteen ja joidenkin kohteiden asettelutapaan.</string>
+    <string name="dc_light_hint_normal_anit">Vilkkumisen estotila voi vaikuttaa joidenkin kohteiden asettelutapaan.</string>
+    <string name="dc_light_hint_normal_other">Vilkkumisen estotila voi vaikuttaa virkistystaajuuteen ja joidenkin kohteiden asettelutapaan.</string>
     <string name="dc_light_hint_other">DC-himmennys voi vaikuttaa virkistystaajuuteen ja tapaan, jolla jotkut kohteet näkyvät.</string>
-    <string name="dc_light_hint_unnormal_low">Heikon valon välkkymisenestotila voi vaikuttaa joidenkin kohteiden asettelutapaan.</string>
-    <string name="dc_light_hint_unnormal_other">Heikon valon välkkymisenestotila voi vaikuttaa virkistystaajuuteen ja joidenkin kohteiden asettelutapaan.</string>
+    <string name="dc_light_hint_unnormal_low">Heikon valon vilkkumisen estotila voi vaikuttaa joidenkin kohteiden asettelutapaan.</string>
+    <string name="dc_light_hint_unnormal_other">Heikon valon vilkkumisen estotila voi vaikuttaa virkistystaajuuteen ja joidenkin kohteiden asettelutapaan.</string>
     <string name="dc_lignt_enable_hint">Vilkkumisen estotila asettaa näytön virkistystaajuudeksi 60 Hz. Vaihdetaanko vilkkumisen estotilaan?</string>
     <string name="delete_first_to_add_animal">To add a new item, delete one first.</string>
     <string name="desktop_widget_authorization">Napauta antaaksesi käyttöoikeudet, jotta voit tarkastella tilastoja</string>
+    <string name="desktop_widget_authorization_new">Napauta nähdäksesi näytön aikatilastot</string>
     <string name="desktop_widget_not_support">"Käyttöaikatilastot
 ei ole luotu toisessa tilassa"</string>
     <string name="desktop_widget_screen_use_time">Käyttöaika</string>
@@ -339,7 +340,7 @@ ei ole luotu toisessa tilassa"</string>
     <string name="hsv_space_color_saturation">Kylläisyys</string>
     <string name="hsv_space_color_value">Arvo</string>
     <string name="intelligent_radio_btn_summary">Säädä virkistystaajuutta dynaamisesti skenaarioiden perusteella tasapainottamaan suorituskykyä virrankulutuksen kanssa</string>
-    <string name="intelligent_radio_btn_title">Auto (suositeltu)</string>
+    <string name="intelligent_radio_btn_title">Oletus (suositeltu)</string>
     <string name="intelligent_recognition_item_summary">Käytä määritettyä soittoääntä toimitus- ja taksipalveluihin. Tämä ominaisuus toimii, kun %s on asetettu sinun oletussoittoääneksi.</string>
     <string name="intelligent_recognition_item_title">Tunnista palvelut</string>
     <string name="item_anura">Anura</string>
@@ -694,14 +695,14 @@ ei ole luotu toisessa tilassa"</string>
     <string name="usage_app_over_content">Olet jo käyttänyt tätä sovellusta %s tänään.</string>
     <string name="usage_app_over_summary">Olet saavuttanut käyttörajasi. Aika on ohi!</string>
     <string name="usage_app_set_limit_time">Aseta raja</string>
-    <string name="usage_app_stop_desc">All Screen time data and permissions, including individual settings, as well as the related items stored locally, will be deleted after you turn this feature off.​</string>
+    <string name="usage_app_stop_desc">Kaikki näyttöajan tiedot ja käyttöoikeudet, mukaan lukien yksittäiset asetukset, sekä niihin liittyvät paikallisesti tallennetut kohteet poistetaan, kun poistat tämän ominaisuuden käytöstä.</string>
     <string name="usage_app_system_app_summary">Ei voi rajoittaa käyttöaikaa järjestelmäsovelluksille</string>
     <string name="usage_app_weekday_limit">Arkipäivisin</string>
     <string name="usage_app_weekend_limit">Viikonloppuisin</string>
     <string name="usage_beat_fans">Paremmin kuin %s Mi-fania</string>
     <string name="usage_continuous_days">Putki</string>
     <string name="usage_creating_weekly_report">Luodaan viikoittaista raporttia…</string>
-    <string name="usage_cta_desc">"Welcome to Settings! To provide Screen time and Focus mode stats to you, this app needs to collect the following data: the number of times you unlock the device, the list of your apps along with the corresponding usage duration, the number of times your screen lights up, and Focus mode settings. The collected data will only be stored locally on this device.
+    <string name="usage_cta_desc">"Tervetuloa Asetuksiin! Näyttöajan ja tarkennustilan tilastotietojen tarjoamiseksi tämän sovelluksen on kerättävä seuraavat tiedot: laitteen lukituksen avauskertojen lukumäärä, sovellusten luettelo ja vastaava käyttöaika, näytön syttymiskertojen lukumäärä ja tarkennustilan asetukset. Kerätyt tiedot tallennetaan vain paikallisesti tälle laitteelle.
 "</string>
     <string name="usage_current_week_usage">%s keskimäärin viimeisten 7 päivän aikana</string>
     <string name="usage_device_limit_app_prolong">Lisää aika</string>

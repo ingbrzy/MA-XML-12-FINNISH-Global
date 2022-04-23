@@ -10,6 +10,7 @@
     <string name="download_queued">Jonossa</string>
     <string name="download_remaining">%s jäljellä</string>
     <string name="download_running">Ladataan</string>
+    <string name="download_running_percent">Ladataan %s</string>
     <string name="download_unknown_title">&lt;Nimetön></string>
     <string name="notif_title_file_size">%1$d yhteensä</string>
     <string name="notif_title_single_downloading">Ladataan %1$s</string>

@@ -59,11 +59,11 @@
     <string name="all_app_category_communication">Viestintä</string>
     <string name="all_app_category_default">Kategoria</string>
     <string name="all_app_category_entertainment">Viihde</string>
-    <string name="all_app_category_finance_business">Talous &amp; Liiketoiminta</string>
+    <string name="all_app_category_finance_business">Talous ja Liiketoiminta</string>
     <string name="all_app_category_games">Pelit</string>
-    <string name="all_app_category_knowledge_education">Tieto &amp; Koulutus</string>
+    <string name="all_app_category_knowledge_education">Tieto ja Koulutus</string>
     <string name="all_app_category_lifestyle">Elämäntapa</string>
-    <string name="all_app_category_news_reading">Uutiset &amp; Lukeminen</string>
+    <string name="all_app_category_news_reading">Uutiset ja Lukeminen</string>
     <string name="all_app_category_personal">Henkilökohtainen</string>
     <string name="all_app_category_personalization">Personointi</string>
     <string name="all_app_category_photography">Valokuvaus</string>
@@ -132,7 +132,7 @@
     <string name="app_category_games">Pelit</string>
     <string name="app_category_health">Terveys</string>
     <string name="app_category_lifestyle">Elämäntapa</string>
-    <string name="app_category_music_movie">TV &amp; Musiikki</string>
+    <string name="app_category_music_movie">TV ja Musiikki</string>
     <string name="app_category_news">Uutiset</string>
     <string name="app_category_photos">Valokuvaus</string>
     <string name="app_category_productivity">Tuottavuus</string>
@@ -159,7 +159,7 @@
     <string name="auto_add_app_shortcut">Aseta toimintoja aloitusnäytöllesi</string>
     <string name="auto_delete_category_dialog_content">Nykyiset sovellukset poistetaan tästä kategoriasta sen poiston myötä. Poistetaanko tämä kategoria nyt?</string>
     <string name="auto_delete_category_dialog_title">Kategorian poistaminen</string>
-    <string name="auto_disable_screenbuttons_summary">Kaksoisnapauta mitä tahansa navigointipainiketta ottaaksesi uudelleen käyttöön</string>
+    <string name="auto_disable_screenbuttons_summary">Poista navigointipainikkeet automaattisesti käytöstä, kun tilapalkkia ei näytetä. Ota se uudelleen käyttöön kaksoisnapauttamalla mitä tahansa navigointipainiketta.</string>
     <string name="auto_disable_screenbuttons_title">Poista navigointipainikkeet käytöstä automaattisesti</string>
     <string name="back">Takaisin</string>
     <string name="backup_fail">Käynnistysohjelmaa ei voitu varmuuskopioida</string>
@@ -422,7 +422,7 @@
     <string name="launcher_search_bar_value_enable">Käytössä</string>
     <string name="launcher_slide_up_title">Pyyhkäise ylös aloitusnäytössä</string>
     <string name="launcher_sliding_up_gesture">Avaa haku pyyhkäisemällä ylös aloitusnäytössä</string>
-    <string name="launcher_title">Aloitusnäyttö &amp; viimeaikaiset</string>
+    <string name="launcher_title">Aloitusnäyttö ja viimeaikaiset</string>
     <string name="like">Lisää suosikkeihin</string>
     <string name="liked">Lisätty suosikkeihin</string>
     <string name="loading_desktop">Hetki vain…</string>
@@ -460,6 +460,7 @@
     <string name="menu_launcher_setting">Käynnistysohjelman asetukset</string>
     <string name="menu_lock">Lukitse aloitusnäytön ulkoasu</string>
     <string name="menu_more">Lisää</string>
+    <string name="menu_no_word">Älä näytä tekstiä</string>
     <string name="menu_picktheme">Valitse teema</string>
     <string name="menu_reset_scene">Palauta ulkoasu oletusasetuksiin</string>
     <string name="menu_search">Etsi</string>
@@ -472,6 +473,7 @@
     <string name="midnight">Yö</string>
     <string name="minus_one_screen">Sovellusholvi</string>
     <string name="miui_screen_config_title">Aloitusnäytön asetukset</string>
+    <string name="miuix_access_state_desc">Valittu</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
@@ -664,6 +666,11 @@
     <string name="recents_title_market">Etsi sovelluksia</string>
     <string name="recents_title_security_scan">Turvatarkistus</string>
     <string name="recents_tv_small_window_text">Kelluvat ikkunat</string>
+    <string name="recents_worldcirculate_text">Vapauta valitaksesi</string>
+    <string name="recnets_worldcirculate_button_text">Mi Smart Hub</string>
+    <string name="recnets_worldcirculate_display_computer_info">Sovellus toimii laitteessa %s.</string>
+    <string name="recnets_worldcirculate_display_default_info">Tuo se takaisin tänne napauttamalla.</string>
+    <string name="recnets_worldcirculate_display_pad_info">Sovellus toimii laitteessa %s.</string>
     <string name="recommend_apk_size_and_desc">%1$d Mt | %2$s</string>
     <string name="recommend_app">Sovellusehdotukset</string>
     <string name="recommend_apps_default_title">Tyhjä</string>
@@ -731,6 +738,7 @@
     <string name="sort_by_not_defined">Lajittele automaattisesti</string>
     <string name="start_activity_failed">Käynnistysohjelmaa ei voi käynnistää</string>
     <string name="starting_preset_app">Aloitetaan…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s Gt</string>
     <string name="status_bar_recent_memory_info1">%1$s/%2$s saatavilla</string>
     <string name="status_bar_recent_memory_info2" />
@@ -853,10 +861,10 @@
     <string name="widgets_preview_title">Lisää widgetejä</string>
     <string name="work_mode_off_label">Ilmoitukset ovat pois päältä, eikä sovelluksia ole saatavana nyt</string>
     <string name="work_mode_on_label">Organisaatiosi hallinnoima</string>
-    <string name="work_profile_first_content">Henkilötiedot ovat erillisiä &amp; piilotettuja työsovelluksista</string>
+    <string name="work_profile_first_content">Henkilötiedot ovat erillisiä ja piilotettuja työsovelluksista</string>
     <string name="work_profile_got_button">Selvä</string>
     <string name="work_profile_next_button">Seuraava</string>
-    <string name="work_profile_second_content">Työsovellukset &amp; tiedot näkyvät IT-järjestelmänvalvojalle</string>
+    <string name="work_profile_second_content">Työsovellukset ja tiedot näkyvät IT-järjestelmänvalvojalle</string>
     <string name="work_profile_title">Työprofiili</string>
     <string name="work_profile_toggle_label">Työprofiili</string>
     <string name="yesterday">Eilen</string>

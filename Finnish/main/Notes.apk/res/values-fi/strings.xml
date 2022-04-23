@@ -48,6 +48,7 @@
     <string name="alert_message_delete_excerpt">Poistetaanko tämä muistiinpano? Myös ote poistetaan.</string>
     <string name="alert_message_delete_note">Poistetaanko tämä muistiinpano?</string>
     <string name="alert_message_edit_anyway">Jos muokkaat tätä muistiinpanoa, osa sen sisällöstä saattaa kadota.</string>
+    <string name="alert_message_edit_anyway_new">Tämä muistiinpano sisältää sisältöä, jota ei tueta. Sen muokkaaminen voi aiheuttaa muotomuutoksia tai tietojen menetyksen.</string>
     <string name="alert_message_restore">Tätä muistiinpanoa ei voitu avata. Palauta se muokataksesi sen sisältöä.</string>
     <string name="alert_title_delete">Poista muistiinpano</string>
     <string name="alert_title_edit_anyway">Tämä muistiinpano sisältää sisältöä, jota ei ole tuettu</string>
@@ -68,7 +69,7 @@
     <string name="audio_create_will_cancel_state">Peruuta vapauttamalla</string>
     <string name="audio_dialog_mode_meeting">Kokoustila (beta)</string>
     <string name="audio_dialog_mode_meeting_exit">Ei kiitos</string>
-    <string name="audio_dialog_mode_meeting_sum">Kokoustilan avulla voit tunnistaa jopa 4 eri ihmisen äänen. Beta-versiossa saattaa esiintyä joitakin tunnistusvirheitä.</string>
+    <string name="audio_dialog_mode_meeting_sum">Kokoustilan avulla voit tunnistaa %1$d- %2$d eri henkilön äänet. Beta-versiossa saattaa esiintyä tunnistusvirheitä.</string>
     <string name="audio_dialog_mode_meeting_use">Aloita</string>
     <string name="audio_panel_time_counter_default">00:00</string>
     <string name="audio_toast_file_invalid">Äänitiedosto on viallinen</string>
@@ -202,6 +203,7 @@
     <string name="error_send_empty_note">Tyhjää muistiinpanoa ei voi lähettää</string>
     <string name="error_send_empty_note_to_weibo">Tyhjää muistiinpanoa ei voi lähettää Weiboon</string>
     <string name="error_unsupport_content">Tämä muistiinpano sisältää sisältöä, jota ei ole tuettu, päivitä napauttamalla</string>
+    <string name="error_unsupport_content_format">Tämä muistiinpano sisältää sisältöä, jota ei tueta. Päivitä versioon %1$s tai uudempaan.</string>
     <string name="error_widget_exist_for_send_to_desktop">Tämä muistiinpano on jo aloitusnäytössä</string>
     <string name="evening">Iltapäivä</string>
     <string name="exceed_todo_text_limitation">Tehtävän kuvaus on liian pitkä.</string>
@@ -336,6 +338,7 @@
     <string name="menu_create_folder">Uusi kansio</string>
     <string name="menu_delete">Poista</string>
     <string name="menu_delete_forever">Poista pysyvästi</string>
+    <string name="menu_edit">Muokkaa</string>
     <string name="menu_folders">Kansiot</string>
     <string name="menu_group">Luo kansio</string>
     <string name="menu_hide">Piilota</string>
@@ -493,6 +496,7 @@
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -549,10 +553,12 @@
     <string name="note_mindnote_entrance_hint_newversion">"Aloita kirjoittaminen "</string>
     <string name="note_mindnote_entrance_icon_text">Luo ajatuskartta</string>
     <string name="note_mindnote_entrance_icon_text_newversion">Luo ajatuskartta</string>
+    <string name="note_module_name">Muistio</string>
     <string name="note_not_text_stub">Ei tekstiä</string>
     <string name="note_sort_way">Järjestä</string>
     <string name="notealert_enter">Avaa muistiinpano</string>
     <string name="notealert_ok">Hylkää</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Muistio on järjestelmäsovellus. Et voi käyttää tätä sovellusta sen poistamisen jälkeen.</string>
     <string name="notes_description_title">Poistetaanko Muistio?</string>
     <string name="notification_content_add_todo_from_other_app">Lisäsit uuden tehtävän. Napauta katsellaksesi.</string>
@@ -710,6 +716,13 @@
     <string name="select_account_prompt">Synkronoi muistiinpanot</string>
     <string name="send">Lähetä</string>
     <string name="set_alarm_description">Aseta hälytys</string>
+    <string name="setting_big_screen_layout_columns">Sivupalkki</string>
+    <string name="setting_big_screen_layout_flat">Laatikot</string>
+    <string name="setting_big_screen_layout_title">Suuri näytön asettelu</string>
+    <string name="setting_cloud_service">Pilvipalvelut</string>
+    <string name="setting_layout">Asettelu</string>
+    <string name="setting_micloud_sync_title">Xiaomi Cloud</string>
+    <string name="setting_note_list_layout_title">Asettelu</string>
     <string name="setting_other">MUUT</string>
     <string name="setting_privacy">Tietosuojakäytäntö</string>
     <string name="single_link_excerpt_saving">Tallennetaan kohteita…</string>
@@ -933,6 +946,15 @@ Salli Muistiinpanojen äänittää."</string>
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
     <string name="v7_preference_on">KÄYTÖSSÄ</string>
     <string name="view_all_notes">Näytä kaikki</string>
+    <string name="warn_cannot_add_new_bullet">Uutta luettelomerkittyä luetteloa ei voi lisätä, koska muistiinpano on liian pitkä</string>
+    <string name="warn_cannot_add_new_checkbox">Uutta valintaruutua ei voi lisätä, koska muistiinpano on liian pitkä</string>
+    <string name="warn_cannot_add_new_doodle">Uutta tuherrusta ei voi lisätä, koska muistiinpano on liian pitkä</string>
+    <string name="warn_cannot_add_new_element">Uutta kohdetta ei voi lisätä, koska muistiinpano on liian pitkä</string>
+    <string name="warn_cannot_add_new_link_card">Uutta linkkiä ei voi lisätä, koska muistiinpano on liian pitkä</string>
+    <string name="warn_cannot_add_new_picture">Uutta kuvaa ei voi lisätä, koska muistiinpano on liian pitkä</string>
+    <string name="warn_cannot_add_new_style">Uutta muotoa ei voi lisätä, koska muistiinpano on liian pitkä</string>
+    <string name="warn_disable_edit_in_browse_mode">Et voi muokata muistiinpanoja vain luku -tilassa</string>
+    <string name="warn_enter_browse_mode">Olet vain luku -tilassa</string>
     <string name="web_sso_login_fail">Sinun täytyy kirjautua uudelleen</string>
     <string name="web_sso_login_message">Kirjaudutaan…</string>
     <string name="webview_reload">Yritä uudelleen</string>

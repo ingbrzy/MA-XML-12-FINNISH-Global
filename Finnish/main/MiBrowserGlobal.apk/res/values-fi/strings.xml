@@ -753,6 +753,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="homepage_search_hint">Etsi</string>
     <string name="homepage_top_card_menu">Ylös</string>
     <string name="hot_games">Suositut</string>
+    <string name="i_know">Lopeta</string>
     <string name="identity">Tunnistaminen</string>
     <string name="if_cancel">Peruutetaanko tämä toiminto?</string>
     <string name="ignore_add_game_center_dialog_this_week">Älä näytä tällä viikolla</string>

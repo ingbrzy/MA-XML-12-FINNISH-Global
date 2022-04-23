@@ -302,7 +302,6 @@ Kuka tahansa voi lukea nämä tiedot lukitusnäytöltä ja soittaa yhteystiedoil
     <string name="enable_verbose_vendor_logging">Käytä laajennettua kirjausta</string>
     <string name="enable_verbose_vendor_logging_summary">Sisällytä virheraportteihin muita laitekohtaisia myyjälokeja, jotka voivat sisältää yksityisiä tietoja, käyttää enemmän akkua ja/tai käyttää enemmän tallennustilaa.</string>
     <string name="enabled_by_admin">Järjestelmänvalvojan sallima</string>
-    <string name="enhanced_connectivity">Parannetut yhteydet</string>
     <string name="enhanced_connectivity_summary">Ottaa käyttöön Parannetut yhteydet ‑ominaisuuden.</string>
     <string name="expand_button_title">Lisäasetukset</string>
     <string name="external_source_trusted">Sallittu</string>
@@ -335,7 +334,7 @@ Kuka tahansa voi lukea nämä tiedot lukitusnäytöltä ja soittaa yhteystiedoil
     <string name="ims_reg_status_not_registered">Ei rekisteröity</string>
     <string name="ims_reg_status_registered">Rekisteröity</string>
     <string name="ims_reg_title">IMS-rekisteröinnin tila</string>
-    <string name="imsi_protection_warning">Tälle verkolle lähetetään yksilöllinen tunnus, jolla voidaan seurata laitteen sijaintia. <annotation id="url">Lue lisää</annotation></string>
+    <string name="imsi_protection_warning">Tälle verkolle luodaan SIM-tunnus, jolla voidaan seurata laitteen sijaintia. <annotation id="url">Lue lisää</annotation></string>
     <string name="inactive_app_active_summary">Aktiivinen. Vaihda koskettamalla.</string>
     <string name="inactive_app_inactive_summary">Ei päällä. Ota käyttöön koskettamalla.</string>
     <string name="inactive_apps_title">Valmiustilasovellukset</string>
@@ -609,6 +608,7 @@ Kaikki käyttäjät voivat päivittää sovelluksia muille käyttäjille."</stri
     <string name="wifi_cant_connect">Yhdistäminen ei onnistu.</string>
     <string name="wifi_cant_connect_to_ap">Yhdistäminen verkkoon %1$s ei onnistu.</string>
     <string name="wifi_check_password_try_again">Tarkista salasana ja yritä uudelleen.</string>
+    <string name="wifi_connected_low_quality">Heikko laatu</string>
     <string name="wifi_connected_no_internet">Ei internetyhteyttä</string>
     <string name="wifi_disabled_by_recommendation_provider">Ei yhteyttä – verkko huonolaatuinen</string>
     <string name="wifi_disabled_generic">Pois päältä</string>

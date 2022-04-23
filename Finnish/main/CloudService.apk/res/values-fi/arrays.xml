@@ -52,30 +52,10 @@
         <item>Synkronoi sovellustiedot</item>
         <item>Etsi laite</item>
     </string-array>
-    <string-array name="privacy_dialog_finddevice_runtime_perm_desc">
-        <item>Laitteesi tunnistamiseen</item>
-        <item>Laitteen etsimiseen ja kadonnut-tilaan vaihtamiseen</item>
-    </string-array>
     <string-array name="privacy_dialog_finddevice_runtime_perm_desc_new">
         <item>Laitteen etsimiseen ja kadonnut-tilaan vaihtamiseen</item>
         <item>Tämän laitteen paikantamiseen, kun se ei ole yhteydessä Internetiin</item>
         <item>Puhelinnumeron käyttäminen tämän laitteen paikantamiseen, kun se ei ole yhteydessä Internetiin</item>
-    </string-array>
-    <string-array name="privacy_dialog_sync_runtime_perm_desc">
-        <item>Tapahtumien synkronointia varten</item>
-        <item>Viestien synkronointia varten</item>
-        <item>Viestien synkronointia varten</item>
-        <item>Yhteystietojen synkronointia varten</item>
-        <item>Yhteystietojen synkronointia varten</item>
-        <item>Laitteen kohteiden tallentamiseen (esim. kuvat, videot, kappaleet)</item>
-    </string-array>
-    <string-array name="privacy_dialog_sync_runtime_perm_title">
-        <item>Pääsy kalenteritapahtumiin</item>
-        <item>Lähetä SMS</item>
-        <item>Lue multimediaviesti</item>
-        <item>Pääsy yhteystietoihin</item>
-        <item>Muokkaa ja poista yhteystietoja</item>
-        <item>Pääsy laitteen valokuviin tai tiedostoihin</item>
     </string-array>
     <string-array name="settings_search_backup_manage">
         <item>Varmuuskopiot</item>
@@ -121,11 +101,6 @@
         <item>Synkronoi Galleria kohteen Xiaomi Cloud kanssa</item>
         <item>Käynnistä/asenna synkronointi</item>
         <item>Galleria;Kuvat;Pilvi;Synkronointi;Pilvipalvelut;Xiaomi Cloud</item>
-    </string-array>
-    <string-array name="settings_search_music">
-        <item>Synkronoi musiikki kohteen Xiaomi Cloud kanssa</item>
-        <item>Käynnistä synkronointi</item>
-        <item>Musiikki;Pilvi;Synkronointi;Pilvipalvelut;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_notes">
         <item>Synkronoi muistiinpanot kohteen Xiaomi Cloud kanssa</item>
@@ -206,9 +181,5 @@
         <item>Sync WLAN settings with Xiaomi Cloud</item>
         <item>Käynnistä synkronointi</item>
         <item>WLAN;wifi;Wi-Fi;Pilvi;Synkronointi;Pilvipalvelut;Xiaomi Cloud</item>
-    </string-array>
-    <string-array name="user_detail_fixed_items">
-        <item>Näytä synkronoidut kohteet</item>
-        <item>Tallennustilan tiedot</item>
     </string-array>
 </resources>

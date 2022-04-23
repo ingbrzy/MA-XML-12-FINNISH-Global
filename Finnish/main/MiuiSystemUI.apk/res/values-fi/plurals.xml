@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1 tunti sitten</item>
+        <item quantity="one">1 tunti sitten</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1 tunti sitten</item>
+        <item quantity="one">1 tunti sitten</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Puoli tuntia sitten</item>
+        <item quantity="one">Puoli tuntia sitten</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">1 tunnin kuluttua</item>
+        <item quantity="one">1 tunnin kuluttua</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Puolen tunnin kuluttua</item>
+        <item quantity="one">Puolen tunnin kuluttua</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Heti</item>
+        <item quantity="one">Heti</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d minuutin kuluttua</item>
+        <item quantity="one">1 min kuluttua</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Juuri nyt</item>
+        <item quantity="one">Juuri nyt</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d minuuttia sitten</item>
+        <item quantity="one">1 minuutti sitten</item>
+    </plurals>
     <plurals name="abc_slice_duration_days">
         <item quantity="other">%d päivää sitten</item>
         <item quantity="one">%d päivä sitten</item>
@@ -15,6 +51,26 @@
     <plurals name="controls_number_of_favorites">
         <item quantity="other">%s säädintä lisätty</item>
         <item quantity="one">%s säädin lisätty</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Puoli tuntia sitten</item>
+        <item quantity="one">Puoli tuntia sitten</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">1 tunnin kuluttua</item>
+        <item quantity="one">1 tunnin kuluttua</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Puolen tunnin kuluttua</item>
+        <item quantity="one">Puolen tunnin kuluttua</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Heti</item>
+        <item quantity="one">Heti</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d minuutin kuluttua</item>
+        <item quantity="one">1 minuutin kuluttua</item>
     </plurals>
     <plurals name="incorrect_pincode_remaining_attempts">
         <item quantity="other">Virheellinen PIN-koodi, %d yritystä jäljellä</item>
@@ -100,6 +156,14 @@
         <item quantity="other">Yritä uudelleen %d sekunnin kuluttua.</item>
         <item quantity="one">Yritä uudelleen 1 sekunnin kuluttua.</item>
     </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Juuri nyt</item>
+        <item quantity="one">Juuri nyt</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d kohdetta valittu</item>
+        <item quantity="one">%d kohde valittu</item>
+    </plurals>
     <plurals name="new_notifications_msg">
         <item quantity="other">%d uutta ilmoitusta</item>
         <item quantity="one">%d uusi ilmoitus</item>
@@ -107,6 +171,10 @@
     <plurals name="notification_group_overflow_description">
         <item quantity="other">+%s ilmoitusta ryhmässä</item>
         <item quantity="one">+%s ilmoitus ryhmässä</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minuuttia sitten</item>
+        <item quantity="one">1 minuutti sitten</item>
     </plurals>
     <plurals name="phone_locked_timeout_minutes_string">
         <item quantity="other">Yritä uudestaan %d minuutin kuluttua</item>

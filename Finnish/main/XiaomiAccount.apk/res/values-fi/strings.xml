@@ -82,6 +82,7 @@
     <string name="account_verify_guide_bind_mail_desc">Lisää palautussähköposti</string>
     <string name="account_verify_guide_bind_phone_desc">Lisää palautuspuhelin</string>
     <string name="account_verify_guide_set_password_desc">Aseta salasana</string>
+    <string name="account_verify_guide_verify_phone_desc">Vahvista palautuspuhelinnumero</string>
     <string name="account_xiaomi_service">Palvelut</string>
     <string name="action_add_phone">Lisää puhelinnumero</string>
     <string name="action_retry">Yritä uudelleen</string>
@@ -121,6 +122,10 @@ Voit kirjautua Mi-tilillesi kohteen %s avulla nyt."</string>
     <string name="cloud_description_closed">Käytetty | Synkronointi on pois päältä</string>
     <string name="cloud_description_normal">Käytetty</string>
     <string name="cloud_service">Xiaomi Cloud</string>
+    <string name="cloud_service_status_backup_not_open">Varmuuskopiointi on pois päältä</string>
+    <string name="cloud_service_status_cloud_not_open">Pois</string>
+    <string name="cloud_service_status_storage_full">Tallennustila on täynnä</string>
+    <string name="cloud_service_status_storage_not_enough">Tilaa ei ole tarpeeksi</string>
     <string name="collect_diagnosis_log">Luo diagnostiikkaloki</string>
     <string name="com_facebook_device_auth_instructions">Siirry osoitteeseen &lt;b>facebook.com/device&lt;/b> ja anna oheinen koodi.</string>
     <string name="com_facebook_image_download_unknown_error">Kuvaa ladattaessa tapahtui yllättävä virhe.</string>
@@ -128,7 +133,7 @@ Voit kirjautua Mi-tilillesi kohteen %s avulla nyt."</string>
     <string name="com_facebook_internet_permission_error_title">AndroidManifest-virhe</string>
     <string name="com_facebook_like_button_liked">Tykätty</string>
     <string name="com_facebook_like_button_not_liked">Tykkää</string>
-    <string name="com_facebook_loading">Ladataan...</string>
+    <string name="com_facebook_loading">Ladataan…</string>
     <string name="com_facebook_loginview_cancel_action">Peruuta</string>
     <string name="com_facebook_loginview_log_in_button">Kirjaudu sisään</string>
     <string name="com_facebook_loginview_log_in_button_continue">Jatka Facebook-tunnuksilla</string>
@@ -441,6 +446,8 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="notify_network_restricted_content_hidden_state">Mi-tilin taustatoiminta on rajoitettu. Salli napauttamalla.</string>
     <string name="notify_network_restricted_content_mobile_network">Mi-tilin pääsy internettiin on rajoitettu. Salli napauttamalla.</string>
     <string name="notify_network_restricted_title">Mi-tili ei voinut yhdistää verkkoon</string>
+    <string name="notify_verify_again_security_phone">Vahvista</string>
+    <string name="notify_verify_security_phone">Puhelin</string>
     <string name="oauth_get_scopes_failed">Tilitietojen haku epäonnistui</string>
     <string name="oauth_getting_scopes">Todennetaan tiliä…</string>
     <string name="oauth_scopes_intro">&lt;font color=#%1$s>%2$s&lt;/font> saa seuraavat käyttöoikeudet:&lt;br> &lt;br> %3$s</string>

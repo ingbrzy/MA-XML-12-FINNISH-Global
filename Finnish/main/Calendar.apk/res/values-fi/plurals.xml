@@ -60,6 +60,10 @@
         <item quantity="other">%d minuuttia sitten</item>
         <item quantity="one">1 minuutti sitten</item>
     </plurals>
+    <plurals name="after_num_minutes">
+        <item quantity="other">%d min kuluttua</item>
+        <item quantity="one">%d min kuluttua</item>
+    </plurals>
     <plurals name="anniversary_day">
         <item quantity="other">%1$s päivää</item>
         <item quantity="one">%1$s päivä</item>
@@ -188,6 +192,10 @@
         <item quantity="other">" päivää"</item>
         <item quantity="one">" päivä"</item>
     </plurals>
+    <plurals name="other_num_events">
+        <item quantity="other">%d tapahtumaa lisää</item>
+        <item quantity="one">%d tapahtuma lisää</item>
+    </plurals>
     <plurals name="repeat_custom_prompt">
         <item quantity="other">joka %1$s %2$s päivänä</item>
         <item quantity="one">joka %1$s %2$s päivänä</item>
@@ -236,6 +244,10 @@
         <item quantity="other">Arvioitu päivä %1$d kuukautisista</item>
         <item quantity="one">Arvioitu päivä %1$d kuukautisista</item>
     </plurals>
+    <plurals name="today_has_num_event">
+        <item quantity="other">%d tapahtumaa tänään</item>
+        <item quantity="one">%d tapahtuma tänään</item>
+    </plurals>
     <plurals name="travel_eta_advice">
         <item quantity="other">%2$s minuutin ajomatka kohteeseen %1$s.</item>
         <item quantity="one">%2$s minuutin ajomatka kohteeseen %1$s.</item>
@@ -243,6 +255,30 @@
     <plurals name="weekN">
         <item quantity="other">VIIKKO %d</item>
         <item quantity="one">VIIKKO %d</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">%1$s päivää</item>
+        <item quantity="one">%1$s päivä</item>
+    </plurals>
+    <plurals name="widget_custom_unit_day">
+        <item quantity="other">%d päivää</item>
+        <item quantity="one">%d päivä</item>
+    </plurals>
+    <plurals name="widget_normal_agenda_going_counts">
+        <item quantity="other">%d tapahtumaa käynnissä</item>
+        <item quantity="one">%d tapahtuma käynnissä</item>
+    </plurals>
+    <plurals name="widget_normal_agenda_next_minutes">
+        <item quantity="other">Seuraava tapahtuma %d min kuluttua</item>
+        <item quantity="one">Seuraava tapahtuma %d min kuluttua</item>
+    </plurals>
+    <plurals name="widget_normal_agenda_tomorrow_total">
+        <item quantity="other">%d tapahtumaa huomenna</item>
+        <item quantity="one">%d tapahtuma huomenna</item>
+    </plurals>
+    <plurals name="widget_weekN">
+        <item quantity="other">Viikko %d</item>
+        <item quantity="one">Viikko %d</item>
     </plurals>
     <plurals name="work_days">
         <item quantity="other">%d työpäivää</item>

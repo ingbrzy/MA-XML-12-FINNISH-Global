@@ -37,6 +37,7 @@
     <string name="add_clock">Lisää kello</string>
     <string name="add_common_timer">Lisää ajastin</string>
     <string name="add_timer">Tiheysajastin</string>
+    <string name="add_timer_dialog_title">Lisää ajastin</string>
     <string name="add_timezone_title">Lisää aikavyöhyke</string>
     <string name="afternoon">Iltapäivä</string>
     <string name="agree">Hyväksy</string>
@@ -439,6 +440,10 @@
     <string name="reach_upper_limit">Enempää ajastimia ei voi lisätä</string>
     <string name="read_external_storage_permission_desc">Mukautettujen soittoäänien asettamiseen</string>
     <string name="read_internal_storage">Pääsy tallennustilaan</string>
+    <string name="read_phone_state">Siirry laitetietoihin</string>
+    <string name="read_phone_state_desc">Käytä puhelun tilaa, kun hälytys soi</string>
+    <string name="read_phone_state_desc_when_request">Puhelun tilan tarkasteleminen hälytysten keskeyttämiseksi automaattisesti puheluita vastaanotettaessa</string>
+    <string name="remark_hint">Syötä merkki</string>
     <string name="remind_ringtone">Soittoääni</string>
     <string name="repeat_count">Ajat</string>
     <string name="repeat_count_value_five">5</string>
@@ -483,6 +488,8 @@
     <string name="shortcut_new_alarm">Aseta hälytys</string>
     <string name="shortcut_start_timer">Käynnistä ajastin</string>
     <string name="shortcut_stop_watch">Käynnistä sekuntikello</string>
+    <string name="show_life_post_desc">Aamuraportteja ei näytetä, jos poistat tämän ominaisuuden käytöstä</string>
+    <string name="show_life_post_lable">Näytä aamuraportti</string>
     <string name="shut_down_keep_screen">Näyttöä ei pidetä päälla</string>
     <string name="shutdown_alarm_alert_enable_summary">Sammutushälytykset soivat vähintään 10 minuutin kuluttua laitteen sammuttamisesta</string>
     <string name="shutdown_alarm_alert_enable_summary_new">Kytke päälle, jotta asetetut hälytykset soivat, kun laitteestasi katkaistaan virta. Vain hälytykset, jotka on asetettu vähintään %d minuutiksi laitteen virrankatkaisun jälkeen, soivat.</string>
@@ -491,10 +498,12 @@
     <string name="shutdown_alarm_enable_summary">Hälytys tulee soimaan, jos se on asetettu vähintään 10 minuuttia laitteesi sammuttamisen jälkeen</string>
     <string name="shutdown_alarm_title">Sammutushälytys</string>
     <string name="silent_alarm_summary">Äänetön</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Sammuta kerran %s</string>
     <string name="sleep_analysis">Tilastot</string>
     <string name="sleep_analysis_chart_date_format">d.M</string>
     <string name="sleep_date_provider_text">Unitiedot tarjoaa Xiaomi Health</string>
+    <string name="sleep_date_provider_text_new">Unitiedot tarjoaa Mi Fitness</string>
     <string name="sleep_duration">"Unenkesto: "</string>
     <string name="sleep_duration_avg_text_diff">Keskimääräinen unenkesto (%1$s-%2$s)</string>
     <string name="sleep_duration_desc">Nukkunut %1$s %2$s</string>
@@ -510,6 +519,7 @@
     <string name="sleep_record">Uniseuranta</string>
     <string name="sleep_record_desc">Ota käyttöönn aloittaaksesi unetietojen tallentamisen</string>
     <string name="sleep_record_desc_detailed">Uniseurannan tarjoaa Xiaomi Health. Kun se on päällä, Xiaomi Health tallentaa nukkumisen automaattisesti puhelimesi käytön, aktiviteettitilastojen perusteella sekä nukahtamis- ja asettamasi herätysajan, joka näyttää tilastot kaavioina. Seurataksesi nukkumista tarkemmin, anna kohteen Xiaomi Health käynnistyä automaattisesti. Kaikki siihen liittyvät tiedot tallennetaan paikallisesti laitteellesi, mikä antaa sinun hallita sitä helposti.</string>
+    <string name="sleep_record_desc_detailed_new">Uniseuranta tapahtuu Mi Fitness Sleep -ominaisuuden avulla. Jos otat tämän ominaisuuden käyttöön, Mi Fitness kerää ja näyttää automaattisesti untasi koskevia tietoja puhelimen käytön, aktiivisuuden sekä asettamasi nukkumaanmeno- ja herätysajan perusteella. Jos haluat seurata unta tarkemmin, anna Mi Fitnessin käynnistyä automaattisesti.</string>
     <string name="sleep_record_no_data">Tilastosi näkyvät täällä, kun Xiaomi Health on analysoinut tarpeeksi tietoa</string>
     <string name="sleep_remind">Nukkumaanmenoajan muistutus</string>
     <string name="sleep_time">Nukahtanut</string>
@@ -534,6 +544,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Ei kierroksia</string>
     <string name="stopwatch_reset_notification">Sekuntikello nollattiin</string>
     <string name="stopwatch_running_notification">Sekuntikello</string>
@@ -542,6 +553,7 @@
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>
     <string name="sunday_shortest">Su</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Salli tämän sovelluksen muodostaa yhteys Internettiin käyttääksesi kaikkia sen ominaisuuksia.</string>
     <string name="system_permission_main_purpose">Ajan tarkastelu, hälytysten ja ajastimien asettaminen, sekuntikellon käyttäminen</string>
     <string name="system_permission_purpose">Arkipäivähälytysten luominen ja mukautettujen soittoäänien asettaminen</string>
@@ -609,6 +621,7 @@
     <string name="timer_alert_type_beach">Ranta</string>
     <string name="timer_alert_type_forest">Metsä</string>
     <string name="timer_alert_type_mute">Oletus</string>
+    <string name="timer_alert_type_no">Ei mitään</string>
     <string name="timer_alert_type_rain">Tihkusade</string>
     <string name="timer_alert_type_spring_rain">Kesäsade</string>
     <string name="timer_alert_type_stove_fire">Hella tuli</string>
@@ -620,6 +633,9 @@
     <string name="timer_continue">Jatka</string>
     <string name="timer_continue_timer">Jatka ajastinta</string>
     <string name="timer_created">Ajastin lisättiin onnistuneesti</string>
+    <string name="timer_desc_use_brush_teeth">Harjaa hampaat</string>
+    <string name="timer_desc_use_facial_mask">Kasvonaamio</string>
+    <string name="timer_desc_use_sleep">Torkku</string>
     <string name="timer_end_time">Ajastin pysähtyy%s</string>
     <string name="timer_end_time_format">HH:mm d. MMM</string>
     <string name="timer_end_time_format_today">HH:mm</string>
@@ -628,6 +644,7 @@
     <string name="timer_is_paused">Ajastin on pysäytetty</string>
     <string name="timer_item_delete">Poista</string>
     <string name="timer_item_duration_display">%1$d min %2$d sek</string>
+    <string name="timer_item_edit">Muokkaa</string>
     <string name="timer_item_label_hint">Ajastimen nimi</string>
     <string name="timer_item_picker_hour">T</string>
     <string name="timer_item_picker_minute">M</string>
@@ -657,6 +674,8 @@
     <string name="upcoming_alarm_hint">Voit sammuttaa tämän hälytyksen nyt</string>
     <string name="update_health_app">Päivitä Xiaomi Health</string>
     <string name="update_health_app_desc">Uniseurannan tarjoaa Xiaomi Health. Päivitä Xiaomi Health uusimpaan versioon käyttääksesi siihen liittyviä ominaisuuksia.</string>
+    <string name="update_health_app_desc_new">Uniseurantaominaisuuden tarjoaa Mi Fitness. Päivitä Mi Fitness uusimpaan versioonsa käyttääksesi siihen liittyviä ominaisuuksia.</string>
+    <string name="update_health_app_new">Päivitä Mi Fitness</string>
     <string name="update_it">Päivitä</string>
     <string name="update_notification_info">Päivitetään tietoja taustalla…</string>
     <string name="usage_start">Aloita</string>
@@ -681,6 +700,7 @@
     <string name="wednesday_shortest">Ke</string>
     <string name="week_ringtone_recommend_desc">Luontohälytys toistaa erilaisia ääniä päivämäärästä riippuen. Asetetaanko se oletushälytykseksi?</string>
     <string name="white_noise">Ympäröivä melu</string>
+    <string name="white_noise_guide_desc">Lisää taustaääni pysyäksesi keskittyneenä</string>
     <string name="white_noise_selector">Valitse ääni</string>
     <string name="workday_alarm_clock">Työpäivien hälytys</string>
     <string name="worldclock_edit_label">Maailmankello</string>
@@ -692,6 +712,7 @@
     <string name="worldclock_search_city">Valitse kaupunki</string>
     <string name="worldclock_second_time">Aika paikassa %s</string>
     <string name="worldclock_second_time_desc">"%s: "</string>
+    <string name="worldclock_second_time_new">%s</string>
     <string name="worldclock_title">Kello</string>
     <string name="worldclock_world_time">Aikavyöhykkeet</string>
     <string name="worldcolock_date_display_prefix">Nykyinen: </string>

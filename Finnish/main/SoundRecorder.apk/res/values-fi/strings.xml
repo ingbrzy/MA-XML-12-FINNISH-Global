@@ -296,6 +296,7 @@
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -328,6 +329,11 @@
     <string name="network_tip_dialog_title">Internet-yhteys on pakollinen</string>
     <string name="network_unavailable_tip">Yhdistä verkkoon ja yritä uudelleen.</string>
     <string name="new_record_name">Uusi nauhoitus</string>
+    <string name="new_saf_permission_dialog_content">"Tallentimen käyttöoikeudet päivitettiin. Salli tallentimen käyttää puhelutallenteita.
+
+Luvan myöntäminen
+Napauta \"%1$s\" ja valitse sitten \"%2$s\"."</string>
+    <string name="new_saf_permission_dialog_grant_permission_immediately">Seuraava</string>
     <string name="night">Ilta</string>
     <string name="no_content">Ei kohteita vielä täällä</string>
     <string name="no_file">Tyhjä</string>
@@ -385,6 +391,8 @@
     <string name="permission_desc">Käyttöoikeustiedot</string>
     <string name="permission_dialog_cancel">Peruuta</string>
     <string name="permission_dialog_ok">Asetukset</string>
+    <string name="permission_read_phone_state">Siirry laitetietoihin</string>
+    <string name="permission_read_phone_state_description">Puhelun tilan tarkastelemiseen ja tallennuksen lopettamiseksi automaattisesti puheluita vastaanotettaessa</string>
     <string name="permission_record">Tallenna ääntä</string>
     <string name="permission_record_description">Äänitallennuspalvelujen tarjoamiseen</string>
     <string name="permission_storage">Pääsy tallennustilaan</string>
@@ -624,6 +632,7 @@
     <string name="the_united_nations_day">Yhdistyneiden kansakuntien päivä</string>
     <string name="the_valentines_day">Ystävänpäivä</string>
     <string name="the_water_lantern_festival">Water Lantern Festival</string>
+    <string name="this_folder">Käytä tätä kansiota</string>
     <string name="thursday">Torstai</string>
     <string name="thursday_short">To</string>
     <string name="thursday_shortest">To</string>

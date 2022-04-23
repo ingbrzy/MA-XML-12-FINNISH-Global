@@ -40,6 +40,14 @@
         <item quantity="other">Lisätty %d peliä</item>
         <item quantity="one">Lisätty %d peli</item>
     </plurals>
+    <plurals name="app_behavior_dashboard_title_desc">
+        <item quantity="other">%d sovellusta</item>
+        <item quantity="one">%d sovellus</item>
+    </plurals>
+    <plurals name="app_behavior_dashboard_total_usage_item">
+        <item quantity="other">%d sovellusta</item>
+        <item quantity="one">%d sovellus</item>
+    </plurals>
     <plurals name="app_behavior_desc_allow">
         <item quantity="other">Sallittu %3$d kertaa välillä %1$s ja %2$s</item>
         <item quantity="one">Sallittu %3$d kerta välillä %1$s ja %2$s</item>
@@ -55,6 +63,18 @@
     <plurals name="app_behavior_desc_deny_minute">
         <item quantity="other">Evätty %2$d kertaa klo %1$s</item>
         <item quantity="one">Evätty %2$d kerta klo %1$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage">
+        <item quantity="other">Sallittu %3$d kertaa välillä %1$s ja %2$s</item>
+        <item quantity="one">Sallittu %3$d kerta välillä %1$s ja %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time">
+        <item quantity="other">Käytetty %1$d minuuttia</item>
+        <item quantity="one">Käytetty %1$d minuutti</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time_end">
+        <item quantity="other">Käytetty %1$d minuuttia klo %2$s saakka</item>
+        <item quantity="one">Käytetty %1$d minuutti klo %2$s saakka</item>
     </plurals>
     <plurals name="app_behavior_desc_virtual">
         <item quantity="other">Palautti %3$d tyhjää viestiä välillä %1$s ja %2$s</item>
@@ -132,6 +152,14 @@
         <item quantity="other">%s sovellusta suojataan sovelluslukolla</item>
         <item quantity="one">%s sovellus suojataan sovelluslukolla</item>
     </plurals>
+    <plurals name="behavior_widget_app_text">
+        <item quantity="other">%2$d sovellusta mukaan lukien %1$s</item>
+        <item quantity="one">%2$d sovellus mukaan lukien %1$s</item>
+    </plurals>
+    <plurals name="behavior_widget_perm_counts">
+        <item quantity="other">%d kertaa</item>
+        <item quantity="one">%d kerta</item>
+    </plurals>
     <plurals name="bg_network_allow_count">
         <item quantity="other">%d sovellusta voi yhdistää verkkoon taustalla</item>
         <item quantity="one">%d sovellus voi yhdistää verkkoon taustalla</item>
@@ -163,6 +191,10 @@ Jos laitat mobiilidatan päälle uudestaan, operaattorisi saattaa veloittaa sinu
     <plurals name="deep_clean_auto_memory_clean">
         <item quantity="other">%1$d minuutissa</item>
         <item quantity="one">%1$d minuutissa</item>
+    </plurals>
+    <plurals name="exit_dialog_scan_message_new">
+        <item quantity="other">Laitteesi suorituskyky on alle %d pistettä. Optimoi nyt?</item>
+        <item quantity="one">Laitteesi suorituskyky on alle %d pistettä. Optimoi nyt?</item>
     </plurals>
     <plurals name="exo_controls_fastforward_by_amount_description">
         <item quantity="other">Siirry eteenpäin %d sekuntia</item>
@@ -241,9 +273,9 @@ Jos laitat mobiilidatan päälle uudestaan, operaattorisi saattaa veloittaa sinu
         <item quantity="one">Selvä (%ds)</item>
     </plurals>
     <plurals name="gb_voice_changer_toast_tips_window_bubble">
-        <item quantity="other">"Kokeile Äänenmuuntajaa nyt
+        <item quantity="other">"Kokeile Äänenvaihtajaa nyt
 saadaksesi %d päivän ilmaiskokeilun!"</item>
-        <item quantity="one">"Kokeile Äänenmuuntajaa nyt
+        <item quantity="one">"Kokeile Äänenvaihtajaa nyt
 saadaksesi %d päivän ilmaiskokeilun!"</item>
     </plurals>
     <plurals name="gb_voice_changer_trial_gain_fail">
@@ -267,6 +299,22 @@ Voit saada %d päivän ilmaiskokeilun nyt!"</item>
     <plurals name="gb_voice_changer_user_tips_info">
         <item quantity="other">Hanki %d päivän ilmaiskokeilu</item>
         <item quantity="one">Hanki %d päivän ilmaiskokeilu</item>
+    </plurals>
+    <plurals name="gd_app_edit_desc_new">
+        <item quantity="other">Lisää enintään %d sovellusta. Pidä painettuna järjestääksesi uudelleen.</item>
+        <item quantity="one">Lisää enintään %d sovellus. Pidä painettuna järjestääksesi uudelleen.</item>
+    </plurals>
+    <plurals name="gtb_brightness_dialog_message">
+        <item quantity="other">Tämä ominaisuus vähentää näytön kirkkautta %d minuutin käyttämättömyyden jälkeen automaattisesti virran säästämiseksi. Pidetäänkö tämä ominaisuus päällä?</item>
+        <item quantity="one">Tämä ominaisuus vähentää näytön kirkkautta %d minuutin käyttämättömyyden jälkeen automaattisesti virran säästämiseksi. Pidetäänkö tämä ominaisuus päällä?</item>
+    </plurals>
+    <plurals name="gtb_setting_item_summary_brightness">
+        <item quantity="other">Vähennä näytön kirkkautta säästääksesi virtaa %d minuutin käyttämättömyyden jälkeen</item>
+        <item quantity="one">Vähennä näytön kirkkautta säästääksesi virtaa %d minuutin käyttämättömyyden jälkeen</item>
+    </plurals>
+    <plurals name="gtb_spring_festival_colored_egg">
+        <item quantity="other">"Congrats! You've unlocked %s Easter eggs."</item>
+        <item quantity="one">"Congrats! You've unlocked %s Easter egg."</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Puoli tuntia sitten</item>
@@ -321,8 +369,8 @@ Voit saada %d päivän ilmaiskokeilun nyt!"</item>
         <item quantity="one">%d sovellus löydetty</item>
     </plurals>
     <plurals name="hints_scan_danger_result_with_number">
-        <item quantity="other">%d riskiä löytyi, korjaa nyt</item>
-        <item quantity="one">%d riski löytyi, korjaa nyt</item>
+        <item quantity="other">%d riskiä havaittu</item>
+        <item quantity="one">%d riski havaittu</item>
     </plurals>
     <plurals name="hints_traffic_disable_title">
         <item quantity="other">%d sovelluksen datan käyttöä seurataan</item>
@@ -632,6 +680,10 @@ Voit saada %d päivän ilmaiskokeilun nyt!"</item>
         <item quantity="other">kohdetta</item>
         <item quantity="one">kohde</item>
     </plurals>
+    <plurals name="power_center_unoffical_battery_dialog_negative">
+        <item quantity="other">Peruuta (%ds)</item>
+        <item quantity="one">Peruuta (%ds)</item>
+    </plurals>
     <plurals name="power_main_battery_last_day">
         <item quantity="other">%s päivää jäljellä</item>
         <item quantity="one">%s päivä jäljellä</item>
@@ -745,8 +797,8 @@ Voit saada %d päivän ilmaiskokeilun nyt!"</item>
         <item quantity="one">Löytyi %d epävirallinen sovellus</item>
     </plurals>
     <plurals name="result_virus_header">
-        <item quantity="other">Löytyi %d virusta ja turvatonta sovellusta</item>
-        <item quantity="one">Löytyi %d virus-sovellus</item>
+        <item quantity="other">%d haittaohjelmaa havaittu</item>
+        <item quantity="one">%d haittaohjelma havaittu</item>
     </plurals>
     <plurals name="search_app_count_txt_na">
         <item quantity="other">Etsi %d sovellusta</item>
@@ -824,9 +876,19 @@ Voit saada %d päivän ilmaiskokeilun nyt!"</item>
         <item quantity="other">%d sovellusta</item>
         <item quantity="one">%d sovellus</item>
     </plurals>
+    <plurals name="videobox_settings_timing_bubble">
+        <item quantity="other">"Olet katsellut videoita jo %d tuntia.
+Pidä tauko!"</item>
+        <item quantity="one">"Olet katsellut videoita jo %d tunnin.
+Pidä tauko!"</item>
+    </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$d näyttökertaa</item>
         <item quantity="one">%1$d näyttökerta</item>
+    </plurals>
+    <plurals name="virus_clear_dialog_content">
+        <item quantity="other">Tyhjennetäänkö %d valittua sovellusta?</item>
+        <item quantity="one">Tyhjennetäänkö %d valittu sovellus?</item>
     </plurals>
     <plurals name="white_list_risk_app_header">
         <item quantity="other">Vaarallista sovellusta: %d</item>

@@ -36,10 +36,6 @@
         <item quantity="other">%d minuuttia sitten</item>
         <item quantity="one">1 minuutti sitten</item>
     </plurals>
-    <plurals name="cloud_space_full_gallery_notification_content_title">
-        <item quantity="other">Ei voi synkronoida %s kohdetta</item>
-        <item quantity="one">Ei voi synkronoida %s kohdetta</item>
-    </plurals>
     <plurals name="dirty_blocklist_count">
         <item quantity="other">%d estolistan merkintää</item>
         <item quantity="one">%d estolistan merkintä</item>
@@ -68,10 +64,6 @@
         <item quantity="other">%d viestiä</item>
         <item quantity="one">%d viesti</item>
     </plurals>
-    <plurals name="dirty_music_count">
-        <item quantity="other">%d kappaletta</item>
-        <item quantity="one">%d kappale</item>
-    </plurals>
     <plurals name="dirty_note_count">
         <item quantity="other">%d muistiinpanoa</item>
         <item quantity="one">%d muistiinpano</item>
@@ -92,10 +84,6 @@
         <item quantity="other">%d nauhoitusta</item>
         <item quantity="one">%d nauhoitus</item>
     </plurals>
-    <plurals name="dirty_secretphoto_count">
-        <item quantity="other">%d piilotettua kuvaa ei synkronoidu. Kirjaudu ulos, kunnes kaikki kohteet on synkronoitu pitääksesi ne; muuten, kohteet poistetaan.</item>
-        <item quantity="one">%d piilotettu kuva ei synkronoidu. Kirjaudu ulos, kunnes kaikki kohteet on synkronoitu pitääksesi ne; muuten, kohteet poistetaan.</item>
-    </plurals>
     <plurals name="dirty_wlan_count">
         <item quantity="other">%d Wi-Fi-verkkoa</item>
         <item quantity="one">%d Wi-Fi-verkko</item>
@@ -104,9 +92,25 @@
         <item quantity="other">%d WLAN networks</item>
         <item quantity="one">%d WLAN network</item>
     </plurals>
+    <plurals name="error_retry_hour">
+        <item quantity="other">%s tuntia</item>
+        <item quantity="one">%s tunti</item>
+    </plurals>
+    <plurals name="error_retry_minute">
+        <item quantity="other">%s minuuttia</item>
+        <item quantity="one">%s minuutti</item>
+    </plurals>
+    <plurals name="error_retry_second">
+        <item quantity="other">%s sekuntia</item>
+        <item quantity="one">%s sekunti</item>
+    </plurals>
     <plurals name="error_screen_pwd_next_retry_time">
         <item quantity="other">Yritä uudelleen %d sekunnin kuluttua</item>
         <item quantity="one">Yritä uudelleen %d sekunnin kuluttua</item>
+    </plurals>
+    <plurals name="gallery_auto_sync_fail_noti_title">
+        <item quantity="other">Ei voitu synkronoida %s kohdetta</item>
+        <item quantity="one">Ei voitu synkronoida %s kohdetta</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Puoli tuntia sitten</item>

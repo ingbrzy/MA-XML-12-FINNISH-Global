@@ -147,6 +147,7 @@
     <string name="calllog_menu_blacklist">Estä</string>
     <string name="calllog_menu_edit_before_call">Muokkaa</string>
     <string name="calllog_menu_send_sms">Lähetä viesti</string>
+    <string name="calllog_record_none_toast">Ei näytettävää puhelutallenteita</string>
     <string name="callrecordview_item_op_time_minutes_seconds">%1$d m %2$d s</string>
     <string name="callrecordview_item_op_time_missed">Ei yhdistynyt</string>
     <string name="callrecordview_item_op_time_only_minutes">%d min</string>
@@ -502,6 +503,7 @@ Syy: \"%s\""</string>
     <string name="friday">Perjantai</string>
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Nimi</string>
     <string name="gallery">Galleria</string>
     <string name="ghostData_company">Yritys</string>
@@ -627,6 +629,7 @@ Syy: \"%s\""</string>
     <string name="menu_sync_remove">Poista synkronointiryhmä</string>
     <string name="midnight">Yö</string>
     <string name="miprofile_account_type">Käyntikortit</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Muokkaa profiilia</string>
     <string name="miprofile_name">Minun profiili</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -720,6 +723,12 @@ Syy: \"%s\""</string>
     <string name="name_phonetic_middle">Toisen nimen ääntämistapa</string>
     <string name="name_prefix">Nimen etuliite</string>
     <string name="name_suffix">Nimen jälkiliite</string>
+    <string name="new_saf_permission_dialog_content">"Yhteystietojen käyttöoikeudet päivitettiin. Salli yhteyshenkilöiden käyttää puhelutallenteita.
+
+Luvan myöntäminen
+Napauta %1$s\" ja valitse sitten \"%2$s\"."</string>
+    <string name="new_saf_permission_dialog_grant_permission_immediately">Seuraava</string>
+    <string name="new_saf_permission_dialog_title"><b>Käyttöoikeuksia vaaditaan</b></string>
     <string name="next">Seuraava</string>
     <string name="next_birthday">Seuraava syntymäpäivä: %s</string>
     <string name="nfc_vcard_file_name">Yhteys vastaanotettu kohteen NFC kautta</string>
@@ -777,6 +786,7 @@ Syy: \"%s\""</string>
     <string name="permission_retry_dialog_msg_pad">Voidaksesi käyttää SIM-korttiasi tämän sovelluksen kanssa ja hallita yhteystietojasi salli tämän sovelluksen käyttää ja muokata yhteystietojasi sekä käyttää laitteen tietoja.</string>
     <string name="permission_retry_setting">Asetukset</string>
     <string name="phoneLabelsGroup">Puhelin</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Numero on liian pitkä</string>
     <string name="phone_primary">Ensisijainen</string>
     <string name="photoPickerNotFoundText">Laitteella ei ole kuvia saatavilla.</string>
@@ -834,7 +844,7 @@ Syy: \"%s\""</string>
     <string name="preference_privacy_settings_title">Tietosuoja</string>
     <string name="preference_remove_duplicate">Yhdistä yhteystietojen kaksoiskappaleet</string>
     <string name="preference_show_firewall_calllog">Näytä estetyt puhelut puheluhistoriassa</string>
-    <string name="preference_show_yellowpage_tab_description">Hakemisto ei välttämättä toimi oikein, kun tämä ominaisuus on poissa käytöstä.</string>
+    <string name="preference_show_yellowpage_tab_description">Hakemisto ja sen palvelut eivät näy, jos poistat tämän ominaisuuden käytöstä</string>
     <string name="preference_show_yellowpage_tab_title">Näytä hakemisto</string>
     <string name="preference_simple_mode_title">Näytä kuvat ja tiedot</string>
     <string name="preference_smart_group_company_summary">Ryhmittele yrityksen mukaan</string>
@@ -845,6 +855,7 @@ Syy: \"%s\""</string>
     <string name="preference_smart_group_location_title">Sijainnit</string>
     <string name="preference_smart_group_title">Älykkäät ryhmät</string>
     <string name="preference_tone_title">Äänet</string>
+    <string name="preference_yellowpage_function_setting">Hakemiston asetukset</string>
     <string name="previous">Edellinen</string>
     <string name="privacy_password_message1">Yksityisyydensuojan salasana toimii sovelluksissa, muistioissa ja piilotetuissa kansioissa.</string>
     <string name="privacy_password_message2">Käytä yksityisyydensuojan salasanaa. Se toimii kuvissa, muistiinpanoissa ja piilotetuissa kansioissa.</string>
@@ -854,6 +865,7 @@ Syy: \"%s\""</string>
     <string name="privacy_password_title2">Käytä yksityisyydensuojan salasanaa</string>
     <string name="privacy_password_title3">Päivitä salasanasi</string>
     <string name="privacy_password_title4">Salasana päivitetty</string>
+    <string name="privacy_settings_blue_scan_connect">Yhdistä lähellä oleviin laitteisiin</string>
     <string name="privacy_settings_call_phone">Soita puheluita</string>
     <string name="privacy_settings_call_phone_description">Puhelujen soittamiseksi aloitusnäytön pikavalinnoista</string>
     <string name="privacy_settings_call_phone_description_for_pad">Puheluiden soittamiseen kolmannen osapuolen sovelluksissa</string>
@@ -1017,6 +1029,7 @@ Syy: \"%s\""</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Ei ryhmän jäseniä</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Yritykset</string>
     <string name="smart_group_company_unavailable">Ei yritystietoja</string>
     <string name="smart_group_frequency_1">Viimeisen kuukauden aikana</string>
@@ -1058,6 +1071,7 @@ Syy: \"%s\""</string>
     <string name="starred_contacts">Suosikit</string>
     <string name="status_available">Paikalla</string>
     <string name="status_away">Poissa</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Varattu</string>
     <string name="strequentList">Suosikit</string>
     <string name="success_message_import_from_account">Yhteystieto tuotu</string>
@@ -1116,6 +1130,7 @@ Syy: \"%s\""</string>
     <string name="the_united_nations_day">Yhdistyneiden kansakuntien päivä</string>
     <string name="the_valentines_day">Ystävänpäivä</string>
     <string name="the_water_lantern_festival">Water Lantern Festival</string>
+    <string name="this_folder">Käytä tätä kansiota</string>
     <string name="three_letter">DEF</string>
     <string name="thursday">Torstai</string>
     <string name="thursday_short">To</string>
@@ -1133,6 +1148,7 @@ Syy: \"%s\""</string>
     <string name="toast_for_failed_saving_nickname">Nimimerkkiä ei voitu tallentaa</string>
     <string name="toast_for_saving_nickname">Nimimerkki tallennettu</string>
     <string name="toast_join_with_empty_contact">Kirjoita yhteystiedon nimi ennen kuin liität sen toiseen</string>
+    <string name="toast_not_show_blue_scan_connect_perm_req">Salli tämän ominaisuuden muodostaa yhteys lähellä oleviin laitteisiin Bluetoothin kautta, jotta voit tuoda yhteystietoja muista laitteista.</string>
     <string name="toast_not_show_camera_perm_req">Voidaksesi käyttää kameraa profiilikuvien ottamiseen anna tämän sovelluksen ottaa valokuvia ja tallentaa videoita ensin.</string>
     <string name="toast_not_show_location_perm_req">Jos haluat tuoda yhteystietoja muista laitteista Bluetoothin kautta, anna tämän sovelluksen käyttää sijaintiasi ensin.</string>
     <string name="toast_not_show_read_calllogs_perm_req">Voidaksesi tarkastella puheluhistoriaa anna tämän sovelluksen käyttää puheluhistoriaa ensin.</string>
