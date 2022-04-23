@@ -39,7 +39,6 @@
     <string name="date_picker_lunar">Perinteinen kiinalainen kalenteri</string>
     <string name="date_time_picker_dialog_title">Aseta päivä ja aika</string>
     <string name="early_morning">Aamu</string>
-    <string name="empty" />
     <string name="eras_ad">jKr.</string>
     <string name="eras_bc">eKr.</string>
     <string name="evening">Iltapäivä</string>

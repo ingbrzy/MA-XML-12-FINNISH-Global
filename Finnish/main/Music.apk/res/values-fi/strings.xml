@@ -366,9 +366,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="download_method">Lataa</string>
     <string name="download_no_application_title">Tiedostoa ei voitu avata</string>
     <string name="download_paused_in_power_save_mode">Lataukset keskeytettiin, koska virransäästö on päällä</string>
-    <string name="download_percent">%d%%</string>
     <string name="download_processing">Ladataan…</string>
-    <string name="download_progress">%d%%</string>
     <string name="download_quality">Latauksen laatuz</string>
     <string name="download_quality_summary">Lisäasetukset ladattaville kappaleille</string>
     <string name="download_queued">Jonossa</string>
@@ -466,9 +464,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="exo_media_action_repeat_all_description">Toista kaikki uudelleen</string>
     <string name="exo_media_action_repeat_off_description">Ei uudelleentoistoa</string>
     <string name="exo_media_action_repeat_one_description">Toista yksi uudelleen</string>
-    <string name="exo_track_bitrate">%1$.2f Mt/s</string>
     <string name="exo_track_mono">Mono</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Vaihtoehtoinen</string>
     <string name="exo_track_role_closed_captions">Tekstitykset</string>
     <string name="exo_track_role_commentary">Kommenttiraita</string>
@@ -872,7 +868,6 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -1170,7 +1165,6 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="privacy_authorize_revoking">Peruutetaan valtuutusta…</string>
     <string name="privacy_desc">Tietosuojakäytäntö (pakollinen)</string>
     <string name="privacy_policy">Tietosuojakäytäntö</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=fi_FI</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Musiikin on kerättävä tarvittavat henkilökohtaiset tiedot voidakseen tarjota sinulle suoratoistopalveluja. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=\"%1$s\">Tietosuojakäytännöstä&lt;/a>. Voit milloin tahansa peruuttaa suostumuksesi Mi Musiikin tietosuojakäytäntöön kohdassa Asetukset.
 Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%1$s\">Tietosuojakäytäntö&lt;/a> ennen kuin käytät Mi Musiikkia.
 Jos et suostu käyttämään edellä mainittuja palveluita, et voi käyttää joitain tämän sovelluksen ominaisuuksia. Sen perustoiminnot ovat kuitenkin edelleen käytettävissäsi.&lt;/Data>"</string>
@@ -1357,7 +1351,6 @@ Jos et suostu käyttämään edellä mainittuja palveluita, et voi käyttää jo
     <string name="start_to_download">Ladataan…</string>
     <string name="start_to_play">Valmistaudutaan toistamaan…</string>
     <string name="start_update">Asennetaan uutta versiota…</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Kaksoissovelluksien tallennustila</string>
     <string name="storage_internal">Sisäinen tallennustila</string>
     <string name="storage_sd_card">SD-kortti</string>
@@ -1530,7 +1523,6 @@ Jos et suostu käyttämään edellä mainittuja palveluita, et voi käyttää jo
     <string name="user_agreement_hint_with_telecom">&lt;Data>Olen lukenut ja hyväksynyt Mi-tilin &lt;a href=%1$s>käyttäjäsopimuksen&lt;/a> ja &lt;a href=%2$s>tietosuojakäytännön&lt;/a> sekä eSurfing-vahvistuspalvelujen ehdot&lt;a href=%3$s>käyttöehdot&lt;/a>.&lt;/Data></string>
     <string name="user_agreement_hint_with_unicom">&lt;Data>Olen lukenut ja hyväksynyt Mi-tilin &lt;a href=%1$s>käyttäjäsopimuksen&lt;/a> ja &lt;a href=%2$s>tietosuojakäytännön&lt;/a> sekä China Unicom -vahvistuspalvelujen ehdot&lt;a href=%3$s>käyttöehdot&lt;/a>.&lt;/Data></string>
     <string name="user_agreement_protocal_dialog_hint_default">&lt;Data>Lue ja hyväksy &lt;a href=%1$s>Käyttäjäsopimus&lt;/a> ja &lt;a href=%2$s>Tietosuojakäytäntö&lt;/a> ja Mi-tilin &lt;a href=%3$s>käyttäjäsopimus&lt;/a> ja &lt;a href=%4$s>tietosuojakäytäntö&lt;/a>.&lt;/Data></string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=fi_FI</string>
     <string name="user_avatar_update_title">Vaihda profiilikuva</string>
     <string name="user_avatar_uploading">Hetki vain…</string>
     <string name="user_experience_program_open">Tekijänoikeusrajoitusten vuoksi sinun on rekisteröidyttävä käyttäjäkokemusohjelmaan, jotta voit toistaa ladattuja kappaleita. Voit tehdä tämän kohdassa Asetukset > Salasanat &amp; tietoturva > Tietosuoja > Ilmoittaudu käyttäjäkokemusohjelmaan.</string>
