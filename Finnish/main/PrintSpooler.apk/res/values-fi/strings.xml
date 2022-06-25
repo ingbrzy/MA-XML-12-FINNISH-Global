@@ -59,6 +59,7 @@
     <string name="copies_increase">Lisätään yksi kopio</string>
     <string name="copy">Kopioi</string>
     <string name="could_not_create_file">Tiedoston luominen epäonnistui.</string>
+    <string name="current_page_template">%1$d/%2$d</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -262,6 +263,7 @@
     <string name="printer_busy">Tulostin on varattu</string>
     <string name="printer_error">Tulostinvirhe</string>
     <string name="printer_error_msg">Tulostinvirhe: %1$s</string>
+    <string name="printer_extended_description_template">%1$s – %2$s</string>
     <string name="printer_info_desc">Lisätietoja tästä tulostimesta</string>
     <string name="printer_notification_error_title">Ei voitu tulostaa %1$s</string>
     <string name="printer_unavailable">Tulostin ei ole saatavilla</string>

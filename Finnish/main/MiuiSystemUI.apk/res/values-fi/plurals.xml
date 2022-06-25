@@ -114,7 +114,7 @@
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
         <item quantity="other">Jäljellä %d tuntia</item>
-        <item quantity="one">Jäljellä %d minuuttia</item>
+        <item quantity="one">Jäljellä %d tunti</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
         <item quantity="other">Jäljellä %d minuuttia</item>
@@ -164,6 +164,10 @@
         <item quantity="other">%d kohdetta valittu</item>
         <item quantity="one">%d kohde valittu</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d uutta ilmoitusta</item>
+        <item quantity="one">%d uusi ilmoitus</item>
+    </plurals>
     <plurals name="new_notifications_msg">
         <item quantity="other">%d uutta ilmoitusta</item>
         <item quantity="one">%d uusi ilmoitus</item>
@@ -201,7 +205,7 @@
         <item quantity="one">Käyttäjiä voi olla vain yksi.</item>
     </plurals>
     <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d laitetta yhdistetty</item>
-        <item quantity="one">%1$d laite yhdistetty</item>
+        <item quantity="other">%1$d laitetta yhdistettynä</item>
+        <item quantity="one">%1$d laite yhdistettynä</item>
     </plurals>
 </resources>

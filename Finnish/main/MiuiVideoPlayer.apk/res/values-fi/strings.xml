@@ -110,13 +110,14 @@
     <string name="auto_play_next_on">Automaattinen toisto on käynnissä</string>
     <string name="back_to_mainpage">Tutustu</string>
     <string name="background_playback_enabled">Taustatoisto on päällä</string>
-    <string name="before_yestoday">2 päivää sitten</string>
     <string name="before_yestoday_new">%d päivää sitten</string>
     <string name="bind_sign_in_title">Lisää Mi-tili</string>
+    <string name="bottomsheet_action_expand_halfway">Laajenna puoliväliin</string>
     <string name="box_title_gallery">Video työkalupakki</string>
     <string name="box_title_mivideo">Lisäominaisuudet</string>
     <string name="btn_clear_history">Tyhjennä historia</string>
     <string name="btn_empty_go_to_download">Lataa</string>
+    <string name="btn_playlist_play_all">Toista</string>
     <string name="cancel">Peruuta</string>
     <string name="cancel_choose">Kumoa</string>
     <string name="cancel_subscribe_tips">Lopetetaanko seuraaminen nyt?</string>
@@ -138,6 +139,7 @@
     <string name="cast_forward">Kelaa eteenpäin</string>
     <string name="cast_forward_10">Kelaa eteenpäin 10 sekuntia</string>
     <string name="cast_forward_30">Kelaa eteenpäin 30 sekuntia</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">LIVE</string>
     <string name="cast_mute">Mykistä</string>
     <string name="cast_notification_connected_message">Yhdistetty näyttöön %1$s</string>
@@ -164,10 +166,13 @@
     <string name="cast_unmute">Poista mykistys</string>
     <string name="change_activate_email">Vaihda sähköpostiosoitetta</string>
     <string name="change_password">Vaihda salasana</string>
+    <string name="character_counter_content_description">%1$d/%2$d merkkiä kirjoitettu</string>
+    <string name="character_counter_overflowed_content_description">Merkkiraja ylitetty: %1$d/%2$d</string>
     <string name="check_nothing">Et ole vielä valinnut yhtään kohteita</string>
     <string name="choose">Valitse</string>
     <string name="choose_to_signin">Kyllä</string>
     <string name="choose_to_signup">Ei, haluan luoda tilin</string>
+    <string name="clear_text_end_icon_content_description">Tyhjennä teksti</string>
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
     <string name="click_to_open_pip">Vaihda kuva kuvassa -tilaan napauttamalla</string>
     <string name="click_to_play_video_push_context">Toista video napauttamalla</string>
@@ -177,7 +182,6 @@
     <string name="cloud_auto_pip_play_switch">Käytä kuva-kuvassa automaattisesti</string>
     <string name="cloud_online_player">Soitin</string>
     <string name="cloud_online_switch">Yksilöidyt suositukset</string>
-    <string name="cloud_online_switch_close_time">Voit ottaa käyttöön yksilöityjä sisältösuosituksia kohteessa %s</string>
     <string name="cloud_online_switch_open_time">Näytä yksilöityjä sisältösuosituksia</string>
     <string name="collect_diagnosis_log">Kerää lokeja</string>
     <string name="columbus_ad_flag_text">MAINOS</string>
@@ -321,6 +325,8 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="dialog_set_default_later">Ei kiitos</string>
     <string name="dialog_set_default_set">Aseta</string>
     <string name="dialog_set_default_text">Asetetaanko Mi Video oletusvideosoittimeksi?</string>
+    <string name="dialog_title_delete_folder">Jos poistat tämän kansion, myös kaikki siinä olevat tiedostot poistetaan pysyvästi. Poistetaanko kansio nyt?</string>
+    <string name="dialog_title_hidden_folder">Jos piilotat tämän kansion, siinä olevat tiedostot eivät näy videoidesi joukossa. Piilotetaanko kansio nyt?</string>
     <string name="dialog_video_change">Muuta</string>
     <string name="dialog_video_download_tip">Lisätty latausjonoon</string>
     <string name="dialog_video_download_view">Näytä</string>
@@ -353,6 +359,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="eras_ad">jKr.</string>
     <string name="eras_bc">eKr.</string>
     <string name="error_dup_binded_email">Tämä sähköpostiosoite on jo liitetty toiseen Mi-tiliin.</string>
+    <string name="error_icon_content_description">Virhe</string>
     <string name="error_invalid_bind_address">Syöttämäsi sähköpostiosoite on virheellinen.</string>
     <string name="evening">Iltapäivä</string>
     <string name="exceed_binded_phone_times_notice">Tämä puhelinnumero on jo liitetty toiseen Mi-tiliin.</string>
@@ -395,6 +402,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="expand_button_title">Lisäasetukset</string>
     <string name="explore">Löydä</string>
     <string name="explore_on_mi_video">Löydä lisää Mi Videosta</string>
+    <string name="exposed_dropdown_menu_content_description">Näytä avattava valikko</string>
     <string name="failed_dup_secure_phone_number">Tämä puhelinnumero on jo liitetty toiseen Mi-tiliin</string>
     <string name="failed_to_fetch_data">Tietoja ei voitu ladata.</string>
     <string name="failure">Ei voitu ladata</string>
@@ -518,7 +526,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="galleryplus_double_tap_to_higher_definition">Kaksoisnapauta uudelleen avataksesi HD-esikatselun</string>
     <string name="galleryplus_fr_unsupport_restore_speed">Kehyksenopeus ei tuettu. Vaihdettiin takaisin normaaliin nopeuteen.</string>
     <string name="galleryplus_gallery_fold_tags">Piilota merkit</string>
-    <string name="galleryplus_gallery_video_adjust_hint">Vain 960 fps -videoita tuetaan</string>
+    <string name="galleryplus_gallery_video_adjust_hint">Vain %dfps-videoita tuetaan</string>
     <string name="galleryplus_gallery_video_adjust_text">Säädä</string>
     <string name="galleryplus_gallery_video_default_music_text">Auto</string>
     <string name="galleryplus_gallery_video_item3_default_text">Tunteet</string>
@@ -627,7 +635,6 @@ Tämä toiminto ei vaikuta galleriakuviin."</string>
     <string name="got_it">Selvä</string>
     <string name="goto_sign_up">Luo tili</string>
     <string name="have_learned">Selvä</string>
-    <string name="hello_blank_fragment">Hei tyhjä fragmentti</string>
     <string name="hidden_channels">Seuraavia kanavia ei näytetä aloitussivulla.</string>
     <string name="hide">Piilota</string>
     <string name="hint_icon_ad_title">Suositeltu</string>
@@ -636,12 +643,12 @@ Tämä toiminto ei vaikuta galleriakuviin."</string>
     <string name="history_local_video">Paikallinen</string>
     <string name="history_online_video">Online</string>
     <string name="hot">Suositut</string>
+    <string name="icon_content_description">Valintaikkunan kuvake</string>
     <string name="identity">Tunnistaminen</string>
     <string name="inconsistent_pwd">Salasanat eivät täsmää</string>
     <string name="init_channels">Palauta oletukset</string>
     <string name="input_email_address_notice">Käytämme tätä sähköpostia tilisi vahvistamiseen</string>
     <string name="input_new_pwd">Syötä uusi salasana</string>
-    <string name="input_size_tips">Voit syöttää enintään 1000 merkkiä</string>
     <string name="input_size_tips_new">Voit syöttää enintään %d merkkiä</string>
     <string name="isornot_your_mi_account">Onko tämä sinun Mi-tilisi?</string>
     <string name="issue">Ongelma</string>
@@ -654,6 +661,8 @@ Tämä toiminto ei vaikuta galleriakuviin."</string>
     <string name="item_download_path">Latausten sijainti</string>
     <string name="item_download_path_setting">Latauksen sijaintiasetukset</string>
     <string name="item_setting_go_back">Suostumuksen peruuttaminen</string>
+    <string name="item_title_unknown">Tuntematon otsikko</string>
+    <string name="item_view_role_description">Välilehti</string>
     <string name="just_a_second">Hetki vain…</string>
     <string name="language_later_setting_tips">Voit muuttaa kieliasetuksiasi kohdassa Profiili > Kieli.</string>
     <string name="language_select_tips">"Valitse haluamasi kieli
@@ -668,10 +677,14 @@ videoille"</string>
     <string name="local_diversion_close_recommend">Sulje</string>
     <string name="local_diversion_download_more_video">Lisää videoita</string>
     <string name="local_diversion_manage_local_video">Hallitse tiedostoja</string>
-    <string name="local_diversion_open_mivideo">"Katso Mi Videossa
-saadaksesi parhaan katselukokemuksen"</string>
+    <string name="local_diversion_open_mivideo">*Vaihda Mi Videoon, tehokkaaseen monitoimivideosoittimeen</string>
     <string name="local_diversion_recommend_title">Suosittua</string>
     <string name="local_empty_guide">Kuvaamasi videot näkyvät täällä</string>
+    <string name="local_folder_select_count">Valittu %s</string>
+    <string name="local_hide_folder_dialog_content">Piilotetut videot eivät näy soittolistoissasi</string>
+    <string name="local_hide_folder_dialog_title">Piilotetut videot</string>
+    <string name="local_hide_folder_setting_goto">Asetukset</string>
+    <string name="local_hide_folder_setting_tip">Voit hallita piilotettuja videoitasi kohdassa Profiili > Asetukset > Hallitse piilotettuja videoita.</string>
     <string name="local_play_tip">Paikallisen videon toistaminen</string>
     <string name="local_push_setting_power_tag">Ilmoitukset paikallisista videoista</string>
     <string name="local_push_title">Suosittua tänään</string>
@@ -738,7 +751,6 @@ saadaksesi parhaan katselukokemuksen"</string>
     <string name="lv_brightness">Kirkkaus</string>
     <string name="lv_cast">Peilaa</string>
     <string name="lv_check_delete_file">Valitse poistettavat kohteet</string>
-    <string name="lv_check_send_file">Voit lähettää vain 1 tiedoston kerrallaan</string>
     <string name="lv_check_send_file_new">Voit lähettää vain %d tiedostoa kerrallaan</string>
     <string name="lv_confirm_delete_history">Poistetaanko valitut kohteet?</string>
     <string name="lv_confirm_delete_videos">Poistetaanko kohteet?</string>
@@ -801,14 +813,10 @@ saadaksesi parhaan katselukokemuksen"</string>
     <string name="lv_subtitle_manual_add_sub">Tekstitykset lisätty onnistuneesti</string>
     <string name="lv_subtitle_no_subtitle">Tekstitys ei ole käytettävissä</string>
     <string name="lv_subtitle_non_subtitle_file">Tekstitystiedostoja ei ole saatavilla</string>
-    <string name="lv_subtitle_offset_add_1s">+1 s</string>
     <string name="lv_subtitle_offset_add_1s_new">+%ds</string>
-    <string name="lv_subtitle_offset_add_dot5s">+0.5 s</string>
     <string name="lv_subtitle_offset_add_dot5s_new">+%fs</string>
     <string name="lv_subtitle_offset_normal">Älä siirrä tekstitystä</string>
-    <string name="lv_subtitle_offset_sub_1s">-1 s</string>
     <string name="lv_subtitle_offset_sub_1s_new">-%ds</string>
-    <string name="lv_subtitle_offset_sub_dot5s">-0.5 s</string>
     <string name="lv_subtitle_offset_sub_dot5s_new">-%fs</string>
     <string name="lv_subtitle_onlinesub_language">Kieli: %s</string>
     <string name="lv_subtitle_onlinesub_loading">Ladataan tekstityksiä…</string>
@@ -822,7 +830,6 @@ saadaksesi parhaan katselukokemuksen"</string>
     <string name="lv_subtitle_onlinesub_size_string_b">Koko: %s t</string>
     <string name="lv_subtitle_onlinesub_title">Online-tekstitykset</string>
     <string name="lv_subtitle_open_subtitle_file_title">Etsi tekstitystiedosto</string>
-    <string name="lv_subtitle_preoffset_max">Ei voi siirtää yli 5 s</string>
     <string name="lv_subtitle_preoffset_max_new">Ei voi liikkua enempää kuin %ds</string>
     <string name="lv_subtitle_subonline_non_network">Ei voitu yhdistää verkkoon. Yhdistä ja yritä uudelleen.</string>
     <string name="lv_subtitle_synchronization_title">Synkronointi</string>
@@ -841,6 +848,18 @@ saadaksesi parhaan katselukokemuksen"</string>
     <string name="mangotv_feature_more">Lisää</string>
     <string name="mangotv_feature_title1">Jaksot</string>
     <string name="mangotv_feature_title2">Jaksot</string>
+    <string name="material_clock_toggle_content_description">Valitse AP tai IP</string>
+    <string name="material_hour_selection">Valitse tunti</string>
+    <string name="material_hour_suffix">klo %1$s</string>
+    <string name="material_minute_selection">Valitse minuutit</string>
+    <string name="material_minute_suffix">%1$s minuuttia</string>
+    <string name="material_timepicker_am">ap</string>
+    <string name="material_timepicker_clock_mode_description">Vaihda ajan syöttämiseen kellotilassa.</string>
+    <string name="material_timepicker_hour">Tunnit</string>
+    <string name="material_timepicker_minute">Minuutti</string>
+    <string name="material_timepicker_pm">ip</string>
+    <string name="material_timepicker_select_time">Valitse aika</string>
+    <string name="material_timepicker_text_input_mode_description">Vaihda ajan syöttämiseen tekstitilassa.</string>
     <string name="mediation_ad_can_not_share">Tätä videota ei voi jakaa</string>
     <string name="mi_video">Mi Video</string>
     <string name="midnight">Yö</string>
@@ -945,6 +964,41 @@ saadaksesi parhaan katselukokemuksen"</string>
     <string name="mr_controller_volume_slider">Äänenvoimakkuuden liukusäädin</string>
     <string name="mr_system_route_name">Järjestelmä</string>
     <string name="mr_user_route_category_name">Laitteet</string>
+    <string name="mtrl_badge_numberless_content_description">Uusi ilmoitus</string>
+    <string name="mtrl_chip_close_icon_content_description">Poista %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Yli %1$d uutta ilmoitusta</string>
+    <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
+    <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
+    <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
+    <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
+    <string name="mtrl_picker_day_of_week_column_header">Päiväsarake: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Virheellinen muoto</string>
+    <string name="mtrl_picker_invalid_format_example">Esimerkki: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Käytä muotoa %1$s</string>
+    <string name="mtrl_picker_invalid_range">Virheellinen alue</string>
+    <string name="mtrl_picker_navigate_to_year_description">Siirry vuoteen %1$s</string>
+    <string name="mtrl_picker_out_of_range">Aikavälin ulkop.: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Alkamispäivä – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – päättymispäivä</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Valitse jakso</string>
+    <string name="mtrl_picker_range_header_unselected">Alkamispäivä – päättymispäivä</string>
+    <string name="mtrl_picker_save">Tallenna</string>
+    <string name="mtrl_picker_text_input_date_hint">Päivämäärä</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Päättymispäivä</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Alkamispäivä</string>
+    <string name="mtrl_picker_text_input_day_abbr">p</string>
+    <string name="mtrl_picker_text_input_month_abbr">k</string>
+    <string name="mtrl_picker_text_input_year_abbr">v</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Vaihda syöttötavaksi kalenteri</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Siirry päivän valintaan napauttamalla</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Valitse syöttötavaksi teksti</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Siirry vuoden valintaan napauttamalla</string>
+    <string name="music_new_user_dialog_got_it">Selvä</string>
+    <string name="music_new_user_dialog_tip">Tervetuloa Mi Videoon! Tämä sovellus tarjoaa paikallisen videosoittimen ja online-musiikin ja videoiden suoratoistopalvelut.</string>
     <string name="my_favorite_channels">Suosikkikanavani</string>
     <string name="my_feedback_title">Palautteeni</string>
     <string name="need_update_app">Päivitä Mi Video käyttääksesi kaikkia sen ominaisuuksia</string>
@@ -1062,6 +1116,7 @@ saadaksesi parhaan katselukokemuksen"</string>
     <string name="ovp_navigation_language">Kieli</string>
     <string name="ovp_navigation_localvideo">Paikallinen</string>
     <string name="ovp_navigation_notice">Ilmoitukset</string>
+    <string name="ovp_navigation_playlist">Soittolistat</string>
     <string name="ovp_navigation_score">Arvioi sovelluksemme</string>
     <string name="ovp_navigation_setting">Asetukset</string>
     <string name="ovp_navigation_subscribe">Tilaus</string>
@@ -1188,6 +1243,7 @@ Päivitä ensin Mi Video viimeisempään versioon."</string>
     <string name="passport_wrong_phone_number_format">Syöttämäsi puhelinnumeron muoto ei kelpaa</string>
     <string name="passport_wrong_vcode">Antamasi koodi on virheellinen</string>
     <string name="passport_wrong_voice">Antamasi koodi on virheellinen</string>
+    <string name="password_toggle_content_description">Näytä salasana</string>
     <string name="permission_continue">Jatka</string>
     <string name="permission_info">"Mi Video tarvitsee pääsyn laitteesi IMEI-numeroon tehdäkseen seuraavat toimet:
  
@@ -1208,6 +1264,18 @@ Tilisi turvallisuuden parantaminen."</string>
     <string name="phone_number">Puhelinnumero</string>
     <string name="photoPickerNotFoundText">Kuvia ei saatavilla.</string>
     <string name="pip">Kuva kuvassa</string>
+    <string name="play_list_delete_title">Poistetaanko tämä soittolista nyt?</string>
+    <string name="play_list_detial_add">Lisää videoita</string>
+    <string name="play_list_detial_delete">Poista</string>
+    <string name="play_list_detial_play">Toista</string>
+    <string name="play_list_detial_rename">Nimeä uudelleen</string>
+    <string name="play_list_player_skeleton_file">mnc_live_tv_list_player_skeleton.json</string>
+    <string name="play_list_save_dialog_create">Luo soittolista</string>
+    <string name="play_list_save_dialog_title">Lisää soittolistaan</string>
+    <string name="play_list_sign_in_dialog_message">Kirjaudu sisään Google-tililläsi nähdäksesi kaikki soittolistasi.</string>
+    <string name="play_list_skeleton_file">mnc_live_tv_list_skeleton.json</string>
+    <string name="play_list_user_local">Paikallinen</string>
+    <string name="play_list_user_online">Online</string>
     <string name="playlist_create">Luo</string>
     <string name="playlist_detail_recomm_title">Suositellut soittolistat</string>
     <string name="playlist_finish">Valmis</string>
@@ -1252,7 +1320,6 @@ Tilisi turvallisuuden parantaminen."</string>
     <string name="plus_mine_gallery">Minun albumit</string>
     <string name="plus_mine_videos">Videoni</string>
     <string name="plus_player_8k_video_not_support">8K-videoita ei voi toistaa tällä laitteella</string>
-    <string name="plus_player_8k_video_not_support_new">%dK videota ei voi toistaa tällä laitteella</string>
     <string name="plus_player_audio_track">Ääniraita</string>
     <string name="plus_player_detail_file_location">"Sijainti: "</string>
     <string name="plus_player_detail_file_name">"Tiedoston nimi: "</string>
@@ -1380,7 +1447,6 @@ Tilisi turvallisuuden parantaminen."</string>
     <string name="read_and_agree">Hyväksy</string>
     <string name="recommend_channels">Suositellut kanavat</string>
     <string name="recommend_online_switch">Online-suositukset</string>
-    <string name="recommend_online_switch_open_time">Tämä ominaisuus otetaan automaattisesti käyttöön kohteessa %s</string>
     <string name="recommend_online_tips">Laita päälle vastaanottaaksesi online-videosuosituksia</string>
     <string name="recommend_page_replay">TOISTA</string>
     <string name="recommend_switch_alert">Voit poistaa tämän osan siirtymällä Mi Video -asetuksiin</string>
@@ -1450,6 +1516,7 @@ Tilisi turvallisuuden parantaminen."</string>
     <string name="sending">Lähetetään…</string>
     <string name="service_error">Palvelinvirhe</string>
     <string name="set_success">Muutettu onnistuneesti</string>
+    <string name="settings_manager_hidden_folder">Hallitse piilotettuja videoita</string>
     <string name="share">Jaa</string>
     <string name="share_fail">Ei voitu jakaa. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
     <string name="share_success">Jaettu onnistuneesti</string>
@@ -1464,6 +1531,10 @@ Tilisi turvallisuuden parantaminen."</string>
     <string name="sign_in_title">Kirjaudu sisään Mi-tililläsi</string>
     <string name="slid_fail_message">Ei voitu tallentaa</string>
     <string name="slide_save_message">Luodaan videota…</string>
+    <string name="small_video_cancel_button">Peruuta</string>
+    <string name="small_video_download_button">Lataa</string>
+    <string name="small_video_snack_download_description">Lataa SnackVideo nähdäksesi uusimmat videot suosikkisisällöntuottajiltasi.</string>
+    <string name="small_video_snack_download_title">SnackVideo</string>
     <string name="sms_send_success">Lähetetty onnistuneesti</string>
     <string name="sns_access_token_expired_warning">Istunto vanhentunut. Yhdistä tili uudelleen kirjautumalla sisään uudelleen.</string>
     <string name="sns_bind_limit">Liian monta yritystä. Kokeile muita kirjautumistapoja.</string>
@@ -1499,7 +1570,6 @@ Tilisi turvallisuuden parantaminen."</string>
     <string name="sure_to_logout">Kirjaudutaanko ulos nyt?</string>
     <string name="switch_ratio_pause">Toistonopeus on epävakaa. Palautetaan oletusnopeus.</string>
     <string name="symbol_rmb">¥</string>
-    <string name="sync_favorites_limit">Suosikkeissasi on yli 500 videota. Joudumme poistamaan joitain aiemmista videoista synkronoinnin jatkamiseksi.</string>
     <string name="sync_favorites_limit_new">Suosikeissasi on yli %d videota. Meidän on poistettava joitain aikaisempia videoita synkronoinnin jatkamiseksi.</string>
     <string name="sync_favorites_message">Synkronoidaanko tämän laitteen suosikit tilillesi? Kohteet, joita ei enää ole saatavana, poistetaan.</string>
     <string name="sync_favorites_title">Synkronoi suosikit</string>
@@ -1512,7 +1582,6 @@ Tilisi turvallisuuden parantaminen."</string>
     <string name="t_lv_check_unhide_file">Valitse esille tuotavat videot</string>
     <string name="t_lv_downloading_new_version">Ladataan päivityksiä…</string>
     <string name="t_lv_no_new_version">Mi Video on ajan tasalla.</string>
-    <string name="t_lv_password_limit">Salasanan pitää sisältää vähintään 4 merkkiä</string>
     <string name="t_lv_password_limit_new">Salasanan tulee olla vähintään %d merkkiä pitkä</string>
     <string name="t_lv_password_null">Salasana ei voi olla tyhjä</string>
     <string name="t_lv_password_wrong">Salasana on virheellinen. Yritä uudelleen.</string>
@@ -1520,7 +1589,6 @@ Tilisi turvallisuuden parantaminen."</string>
     <string name="t_lv_subtitle_padding_default_hint">Tekstityksen säätö…</string>
     <string name="t_network_error">Tapahtui verkkovirhe.</string>
     <string name="t_ovp_check_delete_favor">Valitse kohteet, jotka haluat poistaa</string>
-    <string name="t_password_limit">Salasanan on oltava vähintään 4 merkkiä pitkä</string>
     <string name="t_password_limit_new">Salasanan on oltava vähintään %d merkkiä pitkä</string>
     <string name="t_password_null">Salasana ei voi olla tyhjä</string>
     <string name="t_password_wrong">Antamasi salasana on virheellinen. Yritä uudelleen.</string>
@@ -1529,8 +1597,11 @@ Tilisi turvallisuuden parantaminen."</string>
     <string name="tab_name_local">Paikallinen</string>
     <string name="tab_name_me">Profiili</string>
     <string name="tab_name_moment">Hetket</string>
+    <string name="tab_name_movies">Elokuvat</string>
     <string name="tab_name_trending">Nousussa</string>
     <string name="tab_name_video">Videot</string>
+    <string name="tab_playlist_local">Paikallinen</string>
+    <string name="tab_playlist_online">Online</string>
     <string name="talkback_ad_clicked">Mainos</string>
     <string name="talkback_background_playback">Taustatoisto</string>
     <string name="talkback_voice_search">Äänihaku</string>
@@ -1593,6 +1664,7 @@ Tilisi turvallisuuden parantaminen."</string>
     <string name="tip_enter_the_website">%d. Avaa verkkosivusto tai sovellus</string>
     <string name="tip_local_long_press_for_manager">Pidä painettuna hallitaksesi videoita</string>
     <string name="tip_local_manager_here">Hallitse tiedostojasi täällä</string>
+    <string name="tip_login_for_your_online_playlist">Kirjaudu sisään nähdäksesi soittolistasi.</string>
     <string name="tip_play_a_video">%d. Toista video</string>
     <string name="tip_pop">&lt;com.miui.video.biz.livetv.data.mnc.information.Data>Moments-sisällön tarjoaa Firework. Parantaaksesi katselukokemustasi ja saadaksesi osuvampia sisältösuosituksia anna Fireworkin kerätä, käsitellä ja käyttää henkilökohtaisia tietojasi sen tietosuojakäytännön mukaisesti. Lue ja hyväksy &lt;a href=\"%1$s\">Firework-tietosuojakäytäntö&lt;/a> ennen kuin käytät sen palveluja.&lt;/com.miui.video.biz.livetv.data.mnc.information.Data></string>
     <string name="tip_storage_used_space" formatted="false">Käytetty %.2f Gt/%.2f Gt</string>
@@ -1615,8 +1687,11 @@ Tilisi turvallisuuden parantaminen."</string>
     <string name="toast_bookmark_success_to_add">Kirjanmerkki lisätty</string>
     <string name="toast_bookmark_success_to_delete">Kirjanmerkki poistettu</string>
     <string name="toast_bookmark_url_error">Anna kelvollinen URL-osoite</string>
+    <string name="toast_fail_to_delete">Ei voitu poistaa. Yritä uudelleen.</string>
+    <string name="toast_fail_to_rename">Nimeäminen ei onnistunut. Yritä uudelleen.</string>
     <string name="toast_m3u8_download_path_tip">M3u8-muodossa olevan sisällön latauspolkua ei voi muuttaa</string>
     <string name="toast_no_data">Tämä kohde ei ole nyt saatavana. Tule takaisin myöhemmin.</string>
+    <string name="toast_play_error_tip">Tätä tiedostoa ei voi toistaa</string>
     <string name="toast_request_too_frequently">Ei niin nopeasti!</string>
     <string name="toast_share_failed">Ei voitu jakaa. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="today">Tänään</string>
@@ -1625,7 +1700,6 @@ Tilisi turvallisuuden parantaminen."</string>
     <string name="tool_bar_notification_setting_title">Ilmoitusalueen työkalupalkki</string>
     <string name="top_bar_game_desc">Löydä täältä paljon tuoreita pelejä</string>
     <string name="top_bar_game_title">Pelikanava</string>
-    <string name="trending_scroll_load_more">Saat lisää videoita pyyhkäisemällä ylös</string>
     <string name="tuesday">Tiistai</string>
     <string name="tuesday_short">Ti</string>
     <string name="tuesday_shortest">Ti</string>

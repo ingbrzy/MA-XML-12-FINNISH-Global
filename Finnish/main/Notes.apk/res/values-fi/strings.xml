@@ -496,6 +496,7 @@
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -557,6 +558,7 @@
     <string name="note_sort_way">Järjestä</string>
     <string name="notealert_enter">Avaa muistiinpano</string>
     <string name="notealert_ok">Hylkää</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Muistio on järjestelmäsovellus. Et voi käyttää tätä sovellusta sen poistamisen jälkeen.</string>
     <string name="notes_description_title">Poistetaanko Muistio?</string>
     <string name="notification_content_add_todo_from_other_app">Lisäsit uuden tehtävän. Napauta katsellaksesi.</string>
@@ -946,6 +948,7 @@ Salli Muistiinpanojen äänittää."</string>
     <string name="view_all_notes">Näytä kaikki</string>
     <string name="warn_cannot_add_new_bullet">Uutta luettelomerkittyä luetteloa ei voi lisätä, koska muistiinpano on liian pitkä</string>
     <string name="warn_cannot_add_new_checkbox">Uutta valintaruutua ei voi lisätä, koska muistiinpano on liian pitkä</string>
+    <string name="warn_cannot_add_new_content">Uutta sisältöä ei voi lisätä, koska muistiinpano on liian pitkä</string>
     <string name="warn_cannot_add_new_doodle">Uutta tuherrusta ei voi lisätä, koska muistiinpano on liian pitkä</string>
     <string name="warn_cannot_add_new_element">Uutta kohdetta ei voi lisätä, koska muistiinpano on liian pitkä</string>
     <string name="warn_cannot_add_new_link_card">Uutta linkkiä ei voi lisätä, koska muistiinpano on liian pitkä</string>
@@ -972,6 +975,8 @@ Salli Muistiinpanojen äänittää."</string>
     <string name="widget_size_item_big">Suuri</string>
     <string name="widget_size_item_medium">Keskikokoinen</string>
     <string name="widget_size_item_small">Pieni</string>
+    <string name="widget_size_item_super_big">Erittäin suuri</string>
+    <string name="widget_size_not_support">Tämä laite ei tue erittäin suuria vinjettejä</string>
     <string name="widget_take_notes_title">Muistiinpanot</string>
     <string name="yesterday">Eilen</string>
 </resources>

@@ -141,6 +141,7 @@ Napauta tarkastellaksesi"</string>
     <string name="hint_volume_down">Äänenvoimakkuus alas</string>
     <string name="hint_volume_up">Äänenvoimakkuus ylös</string>
     <string name="home_title_none">Valitse kohteet</string>
+    <string name="invisible_mode_error_tip">Olet inkognito-tilassa. Ääntä ei voi tallentaa.</string>
     <string name="is_checked">Valittu</string>
     <string name="is_go_home">Palaa Näytöntallentimeen</string>
     <string name="is_go_home_summary">Avaa Näytön tallentimen aloitussivu nauhoituksen päättyessä</string>

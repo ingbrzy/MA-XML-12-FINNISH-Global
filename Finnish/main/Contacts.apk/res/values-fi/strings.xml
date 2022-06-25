@@ -48,8 +48,8 @@
     <string name="add_field">Lisää toinen kenttä</string>
     <string name="add_field_toast">Ei enää kenttiä lisättäväksi.</string>
     <string name="add_new_account">Lisää uusi tili</string>
-    <string name="add_xiaomi_account_dialog_btn">Käytä Mi-tiliä</string>
-    <string name="add_xiaomi_account_dialog_msg">Varmuuskopioi yhteystietosi Mi-tilillesi käyttääksesi niitä missä tahansa!</string>
+    <string name="add_xiaomi_account_dialog_btn">Käytä Xiaomi-tiliä</string>
+    <string name="add_xiaomi_account_dialog_msg">Varmuuskopioi yhteystietosi Xiaomi-tilillesi, jotta voit käyttää niitä mistä tahansa!</string>
     <string name="add_xiaomi_account_dialog_title">Valitse tili</string>
     <string name="afternoon">Iltapäivä</string>
     <string name="aggregation_suggestion_edit_dialog_message">Haluatko muokata valittuja yhteystietoja? Antamasi tiedot kopioidaan.</string>
@@ -148,6 +148,7 @@
     <string name="calllog_menu_edit_before_call">Muokkaa</string>
     <string name="calllog_menu_send_sms">Lähetä viesti</string>
     <string name="calllog_record_none_toast">Ei näytettävää puhelutallenteita</string>
+    <string name="calllog_record_searching_toast">Haetaan puhelutallenteita…</string>
     <string name="callrecordview_item_op_time_minutes_seconds">%1$d m %2$d s</string>
     <string name="callrecordview_item_op_time_missed">Ei yhdistynyt</string>
     <string name="callrecordview_item_op_time_only_minutes">%d min</string>
@@ -503,6 +504,7 @@ Syy: \"%s\""</string>
     <string name="friday">Perjantai</string>
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Nimi</string>
     <string name="gallery">Galleria</string>
     <string name="ghostData_company">Yritys</string>
@@ -559,7 +561,7 @@ Syy: \"%s\""</string>
     <string name="import_to_xiaomi_account_confirm">Tuo</string>
     <string name="import_to_xiaomi_account_progress_finish">Yhteystiedot tuotu</string>
     <string name="import_to_xiaomi_account_progress_message">Tuodaan…</string>
-    <string name="import_to_xiaomi_account_title">Tuo Mi-tilille</string>
+    <string name="import_to_xiaomi_account_title">Tuo Xiaomi-tilille</string>
     <string name="import_vcard_dialog_message">Tuodaanko vCard?</string>
     <string name="importing_sim_contacts_miui">Tuodaan yhteystietoja SIM-kortilta…</string>
     <string name="importing_sim_contacts_miui_prepare">Valmistellaan yhteystietoja…</string>
@@ -568,6 +570,11 @@ Syy: \"%s\""</string>
     <string name="importing_vcard_finished_title">Valmis vCard-tuonti %s</string>
     <string name="insertContactDescription">Lisää yhteystieto</string>
     <string name="invalidContactMessage">Yhteystietoa ei ole olemassa</string>
+    <string name="invisible_mode_dialog_cancel">Peruuta</string>
+    <string name="invisible_mode_dialog_to_close">Poista käytöstä</string>
+    <string name="invisible_mode_title">Olet inkognito-tilassa</string>
+    <string name="invisible_mode_unable_connect_camera">Poista inkognito-tila käytöstä, jotta voit käyttää kameraa. Poistetaanko käytöstä nyt?</string>
+    <string name="invisible_mode_unable_get_location">Poista inkognito-tila käytöstä, jotta voit käyttää sijaintipalveluita ja tuoda yhteystietoja muista laitteista Bluetoothin kautta. Poistetaanko käytöstä nyt?</string>
     <string name="item_offical">Virallinen</string>
     <string name="keep_local">Älä synkronoi</string>
     <string name="keep_local_btn">Käytä laitteen sisäistä tallennustilaa</string>
@@ -594,6 +601,9 @@ Syy: \"%s\""</string>
     <string name="low_memory_toast">Tätä toimintoa ei voida käyttää vähäisen muistin takia.</string>
     <string name="lunarBirthdayLabelsGroup">Syntymäpäivä kuukalenterin mukaisesti</string>
     <string name="make_primary">Muista tämä valinta</string>
+    <string name="manage_external_storage_dialog_message">Salli tämän sovelluksen käyttää kaikkia tiedostoja puhelutallenteiden hallintaa varten.</string>
+    <string name="manage_external_storage_dialog_positive">Asetukset</string>
+    <string name="manage_external_storage_dialog_title">Käyttöoikeuksia vaaditaan</string>
     <string name="map_custom">Näytä %s osoite</string>
     <string name="map_home">Näytä kotiosoite</string>
     <string name="map_other">Näytä osoite</string>
@@ -628,6 +638,7 @@ Syy: \"%s\""</string>
     <string name="menu_sync_remove">Poista synkronointiryhmä</string>
     <string name="midnight">Yö</string>
     <string name="miprofile_account_type">Käyntikortit</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Muokkaa profiilia</string>
     <string name="miprofile_name">Minun profiili</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -784,6 +795,7 @@ Napauta %1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="permission_retry_dialog_msg_pad">Voidaksesi käyttää SIM-korttiasi tämän sovelluksen kanssa ja hallita yhteystietojasi salli tämän sovelluksen käyttää ja muokata yhteystietojasi sekä käyttää laitteen tietoja.</string>
     <string name="permission_retry_setting">Asetukset</string>
     <string name="phoneLabelsGroup">Puhelin</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Numero on liian pitkä</string>
     <string name="phone_primary">Ensisijainen</string>
     <string name="photoPickerNotFoundText">Laitteella ei ole kuvia saatavilla.</string>
@@ -817,9 +829,9 @@ Napauta %1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="pref_key_sim_manage">SIM-kortit</string>
     <string name="pref_key_sim_manage1">Aseta SIM-kortti 1</string>
     <string name="pref_key_sim_manage2">Aseta SIM-kortti 2</string>
-    <string name="pref_summary_import_from_account">Tuo yhteystiedot Google- ja Exchange-tileiltä Mi-tilille</string>
+    <string name="pref_summary_import_from_account">Siirrä yhteystiedot Google- ja Exchange-tileiltä Xiaomi-tililleni</string>
     <string name="pref_title_account_import">Tuo yhteystiedot</string>
-    <string name="pref_title_import_from_account">Tuo Mi-tilille</string>
+    <string name="pref_title_import_from_account">Tuo Xiaomi-tilille</string>
     <string name="preference_contacts">Yhteystiedot</string>
     <string name="preference_contacts_filter">Määritä yhteystietoluettelo</string>
     <string name="preference_contacts_more">Järjestä yhteystiedot</string>
@@ -1026,6 +1038,7 @@ Napauta %1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Ei ryhmän jäseniä</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Yritykset</string>
     <string name="smart_group_company_unavailable">Ei yritystietoja</string>
     <string name="smart_group_frequency_1">Viimeisen kuukauden aikana</string>
@@ -1067,6 +1080,7 @@ Napauta %1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="starred_contacts">Suosikit</string>
     <string name="status_available">Paikalla</string>
     <string name="status_away">Poissa</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Varattu</string>
     <string name="strequentList">Suosikit</string>
     <string name="success_message_import_from_account">Yhteystieto tuotu</string>
@@ -1170,6 +1184,7 @@ Napauta %1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="unknown_contact_name">Tuntematon yhteystieto</string>
     <string name="unknown_details_add_to_contact">Nykyinen</string>
     <string name="unknown_details_new_contact">Uusi</string>
+    <string name="unshow_qr_code_in_narrow_screen_split">QR-koodeja ei voi näyttää jaettua näyttöä käytettäessä</string>
     <string name="update_sim_contact_photo_toast">SIM-kortin yhteystietojen profiilikuvia ei voi määrittää</string>
     <string name="upgrade_in_progress">Yhteystietolistaa päivitetään.</string>
     <string name="upgrade_out_of_memory">"Yhteystietoja päivitetään parhaillaan. 

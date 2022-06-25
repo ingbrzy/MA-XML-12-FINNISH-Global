@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Jaa: %s</string>
     <string name="abc_toolbar_collapse_description">Tiivistä</string>
     <string name="about_to_recover">Hetki vain…</string>
+    <string name="access_denied_info">Liian monta yritystä. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="actionbar_button_up_description">Takaisin</string>
     <string name="afternoon">Iltapäivä</string>
     <string name="am">ap.</string>
@@ -364,6 +365,8 @@ Yritä uudelleen"</string>
     <string name="msg_restore_with_metered_network_hint">Jos jatkat näiden kohteiden palauttamista, lataamiseen käytetään mobiilidataa.</string>
     <string name="msg_restore_with_metered_network_pattern">"&lt;font color='red'>&lt;b>%s&lt;/b>&lt;/font> tiedostoista ladataan."</string>
     <string name="network_error">Yhdistä verkkoon</string>
+    <string name="network_error_info">Tapahtui verkkovirhe. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
+    <string name="network_timeout_info">Ei voitu yhdistää verkkoon. Yritä uudelleen.</string>
     <string name="night">Ilta</string>
     <string name="no_account">Et ole kirjautunut Mi-tilille.</string>
     <string name="no_backup">Ei varmuuskopioita kohteessa Xiaomi Cloud.</string>
@@ -374,10 +377,13 @@ Yritä uudelleen"</string>
     <string name="open_backup_switch">Vaihda varmuuskopiokytkin</string>
     <string name="other_device_main_space">Ensimmäinen tila</string>
     <string name="other_device_second_space">Toinen näkymä</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Kohteita ei voi palauttaa työpöytätilassa. Sammuta työpöytätila ja yritä uudelleen.</string>
     <string name="pm">ip.</string>
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
     <string name="process_whole_recovery">Palautetaan \"%s\"</string>
+    <string name="progressbar_title">Tarkastetaan turvallisuusongelmien varalta…</string>
     <string name="provision_back">Takaisin</string>
     <string name="provision_background_restore_more_data">Palauta lisää kohteita taustalla</string>
     <string name="provision_error_connect_msg">Testaa verkko ja yritä uudelleen. Varmuuskopiot eivät ole käytettävissä, kun laite on offline-tilassa.</string>
@@ -457,6 +463,7 @@ Tarkista verkkoasetuksesi ja yritä uudelleen."</string>
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>
     <string name="sunday_shortest">Su</string>
+    <string name="system_error_info">Järjestelmä on varattu. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="the_anniversary_of_lifting_martial_law">Sotalain nostamisen vuosipäivä</string>
     <string name="the_anti_aggression_day">Anti-Aggression Day</string>
     <string name="the_arbor_day">Arbor Day</string>
@@ -514,6 +521,7 @@ Tarkista verkkoasetuksesi ja yritä uudelleen."</string>
     <string name="tuesday">Tiistai</string>
     <string name="tuesday_short">Ti</string>
     <string name="tuesday_shortest">Ti</string>
+    <string name="unknown_error_info">Tuntematon virhe</string>
     <string name="unselected">Ei valittu</string>
     <string name="unsupported_home">Päivitä MIUI uusimpaan versioon.</string>
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>

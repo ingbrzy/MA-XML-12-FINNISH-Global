@@ -235,6 +235,11 @@ Xiaomi Health ilmoittaa sinulle vain tärkeistä kohteista."</string>
     <string name="dialog_sleep_goal_title">Sleep duration goal</string>
     <string name="dialog_sleep_record_auto_start">Seurataksesi unta tarkemmin anna kohteen Xiaomi Health käynnistyä automaattisesti.</string>
     <string name="dialog_sure">OK</string>
+    <string name="dialog_upgrade_description">"1. Uusi design.
+2. Synkronoi tiedot laitteiden välillä.
+3. Tarkastele terveystietoja Terveydestä, Xiaomi Wear ja muista sovelluksista yhdessä paikassa."</string>
+    <string name="dialog_upgrade_positive_btn">Päivitä</string>
+    <string name="dialog_upgrade_title">Mi Fitness</string>
     <string name="dialog_user_agreement_purpose">Tervetuloa kohteeseen Xiaomi Health! Tämän sovelluksen avulla voit laskea askelmia, seurata unta, kuukautisia ja painoa sekä synkronoida tilastojasi pilvessä.</string>
     <string name="dialog_user_agreement_purpose2">Tervetuloa kohteeseen Xiaomi Health! Voit käyttää tätä sovellusta laskeaksesi askeleet, analysoidaksesi nukkumista, seurata kuukautisia, pitää kirjaa painosta ja paljon muuta.</string>
     <string name="disable">Pois käytöstä</string>

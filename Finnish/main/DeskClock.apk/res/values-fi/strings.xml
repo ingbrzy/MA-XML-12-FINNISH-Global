@@ -36,6 +36,7 @@
     <string name="add_alarm">Lisää herätys</string>
     <string name="add_clock">Lisää kello</string>
     <string name="add_common_timer">Lisää ajastin</string>
+    <string name="add_new_sound">Lisää soittoääni</string>
     <string name="add_timer">Tiheysajastin</string>
     <string name="add_timer_dialog_title">Lisää ajastin</string>
     <string name="add_timezone_title">Lisää aikavyöhyke</string>
@@ -64,6 +65,7 @@
     <string name="alarmclock_empty_text">Ei hälytyksiä</string>
     <string name="alarmclock_silent_hint">Hälytys on hiljennetty</string>
     <string name="alert">Soittoääni</string>
+    <string name="alert_page_desc">Paina ja pidä painettuna ja pyyhkäise sitten ylös sammuttaaksesi herätyksen</string>
     <string name="alert_ringtone">Hälytyksen soittoääni</string>
     <string name="alert_vibrate_enable_summary">Värise, kun hälytys soi</string>
     <string name="alert_volume">Soittoäänen voimakkuus</string>
@@ -125,6 +127,7 @@
     <string name="common_timer_selector">Valitse ajastin</string>
     <string name="confirm">Vahvista</string>
     <string name="confirm_abort">Hylkää</string>
+    <string name="confirm_remove_custom_ringtone">Jos poistat tämän soittoäänen, sitä käyttävät hälytykset ja ajastimet toistavat sen sijaan oletussoittoäänen. Poistetaanko nyt?</string>
     <string name="content_desc_keep_screen">\"Pidä näyttö päällä\" painike</string>
     <string name="continue_operation">Jatka</string>
     <string name="continue_step">Seuraava</string>
@@ -132,6 +135,7 @@
     <string name="control_set_alarm_with_existing">Hälytys asetettu: %s</string>
     <string name="copy">Kopioi</string>
     <string name="current_stopwatch_time">Nykyinen ajoitus</string>
+    <string name="custom_ringtone_lost_permissions">Tähän ääneen ei pääse.</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -147,6 +151,7 @@
     <string name="delete_timer_item_title">Poista ajastintoiminto</string>
     <string name="delete_timezone_title">Poista aikavyöhyke</string>
     <string name="deskclock_sleep_no_disturbance">Kello - Hallitse nukkumaanmenoa - Älä häiritse -tila</string>
+    <string name="device_sounds">Laitteen äänet</string>
     <string name="dialog_confirm_abort">Hylkää muutokset?</string>
     <string name="dialog_legal_off_day">&lt;Data>Näyttää siltä, että käytät lomapäivähälytyksiä. Tämä ominaisuus tarvitsee Internet-yhteyden toimiakseen normaalisti. Ennen kuin käytät tätä ominaisuutta, sinun on luettava ja hyväksyttävä meidän &lt;a href=\"%1$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%2$s\">Tietosuojakäytäntö&lt;/a>. Hyväksy?&lt;/Data></string>
     <string name="dialog_legal_off_day_desc">Kello ei saa muodostaa yhteyttä Internettiin päivittääkseen loma-aikatietoja. Lomapäivähälytykset käynnistyvät lauantaina ja sunnuntaina.</string>
@@ -498,6 +503,7 @@
     <string name="shutdown_alarm_enable_summary">Hälytys tulee soimaan, jos se on asetettu vähintään 10 minuuttia laitteesi sammuttamisen jälkeen</string>
     <string name="shutdown_alarm_title">Sammutushälytys</string>
     <string name="silent_alarm_summary">Äänetön</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Sammuta kerran %s</string>
     <string name="sleep_analysis">Tilastot</string>
     <string name="sleep_analysis_chart_date_format">d.M</string>
@@ -543,6 +549,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Ei kierroksia</string>
     <string name="stopwatch_reset_notification">Sekuntikello nollattiin</string>
     <string name="stopwatch_running_notification">Sekuntikello</string>
@@ -551,6 +558,7 @@
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>
     <string name="sunday_shortest">Su</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Salli tämän sovelluksen muodostaa yhteys Internettiin käyttääksesi kaikkia sen ominaisuuksia.</string>
     <string name="system_permission_main_purpose">Ajan tarkastelu, hälytysten ja ajastimien asettaminen, sekuntikellon käyttäminen</string>
     <string name="system_permission_purpose">Arkipäivähälytysten luominen ja mukautettujen soittoäänien asettaminen</string>
@@ -666,6 +674,7 @@
     <string name="tv_blank_list_show_text">Täällä ei vielä mitään. Etsi paikka lisätäksesi se maailmankellosi.</string>
     <string name="tv_world_clock_edit_title1">Aloitusnäytössä näkyvät sijainnit</string>
     <string name="tv_world_clock_edit_title2">Muut tallennetut sijainnit</string>
+    <string name="unknown_ringtone_title">Tuntematon</string>
     <string name="unselect_all">Kumoa kaikkien valinta</string>
     <string name="upcoming_alarm">Tuleva hälytys: %s</string>
     <string name="upcoming_alarm_hint">Voit sammuttaa tämän hälytyksen nyt</string>
@@ -698,6 +707,8 @@
     <string name="week_ringtone_recommend_desc">Luontohälytys toistaa erilaisia ääniä päivämäärästä riippuen. Asetetaanko se oletushälytykseksi?</string>
     <string name="white_noise">Ympäröivä melu</string>
     <string name="white_noise_guide_desc">Lisää taustaääni pysyäksesi keskittyneenä</string>
+    <string name="white_noise_not_selected">Ei valittu</string>
+    <string name="white_noise_selected">Valittu</string>
     <string name="white_noise_selector">Valitse ääni</string>
     <string name="workday_alarm_clock">Työpäivien hälytys</string>
     <string name="worldclock_edit_label">Maailmankello</string>
@@ -721,4 +732,5 @@
     <string name="worldcolock_timezone_local">Sama kuin paikallinen aika</string>
     <string name="xiaoai_ringtone_title">Mi AI -soittoäänet</string>
     <string name="yesterday">Eilen</string>
+    <string name="your_sounds">Omat äänet</string>
 </resources>

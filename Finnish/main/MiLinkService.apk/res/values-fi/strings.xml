@@ -254,6 +254,7 @@ Jos sinun tarvitsee ottaa Miracast käyttöön, paina [MENU]-painiketta ja valit
     <string name="invisible_mode_dialog_title">Olet inkognito-tilassa</string>
     <string name="keyguard_security_setting_privacy_policy">Tietosuojakäytäntö</string>
     <string name="midnight">Yö</string>
+    <string name="miuix_access_state_desc">Valittu</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>

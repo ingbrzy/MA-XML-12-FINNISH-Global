@@ -60,7 +60,7 @@ d.M"</string>
     <string name="aod_mode_summary">Näytä kello, päivämäärä, ilmoitukset ja taustakuvat, kun näyttö on pois päältä</string>
     <string name="aod_mode_time_summary">Ajoita aika kytkeäksesi Aina käytössä -tila päälle ja pois</string>
     <string name="aod_mode_time_title">Aikataulu</string>
-    <string name="aod_mode_title">Aina näytillä</string>
+    <string name="aod_mode_title">Aina näytössä</string>
     <string name="aod_show_date_and_time">Näytä päivä ja aika</string>
     <string name="aod_show_style_title">Näytä kohteet</string>
     <string name="aod_style">Teema</string>
@@ -167,6 +167,7 @@ d.M"</string>
     <string name="midnight">Yö</string>
     <string name="mini_time">Pieni kello</string>
     <string name="minimalist_clock">Yksinkertainen kello</string>
+    <string name="miuix_access_state_desc">Valittu</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
@@ -256,7 +257,7 @@ d.M"</string>
     <string name="saturday">Lauantai</string>
     <string name="saturday_short">La</string>
     <string name="saturday_shortest">La</string>
-    <string name="scheduled_mode_dialog_msg">Kohteet näytetään Aina käytössä -näytöllä tänä aikana: %s.</string>
+    <string name="scheduled_mode_dialog_msg">Kohteet näytetään Aina näytössä -näytöllä tänä aikana: %s.</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Aktiivinen aika: %s</string>
@@ -270,7 +271,7 @@ d.M"</string>
     <string name="select_notification_notify_style">Valitse ilmoitusvaikutus</string>
     <string name="send">Lähetä</string>
     <string name="share">Jaa</string>
-    <string name="share_to_community">Jaa Mi-yhteisölle</string>
+    <string name="share_to_community">Jaa kohteeseen Xiaomi Community</string>
     <string name="show_battery">Näytä akun tila</string>
     <string name="show_battery_status">Näytä akun tila</string>
     <string name="show_lunar">Näytä perinteinen kiinalainen kalenteri</string>
@@ -283,10 +284,11 @@ d.M"</string>
 upeaa tapahtuu"</string>
     <string name="standard_clock_panel">Standardi</string>
     <string name="standard_style">Vakio</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Askellaskelman tarjoaa Xiaomi Health. Hyväksy Xiaomi Health -käyttöehdot jatkaaksesi.</string>
     <string name="step_component_info_desc">Askelmäärä muuttuu palkinnoksi, kun tavoitteesi saavutetaan. Askellaskelman tarjoaa Xiaomi Health.</string>
     <string name="step_component_info_tip">Askellaskelman tarjoaa Xiaomi Health. Asenna tai päivitä Xiaomi Health ja hyväksy sen käyttöehdot jatkaaksesi.</string>
-    <string name="step_to_image_community">Löydä lisää Mi-yhteisöstä</string>
+    <string name="step_to_image_community">Löydä lisää kohteesta Xiaomi Community</string>
     <string name="summary">Virrankulutuksen vähentämiseksi kohteita ei näytetä, kun laite on pitkään pimeässä.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sunnuntai</string>
@@ -338,6 +340,7 @@ upeaa tapahtuu"</string>
     <string name="the_united_nations_day">Yhdistyneiden kansakuntien päivä</string>
     <string name="the_valentines_day">Ystävänpäivä</string>
     <string name="the_water_lantern_festival">Water Lantern Festival</string>
+    <string name="theme_manager_other">Lisää kohteita</string>
     <string name="thursday">Torstai</string>
     <string name="thursday_short">To</string>
     <string name="thursday_shortest">To</string>
@@ -347,7 +350,7 @@ upeaa tapahtuu"</string>
     <string name="time_picker_label_minute">M</string>
     <string name="time_style">Tyyli</string>
     <string name="time_style_layout">Asettelu</string>
-    <string name="tip_to_open_aod_mode">Aina päällä oleva näyttö on pois päältä. Ota nyt käyttöön?</string>
+    <string name="tip_to_open_aod_mode">Aina näytössä on pois päältä. Ota nyt käyttöön?</string>
     <string name="today">Tänään</string>
     <string name="tomorrow">Huomenna</string>
     <string name="tuesday">Tiistai</string>

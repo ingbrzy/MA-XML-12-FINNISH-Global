@@ -697,7 +697,7 @@ Lue ja hyväksy uusi %3$s-versio ennen kuin jatkat."</string>
     <string name="system_app_select">Sisäänrakennetut sovellukset</string>
     <string name="system_error_info">Järjestelmä on varattu. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="tab_title_chat">Ohje</string>
-    <string name="tab_title_my_reports">Omat raportit</string>
+    <string name="tab_title_my_reports">Palautteeni</string>
     <string name="tab_title_preferences">Asetukset</string>
     <string name="tab_title_report">Palaute</string>
     <string name="temporary_not_available">Tämä ominaisuus ei ole saatavilla vielä</string>

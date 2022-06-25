@@ -129,7 +129,7 @@
         <item quantity="one">%1$s kuva</item>
     </plurals>
     <plurals name="toast_burst_snap_finished_summary">
-        <item quantity="other">Sarjakuvaus on valmis, %1$s kuvaa otettu</item>
-        <item quantity="one">Sarjakuvaus on valmis, %1$s kuva otettu</item>
+        <item quantity="other">Sarjaotos on valmis, %1$s kuvaa otettu</item>
+        <item quantity="one">Sarjaotos on valmis, %1$s kuva otettu</item>
     </plurals>
 </resources>

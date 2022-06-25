@@ -120,6 +120,10 @@
         <item quantity="other">%d kohdetta valittu</item>
         <item quantity="one">%d kohde valittu</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d uutta ilmoitusta</item>
+        <item quantity="one">%d uusi ilmoitus</item>
+    </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Sisältösi sisältää kohteita (%1$s), jotka rikkovat yhteisön normeja. Tilisi on jäädytetty %2$d päiväksi %3$s saakka.</item>
         <item quantity="one">Sisältösi sisältää kohteita (%1$s), jotka rikkovat yhteisön normeja. Tilisi on jäädytetty %2$d päiväksi %3$s saakka.</item>

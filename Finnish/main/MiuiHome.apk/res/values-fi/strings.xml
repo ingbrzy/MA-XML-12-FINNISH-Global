@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="Icon_name_classic_mode">Aloitusnäytön asetukset</string>
     <string name="abc_action_bar_home_description">Siirry etusivulle</string>
     <string name="abc_action_bar_up_description">Siirry ylös</string>
     <string name="abc_action_menu_overflow_description">Lisäasetukset</string>
@@ -40,7 +41,9 @@
     <string name="accessibility_recent_task_exit">Viimeaikaiset suljettiin</string>
     <string name="accessibility_recent_task_locked_state">Lukittu</string>
     <string name="accessibility_recent_task_memory_info">RAM yhteensä: %2$s | RAM saatavilla %1$s. Tyhjennä kaksoisnapauttamalla.</string>
+    <string name="accessibility_recent_task_show_menu">Lisää vaihtoehtoja</string>
     <string name="accessibility_recent_task_unlocked_state">Lukitsematon</string>
+    <string name="accessibility_recents_item_dismissed">%1$s tyhjennetty</string>
     <string name="accessibility_recents_item_open_app_info">Näytä sovelluksen %s tiedot.</string>
     <string name="accessibility_splite_screen_primary">Lisätty ensisijaiseksi sovellukseksi jaetulla näytöllä</string>
     <string name="accessibility_splite_screen_secondary">Lisätty toissijaiseksi sovellukseksi jaetulla näytöllä</string>
@@ -50,8 +53,10 @@
     <string name="activity_not_unlocked">Odota ennen sovellusten avaamista, että laite on käynnistynyt uudelleen täysin</string>
     <string name="add_custom_category">Mukautettu</string>
     <string name="add_screen">Lisää näyttö</string>
+    <string name="add_to_workspace">Lisää aloitusnäyttöön</string>
     <string name="added_all_category">Kaikki sovellukset lisätty onnistuneesti</string>
     <string name="afternoon">Iltapäivä</string>
+    <string name="agree_button">Hyväksy</string>
     <string name="alexa_notification_add">Lisää</string>
     <string name="alexa_notification_cancel">Ei nyt</string>
     <string name="alexa_notification_content">Lisätäänkö Alexa-pikakuvake Ohjauskeskukseen?</string>
@@ -90,6 +95,7 @@
     <string name="all_apps_slide_up_tips">Ylös pyyhkäiseminen on varattu Sovelluslaatikon avaamiseen. Vaihda tavalliseen aloitusnäyttötilaan ja yritä uudelleen.</string>
     <string name="all_apps_suggestions">Sovellusehdotukset</string>
     <string name="am">ap.</string>
+    <string name="animation_rate_title">Animaationopeus</string>
     <string name="announce_for_app_move_in_folder">Siirrettiin sijalle %1$d kansiossa</string>
     <string name="announce_for_checked">%1$s, tarkastettu</string>
     <string name="announce_for_choose_default_screen">Ruutu %1$d asetettu oletusaloitusnäytöksi</string>
@@ -142,6 +148,13 @@
     <string name="app_category_tools">Työkalut</string>
     <string name="app_category_travel">Matkustus</string>
     <string name="app_category_vr">VR</string>
+    <string name="app_drawer_double_confirm_description">Tämä muuttaa aloitusnäytön ulkoasun. Voit kumota nämä muutokset myöhemmin kohdassa Asetukset.</string>
+    <string name="app_drawer_double_confirm_title">Huomio</string>
+    <string name="app_drawer_feature_description">Sovelluslaatikko on täydellinen työkalu kaikkien sovellusten järjestämiseen. Luokittele sovellukset automaattisesti ja löydä kaikki tarvitsemasi hetkessä!</string>
+    <string name="app_drawer_guide_description">Löydä etsimäsi suosikkisovelluksistasi</string>
+    <string name="app_drawer_guide_title">Sovelluslaatikko</string>
+    <string name="app_drawer_tip_title">Olemme korvanneet sisältösyötteen Sovelluslaatikolla.</string>
+    <string name="app_install_state">Asennettu</string>
     <string name="app_name">smallWindow</string>
     <string name="application_name">Järjestelmän käynnistysohjelma</string>
     <string name="apply">Aseta</string>
@@ -164,8 +177,35 @@
     <string name="back">Takaisin</string>
     <string name="backup_fail">Käynnistysohjelmaa ei voitu varmuuskopioida</string>
     <string name="bad_wallpaper_source_prompt">Taustakuvaa ei voi ladata</string>
+    <string name="branch_feature_description">Sovellusten lisäksi Pikahaku voi löytää sovelluksen sisäistä sisältöä ja kohteita verkosta.</string>
+    <string name="branch_guide_attention">Parannetun haun käyttäminen edellyttää hakupyyntöjen, Google Ads -tunnuksen ja IP-osoitteen jakamista kohteen Branch Metrics Inc kanssa. Lue ja hyväksy <font color="#B3000000"><a href="http://url1">Loppukäyttäjän löytämisehdot &amp; Ehdot</a></font> ja <font color="#B3000000"><a href="http://url2">Branch Discovery -tietosuojakäytäntö</a></font> ennen tämän ominaisuuden käyttämistä.</string>
+    <string name="branch_guide_description_one">Laitamme kaikki sovelluksesi Sovelluslaatikkoon. Aloitusnäyttö näyttää siistiltä ja järjestetyltä.</string>
+    <string name="branch_guide_description_three">Sisäänrakennetun haun avulla löydät kaiken tarvitsemasi hetkessä!</string>
+    <string name="branch_guide_description_two">Sovelluslaatikko luokittelee sovellukset automaattisesti.</string>
+    <string name="branch_guide_tip_title">Jokainen sovellus omassa paikassaan</string>
+    <string name="branch_guide_title">Tutustu Sovelluslaatikkoon</string>
+    <string name="branch_guide_type_four_desc">Voit palata alkuperäiseen asetteluun kahdessa helpossa vaiheessa</string>
+    <string name="branch_guide_type_four_main">Siirry Asetuksissa kohtaan Aloitusnäyttö > Aloitusnäyttö ja valitse \"Klassinen\".</string>
+    <string name="branch_guide_type_four_step_one">Avaa asetukset</string>
+    <string name="branch_guide_type_four_step_two">Valitse aloitusnäyttö</string>
+    <string name="branch_guide_type_one_desc">Hallitse sovelluksiasi sovelluslaatikon avulla</string>
+    <string name="branch_guide_type_one_main">Pidä sovelluksesi sovelluslaatikossa, jotta aloitusnäytöstäsi tulee siisti ja järjestetty.</string>
+    <string name="branch_new_feature">Uusi ominaisuus</string>
+    <string name="branch_privacy_policy">Tietosuojakäytäntö</string>
+    <string name="branch_search_guide_description">Hakutuloksemme ovat nyt paljon kattavampia</string>
+    <string name="branch_search_guide_privacy">Tämän palvelun tarjoaa Branch Metrics Inc. Sinun sijaintitiedot, hakulausekkeesi ja Google Ads ID jaetaan kohteen Branch kanssa. Lue ja hyväksy kohteen Branch <font color="#B3000000"><a href="http://url1">käyttöehdot</a></font> ja <font color="#B3000000"><a href="http://url2">tietosuojakäytäntö</a></font> ennen tämän palvelun käyttöä.</string>
+    <string name="branch_search_guide_title">Löydä etsimäsi suosikkisovelluksistasi</string>
+    <string name="branch_terms_condition">Käyttöehdot</string>
+    <string name="branch_tip_title">Pikahaun avulla löydät kaiken tarvitsemasi hetkessä.</string>
+    <string name="btn_agree">Hyväksy</string>
+    <string name="btn_cancel">Peruuta</string>
+    <string name="btn_close">Poista käytöstä</string>
+    <string name="btn_open">Ota käyttöön</string>
+    <string name="btn_request_permission">Myönnä käyttöluvat</string>
+    <string name="btn_set_right_now">Myönnä käyttöluvat</string>
     <string name="buffering">Puskuroidaan…</string>
     <string name="cancel_action">Peruuta</string>
+    <string name="cancel_botton">Peruuta</string>
     <string name="cancel_btn_label">Peruuta</string>
     <string name="cant_edit_lock_screen">Lukitusnäytön tyyliä ei voi muokata</string>
     <string name="cant_remove_folder">Kansiota ei voi poistaa</string>
@@ -187,7 +227,10 @@
     <string name="chooser_wallpaper">Valitse uusi taustakuva</string>
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
     <string name="close">Sulje</string>
+    <string name="close_multi_finger_slide_summary">Nämä eleet ohitetaan joissakin tilanteissa (esim. peli- ja video-toistossa)</string>
+    <string name="close_multi_finger_slide_title">Älä vastaa kolmen tai neljän sormen eleisiin</string>
     <string name="cloud_app_restore_title">Odottaa</string>
+    <string name="common_google_play_services_unknown_issue">Sovelluksella %1$s on ongelmia Google Play Palveluiden kanssa. Yritä uudelleen.</string>
     <string name="common_home_search_delete">Hakupalkin poistaminen</string>
     <string name="common_home_search_delete_cancle">Peruuta</string>
     <string name="common_home_search_delete_confirm">Poista</string>
@@ -242,6 +285,7 @@
     <string name="deselect_all">Kumoa kaikkien valinta</string>
     <string name="disable_wallpaper_scroll">Poista sivuttainvieritys käytöstä</string>
     <string name="download_action">Lataa</string>
+    <string name="drag_icon_to_homescreen_guide">Paina ja pidä sovelluksen kuvaketta ja vedä lisätäksesi sen aloitusnäytön pikavalinnaksi</string>
     <string name="drag_multiple_item_name" />
     <string name="drag_single_item_name" />
     <string name="drawer_background">Taustat</string>
@@ -273,9 +317,11 @@
     <string name="emptyplaylist">Lisää kappaleita napauttamalla</string>
     <string name="enable_wallpaper_scroll">Laita kuvan liikkuminen päälle</string>
     <string name="encryption">Salaus</string>
+    <string name="enter_search_setting_title">Avaa haku Sovelluslaatikon avaamisen jälkeen</string>
     <string name="eras_ad">jKr.</string>
     <string name="eras_bc">eKr.</string>
     <string name="evening">Iltapäivä</string>
+    <string name="exit_overview_because_task_stack_changed">Suljettu Viimeaikaiset taustalla tapahtuneiden muutosten vuoksi</string>
     <string name="expand_button_title">Lisäasetukset</string>
     <string name="failed_to_delete_temporary">Ei voi poistaa</string>
     <string name="failed_to_drop">Ei voi siirtää</string>
@@ -333,6 +379,8 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="fold_pair_install_shortcut_long_click">Paina ja pidä painettuna lisätäksesi aloitusnäyttöön</string>
+    <string name="fold_pair_installed_shortcut_launcher">Tämä pikavalinta on jo olemassa</string>
     <string name="folder_name">Kansio</string>
     <string name="frame_load_failed">Raameja ei voi ladata</string>
     <string name="free_style_apps_title">Valitse sovellus</string>
@@ -388,11 +436,14 @@
     <string name="gadget_weather_title_14">Sää</string>
     <string name="gadget_weather_title_24">Sää</string>
     <string name="global_search_hint">Etsi</string>
+    <string name="got_it_botton">Selvä</string>
     <string name="group_folder">Uusi kansio</string>
     <string name="group_live_folders">Kansiot</string>
     <string name="group_shortcuts">Pikavalinnat</string>
     <string name="guide_install_app_msg">Tätä sovellusta ei ole asennettu laitteellesi. Etsi ja asenna sovellus nyt?</string>
     <string name="guide_install_app_title">Etsi ja asenna sovellus?</string>
+    <string name="guide_permission_title">Käyttöoikeuksia vaaditaan</string>
+    <string name="guide_privacy_dialog_title">Käyttöehdot</string>
     <string name="guide_tips_editing_mode">Valitse widgetti painamalla pitkään</string>
     <string name="home_gesture_content_center">Sisältökeskus</string>
     <string name="home_gesture_global_search">Etsi</string>
@@ -423,6 +474,9 @@
     <string name="launcher_slide_up_title">Pyyhkäise ylös aloitusnäytössä</string>
     <string name="launcher_sliding_up_gesture">Avaa haku pyyhkäisemällä ylös aloitusnäytössä</string>
     <string name="launcher_title">Aloitusnäyttö ja viimeaikaiset</string>
+    <string name="layout_guide_description">Jos et pidä Sovelluslaatikosta, voit aina palata perinteiseen aloitusnäyttöön. Käytä yksinkertaisesti \"Aloitusnäytön asetukset\" -pikavalintaa ja vaihda kahden tilan välillä.</string>
+    <string name="layout_guide_tip_title">Voit palata vanhaan tapaan yhdellä napautuksella</string>
+    <string name="layout_guide_title">Kuinka poistaa Sovelluslaatikko</string>
     <string name="like">Lisää suosikkeihin</string>
     <string name="liked">Lisätty suosikkeihin</string>
     <string name="loading_desktop">Hetki vain…</string>
@@ -540,8 +594,12 @@
     <string name="mtzgadget_missing_text">Widgetti ei ole saatavilla</string>
     <string name="multi_selecting_tips">Valitaksesi sovelluksen, raahaa sen kuvaketta ja tiputa tänne.</string>
     <string name="navigation_guide_app_quick_switch_hide_line_summary">Pyyhkäise näytön alareunasta ylöspäin ja pyyhkäise sitten vasemmalle tai oikealle</string>
+    <string name="navigation_guide_app_quick_switch_hide_line_summary_pad">Pyyhkäise vasemmalle tai oikealle näytön alareunassa</string>
     <string name="navigation_guide_app_quick_switch_summary">Pyyhkäise vasemmalle tai oikealle koko näytön osoittimesta tai alareunasta</string>
+    <string name="navigation_guide_app_quick_switch_summary_pad">Pyyhkäise vasemmalle tai oikealle koko näytön osoittimesta tai alareunasta</string>
+    <string name="navigation_guide_app_quick_switch_summary_spec_pad">Pyyhkäise vasemmalle tai oikealle näytön alareunasta</string>
     <string name="navigation_guide_app_quick_switch_title">Vaihda sovellusten välillä</string>
+    <string name="navigation_guide_app_quick_switch_title_spec_with_quotation_pad">Vaihda sovellusten välillä</string>
     <string name="navigation_guide_app_summary">Pyyhkäise näytön yläosassa vasemmasta tai oikeasta reunasta</string>
     <string name="navigation_guide_app_title">Laukaise sovelluksen toiminta</string>
     <string name="navigation_guide_appswitch_anim_summary">Pyyhkäise näytön halki reunasta alkaen siirtyäksesi edelliseen sovellukseen</string>
@@ -550,24 +608,46 @@
     <string name="navigation_guide_appswitch_summary">Pyyhkäise näytön vasemmasta tai oikeasta reunasta ja pidä hetki</string>
     <string name="navigation_guide_appswitch_title">Siirry edelliseen sovellukseen</string>
     <string name="navigation_guide_back_summary">Pyyhkäise näytön vasemmasta tai oikeasta reunasta</string>
+    <string name="navigation_guide_back_summary_pad">Pyyhkäise sivulta näytön keskelle</string>
+    <string name="navigation_guide_back_summary_spec_pad">Pyyhkäise reunalta näytön keskelle</string>
     <string name="navigation_guide_back_title">Mene takaisin</string>
+    <string name="navigation_guide_back_title_spec_with_quotation_pad">Mene takaisin</string>
     <string name="navigation_guide_dialog_dont_show_again">Älä näytä uudelleen</string>
     <string name="navigation_guide_dialog_ok">Opi</string>
     <string name="navigation_guide_dialog_skip">Ei nyt</string>
     <string name="navigation_guide_dialog_summary">Opi, mitä eleitä voit käyttää järjestelmänavigointiin.</string>
     <string name="navigation_guide_dialog_title">Opi eleet</string>
+    <string name="navigation_guide_dock_summary_pad">"Liu'uta ylös näytön alareunasta"</string>
+    <string name="navigation_guide_dock_summary_spec_pad">"Liu'uta ylös näytön alemmasta reunasta"</string>
+    <string name="navigation_guide_dock_title_pad">Näytä sovelluksen telakka</string>
+    <string name="navigation_guide_dock_title_spec_pad">Näytä sovelluksen telakka sovelluksessa</string>
+    <string name="navigation_guide_dock_title_spec_with_quotation_pad">Näytä sovelluksen telakka sovelluksessa</string>
     <string name="navigation_guide_finish_text">Selvä</string>
     <string name="navigation_guide_gesture_line_dialog_summary">Uusi ele sovellusten välillä vaihtamiseen käytetään sen jälkeen, kun piilotat koko näytön osoittimen. Opetellaanko tämä ele nyt?</string>
     <string name="navigation_guide_gesture_line_dialog_title">Opi uusi ele</string>
     <string name="navigation_guide_hide_gesture_line_summary">Älä näytä koko näytön osoitinta, kun käytät koko näytön eleitä</string>
     <string name="navigation_guide_hide_gesture_line_title">Piilota koko näytön osoitin</string>
     <string name="navigation_guide_home_summary">Pyyhkäise ylös näytön alareunasta</string>
+    <string name="navigation_guide_home_summary_spec_pad">Pyyhkäise ylös näytön alemmasta reunasta</string>
     <string name="navigation_guide_home_title">Palaa aloitusnäytölle</string>
+    <string name="navigation_guide_home_title_spec_with_quotation_pad">Siirry aloitusnäytölle</string>
+    <string name="navigation_guide_next_spec_pad">Seuraava</string>
+    <string name="navigation_guide_prev_spec_pad">Takaisin</string>
     <string name="navigation_guide_prohibit_gesture_hint">Koko näytön eleitä ei voi käyttää esittelyitä katsellessa</string>
+    <string name="navigation_guide_provision_see_more_pad">Katso lisää esittelyjä kohdassa Asetukset > Aloitusnäyttö > Koko näytön eleet</string>
     <string name="navigation_guide_provision_see_more_pad_with_virtual_key">Katso lisää esittelyjä kohdassa Asetukset > Aloitusnäyttö > Järjestelmänavigointi</string>
+    <string name="navigation_guide_provision_title_pad">Koko näytön eleet</string>
     <string name="navigation_guide_recent_summary">Pyyhkäise ylös näytön alareunasta ja keskeytä</string>
+    <string name="navigation_guide_recent_summary_pad">Pyyhkäise ylös näytön alareunasta ja keskeytä</string>
+    <string name="navigation_guide_recent_summary_spec_pad">Pyyhkäise näytön alemmasta reunasta ylös, keskeytä ja nosta sormi</string>
     <string name="navigation_guide_recent_title">Avaa Viimeaikaiset</string>
+    <string name="navigation_guide_recent_title_spec_with_quotation_pad">Avaa Viimeaikaiset</string>
     <string name="navigation_guide_settings">Ele-esittely</string>
+    <string name="navigation_position_center">Keskikohta</string>
+    <string name="navigation_position_left">Vasen</string>
+    <string name="navigation_position_right">Oikea</string>
+    <string name="navigation_position_summary">Navigointipainikkeiden mukautettuja paikkoja voidaan käyttää vain aloitusnäytössä</string>
+    <string name="navigation_position_title">Navigointipainikkeiden sijainti</string>
     <string name="navigation_set_miui_home_as_default_dialog_cancel">Peruuta</string>
     <string name="navigation_set_miui_home_as_default_dialog_message">Koko näytön eleitä ei voi käyttää kolmansien osapuolten käynnistysohjelmien kanssa. Vaihdetaanko järjestelmän käynnistysohjelmaan ja otetaanko käyttöön koko näytön eleet?</string>
     <string name="navigation_set_miui_home_as_default_dialog_ok">OK</string>
@@ -576,9 +656,11 @@
     <string name="navigation_type_title">Järjestelmänavigointi</string>
     <string name="navigation_type_virtual_key">Painikkeet</string>
     <string name="network_error">Ei voitu yhdistää verkkoon. Yritä uudelleen.</string>
+    <string name="new_feature_title">Uutta</string>
     <string name="night">Ilta</string>
     <string name="no_detail_page">Ei tietosivua</string>
     <string name="no_space_toast">Tilaa ei ole tarpeeksi</string>
+    <string name="no_space_toast_fold">Täällä ei ole tarpeeksi tilaa</string>
     <string name="no_space_toast_when_click_widget">Ei tarpeeksi tilaa tällä sivulla. Kokeile vetää tämä kohde eri sivulle.</string>
     <string name="noon">Keskipäivä</string>
     <string name="normal_wallpaper">Taustakuva</string>
@@ -599,6 +681,7 @@
     <string name="ota_layout_adjustment_content">Aloitusnäytön ulko- ja sisäasettelut synkronoitiin uudessa versiossa.</string>
     <string name="ota_layout_adjustment_title">Aloitusnäytön ulkoasut</string>
     <string name="out_of_space">Tällä Aloitusnäytöllä ei ole enempää tilaa</string>
+    <string name="pair_icon_name">%1$s | %2$s</string>
     <string name="perfect_icons_switch_summary">Animaatioita kolmannen osapuolen sovelluskuvakkeista</string>
     <string name="perfect_icons_switch_title">Globaalit kuvakeanimaatiot</string>
     <string name="permdesc_install_shortcut">Sallii sovelluksen lisätä pikavalintoja ilman käyttäjän erillistä lupaa.</string>
@@ -618,6 +701,7 @@
     <string name="photo_load_failed">Kuvaa ei voida ladata</string>
     <string name="please_slide_agian">"Liu'uta uudelleen"</string>
     <string name="pm">ip.</string>
+    <string name="popular_search">Suosittua</string>
     <string name="pref_cell_layout_size">Sovelluskuvakkeen ulkoasu</string>
     <string name="pref_enable_drawing_cache_summary">Kytke pois vapauttaaksesi muistia. Tämä saattaa hidastaa suorituskykyä.</string>
     <string name="pref_enable_drawing_cache_title">Piirtämisen välimuisti</string>
@@ -638,6 +722,14 @@
     <string name="privacy_thumbnail_blur_summary">Sumenna sovellusten esikatselut Viimeaikaisissa</string>
     <string name="privacy_thumbnail_blur_title">Blur-sovelluksen esikatselu</string>
     <string name="quick_app">Pikasovellukset</string>
+    <string name="quick_finder_feature_description">Pikahaku antaa sinun löytää sovelluksia, sovelluksen sisäistä sisältöä ja kohteita verkossa nopeammin. Voit poistaa tämän ominaisuuden käytöstä kohdassa Asetukset.</string>
+    <string name="quick_finder_tip_title">Löydä kaikki tarvitsemasi nopeammin</string>
+    <string name="quick_search_all_app_desc">Näytä kaikki sovellukset Sovelluslaatikossa</string>
+    <string name="quick_search_desc">Avaa haku Sovelluslaatikon avaamisen jälkeen</string>
+    <string name="quick_search_guide_all_apps">Kaikki sovellukset</string>
+    <string name="quick_search_guide_ok_btn">OK</string>
+    <string name="quick_search_guide_quick_search">Pikahaku</string>
+    <string name="quick_search_guide_title">Valitse oletustila</string>
     <string name="recent_apps">Viimeaikaiset</string>
     <string name="recent_menu_item_info">Tietoja</string>
     <string name="recent_menu_item_lock">Lukitse</string>
@@ -667,6 +759,7 @@
     <string name="recents_title_security_scan">Turvatarkistus</string>
     <string name="recents_tv_small_window_text">Kelluvat ikkunat</string>
     <string name="recents_worldcirculate_text">Vapauta valitaksesi</string>
+    <string name="recnets_relay_device_info">Laitteelta %s</string>
     <string name="recnets_worldcirculate_button_text">Mi Smart Hub</string>
     <string name="recnets_worldcirculate_display_computer_info">Sovellus toimii laitteessa %s.</string>
     <string name="recnets_worldcirculate_display_default_info">Tuo se takaisin tänne napauttamalla.</string>
@@ -688,6 +781,8 @@
     <string name="remove_invalidate_gadget_tips">Yksi käyttämistäsi widgeteistä ei ole enää saatavilla. Voit lisätä toisen.</string>
     <string name="remove_sys_app_content">Voit lisätä aloitusnäytön pikavalinnan uudelleen kohdassa Asetukset > Sovellukset > Hallitse aloitusnäytön pikavalintoja. Poistetaanko nyt?</string>
     <string name="remove_sys_app_title">Poistetaanko aloitusnäytön pikavalinta?</string>
+    <string name="request_permission_msg">POCO Launcher tarvitsee parin käyttöoikeuden antaakseen sinulle pääsyn kaikkiin sen toimintoihin.</string>
+    <string name="request_permission_title">Käyttöoikeuksia vaaditaan</string>
     <string name="reset_cate_tip_content">Jos jatkat, oletussovellusryhmät palautuvat. Jatketaanko silti?</string>
     <string name="reset_cate_tip_title">Palauta oletusryhmät</string>
     <string name="reset_description_first_time">Voit palauttaa asettelun %1$s 2 tunnin sisällä</string>
@@ -703,6 +798,8 @@
     <string name="screen_cells_config_title">Aloitusnäytön ulkoasu</string>
     <string name="screen_locked_toast">Aloitusnäytön ulkoasu on lukittu.</string>
     <string name="screen_number">%d näyttö</string>
+    <string name="search_bar_hint_content">Hae sovelluksia ja sisältöä</string>
+    <string name="search_guide_btn">Selvä</string>
     <string name="search_in_apps_store">Hae \"%1$s\" kohteessa %2$s</string>
     <string name="search_menu_title">Haku</string>
     <string name="search_no_result">Tuloksia ei löytynyt</string>
@@ -711,6 +808,7 @@
     <string name="select_photo">Kuva</string>
     <string name="send">Lähetä</string>
     <string name="server_error">Tapahtui palvelinvirhe. Odota hetki ja yritä uudelleen.</string>
+    <string name="service_double_attention">Parannetun hakutoiminnon tarjoaa Branch Metrics Inc. Jotta tämä ominaisuus toimisi, meidän on jaettava hakupyynnöt, Google Ads ID ja IP-osoite kohteen Branch Metrics Inc kanssa. Lue ja hyväksy <font color="#B3000000"><a href="http://url1">Loppukäyttäjän löytämisehdot &amp; Ehdot</a></font> ja <font color="#B3000000"><a href="http://url2">Branch Discovery -tietosuojakäytäntö</a></font> ennen tämän ominaisuuden käyttämistä.</string>
     <string name="setting_wallpaper_tip">Säädä nipistämällä tai pyyhkäisemällä</string>
     <string name="settings">Asetukset</string>
     <string name="settings_shortcut">Asetukset</string>
@@ -726,6 +824,7 @@
     <string name="show_most_popular_apps_you_used">Näytä useimmin käytetyt sovellukset laatikossa</string>
     <string name="show_recents_recommend_title">Näytä ehdotukset</string>
     <string name="slide_to_open_newhome">Pyyhkäise ylös avataksesi Sisältökeskuksen</string>
+    <string name="small_window">Kelluva ikkuna</string>
     <string name="small_window_button_complete">Valmis</string>
     <string name="small_window_edit_content">Voit lisätä korkeintaan %d sovellusta</string>
     <string name="small_window_edit_title">Nykyiset sovellukset</string>
@@ -738,6 +837,7 @@
     <string name="sort_by_not_defined">Lajittele automaattisesti</string>
     <string name="start_activity_failed">Käynnistysohjelmaa ei voi käynnistää</string>
     <string name="starting_preset_app">Aloitetaan…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s Gt</string>
     <string name="status_bar_recent_memory_info1">%1$s/%2$s saatavilla</string>
     <string name="status_bar_recent_memory_info2" />
@@ -747,12 +847,14 @@
     <string name="status_installing">Asennetaan</string>
     <string name="status_paused">Keskeytetty</string>
     <string name="status_pending">Odotetaan</string>
+    <string name="suggestions">Ehdotukset</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>
     <string name="sunday_shortest">Su</string>
     <string name="swipe_the_desktop_to_the_left">Pyyhkäise vasemmalle aloitusnäytössä</string>
     <string name="swipe_the_desktop_to_the_right">Pyyhkäise oikealle aloitusnäytössä</string>
+    <string name="switch_on_button">Ota käyttöön</string>
     <string name="switch_personal_assistant_app_vault">Sovellusholvi</string>
     <string name="switch_personal_assistant_google">Google Discover</string>
     <string name="switch_personal_assistant_none">Ei mitään</string>
@@ -763,6 +865,10 @@
     <string name="system_shortcuts_remove">Poista</string>
     <string name="system_text">Automaattinen</string>
     <string name="task_access_locked_app_msg">Sovelluslukko kytkettiin päälle</string>
+    <string name="term_of_service">Käyttöehdot</string>
+    <string name="terms_of_services_one">Tervetuloa Sovelluslaatikkoon ja Pikahakuun. Pikahaku antaa sinun löytää sovelluksia, sovelluksen sisäistä sisältöä ja kohteita verkossa nopeammin. Lue ja hyväksy Xiaomin <font color="#B3000000"><a href="http://url1">Tietosuojakäytäntö</a></font> ennen kuin käytät näitä ominaisuuksia.</string>
+    <string name="terms_of_services_three">Voit poistaa tämän ominaisuuden käytöstä Asetuksista.</string>
+    <string name="terms_of_services_two">Parannetun haun käyttö edellyttää tarvittavien henkilökohtaisten tietojen, mukaan lukien hakukyselysi, Google Advertising tunnuksen ja IP-osoitteen, jakamista kohteen Branch Metrics Inc kanssa. Branch käsittelee henkilötietojasi <font color="#B3000000"><a href="http://url1">Branch Discovery -tietosuojakäytännön</a></font> mukaisesti. Lue ja hyväksy <font color="#B3000000"><a href="http://url2">End User Discovery -käyttöehdot</a></font> ja <font color="#B3000000"><a href="http://url3">Branch Discovery -tietosuojakäytäntö</a></font> ennen kuin käytät tätä ominaisuutta.</string>
     <string name="the_anniversary_of_lifting_martial_law">Sotalain nostamisen vuosipäivä</string>
     <string name="the_anti_aggression_day">Anti-Aggression Day</string>
     <string name="the_arbor_day">Arbor Day</string>
@@ -829,6 +935,11 @@
     <string name="tuesday">Tiistai</string>
     <string name="tuesday_short">Ti</string>
     <string name="tuesday_shortest">Ti</string>
+    <string name="uni_search_permission_content">Ota verkkohakuominaisuudet käyttöön. (Hakupalvelut tarjoaa Branch.)</string>
+    <string name="uni_search_permission_msg">Salli kohteen POCO Launcher päästä sijaintiisi ja yhteystietoihisi parantaakseen hakutuloksia.</string>
+    <string name="uni_search_permission_title">Parannettu haku</string>
+    <string name="uni_search_setting_summary">Etsi sisältöä suoraan sovelluksesta</string>
+    <string name="uni_search_setting_title">Sovelluksen sisäinen kyselytila</string>
     <string name="uninstall">Poista</string>
     <string name="uninstall_dialog_message">Poistaminen hävittää kaikki sovellustiedot.</string>
     <string name="uninstall_dialog_title_format">Poistetaanko %s?</string>
@@ -839,6 +950,7 @@
     <string name="uninstall_xspace_dialog_title_format">Poistetaanko kaksois\"%s\"?</string>
     <string name="unknown_artist_name">Tuntematon artisti</string>
     <string name="unnamed_folder_name">Kansio</string>
+    <string name="upgrade_remove_small_window_in_recents">Voit käyttää sivupalkkia sovellusten avaamiseen kelluvissa ikkunoissa</string>
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
     <string name="v7_preference_on">KÄYTÖSSÄ</string>
     <string name="wallpaper">Taustakuva</string>

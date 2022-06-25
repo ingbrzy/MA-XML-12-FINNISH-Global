@@ -256,6 +256,10 @@ Jos laitat mobiilidatan päälle uudestaan, operaattorisi saattaa veloittaa sinu
         <item quantity="other">Poista %2$d peliä (mukaan lukien %1$s)</item>
         <item quantity="one">Poista %2$d peli (mukaan lukien %1$s)</item>
     </plurals>
+    <plurals name="gb_dialog_record_way_ai_desc">
+        <item quantity="other">Tallenna tärkeimmät hetket automaattisesti ja luo videoita session kohokohdista. Voit tallentaa ne pysyvästi jokaisen pelikerran jälkeen. Tallentamattomat videot poistetaan automaattisesti %1$d päivän kuluttua.</item>
+        <item quantity="one">Tallenna tärkeimmät hetket automaattisesti ja luo videoita session kohokohdista. Voit tallentaa ne pysyvästi jokaisen pelikerran jälkeen. Tallentamattomat videot poistetaan automaattisesti %1$d päivän kuluttua.</item>
+    </plurals>
     <plurals name="gb_game_video_ai_record_finish_tips">
         <item quantity="other">Tallennettu %d AI-nauhoitusta kohteeseen Game Turbo</item>
         <item quantity="one">Tallennettu %d AI-nauhoitus kohteeseen Game Turbo</item>

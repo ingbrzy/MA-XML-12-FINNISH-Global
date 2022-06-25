@@ -166,6 +166,7 @@
     <string name="clipboard_read_allow_once">%1$s käytti kohteita leikepöydällä</string>
     <string name="clipboard_read_deny_dialog_title">Pääsy leikepöydälle rajoitettu kohteelle %1$s</string>
     <string name="close">Sulje</string>
+    <string name="copy">Kopioi</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -177,6 +178,7 @@
     <string name="eras_ad">jKr.</string>
     <string name="eras_bc">eKr.</string>
     <string name="evening">Iltapäivä</string>
+    <string name="expand_button_title">Lisäasetukset</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -323,6 +325,7 @@
     <string name="night">Ilta</string>
     <string name="no">Ei</string>
     <string name="noon">Keskipäivä</string>
+    <string name="not_set">Ei asetettu</string>
     <string name="notification_click_tip">Näytä tiedot napauttamalla</string>
     <string name="ok">OK</string>
     <string name="perm_action_allow">Salli</string>
@@ -366,6 +369,7 @@
     <string name="permission_warning_template_ask">Sallitaanko %1$s:lle seuraavat käyttöoikeudet?</string>
     <string name="permisson_reject_notice_toast_text2">ei ole lupaa %1$s.</string>
     <string name="pm">ip.</string>
+    <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
     <string name="real_location_off">Arvioitu sijainti on käytössä</string>
     <string name="real_location_on">Arvioitu sijainti on pois käytöstä</string>
     <string name="saturday">Lauantai</string>
@@ -390,6 +394,7 @@
     <string name="storage_policy_notify_gallery_title">%1$s ei saa käyttää Galleriaa</string>
     <string name="storage_policy_notify_sociality_title">%1$s ei saa käyttää viestejä sosiaalisen median sovelluksissa</string>
     <string name="storage_policy_notify_title">%1$s ei saa käyttää Galleriaa</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>
     <string name="sunday_shortest">Su</string>
@@ -444,6 +449,8 @@
     <string name="tuesday">Tiistai</string>
     <string name="tuesday_short">Ti</string>
     <string name="tuesday_shortest">Ti</string>
+    <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
+    <string name="v7_preference_on">KÄYTÖSSÄ</string>
     <string name="virtual_reject_notice_content">Sovellukselle lähetettiin tyhjä vastaus henkilökohtaisten tietojen suojaamiseksi</string>
     <string name="virtual_reject_notice_title_calendar">Pääsy kalenteriin sovelluksen %1$s toimesta</string>
     <string name="virtual_reject_notice_title_calllog">Pääsy puheluhistoriaan sovelluksen %1$s toimesta</string>

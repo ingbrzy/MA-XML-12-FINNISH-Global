@@ -37,6 +37,7 @@
     <string name="add_private_files">Lisää tiedostot</string>
     <string name="add_remote">Lisää etälaite</string>
     <string name="agree_all">Olen lukenut ja hyväksynyt kaikki seuraavat käyttöehdot.</string>
+    <string name="agree_privacy_policy">Hyväksy tietosuojakäytäntö</string>
     <string name="all">Kaikki</string>
     <string name="already_latest_version">Nykyinen versio on ajan tasalla.</string>
     <string name="anonymous">Tuntematon</string>
@@ -207,6 +208,7 @@ Paina ja pidä kansiota, napauta \"Enemmän\" lisätäksesi."</string>
     <string name="fcm_fallback_notification_channel_label">Muut</string>
     <string name="feedback_desc">Kuvaile ongelmaa, jonka olet kohdannut</string>
     <string name="feedback_send_email_body_extra_info">Älä poista seuraavia tietoja. Ne auttavat meitä löytämään ongelman.</string>
+    <string name="feeling_ok">Neutraali</string>
     <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Lukukelpoinen:</string>
     <string name="file_info_canwrite">Kirjoitusoikeus:</string>
@@ -232,6 +234,7 @@ Paina ja pidä kansiota, napauta \"Enemmän\" lisätäksesi."</string>
     <string name="ftp_username_hint">Käyttäjänimi</string>
     <string name="gbk_summary">Yksinkertainen kiinalainen Windows-oletuskoodaus</string>
     <string name="gigabyteShort">Gt</string>
+    <string name="great">Erittäin tyytyväinen</string>
     <string name="grid_order">Ruudukkonäkymä</string>
     <string name="homepage_tab_recent">Viimeaikaiset</string>
     <string name="host">Isäntä</string>
@@ -307,6 +310,7 @@ Paina ja pidä kansiota, napauta \"Enemmän\" lisätäksesi."</string>
     <string name="not_connect_user">Ei voida yhdistää: %1$s ja %2$s</string>
     <string name="not_installed_documentsui">DocumentsUI ei ole asennettu</string>
     <string name="not_support_documentui">DocumentUI ei ole tuoettu tässä laitteessa</string>
+    <string name="not_very_dissatisfied">Tyytymätön</string>
     <string name="notif_server_starting">Käynnistetään FTP-palvelinta…</string>
     <string name="notif_title">FTP-palvelin on käynnissä</string>
     <string name="notification_wechat_expired_empty">WeChat on jo poistanut nämä videot.</string>
@@ -439,6 +443,7 @@ Paina ja pidä kansiota, napauta \"Enemmän\" lisätäksesi."</string>
     <string name="s5">Luo kalenteritapahtuma</string>
     <string name="s6">Myönnetäänkö mainokselle oikeus luoda kalenteritapahtuma?</string>
     <string name="s7">Testimainos</string>
+    <string name="satisfied">Tyytyväinen</string>
     <string name="save_seven_day">Poista kerran viikossa</string>
     <string name="scan_code_download_from_play">Skannaa tämä QR-koodi ladataksesi Play Storesta</string>
     <string name="search_description">Etsi kaikki laitteen tiedostot</string>
@@ -494,6 +499,8 @@ Paina ja pidä kansiota, napauta \"Enemmän\" lisätäksesi."</string>
     <string name="storage_usb">USB-muisti</string>
     <string name="storage_warning">Ulkoista tallennustilaa ei voi käyttää</string>
     <string name="str_clean">Puhdista</string>
+    <string name="switch_to_grid_mode">Vaihda ruudukkonäkymään</string>
+    <string name="switch_to_list_mode">Vaihda listanäkymään</string>
     <string name="tab_common_app">Sovellukset &amp; kansiot</string>
     <string name="tab_more">Lisää</string>
     <string name="terabyteShort">Tt</string>
@@ -528,6 +535,7 @@ Paina ja pidä kansiota, napauta \"Enemmän\" lisätäksesi."</string>
     <string name="user_notice_term_of_service">Käyttäjäsopimus</string>
     <string name="utf8_summary">Järjestelmän FTP oletuskoodaus</string>
     <string name="version_name">Versio</string>
+    <string name="very_dissatisfied">Erittäin tyytymätön</string>
     <string name="view_by_document">Näytä Tiedostoissa</string>
     <string name="wechat_video">Video %s</string>
     <string name="whatsapp_cache_garbage">Välimuisti</string>

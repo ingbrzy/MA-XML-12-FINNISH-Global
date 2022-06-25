@@ -204,6 +204,7 @@
     <string name="low_battery_error_for_pad">Akkua on jäljellä alle %s. Pysäytä ja tallenna nauhoitus varmistaaksesi, ettei se katoa.</string>
     <string name="low_battery_error_title">Alhainen akunvaraus</string>
     <string name="lyric_item_point_count">%1$d - %2$d</string>
+    <string name="manage_external_storage">Käytä kaikkia tiedostoja</string>
     <string name="mark_point_list_title">Merkinnät</string>
     <string name="material_clock_toggle_content_description">Valitse AP tai IP</string>
     <string name="material_hour_selection">Valitse tunti</string>
@@ -296,6 +297,7 @@
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -570,6 +572,7 @@ Napauta \"%1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>
     <string name="sunday_shortest">Su</string>
+    <string name="sync_desc_state_complete">Synkronoitu pilven kanssa: %1$s</string>
     <string name="tab_all">Kaikki</string>
     <string name="tab_apps">Sovellukset</string>
     <string name="tab_call">Puhelut</string>

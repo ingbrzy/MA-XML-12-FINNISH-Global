@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="cancel">Peruuta</string>
+    <string name="cancel">Peru</string>
     <string name="copy">Kopioi</string>
     <string name="copyUrl">Kopioi URL-osoite</string>
     <string name="cut">Leikkaa</string>
@@ -9,7 +9,7 @@
     <string name="emptyPhoneNumber">(Ei puhelinnumeroa)</string>
     <string name="httpErrorBadUrl">Sivua ei voitu avata, koska URL-osoite on virheellinen.</string>
     <string name="httpErrorUnsupportedScheme">Protokollaa ei tueta.</string>
-    <string name="no">Peruuta</string>
+    <string name="no">Peru</string>
     <string name="ok">OK</string>
     <string name="paste">Liitä</string>
     <string name="search_go">Haku</string>
@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Huomio</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Tätä videota ei voi suoratoistaa tällä laitteella.</string>
     <string name="selectTextMode">Valitse tekstiä</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Sormenjälkikuvake</string>
     <string name="paste_as_plain_text">Liitä pelkkänä tekstinä</string>
     <string name="autofill">Automaattinen täyttö</string>
@@ -34,7 +35,7 @@
     <string name="CLIRPermanent">Et voi muuttaa soittajan tunnuksen asetusta.</string>
     <string name="CfMmi">Soitonsiirto</string>
     <string name="ClipMmi">Soittajan tunnus</string>
-    <string name="ClirMmi">Soittajan tunnus</string>
+    <string name="ClirMmi">Piilota soittajan tunnus (lähtevät puhelut)</string>
     <string name="CndMmi">Soittajan numeron näyttäminen</string>
     <string name="CnipMmi">Soitettava numero näytetään</string>
     <string name="CnirMmi">Soittajan numeroita rajoitettu</string>
@@ -200,17 +201,18 @@
 Nykyiset ominaisuudet:
 %1$s
 Voit muuttaa valittuja ominaisuuksia kohdassa Asetukset > Esteettömyys."</string>
-    <string name="accessibility_shortcut_multiple_service_warning_title">Laitetaanko esteettömyysominaisuudet päälle?</string>
+    <string name="accessibility_shortcut_multiple_service_warning_title">Laitetaanko esteettömyysominaisuuksien pikavalinta päälle?</string>
     <string name="accessibility_shortcut_off">Älä laita päälle</string>
     <string name="accessibility_shortcut_on">Laita päälle</string>
     <string name="accessibility_shortcut_single_service_warning">"Molempien äänenvoimakkuuspainikkeiden pitkään painaminen laittaa päälle esteettömyysominaisuuden %1$s. Tämä voi muuttaa laitteesi toimintaa.
 
 Voit muuttaa tätä pikanäppäintä kohdassa Asetukset > Esteettömyys."</string>
-    <string name="accessibility_shortcut_single_service_warning_title">Laitetaanko %1$s päälle?</string>
+    <string name="accessibility_shortcut_single_service_warning_title">Laitetaanko pikavalinta (%1$s) päälle?</string>
     <string name="accessibility_shortcut_spoken_feedback">Voit käyttää palvelua %1$s painamalla molempia äänenvoimakkuuspainikkeita kolmen sekunnin ajan</string>
     <string name="accessibility_shortcut_toogle_warning">Kun pikanäppäin on käytössä, voit käynnistää esteettömyystoiminnon pitämällä molempia äänenvoimakkuuspainikkeita painettuna kolmen sekunnin ajan.</string>
     <string name="accessibility_shortcut_warning_dialog_title">Käytetäänkö esteettömyyden pikanäppäintä?</string>
     <string name="accessibility_system_action_back_label">Takaisin</string>
+    <string name="accessibility_system_action_dismiss_notification_shade">Sulje ilmoitusalue</string>
     <string name="accessibility_system_action_hardware_a11y_shortcut_label">Esteettömyyspainike</string>
     <string name="accessibility_system_action_home_label">Aloitusnäyttö</string>
     <string name="accessibility_system_action_lock_screen_label">Lukitusnäyttö</string>
@@ -236,7 +238,7 @@ Voit muuttaa tätä pikanäppäintä kohdassa Asetukset > Esteettömyys."</strin
     <string name="activity_resolver_work_profiles_support">%1$s ei tue työprofiilia</string>
     <string name="activitychooserview_choose_application">Valitse sovellus</string>
     <string name="activitychooserview_choose_application_error">%s ei käynnisty</string>
-    <string name="adb_active_notification_message">Laita USB-vianetsintä pois päältä napauttamalla</string>
+    <string name="adb_active_notification_message">Sulje USB-vianetsintä napauttamalla</string>
     <string name="adb_active_notification_title">USB-vianetsintä on päällä</string>
     <string name="adb_debugging_notification_channel_tv">USB-vianetsintä</string>
     <string name="adbwifi_active_notification_message">Poista langaton virheenkorjaus käytöstä napauttamalla</string>
@@ -277,6 +279,7 @@ Voit muuttaa tätä pikanäppäintä kohdassa Asetukset > Esteettömyys."</strin
     <string name="anr_title" />
     <string name="app_blocked_message">%1$s ei ole nyt käytettävissä.</string>
     <string name="app_blocked_title">Sovellus ei ole käytettävissä</string>
+    <string name="app_category_accessibility">Esteettömyys</string>
     <string name="app_category_audio">Musiikki ja ääni</string>
     <string name="app_category_game">Pelit</string>
     <string name="app_category_image">Kuvat ja kuvat</string>
@@ -343,25 +346,22 @@ Voit muuttaa tätä pikanäppäintä kohdassa Asetukset > Esteettömyys."</strin
     <string name="badPin">Antamasi vanha PIN-koodi on virheellinen.</string>
     <string name="badPuk">Antamasi PUK-koodi on virheellinen.</string>
     <string name="battery_saver_charged_notification_summary">Puhelimessa on tarpeeksi virtaa. Ominaisuuksia ei enää rajoiteta.</string>
-    <string name="battery_saver_description">"Parantaakseen akunkestoa Virransäästö
-
-•·laittaa tumman teeman päälle
-•·laittaa pois päältä tai rajoittaa taustatoimintoja, joitakin visuaalisia tehosteita ja muita ominaisuuksia (esim. Ok Google)."</string>
-    <string name="battery_saver_description_with_learn_more">"Parantaakseen akunkestoa Virransäästö
-
-•·laittaa tumman teeman päälle
-•·laittaa pois päältä tai rajoittaa taustatoimintoja, joitakin visuaalisia tehosteita ja muita ominaisuuksia (esim. Ok Google).
-
-"<annotation id="url">Lue lisää</annotation></string>
+    <string name="battery_saver_description">Virransäästö laittaa tumman teeman päälle ja rajoittaa tai laittaa pois päältä taustatoimintoja, tiettyjä ominaisuuksia sekä joitakin visuaalisia tehosteita ja verkkoyhteyksiä.</string>
+    <string name="battery_saver_description_with_learn_more">Virransäästö laittaa tumman teeman päälle ja rajoittaa tai laittaa pois päältä taustatoimintoja, tiettyjä ominaisuuksia sekä joitakin visuaalisia tehosteita ja verkkoyhteyksiä.</string>
     <string name="battery_saver_notification_channel_name">Virransäästö</string>
     <string name="battery_saver_off_notification_title">Virransäästö laitettiin pois päältä</string>
     <string name="beforeOneMonthDurationPast">Yli kuukausi sitten</string>
+    <string name="biometric_app_setting_name">Käytä biometriikkaa</string>
+    <string name="biometric_dialog_default_subtitle">Jatka käyttämällä biometriikkaa</string>
     <string name="biometric_dialog_default_title">Vahvista henkilöllisyytesi</string>
     <string name="biometric_error_canceled">Todennus peruutettu</string>
     <string name="biometric_error_device_not_secured">PIN-koodia, kuviota tai salasanaa ei ole asetettu</string>
+    <string name="biometric_error_generic">Virhe todennuksessa</string>
     <string name="biometric_error_hw_unavailable">Biometrinen laitteisto ei käytettävissä</string>
     <string name="biometric_error_user_canceled">Todennus peruutettu</string>
     <string name="biometric_not_recognized">Ei tunnistettu</string>
+    <string name="biometric_or_screen_lock_app_setting_name">Käytä biometriikkaa tai näytön lukitusta</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">Jatka biometriikan tai näytön lukituksen avulla</string>
     <string name="bluetooth_a2dp_audio_route_name">Bluetooth-ääni</string>
     <string name="bluetooth_airplane_mode_toast">Bluetooth pysyy päällä myös lentokonetilassa</string>
     <string name="bugreport_message">Toiminto kerää tietoja laitteen tilasta ja lähettää ne sähköpostitse. Virheraportti on valmis lähetettäväksi hetken kuluttua - kiitos kärsivällisyydestäsi.</string>
@@ -373,6 +373,13 @@ Voit muuttaa tätä pikanäppäintä kohdassa Asetukset > Esteettömyys."</strin
     <string name="bugreport_screenshot_success_toast">Kuvakaappaus otettu virheraportin kanssa</string>
     <string name="bugreport_title">Virheraportti</string>
     <string name="byteShort">t</string>
+    <string name="call_notification_answer_action">Vastaa</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Hylkää</string>
+    <string name="call_notification_hang_up_action">Lopeta puhelu</string>
+    <string name="call_notification_incoming_text">Saapuva puhelu</string>
+    <string name="call_notification_ongoing_text">Käynnissä oleva puhelu</string>
+    <string name="call_notification_screening_text">Seulotaan saapuvaa puhelua</string>
     <string name="capability_desc_canCaptureFingerprintGestures">Voi tallentaa laitteen sormenjälkitunnistimelle tehtyjä eleitä.</string>
     <string name="capability_desc_canControlMagnification">Hallinnoi näytön zoomaustasoa ja asettelua.</string>
     <string name="capability_desc_canPerformGestures">Lupa napauttaa, pyyhkäistä, nipistää ja käyttää muita eleitä.</string>
@@ -433,6 +440,7 @@ Voit muuttaa tätä pikanäppäintä kohdassa Asetukset > Esteettömyys."</strin
     <string name="country_selection_title">Alueasetus</string>
     <string name="create_contact_using">"Luo yhteystieto
 käyttäen numeroa %s"</string>
+    <string name="crossSimFormat_spn_cross_sim_calling">%s Puheluiden varavaihtoehto</string>
     <string name="data_saver_description">Data Saver estää joitakin sovelluksia lähettämästä tai vastaanottamasta tietoja taustalla, jotta datan käyttöä voidaan vähentää. Käytössäsi oleva sovellus voi yhä käyttää dataa, mutta se saattaa tehdä niin tavallista harvemmin. Tämä voi tarkoittaa esimerkiksi sitä, että kuva ladataan vasta, kun kosketat sitä.</string>
     <string name="data_saver_enable_button">Ota käyttöön</string>
     <string name="data_saver_enable_title">Otetaanko Data Saver käyttöön?</string>
@@ -487,6 +495,7 @@ käyttäen numeroa %s"</string>
     <string name="dial_number_using">"Valitse numero
  %s"</string>
     <string name="disable_accessibility_shortcut">Poista pikanäppäin käytöstä</string>
+    <string name="dismiss_action">Hylkää</string>
     <string name="display_manager_built_in_display_name">Yhdysrakenteinen näyttö</string>
     <string name="display_manager_hdmi_display_name">HDMI-ruutu</string>
     <string name="display_manager_overlay_display_name">Peittokuva # %1$d</string>
@@ -582,7 +591,7 @@ käyttäen numeroa %s"</string>
     <string name="face_acquired_recalibrate">Rekisteröi kasvot uudelleen.</string>
     <string name="face_acquired_roll_too_extreme">Käännä päätä vähän vähemmän.</string>
     <string name="face_acquired_sensor_dirty">Puhdista näytön yläreuna, mukaan lukien musta palkki</string>
-    <string name="face_acquired_tilt_too_extreme">Käännä päätä vähän vähemmän.</string>
+    <string name="face_acquired_tilt_too_extreme">Kallista päätäsi vähän vähemmän.</string>
     <string name="face_acquired_too_bright">Liian kirkasta. Kokeile pehmeämpää valaistusta.</string>
     <string name="face_acquired_too_close">Siirrä puhelinta kauemmas.</string>
     <string name="face_acquired_too_dark">Liian pimeää. Kokeile kirkkaampaa valaistusta.</string>
@@ -594,25 +603,32 @@ käyttäen numeroa %s"</string>
     <string name="face_acquired_too_much_motion">Laite liikkui liikaa. Pidä puhelin vakaana.</string>
     <string name="face_acquired_too_right">Siirrä puhelinta vasemmalle.</string>
     <string name="face_acquired_too_similar">Liian samanlainen, vaihda asentoa.</string>
+    <string name="face_app_setting_name">Käytä kasvojentunnistusavausta</string>
     <string name="face_authenticated_confirmation_required">Kasvot tunnistettu, valitse Vahvista</string>
     <string name="face_authenticated_no_confirmation_required">Kasvot tunnistettu</string>
+    <string name="face_dialog_default_subtitle">Jatka kasvojesi avulla</string>
     <string name="face_error_canceled">Kasvotoiminto peruutettu</string>
     <string name="face_error_hw_not_available">Kasvoja ei voi vahvistaa. Laitteisto ei käytettäv.</string>
-    <string name="face_error_hw_not_present">Tämä laite ei tue Face Unlockia.</string>
+    <string name="face_error_hw_not_present">Kasvojentunnistusavausta ei tueta tällä laitteella</string>
     <string name="face_error_lockout">Liian monta yritystä. Yritä myöhemmin uudelleen.</string>
-    <string name="face_error_lockout_permanent">Liian monta yritystä. Face Unlock poistettu käytöstä.</string>
+    <string name="face_error_lockout_permanent">Liian monta yritystä. Kasvojentunnistusavaus poistettu käytöstä.</string>
+    <string name="face_error_lockout_screen_lock">Liian monta yritystä. Lisää sen sijaan näytön lukitus.</string>
     <string name="face_error_no_space">Uutta kasvodataa ei voi tallentaa. Poista ensin vanhaa.</string>
-    <string name="face_error_not_enrolled">Et ole määrittänyt Face Unlockia.</string>
+    <string name="face_error_not_enrolled">Et ole ottanut käyttöön kasvojentunnistusavausta</string>
     <string name="face_error_security_update_required">Tunnistin poistettu väliaikaisesti käytöstä.</string>
-    <string name="face_error_timeout">Yritä käyttää Face Unlockia uudelleen.</string>
+    <string name="face_error_timeout">Yritä käyttää kasvojentunnistusavausta uudelleen</string>
     <string name="face_error_unable_to_process">Kasvoja ei voi vahvistaa. Yritä uudelleen.</string>
-    <string name="face_error_user_canceled">Käyttäjä peruutti Face Unlockin.</string>
+    <string name="face_error_user_canceled">Käyttäjä perui kasvojentunnistusavauksen</string>
     <string name="face_icon_content_description">Kasvokuvake</string>
     <string name="face_name_template">Kasvot %d</string>
-    <string name="face_recalibrate_notification_content">Lisää kasvosi uudelleen tunnistamisen parantamiseksi</string>
-    <string name="face_recalibrate_notification_name">Face Unlock</string>
-    <string name="face_recalibrate_notification_title">Lisää kasvot uudelleen</string>
-    <string name="faceunlock_multiple_failures">Face Unlock -yrityksiä tehty suurin sallittu määrä.</string>
+    <string name="face_or_screen_lock_app_setting_name">Käytä kasvojentunnistusavausta tai näytön lukitusta</string>
+    <string name="face_or_screen_lock_dialog_default_subtitle">Jatka kasvojentunnistuksen tai näytön lukituksen avulla</string>
+    <string name="face_recalibrate_notification_content">Poista kasvomalli napauttamalla ja lisää sitten kasvosi uudelleen</string>
+    <string name="face_recalibrate_notification_name">Kasvojentunnistusavaus</string>
+    <string name="face_recalibrate_notification_title">Face Unlockiin liittyvä ongelma</string>
+    <string name="face_setup_notification_content">Avaa puhelimesi lukitus katsomalla laitetta</string>
+    <string name="face_setup_notification_title">Ota kasvojentunnistusavaus käyttöön</string>
+    <string name="faceunlock_multiple_failures">Kasvojentunnistusavauksen yrityksiä tehty suurin sallittu määrä.</string>
     <string name="factory_reset_message">"Hallintasovellusta ei voi käyttää. Laitteen tiedot pyyhitään.
 
 Pyydä ohjeita järjestelmänvalvojaltasi."</string>
@@ -626,28 +642,43 @@ Pyydä ohjeita järjestelmänvalvojaltasi."</string>
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Ominaisuuskoodi valmis.</string>
     <string name="fcError">Yhteysongelma tai virheellinen ominaisuuskoodi.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Etsi</string>
     <string name="find_next">Hae seuraava</string>
     <string name="find_on_page">Etsi sivulta</string>
     <string name="find_previous">Hae edellinen</string>
-    <string name="fingerprint_acquired_imager_dirty">Sormenjälkitunnistin on likainen. Puhdista tunnistin ja yritä uudelleen.</string>
+    <string name="fingerprint_acquired_already_enrolled">Kokeile toista sormenjälkeä</string>
+    <string name="fingerprint_acquired_imager_dirty">Puhdista anturi</string>
+    <string name="fingerprint_acquired_immobile">Liikuta sormeasi hieman joka kerralla</string>
     <string name="fingerprint_acquired_insufficient">Sormenjäljen prosessointi epäonnistui. Yritä uudelleen.</string>
-    <string name="fingerprint_acquired_partial">Sormenjälki havaittiin vain osittain. Yritä uudelleen.</string>
-    <string name="fingerprint_acquired_too_fast">Liikutit sormea liian nopeasti. Yritä uudelleen.</string>
+    <string name="fingerprint_acquired_partial">Osittainen sormenjälki havaittu</string>
+    <string name="fingerprint_acquired_too_bright">Liian kirkas</string>
+    <string name="fingerprint_acquired_too_fast">Jatka vielä hetki</string>
     <string name="fingerprint_acquired_too_slow">Liikutit sormea liian hitaasti. Yritä uudelleen.</string>
+    <string name="fingerprint_acquired_try_adjusting">Kokeile muuttaa asentoa</string>
+    <string name="fingerprint_app_setting_name">Käytä sormenjälkeä</string>
     <string name="fingerprint_authenticated">Sormenjälki tunnistettu</string>
+    <string name="fingerprint_dialog_default_subtitle">Jatka sormenjäljen avulla</string>
+    <string name="fingerprint_error_bad_calibration">Sormenjälkitunnistinta ei voi käyttää. Ota yhteys korjauspalveluun</string>
     <string name="fingerprint_error_canceled">Sormenjälkitoiminto peruutettiin.</string>
     <string name="fingerprint_error_hw_not_available">Sormenjälkilaitteisto ei ole käytettävissä.</string>
     <string name="fingerprint_error_hw_not_present">Laitteessa ei ole sormenjälkitunnistinta.</string>
     <string name="fingerprint_error_lockout">Liian monta yritystä. Yritä myöhemmin uudelleen.</string>
     <string name="fingerprint_error_lockout_permanent">Liian monta yritystä. Sormenjälkitunnistin poistettu käytöstä.</string>
     <string name="fingerprint_error_no_fingerprints">Sormenjälkiä ei ole otettu käyttöön.</string>
-    <string name="fingerprint_error_no_space">Sormenjälkeä ei voida tallentaa. Poista aiemmin lisätty sormenjälki.</string>
+    <string name="fingerprint_error_no_space">Sormenjälkeä ei voi ottaa käyttöön</string>
     <string name="fingerprint_error_security_update_required">Tunnistin poistettu väliaikaisesti käytöstä.</string>
     <string name="fingerprint_error_timeout">Sormenjälkitunnistimen toiminta aikakatkaistiin. Yritä uudelleen.</string>
     <string name="fingerprint_error_unable_to_process">Yritä uudelleen.</string>
     <string name="fingerprint_error_user_canceled">Käyttäjä peruutti sormenjälkitoiminnon.</string>
     <string name="fingerprint_name_template">Sormi %d</string>
+    <string name="fingerprint_or_screen_lock_app_setting_name">Käytä sormenjälkeä tai näytön lukitusta</string>
+    <string name="fingerprint_or_screen_lock_dialog_default_subtitle">Jatka sormenjäljen tai näytön lukituksen avulla</string>
+    <string name="fingerprint_recalibrate_notification_content">Ota yhteys korjauspalveluun.</string>
+    <string name="fingerprint_recalibrate_notification_name">Sormenjälkiavaus</string>
+    <string name="fingerprint_recalibrate_notification_title">Sormenjälkitunnistinta ei voi käyttää</string>
+    <string name="fingerprint_setup_notification_content">Napauta lisätäksesi sormenjälki</string>
+    <string name="fingerprint_setup_notification_title">Ota käyttöön lisää tapoja avata lukitus</string>
     <string name="fingerprints">Tunnistetiedostot:</string>
     <string name="floating_toolbar_close_overflow_description">Sulje ylivuoto</string>
     <string name="floating_toolbar_open_overflow_description">Lisäasetukset</string>
@@ -658,7 +689,14 @@ Pyydä ohjeita järjestelmänvalvojaltasi."</string>
     <string name="foreground_service_tap_for_details">Katso lisätietoja akun ja datan käytöstä napauttamalla.</string>
     <string name="forward_intent_to_owner">Käytät sovellusta muulla kuin työprofiililla</string>
     <string name="forward_intent_to_work">Käytät sovellusta työprofiililla</string>
+    <string name="fp_enrollment_powerbutton_intent_message">"Painoit virtapainiketta ottaessasi sormenjäljen käyttöön.
+
+Tämä saa yleensä näytön sammumaan."</string>
+    <string name="fp_enrollment_powerbutton_intent_negative_button">Peru</string>
+    <string name="fp_enrollment_powerbutton_intent_positive_button">Laita pois päältä</string>
+    <string name="fp_enrollment_powerbutton_intent_title">Sammutetaanko näyttö?</string>
     <string name="gadget_host_error_inflating">Widgetin lisääminen epäonnistui.</string>
+    <string name="geofencing_service">Aluerajauspalvelu</string>
     <string name="gigabyteShort">Gt</string>
     <string name="global_action_assist">Auta</string>
     <string name="global_action_bug_report">Virheraportti</string>
@@ -679,9 +717,8 @@ Pyydä ohjeita järjestelmänvalvojaltasi."</string>
     <string name="global_actions_airplane_mode_off_status">Lentokonetila on POIS KÄYTÖSTÄ</string>
     <string name="global_actions_airplane_mode_on_status">Lentokonetila on KÄYTÖSSÄ</string>
     <string name="global_actions_toggle_airplane_mode">Lentokonetila</string>
-    <string name="gnss_nfw_notification_message_carrier">Operaattori näki sijaintisi viimeaikaisen hätätilanteen aikana</string>
-    <string name="gnss_nfw_notification_message_oem">Laitteesi valmistaja näki sijaintisi viimeaikaisen hätätilanteen aikana</string>
-    <string name="gnss_nfw_notification_title">Hätätilanteen sijainti nähty</string>
+    <string name="gnss_service">GNSS-palvelu</string>
+    <string name="gnss_time_update_service">GNSS-ajanpäivityspalvelu</string>
     <string name="gpsNotifMessage">Pyytänyt %1$s (%2$s)</string>
     <string name="gpsNotifTicker">Sijaintipyyntö käyttäjältä %s</string>
     <string name="gpsNotifTitle">Sijaintipyyntö</string>
@@ -766,7 +803,7 @@ Haluatko varmasti siirtyä pois tältä sivulta?"</string>
     <string name="js_dialog_title">Sivu %s sanoo:</string>
     <string name="js_dialog_title_default">JavaScript</string>
     <string name="keyboardview_keycode_alt">Alt</string>
-    <string name="keyboardview_keycode_cancel">Peruuta</string>
+    <string name="keyboardview_keycode_cancel">Peru</string>
     <string name="keyboardview_keycode_delete">Poista</string>
     <string name="keyboardview_keycode_done">Valmis</string>
     <string name="keyboardview_keycode_enter">Enter</string>
@@ -776,7 +813,7 @@ Haluatko varmasti siirtyä pois tältä sivulta?"</string>
     <string name="keyguard_accessibility_add_widget">Lisää widget.</string>
     <string name="keyguard_accessibility_camera">Kamera</string>
     <string name="keyguard_accessibility_expand_lock_area">Laajenna lukituksen poiston aluetta.</string>
-    <string name="keyguard_accessibility_face_unlock">Face Unlock</string>
+    <string name="keyguard_accessibility_face_unlock">Kasvojentunnistusavaus.</string>
     <string name="keyguard_accessibility_password_unlock">Lukituksen poisto salasanalla.</string>
     <string name="keyguard_accessibility_pattern_area">Kuvioalue.</string>
     <string name="keyguard_accessibility_pattern_unlock">Lukituksen poisto salasanalla.</string>
@@ -833,6 +870,7 @@ Käy osoitteessa "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_reordering_delete_drop_target_text">Poista</string>
     <string name="kg_sim_pin_instructions">Anna SIM-kortin PIN-koodi</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM-kortin lukitusta poistetaan…</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Olet kirjoittanut salasanan väärin %1$d kertaa. 
 
 Yritä uudelleen %2$d sekunnin kuluttua."</string>
@@ -1024,8 +1062,19 @@ Yritä uudelleen %2$d sekunnin kuluttua."</string>
     <string name="mediasize_japanese_jis_exec">JIS Exec (216 mm x 330 mm)</string>
     <string name="mediasize_japanese_kahu">Kahu (240 mm x 322,1 mm)</string>
     <string name="mediasize_japanese_kaku2">Kaku2 (240 mm x 332 mm)</string>
+    <string name="mediasize_japanese_l">L</string>
     <string name="mediasize_japanese_oufuku">Oufuku (148 mm x 200 mm)</string>
     <string name="mediasize_japanese_you4">You4 (105 mm x 235 mm)</string>
+    <string name="mediasize_na_ansi_c">ANSI C</string>
+    <string name="mediasize_na_ansi_d">ANSI D</string>
+    <string name="mediasize_na_ansi_e">ANSI E</string>
+    <string name="mediasize_na_ansi_f">ANSI F</string>
+    <string name="mediasize_na_arch_a">Arch A</string>
+    <string name="mediasize_na_arch_b">Arch B</string>
+    <string name="mediasize_na_arch_c">Arch C</string>
+    <string name="mediasize_na_arch_d">Arch D</string>
+    <string name="mediasize_na_arch_e">Arch E</string>
+    <string name="mediasize_na_arch_e1">Arch E1</string>
     <string name="mediasize_na_foolscap">Foolscap (203 mm x 330 mm)</string>
     <string name="mediasize_na_gvrnmt_letter">Government Letter (203 mm x 267 mm)</string>
     <string name="mediasize_na_index_3x5">Index Card (76 mm x 127 mm)</string>
@@ -1037,6 +1086,7 @@ Yritä uudelleen %2$d sekunnin kuluttua."</string>
     <string name="mediasize_na_letter">Letter (279 mm x 216 mm)</string>
     <string name="mediasize_na_monarch">Monarch (184 mm x 267 mm)</string>
     <string name="mediasize_na_quarto">Quarto (203 mm x 254 mm)</string>
+    <string name="mediasize_na_super_b">Super B</string>
     <string name="mediasize_na_tabloid">Tabloid (279 mm x 432 mm)</string>
     <string name="mediasize_unknown_landscape">Tuntematon vaakakoko</string>
     <string name="mediasize_unknown_portrait">Tuntematon pystykoko</string>
@@ -1070,6 +1120,10 @@ Yritä uudelleen %2$d sekunnin kuluttua."</string>
     <string name="mime_type_spreadsheet_ext">%1$s-laskentataulukko</string>
     <string name="mime_type_video">Video</string>
     <string name="mime_type_video_ext">%1$s-video</string>
+    <string name="miniresolver_open_in_personal">Avataanko %s henkilökohtaisessa profiilissa?</string>
+    <string name="miniresolver_open_in_work">Avataanko %s työprofiilissa?</string>
+    <string name="miniresolver_use_personal_browser">Käytä henkilökohtaista selainta</string>
+    <string name="miniresolver_use_work_browser">Käytä työselainta</string>
     <string name="minute">min</string>
     <string name="minute_picker_description">Minuuttien ympyränmuotoinen liukusäädin</string>
     <string name="minutes">min</string>
@@ -1089,7 +1143,16 @@ Yritä uudelleen %2$d sekunnin kuluttua."</string>
     <string name="mobile_no_internet">Mobiiliverkko ei ole yhteydessä internetiin</string>
     <string name="month_day_year" formatted="false">%-e. %B %Y</string>
     <string name="more_item_label">Lisää</string>
+    <string name="music_recognition_manager_service">Musiikintunnistuksen ylläpitopalvelu</string>
     <string name="muted_by">%1$s mykistää joitakin ääniä</string>
+    <string name="nas_upgrade_notification_content">Parannetut ehdotukset tarjoavat nyt toiminto- ja vastausehdotuksia. Androidin mukautuvia ilmoituksia ei enää tueta.</string>
+    <string name="nas_upgrade_notification_disable_action">Laita pois päältä</string>
+    <string name="nas_upgrade_notification_enable_action">OK</string>
+    <string name="nas_upgrade_notification_learn_more_action">Lue lisää</string>
+    <string name="nas_upgrade_notification_learn_more_content">"Parannetut ilmoitukset korvasivat Androidin mukautuvat ilmoitukset Android 12:ssa. Tämä ominaisuus näyttää toiminto- ja vastausehdotuksia ja järjestää ilmoituksesi.
+
+Parannetuilla ilmoituksilla on pääsy kaikkeen ilmoitussisältöön, myös henkilökohtaisiin tietoihin (esim. kontaktien nimet ja viestit). Ominaisuus voi myös ohittaa ilmoituksia tai vastata niihin, esim. vastata puheluihin ja ohjata Älä häiritse ‑tilaa."</string>
+    <string name="nas_upgrade_notification_title">Parannetut ilmoitukset</string>
     <string name="needPuk">SIM-korttisi on PUK-lukittu. Poista lukitus antamalla PUK-koodi.</string>
     <string name="needPuk2">Pura SIM-kortin esto antamalla PUK2-koodi.</string>
     <string name="negative_duration">−%1$s</string>
@@ -1114,12 +1177,15 @@ Yritä uudelleen %2$d sekunnin kuluttua."</string>
     <string name="no_recent_tasks">Ei viimeaikaisia sovelluksia</string>
     <string name="noon">keskipäivä</string>
     <string name="not_checked">ei valittu</string>
+    <string name="not_selected">ei valittu</string>
     <string name="notification_alerted_content_description">Hälytti</string>
     <string name="notification_app_name_settings">Asetukset</string>
     <string name="notification_app_name_system">Järjestelmä</string>
     <string name="notification_appops_camera_active">Kamera</string>
     <string name="notification_appops_microphone_active">Mikrofoni</string>
     <string name="notification_appops_overlay_active">näkyy näytöllä muiden sovellusten päällä</string>
+    <string name="notification_channel_accessibility_magnification">Suurennus</string>
+    <string name="notification_channel_accessibility_security_policy">Esteetön käyttö</string>
     <string name="notification_channel_account">Tilin tila</string>
     <string name="notification_channel_alerts">Ilmoitukset</string>
     <string name="notification_channel_call_forward">Soitonsiirto</string>
@@ -1138,7 +1204,7 @@ Yritä uudelleen %2$d sekunnin kuluttua."</string>
     <string name="notification_channel_network_status">Verkon tila</string>
     <string name="notification_channel_physical_keyboard">Fyysinen näppäimistö</string>
     <string name="notification_channel_retail_mode">Esittelytila</string>
-    <string name="notification_channel_security">Tietosuoja</string>
+    <string name="notification_channel_security">Turvallisuus</string>
     <string name="notification_channel_sim">SIM-kortin tila</string>
     <string name="notification_channel_sim_high_prio">Tärkeät SIM-ilmoitukset</string>
     <string name="notification_channel_sms">Tekstiviestit</string>
@@ -1149,12 +1215,20 @@ Yritä uudelleen %2$d sekunnin kuluttua."</string>
     <string name="notification_channel_voice_mail">Vastaajaviestit</string>
     <string name="notification_channel_vpn">VPN-tila</string>
     <string name="notification_channel_wfc">Wi-Fi-puhelut</string>
+    <string name="notification_feedback_indicator">Anna palautetta</string>
+    <string name="notification_feedback_indicator_alerted">Järjestelmä valitsi tämän ilmoituksen oletusarvoiseksi. Lähetä palautetta napauttamalla.</string>
+    <string name="notification_feedback_indicator_demoted">Tämän ilmoituksen tasoa laskettiin. Lähetä palautetta napauttamalla.</string>
+    <string name="notification_feedback_indicator_promoted">Tämän ilmoituksen tasoa nostettiin. Lähetä palautetta napauttamalla.</string>
+    <string name="notification_feedback_indicator_silenced">Tämä ilmoitus hiljennettiin. Lähetä palautetta napauttamalla.</string>
     <string name="notification_hidden_text">Uusi ilmoitus</string>
     <string name="notification_history_title_placeholder">Oma sovellusilmoitus</string>
     <string name="notification_listener_binding_label">Ilmoituskuuntelija</string>
+    <string name="notification_messaging_title_template">%1$s: %2$s</string>
+    <string name="notification_phishing_alert_content_description">Varoitus tietojenkalastelusta</string>
     <string name="notification_ranker_binding_label">Ilmoitusten sijoituspalvelu</string>
     <string name="notification_reply_button_accessibility">Vastaa</string>
     <string name="notification_title">Kirjautumisvirhe tilille %1$s</string>
+    <string name="notification_verified_content_description">Vahvistettu</string>
     <string name="notification_work_profile_content_description">Työprofiili</string>
     <string name="now_string_shortest">nyt</string>
     <string name="number_picker_decrement_button">Vähennä</string>
@@ -1164,6 +1238,7 @@ Yritä uudelleen %2$d sekunnin kuluttua."</string>
     <string name="old_app_action">Avaa %1$s uudelleen</string>
     <string name="older">Vanhemmat</string>
     <string name="oneMonthDurationPast">kuukausi sitten</string>
+    <string name="one_handed_mode_feature_name">Yhden käden moodi</string>
     <string name="open_permission_deny">Ei lupaa avata tätä sivua.</string>
     <string name="orgTypeCustom">Muokattu</string>
     <string name="orgTypeOther">Muu</string>
@@ -1179,6 +1254,11 @@ Yritä uudelleen %2$d sekunnin kuluttua."</string>
     <string name="password_keyboard_label_alpha_key">ABC</string>
     <string name="password_keyboard_label_alt_key">ALT</string>
     <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="pasted_content">%1$s on liittänyt kopioimasi sisällön</string>
+    <string name="pasted_from_app">%1$s liitetty täältä: %2$s</string>
+    <string name="pasted_from_clipboard">%1$s liitti leikepöydältäsi</string>
+    <string name="pasted_image">%1$s on liittänyt kopioimasi kuvan</string>
+    <string name="pasted_text">%1$s on liittänyt kopioimasi tekstin</string>
     <string name="peerTtyModeFull">Toinen käyttäjä vaihtoi TTY-tilaksi TÄYSI</string>
     <string name="peerTtyModeHco">Toinen käyttäjä vaihtoi TTY-tilaksi HCO</string>
     <string name="peerTtyModeOff">Toinen käyttäjä vaihtoi TTY-tilaksi POIS PÄÄLTÄ</string>
@@ -1201,6 +1281,7 @@ Yritä uudelleen %2$d sekunnin kuluttua."</string>
     <string name="permdesc_addVoicemail">Antaa sovelluksen lisätä viestejä saapuneisiin vastaajaviesteihin.</string>
     <string name="permdesc_answerPhoneCalls">Sovellus saa luvan vastata saapuvaan puheluun.</string>
     <string name="permdesc_audioWrite">Antaa sovelluksen muokata musiikkikokoelmaasi.</string>
+    <string name="permdesc_backgroundCamera">Tämä sovellus voi ottaa kameralla kuvia ja videoita koska tahansa.</string>
     <string name="permdesc_bindCarrierMessagingService">Antaa sovelluksen sitoutua operaattorin viestipalvelun ylätason liittymään. Ei tavallisten sovellusten käyttöön.</string>
     <string name="permdesc_bindCarrierServices">Antaa sovelluksen luoda sidoksen operaattorin palveluun. Ei tavallisten sovelluksien käyttöön.</string>
     <string name="permdesc_bindCellBroadcastService">Sallii sovelluksen sitoutua solulähetysmoduuliin lähettääkseen solulähetysviestejä edelleen sitä mukaa kun ne saapuvat. Solulähetysilmoitusten avulla ilmoitetaan hätätilanteista joissakin paikoissa. Haitalliset sovellukset voivat häiritä laitteen toimintaa laitteen vastaanottaessa hätätilanteeseen liittyvän solulähetysviestin.</string>
@@ -1211,11 +1292,14 @@ Yritä uudelleen %2$d sekunnin kuluttua."</string>
     <string name="permdesc_bind_incall_service">Antaa sovelluksen määrätä, milloin ja millaisena käyttäjä näkee puhelunäytön.</string>
     <string name="permdesc_bluetooth">Antaa sovelluksen tarkastella puhelimen Bluetooth-asetuksia sekä muodostaa ja hyväksyä laitepariyhteyksiä muihin laitteisiin.</string>
     <string name="permdesc_bluetoothAdmin">Antaa sovelluksen määrittää paikallisen Bluetooth-puhelimen asetukset sekä tunnistaa muita laitteita ja muodostaa niiden kanssa laitepareja.</string>
+    <string name="permdesc_bluetooth_advertise">Sallii sovelluksen mainostaa lähellä oleville Bluetooth-laitteille</string>
+    <string name="permdesc_bluetooth_connect">Sallii sovelluksen muodostaa yhteyden pariliitettyihin Bluetooth-laitteisiin</string>
+    <string name="permdesc_bluetooth_scan">Sallii sovelluksen löytää lähellä olevia Bluetooth-laitteita ja muodostaa niistä laitepareja</string>
     <string name="permdesc_bodySensors">Antaa sovelluksen käyttää kehosi tilaa seuraavien anturien tietoja, esimerkiksi sykettä.</string>
     <string name="permdesc_broadcastSticky">Antaa sovelluksen lähettää pysyviä lähetyksiä, jotka säilyvät lähetyksen päätyttyä. Liiallinen käyttö voi tehdä puhelimesta hitaan tai epävakaan kasvattamalla sen muistinkäyttöä liikaa.</string>
     <string name="permdesc_callCompanionApp">Sovellus voi nähdä laitteella käynnissä olevat puhelut ja päättää niistä. Se näkee esimerkiksi puheluihin liittyvät numerot ja niiden tilat.</string>
     <string name="permdesc_callPhone">Antaa sovelluksen soittaa puhelinnumeroihin kysymättä sinulta. Tämä voi aiheuttaa odottamattomia kuluja tai puheluita. Huomaa, että tämä ei anna sovellukselle lupaa soittaa hätänumeroihin. Haitalliset sovellukset voivat aiheuttaa sinulle kuluja soittamalla puheluita ilman lupaa.</string>
-    <string name="permdesc_camera">Tämä sovellus voi ottaa kameralla kuvia ja videoita koska tahansa.</string>
+    <string name="permdesc_camera">Tämä sovellus voi ottaa kameralla kuvia ja videoita, kun sovellusta käytetään.</string>
     <string name="permdesc_cameraOpenCloseListener">Tämä sovellus voi saada vastakutsuja, kun jokin kameralaite avataan tai suljetaan (jollakin sovelluksella).</string>
     <string name="permdesc_changeNetworkState">Antaa sovelluksen muuttaa verkkoyhteyden tilaa.</string>
     <string name="permdesc_changeTetherState">Antaa sovelluksen muuttaa internetyhteyden jakamisen tilaa.</string>
@@ -1230,17 +1314,19 @@ Yritä uudelleen %2$d sekunnin kuluttua."</string>
     <string name="permdesc_exemptFromAudioRecordRestrictions">Vapauta sovellus äänen tallennusrajoituksista</string>
     <string name="permdesc_expandStatusBar">Antaa sovelluksen laajentaa tai tiivistää tilarivin.</string>
     <string name="permdesc_foregroundService">Sallii sovelluksen käyttää etualan palveluja</string>
+    <string name="permdesc_fullScreenIntent">Sallii sovelluksen näyttää ilmoituksia koko näytön tapahtumina lukitulla laitteella</string>
     <string name="permdesc_getAccounts">Antaa sovelluksen tarkastella puhelimeen tallennettuja tilejä. Näihin voivat kuulua myös asentamiesi sovelluksien luomat tilit.</string>
     <string name="permdesc_getPackageSize">Antaa sovelluksen noutaa sen koodin, tietojen ja välimuistin koot.</string>
     <string name="permdesc_getTasks">Antaa sovelluksen noutaa tietoja käynnissä olevista ja äskettäin suoritetuista tehtävistä. Sovellus voi saada tietoja laitteella käytetyistä sovelluksista.</string>
     <string name="permdesc_handoverStatus">Antaa sovelluksen vastaanottaa tietoja nykyisistä Android Beam -siirroista</string>
+    <string name="permdesc_highSamplingRateSensors">Sallii sovelluksen ottaa anturidatasta näytteitä yli 200 Hz:n taajuudella</string>
     <string name="permdesc_imagesWrite">Antaa sovelluksen muokata kuvakokoelmaasi.</string>
     <string name="permdesc_install_shortcut">Antaa sovelluksen lisätä aloitusruudun pikakuvakkeita ilman käyttäjän toimia.</string>
     <string name="permdesc_invokeCarrierSetup">Antaa luvanhaltijan käynnistää palveluntarjoajan määrityssovelluksen. Ei tavallisten sovelluksien käyttöön.</string>
     <string name="permdesc_killBackgroundProcesses">Antaa sovelluksen sulkea muiden sovelluksien taustaprosesseja. Tämä voi sulkea muita sovelluksia.</string>
-    <string name="permdesc_manageFace">Sallii sovelluksen käyttää menetelmiä, joilla voidaan lisätä tai poistaa kasvomalleja.</string>
     <string name="permdesc_manageFingerprint">Sallii sovelluksen käyttää menetelmiä, joilla voidaan lisätä tai poistaa sormenjälkimalleja.</string>
     <string name="permdesc_manageNetworkPolicy">Sallii sovelluksen hallinnoida verkkokäytäntöjä ja määritellä sovelluskohtaisia sääntöjä.</string>
+    <string name="permdesc_manageOngoingCalls">Sovellus voi nähdä tietoja laitteella käynnissä olevista puheluista ja ohjata näitä puheluita.</string>
     <string name="permdesc_manageOwnCalls">Tämä sallii sovelluksen ohjata puhelut järjestelmän kautta, mikä auttaa parantamaan puhelujen laatua.</string>
     <string name="permdesc_manageProfileAndDeviceOwners">Sallii sovelluksien määrittää laitteen ja profiilien omistajat.</string>
     <string name="permdesc_mediaLocation">Antaa sovelluksen lukea mediakokoelmasi sijainteja.</string>
@@ -1250,6 +1336,7 @@ Yritä uudelleen %2$d sekunnin kuluttua."</string>
     <string name="permdesc_persistentActivity">Antaa sovelluksen lisätä omia osiaan muistiin pysyvästi. Tämä voi rajoittaa muiden sovellusten käytettävissä olevaa muistia ja hidastaa puhelimen toimintaa.</string>
     <string name="permdesc_preferredPaymentInfo">Sallii sovelluksen noutaa tietoja rekisteröidyistä sovellustunnuksista, maksureitin kohteesta ja muita ensisijaisia NFC-maksupalvelutietoja.</string>
     <string name="permdesc_processOutgoingCalls">Sallii sovelluksen nähdä numeron, joka valitaan lähtevää puhelua soitettaessa, ja antaa mahdollisuuden ohjata puhelun eri numeroon tai keskeyttää puhelun kokonaan.</string>
+    <string name="permdesc_queryAllPackages">Antaa sovelluksen nähdä kaikki asennetut paketit.</string>
     <string name="permdesc_readCalendar">Tämä sovellus voi lukea kaikkia puhelimelle tallennettuja kalenteritapahtumia sekä jakaa tai tallentaa kalenteritietoja.</string>
     <string name="permdesc_readCallLog">Tämä sovellus voi lukea puheluhistoriaasi.</string>
     <string name="permdesc_readCellBroadcasts">Antaa sovelluksen lukea laitteesi vastaanottamia tiedotteita. Tiedotteiden avulla ilmoitetaan hätätilanteista joissakin paikoissa. Haitalliset sovellukset voivat häiritä laitteen toimintaa laitteen vastaanottaessa hätätiedotteen.</string>
@@ -1266,7 +1353,8 @@ Yritä uudelleen %2$d sekunnin kuluttua."</string>
     <string name="permdesc_receiveMms">Antaa sovelluksen vastaanottaa ja käsitellä multimediaviestejä. Sovellus voi valvoa tai poistaa laitteeseesi lähetettyjä viestejä näyttämättä niitä sinulle.</string>
     <string name="permdesc_receiveSms">Antaa sovelluksen vastaanottaa ja käsitellä tekstiviestejä. Sovellus voi valvoa tai poistaa laitteeseesi lähetettyjä viestejä näyttämättä niitä sinulle.</string>
     <string name="permdesc_receiveWapPush">Antaa sovelluksen vastaanottaa ja käsitellä WAP-viestejä. Sovellus voi valvoa tai poistaa laitteeseesi lähetettyjä viestejä näyttämättä niitä sinulle.</string>
-    <string name="permdesc_recordAudio">Tämä sovellus voi tallentaa mikrofonilla ääntä koska tahansa.</string>
+    <string name="permdesc_recordAudio">Tämä sovellus voi tallentaa mikrofonilla audiota, kun sovellusta käytetään.</string>
+    <string name="permdesc_recordBackgroundAudio">Tämä sovellus voi tallentaa mikrofonilla audiota koska tahansa.</string>
     <string name="permdesc_register_call_provider">Antaa sovelluksen rekisteröidä uusia tietoliikenneyhteyksiä.</string>
     <string name="permdesc_register_sim_subscription">Antaa sovelluksen rekisteröidä uusia tietoliikenne-SIM-yhteyksiä.</string>
     <string name="permdesc_removeDrmCertificates">Antaa sovelluksen poistaa DRM-varmenteita. Ei tavallisten sovellusten käyttöön.</string>
@@ -1296,9 +1384,9 @@ Yritä uudelleen %2$d sekunnin kuluttua."</string>
     <string name="permdesc_uninstall_shortcut">Antaa sovelluksen poistaa aloitusruudun pikakuvakkeita ilman käyttäjän toimia.</string>
     <string name="permdesc_useBiometric">Sallii sovelluksen käyttää biometristä laitteistoa todennukseen</string>
     <string name="permdesc_useDataInBackground">Tämä sovellus voi käyttää dataa taustalla. Tämä saattaa lisätä datankulutusta.</string>
-    <string name="permdesc_useFaceAuthentication">Sallii sovelluksen käyttää Face Unlock ‑laitteistoa todennukseen</string>
     <string name="permdesc_useFingerprint">Sallii sovelluksen käyttää sormenjälkilaitteistoa todennukseen.</string>
     <string name="permdesc_use_sip">Sallii sovelluksen soittaa ja vastaanottaa SIP-puheluja.</string>
+    <string name="permdesc_uwb_ranging">Sallii sovelluksen määrittää UVB-taajuutta käyttävien laitteiden sijainnin suhteessa toisiinsa</string>
     <string name="permdesc_vibrate">Antaa sovelluksen hallita värinää.</string>
     <string name="permdesc_vibrator_state">Sallii sovelluksen käyttää värinätilaa.</string>
     <string name="permdesc_videoWrite">Antaa sovelluksen muokata videokokoelmaasi.</string>
@@ -1317,6 +1405,7 @@ Yritä uudelleen %2$d sekunnin kuluttua."</string>
     <string name="permgroupdesc_contacts">käyttää yhteystietoja</string>
     <string name="permgroupdesc_location">käyttää laitteen sijaintia</string>
     <string name="permgroupdesc_microphone">tallentaa ääntä</string>
+    <string name="permgroupdesc_nearby_devices">löytää lähellä olevia laitteita ja yhdistää niihin</string>
     <string name="permgroupdesc_phone">soittaa ja hallinnoida puheluita</string>
     <string name="permgroupdesc_sensors">käyttää anturitietoja elintoiminnoistasi</string>
     <string name="permgroupdesc_sms">lähettää ja tarkastella tekstiviestejä</string>
@@ -1328,6 +1417,7 @@ Yritä uudelleen %2$d sekunnin kuluttua."</string>
     <string name="permgrouplab_contacts">Yhteystiedot</string>
     <string name="permgrouplab_location">Sijainti</string>
     <string name="permgrouplab_microphone">Mikrofoni</string>
+    <string name="permgrouplab_nearby_devices">Lähellä olevat laitteet</string>
     <string name="permgrouplab_phone">Puhelin</string>
     <string name="permgrouplab_sensors">Kehon anturit</string>
     <string name="permgrouplab_sms">Tekstiviestit</string>
@@ -1354,6 +1444,7 @@ tilille %s."</string>
     <string name="permlab_addVoicemail">lisää vastaajaviesti</string>
     <string name="permlab_answerPhoneCalls">puheluihin vastaaminen</string>
     <string name="permlab_audioWrite">muokata musiikkikokoelmaasi</string>
+    <string name="permlab_backgroundCamera">ottaa kuvia ja videoita taustalla</string>
     <string name="permlab_bindCarrierMessagingService">Operaattorin viestipalveluun sitoutuminen</string>
     <string name="permlab_bindCarrierServices">Luo sidos operaattorin palveluun</string>
     <string name="permlab_bindCellBroadcastService">Lähetä solulähetysviestit edelleen</string>
@@ -1364,6 +1455,9 @@ tilille %s."</string>
     <string name="permlab_bind_incall_service">Vuorovaikutteinen puhelunäyttö</string>
     <string name="permlab_bluetooth">muodosta laitepari Bluetooth-laitteiden kanssa</string>
     <string name="permlab_bluetoothAdmin">käytä Bluetooth-asetuksia</string>
+    <string name="permlab_bluetooth_advertise">mainostaa lähellä oleville Bluetooth-laitteille</string>
+    <string name="permlab_bluetooth_connect">yhdistää pariliitettyihin Bluetooth-laitteisiin</string>
+    <string name="permlab_bluetooth_scan">löytää Bluetooth-laitteita ja tehdä laitepareja</string>
     <string name="permlab_bodySensors">käyttää kehon antureita (kuten sykemittareita)</string>
     <string name="permlab_broadcastSticky">lähetä tärkeä lähetys</string>
     <string name="permlab_callCompanionApp">nähdä puhelut ja päättää niistä järjestelmässä</string>
@@ -1383,17 +1477,19 @@ tilille %s."</string>
     <string name="permlab_exemptFromAudioRecordRestrictions">saada vapautuksen äänen tallennusrajoituksista</string>
     <string name="permlab_expandStatusBar">laajentaa/tiivistää tilarivin</string>
     <string name="permlab_foregroundService">suorita etualan palvelu</string>
+    <string name="permlab_fullScreenIntent">näyttää ilmoituksia koko näytön tapahtumina lukitulla laitteella</string>
     <string name="permlab_getAccounts">etsi tilejä laitteelta</string>
     <string name="permlab_getPackageSize">sovellusten tallennustilan mittaaminen</string>
     <string name="permlab_getTasks">käynnissä olevien sovellusten noutaminen</string>
     <string name="permlab_handoverStatus">vastaanottaa Android Beam -siirron tilatietoja</string>
+    <string name="permlab_highSamplingRateSensors">saada pääsyn anturidataan suuremmalla näytteenottotaajuudella</string>
     <string name="permlab_imagesWrite">muokata kuvakokoelmaasi</string>
-    <string name="permlab_install_shortcut">asentaa pikakuvakkeita</string>
+    <string name="permlab_install_shortcut">Pikakuvakkeiden asentaminen</string>
     <string name="permlab_invokeCarrierSetup">Palveluntarjoajan määrityssovelluksen käynnistäminen</string>
     <string name="permlab_killBackgroundProcesses">sulje muita sovelluksia</string>
-    <string name="permlab_manageFace">hallinnoida Face Unlock ‑laitteistoa</string>
     <string name="permlab_manageFingerprint">sormenjälkilaitteiston hallinnointi</string>
     <string name="permlab_manageNetworkPolicy">verkkokäytännön hallinnointi</string>
+    <string name="permlab_manageOngoingCalls">Ylläpidä käynnissä olevia puheluita</string>
     <string name="permlab_manageOwnCalls">ohjata puhelut järjestelmän kautta</string>
     <string name="permlab_manageProfileAndDeviceOwners">hallinnoida laitteen ja profiilien omistajia</string>
     <string name="permlab_mediaLocation">lukea mediakokoelmasi sijainteja</string>
@@ -1403,6 +1499,7 @@ tilille %s."</string>
     <string name="permlab_persistentActivity">sovelluksen asettaminen aina käynnissä olevaksi</string>
     <string name="permlab_preferredPaymentInfo">Ensisijaiset NFC-maksupalvelutiedot</string>
     <string name="permlab_processOutgoingCalls">ohjaa uudelleen lähtevät puhelut</string>
+    <string name="permlab_queryAllPackages">kaikkien pakettien näkeminen</string>
     <string name="permlab_readCalendar">Lue kalenterin tapahtumia ja tietoja</string>
     <string name="permlab_readCallLog">lue puhelulokia</string>
     <string name="permlab_readCellBroadcasts">lue tiedotteita</string>
@@ -1420,6 +1517,7 @@ tilille %s."</string>
     <string name="permlab_receiveSms">vastaanota tekstiviestejä (teksti)</string>
     <string name="permlab_receiveWapPush">vastaanota tekstiviestejä (WAP)</string>
     <string name="permlab_recordAudio">tallentaa ääntä</string>
+    <string name="permlab_recordBackgroundAudio">tallentaa audiota taustalla</string>
     <string name="permlab_register_call_provider">rekisteröidä uusia tietoliikenneyhteyksiä</string>
     <string name="permlab_register_sim_subscription">rekisteröidä uusia tietoliikenne-SIM-yhteyksiä</string>
     <string name="permlab_removeDrmCertificates">DRM-varmenteiden poistaminen</string>
@@ -1449,9 +1547,9 @@ tilille %s."</string>
     <string name="permlab_uninstall_shortcut">poista pikakuvakkeita</string>
     <string name="permlab_useBiometric">käytä biometristä laitteistoa</string>
     <string name="permlab_useDataInBackground">käyttää dataa taustalla</string>
-    <string name="permlab_useFaceAuthentication">käyttää Face Unlock ‑laitteistoa</string>
     <string name="permlab_useFingerprint">sormenjälkilaitteiston käyttö</string>
     <string name="permlab_use_sip">soita/vastaanota SIP-puheluja</string>
+    <string name="permlab_uwb_ranging">määrittää UVB:ta käyttävien laitteiden suhteellisen sijainnin</string>
     <string name="permlab_vibrate">hallita värinää</string>
     <string name="permlab_videoWrite">muokata videokokoelmaasi</string>
     <string name="permlab_wakeLock">estä puhelinta menemästä virransäästötilaan</string>
@@ -1547,6 +1645,7 @@ tilille %s."</string>
     <string name="reboot_to_update_title">Android-järjestelmäpäivitys</string>
     <string name="recent_tasks_title">Viimeisimmät</string>
     <string name="redo">Toista</string>
+    <string name="reduce_bright_colors_feature_name">Erittäin himmeä</string>
     <string name="region_picker_section_all">Kaikki alueet</string>
     <string name="relationTypeAssistant">Avustaja</string>
     <string name="relationTypeBrother">Veli</string>
@@ -1567,21 +1666,16 @@ tilille %s."</string>
     <string name="replace">Korvaa...</string>
     <string name="report">Ilmoita</string>
     <string name="reset">Palauta</string>
-    <string name="resolver_cant_access_personal_apps">Tätä ei voi avata henkilökohtaisilla sovelluksilla</string>
-    <string name="resolver_cant_access_personal_apps_explanation">IT-järjestelmänvalvoja ei anna sinun avata tätä sisältöä henkilökohtaisen profiilisi sovelluksilla</string>
-    <string name="resolver_cant_access_work_apps">Tätä ei voi avata työsovelluksilla</string>
-    <string name="resolver_cant_access_work_apps_explanation">IT-järjestelmänvalvoja ei anna sinun avata tätä sisältöä työprofiilisi sovelluksilla</string>
-    <string name="resolver_cant_share_with_personal_apps">Tätä ei voi jakaa henkilökohtaisilla sovelluksilla</string>
-    <string name="resolver_cant_share_with_personal_apps_explanation">IT-järjestelmänvalvoja ei anna sinun jakaa tätä sisältöä henkilökohtaisen profiilisi sovelluksilla</string>
-    <string name="resolver_cant_share_with_work_apps">Tätä ei voi jakaa työsovelluksilla</string>
-    <string name="resolver_cant_share_with_work_apps_explanation">IT-järjestelmänvalvoja ei anna sinun jakaa tätä sisältöä työprofiilisi sovelluksilla</string>
-    <string name="resolver_no_personal_apps_available_resolve">Henkilökohtaisilla sovelluksilla ei voi avata tätä sisältöä</string>
-    <string name="resolver_no_personal_apps_available_share">Henkilökohtaiset sovellukset eivät voi tukea tätä sisältöä</string>
-    <string name="resolver_no_work_apps_available_resolve">Työsovelluksilla ei voi avata tätä sisältöä</string>
-    <string name="resolver_no_work_apps_available_share">Työsovellukset eivät voi tukea tätä sisältöä</string>
+    <string name="resolver_cant_access_personal_apps_explanation">Tätä sisältöä ei voi avata henkilökohtaisilla sovelluksilla</string>
+    <string name="resolver_cant_access_work_apps_explanation">Tätä sisältöä ei voi avata työsovelluksilla</string>
+    <string name="resolver_cant_share_with_personal_apps_explanation">Tätä sisältöä ei voi jakaa henkilökohtaisilla sovelluksilla</string>
+    <string name="resolver_cant_share_with_work_apps_explanation">Tätä sisältöä ei voi jakaa työsovelluksilla</string>
+    <string name="resolver_cross_profile_blocked">IT-järjestelmänvalvojasi estämä</string>
+    <string name="resolver_no_personal_apps_available">Ei henkilökohtaisia sovelluksia</string>
+    <string name="resolver_no_work_apps_available">Ei työsovelluksia</string>
     <string name="resolver_personal_tab">Henkilökohtainen</string>
     <string name="resolver_personal_tab_accessibility">Henkilökohtainen näkymä</string>
-    <string name="resolver_switch_on_work">Laita päälle</string>
+    <string name="resolver_switch_on_work">Laita päälle napauttamalla</string>
     <string name="resolver_turn_on_work_apps">Työprofiilin käyttö on keskeytetty</string>
     <string name="resolver_work_tab">Työ</string>
     <string name="resolver_work_tab_accessibility">Työnäkymä</string>
@@ -1595,7 +1689,7 @@ tilille %s."</string>
     <string name="restr_pin_error_too_short">PIN-koodi on liian lyhyt. Vähimmäispituus on neljä merkkiä.</string>
     <string name="restr_pin_incorrect">Virheellinen</string>
     <string name="restr_pin_try_later">Yritä myöhemmin uudelleen</string>
-    <string name="revoke">Peruuta</string>
+    <string name="revoke">Peru</string>
     <string name="ringtone_default">Oletussoittoääni</string>
     <string name="ringtone_default_with_actual">Oletus (%1$s)</string>
     <string name="ringtone_picker_title">Soittoäänet</string>
@@ -1630,6 +1724,8 @@ Pitkäkestoinen kova äänenvoimakkuus saattaa heikentää kuuloa."</string>
     <string name="screen_compat_mode_scale">Asteikko</string>
     <string name="screen_compat_mode_show">Näytä aina</string>
     <string name="screen_lock">Näytön lukitus</string>
+    <string name="screen_lock_app_setting_name">Käytä näytön lukitusta</string>
+    <string name="screen_lock_dialog_default_subtitle">Jatka lisäämällä näytön lukituksen avaustapa</string>
     <string name="screenshot_edit">Muokkaa</string>
     <string name="search_hint">Haku…</string>
     <string name="search_language_hint">Anna kielen nimi</string>
@@ -1648,9 +1744,15 @@ Pitkäkestoinen kova äänenvoimakkuus saattaa heikentää kuuloa."</string>
     <string name="select_keyboard_layout_notification_title">Määritä fyysinen näppäimistö</string>
     <string name="select_minutes">Valitse minuutit</string>
     <string name="select_year">Valitse vuosi</string>
+    <string name="selected">valittu</string>
     <string name="sendText">Valitse tekstille toiminto</string>
     <string name="sending">Lähetetään…</string>
     <string name="sensor_notification_service">Anturin ilmoituspalvelu</string>
+    <string name="sensor_privacy_notification_channel_label">Anturin tietosuoja</string>
+    <string name="sensor_privacy_start_use_camera_notification_content_title">Kumoa laitteen kameran esto</string>
+    <string name="sensor_privacy_start_use_dialog_turn_on_button">Kumoa esto</string>
+    <string name="sensor_privacy_start_use_mic_notification_content_title">Kumoa laitteen mikrofonin esto</string>
+    <string name="sensor_privacy_start_use_notification_content_text">&lt;b>%s&lt;/b> sekä kaikki sovellukset ja palvelut</string>
     <string name="serial_number">Sarjanumero</string>
     <string name="serviceClassData">Tiedot</string>
     <string name="serviceClassDataAsync">Asynkroniset tiedot</string>
@@ -1710,7 +1812,7 @@ Pitkäkestoinen kova äänenvoimakkuus saattaa heikentää kuuloa."</string>
     <string name="sms_premium_short_code_details"><b>Tämä aiheuttaa kuluja matkapuhelinliittymälaskuusi.</b></string>
     <string name="sms_short_code_confirm_allow">Lähetä</string>
     <string name="sms_short_code_confirm_always_allow">Salli aina</string>
-    <string name="sms_short_code_confirm_deny">Peruuta</string>
+    <string name="sms_short_code_confirm_deny">Peru</string>
     <string name="sms_short_code_confirm_message">&lt;b>%1$s&lt;/b> haluaa lähettää viestin osoitteeseen &lt;b>%2$s&lt;/b>.</string>
     <string name="sms_short_code_confirm_never_allow">Älä koskaan salli</string>
     <string name="sms_short_code_details">Tämä <b>voi aiheuttaa kuluja</b> matkapuhelinliittymälaskuusi.</string>
@@ -1718,6 +1820,8 @@ Pitkäkestoinen kova äänenvoimakkuus saattaa heikentää kuuloa."</string>
     <string name="sms_short_code_remember_undo_instruction">Muuta kohd. Asetukset > Sovellukset</string>
     <string name="smv_application">Sovellus %1$s (prosessi %2$s) on rikkonut itse käyttöön ottamaansa StrictMode-käytäntöä.</string>
     <string name="smv_process">Prosessi %1$s on rikkonut itse käyttöön ottamaansa StrictMode-käytäntöä.</string>
+    <string name="splash_screen_view_branding_description">Sovelluksen tuotemerkkikuva</string>
+    <string name="splash_screen_view_icon_description">Sovelluskuvake</string>
     <string name="ssl_ca_cert_noti_by_administrator">Valvoja: työprofiilin järjestelmänvalvoja</string>
     <string name="ssl_ca_cert_noti_by_unknown">Valvoja on tuntematon kolmas osapuoli.</string>
     <string name="ssl_ca_cert_noti_managed">Valvoja on %s.</string>
@@ -1776,9 +1880,12 @@ Pitkäkestoinen kova äänenvoimakkuus saattaa heikentää kuuloa."</string>
     <string name="toolbar_collapse_description">Kutista</string>
     <string name="tooltip_popup_title">Työkaluvinkki</string>
     <string name="turn_off_radio">Poista langaton yhteys käytöstä</string>
+    <string name="turn_on_magnification_settings_action">Laita päälle asetuksista</string>
     <string name="turn_on_radio">Ota langaton yhteys käyttöön</string>
     <string name="tutorial_double_tap_to_zoom_message_short">Hallitse zoomausta napauttamalla kahdesti</string>
     <string name="twilight_service">Twilight-palvelu</string>
+    <string name="ui_translation_accessibility_translated_text">%1$s käännettiin.</string>
+    <string name="ui_translation_accessibility_translation_finished">Viesti käännettiin kielestä %1$s kielelle %2$s.</string>
     <string name="undo">Kumoa</string>
     <string name="unpin_specific_target">Irrota %1$s</string>
     <string name="unpin_target">Irrota</string>
@@ -1790,7 +1897,7 @@ Pitkäkestoinen kova äänenvoimakkuus saattaa heikentää kuuloa."</string>
     <string name="unsupported_display_size_show">Näytä aina</string>
     <string name="upload_file">Valitse tiedosto</string>
     <string name="usb_accessory_notification_title">USB-lisälaite yhdistetty</string>
-    <string name="usb_charging_notification_title">Laitetta ladataan USB-yhteyden kautta</string>
+    <string name="usb_charging_notification_title">Laite lataa USB-yhteydellä</string>
     <string name="usb_contaminant_detected_message">USB-portti poistetaan käytöstä automaattisesti. Napauta nähdäksesi lisätietoja.</string>
     <string name="usb_contaminant_detected_title">Nestettä tai likaa USB-portissa</string>
     <string name="usb_contaminant_not_detected_message">Puhelin ei enää havaitse nesteitä eikä likaa.</string>
@@ -1818,6 +1925,8 @@ Pitkäkestoinen kova äänenvoimakkuus saattaa heikentää kuuloa."</string>
     <string name="user_switched">Nykyinen käyttäjä: %1$s.</string>
     <string name="user_switching_message">Vaihdetaan käyttäjään %1$s…</string>
     <string name="validity_period">Voimassa:</string>
+    <string name="view_and_control_notification_content">%s voi nähdä ja ohjata näyttöäsi. Tarkista napauttamalla.</string>
+    <string name="view_and_control_notification_title">Tarkista pääsyasetukset</string>
     <string name="volume_alarm">Hälytyksien äänenvoimakkuus</string>
     <string name="volume_bluetooth_call">Bluetooth-yhdistetty puhelun äänenvoimakkuus</string>
     <string name="volume_call">Puhelun äänenvoimakkuus</string>
@@ -1897,9 +2006,11 @@ Haluatko sulkea sen?"</string>
     <string name="wifi_calling_off_summary">Ei päällä</string>
     <string name="wifi_no_internet">%1$s ei ole yhteydessä internetiin</string>
     <string name="wifi_no_internet_detailed">Näytä vaihtoehdot napauttamalla.</string>
+    <string name="window_magnification_prompt_content">Voit nyt suurentaa näytön osan</string>
+    <string name="window_magnification_prompt_title">Uudet suurennusasetukset</string>
     <string name="wireless_display_route_description">Langaton näyttö</string>
-    <string name="work_mode_off_message">Työsovellukset, ‑ilmoitukset, ‑tiedot ja muut työprofiiliominaisuudet otetaan käyttöön</string>
-    <string name="work_mode_off_title">Otetaanko työprofiili käyttöön?</string>
+    <string name="work_mode_off_message">Palauta työsovellukset ja ilmoitukset käyttöön</string>
+    <string name="work_mode_off_title">Käytetäänkö työsovelluksia?</string>
     <string name="work_mode_turn_on">Ota käyttöön</string>
     <string name="work_profile_deleted">Työprofiili poistettiin</string>
     <string name="work_profile_deleted_description_dpm_wipe">Työprofiilisi ei ole enää käytettävissä tällä laitteella.</string>
@@ -1918,7 +2029,9 @@ Haluatko sulkea sen?"</string>
     <string name="zen_mode_feature_name">Älä häiritse</string>
     <string name="zen_mode_forever">Kunnes laitat pois päältä</string>
     <string name="zen_mode_forever_dnd">Kunnes poistat Varattu-tilan käytöstä.</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">Kunnes kello on %1$s</string>
+    <string name="zen_mode_until_next_day">%1$s asti</string>
     <string name="zen_upgrade_notification_content">Napauta niin näet, mitä on estetty.</string>
     <string name="zen_upgrade_notification_title">Älä häiritse ‑tila muuttui</string>
     <string name="zen_upgrade_notification_visd_content">Napauta, jos haluat lukea lisää ja tehdä muutoksia.</string>

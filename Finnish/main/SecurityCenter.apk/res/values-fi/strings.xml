@@ -919,6 +919,7 @@ Et menetä mitään sovellustietoja."</string>
     <string name="card_main_private_space_summary">Toisen tilan käyttäminen on, kuin olisi kaksi laitetta</string>
     <string name="card_main_private_space_title">Toinen näkymä</string>
     <string name="card_main_sectool_title">Työkalut</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">Luo</string>
     <string name="card_main_xspace_summary">Käytä kahta tiliä millä tahansa sovelluksella</string>
     <string name="card_main_xspace_title">Kaksoissovellukset</string>
@@ -971,6 +972,8 @@ Et menetä mitään sovellustietoja."</string>
     <string name="cmcc_app_check_dialog_negative">Myöhemmin</string>
     <string name="cmcc_app_check_dialog_positive">Käynnistä uudelleen nyt</string>
     <string name="cmcc_app_check_dialog_title">Järjestelmä korjattu</string>
+    <string name="columbus_ad_flag_text">MAINOS</string>
+    <string name="columbus_skip_ad">Ohita</string>
     <string name="common_google_play_services_unknown_issue">Sovelluksella %1$s on ongelmia Google Play Palveluiden kanssa. Yritä uudelleen.</string>
     <string name="confirmSecondSpacePassword">Vahvista toisen tilan salasana</string>
     <string name="confirm_allow_all_permission">Allow all apps from using this feature?</string>
@@ -1179,6 +1182,7 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
     <string name="early_morning">Aamu</string>
+    <string name="ellipsis">…</string>
     <string name="email">Sähköposti</string>
     <string name="empty" />
     <string name="empty_app">Ei sovelluksia</string>
@@ -1253,7 +1257,9 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="exo_download_notification_channel_name">Lataukset</string>
     <string name="exo_download_removing">Poistetaan latauksia</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mt/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Vaihtoehtoinen</string>
     <string name="exo_track_role_closed_captions">Tekstitykset</string>
     <string name="exo_track_role_commentary">Kommenttiraita</string>
@@ -1507,6 +1513,7 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="gamebox_app_not_find">Asenna sovellus ensin.</string>
     <string name="gamebox_brightness">Kirkkaus</string>
     <string name="gamebox_browser_not_find">Asenna Mi Browser ensin</string>
+    <string name="gamebox_bullet_chat">Näytön kommentit</string>
     <string name="gamebox_collimator">Tähtäin</string>
     <string name="gamebox_display_1">Ei mitään</string>
     <string name="gamebox_display_2">Kyllästetty</string>
@@ -1608,6 +1615,10 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="gb_dialog_record_way_ai">AI-tallenteet tallennetaan pelilaatikkoon ja säilytetään siellä 7 päivän ajan.</string>
     <string name="gb_dialog_record_way_finish">Valmis</string>
     <string name="gb_dialog_record_way_manual">Tallenna jopa 30 sekunnin pituisia videoita manuaalisesti</string>
+    <string name="gb_dialog_record_way_manual_desc" formatted="false">Tallenna %d-%d sekunnin video pelin aikana manuaalisesti.</string>
+    <string name="gb_dialog_record_way_setting_tip_one">Lisääntynyt virrankulutus ja viive</string>
+    <string name="gb_dialog_record_way_setting_tip_title">Tämä ominaisuus saattaa aiheuttaa seuraavia ongelmia:</string>
+    <string name="gb_dialog_record_way_setting_tip_two">Ristiriidat muiden näytön tallentimien kanssa</string>
     <string name="gb_dialog_record_way_setting_tips">Huomaa: Peli-istuntojen tallentaminen vaatii suurempaa virrankulutusta, mikä voi johtaa viiveeseen.</string>
     <string name="gb_dialog_record_way_title">Valitse tallennusmenetelmä</string>
     <string name="gb_first_guide_function_shiled_title">Sammuta järjestelmän ominaisuudet, kun Game Turbo on päällä</string>
@@ -1636,6 +1647,7 @@ Tallenna sekvenssit ja käytä niitä milloin tahansa!"</string>
     <string name="gb_game_video_page_null">Tallenna peli-istuntojen tärkeimmät hetket</string>
     <string name="gb_game_video_record_finish_tips">Tallennettu manuaalisesti nauhoitettu video kohteeseen Game Turbo</string>
     <string name="gb_game_video_save">Tallenna</string>
+    <string name="gb_game_video_save_tip">Tallennettu onnistuneesti</string>
     <string name="gb_game_video_type_ai">AI</string>
     <string name="gb_game_video_type_ai_record">Tallenna AI:n avulla</string>
     <string name="gb_game_video_type_manual">Manuaalisesti</string>
@@ -1648,6 +1660,7 @@ Tallenna sekvenssit ja käytä niitä milloin tahansa!"</string>
     <string name="gb_gpu_driver_update_app_tips">Nykyinen versio on ajan tasalla</string>
     <string name="gb_have_signed">Kirjautunut tänään</string>
     <string name="gb_manual_record_dialog_del_video_message">Poistetaanko valitut videot pysyvästi?</string>
+    <string name="gb_manual_video_record_title">Nauhoitukset</string>
     <string name="gb_msg_completely_shielded">Piilota viestit</string>
     <string name="gb_msg_completely_shielded_summary">Piilota</string>
     <string name="gb_msg_not_shielded_summary">Näytä</string>
@@ -1667,26 +1680,39 @@ laskien virkistystaajuutta ja lämpötilarajoja"</string>
     <string name="gb_performance_tips">"Suorituskykytila parantaa grafiikan suorituskykyä,
 mutta lisää myös virrankulutusta ja mahdollistaa laitteen ylikuumenemisen"</string>
     <string name="gb_shortcut_pref_title">Aloitusnäytön pikavalinta</string>
-    <string name="gb_shoulder_key">Olkapainikkeet</string>
+    <string name="gb_shoulder_guide_message1">Siirrä [L] mihin tahansa toiminnalliseen asentoon käyttääksesi sitä ponnahduslaukaisijan kautta</string>
+    <string name="gb_shoulder_guide_message2">Toiminto [1] aktivoidaan painamalla painiketta. Toiminto [2] aktivoidaan vapauttamalla painike.</string>
+    <string name="gb_shoulder_guide_tips1">Avaa työkalulaatikko ja määritä ponnahduslaukaisimet</string>
+    <string name="gb_shoulder_guide_title1">Toiminto</string>
+    <string name="gb_shoulder_guide_title2">Järjestys</string>
+    <string name="gb_shoulder_key">Ponnahduslaukaisimet</string>
     <string name="gb_shoulder_key_add_show_btn">Näytä virtuaaliset painikkeet pelien aikana</string>
-    <string name="gb_shoulder_key_add_tips">Siirrä [L] ja [R]-painikkeet mihin tahansa toimintoasentoon ja käytä niitä olkapainikkeilla</string>
+    <string name="gb_shoulder_key_add_tips">Siirrä [L] ja [R] mihin tahansa toiminnalliseen asentoon ja käytä niitä ponnahduslaukaisimien avulla</string>
     <string name="gb_shoulder_key_btn_cancel">Peruuta</string>
     <string name="gb_shoulder_key_btn_save_exit">Tallenna</string>
-    <string name="gb_shoulder_key_dialog_message">Voit käyttää Game Turboa molemmilla olkapainikkeilla samanaikaisesti, kun et pelaa pelejä.</string>
-    <string name="gb_shoulder_key_dialog_txt">Voit kytkeä Game Turbon päälle olkapainikkeilla.</string>
+    <string name="gb_shoulder_key_dialog_message">Voit käyttää molempia ponnahduslaukaisimia samanaikaisesti käynnistääksesi Game Turbon, kun et pelaa pelejä.</string>
+    <string name="gb_shoulder_key_dialog_txt">Voit ottaa Game Turbon käyttöön käyttämällä ponnahduslaukaisimia.</string>
     <string name="gb_shoulder_key_guide_btn_done">Selvä</string>
     <string name="gb_shoulder_key_guide_btn_next">Seuraava</string>
-    <string name="gb_shoulder_key_guide_tips">Määritä olkapainikkeet pelataksesi kuin ammattilainen!</string>
-    <string name="gb_shoulder_key_guide_tips1">Avaa työkalupakki ja määritä olkapainikkeet</string>
+    <string name="gb_shoulder_key_guide_tips">Määritä ponnahduslaukaisimet pelataksesi kuin ammattilainen!</string>
+    <string name="gb_shoulder_key_guide_tips1">Avaa työkalulaatikko ja määritä ponnahduslaukaisimet</string>
     <string name="gb_shoulder_key_light_effect">Värianimaatiot</string>
     <string name="gb_shoulder_key_light_effect_color">Väri</string>
-    <string name="gb_shoulder_key_light_effect_subtitle">Värianimaatiot näytetään, kun olkapainikkeet ovat päällä ja pelaat pelejä</string>
+    <string name="gb_shoulder_key_light_effect_subtitle">Värianimaatioita näytetään, kun ponnahduslaukaisimet ovat päällä ja pelaat pelejä</string>
     <string name="gb_shoulder_key_light_effect_title">Animaatiot</string>
     <string name="gb_shoulder_key_settings_guide_tips1">Siirrä [L] ja [R]-painikkeet mihin tahansa toimintoasentoon konfiguroinnin viimeistelemiseksi</string>
-    <string name="gb_shoulder_key_settings_guide_tips2">Käytä olkapainikkeita ominaisuuksiin, jotka olet määrittänyt niille pelien aikana</string>
-    <string name="gb_shoulder_key_settings_summary">Käynnistä Game Turbo molemmilla olkapainikkeilla, kun et pelaa pelejä</string>
-    <string name="gb_shoulder_key_settings_title">Käytä olkapainikkeita Game Turbolle</string>
+    <string name="gb_shoulder_key_settings_guide_tips2">Käytä ponnahduslaukaisimia pelien aikana määrittämillesi ominaisuuksille</string>
+    <string name="gb_shoulder_key_settings_summary">Käytä molempia ponnahduslaukaisimia käynnistääksesi Game Turbo, kun et pelaa pelejä</string>
+    <string name="gb_shoulder_key_settings_title">Käytä Game Turbossa ponnahduslaukaisimia.</string>
     <string name="gb_shoulder_key_settings_title_new">Pika-aloitus Game Turbolle</string>
+    <string name="gb_shoulder_set_left_right">Määritä [%s]</string>
+    <string name="gb_shoulder_set_title">Ota ponnahduslaukaisimet käyttöön määrittääksesi ne</string>
+    <string name="gb_shoulder_set_title2">Siirrä [%s] mihin tahansa toiminnalliseen asentoon ja käytä sitä ponnahduslaukaisimien avulla</string>
+    <string name="gb_shoulder_single_trigger">Toiminto</string>
+    <string name="gb_shoulder_subsection_down">Paina</string>
+    <string name="gb_shoulder_subsection_trigger">Järjestys</string>
+    <string name="gb_shoulder_subsection_up">Vapauta</string>
+    <string name="gb_shoulder_update_left_right">Muokkaa %s</string>
     <string name="gb_sign_gift">Kirjaudu saadaksesi palkintoja</string>
     <string name="gb_sign_gift_button_text">Vastaanota</string>
     <string name="gb_sign_notification_summary">Pelaa pelejä ilman verkon viivettä</string>
@@ -1768,13 +1794,13 @@ tärkeimmät hetket"</string>
     <string name="gd_setting_group_custom_line_location">Työkalulaatikon sijainti</string>
     <string name="gd_setting_group_custom_settings">Personointi</string>
     <string name="gd_setting_group_custom_vtb_apps">Videosovellukset</string>
-    <string name="gd_setting_group_smart_tool_box">Sidebar</string>
+    <string name="gd_setting_group_smart_tool_box">Sivupalkki</string>
     <string name="gd_setting_group_title_switch">Näkymät</string>
     <string name="gd_setting_gtb">Näytä pelatessasi pelejä</string>
     <string name="gd_setting_gtb_desc">Erityisominaisuuksia pelaamiseen</string>
     <string name="gd_setting_miui_dock">Näytä aina</string>
     <string name="gd_setting_shorthand">Pikamuistiinpanot</string>
-    <string name="gd_setting_title">Sidebar</string>
+    <string name="gd_setting_title">Sivupalkki</string>
     <string name="gd_setting_vtb">Näytä videota toistettaessa</string>
     <string name="gd_setting_vtb_desc">Videoiden toiston erityisominaisuudet</string>
     <string name="gd_splite_screen_tips">Jaettu näyttö ei tue kelluvia ikkunoita</string>
@@ -2182,6 +2208,7 @@ Laitteesi on %d%% nopeampi nyt."</string>
     <string name="menu_text_license_manager">Käyttöoikeudet</string>
     <string name="menu_text_networkassistants">Datan käyttö</string>
     <string name="menu_text_networkassistants_danger">%s yli</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s jäljellä</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">Gt</string>
@@ -2190,6 +2217,7 @@ Laitteesi on %d%% nopeampi nyt."</string>
     <string name="menu_text_optimize_manage">Nopeuta</string>
     <string name="menu_text_optimize_manage_1">Nopeuta</string>
     <string name="menu_text_power_manager">Akku</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Poista poikkeuksista</string>
     <string name="menu_white">Lisää poikkeuksiin</string>
     <string name="mi_ime_not_used">Käytä Xiaomin hyväksymää näppäimistöä</string>
@@ -2606,7 +2634,7 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="pc_fast_charge_notifi_action_text_on">Nopeuta</string>
     <string name="pc_fast_charge_notifi_power_threshold_title">Aseta muistutuksia akun varaustasosta</string>
     <string name="pc_fast_charge_notifi_summary">Ladataan jopa %s tavallista nopeammin…</string>
-    <string name="pc_fast_charge_notifi_summary_on">Tämä ominaisuus saattaa lämmittää laitettasi</string>
+    <string name="pc_fast_charge_notifi_summary_on">Latausnopeus kasvaa, kun näyttö on pois päältä. Laitteesi kuumenee.</string>
     <string name="pc_fast_charge_notifi_switch_summary">Ilmoita latauksen nopeuttamisesta, kun toimitettu %dW laturi on kytketty ja akku on alle asetetun tason</string>
     <string name="pc_fast_charge_notifi_switch_title">Ilmoita nopeutuksesta</string>
     <string name="pc_fast_charge_notifi_title">%dW lataus</string>
@@ -2820,6 +2848,11 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="power_center_dialog_msg_top">Kun virransäästö on päällä, MIUI optimoi seuraavat:</string>
     <string name="power_center_hints_scan_danger_result">Voit korjata akkuongelmat nyt</string>
     <string name="power_center_list_item_auto_brightness">Säädä näytön kirkkautta automaattisesti</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">t</string>
     <string name="power_center_list_item_close_bluetooth">Poista Bluetooth käytöstä</string>
     <string name="power_center_list_item_deep_save_title">Lisäasetukset</string>
@@ -3078,6 +3111,7 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="pref_normal_traffic_limit">Kun päiväkohtainen datasuunnitelma on käytetty</string>
     <string name="pref_open_adjust_traffic">Päivitä datan käyttö päivittäin käyttäen operaattorilta saamia tilastoja</string>
     <string name="pref_operator_not_set">Operaattoria ei ole asetettu</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Kun menet yli datasuunnitelmasi</string>
     <string name="pref_package_traffic_settings">Datasuunnitelma</string>
     <string name="pref_pkg_begin_date">Käytön palautuspäivä</string>
@@ -3328,6 +3362,7 @@ Kalibroinnin aikana MIUI lähettää tekstiviestin operaattorillesi saadakseen k
     <string name="privacy_using_record">Äänen tallentaminen</string>
     <string name="privacyapp_number_masked_text">Ilmoituksen sisältö on piilotettu</string>
     <string name="privacyapp_number_unmasked_text">Ilmoituksen sisällön voi piilottaa</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediapalvelin</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
     <string name="promotion">Mainos</string>
@@ -3403,6 +3438,7 @@ Kalibroinnin aikana MIUI lähettää tekstiviestin operaattorillesi saadakseen k
     <string name="result_sms_title_antispam">Haitallisia SMS-URL-osoitteita</string>
     <string name="result_sms_title_auth">Taloudellisen tekstiviestivuodon vaara on olemassa</string>
     <string name="result_wifi_header">WiFi riskejä havaittu</string>
+    <string name="resume">Palauta</string>
     <string name="right_precent">100%</string>
     <string name="risk_app_install_agree_button">Luota tähän sovellukseen</string>
     <string name="risk_app_install_agree_checkbox">Olen valmis kantamaan vastuun kaikista mahdollisista riskeistä.</string>
@@ -4425,7 +4461,7 @@ Jäljellä oleva data sisältää datan, joka jäi viime kuukaudeltä yli."</str
     <string name="vb_video_effects_3d">Surround-ääni</string>
     <string name="vb_video_effects_3d_summary">Paranna äänentoiston syvyyttä kuulokkeissa ja kaiuttimissa</string>
     <string name="vb_video_effects_3d_summary_headset">Lisää syventymisen ja ympäröimisen tunnetta kuunnellessasi ääntä kuulokkeista</string>
-    <string name="vb_video_effects_3d_surround">Surround-ääni</string>
+    <string name="vb_video_effects_3d_surround">Virtuaalinen mukaansatempaava ääni</string>
     <string name="vb_video_effects_display_style">Tyyli</string>
     <string name="vb_video_effects_dolby">Dolby Atmos</string>
     <string name="vb_video_effects_dolby_dialog_enhancer">Tehostettu vuorovaikutus</string>
@@ -4453,8 +4489,8 @@ Jäljellä oleva data sisältää datan, joka jäi viime kuukaudeltä yli."</str
     <string name="vb_video_effects_settings_stereo">Äänenvoimakkuus</string>
     <string name="vb_video_effects_some_headphone">Valittujen kuulokemallien tukema</string>
     <string name="vb_video_effects_spatial">Seuraa pään liikettä</string>
-    <string name="vb_video_effects_spatial_summary">"Säädä surround-ääntä pään liikkeen perusteella
-*Tuettu vain pelikuulokemalleissa"</string>
+    <string name="vb_video_effects_spatial_summary">"Säädä mukaansatempaavaa ääntä pään liikkeen perusteella
+*Tuettu vain pelikuulokemalleihin"</string>
     <string name="vb_video_effects_srs_premium_sound">Ääni</string>
     <string name="vb_video_super_division">Korota</string>
     <string name="vb_video_super_division_desc">"Korota resoluutiota automaattisesti, kun se on ≤ 720p.

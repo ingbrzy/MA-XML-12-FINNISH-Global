@@ -40,13 +40,13 @@
         <item quantity="other">Katso %d vastausta</item>
         <item quantity="one">Katso %d vastaus</item>
     </plurals>
+    <plurals name="dialog_app_rating_choose_star">
+        <item quantity="other">%s tähteä valittu</item>
+        <item quantity="one">%s tähti valittu</item>
+    </plurals>
     <plurals name="feed_back_home">
         <item quantity="other">Palataan takaisin kotisivulle %1$d sekunnissa…</item>
         <item quantity="one">Palataan takaisin kotisivulle %1$d sekunnissa…</item>
-    </plurals>
-    <plurals name="follower">
-        <item quantity="other">%d seuraajaa</item>
-        <item quantity="one">%d seuraaja</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Puoli tuntia sitten</item>
@@ -68,9 +68,71 @@
         <item quantity="other">%d minuutin kuluttua</item>
         <item quantity="one">1 minuutin kuluttua</item>
     </plurals>
+    <plurals name="incentive_dialog_congratulation_get_credits_title">
+        <item quantity="other">Olet ansainnut %d pistettä!</item>
+        <item quantity="one">Olet ansainnut %d pisteen!</item>
+    </plurals>
+    <plurals name="incentive_dialog_credits">
+        <item quantity="other">%d pistettä</item>
+        <item quantity="one">%d piste</item>
+    </plurals>
+    <plurals name="incentive_dialog_login_and_get_credits_message">
+        <item quantity="other">Kirjaudu sisään lunastaaksesi ja ansaitset %d lisäpistettä</item>
+        <item quantity="one">Kirjaudu sisään lunastaaksesi ja ansaitset %d lisäpisteen</item>
+    </plurals>
+    <plurals name="incentive_dialog_seconds">
+        <item quantity="other">%d sekuntia</item>
+        <item quantity="one">%d sekunti</item>
+    </plurals>
+    <plurals name="incentive_guide_all_time_tip">
+        <item quantity="other">Katso yhteensä %d minuuttia ansaitaksesi pisteitä! Suoritetaanko tehtävä nyt?</item>
+        <item quantity="one">Katso yhteensä %d minuutti ansaitaksesi pisteitä! Suoritetaanko tehtävä nyt?</item>
+    </plurals>
+    <plurals name="incentive_guide_coins_tip">
+        <item quantity="other">"Sinulla on %d pistettä lunastettavana
+Saatavilla vain tänään"</item>
+        <item quantity="one">"Sinulla on %d piste lunastettavana
+Saatavilla vain tänään"</item>
+    </plurals>
+    <plurals name="incentive_guide_current_time_tip">
+        <item quantity="other">Olet katsonut %d minuuttia tänään</item>
+        <item quantity="one">Olet katsonut %d minuutin tänään</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_begin">
+        <item quantity="other">Ansaitse %d pistettä!</item>
+        <item quantity="one">Ansaitse %d piste!</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_finish">
+        <item quantity="other">Päivän tehtävät suoritettu! Ansaitsit %d pistettä.</item>
+        <item quantity="one">Päivän tehtävät suoritettu! Ansaitsit %d pisteen.</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_of_one">
+        <item quantity="other">Katsoit %1$1d ja ansaitsit %2$2d pisteen!</item>
+        <item quantity="one">Katsoit %1$1d ja ansaitsit %2$2d pisteen!</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_tip1">
+        <item quantity="other">Katso satunnainen video ja ansaitse %d pistettä</item>
+        <item quantity="one">Katso satunnainen video ja ansaitse %d piste</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_tip2">
+        <item quantity="other">Katso %1$1d sekuntia videosta ja ansaitse %2$2d pistettä</item>
+        <item quantity="one">Katso %1$1d sekuntia videosta ja ansaitse %2$2d piste</item>
+    </plurals>
+    <plurals name="incentive_toast_share_success">
+        <item quantity="other">Ansaittu %d pistettä. Jatka jakamista ansaitaksesi enemmän.</item>
+        <item quantity="one">Ansaittu %d piste. Jatka jakamista ansaitaksesi enemmän.</item>
+    </plurals>
+    <plurals name="incentive_toast_subscribe_success">
+        <item quantity="other">Ansaittu %d pistettä. Jatka tilaamista ansaitaksesi enemmän.</item>
+        <item quantity="one">Ansaittu %d piste. Jatka tilaamista ansaitaksesi enemmän.</item>
+    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Juuri nyt</item>
         <item quantity="one">Juuri nyt</item>
+    </plurals>
+    <plurals name="local_diversion_video_number">
+        <item quantity="other">%d videota</item>
+        <item quantity="one">%d video</item>
     </plurals>
     <plurals name="local_video_floder">
         <item quantity="other">%d kansiota</item>
@@ -124,6 +186,14 @@
         <item quantity="other">%d uutta ilmoitusta</item>
         <item quantity="one">%d uusi ilmoitus</item>
     </plurals>
+    <plurals name="new_incentive_toast_share_success">
+        <item quantity="other">Jakaminen onnistui. Olet ansainnut %d pistettä. Lunasta pistekeskuksessa.</item>
+        <item quantity="one">Jakaminen onnistui. Olet ansainnut %d pisteen. Lunasta pistekeskuksessa.</item>
+    </plurals>
+    <plurals name="new_incentive_toast_subscribe_success">
+        <item quantity="other">Tilaus onnistui. Olet ansainnut %d pistettä. Lunasta pistekeskuksessa.</item>
+        <item quantity="one">Tilaus onnistui. Olet ansainnut %d pisteen. Lunasta pistekeskuksessa.</item>
+    </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Sisältösi sisältää kohteita (%1$s), jotka rikkovat yhteisön normeja. Tilisi on jäädytetty %2$d päiväksi %3$s saakka.</item>
         <item quantity="one">Sisältösi sisältää kohteita (%1$s), jotka rikkovat yhteisön normeja. Tilisi on jäädytetty %2$d päiväksi %3$s saakka.</item>
@@ -151,6 +221,10 @@
     <plurals name="plus_edit_top_titletext">
         <item quantity="other">Valittu %s kohdetta</item>
         <item quantity="one">Valittu %s kohde</item>
+    </plurals>
+    <plurals name="plus_local_edit_delete_confirm_text">
+        <item quantity="other">Poistetaanko %s tiedostoa pysyvästi nyt?</item>
+        <item quantity="one">Poistetaanko %s tiedosto pysyvästi nyt?</item>
     </plurals>
     <plurals name="plus_player_subtitle_online_size">
         <item quantity="other">Tiedostokoko: %.2fKt</item>
@@ -195,6 +269,10 @@
     <plurals name="toast_bookmark_max_size">
         <item quantity="other">Lisää enintään %d kirjanmerkkiä</item>
         <item quantity="one">Lisää enintään %d kirjanmerkki</item>
+    </plurals>
+    <plurals name="video_like_text">
+        <item quantity="other">%s tykkäystä</item>
+        <item quantity="one">%s tykkäys</item>
     </plurals>
     <plurals name="video_view_count">
         <item quantity="other">%d näyttökertaa</item>

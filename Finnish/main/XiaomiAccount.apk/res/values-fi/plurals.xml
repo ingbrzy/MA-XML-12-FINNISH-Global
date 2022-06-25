@@ -36,6 +36,10 @@
         <item quantity="other">%d minuuttia sitten</item>
         <item quantity="one">1 minuutti sitten</item>
     </plurals>
+    <plurals name="area_code_search_result_size">
+        <item quantity="other">Löytyi %d tulosta</item>
+        <item quantity="one">Löytyi %d tulos</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Puoli tuntia sitten</item>
         <item quantity="one">Puoli tuntia sitten</item>

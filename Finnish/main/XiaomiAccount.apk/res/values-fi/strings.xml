@@ -29,6 +29,7 @@
     <string name="abc_toolbar_collapse_description">Tiivistä</string>
     <string name="about_device_info">Näytä laitteen tiedot</string>
     <string name="accept">Salli</string>
+    <string name="access_denied_info">Liian monta yritystä. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="access_token_expired_warning">Weibo-tili on vanhentunut</string>
     <string name="access_token_invalid_warning">Weibo-tili on virheellinen</string>
     <string name="account">Tili</string>
@@ -95,6 +96,8 @@
     <string name="agreement_and_privacy">Käyttöehdot</string>
     <string name="am">ap.</string>
     <string name="app_name">Mi-tili</string>
+    <string name="area_code_no_search_result">Tuloksia ei löytynyt</string>
+    <string name="area_code_search_hint">Hae maata tai aluetta</string>
     <string name="auth_fail_warning">Istunto on vanhentunut, kirjaudu myöhemmin uudelleen</string>
     <string name="authorize_title">Valtuutus</string>
     <string name="bind_facebook">Yhdistä Facebook-tilisi</string>
@@ -429,7 +432,10 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="multi_user_not_show_sync_activity_title">Älä ota pilven synkronointia käyttöön</string>
     <string name="my_device_title">Nykyinen laite</string>
     <string name="need_install_wechat">Asenna WeChat</string>
+    <string name="network_error_info">Tapahtui verkkovirhe. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
+    <string name="network_timeout_info">Ei voitu yhdistää verkkoon. Yritä uudelleen.</string>
     <string name="night">Ilta</string>
+    <string name="no_account_or_forget_password">Luo tili vai unohtuiko salasana?</string>
     <string name="no_install">Ei asennettu</string>
     <string name="no_network_btn">Virkistä</string>
     <string name="no_network_title">Ei voi yhdistää verkkoon.</string>
@@ -664,7 +670,9 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="passport_talkback_voice_captcha">Toista äänivahvistuskoodi</string>
     <string name="passport_ticket_login_select_sim_card">Valitse SIM-kortti</string>
     <string name="passport_ticket_login_select_sim_card_1">SIM 1</string>
+    <string name="passport_ticket_login_select_sim_card_1_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_2">SIM 2</string>
+    <string name="passport_ticket_login_select_sim_card_2_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_cancel">Peruuta</string>
     <string name="passport_title_reg">Luo tili</string>
     <string name="passport_trust_device">Lisää tämä laite luotettaviin laitteisiin</string>
@@ -722,6 +730,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="privacy_policy_reject_confirm_title">Mi-tiliä ei voi käyttää</string>
     <string name="privacy_policy_update_msg">Mi-tilin tietosuojakäytäntö päivitettiin:&lt;br/>%1$s&lt;br/>Lue ja hyväksy &lt;a href=%2$s>&lt;u>tietosuojakäytännön&lt;/u>&lt;/a> uusi versio ennen kuin jatkat.</string>
     <string name="privacy_policy_update_title">Päivitetty tietosuojakäytäntö</string>
+    <string name="progressbar_title">Tarkastetaan turvallisuusongelmien varalta…</string>
     <string name="provision_back">Takaisin</string>
     <string name="provision_next">Seuraava</string>
     <string name="provision_skip_underline">Ohita</string>
@@ -801,6 +810,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="system_ad_summary">"Ota tämä ominaisuus käyttöön, jotta pieni määrä mainoksia voidaan näyttää järjestelmäsovelluksissa. Nämä mainokset auttavat meitä kehittämään ja parantamaan tuotteitamme ja palveluitamme. Voit poistaa tämän ominaisuuden käytöstä milloin tahansa. Kiitos tuestasi! "</string>
     <string name="system_ad_switch">Mainokset järjestelmäsovelluksissa</string>
     <string name="system_ad_switch_failed">Asetusta ei voitu ottaa käyttöön</string>
+    <string name="system_error_info">Järjestelmä on varattu. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="talkback_scan_barcode">Skannaa QR-koodi</string>
     <string name="temporary_not_available">Tämä ominaisuus ei ole saatavilla vielä.</string>
     <string name="the_anniversary_of_lifting_martial_law">Sotalain nostamisen vuosipäivä</string>
@@ -865,6 +875,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="two_factor_auth_need_code_summary">Näet koodin muissa kytketyissä Mi-laitteissa. Syötä tämä koodi uudelle laitteelle kirjautuaksesi sisään.</string>
     <string name="two_factor_auth_summary">Kun yrität kirjautua sisään uudella laitteella tai uudessa paikassa, saat ilmoituksen tästä muille kytketyille laitteille. Sinun on vahvistettava, oletko sallinut tällaiset kirjautumisyritykset.</string>
     <string name="unbind_sns_description">Kun katkaiset yhteyden tähän tiliin, et voi enää käyttää %s-tilitietojasi Mi-tilin kirjautumiseen.</string>
+    <string name="unknown_error_info">Tuntematon virhe</string>
     <string name="unlock_help_notice">"Apua:
 1. Mikäli olet unohtanut salasanasi, mene osoitteeseen id.mi.com palauttaaksesi sen.
 2. Mikäli et pysty palauttamaan salasanaasi, tai mikäli joku on lukinnut laitteesi, mene osoitteeseen i.mi.com avataksesi sen.
