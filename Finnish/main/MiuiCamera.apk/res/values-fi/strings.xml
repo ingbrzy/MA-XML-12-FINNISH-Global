@@ -666,7 +666,6 @@ Kaksoistallennus puhelimella voi myös muodostaa yhteyden toiseen lahellä oleva
     <string name="edit_smile">Hymy</string>
     <string name="edit_solid">Ääriviivat</string>
     <string name="emoticon">Tarrapaketti</string>
-    <string name="empty" />
     <string name="eras_ad">jKr.</string>
     <string name="eras_bc">eKr.</string>
     <string name="error_fail_to_start_audio_capture">Ei voitu aloittaa äänen tallennusta</string>
@@ -1295,7 +1294,6 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="pref_camera_auxiliary_close">Pois</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Valotuksen varmennus</string>
     <string name="pref_camera_auxiliary_focus_peak">Huipputarkennus</string>
-    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Korkea</string>
     <string name="pref_camera_beautify_entry_low">Matala</string>
     <string name="pref_camera_beautify_entry_normal">Kohtalainen</string>
