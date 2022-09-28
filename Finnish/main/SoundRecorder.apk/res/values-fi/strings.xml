@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Jaa…</string>
     <string name="abc_shareactionprovider_share_with_application">Jaa: %s</string>
     <string name="abc_toolbar_collapse_description">Tiivistä</string>
+    <string name="access_denied_info">Liian monta yritystä. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="actionbar_button_up_description">Takaisin</string>
     <string name="add_remark_hint">Kirjoita huomautuksesi tähän</string>
     <string name="add_remark_tip">Lisää huomautus napauttamalla</string>
@@ -85,6 +86,8 @@
     <string name="dialog_privacy_revoke_tips">Kun valtuutus peruutetaan, sovellus lopettaa tietojen keräämisen ja kaikki liittyvät tiedot poistetaan palvelimilta. Tämä saattaa tehdä sovelluksesta käytännössä käyttökelvottoman. Peruutetaanko valtuutus siitä huolimatta? Varmistaaksesi tilisi turvallisuuden kirjaudu osoitteeseen i.mi.com ennen valtuutuksen peruuttamista Xiaomi Cloud -palveluille.</string>
     <string name="dialog_title_storage_full">Ei tarpeeksi tallennustilaa</string>
     <string name="download">Lataa</string>
+    <string name="download_pause">Lataus keskeytetty. Jatka napauttamalla.</string>
+    <string name="downloading">Ladataan. Keskeytä napauttamalla.</string>
     <string name="duration_format_hour">%sh</string>
     <string name="duration_format_minute">%sm</string>
     <string name="duration_format_second">%ss</string>
@@ -220,9 +223,9 @@
     <string name="material_timepicker_text_input_mode_description">Vaihda ajan syöttämiseen tekstitilassa.</string>
     <string name="menu">Valikko</string>
     <string name="message_file_size_error">Nauhoituksen enimmäispituus on %s</string>
-    <string name="mi_account_msg">Kirjaudu sisään Mi-tililläsi, jotta voit jäljentää tiedostoja pilvessä ja saada ensimmäiset 60 minuuttia ilmaiseksi.</string>
+    <string name="mi_account_msg">Kirjaudu sisään Xiaomi-tililläsi, jotta voit jäljentää tiedostoja pilvessä ja saada ensimmäiset 60 minuuttia ilmaiseksi.</string>
     <string name="mi_account_ok">Kirjaudu sisään</string>
-    <string name="mi_account_title">Kirjaudu Mi-tililläsi</string>
+    <string name="mi_account_title">Kirjaudu Xiaomi-tililläsi</string>
     <string name="midnight">Yö</string>
     <string name="miuix_access_state_desc">Valittu</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
@@ -297,6 +300,7 @@
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -323,6 +327,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Siirry päivän valintaan napauttamalla</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Valitse syöttötavaksi teksti</string>
     <string name="mtrl_picker_toggle_to_year_selection">Siirry vuoden valintaan napauttamalla</string>
+    <string name="network_error_info">Tapahtui verkkovirhe. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
+    <string name="network_timeout_info">Ei voitu yhdistää verkkoon. Yritä uudelleen.</string>
     <string name="network_tip_dialog_cancel">Älä hyväksy</string>
     <string name="network_tip_dialog_content">Nauhuri tarvitsee Internet-yhteyden toimiakseen normaalisti. Hyväksytäänkö?</string>
     <string name="network_tip_dialog_ok">Hyväksy</string>
@@ -422,6 +428,7 @@ Napauta \"%1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="privacy_policy_title">Tietosuojakäytäntö</string>
     <string name="privacy_settings">Tietosuoja</string>
     <string name="progress">Toiston edistymispalkki</string>
+    <string name="progressbar_title">Tarkastetaan turvallisuusongelmien varalta…</string>
     <string name="recognition_button_add_to_queue">Lisää jonoon</string>
     <string name="recognition_button_cancel">Ei nyt</string>
     <string name="recognition_button_start">Transkriboi</string>
@@ -572,6 +579,7 @@ Napauta \"%1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="sunday_short">Su</string>
     <string name="sunday_shortest">Su</string>
     <string name="sync_desc_state_complete">Synkronoitu pilven kanssa: %1$s</string>
+    <string name="system_error_info">Järjestelmä on varattu. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="tab_all">Kaikki</string>
     <string name="tab_apps">Sovellukset</string>
     <string name="tab_call">Puhelut</string>
@@ -654,6 +662,7 @@ Napauta \"%1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="tuesday_shortest">Ti</string>
     <string name="uninstall_warning_content">Tallennin on järjestelmäsovellus. Et voi tallentaa ja transkriboida äänitä ja äänipuheluita poistamisen jälkeen.</string>
     <string name="uninstall_warning_title">Poistetaanko Tallennin?</string>
+    <string name="unknown_error_info">Tuntematon virhe</string>
     <string name="usage_description">Äänen muuntaminen tekstiksi ja kohteiden synkronointi pilven kanssa</string>
     <string name="user_feedback">Palaute</string>
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>

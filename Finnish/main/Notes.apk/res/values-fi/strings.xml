@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Jaa…</string>
     <string name="abc_shareactionprovider_share_with_application">Jaa: %s</string>
     <string name="abc_toolbar_collapse_description">Tiivistä</string>
+    <string name="access_denied_info">Liian monta yritystä. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="action_collapse">Piilota</string>
     <string name="action_expand">Näytä lisää</string>
     <string name="action_folder_description">Näytä kansiot</string>
@@ -137,6 +138,7 @@
     <string name="dlg_hide_message">Piilotetaan…</string>
     <string name="dlg_info_creating_message">Luodaan kuvaa…</string>
     <string name="dlg_info_save_to_gallery_message">Tallennetaan kuvaa galleriaan…</string>
+    <string name="dlg_info_save_to_local_message">Tallennetaan…</string>
     <string name="dlg_message_password_reset">Piilotettujen muistiinpanojen salasana korvataan yksityisyydensuojan salasanalla, joka toimii viesteissä, valokuvissa ja piilotetussa kansioissa</string>
     <string name="dlg_message_set_password">Yksityisyydensuojan salasana toimii viesteille, valokuville ja piilotetuille kansioille</string>
     <string name="dlg_message_use_privacy_password">Käytä yksityisyydensuojan salasanaa. Se toimii viesteille, valokuville ja piilotetuille kansioille.</string>
@@ -496,6 +498,7 @@
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -522,6 +525,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Siirry päivän valintaan napauttamalla</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Valitse syöttötavaksi teksti</string>
     <string name="mtrl_picker_toggle_to_year_selection">Siirry vuoden valintaan napauttamalla</string>
+    <string name="network_error_info">Tapahtui verkkovirhe. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
+    <string name="network_timeout_info">Ei voitu yhdistää verkkoon. Yritä uudelleen.</string>
     <string name="new_app_name">Mi-muistio</string>
     <string name="new_audio_create_cancel_talkback_des">Peruutettu</string>
     <string name="new_audio_create_done_talkback_des">Luotu</string>
@@ -552,11 +557,14 @@
     <string name="note_mindnote_entrance_hint_newversion">"Aloita kirjoittaminen "</string>
     <string name="note_mindnote_entrance_icon_text">Luo ajatuskartta</string>
     <string name="note_mindnote_entrance_icon_text_newversion">Luo ajatuskartta</string>
+    <string name="note_mindnote_not_support_in_phone_model">Ajatuskarttoja ei voi muokata tällä laitteella</string>
     <string name="note_module_name">Muistio</string>
     <string name="note_not_text_stub">Ei tekstiä</string>
     <string name="note_sort_way">Järjestä</string>
+    <string name="note_write_hint">Aloita kirjoittaminen</string>
     <string name="notealert_enter">Avaa muistiinpano</string>
     <string name="notealert_ok">Hylkää</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Muistio on järjestelmäsovellus. Et voi käyttää tätä sovellusta sen poistamisen jälkeen.</string>
     <string name="notes_description_title">Poistetaanko Muistio?</string>
     <string name="notification_content_add_todo_from_other_app">Lisäsit uuden tehtävän. Napauta katsellaksesi.</string>
@@ -619,6 +627,8 @@
     <string name="permission_phone_state_desc">Äänimuistiinpanojen lopettamiseksi puhelun aikana</string>
     <string name="permission_read_contact_desc">Puhelujen aikana luotujen muistiinpanojen yhdistäminen yhteystietoihin</string>
     <string name="permission_storage_desc">Muistiinpanojen tallentamiseksi kuvina</string>
+    <string name="permission_storage_desc_new_v12">Kuvien lisäämiseen muistiinpanoihin ja muistiinpanojen tallentamiseen kuvina</string>
+    <string name="permission_storage_desc_pad_new_v12">Kuvien lisäämiseen muistiinpanoihin ja muistiinpanojen tallentamiseen kuvina</string>
     <string name="permission_storage_desc_pad_v12">Kuvien lisäämiseen muistiinpanoihin ja muistiinpanojen tallentamiseen kuvina</string>
     <string name="permission_storage_desc_v12">Kuvien lisäämiseen muistiinpanoihin ja muistiinpanojen tallentamiseen kuvina</string>
     <string name="permission_xiaoai_desc">&lt;Data>Mi AI kerää äänitallenteesi ja laitteen tunnuksen äänen muuntamiseksi tekstimuotoon ja äänimuistiinpanojen luomiseksi. Lisätietoja kohteesta Mi AI &lt;a href=\"%1$s\">Tietosuojakäytännössä&lt;/a>.&lt;/Data></string>
@@ -656,6 +666,7 @@
     <string name="privacy_note_content_empty">Ei vielä kohteita täällä.</string>
     <string name="private_entry_available">Vapauta avataksesi yksityisen kansion</string>
     <string name="private_entry_default">Avaa yksityinen kansio vetämällä alas</string>
+    <string name="progressbar_title">Tarkastetaan turvallisuusongelmien varalta…</string>
     <string name="quick_note_link_default_text">URL</string>
     <string name="quick_note_new_user_guide">Pikamuistiinpanojen avulla voit luoda muistiinpanoja ja otteita</string>
     <string name="recover_notes_hint">Tapahtui virhe, mene osoitteeseen i.mi.com palauttaaksesi muistiinpanot.</string>
@@ -704,6 +715,9 @@
     <string name="save_to_gallery_failure_message">Ei voitu tallentaa</string>
     <string name="save_to_gallery_icon_name">Tallenna galleriaan</string>
     <string name="save_to_gallery_success_message">Tallennettu onnistuneesti</string>
+    <string name="save_to_local_failure_message">Ei voitu tallentaa</string>
+    <string name="save_to_local_icon_name">Tallenna</string>
+    <string name="save_to_local_success_message">Tallennettu onnistuneesti</string>
     <string name="search">Muistiinpanot</string>
     <string name="search_hint">Etsi muistiinpanoja</string>
     <string name="search_keyword_notes">Muistiinpanot;Muistio</string>
@@ -765,6 +779,7 @@
     <string name="sync_note_folder">%1$s ja %2$s</string>
     <string name="sync_note_todo">%1$s ja %2$s</string>
     <string name="sync_tips">Napauta synkronoidaksesi muistiinpanot pilven kanssa.</string>
+    <string name="system_error_info">Järjestelmä on varattu. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="the_anniversary_of_lifting_martial_law">Sotalain nostamisen vuosipäivä</string>
     <string name="the_anti_aggression_day">Anti-Aggression Day</string>
     <string name="the_arbor_day">Arbor Day</string>
@@ -861,8 +876,8 @@ Salli Muistiinpanojen äänittää."</string>
     <string name="today">Tänään</string>
     <string name="todo_alert_title_delete">Poista suoritetut tehtävät</string>
     <string name="todo_audio_default_content">"[Äänitehtävä] "</string>
-    <string name="todo_custom_remind_tag_pattern_with_md">d.M. HH:mm</string>
-    <string name="todo_custom_remind_tag_pattern_with_ymd">d.M.yyyy HH:mm</string>
+    <string name="todo_custom_remind_tag_pattern_with_md">d.M HH.mm</string>
+    <string name="todo_custom_remind_tag_pattern_with_ymd">d.M.yyyy HH.mm</string>
     <string name="todo_edit_audio_hint">Sano tehtäväsi</string>
     <string name="todo_edit_btn_cancel_remind">Peruuta muistutus</string>
     <string name="todo_edit_btn_custom">Aseta muistutus</string>
@@ -899,9 +914,9 @@ Salli Muistiinpanojen äänittää."</string>
     <string name="todo_notify_alarm_title">Tehtävämuistutus</string>
     <string name="todo_schedule_time_expired">" (Vanhentunut)"</string>
     <string name="todo_schedule_time_for_picker_hm">H mm</string>
-    <string name="todo_schedule_time_hm">HH:mm</string>
+    <string name="todo_schedule_time_hm">HH.mm</string>
     <string name="todo_schedule_time_md">d.M</string>
-    <string name="todo_schedule_time_mdhm">d.M HH:mm</string>
+    <string name="todo_schedule_time_mdhm">d.M HH.mm</string>
     <string name="todo_schedule_time_repeat_day">, joka päivä</string>
     <string name="todo_schedule_time_repeat_month">, joka kuukausi</string>
     <string name="todo_schedule_time_repeat_normal_workday">, maanantaista perjantaihin</string>
@@ -910,7 +925,7 @@ Salli Muistiinpanojen äänittää."</string>
     <string name="todo_schedule_time_today">Tänään</string>
     <string name="todo_schedule_time_tomorrow">Huomenna</string>
     <string name="todo_schedule_time_yesterday">Eilen</string>
-    <string name="todo_schedule_time_ymdhm">d.M.yyyy HH:mm</string>
+    <string name="todo_schedule_time_ymdhm">d.M.yyyy HH.mm</string>
     <string name="todo_search_hint">Hae tehtäviä</string>
     <string name="todo_time_picker_title">Aseta muistutus</string>
     <string name="todo_user_guide_fw_pop">Lisää aloitusnäytön pikavalinta</string>
@@ -940,6 +955,7 @@ Salli Muistiinpanojen äänittää."</string>
     <string name="tuesday_shortest">Ti</string>
     <string name="unclassfied_folder_name">Luokittelematon</string>
     <string name="undo">Kumoa</string>
+    <string name="unknown_error_info">Tuntematon virhe</string>
     <string name="unknown_source">Tuntematon lähde</string>
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
     <string name="v7_preference_on">KÄYTÖSSÄ</string>

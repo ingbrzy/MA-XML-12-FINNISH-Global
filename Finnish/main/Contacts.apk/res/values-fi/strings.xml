@@ -179,6 +179,7 @@
     <string name="callrecordview_menu_show_missed">Vastaamattomat puhelut</string>
     <string name="callrecordview_menu_show_sim">%s puhelua</string>
     <string name="callrecordview_menu_show_stranger">Puhelut tuntemattomista numeroista</string>
+    <string name="callrecordview_menu_xiaoaiphone">Mi AI -puheluavustaja</string>
     <string name="cancel">Peruuta</string>
     <string name="cancel_confirmation_dialog_message">Hylätäänkö muutokset?</string>
     <string name="cancel_confirmation_dialog_title">Peruuta</string>
@@ -504,6 +505,7 @@ Syy: \"%s\""</string>
     <string name="friday">Perjantai</string>
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Nimi</string>
     <string name="gallery">Galleria</string>
     <string name="ghostData_company">Yritys</string>
@@ -637,6 +639,7 @@ Syy: \"%s\""</string>
     <string name="menu_sync_remove">Poista synkronointiryhmä</string>
     <string name="midnight">Yö</string>
     <string name="miprofile_account_type">Käyntikortit</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Muokkaa profiilia</string>
     <string name="miprofile_name">Minun profiili</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -793,6 +796,7 @@ Napauta %1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="permission_retry_dialog_msg_pad">Voidaksesi käyttää SIM-korttiasi tämän sovelluksen kanssa ja hallita yhteystietojasi salli tämän sovelluksen käyttää ja muokata yhteystietojasi sekä käyttää laitteen tietoja.</string>
     <string name="permission_retry_setting">Asetukset</string>
     <string name="phoneLabelsGroup">Puhelin</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Numero on liian pitkä</string>
     <string name="phone_primary">Ensisijainen</string>
     <string name="photoPickerNotFoundText">Laitteella ei ole kuvia saatavilla.</string>
@@ -862,6 +866,9 @@ Napauta %1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="preference_smart_group_title">Älykkäät ryhmät</string>
     <string name="preference_tone_title">Äänet</string>
     <string name="preference_yellowpage_function_setting">Hakemiston asetukset</string>
+    <string name="presentation_payphone">Kolikkopuhelin</string>
+    <string name="presentation_private">Yksityinen numero</string>
+    <string name="presentation_unknown">Tuntematon numero</string>
     <string name="previous">Edellinen</string>
     <string name="privacy_password_message1">Yksityisyydensuojan salasana toimii sovelluksissa, muistioissa ja piilotetuissa kansioissa.</string>
     <string name="privacy_password_message2">Käytä yksityisyydensuojan salasanaa. Se toimii kuvissa, muistiinpanoissa ja piilotetuissa kansioissa.</string>
@@ -938,7 +945,7 @@ Napauta %1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="remove_duplicate">"MIUI auttaa etsimään ja yhdistämään yhteystietojen kaksoiskappaleet.
 
  Napauta Yhdistä-ikonia ruudun alareunassa aloittaaksesi."</string>
-    <string name="required_permissions">android.permission.WRITE_CONTACTS;android.permission.READ_CONTACTS;android.permission.WRITE_CALL_LOG;android.permission.READ_CALL_LOG;android.permission.READ_PHONE_STATE;android.permission.CALL_PHONE</string>
+    <string name="required_permissions">android.permission.WRITE_CONTACTS;android.permission.READ_CONTACTS;android.permission.WRITE_CALL_LOG;android.permission.READ_CALL_LOG;android.permission.READ_PHONE_STATE;android.permission.CALL_PHONE;android.permission.POST_NOTIFICATIONS</string>
     <string name="restore_app_btn_cancel">Peruuta</string>
     <string name="restore_app_btn_restore">OK</string>
     <string name="restore_app_description_content">Lisää aloitusnäytön pikavalinta, jotta pääset yhteystietoihisi nopeammin.</string>
@@ -1035,6 +1042,7 @@ Napauta %1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Ei ryhmän jäseniä</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Yritykset</string>
     <string name="smart_group_company_unavailable">Ei yritystietoja</string>
     <string name="smart_group_frequency_1">Viimeisen kuukauden aikana</string>
@@ -1076,6 +1084,7 @@ Napauta %1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="starred_contacts">Suosikit</string>
     <string name="status_available">Paikalla</string>
     <string name="status_away">Poissa</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Varattu</string>
     <string name="strequentList">Suosikit</string>
     <string name="success_message_import_from_account">Yhteystieto tuotu</string>
@@ -1200,6 +1209,7 @@ Valitse jokin seuraavista vaihtoehdoista:"</string>
     <string name="video_chat">Aloita videokeskustelu</string>
     <string name="viewContactDesription">Näytä yhteystieto</string>
     <string name="viewContactTitle">Yhteystiedon tiedot</string>
+    <string name="view_more_call_logs">Katso lisää</string>
     <string name="view_updates_from_group">Näytä päivitykset</string>
     <string name="voicemail">Vastaajaviesti</string>
     <string name="websiteLabelsGroup">Verkkosivu</string>

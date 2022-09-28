@@ -55,6 +55,8 @@
     <string name="agenda_tomorrow">HUOMENNA, %1$s</string>
     <string name="agenda_view">Tapahtumat</string>
     <string name="alarm_label">Hylkää</string>
+    <string name="alarm_open_reminder">Ota muistutus käyttöön</string>
+    <string name="alarm_reminder_already">Muistutus päällä</string>
     <string name="alert_reminder_divider">|</string>
     <string name="alert_reminder_expired">Vanhentunut</string>
     <string name="alert_title">Kalenteri-ilmoitukset</string>
@@ -90,6 +92,7 @@
     <string name="birthday_term">syntymäpäivä</string>
     <string name="button_record_menstruation">Tallenna</string>
     <string name="calendar_permission_desc">Hallitse tapahtumia</string>
+    <string name="calendar_privacy_policy">Tietosuojakäytäntö</string>
     <string name="can_not_create_long_event">Tapahtuman nimi on liian pitkä</string>
     <string name="can_not_modify_allday_event">Koko päivän tapahtumaa ei voi muuttaa</string>
     <string name="can_not_modify_event">Tapahtumaa ei voi muuttaa</string>
@@ -145,7 +148,7 @@
     <string name="countdown_notify_title">Lähtölaskenta: %1$s</string>
     <string name="countdown_secondary_tag">Lähtölaskenta</string>
     <string name="countdown_today">Tänään</string>
-    <string name="create_an_account_desc">"Kalenteri toimii paremmin Mi-tilillä.
+    <string name="create_an_account_desc">"Kalenteri toimii paremmin Xiaomi-tilillä.
 
 • Käytä sitä mistä tahansa selaimesta.
 • Varmuuskopioi tapahtumasi turvallisesti."</string>
@@ -177,11 +180,13 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Perinteinen kiinalainen kalenteri</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Aseta päivä ja aika</string>
     <string name="date_today">" (tänään)"</string>
     <string name="date_view">Päivämäärä</string>
     <string name="day">Päivä</string>
     <string name="day_view_new_event_hint">Uusi tapahtuma</string>
+    <string name="default_reminder_later_time">\"Muistuta myöhemmin\" -oletusväli</string>
     <string name="default_reminder_mode">Muistutukset</string>
     <string name="delete_menstruation_record_confirm">Poistetaanko tämä merkintä?</string>
     <string name="delete_recurring_event_title">Poistetaanko %s?</string>
@@ -212,8 +217,10 @@
     <string name="edit_event_label">Tiedot</string>
     <string name="edit_event_no_reminder_value">Älä muistuta</string>
     <string name="edit_event_reminder_3_days_before">Ja muistuta %d päivää etukäteen</string>
+    <string name="edit_event_reminder_3_days_before_time">Muistuta myös %d päivää etukäteen</string>
     <string name="edit_event_reminder_summary">Sinä päivänä kello %1$s</string>
     <string name="edit_event_reminder_summary_3_days_before">%2$d päivää etukäteen ja sinä päivänä klo %1$s</string>
+    <string name="edit_event_reminder_summary_3_days_before_today">%1$d päivää ennen ja klo %1$s asetettuna päivänä</string>
     <string name="edit_event_reminder_text">%1$s päivänä klo %2$s</string>
     <string name="edit_event_reminder_time">Muistutusaika</string>
     <string name="edit_event_reminder_with_another_day_text">%1$s päivänä, %2$s klo %3$s</string>
@@ -222,6 +229,14 @@
     <string name="edit_event_tab_birthday">Syntymäpäivä</string>
     <string name="edit_event_tab_countdown">Lähtölaskenta</string>
     <string name="edit_event_tab_event">Tapahtuma</string>
+    <string name="edit_event_title_create_agenda">Luo tapahtuma</string>
+    <string name="edit_event_title_create_anniversary">Luo vuosipäivä</string>
+    <string name="edit_event_title_create_birthday">Luo syntymäpäivä</string>
+    <string name="edit_event_title_create_countdown">Luo lähtölaskenta</string>
+    <string name="edit_event_title_edit_agenda">Muokkaa tapahtumaa</string>
+    <string name="edit_event_title_edit_anniversary">Muokkaa vuosipäivää</string>
+    <string name="edit_event_title_edit_birthday">Muokkaa syntymäpäivää</string>
+    <string name="edit_event_title_edit_countdown">Muokkaa lähtölaskentaa</string>
     <string name="edit_event_to_label">Mihin</string>
     <string name="edit_your_long_holidays">Muokkaa lomia</string>
     <string name="ee_dd_short_month">EEE d. MMM</string>
@@ -390,7 +405,9 @@
     <string name="item_num_selected">%1$d valittu</string>
     <string name="language_change_confirmation">Vaihdettu onnistuneesti. Voit vaihtaa kieltä Kalenterin asetuksissa.</string>
     <string name="launch_weather_comment">Napauta tästä saadaksesi säätietoja</string>
-    <string name="load_more_hint">Lataa tapahtumat kohteesta %1$d</string>
+    <string name="load_more_events">Näytä %d tapahtumaa</string>
+    <string name="load_more_events_default">Katso ensi vuoden tapahtumat</string>
+    <string name="load_more_hint">Näytä %1$d tapahtumaa</string>
     <string name="loading">Hetki vain…</string>
     <string name="local_calendar_display_name">Paikallinen kalenteri</string>
     <string name="local_owner_account_name">Tallennettu tähän laitteeseen</string>
@@ -543,6 +560,7 @@
     <string name="no_internet_dialog_message">Laitteesi on muodostettava yhteys verkkoon, jotta voit peruuttaa suostumuksesi. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
     <string name="no_internet_dialog_title">Tapahtui virhe</string>
     <string name="no_long_holidays">Ei tulevia pitkiä lomia</string>
+    <string name="no_more_events">Ei enää näytettäviä tapahtumia</string>
     <string name="no_network">"Ei voitu yhdistää verkkoon.
 Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="no_network_btn">Yritä uudelleen</string>
@@ -596,6 +614,7 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="panchang_yog">Yog</string>
     <string name="partner_compatibility">Parin yhteensopivuus</string>
     <string name="path_calendar_settings">Järjestelmäsovellukset/Kalenteri/Asetukset</string>
+    <string name="permission_description">Käyttöoikeustiedot</string>
     <string name="picker_day">Valittu päivä: %1$d. Valitse pyyhkäisemällä pystysuunnassa.</string>
     <string name="picker_month">Valittu kuukausi: %1$d. Valitse pyyhkäisemällä pystysuunnassa.</string>
     <string name="picker_year">Valittu vuosi: %1$d. Valitse pyyhkäisemällä pystysuunnassa.</string>
@@ -609,14 +628,20 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="pref_title_notification_remind">Ilmoitusmuistutukset</string>
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
     <string name="preferences_additional_cal_default">0</string>
+    <string name="preferences_alarms_category_title">Hälytysmuistutukset</string>
+    <string name="preferences_alarms_sound">Ääni</string>
+    <string name="preferences_alarms_vibrateWhen">Värinä</string>
     <string name="preferences_alerts_ringtone_title">Ääni</string>
     <string name="preferences_alerts_vibrateWhen_title">Värinä</string>
     <string name="preferences_alerts_vibrate_title">Värinä ja soittoääni</string>
+    <string name="preferences_allow_remind">Salli muistutukset</string>
     <string name="preferences_default_allday_reminder_title">Koko päivän muistutusajan oletus</string>
     <string name="preferences_default_reminder_dialog">Hälytyksen oletusaika</string>
     <string name="preferences_default_reminder_title">Hälytyksen oletusaika</string>
     <string name="preferences_home_tz_title">Kotiaikavyöhyke</string>
     <string name="preferences_notification_ringtone_title">Ääni</string>
+    <string name="preferences_popup_alert_smart_summary_new">Aikaherkät tapahtumat ovat tapahtumia, joissa on tarkka aika</string>
+    <string name="preferences_popup_alert_title">Ponnahdusikkunamuistutukset</string>
     <string name="preferences_show_indic_date_title">Näytä intialainen kalenteri</string>
     <string name="preferences_title">Kalenteri</string>
     <string name="preferences_use_home_tz_descrip">Näyttää kalenterit ja tapahtuma-ajat kotiaikavyöhykkeesi mukaan matkustettaessa</string>
@@ -624,12 +649,18 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="preferences_week_start_day_default">-1</string>
     <string name="preferences_week_start_day_dialog">Viikon alku</string>
     <string name="preferences_week_start_day_title">Viikon alku</string>
+    <string name="privacy_and_permissions">Tietosuoja ja käyttöoikeudet</string>
     <string name="privacy_card_description">Hyväksy tietosuojakäytäntömme käyttääksesi kaikkia ominaisuuksia.</string>
     <string name="privacy_policy_dialog_agree">Hyväksy</string>
     <string name="privacy_policy_dialog_dont_agree">Älä hyväksy</string>
     <string name="privacy_policy_dialog_message">&lt;Data>Tervetuloa Kalenteriin!&lt;br/>Tämän sovelluksen avulla voit luoda ja hallita tapahtumia, asettaa muistutuksia ja vastaanottaa sijaintiasi koskevia lisätietoja.&lt;br/>Kalenterin on kerättävä tarvittavat henkilökohtaiset tiedot voidakseen tarjota sinulle peruspalveluja. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=\"%1$s\">Tietosuojakäytännöstä&lt;/a>.&lt;br/>Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%3$s\">Tietosuojakäytäntö&lt;/a> ennen kuin käytät Kalenteria.Voit milloin tahansa peruuttaa suostumuksesi Kalenterin tietosuojakäytäntöön kohdassa Asetukset. &lt;br/> Jos et hyväksy tietosuojakäytäntöämme, et voi käyttää joitain tämän sovelluksen ominaisuuksia. Sen perustoiminnot ovat kuitenkin edelleen käytettävissäsi.&lt;/Data></string>
     <string name="privacy_policy_dialog_title">Käyttöehdot</string>
     <string name="privacy_revoke_switch_text">Suostumuksen peruuttaminen</string>
+    <string name="pull_refresh_events">Näytä %d tapahtumaa</string>
+    <string name="pull_refresh_events_default">Katso edellisen vuoden tapahtumat</string>
+    <string name="pull_refresh_progress_load_finish">Ladattu onnistuneesti</string>
+    <string name="pull_refresh_progress_loading">Hetki vain…</string>
+    <string name="pull_refresh_progress_release_to_load">Vapauta ladataksesi</string>
     <string name="pull_to_refresh_hint">Vedä ladataksesi tapahtumat kohteesta %1$d</string>
     <string name="recorded_menstruation">Tallennetut kuukautiset</string>
     <string name="refresh">Virkistä</string>
@@ -686,6 +717,8 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="search_calendar">Päivä;Aurinko;Kuu;Almanakka;Kohtalo;Asialista;Kokous;Muistutus;Loma;Loma;Syntymäpäivä;2016;2017;Kevätjuhla;Uudenvuodenpäivä;Kansainvälinen työpäivä;Keskisyksyn juhla</string>
     <string name="search_calendar_edit_event">Tapaaminen;Muistutus;Asialista</string>
     <string name="search_calendar_settings">Kalenteri;Asialista;Muistutus</string>
+    <string name="search_events">Hae tapahtumia</string>
+    <string name="search_history">Hakuhistoria</string>
     <string name="search_menu_title">Haku</string>
     <string name="second_saturday_holiday">Joka toinen lauantai on vapaapäivä</string>
     <string name="select_date">Siirry päivään</string>
@@ -705,7 +738,9 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="setting_features_title">Ominaisuuksien asetukset</string>
     <string name="setting_holiday_display_desc">Juhlapyhäkortit sijaitsevat kotisivun asialistan alapuolella</string>
     <string name="setting_holiday_reminder">Juhlapyhän muistutus</string>
+    <string name="setting_import_events">Tuo tapahtumia</string>
     <string name="setting_others">Lisäasetukset</string>
+    <string name="setting_show_reject_agenda">Näytä hylätyt tapahtumat</string>
     <string name="setting_title_about">Tietoja</string>
     <string name="setting_title_holiday_display">Näytä juhlapyhät</string>
     <string name="setting_title_import_todo">Tuo tehtävät</string>
@@ -768,6 +803,10 @@ Voit myös lisätä muistutuksia, jotta et ohita mitään tärkeää."</string>
     <string name="tab_title_day">Päivä</string>
     <string name="tab_title_month">Kuukausi</string>
     <string name="tab_title_week">Viikko</string>
+    <string name="tab_view_day">Päivä</string>
+    <string name="tab_view_month">Kuukausi</string>
+    <string name="tab_view_week">Viikko</string>
+    <string name="tab_view_year">Vuosi</string>
     <string name="talk_back_read_date">%1$s(%2$s kuukalenterin mukaan).</string>
     <string name="talk_back_setting">Asetukset</string>
     <string name="talk_back_tab_switch">Vaihda näkymien välillä</string>
@@ -939,7 +978,7 @@ Voit myös lisätä muistutuksia, jotta et ohita mitään tärkeää."</string>
     <string name="work_day_indication">: (</string>
     <string name="xiaomi_calendar_delete_description">Kalenteri on järjestelmäsovellus, jonka avulla voit luoda ja hallita tapahtumia. Jotkut sen ominaisuuksista ovat edelleen käytettävissä, kun poistat aloitusnäytön pikavalinnan.</string>
     <string name="xiaomi_calendar_delete_title">Poistetaanko Kalenteri aloitusnäytöltä?</string>
-    <string name="xiaomi_calendar_display_name">Mi-tilin kalenteri</string>
+    <string name="xiaomi_calendar_display_name">Xiaomi-tilin kalenteri</string>
     <string name="year">Vuosi</string>
     <string name="yearly">Vuosittain (joka %s)</string>
     <string name="yearly_plain">Vuosittain</string>

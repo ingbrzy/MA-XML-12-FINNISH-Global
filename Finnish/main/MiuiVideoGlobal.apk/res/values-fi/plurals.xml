@@ -98,6 +98,14 @@ Saatavilla vain tänään"</item>
         <item quantity="other">Olet katsonut %d minuuttia tänään</item>
         <item quantity="one">Olet katsonut %d minuutin tänään</item>
     </plurals>
+    <plurals name="incentive_popup_window_share_success">
+        <item quantity="other">Jaettu onnistuneesti. Ansaitsit %d pistettä.</item>
+        <item quantity="one">Jaettu onnistuneesti. Ansaitsit %d pistettä.</item>
+    </plurals>
+    <plurals name="incentive_popup_window_subscribe_success">
+        <item quantity="other">Tilaus onnistui. Ansaitsit %d pistettä.</item>
+        <item quantity="one">Tilaus onnistui. Ansaitsit %d pistettä.</item>
+    </plurals>
     <plurals name="incentive_task_watchvideo_begin">
         <item quantity="other">Ansaitse %d pistettä!</item>
         <item quantity="one">Ansaitse %d piste!</item>

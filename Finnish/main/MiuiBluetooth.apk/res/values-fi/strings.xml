@@ -466,7 +466,9 @@ Nopeampi yhteysprotokolla."</string>
     <string name="hdcp_checking_dialog_title">Aseta HDCP-tarkistuskäyttäytyminen</string>
     <string name="hdcp_checking_title">HDCP-tarkistus</string>
     <string name="headset_battery_fw_failed">Lataa laitteesi ensin</string>
+    <string name="headset_battery_low">Akku vähissä. Lataa kuulokkeet nyt.</string>
     <string name="headset_connect_device">Yhdistä laite</string>
+    <string name="headset_connect_timeout">Yhteys aikakatkaistiin. Aloita alusta.</string>
     <string name="headset_device_check_failed">Päivityksiä ei voitu tarkistaa</string>
     <string name="headset_device_donot_move">Pidä laite lähellä</string>
     <string name="headset_device_enter_upgrade_failed">Päivitystä ei voitu aloittaa</string>
@@ -492,6 +494,7 @@ Nopeampi yhteysprotokolla."</string>
     <string name="headset_loss_notify_summary">Näyttää siltä, että ainakin yksi kuulokkeistasi ei ole latauskotelossa. Katso ympärillesi!</string>
     <string name="headset_loss_notify_summary1">Näyttää siltä, että kuulokkeet eivät ole kotelossa. Laita ne takaisin, jotta ne latautuvat.</string>
     <string name="headset_loss_notify_title">Hälytys hävinneestä kuulokkeesta</string>
+    <string name="headset_not_in_case">Laita molemmat kuulokkeet koteloon ja aloita alusta</string>
     <string name="headset_read_fw_state">Päivitystietoja ei saatu</string>
     <string name="headset_update_failed">Ei voitu päivittää</string>
     <string name="headset_update_ok">Valmis</string>
@@ -683,6 +686,7 @@ Nopeampi yhteysprotokolla."</string>
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>

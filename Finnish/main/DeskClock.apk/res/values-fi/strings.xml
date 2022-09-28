@@ -302,6 +302,7 @@
     <string name="menu_item_sort_by_gmt_offset">Lajittele ajan mukaan</string>
     <string name="menu_item_sort_by_name">Lajittele nimen mukaan</string>
     <string name="midnight">Yö</string>
+    <string name="miuix_access_state_desc">Valittu</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
@@ -503,6 +504,7 @@
     <string name="shutdown_alarm_enable_summary">Hälytys tulee soimaan, jos se on asetettu vähintään 10 minuuttia laitteesi sammuttamisen jälkeen</string>
     <string name="shutdown_alarm_title">Sammutushälytys</string>
     <string name="silent_alarm_summary">Äänetön</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Sammuta kerran %s</string>
     <string name="sleep_analysis">Tilastot</string>
     <string name="sleep_analysis_chart_date_format">d.M</string>
@@ -545,9 +547,10 @@
     <string name="star_wy_alarm_speech">Tapaa Roy Wang</string>
     <string name="start">Aloita</string>
     <string name="start_up">Aloita</string>
-    <string name="status_bar_clock_date_time_format">H:mm:ss</string>
-    <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
-    <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_clock_date_time_format">H.mm.ss</string>
+    <string name="status_bar_clock_date_time_format_12">h.mm.ss aa</string>
+    <string name="status_bar_clock_date_time_format_seconds_12">h.mm.ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Ei kierroksia</string>
     <string name="stopwatch_reset_notification">Sekuntikello nollattiin</string>
     <string name="stopwatch_running_notification">Sekuntikello</string>
@@ -556,6 +559,7 @@
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>
     <string name="sunday_shortest">Su</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Salli tämän sovelluksen muodostaa yhteys Internettiin käyttääksesi kaikkia sen ominaisuuksia.</string>
     <string name="system_permission_main_purpose">Ajan tarkastelu, hälytysten ja ajastimien asettaminen, sekuntikellon käyttäminen</string>
     <string name="system_permission_purpose">Arkipäivähälytysten luominen ja mukautettujen soittoäänien asettaminen</string>
@@ -639,7 +643,7 @@
     <string name="timer_desc_use_facial_mask">Kasvonaamio</string>
     <string name="timer_desc_use_sleep">Torkku</string>
     <string name="timer_end_time">Ajastin pysähtyy%s</string>
-    <string name="timer_end_time_format">HH:mm d. MMM</string>
+    <string name="timer_end_time_format">HH.mm d. MMM</string>
     <string name="timer_end_time_format_today">HH:mm</string>
     <string name="timer_got_it">OK</string>
     <string name="timer_got_it_new">Mykistä</string>
@@ -728,6 +732,8 @@
     <string name="worldcolock_timezone_gap">%s T</string>
     <string name="worldcolock_timezone_local">Sama kuin paikallinen aika</string>
     <string name="xiaoai_ringtone_title">Mi AI -soittoäänet</string>
+    <string name="xiaomi_deskclock_uninstall_description_content">Kello on järjestelmäsovellus. Et voi tarkistaa kellonaikaa, asettaa herätyksiä tai käyttää muita kellon ominaisuuksia sovelluksen poistamisen jälkeen.</string>
+    <string name="xiaomi_deskclock_uninstall_description_title">Poista Kello?</string>
     <string name="yesterday">Eilen</string>
     <string name="your_sounds">Omat äänet</string>
 </resources>

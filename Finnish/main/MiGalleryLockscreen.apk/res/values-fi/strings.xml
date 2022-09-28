@@ -68,6 +68,7 @@
     <string name="afternoon">Iltapäivä</string>
     <string name="am">ap.</string>
     <string name="auth_fail_warning">Istunto vanhentunut. Kirjaudu uudelleen.</string>
+    <string name="back">Takaisin</string>
     <string name="bind_sign_in_title">Lisää Mi-tili</string>
     <string name="change_activate_email">Vaihda sähköpostiosoite</string>
     <string name="change_password">Vaihda salasana</string>
@@ -75,6 +76,7 @@
     <string name="choose_to_signup">Ei, haluan luoda tilin</string>
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
     <string name="close">Sulje</string>
+    <string name="close_country_code_content_description">Poista maatunnus</string>
     <string name="collect_diagnosis_log">Kerää lokeja</string>
     <string name="confirm_activate_email">Todennettu</string>
     <string name="confirm_bundled_phone_dialog_title">Vahvista yhdistetty puhelinnumero</string>
@@ -102,6 +104,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="evening">Iltapäivä</string>
     <string name="exceed_binded_phone_times_notice">Tämä puhelinnumero on jo liitetty toiseen Mi-tiliin.</string>
     <string name="expand_button_title">Lisäasetukset</string>
+    <string name="facebook_login_btn_content_description">Kirjaudu sisään Facebookilla</string>
     <string name="failed_dup_secure_phone_number">Tämä puhelinnumero on jo liitetty toiseen Mi-tiliin</string>
     <string name="find_psw">Unohtuiko salasana</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -164,7 +167,9 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="get_ph_ticket">Hanki koodi</string>
     <string name="get_phone_bind_exceed_limit">Voit liittää jopa 3 Mi-tiliä puhelinnumeroon. Uutta tiliä ei voi lisätä.</string>
     <string name="get_phone_verifycode_exceed_limit">Liian monta vahvistuskoodia on lähetetty tälle numerolle. Odota 24 tuntia ja yritä uudelleen.</string>
+    <string name="google_login_btn_content_description">Kirjaudu sisään Googlella</string>
     <string name="goto_sign_up">Luo tili</string>
+    <string name="header_help">Tuki</string>
     <string name="i_know">Selvä</string>
     <string name="identity">Tunnistaminen</string>
     <string name="inconsistent_pwd">Salasanat eivät täsmää</string>
@@ -181,6 +186,23 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="login_with_sns">Muita kirjautumistapoja</string>
     <string name="logout_account">Kirjaudu ulos</string>
     <string name="midnight">Yö</string>
+    <string name="miui_clock_city_name_local">Paikallinen</string>
+    <string name="miui_clock_city_name_second">Toinen kello</string>
+    <string name="miui_lock_screen_date">EEEE d.M</string>
+    <string name="miui_lock_screen_date_12">EEEE d.M</string>
+    <string name="miui_lock_screen_date_two_lines">"EEEE
+d.M"</string>
+    <string name="miui_lock_screen_date_two_lines_12">"EEEE
+d.M"</string>
+    <string name="miui_lock_screen_large_date">"EEE
+d.M"</string>
+    <string name="miui_lock_screen_large_date_12">"EEE
+d.M"</string>
+    <string name="miui_vertical_time_format_12">"hh
+mm"</string>
+    <string name="miui_vertical_time_format_24">"HH
+mm"</string>
+    <string name="miuix_access_state_desc">Valittu</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
@@ -352,8 +374,12 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="pm">ip.</string>
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
     <string name="progressbar_title">Tarkastetaan turvallisuusongelmien varalta…</string>
+    <string name="protocal_dialog_cancel">Peruuta</string>
+    <string name="protocal_dialog_confirm">Hyväksy</string>
+    <string name="protocal_dialog_title">Huomio</string>
     <string name="psw_hint">Salasana</string>
     <string name="psw_sign_in">Kirjaudu sisään salasanalla</string>
+    <string name="qq_login_btn_content_description">Kirjaudu sisään QQ:lla</string>
     <string name="register_by_local_phone_long_text">Luo tili</string>
     <string name="register_by_local_phone_short_text">Luo tili</string>
     <string name="request_agree">Salli</string>
@@ -389,6 +415,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="sns_access_token_expired_warning">Istunto vanhentunut. Yhdistä tili uudelleen kirjautumalla sisään uudelleen.</string>
     <string name="sns_bind_limit">Liian monta yritystä. Kokeile muita kirjautumistapoja.</string>
     <string name="sns_sign_in">Muita kirjautumistapoja</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>
@@ -463,6 +490,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="user_agreement_hint_with_mobile">&lt;Data>Olen lukenut ja hyväksynyt Mi-tilin &lt;a href=%1$s>käyttäjäsopimuksen&lt;/a> ja &lt;a href=%2$s>tietosuojakäytännön&lt;/a> sekä China Mobile -vahvistuspalvelujen &lt;a href=%3$s>käyttöehdot&lt;/a>.&lt;/Data></string>
     <string name="user_agreement_hint_with_telecom">&lt;Data>Olen lukenut ja hyväksynyt Mi-tilin &lt;a href=%1$s>käyttäjäsopimuksen&lt;/a> ja &lt;a href=%2$s>tietosuojakäytännön&lt;/a> sekä eSurfing-vahvistuspalvelujen ehdot&lt;a href=%3$s>käyttöehdot&lt;/a>.&lt;/Data></string>
     <string name="user_agreement_hint_with_unicom">&lt;Data>Olen lukenut ja hyväksynyt Mi-tilin &lt;a href=%1$s>käyttäjäsopimuksen&lt;/a> ja &lt;a href=%2$s>tietosuojakäytännön&lt;/a> sekä China Unicom -vahvistuspalvelujen ehdot&lt;a href=%3$s>käyttöehdot&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_protocal_dialog_hint_default">&lt;Data>Lue ja hyväksy &lt;a href=%1$s>Käyttäjäsopimus&lt;/a> ja &lt;a href=%2$s>Tietosuojakäytäntö&lt;/a> ja Mi-tilin &lt;a href=%3$s>käyttäjäsopimus&lt;/a> ja &lt;a href=%4$s>tietosuojakäytäntö&lt;/a>.&lt;/Data></string>
     <string name="user_avatar_update_title">Vaihda profiilikuva</string>
     <string name="user_avatar_uploading">Hetki vain…</string>
     <string name="user_id_hint">Sähköposti/Puhelin/Mi-tilin tunnus</string>
@@ -473,5 +501,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="wednesday">Keskiviikko</string>
     <string name="wednesday_short">Ke</string>
     <string name="wednesday_shortest">Ke</string>
+    <string name="weibo_login_btn_content_description">Kirjaudu sisään Weibolla</string>
+    <string name="weixin_login_btn_content_description">Kirjaudu sisään WeChatilla</string>
     <string name="yesterday">Eilen</string>
 </resources>

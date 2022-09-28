@@ -177,6 +177,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="dialog_backup_password_change_machine_tips">Et voi siirtää salasanalla suojattuja varmuuskopioita. Poista varmuuskopioinnin salasana käytöstä ennen kuin käytät kohdetta Mi Mover.</string>
     <string name="dialog_backup_password_restore_tips">Kohteiden palautus ei onnistu, kun varmuuskopioinnin salasana on käytössä. Poista varmuuskopioinnin salasana käytöstä ensin.</string>
     <string name="dialog_backup_password_to_settings">Asetukset</string>
+    <string name="digit_percent">%</string>
     <string name="dir_date_format">ddMMyyyy_HHmmss</string>
     <string name="disable_encrypt_description">Ei salattu</string>
     <string name="disable_encrypt_title">Poista salaus käytöstä</string>
@@ -340,6 +341,7 @@ sinun on luotava ensin iCloud-varmuuskopio."</string>
 2.\u0009Mene kohteen Mi Talk Asetuksiin ja valitse ”Varmuuskopioi yhteystiedot Mi-tilille\""</string>
     <string name="import_from_xiaomi_account_hint2">Jos sinulla on jo varmuuskopio, paina Seuraava.</string>
     <string name="import_from_xiaomi_account_hint_title">Käytä kohdetta Mi Talk varmuuskopioidaksesi yhteystietosi laitteelta toiselle.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">Yhteensopivuusongelmien vuoksi voit siirtää vain osittain tiedostoja iOS-laitteista. Varmista, että luot iCloud-varmuuskopion ennen siirron aloittamista.</string>
     <string name="lack_perm_msg">Mi Mover vaatii seuraavat käyttöoikeudet: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Käyttöoikeuksia vaaditaan</string>
@@ -1029,8 +1031,11 @@ napauta \"Olen lähettäjä\" ja valitse tukiasema yhdistääksesi.
     <string name="wednesday_short">Ke</string>
     <string name="wednesday_shortest">Ke</string>
     <string name="wifi_title">Wi-Fi asetukset</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Latausta ei voitu aloittaa. Varmista, että latausten hallinta toimii normaalisti.</string>
     <string name="xiaomi_external_storage_unavailable">Tallennustilaa ei ole saatavilla, tarkista muistikorttisi.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_router">Mi Router</string>
     <string name="xiaomi_router_location">Mi Router %s</string>
     <string name="xiaomi_update_dialog_message">"Versio %1$s otetaan käyttöön 

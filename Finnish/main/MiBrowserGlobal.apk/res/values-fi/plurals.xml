@@ -61,12 +61,20 @@
         <item quantity="one">%1$d päivä sitten</item>
     </plurals>
     <plurals name="download_business_v5_edit_mode_title">
-        <item quantity="other">%1$d valittu</item>
-        <item quantity="one">%1$d valittu</item>
+        <item quantity="other">Valittu %1$d kohdetta</item>
+        <item quantity="one">Valittu %1$d kohde</item>
     </plurals>
     <plurals name="download_dialog_confirm_delete_downloads_message">
         <item quantity="other">Poistetaanko %d tehtävää?</item>
         <item quantity="one">Poistetaanko %d tehtävä?</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Siirry eteenpäin %d sekuntia</item>
+        <item quantity="one">Siirry eteenpäin %d sekunti</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Siirry taaksepäin %d sekuntia</item>
+        <item quantity="one">Siirry taaksepäin %d sekunti</item>
     </plurals>
     <plurals name="file_count">
         <item quantity="other">%1$d kohdetta</item>
@@ -108,9 +116,17 @@
         <item quantity="other">%d minuutin kuluttua</item>
         <item quantity="one">1 minuutin kuluttua</item>
     </plurals>
+    <plurals name="intercept_panel_img_text">
+        <item quantity="other">%d</item>
+        <item quantity="one">%d</item>
+    </plurals>
+    <plurals name="intercept_panel_protection_total">
+        <item quantity="other">Suojattu %d kertaa</item>
+        <item quantity="one">Suojattu %d kerran</item>
+    </plurals>
     <plurals name="le_notification_download_completed">
-        <item quantity="other">%d kohdetta ladattu onnistuneesti</item>
-        <item quantity="one">%d kohde ladattu onnistuneesti</item>
+        <item quantity="other">%1$s kohdetta ladattu onnistuneesti</item>
+        <item quantity="one">%1$s kohde ladattu onnistuneesti</item>
     </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Juuri nyt</item>
@@ -141,12 +157,16 @@
         <item quantity="one">%s tykkäys</item>
     </plurals>
     <plurals name="numSelectedFile">
-        <item quantity="other">%1$d valittua kohdetta</item>
+        <item quantity="other">" %1$d valittua kohdetta"</item>
         <item quantity="one">%1$d valittu kohde</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minuuttia sitten</item>
         <item quantity="one">1 minuutti sitten</item>
+    </plurals>
+    <plurals name="person_menu_protect_count">
+        <item quantity="other">Suojattu %s kertaa</item>
+        <item quantity="one">Suojattu %s kerran</item>
     </plurals>
     <plurals name="players">
         <item quantity="other">%d pelaajaa</item>
@@ -155,6 +175,10 @@
     <plurals name="pref_adblock_counts">
         <item quantity="other">Estetty %d mainosta</item>
         <item quantity="one">Estetty %d mainos</item>
+    </plurals>
+    <plurals name="reading__search_resultful">
+        <item quantity="other">Löytyi %1$d tulosta</item>
+        <item quantity="one">Löytyi %1$d tulos</item>
     </plurals>
     <plurals name="search_trending_views">
         <item quantity="other">%s hakupyyntöä</item>
@@ -176,6 +200,10 @@
         <item quantity="other">%d suosittua kappaletta</item>
         <item quantity="one">%d suosittu kappale</item>
     </plurals>
+    <plurals name="tag_count">
+        <item quantity="other">%d välilehti</item>
+        <item quantity="one">%d välilehti</item>
+    </plurals>
     <plurals name="v5_edit_mode_title">
         <item quantity="other">Valittu %1$d kohdetta</item>
         <item quantity="one">Valittu %1$d kohde</item>
@@ -183,6 +211,10 @@
     <plurals name="video_collection_reminder_view">
         <item quantity="other">Et ole katsonut %d suosikkivideoistasi pitkään aikaan.</item>
         <item quantity="one">Et ole katsonut %d suosikkivideota pitkään aikaan.</item>
+    </plurals>
+    <plurals name="video_views">
+        <item quantity="other">%s katselukertaa</item>
+        <item quantity="one">%s katselukerta</item>
     </plurals>
     <plurals name="videos_updated_amount">
         <item quantity="other">Katso %1$d uutta videota</item>
@@ -199,5 +231,45 @@
     <plurals name="vote_all_people">
         <item quantity="other">%d henkilöä on äänestänyt</item>
         <item quantity="one">%d henkilö on äänestänyt</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_ad">
+        <item quantity="other">Estetty %d mainosta</item>
+        <item quantity="one">Estetty %d mainos</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_allow_times">
+        <item quantity="other">Sallittu %d kertaa</item>
+        <item quantity="one">Sallittu %d kerta</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_disallow_times">
+        <item quantity="other">Rajoitettu %d kertaa</item>
+        <item quantity="one">Rajoitettu %d kerta</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_privacy">
+        <item quantity="other">Pysäytetty %d kertaa</item>
+        <item quantity="one">Pysäytetty %d kerta</item>
+    </plurals>
+    <plurals name="web_permission_ad_subtitle">
+        <item quantity="other">Estetty %s mainosta</item>
+        <item quantity="one">Estetty %s mainos</item>
+    </plurals>
+    <plurals name="web_permission_allow_default_subtitle">
+        <item quantity="other">Sallittu %s kertaa</item>
+        <item quantity="one">Sallittu %s kerta</item>
+    </plurals>
+    <plurals name="web_permission_deny_default_subtitle">
+        <item quantity="other">Rajoitettu %s kertaa</item>
+        <item quantity="one">Rajoitettu %s kerta</item>
+    </plurals>
+    <plurals name="web_permission_privacy_subtitle">
+        <item quantity="other">Pysäytetty %s kertaa</item>
+        <item quantity="one">Pysäytetty %s kerta</item>
+    </plurals>
+    <plurals name="web_permission_protect_subtitle_day">
+        <item quantity="other">%s päivää</item>
+        <item quantity="one">%s päivä</item>
+    </plurals>
+    <plurals name="web_permission_protect_subtitle_time">
+        <item quantity="other">%s kertaa</item>
+        <item quantity="one">%s kerta</item>
     </plurals>
 </resources>

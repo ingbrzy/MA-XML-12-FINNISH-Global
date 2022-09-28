@@ -127,6 +127,7 @@
     <string name="content_desc_activity_main_add_city">Lisää kaupunki</string>
     <string name="content_desc_activity_main_add_city_manage">Hallitse kaupunkeja</string>
     <string name="content_desc_activity_main_more_settings">Lisää asetuksia</string>
+    <string name="content_desc_activity_main_page">Sivu %1$d/%2$d</string>
     <string name="content_desc_back_button">Takaisin</string>
     <string name="content_desc_city_manage_del">Poista</string>
     <string name="content_desc_close_button">Sulje</string>
@@ -162,6 +163,7 @@
     <string name="dynamic_weather">Sää</string>
     <string name="early_morning">Aamu</string>
     <string name="edit_city">Hallitse kaupunkeja</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Päivitetään…</string>
     <string name="empty_view_net_unavailable">Ei voitu yhdistää verkkoon</string>
     <string name="empty_view_refresh">Yritä uudelleen</string>
@@ -271,13 +273,22 @@
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
     <string name="hourly_forcast_now">Nyt</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d.M</string>
     <string name="index_item_experience_now">Asenna nyt</string>
     <string name="indices_title_chance_of_rain">Sateen mahdollisuus</string>
     <string name="indices_title_feel">Tuntuu kuin</string>
     <string name="indices_title_pressure">Paine</string>
+    <string name="indices_title_uv">UV</string>
     <string name="indices_title_wind_speed">Tuulen nopeus</string>
+    <string name="indices_wind_direction_east">E</string>
+    <string name="indices_wind_direction_north">N</string>
+    <string name="indices_wind_direction_south">S</string>
+    <string name="indices_wind_direction_west">W</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV-Indeksi</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Ota sijaintipalvelut käyttöön</string>
     <string name="location_tag">Paikanna</string>
     <string name="manager_city_option_add_home">Lisää aloitussivulle</string>
@@ -377,7 +388,7 @@
     <string name="particulate_matter_not_exceeded">Normaali</string>
     <string name="particulate_matter_serious_exceeded">Liian korkea</string>
     <string name="permission_device_info">Laitteen tiedot</string>
-    <string name="permission_device_introduce">Laitteen tietojen tunnistamiseen laitteen mallin ja IMEI:n perusteella, ja paikallisten palvelujen tarjoamiseen kieliasetusten perusteella</string>
+    <string name="permission_device_introduce">Laitteiden tunnistamiseen laitemallin perusteella ja lokalisoitujen palvelujen tarjoamiseen kieliasetusten perusteella</string>
     <string name="permission_exit">Poistu</string>
     <string name="permission_privacy">Tietosuojakäytäntö (pakollinen)</string>
     <string name="permission_select_all">Valitse kaikki</string>
@@ -426,6 +437,8 @@
     <string name="send">Lähetä</string>
     <string name="set_degree_centigrade">°C</string>
     <string name="set_fahrenheit">°F</string>
+    <string name="setting_notification_manager">Ilmoitukset</string>
+    <string name="setting_used_to_push_reminder">Vastaanota säähälytyksiä ja -varoituksia</string>
     <string name="settings">Asetukset</string>
     <string name="settings_atmospheric_pressure_atm">Vakioilmapiiri (atm)</string>
     <string name="settings_atmospheric_pressure_hpa">Hektopascal (hPa)</string>
@@ -437,6 +450,7 @@
     <string name="share_menu_title">Jaa</string>
     <string name="share_subject">Jaa</string>
     <string name="share_weather_desc">\#MIUI Sää#Tänään %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kuvakaappausta ei voitu ottaa</string>
     <string name="shortcut_short_label_24_hour_forecast">24 tunnin ennuste</string>

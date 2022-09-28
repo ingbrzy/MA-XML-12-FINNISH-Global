@@ -123,6 +123,7 @@
     <string name="cast_closed_captions_unavailable">Tekstitykset eivät ole käytettävissä.</string>
     <string name="cast_connecting_to_device">%1$s muodostaa yhteyttä</string>
     <string name="cast_disconnect">Katkaise yhteys</string>
+    <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Kuva näytetään vastaanottimen toistaessa mainosta.</string>
     <string name="cast_expanded_controller_ad_in_progress">Mainos käynnissä…</string>
     <string name="cast_expanded_controller_background_image">Albumin kansikuva</string>
@@ -134,6 +135,7 @@
     <string name="cast_forward">Kelaa eteenpäin</string>
     <string name="cast_forward_10">Kelaa eteenpäin 10 sekuntia</string>
     <string name="cast_forward_30">Kelaa eteenpäin 30 sekuntia</string>
+    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
     <string name="cast_live_label">LIVE</string>
     <string name="cast_mute">Mykistä</string>
     <string name="cast_notification_connected_message">Yhdistetty näyttöön %1$s</string>
@@ -151,7 +153,7 @@
     <string name="cast_stop">Pysäytä</string>
     <string name="cast_stop_live_stream">Pysäytä stream</string>
     <string name="cast_tracks_chooser_dialog_audio">Ääni</string>
-    <string name="cast_tracks_chooser_dialog_cancel">Peruuta</string>
+    <string name="cast_tracks_chooser_dialog_cancel">Peru</string>
     <string name="cast_tracks_chooser_dialog_closed_captions">Tekstitykset</string>
     <string name="cast_tracks_chooser_dialog_default_track_name">Raita %1$d</string>
     <string name="cast_tracks_chooser_dialog_none">Ei valittu</string>
@@ -166,6 +168,8 @@
     <string name="choose">Valitse</string>
     <string name="choose_to_signin">Kyllä</string>
     <string name="choose_to_signup">Ei, haluan luoda tilin</string>
+    <string name="chromecast_connecting">Yhdistetään Chromecastiin…</string>
+    <string name="chromecast_playing">Katsot tätä videota Chromecastilla</string>
     <string name="clear_text_end_icon_content_description">Tyhjennä teksti</string>
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
     <string name="click_to_open_pip">Vaihda kuva kuvassa -tilaan napauttamalla</string>
@@ -233,6 +237,7 @@
     <string name="continue_play">Jatka</string>
     <string name="controller_bar_edit">Muokkaa</string>
     <string name="copy">Kopioi</string>
+    <string name="copy_toast_msg">Linkki kopioitu leikepöydälle</string>
     <string name="data_empty">Ei kohteita täällä</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -244,6 +249,8 @@ Mi Video on valmis päivitykseen.
 Päivitä sovellus nyt kokeaksesi uudet hienot ominaisuudet!
 Mi Video -tiimi"</string>
     <string name="description">Kuvaus</string>
+    <string name="desktop_widget_local_media">Mediatiedostot</string>
+    <string name="desktop_widget_new">Uutta</string>
     <string name="detail_select_source">Valitse toistolähde</string>
     <string name="diagnosis_log_send_failed">Lokeja ei voitu lähettää. Yritä uudelleen.</string>
     <string name="diagnosis_log_sent_format">"Lokit lähetettiin onnistuneesti.
@@ -381,6 +388,9 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="failed_dup_secure_phone_number">Tämä puhelinnumero on jo liitetty toiseen Mi-tiliin</string>
     <string name="failed_to_fetch_data">Tietoja ei voitu ladata.</string>
     <string name="failure">Ei voitu ladata</string>
+    <string name="fallback_menu_item_copy_link">Kopioi linkki</string>
+    <string name="fallback_menu_item_open_in_browser">Avaa selaimessa</string>
+    <string name="fallback_menu_item_share_link">Jaa linkki</string>
     <string name="favor_movie">Elokuvat</string>
     <string name="favor_online_video">Videot</string>
     <string name="favor_playlist">Soittolistat</string>
@@ -538,6 +548,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="galleryplus_notification_linkvideo_title4">Satoja videoita ilmaiseksi rajoitetun ajan</string>
     <string name="galleryplus_notification_linkvideo_title5">Suoratoista suosikkiohjelmasi ilmaiseksi</string>
     <string name="galleryplus_notification_try_now_btn">Kokeile nyt</string>
+    <string name="galleryplus_notification_type_link_video">Vaihdetaan paikallisiin videoihin</string>
     <string name="galleryplus_online_cta">Mi Videon on oltava yhteydessä Internettiin, jotta se toimii normaalisti. Hyväksytäänkö?</string>
     <string name="galleryplus_online_cta_agree">Hyväksy</string>
     <string name="galleryplus_online_cta_disagree">Älä hyväksy</string>
@@ -642,8 +653,10 @@ Tämä toiminto ei vaikuta galleriakuviin."</string>
     <string name="incentive_exchange">Lunasta</string>
     <string name="incentive_exchange_code">Koodi</string>
     <string name="incentive_exchange_code_copy">Kopioi</string>
+    <string name="incentive_exchange_code_copy_and_start">Käytä</string>
     <string name="incentive_exchange_details">Tiedot</string>
     <string name="incentive_exchange_details_current">Tilaus yhteensä</string>
+    <string name="incentive_exchange_details_dotask">Ansaitse pistettä</string>
     <string name="incentive_exchange_details_total">Saldo</string>
     <string name="incentive_exchange_empty_tip">Ei täällä vielä mitään. Lunasta pisteitä päästäksesi alkuun.</string>
     <string name="incentive_exchange_expire_tip">Lunastamattomat pisteet katoavat keskiyöllä</string>
@@ -651,6 +664,7 @@ Tämä toiminto ei vaikuta galleriakuviin."</string>
     <string name="incentive_exchange_successful">Lunastettu onnistuneesti</string>
     <string name="incentive_exchange_tip">Nämä pisteet ovat käytettävissä vain tänään</string>
     <string name="incentive_login_for_claim">Kirjaudu sisään Google-tilillesi lunastaaksesi pisteitä</string>
+    <string name="incentive_login_success_for_already_claimd">Kirjautuminen onnistui. Pisteet lunastettu.</string>
     <string name="incentive_login_tip">Kirjaudu sisään saadaksesi pisteitä ja palkintoja</string>
     <string name="incentive_my_points">Omat pisteet</string>
     <string name="incentive_popup_window_share">Jaa ansaitaksesi pisteitä</string>
@@ -666,10 +680,16 @@ Tämä toiminto ei vaikuta galleriakuviin."</string>
     <string name="incentive_task_title_novice">Uusille tulokkaille</string>
     <string name="incentive_task_to_get">Aloita</string>
     <string name="incentive_task_to_login">Kirjaudu sisään</string>
+    <string name="incentive_toast_share_success_new">Jaettu onnistuneesti</string>
+    <string name="incentive_toast_subscribe_success_new">Tilattu onnistuneesti</string>
+    <string name="incentive_ui_tab_earn_credits">Pisteet</string>
     <string name="incentive_view_all_prizes">Näytä kaikki palkinnot</string>
     <string name="incentive_view_details">Tiedot</string>
     <string name="inconsistent_pwd">Salasanat eivät täsmää</string>
     <string name="init_channels">Palauta oletukset</string>
+    <string name="inline_auto_play_tip">"Käytetään mobiilidataa… "</string>
+    <string name="inline_auto_play_to_set">Asetukset</string>
+    <string name="inline_mute_click_tip">Napauta poistaaksesi mykistys</string>
     <string name="input_email_address_notice">Käytämme tätä sähköpostia tilisi vahvistamiseen</string>
     <string name="input_new_pwd">Syötä uusi salasana</string>
     <string name="input_size_tips_new">Voit syöttää enintään %d merkkiä</string>
@@ -684,6 +704,7 @@ Tämä toiminto ei vaikuta galleriakuviin."</string>
     <string name="item_download_path">Latausten sijainti</string>
     <string name="item_download_path_setting">Latauksen sijaintiasetukset</string>
     <string name="item_setting_go_back">Suostumuksen peruuttaminen</string>
+    <string name="item_title_for_search_page_hot">Suosittua</string>
     <string name="item_title_unknown">Tuntematon otsikko</string>
     <string name="item_view_role_description">Välilehti</string>
     <string name="just_a_second">Hetki vain…</string>
@@ -695,8 +716,14 @@ videoille"</string>
     <string name="later">Myöhemmin</string>
     <string name="live_now">Nyt suorana</string>
     <string name="live_title">Suora lähetys</string>
+    <string name="live_tv_dialog_item_passed">Tämä ohjelma on päättynyt. Ota kiinni ensi kerralla!</string>
+    <string name="live_tv_dialog_subscirbe_button">Tilaa</string>
+    <string name="live_tv_dialog_subscirbe_tips">Tilaa %1$s, niin et missaa yhtäkään jaksoa</string>
     <string name="live_tv_title">Suora lähetys</string>
+    <string name="live_tv_toast_item_subscirbe">Olet jo tilannut tämän ohjelman</string>
     <string name="loading">Hetki vain…</string>
+    <string name="local_adjust_zoom_mode_hint">Katsot klo %s</string>
+    <string name="local_crop_zoom_mode">Kuva on rajattu</string>
     <string name="local_diversion_all_local_videos">Kaikki videot laitteella</string>
     <string name="local_diversion_close_recommend">Sulje</string>
     <string name="local_diversion_download_more_video">Lisää videoita</string>
@@ -714,6 +741,7 @@ videoille"</string>
     <string name="local_push_setting_power_tag">Ilmoitukset paikallisista videoista</string>
     <string name="local_push_title">Suosittua tänään</string>
     <string name="local_push_video_title">Etsi uusia paikallisia videoita</string>
+    <string name="local_stretch_zoom_mode">Kuva on venynyt</string>
     <string name="local_video_create_a_new_playlist">Uusi soittolista</string>
     <string name="local_video_date">Päivämäärä</string>
     <string name="local_video_dialog_default">Oletus</string>
@@ -734,6 +762,7 @@ videoille"</string>
     <string name="local_video_size">Koko</string>
     <string name="local_video_space">Käytetty: %s</string>
     <string name="local_video_time">Kesto</string>
+    <string name="local_zoom_adjust_button">Vaihda näyttötilaa</string>
     <string name="lock_screen">Lukitusnäyttö</string>
     <string name="login">Kirjaudu sisään</string>
     <string name="login_tip">Kirjaudu sisään, jotta voit saada vastauksemme palautteeseesi.</string>
@@ -761,6 +790,7 @@ videoille"</string>
     <string name="lp_video_zoom_title">Zoomaus</string>
     <string name="lv_advance_sound">Paranna ääntä</string>
     <string name="lv_airkan_control_device_des">Voit hallita toistoa napauttamalla alareunassa olevaa palkkia.</string>
+    <string name="lv_airkan_device_my_device">Minun laite</string>
     <string name="lv_airkan_device_xiaomi_phone">Mi-puhelimeni</string>
     <string name="lv_airkan_playing">Peilataan %s</string>
     <string name="lv_airkan_tips">Napauta peilataksesi</string>
@@ -839,10 +869,10 @@ videoille"</string>
     <string name="lv_subtitle_no_subtitle">Tekstitys ei ole käytettävissä</string>
     <string name="lv_subtitle_non_subtitle_file">Tekstitystiedostoja ei ole saatavilla</string>
     <string name="lv_subtitle_offset_add_1s_new">+%ds</string>
-    <string name="lv_subtitle_offset_add_dot5s_new">+%fs</string>
+    <string name="lv_subtitle_offset_add_dot5s_new">+%.1fs</string>
     <string name="lv_subtitle_offset_normal">Älä siirrä tekstitystä</string>
     <string name="lv_subtitle_offset_sub_1s_new">-%ds</string>
-    <string name="lv_subtitle_offset_sub_dot5s_new">-%fs</string>
+    <string name="lv_subtitle_offset_sub_dot5s_new">-%.1fs</string>
     <string name="lv_subtitle_onlinesub_language">Kieli: %s</string>
     <string name="lv_subtitle_onlinesub_loading">Ladataan tekstityksiä…</string>
     <string name="lv_subtitle_onlinesub_loading_wait">Ladataan tekstityksiä…</string>
@@ -969,12 +999,13 @@ videoille"</string>
     <string name="month_september_shortest">Syys</string>
     <string name="more">Lisää</string>
     <string name="morning">Aamu</string>
-    <string name="mr_button_content_description">Cast-painike</string>
-    <string name="mr_cast_button_connected">Cast-painike. Yhdistetty</string>
-    <string name="mr_cast_button_connecting">Cast-painike. Yhdistetään</string>
-    <string name="mr_cast_button_disconnected">Cast-painike. Yhteys katkaistu</string>
+    <string name="mr_button_content_description">Striimaa</string>
+    <string name="mr_cast_button_connected">Striimaa. Yhdistetty</string>
+    <string name="mr_cast_button_connecting">Striimaa. Yhdistetään</string>
+    <string name="mr_cast_button_disconnected">Striimaa. Yhteys katkaistu</string>
+    <string name="mr_cast_dialog_title_view_placeholder">Ei tietoja saatavilla</string>
     <string name="mr_chooser_searching">Etsitään laitteita</string>
-    <string name="mr_chooser_title">Suoratoiston kohde</string>
+    <string name="mr_chooser_title">Katso TV:stä</string>
     <string name="mr_controller_album_art">Albumin kansikuva</string>
     <string name="mr_controller_casting_screen">Suoratoistetaan näyttöä</string>
     <string name="mr_controller_close_description">Sulje</string>
@@ -988,6 +1019,9 @@ videoille"</string>
     <string name="mr_controller_stop">Pysäytä</string>
     <string name="mr_controller_stop_casting">Lopeta suoratoisto</string>
     <string name="mr_controller_volume_slider">Äänenvoimakkuuden liukusäädin</string>
+    <string name="mr_dialog_default_group_name">Ryhmä</string>
+    <string name="mr_dialog_groupable_header">Lisää laite</string>
+    <string name="mr_dialog_transferable_header">Toista ryhmässä</string>
     <string name="mr_system_route_name">Järjestelmä</string>
     <string name="mr_user_route_category_name">Laitteet</string>
     <string name="mtrl_badge_numberless_content_description">Uusi ilmoitus</string>
@@ -996,6 +1030,7 @@ videoille"</string>
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -1063,6 +1098,7 @@ videoille"</string>
     <string name="notification_recall_desc">Mi Video voi ilmoittaa sinulle suosituista videoista ja tilauksistasi.</string>
     <string name="notification_recall_title">Ota ilmoitukset käyttöön</string>
     <string name="notification_tool">Työkalupakki</string>
+    <string name="notification_type_channel_music">Musiikin toisto</string>
     <string name="notify_apk_installed">Ladattu onnistuneesti</string>
     <string name="offline_notification_text">Avaa mainos napauttamalla</string>
     <string name="offline_notification_title">Katso mainos, jonka tallensit ollessasi offline-tilassa</string>
@@ -1073,7 +1109,12 @@ videoille"</string>
     <string name="offline_opt_in_title">Avaa mainos, kun olet taas yhteydessä verkkoon.</string>
     <string name="ok">OK</string>
     <string name="online_play_hint">Esimerkiksi: http://www.example.com/video.mp4</string>
+    <string name="online_play_start_loading_tip">Hetki vain…</string>
+    <string name="online_play_start_ready_loading_tip_b">Ladataan %.2f t/s</string>
+    <string name="online_play_start_ready_loading_tip_kb">Ladataan %.2f kt/s</string>
+    <string name="online_play_start_ready_loading_tip_mb">Ladataan %.2f Mt/s</string>
     <string name="online_play_title">Syötä URL</string>
+    <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">Viimeaikaiset tilaukset</string>
     <string name="order_recently_updated">Äskettäin päivitetty</string>
     <string name="out_of_memory_background_playback_is_suspended">Taustatoisto pysäytetty riittämättömän muistin takia</string>
@@ -1434,6 +1475,7 @@ Tilisi turvallisuuden parantaminen."</string>
     <string name="popup_click_for_download_video">Lataa video</string>
     <string name="popup_pip_activate_button">Asetukset</string>
     <string name="popup_pip_not_activated">Anna Mi Videon käyttää kuva kuvassa -toimintoa ensin.</string>
+    <string name="popup_recommend_text">Löydä lisää videoita, joista pidät</string>
     <string name="popup_window_home_tip">Lataa online-videoita</string>
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
     <string name="privacy_agree_subtitle">Suostumus tietosuojakäytäntöön antaa sinun käyttää kaikkia Mi Videon ominaisuuksia</string>
@@ -1534,6 +1576,15 @@ Tilisi turvallisuuden parantaminen."</string>
     <string name="sending">Lähetetään…</string>
     <string name="service_error">Palvelinvirhe</string>
     <string name="set_success">Muutettu onnistuneesti</string>
+    <string name="settings_inline_auto_play">Aina automaattinen toisto</string>
+    <string name="settings_inline_auto_play_close">Automaattinen toisto pois päältä</string>
+    <string name="settings_inline_auto_play_tip_close_forever">Aina pois päältä</string>
+    <string name="settings_inline_auto_play_tip_close_month">Pois päältä kuukauden ajan</string>
+    <string name="settings_inline_auto_play_tip_open">Päällä</string>
+    <string name="settings_inline_auto_play_tip_title">Mobiilidatan käyttömuistutukset</string>
+    <string name="settings_inline_auto_play_title">Automaattinen toisto</string>
+    <string name="settings_inline_auto_play_wify">Automaattinen toisto vain Wi-Fi-verkossa</string>
+    <string name="settings_inline_title">Aloitussivun automaattinen toisto</string>
     <string name="settings_manager_hidden_folder">Hallitse piilotettuja videoita</string>
     <string name="share">Jaa</string>
     <string name="share_fail">Ei voitu jakaa. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
@@ -1554,13 +1605,14 @@ Tilisi turvallisuuden parantaminen."</string>
     <string name="small_video_load_more_hint">Toista lisää videoita pyyhkäisemällä ylös</string>
     <string name="small_video_snack_download_description">Lataa SnackVideo nähdäksesi uusimmat videot suosikkisisällöntuottajiltasi.</string>
     <string name="small_video_snack_download_title">SnackVideo</string>
-    <string name="small_video_tab_expose_hint">Tap for more short videos</string>
+    <string name="small_video_tab_expose_hint">Napauta nähdäksesi lisää lyhytvideoita</string>
     <string name="sms_send_success">Lähetetty onnistuneesti</string>
     <string name="sns_access_token_expired_warning">Istunto vanhentunut. Yhdistä tili uudelleen kirjautumalla sisään uudelleen.</string>
     <string name="sns_bind_limit">Liian monta yritystä. Kokeile muita kirjautumistapoja.</string>
     <string name="sns_sign_in">Muita kirjautumistapoja</string>
     <string name="source">"Lähde: "</string>
     <string name="start_download_tip">Lisätty jonoon. Tarkista eteneminen kohdassa Profiili > Lataukset.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kortti</string>
     <string name="storage_internal_sdcard">Sisäinen tallennustila</string>
     <string name="submit">Lähetä</string>
@@ -1831,6 +1883,12 @@ Tilisi turvallisuuden parantaminen."</string>
     <string name="welcome_tip_into_mivideo">Pääse alkuun</string>
     <string name="welcome_tip_skip">Ohita</string>
     <string name="welcome_tip_title">Tervetuloa Mi Videoon</string>
+    <string name="widget_local_video">Paikalliset videot</string>
+    <string name="widget_local_video_click">Katso laitteellesi tallennettuja videoita napauttamalla</string>
+    <string name="widget_more_channel">Lisää kanavia</string>
+    <string name="widget_more_channel_click">Napauta nähdäksesi TV-kanavat</string>
+    <string name="widget_trending_click">Napauta nähdäksesi tämän päivän suosituimmat videot</string>
+    <string name="widget_trending_today">Suosittua tänään</string>
     <string name="yesterday">Eilen</string>
     <string name="yt_subscription_notification_setting_title">Tilausilmoitukset</string>
     <string name="ytb_account">Tilit</string>

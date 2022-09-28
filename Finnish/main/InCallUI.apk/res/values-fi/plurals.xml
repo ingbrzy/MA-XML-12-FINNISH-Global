@@ -36,6 +36,38 @@
         <item quantity="other">%d minuuttia sitten</item>
         <item quantity="one">1 minuutti sitten</item>
     </plurals>
+    <plurals name="antispam_marked_count">
+        <item quantity="other">%d MIUI-käyttäjää on raportoinut tämän</item>
+        <item quantity="one">%d MIUI-käyttäjä on raportoinut tämän</item>
+    </plurals>
+    <plurals name="auto_disconnect_timer_tip">
+        <item quantity="other">Puhelu lopetetaan %1$s sekunnissa…</item>
+        <item quantity="one">Puhelu lopetetaan %1$s sekunnissa…</item>
+    </plurals>
+    <plurals name="call_recording_notification_complete">
+        <item quantity="other">%d puhelua nauhoitettu.</item>
+        <item quantity="one">%d puhelu nauhoitettu.</item>
+    </plurals>
+    <plurals name="call_title_redialing_with_times">
+        <item quantity="other">Uudelleenvalittu %d kertaa</item>
+        <item quantity="one">Uudelleenvalittu %d kerran</item>
+    </plurals>
+    <plurals name="conference_call_number">
+        <item quantity="other">%s henkilöä</item>
+        <item quantity="one">%s henkilö</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">%d tunti</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minuuttia</item>
+        <item quantity="one">%d minuutti</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d sekuntia</item>
+        <item quantity="one">%d sekunti</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Puoli tuntia sitten</item>
         <item quantity="one">Puoli tuntia sitten</item>
@@ -63,10 +95,6 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d kohdetta valittu</item>
         <item quantity="one">%d kohde valittu</item>
-    </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d uutta ilmoitusta</item>
-        <item quantity="one">%d uusi ilmoitus</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minuuttia sitten</item>

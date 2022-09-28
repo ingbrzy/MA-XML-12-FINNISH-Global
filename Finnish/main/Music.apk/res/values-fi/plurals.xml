@@ -122,6 +122,14 @@ Huomautus: Tiedosto poistetaan myös tältä laitteelta."</item>
         <item quantity="other">&lt;font color==\"red\">%d song&lt;/font> ladataan</item>
         <item quantity="one">&lt;font color==\"red\">%d song&lt;/font> ladataan</item>
     </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Siirry eteenpäin %d sekuntia</item>
+        <item quantity="one">Siirry eteenpäin %d sekunti</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Siirry taaksepäin %d sekuntia</item>
+        <item quantity="one">Siirry taaksepäin %d sekunti</item>
+    </plurals>
     <plurals name="free_downloads_num_hint">
         <item quantity="other">%d ilmainen lataus jäljellä</item>
         <item quantity="one">%d ilmainen lataus jäljellä</item>
@@ -205,6 +213,10 @@ Huomautus: Tiedosto poistetaan myös tältä laitteelta."</item>
     <plurals name="sound_fade_duration_in_seconds">
         <item quantity="other">Ristivaihto kappaleiden välillä: %d sekuntia</item>
         <item quantity="one">Ristivaihto kappaleiden välillä: %d sekunti</item>
+    </plurals>
+    <plurals name="task_guide">
+        <item quantity="other">Ansaitse %1$d kolikkoa tänään</item>
+        <item quantity="one">Ansaitse %1$d kolikko tänään</item>
     </plurals>
     <plurals name="video_count">
         <item quantity="other">Videota</item>
