@@ -1623,7 +1623,6 @@ Valinta"</string>
 Jos olet jo tehnyt yhtään ylläolevista, lisää Mi-tilisi uudelleen; muuten et voi avata laitteesi lukitusta."</string>
     <string name="bootloader_tips_ok">Selvä</string>
     <string name="bootloader_tips_warning">Ethän katkaise verkkoyhteyttä, uloskirjaudu Mi-tililtäsi, suorita tehdaasasetusten palautusta tai poista järjestelmätietoja.</string>
-    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="bottom_function_settings">Lisäpainikkeiden toiminnot</string>
     <string name="bottomsheet_action_expand_halfway">Laajenna puoliväliin</string>
     <string name="breathing_light_color_menu_title">Valon väri</string>
@@ -2701,7 +2700,6 @@ Jos tämä tapahtuu toistuvasti, akun optimointi voi edellyttää sovelluksen po
     <string name="dialog_wifi_context">Laitteen määrittäminen edellyttää Internet-yhteyden muodostamista. Ellet muodosta yhteyttä Wi-Fi-verkkoon, mobiilidataa voidaan käyttää. Mobiilidatan käyttö saattaa aiheuttaa ylimääräisiä operaattorimaksuja. Käytetäänkö mobiilidataa siitä huolimatta?</string>
     <string name="dialog_wifi_title">Käytetään mobiilidataa</string>
     <string name="dialog_yes">Kyllä</string>
-    <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Huomautus: Uudelleenkäynnistämisen jälkeen tämä sovellus ei voi aueta siihen asti, kunnes avaat laitteesi lukituksen.</string>
     <string name="disable_overlays">Poista HW-päällekkäisyydet käytöstä</string>
     <string name="disable_overlays_summary">GPU aina käytössä näytön sommittelussa</string>
@@ -2788,7 +2786,6 @@ Jos tämä tapahtuu toistuvasti, akun optimointi voi edellyttää sovelluksen po
     <string name="dndm_auto_button_title">Toista Älä häiritse -aika</string>
     <string name="dndm_auto_setting_group">Ajoitettu</string>
     <string name="dndm_auto_time_setting">Aseta aika</string>
-    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">Saakka</string>
     <string name="dndm_auto_time_turn_off_title">Älä häiritse automaattisesti pois päältä</string>
     <string name="dndm_auto_time_turn_on">Alkaen</string>
@@ -4295,7 +4292,6 @@ Avaa Xiaomi Cloud ja palauta kohteet sieltä."</string>
     <string name="lights_title">LED-valo</string>
     <string name="line_breaking_summary">Optimoi kappaleen rivinvaihto</string>
     <string name="line_breaking_title">Optimoi teksti</string>
-    <string name="link_speed">%1$d Mb/s</string>
     <string name="link_turbo_prompt">Tämän sivun tilastotiedot osoittavat vain datamäärän, jota käytetään Wi-Fi-yhteyden nopeuden lisäämiseen. Nämä tilastot eivät kuvaa todellista mobiilidatan käyttöä.</string>
     <string name="link_turbo_settings_all_app_display_loading">Hetki vain…</string>
     <string name="link_turbo_settings_all_app_reach_max">Voit valita enintään 15 sovellusta</string>
@@ -4886,7 +4882,6 @@ Et voi peruuttaa tätä toimintoa."</string>
     <string name="memory_title">Käytettävissä: %1$s\u0009\u0009Yhteensä: %2$s</string>
     <string name="memory_usage">Muistin käyttötiedot</string>
     <string name="memory_usage_apps">Sovellusten käyttämä muisti</string>
-    <string name="memory_use_running_format">%1$s / %2$s</string>
     <string name="memory_use_summary">Muistia käytetty keskimäärin %1$s viimeisen 3 tunnin aikana.</string>
     <string name="memorycard_calculating">Lasketaan…</string>
     <string name="menu_cancel">Peru</string>
@@ -5358,7 +5353,6 @@ Valitse käyttöjärjestelmäsi:"</string>
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -5530,7 +5524,6 @@ Valitse käyttöjärjestelmäsi:"</string>
     <string name="nfc_how_it_works_title">Maksaminen päätteellä</string>
     <string name="nfc_main_switch_title">Käytä NFC:tä</string>
     <string name="nfc_more_title">Lisää…</string>
-    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Valitse oletukseksi</string>
     <string name="nfc_payment_btn_text_update">Päivitä</string>
     <string name="nfc_payment_default">Oletusmaksusovellus</string>
@@ -5920,7 +5913,6 @@ OTG sammuu automaattisesti 10 minuutin käyttämättömyyden jälkeen."</string>
     <string name="overlay_settings_title">Salli näytön peitto Asetukset-sovelluksessa</string>
     <string name="overlay_toast_failed_to_apply">Peittokuvan piirto epäonnistui</string>
     <string name="owner_info_settings_edit_text_hint">Esim. Rikun android</string>
-    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Ei mitään</string>
     <string name="owner_info_settings_title">Lukitusnäytön allekirjoitus</string>
     <string name="owner_space">Ensimmäinen tila</string>
@@ -6158,7 +6150,6 @@ Paina virta‑ ja äänenvoimakkuuspainiketta yhtä aikaa."</string>
     <string name="power_remaining_less_than_duration_only">Alle %1$s jäljellä</string>
     <string name="power_remaining_more_than_subtext">Yli %1$s jäljellä (%2$s)</string>
     <string name="power_remaining_only_more_than_subtext">Yli %1$s jäljellä</string>
-    <string name="power_remaining_settings_home_page">%1$s - %2$s</string>
     <string name="power_screen">Näyttö</string>
     <string name="power_settings_title">Järjestelmän suorituskyky</string>
     <string name="power_suggestion_battery_run_out">Akku saattaa loppua klo %1$s mennessä</string>
@@ -6404,8 +6395,6 @@ Paina virta‑ ja äänenvoimakkuuspainiketta yhtä aikaa."</string>
     <string name="privileged_action_disable_sub_dialog_title">Laitetaanko %1$s pois päältä?</string>
     <string name="privileged_action_disable_sub_dialog_title_without_carrier">Laitetaanko SIM-kortti pois päältä?</string>
     <string name="process_dex2oat_label">Sovellusoptimointi</string>
-    <string name="process_format">%1$s (%2$d)</string>
-    <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">Mediapalvelin</string>
     <string name="process_provider_in_use_description">Palveluntarjoaja %1$s on käytössä.</string>
     <string name="process_service_in_use_description">Palvelu %1$s on käytössä.</string>
@@ -7171,7 +7160,6 @@ Sovelluksen kiinnittäminen: \u0009
     <string name="security_encryption_attention_3">Sinun täytyy asettaa uusi näytönlukitus.</string>
     <string name="security_encryption_attention_4">Pidä huoli, että muistat näytönlukituksesi, muuten joudut palauttamaan laitteesi tehdasasetuksille ja menetät laitteesi kaikki tiedot.</string>
     <string name="security_encryption_attention_info">Voit salata tilisi, asetukset, ladatut sovellukset sekä niiden tiedot, mediat ja muut tiedostot.</string>
-    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Tärkeä</string>
     <string name="security_encryption_close_dialog_info">Jos et halua salata laitetta näytönlukituksella, jotkut Google-palvelut eivät ole käytettävissä.</string>
     <string name="security_encryption_close_dialog_title">Palaa takaisin järjestelmän oletussalaukseen</string>
@@ -7671,7 +7659,6 @@ PIN-koodi on mahdollisesti virheellinen."</string>
     <string name="sim_select_card">SIM-kortin valinta</string>
     <string name="sim_selection_channel_title">SIM-valinta</string>
     <string name="sim_selection_required_pref">Valinta on pakollinen</string>
-    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM-kortit</string>
     <string name="sim_setup_channel_id">Verkon aktivointi</string>
     <string name="sim_setup_wizard_title">SIM-kortit</string>
@@ -7691,7 +7678,6 @@ Kaksoisnapauta avataksesi Viimeaikaiset."</string>
     <string name="size_kilo_byte">Kt</string>
     <string name="size_mega_byte">Mt</string>
     <string name="size_peta_byte">Pt</string>
-    <string name="size_suffix">%1$s %2$s</string>
     <string name="size_tera_byte">Tt</string>
     <string name="skip_anyway_button_label">Ohita silti</string>
     <string name="skip_label">Ohita</string>
@@ -7886,10 +7872,8 @@ Laitteeseesi asennettu luotettu varmenne tekee tämän mahdolliseksi."</string>
     <string name="status_bar_app_enable_keyguard">Lukitusnäyttö</string>
     <string name="status_bar_app_enable_message">Merkit</string>
     <string name="status_bar_carrier_settings_no_sim_card">Ei SIM-korttia</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_settings">Ilmoitukset &amp; tilapalkki</string>
     <string name="status_bar_settings_all_app_display_loading">Hetki vain…</string>
-    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_manage_notification">Sovellusilmoitukset</string>
     <string name="status_bar_settings_notification_bar">Ilmoitusalue</string>
     <string name="status_bar_settings_status_bar">Tilapalkki</string>
@@ -8182,7 +8166,6 @@ Kokeile ottaa käyttöön nopeampi ^3 tai käytä laitetta ^4 siirrettävänä t
     <string name="sum_carrier_select">Valitse verkko-operaattori</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_divider_text">", "</string>
-    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">%1$s–%2$s</string>
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>
@@ -9038,7 +9021,6 @@ Napauta plussaa lisätäksesi sanoja."</string>
     <string name="vision_settings_title">Näköasetukset</string>
     <string name="voice_access">Ääniohjaimet</string>
     <string name="voice_assist">Mi AI</string>
-    <string name="voice_assist_volume_option_title">@string/voice_assist</string>
     <string name="voice_category">Puhe</string>
     <string name="voice_helper_title">Ääniavustaja</string>
     <string name="voice_input_output_settings">Äänisyöte ja -tulo</string>
@@ -10225,10 +10207,8 @@ Kun poistut Älä häiritse ‑tilasta, löydät ohitetut ilmoitukset pyyhkäise
     <string name="zone_auto_summaryOn">Käytä operaattoriverkon tarjoamaa aikaa</string>
     <string name="zone_auto_title">Aseta aikavyöhyke automaattisesti</string>
     <string name="zone_change_to_from_dst">%1$s alkaa %2$s.</string>
-    <string name="zone_info_exemplar_location_and_offset">%1$s (%2$s)</string>
     <string name="zone_info_footer">Käytössä %1$s. %2$s alkaa %3$s.</string>
     <string name="zone_info_footer_no_dst">Käytössä %1$s. Ei kesäaikaa.</string>
-    <string name="zone_info_offset_and_name">%2$s (%1$s)</string>
     <string name="zone_list_menu_sort_alphabetically">Lajittele aakkosjärjestyksessä</string>
     <string name="zone_list_menu_sort_by_timezone">Lajittele aikavyöhykkeen mukaan</string>
     <string name="zone_menu_by_offset">Valintaperuste: ero UTC-aikaan</string>

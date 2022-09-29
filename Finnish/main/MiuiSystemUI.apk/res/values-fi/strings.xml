@@ -1219,7 +1219,6 @@ tärkeät"</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-korttia ei löydy tai ei voi lukea. Aseta SIM-kortti.</string>
     <string name="keyguard_missing_sim_message">Puhelimessa ei ole SIM-korttia.</string>
     <string name="keyguard_missing_sim_message_short">Ei SIM-korttia</string>
-    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Verkko lukittu</string>
     <string name="keyguard_password_enter_password_code">Poista lukitus antamalla salasana.</string>
     <string name="keyguard_password_enter_pin_code">Anna PIN-koodi.</string>
@@ -1529,14 +1528,12 @@ Lisäksi olet yhteydessä sovellukseen %3$s, joka voi valvoa henkilökohtaista t
 
 Pyydä lisätietoja järjestelmänvalvojalta."</string>
     <string name="monitoring_description_ca_cert_settings">Avaa luotetut todennustiedot</string>
-    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Laitteeseen on asennettu varmenteen myöntäjä. Suojattua verkkoliikennettäsi voidaan valvoa tai muuttaa.</string>
     <string name="monitoring_description_do_body">Järjestelmänvalvoja voi valvoa ja hallita asetuksia, pääsyoikeuksia, sovelluksia, laitteen käyttödataa ja sijaintitietoja.</string>
     <string name="monitoring_description_do_body_vpn">Olet yhteydessä sovellukseen %1$s, joka voi valvoa verkkotoimintaasi, esimerkiksi sähköposteja, sovelluksia ja verkkosivustoja.</string>
     <string name="monitoring_description_do_header_generic">Laitettasi hallinnoi %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s hallinnoi laitettasi sovelluksen %2$s avulla.</string>
     <string name="monitoring_description_do_learn_more">Lisätietoja</string>
-    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Organisaatiosi lisäsi työprofiiliin varmenteen myöntäjän. Suojattua verkkoliikennettäsi voidaan valvoa tai muuttaa.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Työprofiilisi on yhteydessä sovellukseen %1$s, joka voi valvoa toimintaasi verkossa, esimerkiksi sähköposteja, sovelluksia ja verkkosivustoja.</string>
     <string name="monitoring_description_managed_profile_network_logging">Järjestelmänvalvoja on ottanut käyttöön verkkolokitietojen tallentamisen. Sen avulla seurataan liikennettä työprofiilissasi mutta ei henkilökohtaisessa profiilissasi.</string>
@@ -1570,7 +1567,6 @@ Pyydä lisätietoja järjestelmänvalvojalta.
 
 Olet myös yhteydessä VPN:ään, joka voi valvoa toimintaasi verkossa."</string>
     <string name="monitoring_description_vpn_settings">Avaa VPN-asetukset</string>
-    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s voi saada pääsyn tähän laitteeseen liittyvään dataan, ylläpitää sovelluksia ja muuttaa laitteen asetuksia.
 
 Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
@@ -1651,7 +1647,6 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -1682,7 +1677,6 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="nav_bar">Navigointipalkki</string>
     <string name="nav_bar_default">(oletus)</string>
     <string name="nav_bar_layout">Asettelu</string>
-    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="new_notification_image_content_description">%1$s lähetti kuvan</string>
     <string name="new_notification_text_content_description">%1$s lähetti viestin: %2$s</string>
     <string name="new_status_content_description">%1$s on päivittänyt tilansa: %2$s</string>
@@ -1906,7 +1900,6 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="private_dns_mode_provider">Yksityisen DNS-tarjoajan isäntänimi</string>
     <string name="private_dns_mode_provider_failure">Ei yhteyttä</string>
     <string name="private_dns_mode_provider_hostname_hint">Anna isäntänimi tai DNS-tarjoaja</string>
-    <string name="process_kernel_label">Android-käyttöjärjestelmä</string>
     <string name="profile_connect_timeout_subtext">Yhteysvirhe. Sammuta laite ja käynnistä se uudelleen.</string>
     <string name="profile_info_settings_title">Profiilin tiedot</string>
     <string name="profile_owned_footer">Profiilia saatetaan valvoa</string>
@@ -2276,8 +2269,6 @@ valvoa"</string>
     <string name="status_bar_clock_date_time_format_12">h:mm a, E d. MMM</string>
     <string name="status_bar_clock_date_weekday_format">EEEE d. MMMM</string>
     <string name="status_bar_clock_date_weekday_format_12">EEEE d. MMMM</string>
-    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
-    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"E
 d. MMM"</string>
     <string name="status_bar_date_format_12">"E

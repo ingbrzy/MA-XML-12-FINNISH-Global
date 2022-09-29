@@ -415,7 +415,6 @@ mm"</string>
     <string name="sns_access_token_expired_warning">Istunto vanhentunut. Yhdistä tili uudelleen kirjautumalla sisään uudelleen.</string>
     <string name="sns_bind_limit">Liian monta yritystä. Kokeile muita kirjautumistapoja.</string>
     <string name="sns_sign_in">Muita kirjautumistapoja</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>

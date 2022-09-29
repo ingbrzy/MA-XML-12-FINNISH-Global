@@ -58,7 +58,6 @@
     <string name="dual_app_title">Kaksoissovellukset</string>
     <string name="dual_app_words">Jokainen tili ansaitsee oman sovelluksensa</string>
     <string name="early_morning">Aamu</string>
-    <string name="empty">" "</string>
     <string name="eras_ad">jKr.</string>
     <string name="eras_bc">eKr.</string>
     <string name="evening">Iltapäivä</string>
@@ -349,7 +348,6 @@
     <string name="size_peta_byte">Pt</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">Tt</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>

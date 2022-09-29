@@ -252,7 +252,6 @@
     <string name="back">Takaisin</string>
     <string name="bank_card_detail">Luottokortin tiedot</string>
     <string name="bcc">Bcc</string>
-    <string name="bcc_heading">"Bcc: "</string>
     <string name="bill_center_setting">Laskutus asetukset</string>
     <string name="bill_center_setting_head">Tuo tiedot näistä tileistä</string>
     <string name="bill_cycle_text">Laskutusjakso</string>
@@ -274,7 +273,6 @@
     <string name="cancel_pop3_attchemt_downloading">POP3-tilien liitetiedostojen latauksia ei voi peruuttaa</string>
     <string name="cant_move_or_change_labels">Kohteiden siirtäminen usealta tililtä ei onnistu.</string>
     <string name="cc">Cc</string>
-    <string name="cc_attribution">Cc: %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Cc: "</string>
     <string name="certificate_add_failed">Ei voitu lisätä \"%s\" varmennetta</string>
@@ -304,7 +302,6 @@
     <string name="click_to_reload">Napauta näyttöä päivittääksesi</string>
     <string name="close">Sulje</string>
     <string name="collapse_recipient_details">Pienennä vastaanottajan tiedot</string>
-    <string name="colon">:</string>
     <string name="compose">Kirjoita</string>
     <string name="compose_event">Kutsu</string>
     <string name="compose_paste_address_oob">Liian monta merkkiä</string>
@@ -624,7 +621,6 @@
     <string name="go_to_mail_content">Näytä sähköposti</string>
     <string name="have_auth_code">Minulla on koodi</string>
     <string name="header_category_account">Tilit</string>
-    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_label_general_preferences">Yleinen</string>
     <string name="help_and_info">Apua</string>
     <string name="help_me_get_qq_auth">Hanki koodi</string>
@@ -646,7 +642,6 @@
     <string name="interact_with_server_error">Palvelimeen ei saada yhteyttä</string>
     <string name="invalid_recipient_title">Vastaanottajavirhe</string>
     <string name="kilobytes">%s Kt</string>
-    <string name="label_notification_ticker">%1$s: %2$s</string>
     <string name="list_empty_to_fresh">Ei sähköposteja vielä.</string>
     <string name="load_from_remote">Etsi postilaatikosta palvelimella</string>
     <string name="load_more">Lataa lisää</string>
@@ -1169,7 +1164,6 @@ Odota kunnes se on täysin synkronoitu tai katsele viestiä omalta tietokoneelta
 %s"</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
-    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="size_byte">t</string>
     <string name="size_giga_byte">Gt</string>
     <string name="size_kilo_byte">Kt</string>
@@ -1179,7 +1173,6 @@ Odota kunnes se on täysin synkronoitu tai katsele viestiä omalta tietokoneelta
     <string name="size_tera_byte">Tt</string>
     <string name="smtp_password_error">Lähtevän sähköpostipalvelimen salasana on virheellinen</string>
     <string name="sort_attachment">Lajittele</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="str_select_all">Valitse kaikki</string>
     <string name="str_select_none">Kumoa kaikkien valinta</string>
     <string name="subject_and_snippet">%1$s - %2$s</string>
