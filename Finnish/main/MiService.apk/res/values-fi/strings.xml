@@ -32,6 +32,7 @@
     <string name="am">ap.</string>
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
     <string name="close">Sulje</string>
+    <string name="common_google_play_services_unknown_issue">Sovelluksella %1$s on ongelmia Google Play Palveluiden kanssa. Yritä uudelleen.</string>
     <string name="copy">Kopioi</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -105,6 +106,7 @@
     <string name="icon_remove_description_content">\"Palvelut &amp; palaute\" on järjestelmäsovellus. Voit silti käyttää sitä Asetusten kautta poistettuasi aloitusnäytön pikavalinnan.</string>
     <string name="icon_remove_description_title">Poistetaanko \"Palvelut &amp; palaute\" aloitusnäytöltä?</string>
     <string name="mi_service_app_name">Palvelut &amp; palaute</string>
+    <string name="mi_service_back">Takaisin</string>
     <string name="midnight">Yö</string>
     <string name="miservice_channel_update_notification_info">\"Palvelut &amp; palaute\" pyytää parhaillaan online-tietoja…</string>
     <string name="miservice_notification_boot_content">Opi lisää, mihin MIUI pystyy</string>
@@ -114,7 +116,7 @@
     <string name="miservice_notification_open_feedback_title">Esittelyssä \"Palvelut ja palaute\"</string>
     <string name="miservice_notification_scan_content">Käytä skanneria sanojen ja lauseiden kääntämiseen</string>
     <string name="miservice_notification_scan_title">Käännä hetkessä</string>
-    <string name="miui_feedback_answer_detail_community">Voit löytää vastauksia kysymyksiisi Mi-yhteisössä</string>
+    <string name="miui_feedback_answer_detail_community">Löydät vastaukset kysymyksiisi kohteessa Xiaomi Community</string>
     <string name="miui_feedback_answer_detail_feedback_resolved">Kyllä</string>
     <string name="miui_feedback_answer_detail_feedback_result">Kiitos palautteestasi!</string>
     <string name="miui_feedback_answer_detail_feedback_title">Oliko tämä tieto hyödyllistä?</string>
@@ -182,7 +184,6 @@
     <string name="miui_feedback_edit_toast_module_required">Valitse kohde</string>
     <string name="miui_feedback_edit_toast_more_desc_required">Kuvauksesi pitää olla pidempi</string>
     <string name="miui_feedback_edit_toast_problem_class_required">Valitse kategoria</string>
-    <string name="miui_feedback_edit_toast_screenshot_too_large">Kuvia tai videoita, joiden koko on suurempi kuin 100 Mt, ei voi ladata</string>
     <string name="miui_feedback_edit_toast_third_packagename_required">Syötä sovelluksen nimi</string>
     <string name="miui_feedback_main_answer_title">Tähän kysymykseen on vastaus</string>
     <string name="miui_feedback_main_customer_service_onfo_for_jp">"Palvelupuhelin: 0120-300-521
@@ -205,15 +206,6 @@ Sähköposti:service.jp@xiaomi.com"</string>
     <string name="miui_feedback_main_title">Palaute</string>
     <string name="miui_feedback_main_withdraw">Peruuta suostumus</string>
     <string name="miui_feedback_main_withdraw_consent_hint">Jos jatkat, peruutat suostumuksesi %1$s-tietosuojakäytäntöön. Valmiiksi kerätyt ja säilytetyt henkilötiedot poistetaan tietyn ajan kuluessa sovellettavien lakien ja määräysten mukaisesti, ellei toisin edellytetä. Koska %2$s tarjoaa palveluitaan tarvittavien henkilökohtaisten tietojen keräämisen pohjalta, suostumuksesi peruuttaminen katsotaan kieltäytykseksi hyväksyä %3$s-palvelut. Peruutetaanko suostumus nyt?</string>
-    <string name="miui_guide_accessibility_image_desc">Kuva</string>
-    <string name="miui_guide_clear_db_service">\"Palvelut &amp; palaute\" puhdistaa parhaillaan kielivälimuistia…</string>
-    <string name="miui_guide_footer_desc">Aloittajan opas on suunniteltu auttamaan sinua oppimaan enemmän laitteestasi ja MIUI:sta. Jotkut kuvat ja videot oppaassa on luotu ainoastaan viitetarkoituksiin ja saattavat poiketa todellisesta tuotteesta. Tässä oppaassa esiteltyt ominaisuudet saattavat vaihdella riippuen laitemallistasi, MIUI-versiosta ja käyttöympäristöstä.</string>
-    <string name="miui_guide_item_complete">Valmis</string>
-    <string name="miui_guide_item_new">Uusi</string>
-    <string name="miui_guide_item_progress">%1$d/%2$d valmis</string>
-    <string name="miui_guide_menu_privacy">Tietosuojakäytäntö</string>
-    <string name="miui_guide_top_bar_sub_title">Tutustu, mihin MIUI pystyy</string>
-    <string name="miui_guide_top_bar_title">Aloittajan opas</string>
     <string name="miui_main_back">Takaisin</string>
     <string name="miui_main_bottom_bar_feedback">Palaute</string>
     <string name="miui_main_bottom_bar_guide">Aloittajan opas</string>
@@ -222,6 +214,10 @@ Sähköposti:service.jp@xiaomi.com"</string>
     <string name="miui_main_control_center_desc">Tai vaihda vanhaan versioon kohdassa Asetukset > Ilmoitukset &amp; Ohjauskeskus</string>
     <string name="miui_main_control_center_open">Uusi ohjauskeskus</string>
     <string name="miui_main_control_center_title">Pyyhkäise vaihtaaksesi ilmoitusalueen ja ohjauskeskuksen välillä</string>
+    <string name="miui_main_icon_callback">Aloitusnäytön pikavalinta</string>
+    <string name="miui_main_icon_callback_create">Luo</string>
+    <string name="miui_main_icon_callback_desc">Luodaanko aloitusnäytön pikavalinta nyt?</string>
+    <string name="miui_main_icon_callback_nocreate">Peruuta</string>
     <string name="miui_main_mirror_tab_desc1">Yhdistä automaattisesti</string>
     <string name="miui_main_mirror_tab_desc2">Katsele kuvia suuremmalla näytöllä</string>
     <string name="miui_main_mirror_tab_desc3">Jaa tiedostoja hetkessä</string>
@@ -325,7 +321,7 @@ Sähköposti:service.jp@xiaomi.com"</string>
     <string name="permission_china_version_msg">&lt;Data>Ennen kuin käytät kohdetta \"Palvelut &amp;amp; palaute\", sinun on luettava ja hyväksyttävä meidän &lt;a href=%1$s>Käyttäjäsopimus&lt;/a> ja &lt;a href=%2$s>Tietosuojakäytäntö&lt;/a>. Tämän sovelluksen myös yhdistettävä verkkoon toimiakseen normaalisti.&lt;/Data></string>
     <string name="permission_complete">Tehty</string>
     <string name="permission_contacts_info">Siirry tilitietoihin</string>
-    <string name="permission_contacts_introduce">Kirjautuaksesi sisään käyttäen Mi-tiliä</string>
+    <string name="permission_contacts_introduce">Kirjautumiseen Xiaomi-tilillä</string>
     <string name="permission_device_info">Siirry laitetietoihin</string>
     <string name="permission_device_introduce">Rajoitetun takuuajan määrittämiseksi</string>
     <string name="permission_exit">Poistu</string>

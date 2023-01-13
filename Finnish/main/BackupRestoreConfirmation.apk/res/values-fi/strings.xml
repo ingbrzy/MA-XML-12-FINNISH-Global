@@ -7,7 +7,6 @@
 Jos et ole itse pyytänyt varmuuskopiota, älä salli toimintoa."</string>
     <string name="backup_confirm_title">Täysi varmuuskopiointi</string>
     <string name="backup_enc_password_optional">Jos haluat salata kaikki varmuuskopiotiedot, kirjoita salasana alle:</string>
-    <string name="backup_enc_password_required">Koska laite on salattu, myös varmuuskopiointi on salattava. Kirjoita salasana alle:</string>
     <string name="backup_enc_password_text">Lisää salasana kaikkien varmuuskopiotietojen salaamiseksi. Jos tämä jätetään tyhjäksi, nykyistä varmuuskopioinnin salasanaa käytetään:</string>
     <string name="current_password_text">Kirjoita nykyinen varmuuskopioinnin salasana alla:</string>
     <string name="deny_backup_button_label">Älä varmuuskopioi</string>

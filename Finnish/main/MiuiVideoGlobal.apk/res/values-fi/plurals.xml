@@ -44,6 +44,18 @@
         <item quantity="other">%s tähteä valittu</item>
         <item quantity="one">%s tähti valittu</item>
     </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Siirry eteenpäin %d sekuntia</item>
+        <item quantity="one">Siirry eteenpäin %d sekunti</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Siirry taaksepäin %d sekuntia</item>
+        <item quantity="one">Siirry taaksepäin %d sekunti</item>
+    </plurals>
+    <plurals name="fcmpts_dialog_one">
+        <item quantity="other">Katso %s sekuntia lisää videota ansaitaksesi pisteitä ja lunastaaksesi palkintoja</item>
+        <item quantity="one">Katso %s sekunti lisää videota ansaitaksesi pisteitä ja lunastaaksesi palkintoja</item>
+    </plurals>
     <plurals name="feed_back_home">
         <item quantity="other">Palataan takaisin kotisivulle %1$d sekunnissa…</item>
         <item quantity="one">Palataan takaisin kotisivulle %1$d sekunnissa…</item>
@@ -51,6 +63,10 @@
     <plurals name="half_hour_ago">
         <item quantity="other">Puoli tuntia sitten</item>
         <item quantity="one">Puoli tuntia sitten</item>
+    </plurals>
+    <plurals name="hint_local_guide_views">
+        <item quantity="other">%s katselukertaa</item>
+        <item quantity="one">%s katselukerta</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">1 tunnin kuluttua</item>
@@ -194,6 +210,10 @@ Saatavilla vain tänään"</item>
         <item quantity="other">%d uutta ilmoitusta</item>
         <item quantity="one">%d uusi ilmoitus</item>
     </plurals>
+    <plurals name="music_playlist_title_count">
+        <item quantity="other">%d kappaletta</item>
+        <item quantity="one">%d kappale</item>
+    </plurals>
     <plurals name="new_incentive_toast_share_success">
         <item quantity="other">Jakaminen onnistui. Olet ansainnut %d pistettä. Lunasta pistekeskuksessa.</item>
         <item quantity="one">Jakaminen onnistui. Olet ansainnut %d pisteen. Lunasta pistekeskuksessa.</item>
@@ -277,6 +297,10 @@ Saatavilla vain tänään"</item>
     <plurals name="toast_bookmark_max_size">
         <item quantity="other">Lisää enintään %d kirjanmerkkiä</item>
         <item quantity="one">Lisää enintään %d kirjanmerkki</item>
+    </plurals>
+    <plurals name="v_confirm_hide_videos_new">
+        <item quantity="other">Piilotetaanko %d valittua tiedostoa?</item>
+        <item quantity="one">Piilotetaanko %d valittu tiedosto?</item>
     </plurals>
     <plurals name="video_like_text">
         <item quantity="other">%s tykkäystä</item>

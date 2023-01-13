@@ -28,8 +28,6 @@
     <string name="abc_shareactionprovider_share_with_application">Jaa: %s</string>
     <string name="abc_toolbar_collapse_description">Tiivistä</string>
     <string name="access_sd_fail">Ei voitu yhdistää SD-korttiin.</string>
-    <string name="accessibility_8k_off">8K on pois käytöstä</string>
-    <string name="accessibility_8k_on">8K on käytössä</string>
     <string name="accessibility_add">Lisää</string>
     <string name="accessibility_ai_identify">Tunnista</string>
     <string name="accessibility_ai_scene_off">AI camera is off</string>
@@ -37,6 +35,7 @@
     <string name="accessibility_ai_watermark_panel_on">AI-vesileimapaneeli</string>
     <string name="accessibility_ambilight_panel_on">Avaa pitkän valotuksen paneeli</string>
     <string name="accessibility_back_preview_status">Takakameran esikatselu</string>
+    <string name="accessibility_beauty_compare">Näytä kuva Ehostuksella ja ilman</string>
     <string name="accessibility_beauty_function_button">Ehostus</string>
     <string name="accessibility_beauty_function_panel_on">Ehostuspaneeli</string>
     <string name="accessibility_beauty_panel_closed">Ehostusvalikko on piilotettu</string>
@@ -59,11 +58,9 @@
     <string name="accessibility_camera_switch_capture_recording">Vaihtaminen valokuva- ja videotilojen välillä</string>
     <string name="accessibility_camera_ultra_wide_bokeh_off">Kokovartalotila pois päältä</string>
     <string name="accessibility_camera_ultra_wide_bokeh_on">Kokovartalotila päällä</string>
-    <string name="accessibility_camera_video_960fps_120">120FPS</string>
-    <string name="accessibility_camera_video_960fps_240">240FPS</string>
-    <string name="accessibility_camera_video_960fps_960">960FPS</string>
-    <string name="accessibility_camera_video_fps_120">120FPS</string>
-    <string name="accessibility_camera_video_fps_30">30FPS</string>
+    <string name="accessibility_camera_video_960fps_120">%dFPS</string>
+    <string name="accessibility_camera_video_960fps_240">%dFPS</string>
+    <string name="accessibility_camera_video_960fps_960">%dFPS</string>
     <string name="accessibility_camera_video_slow_motion_fps">%dFPS</string>
     <string name="accessibility_closed">Pois</string>
     <string name="accessibility_color">Väri</string>
@@ -329,13 +326,12 @@ ja säädä asetuksia automaattisesti"</string>
     <string name="audio_focus_exit_button_text">Sammuta Audio focus</string>
     <string name="audio_map_summary_tip">Seuraa vasemman ja oikean kanavan äänenvoimakkuutta reaaliajassa ja säädä sitä liukusäätimellä</string>
     <string name="auto_hibernation_enter_tip">Aika sammuttaa näyttö…</string>
-    <string name="autozoom_click_hint">Napauta objektia säilyttääksesi tarkennuksen sen liikkuessa. Pysy vähintään 3 metrin etäisyydellä parhaan efektin saavuttamiseksi.</string>
+    <string name="autozoom_click_hint">Napauta kohdetta pitääksesi sen tarkennettuna sen liikkuessa. Pysy vähintään %d metrin päässä parhaan tuloksen saavuttamiseksi.</string>
     <string name="autozoom_disabled_hint">Liikkuvan objektin seuraaminen lopetettu</string>
     <string name="autozoom_hint">Seuraa liikkuvaa objektia</string>
     <string name="auxiliary_close_status">Lisätehosteet ovat pois käytöstä</string>
     <string name="auxiliary_exposure_feedback_status">Valotuksen varmennus on käytössä</string>
     <string name="auxiliary_focus_peak_status">Huipputarkennus on käytössä</string>
-    <string name="back_bokeh_use_hint">Aseta kohde alle 1,5 metrin päähän saadaksesi parhaan tuloksen</string>
     <string name="background">Tausta</string>
     <string name="beauty_body">Vartalo</string>
     <string name="beauty_body_body">Hoikka</string>
@@ -353,6 +349,7 @@ ja säädä asetuksia automaattisesti"</string>
     <string name="beauty_fragment_tab_name_beauty">Ehostus</string>
     <string name="beauty_fragment_tab_name_makeup">Lisäasetukset</string>
     <string name="beauty_fragment_tab_name_makeups">Meikkaus</string>
+    <string name="beauty_fx_makeup_cv">Retusoi</string>
     <string name="beauty_lens">Suuri aukko</string>
     <string name="beauty_lens_1">Ihmiset</string>
     <string name="beauty_lens_1_description">Luo ammattimainen boke ja muuta otoksesi upeiksi muotokuviksi.</string>
@@ -366,15 +363,25 @@ ja säädä asetuksia automaattisesti"</string>
     <string name="beauty_lens_none">Sumenna</string>
     <string name="beauty_lens_use_hint">Käytä suurta aukkoa sumennaksesi taustan ja korostaaksesi etualalla olevia kohteita.</string>
     <string name="beauty_makeups_bluefemale">Huurre</string>
+    <string name="beauty_makeups_danyan">Nude</string>
     <string name="beauty_makeups_gentleman">Hopea</string>
     <string name="beauty_makeups_nude">Nude</string>
     <string name="beauty_makeups_pinkfemale">Terälehti</string>
+    <string name="beauty_makeups_qianjin">Punaruskea</string>
+    <string name="beauty_makeups_ruanmei">Teini</string>
     <string name="beauty_makeups_solid">Ääriviivat</string>
+    <string name="beauty_makeups_subeffect_filter">Suodattimet</string>
+    <string name="beauty_makeups_subeffect_makeup">Meikki</string>
     <string name="beauty_makeups_toughman">Pronssi</string>
+    <string name="beauty_makeups_xiazhi">Alaluomiväri</string>
+    <string name="beauty_makeups_yanku">Jääkuningatar</string>
+    <string name="beauty_makeups_yuanqi">Tuore</string>
     <string name="beauty_mo_fe">Luonnollinen</string>
     <string name="beauty_mo_ma">Klassinen</string>
     <string name="beauty_mo_or">Alkuperäinen</string>
+    <string name="beauty_mo_pr_cv">Tekstuurit</string>
     <string name="beauty_mode_reset_toast">Uudelleenmuotoilutehosteet on poistettu</string>
+    <string name="beauty_mutex_toast_tip">&lt;a href=>Poista ensin&lt;/a> meikkitehosteet käytöstä</string>
     <string name="beauty_ne">Alkuperäinen</string>
     <string name="beauty_no_t">Ehostus pois</string>
     <string name="beauty_origin_skincolor">Alkuperäinen</string>
@@ -390,6 +397,7 @@ ja säädä asetuksia automaattisesti"</string>
     <string name="beauty_skincolor_wheat">Vehnä</string>
     <string name="beauty_skincolor_white">Norsunluu</string>
     <string name="beauty_sm_or">Iho</string>
+    <string name="beauty_sm_texture_cv">Iho</string>
     <string name="beauty_tab_name_live_beauty">Ehostus</string>
     <string name="beauty_tab_name_live_filter">Suodattimet</string>
     <string name="bokeh_use_hint">Syvyysefekti</string>
@@ -397,8 +405,11 @@ ja säädä asetuksia automaattisesti"</string>
     <string name="button_fisheye_camera_title">Kalansilmä</string>
     <string name="button_front_camera_title">Ota selfie</string>
     <string name="button_normal_video_title">Nauhoita video</string>
-    <string name="camcorder_tip_8k_max_video_duration">Voit tallentaa jopa 6 minuuttia 8K-muodossa</string>
+    <string name="camcorder_tip_8k_max_video_duration">Voit tallentaa jopa %1$d minuuttia 8K-tarkkuudella</string>
     <string name="camcorder_tip_current_max_video_duration">Voit tallentaa enintään %d minuuttia videolle nykyisellä resoluutiolla</string>
+    <string name="camcorder_tip_isp_super_night_video_max_video_duration">Voit tallentaa jopa %d minuuttia</string>
+    <string name="camcorder_tip_super_night_video_1080P_max_video_duration">1080P最长可录制%d分钟</string>
+    <string name="camcorder_tip_super_night_video_4k_max_video_duration">Voit tallentaa jopa %d minuuttia 4K-tarkkuudella</string>
     <string name="camera_disabled">Kamera on otettu pois käytöstä</string>
     <string name="camera_error_title">Kameravirhe</string>
     <string name="camera_fastmotion_title">Nopeutusvideot</string>
@@ -411,6 +422,7 @@ ja säädä asetuksia automaattisesti"</string>
     <string name="camera_newcta_message">"Tervetuloa Kameraan! Voit käyttää tätä sovellusta valokuvien ottamiseen ja videoiden tallentamiseen. "</string>
     <string name="camera_newcta_other_message">Jotta voimme tarjota sinulle lisäpalveluja sovelluksen käytön aikana, saatamme tarvita käyttöoikeudet sijaintisi käyttämiseen.</string>
     <string name="camera_newcta_storage_message">Valokuvien ja videoiden tallentamiseen ja näyttämiseen</string>
+    <string name="camera_newcta_storage_message_1">Kuvien, videoiden ja tiedostojen tallentamiseen ja näyttämiseen</string>
     <string name="camera_setting">Kamera</string>
     <string name="camera_settings_category_development">Kokeelliset ominaisuudet</string>
     <string name="camera_settings_label">Kamera</string>
@@ -458,11 +470,12 @@ ja säädä asetuksia automaattisesti"</string>
     <string name="clone_video_mode">Video</string>
     <string name="close">Sulje</string>
     <string name="close_back_flash_toast">Salama pois päältä ylikuumenemisen vuoksi</string>
+    <string name="close_flash_toast">Salamaa ei voi käyttää vähäisen akun takia</string>
     <string name="close_front_flash_toast">Laitteesi on ylikuumentunut, eikä salamaa voi nyt käyttää.</string>
     <string name="close_night_algo_toast_low_power">Lataa laite voidaksesi asettaa valotuksen</string>
     <string name="close_night_algo_toast_thermal">Jäähdytä laite voidaksesi asettaa valotuksen</string>
     <string name="color_effect_entry_berry">Marjat</string>
-    <string name="color_effect_entry_blackgold">Gold vibes</string>
+    <string name="color_effect_entry_blackgold">Kultavivahteet</string>
     <string name="color_effect_entry_blackgold_describe">Tämä suurikontrastinen suodatin säilyttää vain keltaiset ja tummansiniset värit. Käytä sitä yön kaupungin hyvin valaistuilla kaduilla.</string>
     <string name="color_effect_entry_blackice">Musta jää</string>
     <string name="color_effect_entry_blackwhite">Mustavalkoinen</string>
@@ -486,6 +499,7 @@ ja säädä asetuksia automaattisesti"</string>
     <string name="color_effect_entry_new_5">Carmen</string>
     <string name="color_effect_entry_new_5_describe">Ruskeat sävyt ja keskitasoinen kontrasti luovat lämpimän ilmapiirin luonnonvalossa otetuille ulkoilmakohtauksille.</string>
     <string name="color_effect_entry_new_bbp_describe">Suuri kontrasti ja alhainen värikylläisyys tuovat elokuvamaista tunnelmaa useimpiin kohtauksiin.</string>
+    <string name="color_effect_entry_noraml_cv">Leica Standard</string>
     <string name="color_effect_entry_orange">Lime</string>
     <string name="color_effect_entry_orange_describe">Klassinen elokuvatemppu, joka tekee pimeistä alueista kylmempiä ja valoista lämpimämpiä. Tämä suodatin virkistää sekä kaupunkiviidakkoa että upeaa ulkoilmaa.</string>
     <string name="color_effect_entry_quiet">Tyyni</string>
@@ -543,6 +557,7 @@ ja säädä asetuksia automaattisesti"</string>
     <string name="cta_perm_voice">Käytä mikrofonia</string>
     <string name="cta_perm_voice_desc">Äänen nauhoittamiseen videoita kuvatessa</string>
     <string name="cta_user_tips">&lt;Data>Ymmärtääksesi täysin käyttäjäoikeutesi sekä tavat, joilla käytämme tietojasi, lue ja hyväksy meidän &lt;a href =%1$s>Käyttäjäsopimus&lt;/a> ja &lt;a href =%2$s>Tietosuojakäytäntö&lt;/a>.&lt;/Data></string>
+    <string name="custom_content_unavailable_alert">Syöttämääsi tekstiä ei voi käyttää. Kokeile jotain muuta tilalle.</string>
     <string name="custom_sound_art">Retro</string>
     <string name="custom_sound_default">Oletus</string>
     <string name="custom_sound_modern">Moderni</string>
@@ -554,13 +569,25 @@ ja säädä asetuksia automaattisesti"</string>
     <string name="custom_tint_color_select">Mukauta värejä</string>
     <string name="custom_tint_color_sky_blue">Sininen</string>
     <string name="custom_tint_color_sky_cyan">Syaani</string>
-    <string name="custom_watermark_contains_senstive_words">Vesileimoissa ei voi olla rajoitettuja termejä (%1$s)</string>
-    <string name="custom_watermark_tips">Tämä teksti näkyy vesileimasi toisella rivillä. Siinä voi olla korkeintaan 18 kirjainta tai 14 kiinalaista kirjoitusmerkkiä.</string>
     <string name="custom_watermark_tips_gen2">Enintään %1$d kiinalaista merkkiä tai %2$d kirjainta.</string>
     <string name="custom_watermark_too_many_words">Syöttämäsi teksti on liian pitkä</string>
     <string name="custom_watermark_words">Muokattu vesileima</string>
     <string name="custom_watermark_words_input_hint">Syötä teksti</string>
     <string name="custom_watermark_words_save_success">Tallennettu onnistuneesti</string>
+    <string name="cv_lens_35mm">%dmm</string>
+    <string name="cv_lens_50mm">%dmm</string>
+    <string name="cv_lens_90mm">%dmm</string>
+    <string name="cv_lens_black_white">Mustavalkoinen</string>
+    <string name="cv_lens_msg">Ota upeita valokuvia Pro-objektiiveilla</string>
+    <string name="cv_lens_rotary_focus">Pyörteinen sumennus</string>
+    <string name="cv_lens_soft_focus">Pehmeä tarkennus</string>
+    <string name="cv_lens_title">Pro-objektiivit</string>
+    <string name="cvtype_btn_select">Käytä \"%1$s\"</string>
+    <string name="cvtype_hint_title">Valitse tyyli</string>
+    <string name="cvtype_item_btn_title1">Leica Authentic</string>
+    <string name="cvtype_item_btn_title2">Leica Vibrant</string>
+    <string name="cvtype_item_title1">Luonnollinen ja realistinen</string>
+    <string name="cvtype_item_title2">Raikas ja eloisa</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -577,7 +604,6 @@ ja säädä asetuksia automaattisesti"</string>
     <string name="dialog_button_ok">OK</string>
     <string name="dialog_button_reject">Hylkää</string>
     <string name="dialog_button_scan">Etsi laitteita</string>
-    <string name="dialog_google_lens_option_0">Google Lens (Suositeltu)</string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_ok_time">OK (%ds)</string>
     <string name="dialog_privacy_watermark_button_cancel">Peruuta</string>
@@ -630,7 +656,6 @@ skannattuja asiakirjoja automaattisesti"</string>
     <string name="dual_camera_lens_covered_toast">Linssi on peitetty.</string>
     <string name="dual_camera_lowlight_toast">Näyttää siltä, että on liian pimeää.</string>
     <string name="dual_camera_too_close_toast">Kamera on liian lähellä kohdetta.</string>
-    <string name="dual_camera_use_hint">Varmista, että kohde ei ole yli 2 metrin etäisyydellä.</string>
     <string name="dual_video_record_merged">Yhdistetty</string>
     <string name="dual_video_record_remote">Kaksoistallennus puhelimella</string>
     <string name="dual_video_record_standalone">Erotettu</string>
@@ -646,6 +671,7 @@ Kaksoistallennus puhelimella voi myös muodostaa yhteyden toiseen lahellä oleva
     <string name="dual_video_user_guide_standalone_content_new">Samanaikaisesti tallennetut videot voidaan myös erottaa ja tallentaa kahtena tiedostona.</string>
     <string name="early_morning">Aamu</string>
     <string name="edit_blusher">Poskipuna</string>
+    <string name="edit_cheekbone">Poskipäät</string>
     <string name="edit_chin">Leuka</string>
     <string name="edit_color_skin">Ihonsävy</string>
     <string name="edit_eye_large">Isot silmät</string>
@@ -653,11 +679,14 @@ Kaksoistallennus puhelimella voi myös muodostaa yhteyden toiseen lahellä oleva
     <string name="edit_face_ruddy">Punaposkinen</string>
     <string name="edit_face_slender">Hoikka</string>
     <string name="edit_hairline">Hiusraja</string>
+    <string name="edit_head_narrow">Pään koko</string>
+    <string name="edit_jaw">Alaleuka</string>
     <string name="edit_jelly_lips">Huulikiilto</string>
     <string name="edit_lips">Huulet</string>
     <string name="edit_makeup">Meikkaus</string>
     <string name="edit_neck">Kaula</string>
     <string name="edit_nose">Nenä</string>
+    <string name="edit_nose_tip">Nenäkärki</string>
     <string name="edit_pupil_line">Silmänrajaus</string>
     <string name="edit_risorius">Hymylihas</string>
     <string name="edit_skin_smooth">Tasainen</string>
@@ -665,7 +694,10 @@ Kaksoistallennus puhelimella voi myös muodostaa yhteyden toiseen lahellä oleva
     <string name="edit_slim_nose">Nenä</string>
     <string name="edit_smile">Hymy</string>
     <string name="edit_solid">Ääriviivat</string>
+    <string name="edit_temple">Ohimot</string>
+    <string name="edit_touch_up">Meikki</string>
     <string name="emoticon">Tarrapaketti</string>
+    <string name="empty" />
     <string name="eras_ad">jKr.</string>
     <string name="eras_bc">eKr.</string>
     <string name="error_fail_to_start_audio_capture">Ei voitu aloittaa äänen tallennusta</string>
@@ -686,18 +718,6 @@ Kaksoistallennus puhelimella voi myös muodostaa yhteyden toiseen lahellä oleva
     <string name="face_analyze_info_female">Nainen</string>
     <string name="face_analyze_info_male">Mies</string>
     <string name="face_beauty_advanced">Pro</string>
-    <string name="face_beauty_age_alias_female_0_7">Nainen 0-7</string>
-    <string name="face_beauty_age_alias_female_18_30">Nainen 18-30</string>
-    <string name="face_beauty_age_alias_female_31_44">Nainen 31-44</string>
-    <string name="face_beauty_age_alias_female_45_60">Nainen 45-60</string>
-    <string name="face_beauty_age_alias_female_60_m">Nainen 60+</string>
-    <string name="face_beauty_age_alias_female_8_17">Nainen 8-17</string>
-    <string name="face_beauty_age_alias_male_0_7">Mies 0-7</string>
-    <string name="face_beauty_age_alias_male_18_30">Mies 18-30</string>
-    <string name="face_beauty_age_alias_male_31_44">Mies 31-44</string>
-    <string name="face_beauty_age_alias_male_45_60">Mies 45-60</string>
-    <string name="face_beauty_age_alias_male_60_m">Mies 60+</string>
-    <string name="face_beauty_age_alias_male_8_17">Mies 8-17</string>
     <string name="face_beauty_close">Pois</string>
     <string name="face_beauty_intelligent_level_0">Pois</string>
     <string name="face_beauty_intelligent_level_1">Matala</string>
@@ -719,6 +739,7 @@ Kaksoistallennus puhelimella voi myös muodostaa yhteyden toiseen lahellä oleva
     <string name="film_video_c">Aikapysäytys</string>
     <string name="film_video_d">Yöintervalli</string>
     <string name="film_video_e">Rinnakkaismaailma</string>
+    <string name="film_video_f">Ajassa taaksepäin</string>
     <string name="film_video_tip">Käytä jalustaa</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -781,6 +802,7 @@ Kaksoistallennus puhelimella voi myös muodostaa yhteyden toiseen lahellä oleva
     <string name="front_camera_hint_text_place">"Selfieiden kuvaaminen on helpompaa
 jos kierrät puhelimesi"</string>
     <string name="front_camera_hint_text_rotate">Kierrä puhelimesi</string>
+    <string name="guide_pop_window_msg_cv_lens">Kokeile Pro-objektiiveja napauttamalla</string>
     <string name="hand_gesture_open_tip">Aktivoi ajastin näyttämällä kämmentäsi kameralle</string>
     <string name="hand_gesture_tip">Etälaukaisu kämmenellä</string>
     <string name="hibernate_hint">Napauta näyttöä kameran herättämiseksi</string>
@@ -883,6 +905,7 @@ muotokuvatilassa"</string>
     <string name="location_permission_not_ask_again">Salli kameran käyttää sijaintiasi kohdassa Asetukset.</string>
     <string name="location_permission_not_ask_again_go_to_settings">Salli</string>
     <string name="log_format">LOG</string>
+    <string name="low_battery_to_save_video">Näyttää siltä, että laitteesi akku on nyt liian vähäinen. Lopeta tallennus ja tallenna video, ennen kuin laite sammuu.</string>
     <string name="lpl_dialog_item_name_burst">Pidä painettuna sarjakuvataksesi</string>
     <string name="lpl_dialog_item_name_record">Nauhoita video pitämällä painettuna</string>
     <string name="lpl_dialog_title">Valitse sulkimen toiminto</string>
@@ -901,7 +924,6 @@ muotokuvatilassa"</string>
     <string name="lunch_storge_permission_not_ask_again">Salli tämän sovelluksen käyttää tallennustilaa voidaksesi käyttää tätä ominaisuutta.</string>
     <string name="lying_direct_hint">Nykyinen orientaatio</string>
     <string name="macro_mode">Makro</string>
-    <string name="macro_mode_tip">Linssin ja objektin välinen etäisyys ei olla enempää kuin 10 cm</string>
     <string name="macro_mode_use_hint_text_body">"Käytä Makro-tilaa saadaksesi pienet kohteet
 näyttämään suuremmilta valokuvissa"</string>
     <string name="macro_mode_use_hint_text_title">Makro</string>
@@ -1026,6 +1048,7 @@ näyttämään suuremmilta valokuvissa"</string>
     <string name="mimoji_tab_cartoon">Piirretty</string>
     <string name="mimoji_tab_human">Henkilö</string>
     <string name="mimoji_tips">Ota kuva napauttamalla. Pidä painettuna ottaaksesi videon.</string>
+    <string name="miuix_access_state_desc">Valittu</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
@@ -1072,6 +1095,7 @@ näyttämään suuremmilta valokuvissa"</string>
     <string name="module_name_multi_camera">Multikamera</string>
     <string name="module_name_new_slow_motion">Hidastus</string>
     <string name="module_name_panorama">Panoraama</string>
+    <string name="module_name_pixel">Ultra HD</string>
     <string name="module_name_pixel_108m">108MP</string>
     <string name="module_name_pixel_48m">48MP</string>
     <string name="module_name_pixel_50m">50MP</string>
@@ -1083,6 +1107,12 @@ näyttämään suuremmilta valokuvissa"</string>
     <string name="module_name_super_moon">Superkuu</string>
     <string name="module_name_video">Video</string>
     <string name="module_name_vlog">VLOGI</string>
+    <string name="moiton_detection_960_fps_video_tip" formatted="false">%1dfps-videot voivat olla enintään %2d sekuntia pitkä</string>
+    <string name="moiton_detection_tip">Havaitaan liikettä… Pidä laite vakaana.</string>
+    <string name="moiton_detection_video_3840fps_3840">%dFPS</string>
+    <string name="moiton_detection_video_electric_quantity_tip">Lataa laitteesi voidaksesi käyttää tätä ominaisuutta</string>
+    <string name="moiton_detection_video_temperature_stop_tip">Laitteesi on ylikuumentunut. Tallennus päättyy %d sekunnin kuluttua.</string>
+    <string name="moiton_detection_video_temperature_tip">Jäähdytä laitettasi voidaksesi käyttää tätä ominaisuutta</string>
     <string name="moive_frame">Elokuvakehys</string>
     <string name="monday">Maanantai</string>
     <string name="monday_short">Ma</string>
@@ -1141,6 +1171,8 @@ näyttämään suuremmilta valokuvissa"</string>
     <string name="network_connection_prerequisites_china">Turn on Bluetooth and WLAN in Control center to be able to use Dual phone recording.</string>
     <string name="network_connection_rejected">Hylätty</string>
     <string name="network_connection_timed_out">Yhteys aikakatkaistiin</string>
+    <string name="new_bie_dialog_cancel">Sulje ominaisuuden kuvaus</string>
+    <string name="new_bie_dialog_desc">Ominaisuuden kuvaus</string>
     <string name="newbie_privacy_watermark_msg">Käytä vesileimoja suojellaksesi asiakirjojasi luvattomalta kopioimiselta</string>
     <string name="newbie_privacy_watermark_title">Suojaa asiakirjasi</string>
     <string name="night">Ilta</string>
@@ -1199,7 +1231,7 @@ näyttämään suuremmilta valokuvissa"</string>
     <string name="parameter_peak_raw_description">Tämä kuvaformaatti kaappaa kaikki kuvatiedot, jotka anturi on tallentanut, ottaessasi valokuvan. Pakkaamaton data antaa sinulle enemmän vaihtoehtoja jälkikäsittelyyn.</string>
     <string name="parameter_peak_raw_title">RAW-formaatti</string>
     <string name="parameter_videos_title">Elokuvatehosteet</string>
-    <string name="parameter_wb_description">Valkotasapainon esiasetusten (hehkulamppu, päivävalo, loisteputki, samea) lisäksi voit myös asettaa valkotasapainon mukautettuun arvoon 2000 – 8000 kelvin-alueella.</string>
+    <string name="parameter_wb_description">Valkotasapainon esiasetusten (hehkulamppu, päivänvalo, loisteputki, pilvinen) lisäksi voit myös määrittää valkotasapainon mukautettuun arvoon %1$d-%2$d Kelvinin alueella.</string>
     <string name="parameter_wb_title">Valkotasapaino</string>
     <string name="parameter_zoom_slider_description">Vedä zoomauksen liukusäädintä vaakasuunnassa vaihtaaksesi sujuvasti etäotoksesta lähiotokseen.</string>
     <string name="parameter_zoom_slider_title">Zoomaus</string>
@@ -1208,6 +1240,7 @@ näyttämään suuremmilta valokuvissa"</string>
     <string name="pic_flaw_blink_more">Näyttää siltä, että joku kehyksessä sulki silmänsä</string>
     <string name="pic_flaw_blink_one">Näyttää siltä, että henkilö kehyksessä sulki silmänsä</string>
     <string name="pic_flaw_cover">Näyttää siltä, että linssi on osittain peitossa</string>
+    <string name="pixel_mode_capture_hint">Varmista, että ympäristö on hyvin valaistu</string>
     <string name="pm">ip.</string>
     <string name="popup_tip_3d_beauty_intro_text">3D-ehostus</string>
     <string name="popup_tips_near_range_mode">Tiivis keskitys</string>
@@ -1237,7 +1270,6 @@ näyttämään suuremmilta valokuvissa"</string>
     <string name="portrait_bokeh_first_tips">"Käytä Omakuvatilaa sumentaaksesi
 kuviesi taustat"</string>
     <string name="portrait_bokeh_text">Muotokuvatila</string>
-    <string name="portrait_bokeh_tips">Aseta kohde alle 1.5 metrin päähän</string>
     <string name="portrait_india_effect_entry_memory">Muisto</string>
     <string name="portrait_india_effect_entry_mono">Mono</string>
     <string name="portrait_india_effect_entry_pink">Vaaleanpunainen</string>
@@ -1252,12 +1284,10 @@ kuviesi taustat"</string>
     <string name="portrait_mode_depth_effect_success_hint">Syvyysefekti</string>
     <string name="portrait_mode_lowlight_hint">Nyt on liian pimeää</string>
     <string name="portrait_mode_too_close_hint">Siirry kauemmas kohteesta</string>
-    <string name="portrait_mode_too_far_hint">Aseta kohde alle 2 metrin päähän</string>
     <string name="portrait_mode_use_hint">"Omakuvatila sumentaa taustaa
 ja tuo ihmiset esiin."</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Kokeile muotokuvatilaa.
 Se pitää kohteen tarkkana ja sumentaa taustan."</string>
-    <string name="pref_960_watermark_title">960FPS vesileima</string>
     <string name="pref_a_c_f">Sonografi</string>
     <string name="pref_advance_settings">Lisäasetukset</string>
     <string name="pref_ai_detect">AI-tunnistus</string>
@@ -1268,6 +1298,10 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="pref_audio_focus_title">Audio focus</string>
     <string name="pref_auto_boot">Automaattinen käynnistys</string>
     <string name="pref_auto_boot_summary">Tee Kamerasta herkempi antamalla sen käynnistyä automaattisesti. Voit hallita automaattisen käynnistyksen käyttöoikeuksia sovelluksen tiedoissa.</string>
+    <string name="pref_beauty_me_mp_switch_desc">Säädä miesten meikkitehosteita ryhmäkuvissa</string>
+    <string name="pref_beauty_me_mp_switch_title">Säädä miesten meikkitehosteita</string>
+    <string name="pref_beauty_nvs_wp_desc">Poista luomet, kun käytät ihoa tasoittavia vaikutuksia</string>
+    <string name="pref_beauty_nvs_wp_title">Poista luomet</string>
     <string name="pref_burst_shoot_title">Sarjakuvaus</string>
     <string name="pref_camcorder_settings">Video</string>
     <string name="pref_camcorder_settings_category">Kameran asetukset</string>
@@ -1294,6 +1328,7 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="pref_camera_auxiliary_close">Pois</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Valotuksen varmennus</string>
     <string name="pref_camera_auxiliary_focus_peak">Huipputarkennus</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Korkea</string>
     <string name="pref_camera_beautify_entry_low">Matala</string>
     <string name="pref_camera_beautify_entry_normal">Kohtalainen</string>
@@ -1374,10 +1409,8 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="pref_camera_hdr_entry_off">Pois</string>
     <string name="pref_camera_heic_image_format_description">Valokuvat korkean tehokkuuden kuvatiedostomuodossa vievät vähemmän tallennustilaa, mutta jotkin sovellukset eivät tue sitä</string>
     <string name="pref_camera_heic_image_format_description2">Tehokas kuvatiedostomuoto säästää tallennustilaa, mutta jotkin kolmannen osapuolen sovellukset eivät tue sitä. Et voi ottaa dynaamisia kuvia ja poistaa vesileimoja kohteessa HEIF.</string>
+    <string name="pref_camera_heic_image_format_description_global">Tehokas kuvatiedostomuoto säästää tallennustilaa, mutta jotkin kolmannen osapuolen sovellukset eivät tue sitä. Et voi poistaa vesileimoja kohteessa HEIF.</string>
     <string name="pref_camera_heic_image_format_title">HEIF-formaatti</string>
-    <string name="pref_camera_hfr_entry_2x">60</string>
-    <string name="pref_camera_hfr_entry_3x">90</string>
-    <string name="pref_camera_hfr_entry_4x">120</string>
     <string name="pref_camera_hfr_entry_off">Pois</string>
     <string name="pref_camera_high_quality_preferred_description">Paranna kuvanlaatua älykkään algoritmin avulla. Kuvansiirtonopeus voi laskea, kun tämä ominaisuus on käytössä. Yötila kytketään päälle automaattisesti, kun heikot valaistusolosuhteet havaitaan.</string>
     <string name="pref_camera_high_quality_preferred_title">Paranna kuvanlaatua</string>
@@ -1388,15 +1421,13 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="pref_camera_jpegquality_entry_high">Korkea</string>
     <string name="pref_camera_jpegquality_entry_low">Matala</string>
     <string name="pref_camera_jpegquality_entry_normal">Normaali</string>
+    <string name="pref_camera_jpegquality_entry_super">Super</string>
     <string name="pref_camera_jpegquality_title">Kuvanlaatu</string>
     <string name="pref_camera_long_press_shutter_feature_title">Paina ja pidä sulkijapainiketta</string>
-    <string name="pref_camera_long_press_viewfinder_title">Etsimen asetukset</string>
     <string name="pref_camera_long_pressing_burst_shooting_entry_burst">Sarjakuvaus</string>
     <string name="pref_camera_long_pressing_burst_shooting_entry_focus">Tarkennus</string>
     <string name="pref_camera_long_pressing_burst_shooting_entry_record">Nauhoita video</string>
     <string name="pref_camera_long_pressing_shutter_title">Paina ja pidä sulkijapainiketta lukitaksesi AE/AF/AWB</string>
-    <string name="pref_camera_long_pressing_viewfinder_entry_google_lens">Google Lens</string>
-    <string name="pref_camera_long_pressing_viewfinder_entry_lock_ae_af">AE/AF-lukko</string>
     <string name="pref_camera_lying_summary">Ilmoita nykyisestä orientaatiosta, kun puhelin on maata vasten</string>
     <string name="pref_camera_lying_title">Ilmoita orientaatiosta</string>
     <string name="pref_camera_magic_mirror_title">Taikapeili</string>
@@ -1418,7 +1449,6 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="pref_camera_peak_entry_off">Pois</string>
     <string name="pref_camera_peak_entry_on">Päälle</string>
     <string name="pref_camera_peak_title">Huipputarkennus</string>
-    <string name="pref_camera_picturesize_entry_standard">Standardi 4:3</string>
     <string name="pref_camera_picturesize_title_simple_mode">Kuvasuhde</string>
     <string name="pref_camera_portrait_mode_entry_off">Muotokuvatila pois</string>
     <string name="pref_camera_portrait_mode_entry_on">Muotokuvatila päällä</string>
@@ -1477,6 +1507,8 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="pref_camera_square_mode_title">Neliö</string>
     <string name="pref_camera_stereo_mode_title">Tarkennuksen säätö</string>
     <string name="pref_camera_super_resolution_title">Ota SR käyttöön</string>
+    <string name="pref_camera_suspend_shutter_button_summary">Luo uusi kelluva suljin vetämällä laukaisinta ylöspäin</string>
+    <string name="pref_camera_suspend_shutter_button_title">Lisäsuljin</string>
     <string name="pref_camera_tap_shoot_summary">Ota valokuva napauttamalla esikatselunäyttöä</string>
     <string name="pref_camera_tap_shoot_title">Ota valokuva napauttamalla</string>
     <string name="pref_camera_tilt_shift_entry_circle">Ympyrä</string>
@@ -1499,15 +1531,12 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="pref_camera_video_ai_scene_title">AI-kamera</string>
     <string name="pref_camera_video_bokeh_off">Video bokeh ei käytössä</string>
     <string name="pref_camera_video_bokeh_on">Video bokeh</string>
-    <string name="pref_camera_video_duration_entry_10">10 minuuttia</string>
     <string name="pref_camera_video_duration_entry_120">Rajoittamaton</string>
-    <string name="pref_camera_video_duration_entry_30">30 minuuttia</string>
-    <string name="pref_camera_video_duration_entry_mms">30 sekuntia (MMS)</string>
     <string name="pref_camera_video_tag">Salli videoiden merkitseminen</string>
     <string name="pref_camera_video_tag_description">Napauta \"Merkitse\" videota kuvattaessa, jotta voit palata merkittyihin hetkiin toiston aikana</string>
     <string name="pref_camera_volumekey_function_entry_shutter">Suljin</string>
     <string name="pref_camera_volumekey_function_entry_timer">Sulkimen lähtölaskenta</string>
-    <string name="pref_camera_volumekey_function_entry_timer_new">Timer (%ds)</string>
+    <string name="pref_camera_volumekey_function_entry_timer_new">Ajastin (%ds)</string>
     <string name="pref_camera_volumekey_function_entry_volume">Äänenvoimakkuus</string>
     <string name="pref_camera_volumekey_function_entry_zoom">Zoomaus</string>
     <string name="pref_camera_volumekey_function_title">Äänenvoimakkuuspainiketoiminnot</string>
@@ -1540,6 +1569,8 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="pref_custom_tint_title">Värit</string>
     <string name="pref_customization_style">Mukautettu tyyli</string>
     <string name="pref_customization_title">Mukauta</string>
+    <string name="pref_cv_watermark_summary">Esikatselut ovat vain viitteellisiä. Leica-vesileima näkyy valokuvissa, jotka on otettu \"Valokuva\"- ja \"Muotokuva\"-tiloissa.</string>
+    <string name="pref_cv_watermark_title">Leica-vesileima</string>
     <string name="pref_document_mode">Asiakirjat</string>
     <string name="pref_dual_camera_video">Kaksoisvideo</string>
     <string name="pref_e_c_t_j">Alkuperäinen ääni</string>
@@ -1547,6 +1578,7 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="pref_e_p_s_n">Nauhoita ääni ulkoisen mikrofonin kautta, kun mikrofonilla varustetut Bluetooth-kuulokkeet on kytketty</string>
     <string name="pref_face_beauty_title">Ehostus</string>
     <string name="pref_fingerprint_capture_title">Sormenjäljellä laukaisu</string>
+    <string name="pref_focus_view_bg_tip">AE/AF-lukittu</string>
     <string name="pref_front_denoise_summary">Vähennä etukameran takana syntyvää ääntä</string>
     <string name="pref_front_denoise_title">Selfie-melusuodatin</string>
     <string name="pref_front_mirror_entry_auto">Kun kasvot havaitaan</string>
@@ -1555,12 +1587,8 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="pref_front_mirror_label_auto">Auto</string>
     <string name="pref_front_mirror_title">Etukamerapeilaus</string>
     <string name="pref_google_lens">Google Lens</string>
-    <string name="pref_google_lens_summary">Kohdista kamera yhteystietoihin, URL-osoitteisiin ja QR-koodeihin nähdäksesi käytettävissä olevat vaihtoehdot</string>
-    <string name="pref_google_lens_title">Lens-ehdotukset</string>
     <string name="pref_groupshot_with_primitive_title">Tallenna myös alkuperäiset kuvat</string>
     <string name="pref_hdr10_hdr10plus_video_mode_description">Tallenna korkean resoluution videoita HDR10+/HDR10 -tekniikalla optimoidaksesi värit ja dynaamisen alueen. Tallennettuja videoita voidaan toistaa vain HDR10+/HDR10 -yhteensopivilla laitteilla.</string>
-    <string name="pref_hdr10_video_mode_description">Optimoi värit ja kontrasti 4K- ja 8K-videoille automaattisesti. Optimoituja videoita voidaan toistaa vain HDR10-yhteensopivilla laitteilla.</string>
-    <string name="pref_hdr10plus_video_mode_description">Optimoi värit ja säädä kontrastia 4K- ja 8K-videoille. Tämä ominaisuus toimii vain laitteissa, jotka ovat yhteensopivia kohteen HDR10+ kanssa.</string>
     <string name="pref_hybrid_video_mode_description">Käytä HLG-tekniikkaa parantamaan korkealla resoluutiolla tallennettujen videoiden värejä ja dynaamista aluetta</string>
     <string name="pref_i_n_r_b">Älykäs melunvaimennus</string>
     <string name="pref_k_h">Korvassa oleva live-monitori</string>
@@ -1572,13 +1600,12 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="pref_menu_ultra_pixel_photography">%s Ultra HD</string>
     <string name="pref_module_settings">Tilat</string>
     <string name="pref_more_mode_style_title">Kameratilat</string>
+    <string name="pref_motioon_detection">Liiketunnistus</string>
     <string name="pref_multi_camera_dual_video_front">Etukamera</string>
     <string name="pref_multi_camera_dual_video_remote">Kaksoistallennus puhelimella</string>
     <string name="pref_n_s_a">Ääniasetukset</string>
     <string name="pref_n_s_o_l">Päällä</string>
     <string name="pref_n_s_o_m">Pois</string>
-    <string name="pref_new_slow_motion_video_quality_240_720only">Voit tallentaa vain 720p-videoita 240 kuvataajuudella</string>
-    <string name="pref_new_slow_motion_video_quality_960_720only">Voit tallentaa vain 720p-videoita 960 kuvataajuudella</string>
     <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080p</string>
     <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720p</string>
     <string name="pref_p_d_e">Pro-ominaisuudet</string>
@@ -1592,6 +1619,7 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="pref_privacy_watermark_edit">Mukautettu teksti</string>
     <string name="pref_privacy_watermark_edit_clear_history">Tyhjennä historia</string>
     <string name="pref_privacy_watermark_edit_history">Historia</string>
+    <string name="pref_privacy_watermark_edit_title">Muokkaa vesileimaa</string>
     <string name="pref_privacy_watermark_entry">Suojaava vesileima</string>
     <string name="pref_privacy_watermark_switch">Näytä vesileimakytkin</string>
     <string name="pref_qc_focus_position_title">F</string>
@@ -1621,6 +1649,9 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="pref_smart_guide_title">Älykkäät ehdotukset</string>
     <string name="pref_super_night_se_summary">Tunnista heikot valaistusolosuhteet ja paranna kuvanlaatua automaattisesti</string>
     <string name="pref_super_night_se_title">Automaattinen yötila</string>
+    <string name="pref_true_colour_video_mode_description">Tallenna videoita Dolby Visionilla ja tallenna todenmukaisia yksityiskohtia, upeita värejä ja silmiinpistävää kontrastia (tämä ominaisuus ei ehkä ole yhteensopiva joidenkin kolmannen osapuolen sovellusten kanssa)</string>
+    <string name="pref_true_colour_video_mode_introduction">Upea visuaalinen kokemus, todenmukaiset yksityiskohdat ja silmiinpistävä kontrasti</string>
+    <string name="pref_true_colour_video_mode_title">Dolby Vision</string>
     <string name="pref_userdefine_watermark_title">Muokattu vesileima</string>
     <string name="pref_video_ai_audio_effect_comparation_3d">3D</string>
     <string name="pref_video_ai_audio_effect_comparation_3d_i">3D-ääni</string>
@@ -1640,15 +1671,13 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="pref_video_focusmode_entry_continuous">CAF</string>
     <string name="pref_video_focusmode_title">Tarkennustila</string>
     <string name="pref_video_hfr_title">Ruudunpäivitysnopeus</string>
-    <string name="pref_video_quality_entry_1080p">FHD 1080p, 30fps</string>
-    <string name="pref_video_quality_entry_1080p_60fps">FHD 1080p, 60fps</string>
-    <string name="pref_video_quality_entry_480p">SD 480p, 30fps</string>
-    <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
-    <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
-    <string name="pref_video_quality_entry_720p">HD 720p, 30fps</string>
-    <string name="pref_video_quality_entry_720p_60fps">HD 720p, 60fps</string>
-    <string name="pref_video_quality_entry_8k_24fps_uhd">UHD 8K, 24fps</string>
-    <string name="pref_video_quality_entry_8kuhd">UHD 8K, 30fps</string>
+    <string name="pref_video_quality_entry_1080p">FHD 1080p, %dfps</string>
+    <string name="pref_video_quality_entry_1080p_24fps">Täysteräväpiirto, 1080p, 24 kuvaa sekunnissa</string>
+    <string name="pref_video_quality_entry_1080p_60fps">FHD 1080p, %dfps</string>
+    <string name="pref_video_quality_entry_4kuhd">UHD 4K, %dfps</string>
+    <string name="pref_video_quality_entry_4kuhd_24fps">Ultrateräväpiirto, 4K, 24 kuvaa sekunnissa</string>
+    <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, %dfps</string>
+    <string name="pref_video_quality_entry_720p">HD 720p, %dfps</string>
     <string name="pref_video_quality_hfr_title">Ruudunpäivitysnopeus &amp; kuvanlaatu</string>
     <string name="pref_video_quality_title">Videon laatu</string>
     <string name="pref_video_speed_entry_fast">Nopea</string>
@@ -1657,19 +1686,19 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="pref_video_speed_fast_title">Nopeutus</string>
     <string name="pref_video_speed_slow_title">Hidastus</string>
     <string name="pref_video_subtitle">Tekstitykset</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_10">10X (0.3 sekunnin aikaväli)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_120">120X (4 sekunnin aikaväli)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_150">150X (5 sekunnin aikaväli)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_1800">1800X (60 sekunnin aikaväli)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_2">2X (0.06 sekunnin aikaväli)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_240">240X (8 sekunnin aikaväli)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_30">30X (1 sekunnin aikaväli)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_300">300X (10 sekunnin aikaväli)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_4">4X (0.12 sekunnin aikaväli)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_450">450X (15 sekunnin aikaväli)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_60">60X (2 sekunnin aikaväli)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_90">90X (3 sekunnin aikaväli)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_900">900X (30 sekunnin aikaväli)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_10">10X (%.1f sekunnin väli)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_120">120X (%d sekunnin väli)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_150">150X (%d sekunnin väli)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_1800">1800X (%d sekunnin väli)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_2">2X (%.2f sekunnin väli)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_240">240X (%d sekunnin väli)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_30">30X (%d sekunnin väli)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_300">300X (%d sekunnin väli)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_4">4X (%.2f sekunnin väli)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_450">450X (%d sekunnin väli)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_60">60X (%d sekunnin väli)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_90">90X (%d sekunnin väli)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_900">900X (%d sekunnin väli)</string>
     <string name="pref_video_time_lapse_frame_interval_title">Aikakatkaisuväli</string>
     <string name="pref_watermark_off">Pois</string>
     <string name="pref_watermark_on">Käytössä</string>
@@ -1691,6 +1720,7 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="process_tips_1">Älä taita laitetta, ennen kuin video on tallennettu</string>
     <string name="process_tips_2">Älä avaa laitteen taittoa, ennen kuin video on tallennettu</string>
     <string name="professional_shortcut_short">Pro</string>
+    <string name="qvga_shelter_tip_text">Älä peitä linssiä</string>
     <string name="recommend_macro_mode">Kokeile makrotilaa</string>
     <string name="recommend_portrait">Kokeile muotokuvatilaa</string>
     <string name="recommend_soft_light_tip">Ota salama käyttöön</string>
@@ -1761,12 +1791,13 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="snap_confirmed">Korvaa</string>
     <string name="spaceIsLow_content_external_storage_priority">SD-kortin tallennustila on täyttymässä</string>
     <string name="spaceIsLow_content_primary_storage_priority">USB-tallennustila on täyttymässä</string>
-    <string name="speech_shutter_open_tip">Sano \"拍照\" tai \"茄子\" ottaaksesi kuvan</string>
+    <string name="speech_shutter_open_tip">Sano \"Cheese!\" ottaaksesi valokuvan</string>
     <string name="speech_shutter_tip">Äänenkaihdin</string>
     <string name="start_capture">OK</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sticker_tab1">Söpö</string>
     <string name="sticker_tab2">Hauska</string>
+    <string name="stop_save_low_battery">Tallenna (%ds)</string>
     <string name="subtitle_network_exception_tips">Ei voitu yhdistää verkkoon. Ei voi transkrivoida nyt.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sunnuntai</string>
@@ -1874,11 +1905,11 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="toast_start_audio_capture">Ota kuva ääntelemällä</string>
     <string name="today">Tänään</string>
     <string name="tomorrow">Huomenna</string>
+    <string name="too_low_battery">Akku vähissä</string>
     <string name="tuesday">Tiistai</string>
     <string name="tuesday_short">Ti</string>
     <string name="tuesday_shortest">Ti</string>
     <string name="ubi_focus_capture_fail">Kuvaa ei voitu ottaa</string>
-    <string name="ubifocus_capture_warning_message">Parhaan tuloksen saavuttamiseksi valokuvasi tulisi sisältää lähellä olevia kohteita (alle 1 metrin päässä linssistä) sekä kaukana olevia kohteita</string>
     <string name="ultra_ai_pixel_photography_close_tip">AI %s Ultra HD on pois päältä</string>
     <string name="ultra_ai_pixel_photography_open_tip">AI %s Ultra HD</string>
     <string name="ultra_pixel_100mp">100MP</string>
@@ -1891,9 +1922,6 @@ Se pitää kohteen tarkkana ja sumentaa taustan."</string>
     <string name="ultra_pixel_photography_open_tip">%s Ultra HD on päällä</string>
     <string name="ultra_pixel_portrait_hint">Himmeän valon muotokuva</string>
     <string name="ultra_pixel_zoom_no_support_tip">Zoomaus ei toimi %s Ultra HD -tilassa</string>
-    <string name="ultra_tele_use_hint_text_body">"Käytä 50X zoomausta etäisten kohteiden kuvaamiseen
-yksityiskohtaisemmin"</string>
-    <string name="ultra_tele_use_hint_text_title">50X zoomaus</string>
     <string name="ultra_wide_bokeh_close_tip">Kokovartalotila pois päältä</string>
     <string name="ultra_wide_bokeh_open_tip">Kokovartalotila</string>
     <string name="ultra_wide_close_tip">Erittäin Laajakulmatila pois päältä</string>
@@ -1909,7 +1937,7 @@ Ultralaajakulmatila on hyödyllinen silloin, kun et voi siirtyä kauemmas kuvaus
     <string name="unknow_error">Tuntematon virhe</string>
     <string name="unsupported_microphones_3d_record_tips">3D-ääni ei tue ulkoisia mikrofoneja</string>
     <string name="unsupported_microphones_audio_zoom_tips">Äänen zoomaus ei tue ulkoisia mikrofoneja</string>
-    <string name="update_loading">Ladattu %1$d%%</string>
+    <string name="update_loading">Ladattu %1$s</string>
     <string name="update_start">Päivitä %1$s</string>
     <string name="user_agree">Hyväksy</string>
     <string name="user_define_watermark_cancel">Peruuta</string>
@@ -1960,6 +1988,7 @@ Ultralaajakulmatila on hyödyllinen silloin, kun et voi siirtyä kauemmas kuvaus
     <string name="video_effect_entry_summer_day">Kesä</string>
     <string name="video_effect_entry_summer_day_describe">Alhainen kontrasti ja kirkkaat sävyt toimivat hyvin, kun sinun on säilytettävä ihonsävyt. Tämä suodatin sopii aurinkoisiin ulkoilmakohtauksiin.</string>
     <string name="video_effect_entry_wind_sing">Tuulahdus</string>
+    <string name="video_low_battery_tip_content">Alhainen kuvataajuus vähäisen akun takia</string>
     <string name="video_overheat_tip_content">Näyttää siltä, että laitteesi on liian kuuma. Yritä kuvata videota pienemmällä resoluutiolla.</string>
     <string name="video_reach_size_limit">Kokorajoitus saavutettu.</string>
     <string name="video_shortcut_short">Video</string>
@@ -1967,9 +1996,14 @@ Ultralaajakulmatila on hyödyllinen silloin, kun et voi siirtyä kauemmas kuvaus
     <string name="video_ultra_clear_tip">4K UHD</string>
     <string name="video_ultra_clear_tip_8k">AI 8K</string>
     <string name="view_privacy_policy">Katso Tietosuojakäytäntö</string>
+    <string name="vlog_pro_cancel_reset_record_hint" />
+    <string name="vlog_pro_change_video_name_hint" />
+    <string name="vlog_pro_first_into_vlog_dumy_hint" />
+    <string name="vlog_pro_reset_record_hint" />
     <string name="vv_duartion_hint">%1$s | Segmentti %2$d | %3$ss</string>
     <string name="vv_hint">Voit kuvata vlogeja vain vaakatilassa</string>
     <string name="vv_stability_hint">Pidä laite vakaana</string>
+    <string name="vv_stability_newTip">Tallennetaan kohteita…</string>
     <string name="vv_start">Kuvaa vlogi</string>
     <string name="vv_use_hint_text_body">"Vlogitilassa voit
 tallentaa ja muokata videoita saman tien"</string>
@@ -1992,5 +2026,14 @@ tallentaa ja muokata videoita saman tien"</string>
     <string name="wideselfie_rotate_to_front">Kallista puhelinta eteenpäin</string>
     <string name="wideselfie_rotate_to_left_slowly">Kierrä puhelinta vasemmalle</string>
     <string name="wideselfie_rotate_to_right_slowly">Kierrä puhelinta oikealle</string>
+    <string name="widget_camera_filter_description">Neljä Leica-suodatinsarjaa</string>
+    <string name="widget_camera_filter_talk_back">Leica-suodattimet</string>
+    <string name="widget_camera_label">Leica-suodattimet</string>
+    <string name="widget_camera_lens_35mm_description">Kolmekymmentäviisi millimetriä</string>
+    <string name="widget_camera_lens_50mm_description">Viisikymmentä millimetriä</string>
+    <string name="widget_camera_lens_90mm_description">Yhdeksänkymmentä millimetriä</string>
+    <string name="widget_camera_lens_description">Kokeile polttoväliä</string>
+    <string name="widget_camera_lens_none_description">Viidenkymmenen millimetrin objektiivi muotokuviin</string>
+    <string name="widget_camera_lens_talk_back">Pro-objektiivit</string>
     <string name="yesterday">Eilen</string>
 </resources>

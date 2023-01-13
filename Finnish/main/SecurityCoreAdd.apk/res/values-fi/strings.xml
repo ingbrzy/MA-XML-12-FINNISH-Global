@@ -43,6 +43,7 @@ tämä ominaisuus lisätään Toiseen näkymään automaattisesti."</string>
     <string name="air_space_exit">Poistu tilasta</string>
     <string name="air_space_setting">Tilan asetukset</string>
     <string name="airspace_users_full">Ei voitu luoda lisää työtiloja</string>
+    <string name="alwaysUsePrompt">Muista valintani</string>
     <string name="am">ap.</string>
     <string name="appData">Asennetut sovellukset</string>
     <string name="app_name">Turvallisuuden Ydinkomponentti</string>
@@ -264,8 +265,7 @@ Varmista, että yrityksenne nimi on oikein. Lue ja hyväksy asiaan liittyvät ti
     <string name="green_guard_title3">Hallitse sovelluksia</string>
     <string name="greenguard_child_des">Hallinnoi ystäviesi ja perheesi laitteita</string>
     <string name="greenguard_child_des_title">Skannaa QR-koodi laitteen lisäämiseksi</string>
-    <string name="greenguard_functional_description">"Hallinnoi laitteita etäältä, tarkastele sijaintitietoja,
-hallitse asennettuja sovelluksia ja rajoita käyttöä"</string>
+    <string name="greenguard_functional_description">Hallitse laitteita etänä, tarkista sijaintitietoja ja hallitse asennettuja sovelluksia</string>
     <string name="greenguard_install_cancle">Ei kiitos</string>
     <string name="greenguard_install_confirm">Asenna</string>
     <string name="greenguard_install_message">Perhesuojaus on järjestelmäsovellus, eikä sen asentamiseen vaadita verkkoyhteyttä.</string>
@@ -344,40 +344,40 @@ Voit myös ladata ne erikseen."</string>
     <string name="monday">Maanantai</string>
     <string name="monday_short">Ma</string>
     <string name="monday_shortest">Ma</string>
-    <string name="month_april">Huhtikuu</string>
+    <string name="month_april">huhtikuuta</string>
     <string name="month_april_short">Huhti</string>
     <string name="month_april_shortest">Huhti</string>
-    <string name="month_august">Elokuu</string>
+    <string name="month_august">elokuuta</string>
     <string name="month_august_short">Elo</string>
     <string name="month_august_shortest">Elo</string>
-    <string name="month_december">Joulukuu</string>
+    <string name="month_december">joulukuuta</string>
     <string name="month_december_short">Joulu</string>
     <string name="month_december_shortest">Joulu</string>
-    <string name="month_february">Helmikuu</string>
+    <string name="month_february">helmikuuta</string>
     <string name="month_february_short">Helmi</string>
     <string name="month_february_shortest">Helmi</string>
-    <string name="month_january">Tammikuu</string>
+    <string name="month_january">tammikuuta</string>
     <string name="month_january_short">Tammi</string>
     <string name="month_january_shortest">Tammi</string>
-    <string name="month_july">Heinäkuu</string>
+    <string name="month_july">heinäkuuta</string>
     <string name="month_july_short">Heinä</string>
     <string name="month_july_shortest">Heinä</string>
-    <string name="month_june">Kesäkuu</string>
+    <string name="month_june">kesäkuuta</string>
     <string name="month_june_short">Kesä</string>
     <string name="month_june_shortest">Kesä</string>
-    <string name="month_march">Maaliskuu</string>
+    <string name="month_march">maaliskuuta</string>
     <string name="month_march_short">Maalis</string>
     <string name="month_march_shortest">Maalis</string>
-    <string name="month_may">Toukokuu</string>
+    <string name="month_may">toukokuuta</string>
     <string name="month_may_short">Touko</string>
     <string name="month_may_shortest">Touko</string>
-    <string name="month_november">Marraskuu</string>
+    <string name="month_november">marraskuuta</string>
     <string name="month_november_short">Marras</string>
     <string name="month_november_shortest">Marras</string>
-    <string name="month_october">Lokakuu</string>
+    <string name="month_october">lokakuuta</string>
     <string name="month_october_short">Loka</string>
     <string name="month_october_shortest">Loka</string>
-    <string name="month_september">Syyskuu</string>
+    <string name="month_september">syyskuuta</string>
     <string name="month_september_short">Syys</string>
     <string name="month_september_shortest">Syys</string>
     <string name="more">Lisää</string>
@@ -692,6 +692,7 @@ Jotkin kaksoissovellukset vaativat Google Services Framework -tukea. Tällaisiss
     <string name="xspace_guide_description">"Jokainen tili
 ansaitsee oman sovelluksensa"</string>
     <string name="xspace_guide_title">Kokeile Kaksoissovelluksia</string>
+    <string name="xspace_head">Kaksoissovellus</string>
     <string name="xspace_header">Kaksoissovellukset</string>
     <string name="xspace_instagram_title">Instagram</string>
     <string name="xspace_install_complete">&lt;font>Kaksoissovellus luotu onnistuneesti. &lt;/font>&lt;font color=#0D84FF>Avaa nyt&lt;/font>.</string>
@@ -707,6 +708,7 @@ ansaitsee oman sovelluksensa"</string>
     <string name="xspace_notification_error">Kirjaudu sisään WeChat-kaksoissovellukseen ja yritä uudelleen</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="xspace_remove">Poista kaksoisovellustilejä</string>
+    <string name="xspace_resolver_activity_title">Valitse sovellus</string>
     <string name="xspace_setting_label">Kaksoissovellus asetukset</string>
     <string name="xspace_settins">Aseta</string>
     <string name="xspace_start">Luo</string>

@@ -2,12 +2,12 @@
 <resources>
     <string name="abc_action_bar_home_description">Siirry etusivulle</string>
     <string name="abc_action_bar_up_description">Siirry ylös</string>
-    <string name="abc_action_menu_overflow_description">Lisää</string>
+    <string name="abc_action_menu_overflow_description">Lisäasetukset</string>
     <string name="abc_action_mode_done">Valmis</string>
     <string name="abc_activity_chooser_view_see_all">Näytä kaikki</string>
     <string name="abc_activitychooserview_choose_application">Valitse sovellus</string>
-    <string name="abc_capital_off">POIS KÄYTÖSTÄ</string>
-    <string name="abc_capital_on">KÄYTÖSSÄ</string>
+    <string name="abc_capital_off">POIS PÄÄLTÄ</string>
+    <string name="abc_capital_on">PÄÄLLÄ</string>
     <string name="abc_menu_alt_shortcut_label">Alt+</string>
     <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
     <string name="abc_menu_delete_shortcut_label">delete</string>
@@ -20,13 +20,13 @@
     <string name="abc_prepend_shortcut_label">Valikko+</string>
     <string name="abc_search_hint">Haku…</string>
     <string name="abc_searchview_description_clear">Tyhjennä kysely</string>
-    <string name="abc_searchview_description_query">Hakulauseke</string>
+    <string name="abc_searchview_description_query">Hakukysely</string>
     <string name="abc_searchview_description_search">Haku</string>
     <string name="abc_searchview_description_submit">Lähetä kysely</string>
     <string name="abc_searchview_description_voice">Puhehaku</string>
-    <string name="abc_shareactionprovider_share_with">Jakaminen:</string>
-    <string name="abc_shareactionprovider_share_with_application">Jaa sovelluksessa %s</string>
-    <string name="abc_toolbar_collapse_description">Kutista</string>
+    <string name="abc_shareactionprovider_share_with">Jaa…</string>
+    <string name="abc_shareactionprovider_share_with_application">Jaa: %s</string>
+    <string name="abc_toolbar_collapse_description">Tiivistä</string>
     <string name="accept">Hyväksy</string>
     <string name="account_type">Salasanasuojattu</string>
     <string name="action_mode_deselect_all">Kumoa kaikkien valinta</string>
@@ -131,9 +131,11 @@
     <string name="confirm_know">OK</string>
     <string name="connection_error">Ei voitu yhdistää</string>
     <string name="connection_lost">Katkaistu</string>
+    <string name="copy">Kopioi</string>
     <string name="copy_failed">Ei voitu kopioida</string>
     <string name="copy_to">Kopioidaan…</string>
     <string name="copy_to_internal_storage_first">Kopioi kohteet ensin sisäiseen muistiin.</string>
+    <string name="copy_toast_msg">Linkki kopioitu leikepöydälle</string>
     <string name="dark_mode">Tumma tila</string>
     <string name="dark_mode_notice_message">Tumma teema nyt saatavilla!</string>
     <string name="decompress_cancel">Peruuta</string>
@@ -172,6 +174,7 @@
     <string name="display_name">Näytä nimi</string>
     <string name="domain">Verkkotunnus</string>
     <string name="download_success">Ladattu onnistuneesti</string>
+    <string name="drag_not_support_with_dir">Kansioita ei voi vetää ja lähettää</string>
     <string name="empty_by_forbid_access">Tämän kansion sisältöä ei voida näyttää täällä Android-rajoitusten vuoksi.</string>
     <string name="enable_documentsui">Laita ensin %s päälle kohteessa Asetukset > Asennetut sovellukset</string>
     <string name="enable_sd_card">SD-kortti on vioittunut tai irrotettu</string>
@@ -194,12 +197,16 @@
     <string name="error_invalid_path">Väärä polku</string>
     <string name="error_not_support">Ei tueta</string>
     <string name="error_open_file_failed_no_app_found">Tälle toiminnolle ei löytynyt yhtään sovellusta.</string>
+    <string name="expand_button_title">Lisäasetukset</string>
     <string name="explicit">Eksplisiittinen</string>
     <string name="extended_storage_file_can_not_open">Tiedostoa ei voida avata. Kopioi tiedosto sisäiseen tallennustilaan.</string>
     <string name="extract">Pura</string>
     <string name="fail_to_create_folder_unknown">Kansiota ei voi luoda</string>
     <string name="failed_not_access_sd_card">Salli ensin pääsy SD-kortille</string>
     <string name="failed_obtain_permissions">Ei saatu oikeuksia</string>
+    <string name="fallback_menu_item_copy_link">Kopioi linkki</string>
+    <string name="fallback_menu_item_open_in_browser">Avaa selaimessa</string>
+    <string name="fallback_menu_item_share_link">Jaa linkki</string>
     <string name="favorite_notice_message">"Voit nyt lisätä kansioita suosikkeihin.
 Paina ja pidä kansiota, napauta \"Enemmän\" lisätäksesi."</string>
     <string name="favorite_photo">Valokuvat</string>
@@ -309,6 +316,7 @@ Paina ja pidä kansiota, napauta \"Enemmän\" lisätäksesi."</string>
     <string name="not_connect">Ei voi yhdistää</string>
     <string name="not_connect_user">Ei voida yhdistää: %1$s ja %2$s</string>
     <string name="not_installed_documentsui">DocumentsUI ei ole asennettu</string>
+    <string name="not_set">Ei asetettu</string>
     <string name="not_support_documentui">DocumentUI ei ole tuoettu tässä laitteessa</string>
     <string name="not_very_dissatisfied">Tyytymätön</string>
     <string name="notif_server_starting">Käynnistetään FTP-palvelinta…</string>
@@ -391,6 +399,7 @@ Paina ja pidä kansiota, napauta \"Enemmän\" lisätäksesi."</string>
     <string name="port">Portti</string>
     <string name="port_range">Portin numeron on oltava välillä 1024-65535</string>
     <string name="possible_permissions">Valinnaiset käyttöoikeudet</string>
+    <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
     <string name="privacy_accept">Hyväksy &amp; jatka</string>
     <string name="privacy_cancel"><u>En suostu</u></string>
     <string name="privacy_desc">Tervetuloa Tiedostonhallintaan! Perusominaisuuksien lisäksi tämä sovellus tarjoaa myös seuraavat palvelut:</string>
@@ -499,6 +508,7 @@ Paina ja pidä kansiota, napauta \"Enemmän\" lisätäksesi."</string>
     <string name="storage_usb">USB-muisti</string>
     <string name="storage_warning">Ulkoista tallennustilaa ei voi käyttää</string>
     <string name="str_clean">Puhdista</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_grid_mode">Vaihda ruudukkonäkymään</string>
     <string name="switch_to_list_mode">Vaihda listanäkymään</string>
     <string name="tab_common_app">Sovellukset &amp; kansiot</string>
@@ -534,6 +544,8 @@ Paina ja pidä kansiota, napauta \"Enemmän\" lisätäksesi."</string>
     <string name="user_notice_privacy_policy">Tietosuojakäytäntö</string>
     <string name="user_notice_term_of_service">Käyttäjäsopimus</string>
     <string name="utf8_summary">Järjestelmän FTP oletuskoodaus</string>
+    <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
+    <string name="v7_preference_on">KÄYTÖSSÄ</string>
     <string name="version_name">Versio</string>
     <string name="very_dissatisfied">Erittäin tyytymätön</string>
     <string name="view_by_document">Näytä Tiedostoissa</string>

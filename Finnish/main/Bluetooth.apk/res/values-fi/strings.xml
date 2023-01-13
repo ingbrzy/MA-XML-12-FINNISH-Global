@@ -182,6 +182,7 @@
     <string name="miui_transfer_history_title">Bluetooth-siirrot</string>
     <string name="miui_transfer_inbound_title">Saapuva</string>
     <string name="miui_transfer_outbound_title">Lähtevä</string>
+    <string name="miuix_access_state_desc">Valittu</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
@@ -264,7 +265,9 @@
     <string name="opp_notification_group">Bluetooth-jako</string>
     <string name="outbound_history_title">Lähtevät siirrot</string>
     <string name="outbound_noti_title">Bluetooth-jako: Lähetetyt tiedostot</string>
+    <string name="pairing_ui_package">com.android.settings</string>
     <string name="pbap_acceptance_timeout_message">Kohteen %1$s yhteyspyyntö aikakatkaistiin</string>
+    <string name="pbap_account_type">com.android.bluetooth.pbapsink</string>
     <string name="pbap_authentication_timeout_message">Kohteen %1$s käyttökerran avaimen syöttö aikakatkaistiin</string>
     <string name="pbap_notification_group">Bluetooth-yhteyden jako</string>
     <string name="pbap_session_key_dialog_header">Bluetooth-käyttökerran avain vaaditaan</string>

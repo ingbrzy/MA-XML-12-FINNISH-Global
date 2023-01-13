@@ -260,6 +260,7 @@ Syötä puhelinnumero uuden SIM-kortin uudelleenaktivoimiseksi %s."</string>
     <string name="search_menu_title">Haku</string>
     <string name="send">Lähetä</string>
     <string name="sim_activate_failed">Palvelua ei voitu käynnistää</string>
+    <string name="sim_activate_notificat_channel">Aktivointi-ilmoitukset</string>
     <string name="sim_activate_prepare">Aktivoi palvelu</string>
     <string name="sim_activated_failed_msg">Palvelua ei voitu aktivoida. Yritä uudelleen napauttamalla.</string>
     <string name="sim_unactivated_feature_title">\"%s\" ei aktivoitunut</string>

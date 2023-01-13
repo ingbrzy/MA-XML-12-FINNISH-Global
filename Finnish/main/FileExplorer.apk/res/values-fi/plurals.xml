@@ -56,6 +56,10 @@
         <item quantity="other">%1$d päivää sitten</item>
         <item quantity="one">%1$d päivä sitten</item>
     </plurals>
+    <plurals name="delete_cloud_files">
+        <item quantity="other">Poistetaanko %1$d tiedostoa kaikista laitteistasi ja pilvestä? Mi Drive -tiedostot voidaan palauttaa äskettäin poistetuista kohteista.</item>
+        <item quantity="one">Poistetaanko %1$d tiedosto kaikista laitteistasi ja pilvestä? Mi Drive -tiedostot voidaan palauttaa äskettäin poistetuista kohteista.</item>
+    </plurals>
     <plurals name="delete_files">
         <item quantity="other">Poistetaanko %1$d tiedostoa?</item>
         <item quantity="one">Poistetaanko %1$d tiedosto?</item>
@@ -135,6 +139,18 @@
     <plurals name="more_gems">
         <item quantity="other">Kerää vielä &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> jalokiveä osallistuaksesi arvontaan.</item>
         <item quantity="one">Kerää vielä &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> jalokivi osallistuaksesi arvontaan.</item>
+    </plurals>
+    <plurals name="notification_message_sync_result_fail">
+        <item quantity="other">%1$s tiedostoa ei voitu synkronoida</item>
+        <item quantity="one">%1$s tiedosto ei voitu synkronoida</item>
+    </plurals>
+    <plurals name="notification_message_sync_result_success">
+        <item quantity="other">"Synkronoitu %1$s tiedostoa | "</item>
+        <item quantity="one">"Synkronoitu %1$s tiedosto | "</item>
+    </plurals>
+    <plurals name="notification_title_syncing_with_count_no_network">
+        <item quantity="other">Odotetaan verkkoyhteyttä. %1$s tiedostoa jäljellä.</item>
+        <item quantity="one">Odotetaan verkkoyhteyttä. %1$s tiedosto jäljellä.</item>
     </plurals>
     <plurals name="numSelectedFile">
         <item quantity="other">%1$d valittua kohdetta</item>

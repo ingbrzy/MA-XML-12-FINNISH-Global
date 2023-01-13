@@ -19,7 +19,6 @@
     <string name="avast_virus_type_cryportor_description">Virus on kryptori. Se on haittaohjelma, joka lähetetään toistamalla itsensä tallennustilassa.</string>
     <string name="avast_virus_type_dropper_description">Virus on tiputuslaite. Se sisältää koodin, joka asentaa muita haittaohjelmia.</string>
     <string name="avast_virus_type_exploit_description">Virus on hyödyntävä. Se hyödyntää järjestelmässä olevia vikoja tai haavoittuvuuksia aiheuttaakseen tahattoman tai ennakoimattoman käyttäytymisen.</string>
-    <string name="avast_virus_type_heuristic_description">Infektio johtuu erityisestä heuristisesta käytöstä. Erityinen heuristinen analyysi kertoo, että se on virus.</string>
     <string name="avast_virus_type_joke_description">Virus on vitsi. Se aiheuttaa ärsyttäviä tai humoristisia vaikutuksia. Se yleensä aiheuttaa vähemmän vahinkoa kuin muut virukset.</string>
     <string name="avast_virus_type_pup_description">Virus on mahdollisesti ei-toivottu ohjelma (PUP). Se on ohjelma, joka voi olla haitallinen (vakoiluohjelmat, mainosohjelmat jne.), huolimatta sitä tosiasiaa, että käyttäjät antavat hyväksynnän sen lataamiselle.</string>
     <string name="avast_virus_type_rootkit_description">Virus on piilohallintaohjelma. Se on eräänlainen ohjelmisto, jonka tarkoituksena on kätkeä se, että käyttöjärjestelmä on vaarantunut. Sitä käytetään hallitsemaan laitetta piilottamalla se syvälle järjestelmään. Piilohallintaohjelma sallii virusten ja haittaohjelmien \"piiloutua tavallisessa näkemyksessä\" piilottamalla tarpeellisina tiedostoina, jotka normaalissa virustorjuntaohjelmassa unohdetaan.</string>
@@ -28,7 +27,6 @@
     <string name="avast_virus_type_tool_description">Virus on potentiaalisesti paha työkalu, joka muistuttaa PUP: ia.</string>
     <string name="avast_virus_type_trjan_description">Virus on troijalainen. Se on haittaohjelma, joka on suunniteltu tarjoamaan luvatonta etäkäyttöä käyttäjän laitteelle. Troijalaisilla ei normaalisti ole kykyä uusia itseään, kuten virukset. Ne voivat kuitenkin johtaa siihen, että laitteeseen asentuu muita haittaohjelmia, tietoja varastetaan tai muita haitallisia toimintoja.</string>
     <string name="avast_virus_type_unknown_description">Tuntematon infektion tyyppi.</string>
-    <string name="avast_virus_type_worm_description">Virus on mato. Se on itsenäinen haittaohjelma, joka uusii itseään, jotta se voidaan levittää muihin laitteisiin. Se hyödyntää järjestelmän tiedostoja tai tiedonsiirto-ominaisuuksia (esimerkiksi verkkoja), se voi matkustaa ilman ihmisen toimintaa. Madoista aiheutuu lähes aina haittaa verkolle.</string>
     <string name="avl_dialog_cloudscan" />
     <string name="avl_dialog_dbupdate" />
     <string name="avl_dialog_header">Tämä toiminto salaa ja lähettää laitteesi ID-numeron AVL:n palvelimille (%s).</string>
@@ -44,6 +42,7 @@
     <string name="size_peta_byte">Pt</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">Tt</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="tencent_dialog_cloudscan">Lähetä ja skannaa sovellusten nimet ja tiedot käyttäen internetistä haettuja virustunnisteita.</string>
     <string name="tencent_dialog_dbupdate">Päivitä virustunnisteet automaattisesti</string>
     <string name="tencent_dialog_header">Tämä toiminto salaa ja lähettää laitteesi ID-numeron Tencentin palvelimille (%s).</string>

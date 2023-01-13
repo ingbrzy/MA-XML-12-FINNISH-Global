@@ -81,8 +81,10 @@
     <string name="date_time_picker_dialog_title">Aseta päivä ja aika</string>
     <string name="delete_download">Poista</string>
     <string name="dialog_btn_cancel">Peruuta</string>
+    <string name="dialog_btn_force_download">Lataa</string>
     <string name="dialog_btn_ok">OK</string>
     <string name="dialog_btn_ok_disabled_net">Verkkoasetukset</string>
+    <string name="dialog_btn_wait_wifi">Odota Wi-Fi-yhteyttä</string>
     <string name="dialog_clipboard_permission_message">Sallitaanko Latauksien käyttää leikepöydän kohteita lisätäkseen kopioituja URL-osoitteita automaattisesti?</string>
     <string name="dialog_clipboard_permission_title">Käyttöoikeuksia vaaditaan</string>
     <string name="dialog_confirm_delete_checkbox_message">Poista myös paikalliset tiedostot</string>
@@ -90,8 +92,11 @@
     <string name="dialog_file_missing_body">Tiedostoa ei löytynyt, näyttää olevan poistettu.</string>
     <string name="dialog_file_missing_title">Tiedostoa ei voitu avata</string>
     <string name="dialog_msg_disabled_net">%1$s rajoitetut lataukset nykyisessä verkossa. Napauta verkkoasetukset siirtyäksesi Suojaus-sovellukseen.</string>
+    <string name="dialog_msg_net_disallowed_by_app">Tämä lataus alkaa automaattisesti, kun laitteesi muodostaa yhteyden Wi-Fi-verkkoon. Lataa nyt siitä huolimatta?</string>
+    <string name="dialog_msg_net_slow">Näyttää siltä, että tämän kohteen lataaminen nykyistä verkkoa käyttäen saattaa kestää liian kauan. Lataa siitä huolimatta?</string>
     <string name="dialog_msg_recommend">Et voi tarkastella suositeltuja lähteitä sen jälkeen, kun olet poistanut sen käytöstä.</string>
     <string name="dialog_title_disabled_net">Internet-yhteys</string>
+    <string name="dialog_title_download">Odota Wi-Fi-yhteyttä</string>
     <string name="dialog_title_recommend">Sammuta suositellut lähteet</string>
     <string name="download_complete">Ladatut</string>
     <string name="download_error">Ei voi ladata</string>

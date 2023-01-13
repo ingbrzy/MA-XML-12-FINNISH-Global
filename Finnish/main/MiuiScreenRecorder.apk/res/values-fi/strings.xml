@@ -237,6 +237,7 @@ Näytä napauttamalla"</string>
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
     <string name="privacy_settings">Tietosuoja</string>
     <string name="quit_recording">Sulje Näytöntallennin</string>
+    <string name="record_time_too_short">Nauhoitettu video on liian lyhyt</string>
     <string name="recording_failure">Ei voitu tallentaa, aloita uudestaan</string>
     <string name="recording_max_size">Tallennus keskeytettiin ja tallennettiin, koska videotiedosto saavutti kokorajoituksensa. Aloita tallennus siitä, mistä lopetit, jos et ole vielä päättänyt.</string>
     <string name="recording_without_mic">Mikrofoni on käytössä ja ei voi nauhoittaa ääntä nyt.</string>

@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Jaa…</string>
     <string name="abc_shareactionprovider_share_with_application">Jaa: %s</string>
     <string name="abc_toolbar_collapse_description">Tiivistä</string>
+    <string name="access_denied_info">Liian monta yritystä. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="actionbar_button_up_description">Takaisin</string>
     <string name="afternoon">Iltapäivä</string>
     <string name="am">ap.</string>
@@ -190,6 +191,7 @@
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -216,12 +218,15 @@
     <string name="mtrl_picker_toggle_to_day_selection">Siirry päivän valintaan napauttamalla</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Valitse syöttötavaksi teksti</string>
     <string name="mtrl_picker_toggle_to_year_selection">Siirry vuoden valintaan napauttamalla</string>
+    <string name="network_error_info">Tapahtui verkkovirhe. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
+    <string name="network_timeout_info">Ei voitu yhdistää verkkoon. Yritä uudelleen.</string>
     <string name="night">Ilta</string>
     <string name="noon">Keskipäivä</string>
     <string name="not_set">Ei asetettu</string>
     <string name="password_toggle_content_description">Näytä salasana</string>
     <string name="pm">ip.</string>
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
+    <string name="progressbar_title">Tarkastetaan turvallisuusongelmien varalta…</string>
     <string name="saturday">Lauantai</string>
     <string name="saturday_short">La</string>
     <string name="saturday_shortest">La</string>
@@ -239,6 +244,7 @@
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>
     <string name="sunday_shortest">Su</string>
+    <string name="system_error_info">Järjestelmä on varattu. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="the_anniversary_of_lifting_martial_law">Sotalain nostamisen vuosipäivä</string>
     <string name="the_anti_aggression_day">Anti-Aggression Day</string>
     <string name="the_arbor_day">Arbor Day</string>
@@ -290,6 +296,7 @@
     <string name="tuesday">Tiistai</string>
     <string name="tuesday_short">Ti</string>
     <string name="tuesday_shortest">Ti</string>
+    <string name="unknown_error_info">Tuntematon virhe</string>
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
     <string name="v7_preference_on">KÄYTÖSSÄ</string>
     <string name="wednesday">Keskiviikko</string>

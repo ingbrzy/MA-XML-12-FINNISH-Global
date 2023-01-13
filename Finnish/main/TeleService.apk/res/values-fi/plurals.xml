@@ -36,20 +36,6 @@
         <item quantity="other">%d minuuttia sitten</item>
         <item quantity="one">1 minuutti sitten</item>
     </plurals>
-    <plurals name="alert_dialog_exit_ecm">
-        <item quantity="other">Puhelin siirtyy hätäpuhelujen takaisinsoittotilaan %s minuutin ajaksi. Et voi käyttää verkkoyhteyttä hyödyntäviä sovelluksia tänä aikana. Haluatko poistua nyt?</item>
-        <item quantity="one">Puhelin siirtyy hätäpuhelujen takaisinsoittotilaan %s minuutin ajaksi. Et voi käyttää verkkoyhteyttä hyödyntäviä sovelluksia tänä aikana. Haluatko poistua nyt?</item>
-    </plurals>
-    <plurals name="alert_dialog_exit_ecm_without_data_restriction_hint">
-        <item quantity="other">"Puhelin on hätäpuhelujen takaisinsoittotilassa %s minuutin ajan.
-Haluatko poistua nyt?"</item>
-        <item quantity="one">"Puhelin on hätäpuhelujen takaisinsoittotilassa %s minuutin ajan.
-Haluatko poistua nyt?"</item>
-    </plurals>
-    <plurals name="alert_dialog_not_avaialble_in_ecm">
-        <item quantity="other">Valittua toimintoa ei voi käyttää, kun puhelin on hätäpuhelujen takaisinsoittotilassa. Puhelin on takaisinsoittotilassa %s minuutin ajan. Haluatko poistua nyt?</item>
-        <item quantity="one">Valittua toimintoa ei voi käyttää, kun puhelin on hätäpuhelujen takaisinsoittotilassa. Puhelin on takaisinsoittotilassa %s minuutin ajan. Haluatko poistua nyt?</item>
-    </plurals>
     <plurals name="auto_answer_summary_delay">
         <item quantity="other">viive: %d sekuntia</item>
         <item quantity="one">viive: %d sekunti</item>
@@ -102,10 +88,6 @@ Haluatko poistua nyt?"</item>
         <item quantity="other">%d kohdetta valittu</item>
         <item quantity="one">%d kohde valittu</item>
     </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d uutta ilmoitusta</item>
-        <item quantity="one">%d uusi ilmoitus</item>
-    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minuuttia sitten</item>
         <item quantity="one">1 minuutti sitten</item>
@@ -115,9 +97,5 @@ Haluatko poistua nyt?"</item>
 %d yritystä jäljellä."</item>
         <item quantity="one">"
 %d yritys jäljellä."</item>
-    </plurals>
-    <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d laitetta yhdistettynä</item>
-        <item quantity="one">%1$d laite yhdistettynä</item>
     </plurals>
 </resources>

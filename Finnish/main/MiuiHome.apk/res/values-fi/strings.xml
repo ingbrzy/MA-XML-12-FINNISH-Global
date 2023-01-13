@@ -301,6 +301,7 @@
     <string name="dual_app">Kaksoissovellukset</string>
     <string name="early_morning">Aamu</string>
     <string name="edit">Muokkaa</string>
+    <string name="edit_folder">Muokkaa kansiota</string>
     <string name="edit_folder_title">Muokkaa kansion nimeä</string>
     <string name="edit_mode_dual_app">Luo kaksoissovellus</string>
     <string name="edit_mode_group">Ryhmä</string>
@@ -387,9 +388,16 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="fold_pair_install_shortcut_launcher_success">Luotu onnistuneesti</string>
     <string name="fold_pair_install_shortcut_long_click">Paina ja pidä painettuna lisätäksesi aloitusnäyttöön</string>
     <string name="fold_pair_installed_shortcut_launcher">Tämä pikavalinta on jo olemassa</string>
     <string name="folder_name">Kansio</string>
+    <string name="folder_picker_big_2x2_9_text">XXL</string>
+    <string name="folder_picker_big_text">Suurennettu</string>
+    <string name="folder_picker_default_text">Normaali</string>
+    <string name="folder_picker_options_tab_text">Koko</string>
+    <string name="folder_picker_sliding_button_tab_text">Ehdota korostettuja sovelluksia</string>
+    <string name="folder_picker_tab_text">Kansio</string>
     <string name="frame_load_failed">Raameja ei voi ladata</string>
     <string name="free_style_apps_title">Valitse sovellus</string>
     <string name="free_style_drawer_title">Kaikki sovellukset</string>
@@ -469,6 +477,7 @@
     <string name="icon_style">Tyyli</string>
     <string name="image_too_small_message">Alkuperäinen kuva ei ole tarpeeksi suuri.</string>
     <string name="install">Asenna</string>
+    <string name="intelligent_exposed_button_summary_text">Käytä sovelluksesi käyttöön perustuvia älykkäitä ehdotuksia korostaaksesi sovelluksia suurennettuissa kansioissa</string>
     <string name="invalid_contact_shortcut">Virheellinen yhteystieto</string>
     <string name="is_setting_wallpaper_message">Asetetaan taustakuvaa…</string>
     <string name="is_system_wallpaper_message">Järjestelmän resursseja ei voi poistaa</string>
@@ -554,6 +563,7 @@ Parannettu suojaus."</string>
     <string name="minus_one_screen">Sovellusholvi</string>
     <string name="miui_screen_config_title">Aloitusnäytön asetukset</string>
     <string name="miui_widget_menu_replace_text">Vaihda</string>
+    <string name="miui_widget_toast_for_not_support_by_pa">Sovellusholvi ei tue tämän kokoisia vinjettejä</string>
     <string name="miuix_access_state_desc">Valittu</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
@@ -580,6 +590,8 @@ Parannettu suojaus."</string>
     <string name="monday">Maanantai</string>
     <string name="monday_short">Ma</string>
     <string name="monday_shortest">Ma</string>
+    <string name="monochrome_summary">Muuta yhteensopivien kuvakkeiden taustaväriä</string>
+    <string name="monochrome_title">Taustaväri</string>
     <string name="month_april">Huhtikuu</string>
     <string name="month_april_short">Huhti</string>
     <string name="month_april_shortest">Huhti</string>
@@ -624,6 +636,7 @@ Parannettu suojaus."</string>
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -795,6 +808,8 @@ Parannettu suojaus."</string>
     <string name="quick_search_guide_quick_search">Pikahaku</string>
     <string name="quick_search_guide_title">Valitse oletustila</string>
     <string name="recent_apps">Viimeaikaiset</string>
+    <string name="recent_menu_item_add_pair">Luo aloitusnäytön pikakuvake tälle jaetun näytön yhdistelmälle</string>
+    <string name="recent_menu_item_add_pair_first_toast">Luo aloitusnäytön pikakuvake tälle jaetun näytön yhdistelmälle</string>
     <string name="recent_menu_item_info">Tietoja</string>
     <string name="recent_menu_item_lock">Lukitse</string>
     <string name="recent_menu_item_multi_window">Jaettu</string>
@@ -901,6 +916,7 @@ Parannettu suojaus."</string>
     <string name="sort_by_not_defined">Lajittele automaattisesti</string>
     <string name="start_activity_failed">Käynnistysohjelmaa ei voi käynnistää</string>
     <string name="starting_preset_app">Aloitetaan…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s Gt</string>
     <string name="status_bar_recent_memory_info1">%1$s/%2$s saatavilla</string>
     <string name="status_bar_recent_memory_info2" />
@@ -983,6 +999,8 @@ Parannettu suojaus."</string>
     <string name="title_select_shortcut">Valitse pikavalinta</string>
     <string name="toast_drag_to_assistant_reject">Alustetaan Sovellusholvia…</string>
     <string name="toast_screen_icons_misplaced">Palautettu toisesta lähteestä, joitakin kuvakkeita saatettiin asettaa eri paikkaan.</string>
+    <string name="toast_split_app_unsupported">Tämä sovellus ei tue jaetun näytön tilaa</string>
+    <string name="toast_split_select_app">Käytä jaettua näyttöä napauttamalla sovellusta</string>
     <string name="today">Tänään</string>
     <string name="toggle_select_title">Valitse kytkin</string>
     <string name="toggle_title">Kytkimet</string>
@@ -1033,8 +1051,12 @@ Parannettu suojaus."</string>
     <string name="widget_global_search">Etsi</string>
     <string name="widget_quick_function">Pikatoiminnot</string>
     <string name="widgets_preview_title">Lisää widgetejä</string>
+    <string name="work_mode_off_detailed_text">Työsovelluksesi eivät voi lähettää sinulle ilmoituksia, käyttää akkua tai käyttää sijaintiasi</string>
     <string name="work_mode_off_label">Ilmoitukset ovat pois päältä, eikä sovelluksia ole saatavana nyt</string>
+    <string name="work_mode_off_text">Työsovellukset on keskeytetty</string>
     <string name="work_mode_on_label">Organisaatiosi hallinnoima</string>
+    <string name="work_mode_toggle_off">Sammuta työsovellukset</string>
+    <string name="work_mode_toggle_on">Ota työsovellukset käyttöön</string>
     <string name="work_profile_first_content">Henkilötiedot ovat erillisiä ja piilotettuja työsovelluksista</string>
     <string name="work_profile_got_button">Selvä</string>
     <string name="work_profile_next_button">Seuraava</string>

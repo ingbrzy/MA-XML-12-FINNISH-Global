@@ -58,6 +58,7 @@
     <string name="dual_app_title">Kaksoissovellukset</string>
     <string name="dual_app_words">Jokainen tili ansaitsee oman sovelluksensa</string>
     <string name="early_morning">Aamu</string>
+    <string name="empty">" "</string>
     <string name="eras_ad">jKr.</string>
     <string name="eras_bc">eKr.</string>
     <string name="evening">Iltapäivä</string>
@@ -148,14 +149,16 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
-    <string name="free_send_net_booster">Ilmainen verkon nopeuden lisäys</string>
-    <string name="free_send_net_booster_busniess">Hanki ilmainen Xunlein nopeuden lisäys</string>
-    <string name="free_send_net_booster_busniess_tip">Napauta vastaanottaaksesi</string>
-    <string name="free_send_net_booster_tip">Nauti sulavasta pelaamisesta ilmaisella verkon nopeutuksella.</string>
+    <string name="free_send_net_booster">Kokeile Game Turboa ilmaiseksi</string>
+    <string name="free_send_net_booster_busniess">Kokeile Game Turboa ilmaiseksi</string>
+    <string name="free_send_net_booster_busniess_tip">Tehosta pelikokemustasi ja voita peliskin. Tämä tarjous on voimassa vain tänään!</string>
+    <string name="free_send_net_booster_tip">Tehosta pelikokemustasi ja voita Xiaomi-laite!</string>
     <string name="friday">Perjantai</string>
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
     <string name="game_booster">Pelin nopeuttaja</string>
+    <string name="gamebooster_dialog_recover">Uusi</string>
+    <string name="gamebooster_dialog_start_booster">Aloita</string>
     <string name="gamebooster_network_dialog_message">Sallitaanko Tietoturvan muodostaa yhteys verkkoon, jotta voit käyttää kaikkia Game Turbo -ominaisuuksia?</string>
     <string name="gamebooster_network_dialog_message_pad">Sallitaanko Tietoturvan muodostaa yhteys verkkoon, jotta voit käyttää kaikkia Game Turbo -ominaisuuksia?</string>
     <string name="gamebooster_network_dialog_title">Jotkut ominaisuudet eivät ole saatavilla</string>
@@ -319,7 +322,7 @@
     <string name="morning">Aamu</string>
     <string name="net_booster_expire_notification">Verkon nopeuttamisistunto on loppumassa</string>
     <string name="net_booster_overdue_notification">Verkon nopeuttamisistunto on loppumassa</string>
-    <string name="net_booster_overdue_notification_tip">Verkon nopeuttamisistunto päättyy pian. Uusitaanko istunto?</string>
+    <string name="net_booster_overdue_notification_tip">Verkkonopeuden lisäämisistunto päättyi. Saatat alkaa kokea verkkoviiveitä. Uusitaanko istunto nyt?</string>
     <string name="network_not_available">Ei voi yhdistää verkkoon</string>
     <string name="night">Ilta</string>
     <string name="no_network">Ei voi yhdistää verkkoon</string>
@@ -331,6 +334,8 @@
     <string name="pc_activity_title">Optimoi akku</string>
     <string name="pm">ip.</string>
     <string name="pm_lable_name">Tietoja pääkäyttäjän oikeuksista</string>
+    <string name="power_center_battery_duration_screen_on">Käyttöaikaa jäljellä</string>
+    <string name="power_main_battery_last_hour_minute_screen_on">%1$s %2$s käyttöaikaa jäljellä</string>
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
     <string name="privacy_declare_dialog_title">Käyttöehdot</string>
     <string name="privacy_prompt_traffic_purchase_message">Puhelinnumerosi ja operaattorin tiedot salataan ja lähetetään Mi-palvelimiin saadaksesi lisätietoja datan hankintavaihtoehdoista.</string>
@@ -348,6 +353,7 @@
     <string name="size_peta_byte">Pt</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">Tt</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>

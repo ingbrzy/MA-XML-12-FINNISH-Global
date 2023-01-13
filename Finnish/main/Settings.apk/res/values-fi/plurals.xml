@@ -41,8 +41,8 @@
         <item quantity="one">%d päivä sitten</item>
     </plurals>
     <plurals name="abc_slice_duration_min">
-        <item quantity="other">%d min sitten</item>
-        <item quantity="one">%d min sitten</item>
+        <item quantity="other">%d min sitten</item>
+        <item quantity="one">%d min sitten</item>
     </plurals>
     <plurals name="abc_slice_duration_years">
         <item quantity="other">%d vuotta sitten</item>
@@ -143,6 +143,10 @@
     <plurals name="bt_usable_device_title">
         <item quantity="other">%d laitetta saatavissa</item>
         <item quantity="one">%d laite saatavissa</item>
+    </plurals>
+    <plurals name="clean_time">
+        <item quantity="other">%d sekuntia</item>
+        <item quantity="one">%d sekunti</item>
     </plurals>
     <plurals name="color_game_led_freq_entries">
         <item quantity="other">Joka %d. sekunti</item>
@@ -312,6 +316,10 @@
         <item quantity="other">%d aktiivista luotettavaa tahoa</item>
         <item quantity="one">1 aktiivinen luotettava taho</item>
     </plurals>
+    <plurals name="max_number_of_processes">
+        <item quantity="other">Enintään %d prosessia</item>
+        <item quantity="one">Enintään %d prosessi</item>
+    </plurals>
     <plurals name="memory_usage_apps_summary">
         <item quantity="other">viimeiset %2$s: %1$d sovellusta käytti muistia</item>
         <item quantity="one">viimeiset %2$s: 1 sovellus käytti muistia</item>
@@ -468,22 +476,6 @@
         <item quantity="other">Luota varmenteisiin tai poista niitä</item>
         <item quantity="one">Luota varmenteeseen tai poista se</item>
     </plurals>
-    <plurals name="ssl_ca_cert_info_message">
-        <item quantity="other">"%s on asentanut työprofiiliisi varmenteen myöntäjiä, mikä mahdollistaa toimintasi (kuten sähköpostin, sovellusten ja suojattujen verkkosivustojen käytön) seuraamisen työverkossa.
-
-Saat lisätietoja varmenteista järjestelmänvalvojaltasi."</item>
-        <item quantity="one">"%s on asentanut työprofiiliisi varmenteen myöntäjän, mikä mahdollistaa toimintasi (kuten sähköpostin, sovellusten ja suojattujen verkkosivustojen käytön) seuraamisen työverkossa.
-
-Saat lisätietoja varmenteesta järjestelmänvalvojaltasi."</item>
-    </plurals>
-    <plurals name="ssl_ca_cert_info_message_device_owner">
-        <item quantity="other">"%s on asentanut laitteellesi varmenteen myöntäjiä, mikä mahdollistaa verkkotoimintasi (kuten sähköpostin, sovellusten ja suojattujen verkkosivustojen käytön) seuraamisen.
-
-Saat lisätietoja varmenteista järjestelmänvalvojaltasi."</item>
-        <item quantity="one">"%s on asentanut laitteellesi varmenteen myöntäjän, mikä mahdollistaa verkkotoimintasi (kuten sähköpostin, sovellusten ja suojattujen verkkosivustojen käytön) seuraamisen.
-
-Saat lisätietoja varmenteesta järjestelmänvalvojaltasi."</item>
-    </plurals>
     <plurals name="ssl_ca_cert_settings_button">
         <item quantity="other">Tarkista varmenteet</item>
         <item quantity="one">Tarkista varmenne</item>
@@ -495,6 +487,26 @@ Saat lisätietoja varmenteesta järjestelmänvalvojaltasi."</item>
     <plurals name="status_bar_settings_enabled_header_title">
         <item quantity="other">%d sovellusta voi näyttää ilmoituksia</item>
         <item quantity="one">%d sovellus voi näyttää ilmoituksia</item>
+    </plurals>
+    <plurals name="string_after_int_minute">
+        <item quantity="other">%d minuutin kuluttua</item>
+        <item quantity="one">%d minuutin kuluttua</item>
+    </plurals>
+    <plurals name="string_bits_per_sample">
+        <item quantity="other">%d bittiä/otos</item>
+        <item quantity="one">%d bitti/otos</item>
+    </plurals>
+    <plurals name="string_int_hour">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">%d tunti</item>
+    </plurals>
+    <plurals name="string_int_minute">
+        <item quantity="other">%d minuuttia</item>
+        <item quantity="one">%d minuutti</item>
+    </plurals>
+    <plurals name="string_int_second">
+        <item quantity="other">%d sekuntia</item>
+        <item quantity="one">%d sekunti</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary">
         <item quantity="other">+%1$d ehdotusta</item>
@@ -522,7 +534,7 @@ Saat lisätietoja varmenteesta järjestelmänvalvojaltasi."</item>
     </plurals>
     <plurals name="usage_state_device_explain_week">
         <item quantity="other">Avattu %d kertaa</item>
-        <item quantity="one">Avattu %d kerrta</item>
+        <item quantity="one">Avattu %d kerta</item>
     </plurals>
     <plurals name="usage_state_device_noti_explain_today">
         <item quantity="other">Vastaanotettu %d ilmoitusta</item>
@@ -545,8 +557,8 @@ Saat lisätietoja varmenteesta järjestelmänvalvojaltasi."</item>
         <item quantity="one">"  tunti"</item>
     </plurals>
     <plurals name="usage_state_minute">
-        <item quantity="other">%d minuuttia</item>
-        <item quantity="one">%d minuutti</item>
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
     </plurals>
     <plurals name="usage_state_miunte_text">
         <item quantity="other">"  min"</item>

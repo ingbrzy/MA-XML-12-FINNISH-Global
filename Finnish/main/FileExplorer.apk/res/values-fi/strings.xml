@@ -29,8 +29,10 @@
     <string name="abc_toolbar_collapse_description">Tiivistä</string>
     <string name="access_limit">Pääsyn rajoitukset</string>
     <string name="access_tips">Kohteisiin ei pääse. Kokeile sen sijaan käyttää kohdetta Android Storage Access Framework.</string>
+    <string name="action_cache_to_local">Lataa laitteeseen</string>
     <string name="action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="action_mode_select_all">Valitse kaikki</string>
+    <string name="action_release_file_cache">Tyhjennä välimuisti</string>
     <string name="actionbar_button_up_description">Takaisin</string>
     <string name="ad_download">Lataa</string>
     <string name="add_private">Tee tiedostoista yksityisiä</string>
@@ -66,6 +68,16 @@
     <string name="can_not_send_with_too_many">Useita kohteita ei voi lähettää kerralla</string>
     <string name="cancel">Peruuta</string>
     <string name="cancel_error">Ei voitu poistaa. Yritä uudelleen.</string>
+    <string name="cancel_mi_drive">Peruuta Mi Drive -palvelut</string>
+    <string name="cancel_mi_drive_alert_description" formatted="false">Tyhjennä kaikki kohteet Mi Drivesta, jotta voit peruuttaa palvelut. Tyhjennä kohteet seuraavasti:&lt;br />&lt;xliff:g id=cancel_mi_drive_alert_description_list_1 refersto=1>%1d&lt;/xliff:g>. Paina ja pidä Mi Driven aloitussivulla kohdetta, jolloin \"Valitse kaikki\" -painike tulee näkyviin. Tällä painikkeella voit valita enintään 200 tiedostoa kerralla ja poistaa ne.&lt;br />&lt;xliff:g id=cancel_mi_drive_alert_description_list_2 refersto=2>%2d&lt;/xliff:g>. Tämän jälkeen tyhjennä äskettäin poistetut kohteet.</string>
+    <string name="cancel_mi_drive_alert_reminder_card_summary" formatted="false">&lt;xliff:g id=cancel_mi_drive_alert_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Suosittelemme varmuuskopioimaan kohteet ennen niiden poistamista. Voit tehdä tämän siirtymällä osoitteeseen i.mi.com, napsauttamalla Mi Drivea ja lataamalla kohteet tietokoneelle.&lt;br />&lt;xliff:g id=cancel_mi_drive_alert_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g> . Huomaathan, että äskettäin poistettuja kohteita ei voi palauttaa poistamisen jälkeen.</string>
+    <string name="cancel_mi_drive_confirm_button">Peruuta palvelut</string>
+    <string name="cancel_mi_drive_confirm_description">Jos jatkat, peruutat Mi Drive -palvelut. Lopetamme henkilötietojesi keräämisen, ja valmiiksi kerätyt ja säilytetyt henkilötiedot poistetaan määritetyn ajan kuluessa sovellettavien lakien ja määräysten mukaisesti, ellei toisin vaadita.</string>
+    <string name="cancel_mi_drive_confirm_hint">Mi Drive -palveluiden peruuttaminen ei vaikuta muiden Xiaomi-tuotteiden ja -palveluiden käyttöön. Jos haluat poistaa Xiaomi-tilisi, voit tehdä sen &lt;font color=#0097FF>&lt;a href=%1$s>täällä&lt;/a>&lt;/font>.</string>
+    <string name="cancel_mi_drive_confirm_reminder_card_summary" formatted="false">&lt;font color=#F22424>Seuraavat kohteet poistetaan pysyvästi palvelujen peruuttamisen jälkeen:&lt;/font>&lt;br />&lt;xliff:g id=cancel_mi_drive_confirm_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Kaikki Mi Driven kohteet, mukaan lukien mutta ei rajoittuen asiakirjat, yksityiset tiedostot ja poistetut kohteet.&lt;br />&lt;xliff:g id=cancel_mi_drive_confirm_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. Laitteen käyttöoikeudet, asetukset ja muu välimuistissa oleva sisältö.&lt;br />&lt;xliff:g id=cancel_mi_drive_confirm_reminder_card_summary_list_3 refersto=3>%3d&lt;/xliff:g>. Mi Driven lataushistoria.</string>
+    <string name="cancel_mi_drive_privacy_revoked_retry">Ota Mi Drive käyttöön ja yritä uudelleen</string>
+    <string name="cancel_mi_drive_success">Palvelut peruutettu onnistuneesti</string>
+    <string name="cancel_mi_drive_title">Peruuta palvelut</string>
     <string name="cancel_msg">Kumoa kaikkien valinta?</string>
     <string name="cancel_operation">Peruuta toiminto</string>
     <string name="cancel_success">Tiedostot siirrettiin kohteeseen %s onnistuneesti</string>
@@ -75,6 +87,7 @@
     <string name="category_all">Kaikki tiedostot</string>
     <string name="category_apk">APK:t</string>
     <string name="category_bluetooth">Bluetooth</string>
+    <string name="category_cloud_drive">Mi Drive</string>
     <string name="category_document">Asiakirjat</string>
     <string name="category_download">Lataukset</string>
     <string name="category_editor_mode">Muokkaa</string>
@@ -110,6 +123,26 @@
     <string name="click_to_switch_volume_pad">Vaihda sisäisen tallennustilan ja SD-kortin välillä napauttamalla</string>
     <string name="clock_in">Tarkastetaan…</string>
     <string name="close">Sulje</string>
+    <string name="cloud_copy_to_local_title">Tallenna kohteeseen…</string>
+    <string name="cloud_drive_files">Mi Drive -tiedostot</string>
+    <string name="cloud_drive_not_login_summary">Ei kirjautunut</string>
+    <string name="cloud_drive_settings">Mi Drive -asetukset</string>
+    <string name="cloud_empty_hint_text">"Täällä ei vielä ole mitään.
+Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
+    <string name="cloud_guide_summary_text">Synkronoi kohteesi automaattisesti kaikille laitteillesi</string>
+    <string name="cloud_guide_title_text">Synkronoi Mi Driven kanssa</string>
+    <string name="cloud_permission_storage_desc">Valokuvien ja asiakirjojen tallentamiseen laitteellesi</string>
+    <string name="cloud_recycle_bin">Äskettäin poistetut kohteet</string>
+    <string name="cloud_space_full">Pilvitallennustila on täynnä. Päivitä tallennustilapakettisi, jotta voit ladata lisää kohteita.</string>
+    <string name="cloud_transfer_download_error">Ei voitu ladata</string>
+    <string name="cloud_transfer_download_loading">Ladataan</string>
+    <string name="cloud_transfer_downloading">Ladataan</string>
+    <string name="cloud_transfer_pause">Keskeytetty</string>
+    <string name="cloud_transfer_upload_error">Ei voitu ladata</string>
+    <string name="cloud_transfer_uploading">Ladataan</string>
+    <string name="cloud_transfer_wait_download">Odotetaan latausta</string>
+    <string name="cloud_transfer_wait_network">Odotetaan internetiä</string>
+    <string name="cloud_transfer_wait_upload">Odotetaan latausta</string>
     <string name="compress_fail">Pakkaaminen epäonnistui. Samanniminen tiedosto on jo olemassa.</string>
     <string name="compress_fail_unknown">Pakkaaminen epäonnistui. Tallennustila on täynnä tai tapahtui tuntematon virhe.</string>
     <string name="compress_message">Pakataan kohteeseen…</string>
@@ -124,6 +157,10 @@
     <string name="copy_to">Kopioidaan…</string>
     <string name="create_folder">Luo</string>
     <string name="create_shortcut_success">Pikavalinta lisätty onnistuneesti</string>
+    <string name="cta_function_account_operation">Nopea kirjautuminen Xiaomi-tilillesi</string>
+    <string name="data_consume_dialog_message">Käytät tällä hetkellä mobiilidataa. Jos jatkat, tämä käyttää %s dataa.</string>
+    <string name="data_consume_dialog_title">Käytä mobiilidataa?</string>
+    <string name="data_consume_dialog_upload_title">Lataa mobiilidatan avulla</string>
     <string name="data_consumption_cancel">Älä hyväksy</string>
     <string name="data_consumption_checkbox_hint">Älä näytä uudelleen</string>
     <string name="data_consumption_confirm">OK</string>
@@ -157,7 +194,14 @@
     <string name="delete_folder">Poistetaanko tämä kansio?</string>
     <string name="des_hide_pwd">Piilota salasana</string>
     <string name="des_show_pwd">Näytä salasana</string>
+    <string name="dialog_account_permission_denied_msg">Salli tämän sovelluksen käyttää laitetilejä, jotta se voi kirjautua sisään Mi Driveen. Voit myöntää tämän luvan asetuksista.</string>
+    <string name="dialog_account_permission_denied_negative_button">Peruuta</string>
+    <string name="dialog_account_permission_denied_positive_button">Asetukset</string>
+    <string name="dialog_account_permission_denied_title">Käyttöoikeuksia vaaditaan</string>
     <string name="dialog_keep_choice">Muista valintani</string>
+    <string name="dialog_open_mi_drive_button">Selvä</string>
+    <string name="dialog_open_mi_drive_err">Käynnistä Mi Drive uudelleen ja yritä uudelleen.</string>
+    <string name="dialog_open_mi_drive_title">Palvelinvirhe</string>
     <string name="dialog_select_type">Valitse tyyppi</string>
     <string name="dialog_type_audio">Ääni</string>
     <string name="dialog_type_image">Kuvat</string>
@@ -199,6 +243,7 @@
     <string name="error_not_support">Ei tueta</string>
     <string name="error_open_file_failed_no_app_found">Sovelluksia ei löydy tämän tiedoston avaamiseksi.</string>
     <string name="evening">Iltapäivä</string>
+    <string name="exception_net_not_available">Tarkista verkkoasetuksesi ja yritä uudelleen</string>
     <string name="exit">Poistu</string>
     <string name="expand_button_title">Lisäasetukset</string>
     <string name="extended_storage_file_can_not_open">Tiedostoa ei voida avata. Kopioi tiedosto sisäiseen tallennustilaan.</string>
@@ -211,6 +256,7 @@
     <string name="favorite_photo">Valokuvat</string>
     <string name="favorite_ringtone">Soittoäänet</string>
     <string name="favorite_screen_cap">Kuvakaappaukset</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Lukukelpoinen: </string>
     <string name="file_info_canwrite">Kirjoitettavissa: </string>
     <string name="file_info_ishidden">Piilotettu: </string>
@@ -307,6 +353,7 @@
     <string name="guide_three_title">Järjestä pikavalinnat uudelleen</string>
     <string name="guide_two_summary">Gallerian valokuvat ja kuvakaappaukset on piilotettu oletusarvoisesti.</string>
     <string name="guide_two_title">Katso vain olennaiset kohteet</string>
+    <string name="h5_ppt_to_pdf_introduce_title">Tietoja PDF-tiedostojen luomisesta</string>
     <string name="hint_switch_to_grid_mode">Vaihdettu ruudukkonäkymään</string>
     <string name="hint_switch_to_list_mode">Vaihdettu listanäkymään</string>
     <string name="home_action_up">Takaisin</string>
@@ -315,10 +362,14 @@
     <string name="homepage_tab_file_view_phone">Tallennustila</string>
     <string name="homepage_tab_recent">Viimeaikaiset</string>
     <string name="hot_sticker">Tarrat</string>
+    <string name="hybrid_provider">Tarjoaa %1$s</string>
     <string name="if_cancel">Peruutetaanko tämä toiminto?</string>
     <string name="image_loading_error">Kuvan lataaminen epäonnistui</string>
     <string name="imm_str_storage">Tallennustila</string>
     <string name="import_files_from_old_phones">Tuo vanhalta laitteelta</string>
+    <string name="install_media_editor_button_text">Lataa</string>
+    <string name="install_media_editor_message">Jos haluat muokata kohteita, lataa laajennus ensin. Lataa nyt?</string>
+    <string name="install_media_editor_title">Laajennus vaaditaan</string>
     <string name="instruction">Kirjoita seuraava osoite FTP-ohjelmaan: </string>
     <string name="instruction_pre_pad">Hallitse tämän laitteen tiedostoja tietokoneella</string>
     <string name="instruction_pre_phone">Hallitse tämän laitteen tiedostoja tietokoneella</string>
@@ -343,6 +394,7 @@
     <string name="make_private_msg_1">Tehdäänkö tämä tiedosto yksityiseksi?</string>
     <string name="make_private_msg_2">Tehdäänkö nämä tiedostot yksityisiksi?</string>
     <string name="make_private_msg_3">Kaikista tämän kansion tiedostoista tulee yksityisiä.</string>
+    <string name="manage_cloud_space">Hallitse pilvitallennustilaa</string>
     <string name="menu_item_cleanup">Puhdista</string>
     <string name="menu_item_ftp">Yhdistä tietokoneeseen</string>
     <string name="menu_item_router">Reititin</string>
@@ -359,6 +411,12 @@
     <string name="mi_router_label">Reititin</string>
     <string name="mi_share">Mi Share</string>
     <string name="midnight">Yö</string>
+    <string name="midrive_display_related">Näyttö</string>
+    <string name="midrive_get_cloudvideo_file">Hetki vain…</string>
+    <string name="midrive_hide_recent_cloud_files">Älä näytä Mi Drive -tiedostoja Viimeaikaisissa</string>
+    <string name="midrive_not_found">Tätä kohdetta ei voitu käyttää</string>
+    <string name="midrive_overseas_unavailable">Tämä ominaisuus on saatavilla vain Manner-Kiinassa.</string>
+    <string name="midrive_reset_privacy_and_check_availability_retry">Mi Drivea ei voitu käynnistää. Yritä uudelleen.</string>
     <string name="midriver_install_button_text">Asenna</string>
     <string name="midriver_not_install_title">Mi Drive on poistettu</string>
     <string name="mirror_can_not_drag_mask">Vedä käyttääksesi kohdetta Mi Share</string>
@@ -464,6 +522,7 @@
     <string name="need_read_storage_permission">Tiedostonhallinta vaatii oikeuden käyttää laitteen tallennustilaa toimiakseen normaalisti.</string>
     <string name="network_not_available">Ei voi yhdistää verkkoon</string>
     <string name="new_folder_name">Uusi kansio</string>
+    <string name="new_storage_info_detail">Vapaa: %1$s | Yhteensä: %2$s</string>
     <string name="next">Seuraava</string>
     <string name="night">Ilta</string>
     <string name="no">Ei</string>
@@ -472,6 +531,9 @@
     <string name="no_enough_storage_indication">Laitteen tallennustila on täynnä.</string>
     <string name="no_enough_storage_title">Tallennustilaa ei ole tarpeeksi</string>
     <string name="no_file">Tyhjä</string>
+    <string name="no_network">Ei voi yhdistää verkkoon</string>
+    <string name="no_network_error_message">Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
+    <string name="no_network_error_title">Ei voitu yhdistää verkkoon</string>
     <string name="no_permission">Myönnä tarvittavat käyttöoikeudet tämän ominaisuuden käyttämiseen</string>
     <string name="no_wifi">Ei Wi-Fi-verkkoja</string>
     <string name="noon">Keskipäivä</string>
@@ -481,16 +543,29 @@
     <string name="not_use">Ei nyt</string>
     <string name="notif_server_starting">Käynnistetään FTP-palvelinta…</string>
     <string name="notif_title">FTP-palvelin on käynnissä</string>
+    <string name="notification_title_sync_result">Synkronointi valmis</string>
+    <string name="notification_title_syncing">Synkronoidaan…</string>
+    <string name="notification_title_syncing_with_count">Synkronoidaan kohteita. Jäljellä olevat tiedostot: %1$s</string>
     <string name="online_not_support">Tätä tiedostoa ei voi tällä hetkellä näyttää.</string>
+    <string name="open_cloud_drive">Ota Mi Drive käyttöön</string>
     <string name="open_or_close_wlan">Kytke Wi-Fi päälle ja pois päältä</string>
     <string name="open_private_folder">Vapauta nähdäksesi yksityisiä kansioita</string>
     <string name="operation_add_fav">Lisätään suosikkeihin…</string>
+    <string name="operation_batch_failed_err">Tätä toimintoa ei voitu suorittaa useille tiedostoille.</string>
+    <string name="operation_cache_use_data">Lataa</string>
+    <string name="operation_cache_use_free_network">Odotetaan Wi-Fi-yhteyttä</string>
     <string name="operation_cancel">Peruuta</string>
+    <string name="operation_cloud_copy_to_local">Tallenna kohteeseen…</string>
     <string name="operation_compress">Pakkaa</string>
     <string name="operation_compressing">Pakataan…</string>
     <string name="operation_copy">Kopioi</string>
     <string name="operation_create_folder">Luo kansio</string>
     <string name="operation_create_folder_message">Nimeä kansio</string>
+    <string name="operation_create_folder_name_conflict">Kansiota ei voitu luoda. Tämänniminen kansio on jo olemassa.</string>
+    <string name="operation_create_folder_name_illegal_char">Kansiota ei voitu luoda. Kansion nimi sisältää merkkejä, joita ei tueta.</string>
+    <string name="operation_create_folder_network_not_available">Ei voitu luoda kansiota. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
+    <string name="operation_create_folder_not_support_for_overseas">Kansiota ei voitu luoda. Tämä ominaisuus on saatavilla vain Manner-Kiinassa.</string>
+    <string name="operation_create_folder_other">Kansion luominen epäonnistui</string>
     <string name="operation_decompressing">Puretaan…</string>
     <string name="operation_del_fav">Poistetaan suosikeista…</string>
     <string name="operation_delete">Poista</string>
@@ -498,28 +573,59 @@
     <string name="operation_delete_confirm_message_folder">"Kaikki kansiossa oleva sisältö poistetaan.
 "</string>
     <string name="operation_deleting">Poistetaan…</string>
+    <string name="operation_download">Lataa</string>
+    <string name="operation_download_error_no_space">Ei tarpeeksi tallennustilaa</string>
+    <string name="operation_download_error_other">Tapahtui järjestelmävirhe. Odota pari minuuttia ja yritä uudelleen.</string>
+    <string name="operation_download_error_title">Ei voitu ladata</string>
+    <string name="operation_editor">Muokkaa</string>
     <string name="operation_encrypt_summary">Salaa tiedostot yksityisessä kansiossa. Isojen tiedostojen purkaminen voi viedä odotettua kauemmin.</string>
     <string name="operation_encrypt_title">Salaa yksityiset tiedostot</string>
     <string name="operation_favorite">Lisää suosikkeihin</string>
+    <string name="operation_file_downloading_err">Tätä toimintoa ei voitu suorittaa. Odota, että tiedoston lataus on valmis, ja yritä uudelleen.</string>
+    <string name="operation_file_exist_err">Tätä toimintoa ei voitu suorittaa. Tämä tiedosto on jo olemassa.</string>
+    <string name="operation_file_not_found_err">Tätä toimintoa ei voitu suorittaa. Alkuperäistä tiedostoa ei löytynyt.</string>
+    <string name="operation_gallary">Näytä Galleriassa</string>
     <string name="operation_hide_sys">Älä näytä piilotettuja tiedostoja</string>
     <string name="operation_info">Tiedot</string>
     <string name="operation_move">Siirrä</string>
     <string name="operation_moving">Siirretään…</string>
     <string name="operation_new_folder">Luo kansio</string>
+    <string name="operation_no_network_err">Ei voitu yhdistä verkkoon. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
+    <string name="operation_not_support_directory_rename">Tätä kansiota ei voi nimetä uudelleen.</string>
+    <string name="operation_not_support_err">Tätä toimintoa ei voitu suorittaa loppuun.</string>
     <string name="operation_open">Avaa</string>
     <string name="operation_open_mode">Avaa kohteella</string>
     <string name="operation_other_apps">Avaa toisessa sovelluksessa</string>
     <string name="operation_paste">Liitä</string>
     <string name="operation_paste_to_folder">Liitä kansioon</string>
     <string name="operation_pasting">Kopioidaan…</string>
+    <string name="operation_pic_to_pdf">Luo PDF</string>
     <string name="operation_refresh">Virkistä</string>
     <string name="operation_rename">Nimeä uudelleen</string>
+    <string name="operation_rename_err">Ei voitu nimetä uudelleen</string>
     <string name="operation_rename_message">Anna uusi nimi</string>
+    <string name="operation_retry">Yritä uudelleen</string>
     <string name="operation_send">Lähetä</string>
     <string name="operation_send_to_pc">Siirrä tietokoneelle</string>
+    <string name="operation_set_pic_wallpaper">Aseta taustakuvaksi</string>
     <string name="operation_show_privacy_policy">Näytä Tietosuojakäytäntö</string>
     <string name="operation_show_sys">Näytä piilotetut tiedostot</string>
+    <string name="operation_sync_cloud_data_error">Tapahtui palvelinvirhe. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="operation_unfavorite">Poista suosikeista</string>
+    <string name="operation_unknown_err">Tätä toimintoa ei voitu suorittaa loppuun.</string>
+    <string name="operation_upload_buy_space">Päivitä</string>
+    <string name="operation_upload_delete">Poista</string>
+    <string name="operation_upload_err_file_not_found">Näyttää siltä, että tätä tiedostoa ei ole olemassa.</string>
+    <string name="operation_upload_err_file_size_zero">Tyhjiä tiedostoja ei voi ladata.</string>
+    <string name="operation_upload_err_full_space">Pilvitallennustila on täynnä. Päivitä tallennustilapakettisi, jotta voit ladata lisää kohteita.</string>
+    <string name="operation_upload_err_illegal_char">Tämä tiedostonimi sisältää merkkejä, joita ei tueta.</string>
+    <string name="operation_upload_err_larger_than_4g">Ei voi lähettää tiedostoja, jotka ovat suurempia kuin %d Gt.</string>
+    <string name="operation_upload_err_not_support_overseas">Vain Manner-Kiinan käyttäjät voivat ladata kohteita tällä hetkellä.</string>
+    <string name="operation_upload_err_other">Tapahtui järjestelmävirhe. Odota pari minuuttia ja yritä uudelleen.</string>
+    <string name="operation_upload_error_title">Ei voitu ladata</string>
+    <string name="operation_upload_retry">Yritä uudelleen</string>
+    <string name="operation_upload_save_to_local">Tallenna kohteeseen…</string>
+    <string name="operation_upload_use_data">Lataa</string>
     <string name="otg_data_transfer_success">Siirrettiin onnistuneesti</string>
     <string name="otg_data_transferring">Siirretään tiedostoja… Älä irrota ulkoista tallennustilaa.</string>
     <string name="otg_file_security_note">OGTSecurity</string>
@@ -529,9 +635,16 @@
     <string name="partial_encrypt_success">Joitakin tiedostoja ei voitu tehdä yksityisiksi. Yritä uudelleen.</string>
     <string name="path_name_email">Sähköposti</string>
     <string name="perm_manage_external_storage">Käytä kaikkia tiedostoja</string>
+    <string name="permission_account_desc">Pääsy laitteellesi tallennettuihin tilitietoihin</string>
+    <string name="permission_account_desc_pad">Pääsy laitteellesi tallennettuihin tilitietoihin</string>
+    <string name="permission_account_title">Käytä laitetilejä</string>
+    <string name="permission_account_title_pad">Pääsy laitetileihin</string>
     <string name="permission_denial">Tiedostoja ei voitu käyttää. Salli Tiedostonhallinnalle käyttöoikeus tiedostoihin Asetuksista.</string>
     <string name="permission_description">Käyttöoikeustiedot</string>
     <string name="permission_required">Tiedostoja ei voitu käyttää. Salli Tiedostonhallinnalle käyttöoikeus tiedostoihin Asetuksista.​</string>
+    <string name="permission_storage_desc_pad">Valokuvien ja asiakirjojen tallentamiseen laitteellesi</string>
+    <string name="permission_storage_title">Pääsy laitteen tallennustilaan</string>
+    <string name="permission_storage_title_pad">Pääsy laitteen tallennustilaan</string>
     <string name="phone">Sisäinen tallennustila</string>
     <string name="phone_storage">Muisti</string>
     <string name="phone_storage_apk_title">APK:t:</string>
@@ -550,6 +663,7 @@
     <string name="pick_folder">Valitse kansio</string>
     <string name="pm">ip.</string>
     <string name="port_range">Portin numeron on oltava välillä 1024-65535</string>
+    <string name="pre_privacy_recall">Suostumuksen peruuttaminen</string>
     <string name="pref_permission_allowed">Myönnetty</string>
     <string name="pref_permission_manage_key_storage">Pääsy laitteen valokuviin tai tiedostoihin</string>
     <string name="pref_permission_not_allowed">Ei myönnetty</string>
@@ -557,6 +671,14 @@
     <string name="privacy_policy">Tietosuojakäytäntö</string>
     <string name="privacy_policy_renew">Päivitetty tietosuojakäytäntö</string>
     <string name="privacy_policy_renew_content">&lt;Data>Tiedostonhallinnan &lt;a href=\"%1$s\">tietosuojakäytäntö&lt;/a> päivitettiin. Ymmärtääksesi täysin oikeutesi käyttäjänä sekä tavat, joilla käytämme tietojasi, lue ja hyväksy tietosuojakäytännön uusi versio ennen kuin jatkat.&lt;/Data></string>
+    <string name="privacy_recall_alert_description" formatted="false">Tyhjennä kaikki kohteet Mi Drivesta, jotta voit peruuttaa suostumuksen. Tyhjennä kohteet seuraavasti:&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_1 refersto=1>%1d&lt;/xliff:g>. Paina ja pidä Mi Driven aloitussivulla kohdetta, jolloin \"Valitse kaikki\" -painike tulee näkyviin. Tällä painikkeella voit valita enintään 200 tiedostoa kerralla ja poistaa ne.&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_2 refersto=2>%2d&lt;/xliff:g>. Tämän jälkeen tyhjennä äskettäin poistetut kohteet.</string>
+    <string name="privacy_recall_alert_reminder_card_summary" formatted="false">&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Suosittelemme varmuuskopioimaan kohteet ennen niiden poistamista. Voit tehdä tämän siirtymällä osoitteeseen i.mi.com, napsauttamalla Mi Drivea ja lataamalla kohteet tietokoneelle.&lt;br />&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g> . Huomaathan, että äskettäin poistettuja kohteita ei voi palauttaa poistamisen jälkeen.</string>
+    <string name="privacy_recall_confirm_button">Peruuta suostumus</string>
+    <string name="privacy_recall_confirm_description">Jos jatkat, peruutat suostumuksesi tiedostonhallinnan tietosuojakäytäntöön. Lopetamme henkilötietojesi keräämisen. Jo kerätyt ja säilytetyt henkilötiedot poistetaan tietyn ajan kuluessa sovellettavien lakien ja määräysten mukaisesti, ellei toisin vaadita.</string>
+    <string name="privacy_recall_confirm_reminder_card_summary" formatted="false">&lt;font color=#F22424>Seuraavat kohteet poistetaan pysyvästi suostumuksen peruuttamisen jälkeen:&lt;/font>&lt;br />&lt;xliff:g id=privacy_recall_confirm_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Kaikki Mi Driven kohteet, mukaan lukien mutta ei rajoittuen asiakirjat, yksityiset tiedostot ja poistetut kohteet.&lt;br />&lt;xliff:g id=privacy_recall_confirm_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. Laitteen käyttöoikeudet, asetukset ja muu välimuistissa oleva sisältö.&lt;br />&lt;xliff:g id=privacy_recall_confirm_reminder_card_summary_list_3 refersto=3>%3d&lt;/xliff:g>. Mi Driven lataushistoria.</string>
+    <string name="privacy_recall_success">Suostumus peruutettu onnistuneesti</string>
+    <string name="privacy_recall_title">Suostumuksen peruuttaminen</string>
+    <string name="privacy_recalling">Peruutetaan suostumusta…</string>
     <string name="private_files">Yksityinen</string>
     <string name="private_folder">Yksityiset tiedostot</string>
     <string name="private_folder_no_file_hints">Pidä tiedostoa tai kansiota painettuna tehdäksesi siitä yksityisen</string>
@@ -568,11 +690,15 @@
     <string name="pull_to_enter_private">Avaa yksityinen kansio vetämällä alas</string>
     <string name="qq_msg">Android 11 -rajoitusten vuoksi Tiedostonhallinta ei voi käyttää ja näyttää QQ-asiakirjoja.</string>
     <string name="qq_title">WeChat-asiakirjoihin ei pääse</string>
+    <string name="query_quota_exception">Tapahtui palvelinvirhe. Odota pari minuuttia ja yritä uudelleen.</string>
+    <string name="query_quota_searching">Hetki vain…</string>
     <string name="recent_hide_camera_and_screenshots">Älä näytä Gallerian kohteita ja kuvakaappauksia viimeisimpien tiedostojen joukossa</string>
+    <string name="recent_hide_cloud_drive_files">Älä näytä Mi Drive -tiedostoja Viimeaikaisissa</string>
     <string name="refresh_success">Virkistys valmis</string>
     <string name="reinstall_midriver_message">Asennetaanko nyt uudelleen?</string>
     <string name="release_enter_private">Vapauta avataksesi yksityisen kansion</string>
     <string name="remainder_size">Jäljellä: %s</string>
+    <string name="reminder_card_title">Huomio</string>
     <string name="rename_alert">Jos vaihdat tämän tiedoston tiedostotunnisteen, et välttämättä voi avata sitä.</string>
     <string name="rename_alert2">Tiedosto piilotetaan, kun muutat sen laajennusta.</string>
     <string name="rename_failed">%1$s ei voitu nimetä uudelleen</string>
@@ -629,6 +755,7 @@
     <string name="set_pattern">Päivitä salasanasi</string>
     <string name="set_pattern_btn">Aseta</string>
     <string name="set_pattern_msg">Aseta salasanasi uudelleen. Yksityisyydensuojan salasana toimii myös valokuvien, viestien ja muistiinpanojen yhteydessä.</string>
+    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">Pienempi kuin %d kt</string>
     <string name="size_lv2" formatted="false">%1d kt - %2d Mt</string>
     <string name="size_lv3" formatted="false">%1d Mt - %2d Mt</string>
@@ -746,9 +873,12 @@
     <string name="unknown_error">Tuntematon virhe tapahtui. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="unlock_pattern_msg">Yksityisyydensuojan salasana toimii myös valokuvien, viestien ja muistiinpanojen yhteydessä.</string>
     <string name="unlock_pattern_title">Uusi salasana</string>
+    <string name="update_no_network">Ei voitu yhdistä verkkoon. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
     <string name="upload_user_photo">Lataa</string>
     <string name="usb_label">USB</string>
     <string name="use">Käytä</string>
+    <string name="use_mobile_data_update_summary">Mobiilidatan avulla voit synkronoida muutokset automaattisesti Mi Drivesta ladattuihin tiedostoihin</string>
+    <string name="use_mobile_data_update_title">Käytä mobiilidataa synkronointiin</string>
     <string name="use_to_all">Käytä kaikkiin</string>
     <string name="used">Käytetty</string>
     <string name="user_guide_continue_use">OK</string>
@@ -757,7 +887,12 @@
     <string name="utf8_title">UTF-8</string>
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
     <string name="v7_preference_on">KÄYTÖSSÄ</string>
+    <string name="video_data_consume_dialog_confirm">Jatka</string>
+    <string name="video_data_consume_dialog_title">Käytä mobiilidataa?</string>
     <string name="view_type">Näytä</string>
+    <string name="web_sso_login_fail">Sinun täytyy kirjautua uudelleen</string>
+    <string name="web_sso_login_message">Kirjaudutaan…</string>
+    <string name="webview_reload">Yritä uudelleen</string>
     <string name="wechat_msg">Android 11 -rajoitusten vuoksi Tiedostonhallinta ei voi käyttää ja näyttää kohteessa WeChat esikatseltuja asiakirjoja. Avaa ja tallenna asiakirjat kohteessa WeChat, jotta ne näkyvät täällä.</string>
     <string name="wechat_title">WeChat-asiakirjoihin ei pääse</string>
     <string name="wechat_video">Video kohteessa %s</string>

@@ -13,6 +13,7 @@
     <string name="android_ringtone_default_with_actual">Oletussoittoääni (%1$s)</string>
     <string name="android_ringtone_silent">Ei mitään</string>
     <string name="android_ringtone_unknown">Tuntematon soittoääni</string>
+    <string name="app_continuity_channel_name">Sovelluksen asettelun säädöt</string>
     <string name="application_cannot_open_alipay_health_code">"Couldn't open Alipay health code"</string>
     <string name="application_cannot_open_alipay_payment_code">Ei voitu avata Alipay-maksukoodia</string>
     <string name="application_cannot_open_alipay_scanner">Ei voitu avata Alipay-skanneria</string>
@@ -111,6 +112,10 @@
     <string name="crystal">Kristalli</string>
     <string name="cut">Leikkaa</string>
     <string name="dance">Tanssi</string>
+    <string name="dark_mode_enable">Ota käyttöön</string>
+    <string name="dark_mode_suggest_message">Voit siirtyä tummaan tilaan automaattisesti auringonlaskun aikaan saadaksesi mukavamman katselukokemuksen</string>
+    <string name="dark_mode_suggest_title">On tulossa pimeää</string>
+    <string name="dark_mode_suggest_toast">Tumma tila kytkeytyy automaattisesti päälle auringonlaskun aikaan ja pois päältä auringon noustessa tästä lähtien</string>
     <string name="data_usage_context">If Wi-Fi is not turned on, your device will connect to a mobile network, which may result in additional charges depending on your payment plan.Thank you!</string>
     <string name="daydream">Päiväuni</string>
     <string name="default_device_name">Tuntematon laite</string>
@@ -130,6 +135,7 @@
     <string name="dewdrops">Aamukaste</string>
     <string name="digitaluniverse">Digitaalinen universumi (stereo)</string>
     <string name="disable_nfc">NFC poistettu käytöstä langatonta latausta varten</string>
+    <string name="disable_nfc_haptic_reverse">NFC ja värinä pois päältä käänteistä langatonta latausta varten</string>
     <string name="disable_nfc_reverse">NFC poistettu käytöstä käänteistä langatonta latausta varten</string>
     <string name="echo">Kaiku</string>
     <string name="eighthours">8 tuntia</string>
@@ -137,6 +143,7 @@
     <string name="enable_livetalk_title">Laita Top-up paketti päälle</string>
     <string name="enable_midrop">Ota käyttöön</string>
     <string name="enable_nfc">Ei lataa enää. NFC on taas päällä.</string>
+    <string name="enable_nfc_haptic_reverse">Käänteinen lataus lopetettu. NFC ja värinä ovat taas käytössä.</string>
     <string name="enable_nfc_reverse">Ei lataa käänteisesti enää. NFC on taas päällä.</string>
     <string name="expect">Jännitys</string>
     <string name="fadein">Häivytys sisään</string>
@@ -154,6 +161,7 @@
     <string name="flip_screen_camera_tip">Käännä laite ympäri käyttääksesi kameraa</string>
     <string name="flute">Huilu</string>
     <string name="fm_record_smaple_prefix_miui">FM nauhoitukset</string>
+    <string name="fold_small_not_split">Ulkoikkuna ei tue jaettua näyttöä</string>
     <string name="force_exit_message">%1$s lopetettiin</string>
     <string name="force_exit_skip_message">%1$s ei voi lopettaa, koska järjestelmä käyttää sitä.</string>
     <string name="fourhours">2 tuntia</string>
@@ -163,6 +171,7 @@
     <string name="fp_nav_center_action_choose_dlg_title">Ota käyttöön nopea painallus</string>
     <string name="freeform_exchange_tip">Vapauta avataksesi sovelluksen</string>
     <string name="freeform_exchange_tip2">Peruuta vetämällä kulmaan</string>
+    <string name="freeform_exchange_tip3">Avaa kelluva ikkuna koko näytön tilassa</string>
     <string name="frenchchic">Tyylikäs</string>
     <string name="frequent_email">Usein käytetty sähköposti</string>
     <string name="frequent_phrases">Usein käytetyt lauseet</string>
@@ -204,6 +213,13 @@
     <string name="international_livetalk_enable">Käytetään top-up pakettia ulkomaan puheluihin</string>
     <string name="key_btn_ok">OK</string>
     <string name="key_btn_space">Välilyönti</string>
+    <string name="keyboard_connect_failed">Näppäimistöä ei voitu yhdistää. Kiinnitä uudelleen.</string>
+    <string name="keyboard_identity_reject_confirm">Selvä</string>
+    <string name="keyboard_identity_reject_message">Näyttää siltä, että näppäimistösi ei ole yhteensopiva tämän laitteen kanssa.</string>
+    <string name="keyboard_identity_transfer_error_message">Näppäimistöä ei voitu yhdistää. Yritä uudelleen.</string>
+    <string name="keyboard_upgrade_failed">Näppäimistöä ei voitu päivittää</string>
+    <string name="keyboard_upgrade_start">Päivitetään näppäimistöä…</string>
+    <string name="keyboard_upgrade_success">Näppäimistö päivitetty onnistuneesti</string>
     <string name="kungfu">Kung fu</string>
     <string name="leisure">Vapaa-aika</string>
     <string name="livetalk_not_enable">Top-up paketti pois päältä</string>
@@ -235,6 +251,8 @@
     <string name="miremix">Mi (Remix)</string>
     <string name="miui_forbid_poweroff_when_device_locked">Lukittua laitetta ei voida sammuttaa.</string>
     <string name="miui_multiwindow_not_support_cvw">Tämän sovelluksen ikkunakokoa ei voi säätää</string>
+    <string name="miui_multiwindow_not_support_small_window">%1$s ei tue kelluvia ikkunoita</string>
+    <string name="miui_multiwindow_not_support_split">%1$s ei tue jaettua näyttöä</string>
     <string name="miui_screen_ratio_hint">Kuvasuhde-ongelmat</string>
     <string name="miui_screen_ratio_hint_dont_show_again">Älä näytä uudelleen</string>
     <string name="miui_screen_ratio_hint_go_to_settings">Mene asetuksiin</string>
@@ -262,6 +280,7 @@
     <string name="oneplus_phone">OnePlus</string>
     <string name="open_close_tip_action">Selvä</string>
     <string name="open_close_tip_content">Sulje kelluva ikkuna pitämällä toimintapalkkia painettuna ja pyyhkäisemällä sitten ylöspäin</string>
+    <string name="open_miui_optimization">Ota MIUI-optimointi käyttöön ensin</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
     <string name="orange">Oranssi</string>
@@ -309,8 +328,19 @@
     <string name="redmi_note_5">Redmi Note 5</string>
     <string name="redmi_note_7">Redmi Note 7</string>
     <string name="redmi_note_7_pro">Redmi Note 7 Pro</string>
+    <string name="relaunch_action">Käynnistä uudelleen</string>
+    <string name="relaunch_dialog_alwaysUsePrompt">Muista valintani</string>
+    <string name="relaunch_dialog_button_cancel">Peruuta</string>
+    <string name="relaunch_dialog_button_confirm">Käynnistä uudelleen</string>
+    <string name="relaunch_dialog_message">Tämän sovelluksen kokoa voi muuttaa vasta uudelleenkäynnistyksen jälkeen. Kaikki tallentamattomat muutokset menetetään, jos käynnistät sovelluksen uudelleen nyt. Käynnistetäänkö uudelleen?</string>
+    <string name="relaunch_dialog_title">Käynnistä \"%s\" uudelleen nyt?</string>
+    <string name="relaunch_fold_notification_content">Tämä sovellus ei ehkä näy oikein tällä näytöllä. Käynnistä sovellus uudelleen säätääksesi asetteluja.</string>
+    <string name="relaunch_notification_title">Palauta \"%s\"</string>
+    <string name="relaunch_unfold_notification_content">Tämä sovellus ei ehkä näy oikein tällä näytöllä. Käynnistä sovellus uudelleen säätääksesi asetteluja.</string>
     <string name="remain">Jäljellä: %s</string>
     <string name="replace">Korvaa</string>
+    <string name="rescuepartyplus_config_reset_context">Jotkut tiedot on saatettu tyhjentää. Napauta nähdäksesi tiedot.</string>
+    <string name="rescuepartyplus_config_reset_title">Järjestelmän korjaus valmis</string>
     <string name="resolver_app_recommend_flag">Suosittele</string>
     <string name="resolver_checkbox_always">Aina</string>
     <string name="resolver_checkbox_once">Kerran</string>
@@ -325,6 +355,11 @@
     <string name="rog_phone">ROG</string>
     <string name="samsung">Samsung</string>
     <string name="samsung_phone">Samsung-puhelin</string>
+    <string name="sc_notification_warning_content">Jos sovellus ei näy oikein, voit palauttaa sen oletusnäkymän tai muuttaa sovelluksen näyttöasetuksia Asetuksissa.</string>
+    <string name="sc_notification_warning_restore">Palauta</string>
+    <string name="sc_notification_warning_settings">Asetukset</string>
+    <string name="sc_notification_warning_title">Sovelluksen näyttöasetukset</string>
+    <string name="sc_relaunch_dialog_message">Tämä sovellus ei ehkä näy oikein tällä näytöllä. Käynnistä sovellus uudelleen säätääksesi asetteluja.</string>
     <string name="scanning_device_tips">Etsitään lähellä olevia laitteita… Varmista, että toinen laite on löydettävissä.</string>
     <string name="screen_button_notification_text">Laita ne takaisin päälle painamalla Koti- ja Virtapainiketta samanaikaisesti.</string>
     <string name="screen_button_notification_title">Navigointipainikkeet on pois päältä</string>
@@ -357,6 +392,7 @@
     <string name="set_password_action">Aseta salasana</string>
     <string name="set_password_message">Aseta salasana, jotta voit käyttää tätä toimintoa.</string>
     <string name="set_password_title">Aseta salasana</string>
+    <string name="shortcut_no_support_on_pc_mode">Tätä elettä ei tueta PC-tilassa</string>
     <string name="shutdown_confirm_title">Sammutetaanko laite nyt?</string>
     <string name="shutdown_progress">Sammutetaan…</string>
     <string name="silence_mode">Hiljainen tila</string>
@@ -413,6 +449,8 @@
     <string name="status_bar_toggle_wifi_ap">Mobiilitukiasema</string>
     <string name="stoneskimming_preview">Kevyet askelmat</string>
     <string name="stop_operate_camera_frequently">Avaat etukameran liian usein.</string>
+    <string name="stylus_pen_mask_screenshot">Ota kuvakaappaus napauttamalla näyttöä</string>
+    <string name="stylus_pen_mask_text">Aloita kirjoittaminen napauttamalla näyttöä</string>
     <string name="subinfo_default_name">SIM %d</string>
     <string name="sunlight_notification_content">Säädä kirkkautta voimakkaaseen ympäröivään valoon nähden automaattisesti</string>
     <string name="sunlight_notification_title">Ota auringonvalotila käyttöön</string>
@@ -441,6 +479,7 @@
     <string name="unknown_caller">Tuntematon numero</string>
     <string name="unrecognized_manufacture">Tuntematon</string>
     <string name="unrecognized_model">Tuntematon laite</string>
+    <string name="unreplace_freeform_count_max">Ei voi avata enempää kelluvia ikkunoita</string>
     <string name="user_authentication_failed">TODENNUSVIRHE -29-</string>
     <string name="user_switching_dialog_switch_into_kid_space">Vaihdetaan lapsitilaan…</string>
     <string name="user_switching_dialog_switch_out_kid_space">Poistutaan lapsitilasta…</string>

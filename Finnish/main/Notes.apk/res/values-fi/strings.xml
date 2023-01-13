@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Jaa: %s</string>
     <string name="abc_toolbar_collapse_description">Tiivistä</string>
     <string name="access_denied_info">Liian monta yritystä. Odota pari minuuttia ja yritä uudelleen.</string>
+    <string name="access_photos_and_videos">Käytä kuvia ja videoita</string>
     <string name="action_collapse">Piilota</string>
     <string name="action_expand">Näytä lisää</string>
     <string name="action_folder_description">Näytä kansiot</string>
@@ -41,7 +42,7 @@
     <string name="actionbar_button_up_description">Takaisin</string>
     <string name="actionbar_close_description">Sulje</string>
     <string name="actionbar_home_description">Takaisin</string>
-    <string name="add_account_desc">Synkronoidaanko muistiinpanosi Mi-tilillesi?</string>
+    <string name="add_account_desc">Synkronoidaanko muistiinpanosi Xiaomi-tilillesi?</string>
     <string name="afternoon">Iltapäivä</string>
     <string name="alarm_bar_title">Muistutus</string>
     <string name="alert_action_edit_anyway">Jatka muokkaamista</string>
@@ -61,6 +62,9 @@
     <string name="app_name">Muistiinpanot</string>
     <string name="app_notification_info">Muistio toimii taustalla</string>
     <string name="app_widget">Muistiinpanot</string>
+    <string name="app_widget_name_create_note">Luo muistiinpanoja</string>
+    <string name="app_widget_name_create_todo">Luo tehtäviä</string>
+    <string name="app_widget_name_fast_entry">Pikakuvakkeet</string>
     <string name="app_widget_name_new">Muistio</string>
     <string name="application_icon">Sovelluskuvake</string>
     <string name="audio_btn_mode_meeting">Kokous</string>
@@ -193,7 +197,7 @@
     <string name="empty_folder_import_notes">Tärkeät muistiinpanot</string>
     <string name="empty_folder_no_notes">Ei muistiinpanoja täällä</string>
     <string name="enable_sync">Synkronointi</string>
-    <string name="enable_sync_desc">Synkronoidaanko muistiinpanosi Mi-tilillesi (%1$s)?</string>
+    <string name="enable_sync_desc">Synkronoidaanko muistiinpanosi Xiaomi-tilillesi (%1$s)?</string>
     <string name="eras_ad">jKr.</string>
     <string name="eras_bc">eKr.</string>
     <string name="error_contact_not_exist">Yhteystietoa ei ole olemassa</string>
@@ -498,6 +502,7 @@
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -532,6 +537,7 @@
     <string name="new_audio_create_guide_tip">Pidä painettuna luodaksesi äänimuistiinpanon</string>
     <string name="new_audio_create_talkback_des">"Napauta luodaksesi muistiinpanon. Pidä painettuna luodaksesi äänimuistiinpanon. Lopeta nauhoitus ja luo muistiinpano vapauttamalla painike tai peruuta liu'uttamalla ylöspäin."</string>
     <string name="new_data_empty_note">Ei kohteita vielä täällä</string>
+    <string name="new_lite_audio_create_talkback_des">Luo muistiinpano napauttamalla</string>
     <string name="night">Ilta</string>
     <string name="no_network">Ei voi yhdistää verkkoon</string>
     <string name="noon">Keskipäivä</string>
@@ -563,6 +569,7 @@
     <string name="note_write_hint">Aloita kirjoittaminen</string>
     <string name="notealert_enter">Avaa muistiinpano</string>
     <string name="notealert_ok">Hylkää</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Muistio on järjestelmäsovellus. Et voi käyttää tätä sovellusta sen poistamisen jälkeen.</string>
     <string name="notes_description_title">Poistetaanko Muistio?</string>
     <string name="notification_content_add_todo_from_other_app">Lisäsit uuden tehtävän. Napauta katsellaksesi.</string>
@@ -623,6 +630,8 @@
     <string name="permission_microphone_desc">Äänimuistiinpanojen äänittämiseen</string>
     <string name="permission_network_for_cloud_desc">Jos haluat synkronoida muistiinpanoja pilven kanssa, sinun on muodostettava yhteys Internettiin. Mobiilidataa voidaan käyttää kohteiden synkronointiin. Yhdistä nyt?</string>
     <string name="permission_phone_state_desc">Äänimuistiinpanojen lopettamiseksi puhelun aikana</string>
+    <string name="permission_photos_desc">Kuvien lisäämiseen muistiinpanoihin</string>
+    <string name="permission_photos_desc_pad">Kuvien lisäämiseen muistiinpanoihin</string>
     <string name="permission_read_contact_desc">Puhelujen aikana luotujen muistiinpanojen yhdistäminen yhteystietoihin</string>
     <string name="permission_storage_desc">Muistiinpanojen tallentamiseksi kuvina</string>
     <string name="permission_storage_desc_new_v12">Kuvien lisäämiseen muistiinpanoihin ja muistiinpanojen tallentamiseen kuvina</string>
@@ -725,6 +734,7 @@
     <string name="search_setting_description">Etsi tekstiä muistiinpanostasi</string>
     <string name="select_account_prompt">Synkronoi muistiinpanot</string>
     <string name="send">Lähetä</string>
+    <string name="send_notifications_for_reminder">Muistutusten lähettämiseen</string>
     <string name="set_alarm_description">Aseta hälytys</string>
     <string name="setting_big_screen_layout_columns">Sivupalkki</string>
     <string name="setting_big_screen_layout_flat">Laatikot</string>
@@ -868,6 +878,7 @@ Salli Muistiinpanojen lukea yhteystietojasi ja löytää tunnuksia laitteelta."<
 Salli Muistiinpanojen lukea SD-korttisi sisältö."</string>
     <string name="toast_refuse_to_use_phone_state">"Puhelimen käyttöoikeuksia on rajoitettu.
 Salli Muistiinpanojen lukea puhelimen tila ja tunnus."</string>
+    <string name="toast_refuse_to_use_photos_in_excerpt">Salli tämän sovelluksen käyttää valokuviasi, jotta se voi lisätä kuvia muistiinpanoihin</string>
     <string name="toast_refuse_to_use_record_audio">"Mikrofonin käyttöoikeuksia on rajoitettu.
 Salli Muistiinpanojen äänittää."</string>
     <string name="toast_refuse_to_use_storage_in_excerpt">Salli Muistion käyttää tallennustilaa voidakseen lisätä kuvia muistiinpanoihisi</string>
@@ -974,6 +985,9 @@ Salli Muistiinpanojen äänittää."</string>
     <string name="wednesday">Keskiviikko</string>
     <string name="wednesday_short">Ke</string>
     <string name="wednesday_shortest">Ke</string>
+    <string name="widget_all_notes_name">Kaikki muistiinpanot</string>
+    <string name="widget_all_todo_name">Kaikki tehtävät</string>
+    <string name="widget_click_check">Napauta katsoaksesi</string>
     <string name="widget_content_loading">Hetki vain…</string>
     <string name="widget_create_select_size">Valitse koko</string>
     <string name="widget_empty_content">Napauta valitaksesi muistiinpanon</string>
@@ -990,5 +1004,7 @@ Salli Muistiinpanojen äänittää."</string>
     <string name="widget_size_item_super_big">Erittäin suuri</string>
     <string name="widget_size_not_support">Tämä laite ei tue erittäin suuria vinjettejä</string>
     <string name="widget_take_notes_title">Muistiinpanot</string>
+    <string name="widget_total_notes">%1$d</string>
+    <string name="widget_total_todo">%1$d</string>
     <string name="yesterday">Eilen</string>
 </resources>

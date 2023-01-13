@@ -87,6 +87,7 @@
     <string name="call_disambig_title">Valitse numero</string>
     <string name="call_fax_home">Soita faksinumeroon (koti)</string>
     <string name="call_fax_work">Soita faksinumeroon (työ)</string>
+    <string name="call_feature_vilte">ViLTE</string>
     <string name="call_feature_volte">VoLTE</string>
     <string name="call_feature_vowifi">VoWiFi</string>
     <string name="call_home">Soita kotiin</string>
@@ -505,6 +506,7 @@ Syy: \"%s\""</string>
     <string name="friday">Perjantai</string>
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Nimi</string>
     <string name="gallery">Galleria</string>
     <string name="ghostData_company">Yritys</string>
@@ -638,6 +640,7 @@ Syy: \"%s\""</string>
     <string name="menu_sync_remove">Poista synkronointiryhmä</string>
     <string name="midnight">Yö</string>
     <string name="miprofile_account_type">Käyntikortit</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Muokkaa profiilia</string>
     <string name="miprofile_name">Minun profiili</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -761,6 +764,10 @@ Napauta %1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="not_set">Ei asetettu</string>
     <string name="notification_click_detail">Näytä tiedot napauttamalla</string>
     <string name="notification_micloudsync_delete_contact">Xiaomi Cloud haluaa poistaa joitain yhteystietojasi</string>
+    <string name="notification_missedCallTitle">Vastaamaton puhelu</string>
+    <string name="notification_missedCall_call_back">Soita takaisin</string>
+    <string name="notification_missedCall_message">Lähetä tekstiviesti</string>
+    <string name="notification_missedCallsTitle">Vastaamattomat puhelut</string>
     <string name="open_contact">Näytä yhteystieto</string>
     <string name="open_dial_pad_description">Avaa valintanäppäimet</string>
     <string name="option_delete_contact">Poista</string>
@@ -794,6 +801,7 @@ Napauta %1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="permission_retry_dialog_msg_pad">Voidaksesi käyttää SIM-korttiasi tämän sovelluksen kanssa ja hallita yhteystietojasi salli tämän sovelluksen käyttää ja muokata yhteystietojasi sekä käyttää laitteen tietoja.</string>
     <string name="permission_retry_setting">Asetukset</string>
     <string name="phoneLabelsGroup">Puhelin</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Numero on liian pitkä</string>
     <string name="phone_primary">Ensisijainen</string>
     <string name="photoPickerNotFoundText">Laitteella ei ole kuvia saatavilla.</string>
@@ -1039,6 +1047,7 @@ Napauta %1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Ei ryhmän jäseniä</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Yritykset</string>
     <string name="smart_group_company_unavailable">Ei yritystietoja</string>
     <string name="smart_group_frequency_1">Viimeisen kuukauden aikana</string>
@@ -1080,6 +1089,7 @@ Napauta %1$s\" ja valitse sitten \"%2$s\"."</string>
     <string name="starred_contacts">Suosikit</string>
     <string name="status_available">Paikalla</string>
     <string name="status_away">Poissa</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Varattu</string>
     <string name="strequentList">Suosikit</string>
     <string name="success_message_import_from_account">Yhteystieto tuotu</string>

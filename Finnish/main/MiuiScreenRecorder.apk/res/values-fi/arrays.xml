@@ -37,6 +37,12 @@
         <item>Mikrofoni</item>
         <item>Järjestelmän äänet</item>
     </string-array>
+    <string-array name="screenrecorder_settings_sound_native">
+        <item>Ei mitään</item>
+        <item>Mikrofoni</item>
+        <item>Järjestelmä</item>
+        <item>Molemmat</item>
+    </string-array>
     <string-array name="screenrecorder_settings_storage_location">
         <item>Sisäinen tallennustila</item>
         <item>Ulkoinen tallennustila</item>

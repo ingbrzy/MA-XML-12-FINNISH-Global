@@ -65,6 +65,7 @@
     <string name="australian_magpie">Australian magpie</string>
     <string name="authorization_btn_text">Aloita</string>
     <string name="authorization_tips">Käyttöoikeuksia vaaditaan</string>
+    <string name="avalible_per_day">Istunnon kesto</string>
     <string name="baboon_info">The olive baboon lives in groups with developed social ranking depending on the dominance of each individual.</string>
     <string name="back">Takaisin</string>
     <string name="bear_info">Bears are the largest land carnivores. They live in cold regions and are known for their keen sense of smell.</string>
@@ -114,6 +115,9 @@
     <string name="canada_goose">Canada goose</string>
     <string name="capybara">Capybara</string>
     <string name="capybara_info">Capybaras are semiaquatic herbivore rodents who can hold their breath underwater for up to five minutes at a time.</string>
+    <string name="category_limit_notify_title">Käyttöaikahälytys</string>
+    <string name="category_list_expand">Lisää</string>
+    <string name="category_list_packup">Piilota</string>
     <string name="category_other">Muut</string>
     <string name="chacma_baboon">Chacma baboon</string>
     <string name="cheetah">Cheetah</string>
@@ -125,11 +129,14 @@
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
     <string name="click_to_save">Tap \"Done\" to set a general ringtone.</string>
     <string name="close">Sulje</string>
+    <string name="closed_high_refresh_options">Sovellukset, jotka eivät käytä korkeaa virkistystaajuutta</string>
     <string name="color_gamut">Väriasteikko</string>
     <string name="common_brushtail">Brushtail possum</string>
     <string name="common_ostrich">Ostrich</string>
+    <string name="compulsor_tip">Aloitusnäyttö</string>
     <string name="contact_description">Napauta aloitusnäytön pikavalintoja soittaaksesi</string>
     <string name="contact_title">Yhteystietojen pikavalinnat</string>
+    <string name="continue_time">Istunnon kesto</string>
     <string name="contrast_ratio">Kontrasti</string>
     <string name="control_center_title">Tämän päivän käyttöaika</string>
     <string name="control_center_title_new">Käytetty tänään</string>
@@ -141,6 +148,8 @@
     <string name="created_successfully">Luotu onnistuneesti</string>
     <string name="crowned_hornbill">Crowned hornbill</string>
     <string name="cu_confirm">Aseta</string>
+    <string name="customize_high_refresh_summary">Tämä ominaisuus tukee jopa %d Hz:n virkistystaajuutta. Sopiva virkistystaajuus voidaan valita automaattisesti laiteasetusten perusteella.</string>
+    <string name="customize_high_refresh_title">Sovellukset, jotka käyttävät korkeaa virkistystaajuutta</string>
     <string name="customize_radio_btn_summary">Suosi valittua virkistystaajuutta</string>
     <string name="customize_radio_btn_title">Mukautettu</string>
     <string name="dall_sheep">Dall sheep</string>
@@ -164,6 +173,8 @@
     <string name="desktop_widget_not_support">"Käyttöaikatilastot
 ei ole luotu toisessa tilassa"</string>
     <string name="desktop_widget_screen_use_time">Käyttöaika</string>
+    <string name="device_limit_enable">Päälle</string>
+    <string name="device_limit_un_enable">Pois</string>
     <string name="display_description">Suuremmat kuvakkeet, iso teksti, vähemmän visuaalista sotkua</string>
     <string name="display_title">Suuremmat kohteet</string>
     <string name="dynamic_ringtone_desc">"We've explored different ecosystems and recreated their distinct sounds. Start exploring the sounds of nature with us!"</string>
@@ -294,7 +305,11 @@ ei ole luotu toisessa tilassa"</string>
     <string name="focus_mode_timer_pick_dialog_summary" formatted="false">%d-%d minuuttia</string>
     <string name="focus_mode_timer_pick_dialog_title">Syötä kesto</string>
     <string name="focus_time_exception_tip">Näyttää siltä, että järjestelmän aika on muuttunut. Tarkennustila poistettu käytöstä.</string>
+    <string name="follow_apps_settings">Sovellusasetusten perusteella</string>
     <string name="follow_sim1">Käytä SIM 1 -asetuksia</string>
+    <string name="force_rest">Käytä istunnon taukoja</string>
+    <string name="force_rest_summary">Pidä pakollisia taukoja, kun istunnot saavuttavat asetetun rajan</string>
+    <string name="force_rest_time">Tauon kesto</string>
     <string name="fps_high">Korkea</string>
     <string name="fps_nature_summary">Maksimivirkistystaajuus pitää kaiken terävänä ja selkeänä</string>
     <string name="fps_nature_title">Maksimi</string>
@@ -327,6 +342,16 @@ ei ole luotu toisessa tilassa"</string>
     <string name="green_peafowl">Green peafowl</string>
     <string name="green_warbler_finch">Green warbler-finch</string>
     <string name="grey_headed_flying_fox">Grey-headed flying fox</string>
+    <string name="guard_item_app_summary">Poista sovellusten asennus etänä</string>
+    <string name="guard_item_app_title">Hallitse sovelluksia</string>
+    <string name="guard_item_browser_summary">Hallitse pääsyä sovelluksiin ja sisältöön</string>
+    <string name="guard_item_browser_title">Rajoitukset</string>
+    <string name="guard_item_call_summary">Salli tiettyjen yhteystietojen soittaminen</string>
+    <string name="guard_item_call_title">Viestintä</string>
+    <string name="guard_item_eye_protect_summary">Seuraa asentoa</string>
+    <string name="guard_item_eye_protect_title">Silmien mukavuus</string>
+    <string name="guard_range_from">Alkaen</string>
+    <string name="guard_range_to">Saakka</string>
     <string name="harp_seal">Harp seal</string>
     <string name="harpy_eagle">Harpy eagle</string>
     <string name="has_applied">Applied</string>
@@ -334,11 +359,14 @@ ei ole luotu toisessa tilassa"</string>
     <string name="helmeted_guineafowl">Guineafowl</string>
     <string name="high_fps_description">Korkea näytön virkistystaajuus. Korkeampi virrankulutus.</string>
     <string name="high_fps_tip_footer">Korkeamman virkistystaajuuden käyttö tekee katselukokemuksesta tasaisemman, mutta kuluttaa enemmän virtaa.</string>
+    <string name="high_refresh_options_title">Tuetut sovellukset</string>
     <string name="hippopotamus">Hippo</string>
+    <string name="holiday_limit">Vapaapäivät</string>
     <string name="hsv_space_color">HSV-väritila</string>
     <string name="hsv_space_color_hue">Värisävy</string>
     <string name="hsv_space_color_saturation">Kylläisyys</string>
     <string name="hsv_space_color_value">Arvo</string>
+    <string name="in_forbidden_period">Käyttö on nyt rajoitettu</string>
     <string name="intelligent_radio_btn_summary">Säädä virkistystaajuutta dynaamisesti skenaarioiden perusteella tasapainottamaan suorituskykyä virrankulutuksen kanssa</string>
     <string name="intelligent_radio_btn_title">Oletus (suositeltu)</string>
     <string name="intelligent_recognition_item_summary">Käytä määritettyä soittoääntä toimitus- ja taksipalveluihin. Tämä ominaisuus toimii, kun %s on asetettu sinun oletussoittoääneksi.</string>
@@ -379,6 +407,7 @@ ei ole luotu toisessa tilassa"</string>
     <string name="less_than_one">&lt; %d</string>
     <string name="lion">Lion</string>
     <string name="lion_info">Lions are fierce and powerful predators. They live in groups and have a strong sense of territory.</string>
+    <string name="loading_error">Kohteita ei voitu ladata</string>
     <string name="lock_summary">Suojaa henkilökohtaisia tietojasi</string>
     <string name="long_tai1ed_iaeger">Long-tailed jaeger</string>
     <string name="low_flicker_mode">Heikko valo</string>
@@ -478,6 +507,8 @@ ei ole luotu toisessa tilassa"</string>
     <string name="nature_mix_summary">Create a custom mix</string>
     <string name="nazca_booby">Nazca booby</string>
     <string name="network_error">Tapahtui verkkovirhe. Yritä uudelleen.</string>
+    <string name="new_customize_high_refresh_title">Korkea virkistystaajuus</string>
+    <string name="next_day">"(Seuraava päivä) "</string>
     <string name="night">Ilta</string>
     <string name="nine_banded_armadillo">Armadillo</string>
     <string name="no_matching">Ei löytynyt sovellusta tämän linkin avaamiseksi</string>
@@ -493,6 +524,7 @@ ei ole luotu toisessa tilassa"</string>
     <string name="notification_sound">Ilmoitusäänet</string>
     <string name="ocelot">Ocelot</string>
     <string name="olive_baboon">Olive baboon</string>
+    <string name="opened_high_refresh_options">Sovellukset, jotka käyttävät korkeaa virkistystaajuutta</string>
     <string name="orange_winged_amazon">Orange-winged amazon</string>
     <string name="orca">Killer whale</string>
     <string name="ostrich_info">Ostriches are large flightless birds of Africa who lay the largest eggs of any living land animal.</string>
@@ -558,6 +590,7 @@ ei ole luotu toisessa tilassa"</string>
     <string name="sea_otter">Sea otter</string>
     <string name="seal_info">Seals are marine mammals that can move quickly in deep waters, feeding on fish and shrimps.</string>
     <string name="search_app_name">Hae sovelluksia</string>
+    <string name="search_app_tips">Hae sovelluksia</string>
     <string name="search_empty">Sovelluksia ei löytynyt</string>
     <string name="search_menu_title">Haku</string>
     <string name="send">Lähetä</string>
@@ -569,6 +602,13 @@ ei ole luotu toisessa tilassa"</string>
     <string name="silver_pheasant">Silver pheasant</string>
     <string name="sim_slot_1">" (SIM 1)"</string>
     <string name="sim_slot_2">" (SIM 2)"</string>
+    <string name="size_byte">t</string>
+    <string name="size_giga_byte">Gt</string>
+    <string name="size_kilo_byte">Kt</string>
+    <string name="size_mega_byte">Mt</string>
+    <string name="size_peta_byte">Pt</string>
+    <string name="size_suffix">%1$s%2$s</string>
+    <string name="size_tera_byte">Tt</string>
     <string name="skywalker_hoolock_gibbon">Skywalker hoolock gibbon</string>
     <string name="small_ground_finch">Small ground finch</string>
     <string name="sms_delivered_sound_title">Toimitettu viesti</string>
@@ -589,6 +629,8 @@ ei ole luotu toisessa tilassa"</string>
     <string name="steady_on_screen_notification_title">Laita puhelin alas ja pidä tauko</string>
     <string name="steady_on_screen_notification_title_pad">Laita laite alas ja pidä tauko</string>
     <string name="steady_on_screen_notify">Ilmoita keskeytymättömästä käytöstä</string>
+    <string name="steady_on_screen_notify_new">Pidä tauko</string>
+    <string name="steady_on_screen_ntf_msg">Kaikki ominaisuudet ovat jälleen saatavilla %1$s kuluttua</string>
     <string name="steady_on_screen_setting">Määräaika keskeytymättömille istunnoille</string>
     <string name="steady_on_screen_summary">Määräaika keskeytymättömille istunnoille</string>
     <string name="stop_app_timer">Ota näyttöaika pois päältä</string>
@@ -649,6 +691,12 @@ ei ole luotu toisessa tilassa"</string>
     <string name="thursday">Torstai</string>
     <string name="thursday_short">To</string>
     <string name="thursday_shortest">To</string>
+    <string name="time_over_back_home">Aloitusnäyttö</string>
+    <string name="time_over_delayed_use">Ohita</string>
+    <string name="time_over_not_delayed_use">Selvä</string>
+    <string name="time_over_today">"Ei enää aikaa jäljellä
+tänään"</string>
+    <string name="time_over_today_use">"Päivän istunnot: "</string>
     <string name="time_picker_dialog_title">Aseta aika</string>
     <string name="time_picker_label_hour">T</string>
     <string name="time_picker_label_minute">M</string>
@@ -677,6 +725,7 @@ ei ole luotu toisessa tilassa"</string>
     <string name="tuesday_shortest">Ti</string>
     <string name="two_toed_sloths">Two-toed sloth</string>
     <string name="two_toed_sloths_info">Two-toed sloths can easily travel from tree to tree in the canopies of the rainforests.</string>
+    <string name="unavailable_per_day">Tauot</string>
     <string name="unlock_times_per_day">"Päivittäinen keskiarvo: "</string>
     <string name="unlock_times_per_hour">"Avausta tunnissa: "</string>
     <string name="usage_agree">Hyväksy</string>
@@ -712,8 +761,10 @@ ei ole luotu toisessa tilassa"</string>
     <string name="usage_device_limit_app_prolong_time3">Lisää 60 minuuttia</string>
     <string name="usage_device_limit_app_prolong_time4">Älä rajoita tänään</string>
     <string name="usage_device_limit_app_prolong_time5">Lisää aika kerran</string>
+    <string name="usage_device_limit_forbidden_period">Käyttö on rajoitettu välillä %1$s–%2$s</string>
     <string name="usage_device_limit_notifation_summary_start">Saavutat rajasi %1$s jälkeen</string>
     <string name="usage_device_limit_notifation_title">Jäljellä oleva aika tänään</string>
+    <string name="usage_device_limit_start_forbidden_period">Käyttöä rajoitetaan välillä %1$s–%2$s (%3$s jäljellä)</string>
     <string name="usage_device_limit_time_over">Olet saavuttanut päivän rajan (%1$s)</string>
     <string name="usage_exit">Poistu</string>
     <string name="usage_focus_focus_premission_main_summary">Tämän sovelluksen on käytettävä tilitietojasi, jotta voit tallentaa tarkennustilan käyttötilastosi.</string>
@@ -745,6 +796,8 @@ Tämän sovelluksen on myös muodostettava yhteys Internettiin ja vaatii seuraav
     <string name="usage_home_premission_second_summary_double_link_prefix">Suojelemme henkilötietojasi asiaankuuluvien lakien, asetusten ja tietosuojakäytäntöjen mukaisesti. Jos et suostu myöntämään tällaisia oikeuksia tai jakamaan ja lataamaan henkilökohtaisia tietojasi, et voi käyttää tätä sovellusta. Voit peruuttaa valtuutuksesi kohdassa Näyttöaika > Asetukset > Poista näyttöaika käytöstä.</string>
     <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>Ennen sovelluksen käyttöä, sinun tulee lukea ja hyväksyä meidän &lt;a href='%1s'>Käyttäjäsopimus&lt;/a> ja &lt;a href='%2s'>Tietosuojakäytäntö&lt;/a>.&lt;/Data>"</string>
     <string name="usage_home_premission_second_summary_new">Suojelemme henkilötietojasi asiaankuuluvien lakien, asetusten ja tietosuojakäytäntöjen mukaisesti. Jos et suostu myöntämään tällaisia oikeuksia tai jakamaan ja lataamaan henkilökohtaisia tietojasi, et voi käyttää tätä sovellusta. Voit peruuttaa valtuutuksesi kohdassa Näyttöaika > Asetukset > Poista Näyttöaika käytöstä. Jos sinulla on kysyttävää yksityisyydestä, voit ottaa meihin yhteyttä osoitteessa privacy@xiaomi.com.</string>
+    <string name="usage_new_category_limit_summary">Aseta päivittäiset käyttörajat kaikille tämän luokan sovelluksille</string>
+    <string name="usage_new_category_limit_title">Rajoita sovellusluokan käyttöä</string>
     <string name="usage_new_home_app_limit_summary">Aseta tälle sovellukselle päivittäinen käyttöaikarajoitus</string>
     <string name="usage_new_home_app_limit_title">Rajoita käyttöaikaa</string>
     <string name="usage_new_home_average">"Keskiarvo "</string>
@@ -969,6 +1022,7 @@ Tämän sovelluksen on oltava yhteydessä Internettiin ja se tarvitsee seuraavat
     <string name="willow_grouse_info">The willow ptarmigan is herbivorous for most of its life and primarily occupies subalpine and subarctic habitats.</string>
     <string name="wolf">Wolf</string>
     <string name="wombat">Wombat</string>
+    <string name="workday_limit">Arkipäivät</string>
     <string name="yellow_necked_spurfowl">Yellow-necked spurfowl</string>
     <string name="yellow_throated_marten">Yellow-throated marten</string>
     <string name="yesterday">Eilen</string>

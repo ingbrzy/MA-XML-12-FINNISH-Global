@@ -70,8 +70,8 @@
     <string name="aqi_alert_channel_name">AQI-hälytykset</string>
     <string name="aqi_data_source">Palvelun tarjoaa Colorful Clouds</string>
     <string name="aqi_desc">Ilmanlaatuindeksi</string>
-    <string name="aqi_detail_24_hours">24 tunnin ennuste</string>
-    <string name="aqi_detail_5_days">5 päivän ennuste</string>
+    <string name="aqi_detail_24_hours">%d tunnin ennuste</string>
+    <string name="aqi_detail_5_days">%d päivän ennuste</string>
     <string name="aqi_detail_co_unit">Yksikkö: mg/m³</string>
     <string name="aqi_detail_title">Ilmanlaatuindeksi</string>
     <string name="aqi_detail_unit">Yksikkö: µg/m³</string>
@@ -163,6 +163,7 @@
     <string name="dynamic_weather">Sää</string>
     <string name="early_morning">Aamu</string>
     <string name="edit_city">Hallitse kaupunkeja</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Päivitetään…</string>
     <string name="empty_view_net_unavailable">Ei voitu yhdistää verkkoon</string>
     <string name="empty_view_refresh">Yritä uudelleen</string>
@@ -272,6 +273,7 @@
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
     <string name="hourly_forcast_now">Nyt</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d.M</string>
     <string name="index_item_experience_now">Asenna nyt</string>
     <string name="indices_title_chance_of_rain">Sateen mahdollisuus</string>
@@ -283,15 +285,16 @@
     <string name="indices_wind_direction_north">N</string>
     <string name="indices_wind_direction_south">S</string>
     <string name="indices_wind_direction_west">W</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV-Indeksi</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Ota sijaintipalvelut käyttöön</string>
     <string name="location_tag">Paikanna</string>
     <string name="manager_city_option_add_home">Lisää aloitussivulle</string>
     <string name="manager_city_option_view_on_home">Tarkastele aloitussivulla</string>
     <string name="midnight">Yö</string>
     <string name="minute_rain">Sade-ennuste</string>
-    <string name="minute_rain_after_an_hour">1 tuntia</string>
-    <string name="minute_rain_after_two_hour">2 tunnin sisällä</string>
     <string name="minute_rain_feedback_subtitle">Kerro meille, millainen sää on.</string>
     <string name="minute_rain_feedback_title">Säätiedot näyttävät virheellisiltä.</string>
     <string name="minute_rain_now">Nyt</string>
@@ -364,7 +367,6 @@
     <string name="morning">Aamu</string>
     <string name="network_unavailable">Ei voi yhdistää verkkoon.</string>
     <string name="night">Ilta</string>
-    <string name="night_not_disturb_settings_summary">Estä hälytykset klo 23:00 ja 7:00 välillä</string>
     <string name="night_not_disturb_settings_title">Älä häiritse yöllä</string>
     <string name="no_data">Ei tietoja</string>
     <string name="no_internet_message">Laitteesi on muodostettava yhteys verkkoon, jotta voit peruuttaa suostumuksesi. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
@@ -445,9 +447,10 @@
     <string name="share_menu_title">Jaa</string>
     <string name="share_subject">Jaa</string>
     <string name="share_weather_desc">\#MIUI Sää#Tänään %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kuvakaappausta ei voitu ottaa</string>
-    <string name="shortcut_short_label_24_hour_forecast">24 tunnin ennuste</string>
+    <string name="shortcut_short_label_24_hour_forecast">%d tunnin ennuste</string>
     <string name="shortcut_short_label_recent_forecast">Tarkista sää</string>
     <string name="size_byte">t</string>
     <string name="size_giga_byte">Gt</string>
@@ -564,7 +567,7 @@
     <string name="unit">Yksiköt</string>
     <string name="unit_temperature">Lämpötilan yksikkö</string>
     <string name="unit_wind">Tuulen nopeuden yksikkö</string>
-    <string name="update_night_setting_summary_text">Päivitä säätiedot klo 23:00 - 07:00</string>
+    <string name="update_night_setting_summary_text">Päivitä säätiedot välillä %1$s ja %2$s</string>
     <string name="update_night_setting_title_text">Päivitä yöllä automaattisesti</string>
     <string name="update_notification_info">Päivitetään tietoja taustalla…</string>
     <string name="updated_a_moment_ago">Päivitetty hetki sitten</string>
@@ -575,10 +578,8 @@
     <string name="video_banner_weather_forecast">Sääennuste</string>
     <string name="video_banner_weather_update">Viimeisimmät sääpäivitykset</string>
     <string name="view_forecast_item_yesterday">Eilen</string>
-    <string name="view_indexes_item_day_after_tommorrow">2 päivän kuluessa</string>
     <string name="view_indexes_item_today">Tänään</string>
     <string name="view_indexes_item_tommorrow">Huomenna</string>
-    <string name="warning_weather_day_and_night_settings_summary">Vastaanota päivittäisiä yhteenvetoja sisältäen säätietoja kello 7:00 ja 19:00</string>
     <string name="warning_weather_day_and_night_settings_title">Päivittäiset yhteenvedot</string>
     <string name="weather_alert_channel_name">Hälytykset</string>
     <string name="weather_aqi_full_air_quality_forcast">Perusteellinen ilmanlaatuennuste</string>
@@ -593,6 +594,7 @@
     <string name="wednesday_shortest">Ke</string>
     <string name="welcome_app_title">Tervetuloa Säähän!</string>
     <string name="wind_direction_no_data">Tuuli</string>
+    <string name="wind_power">%d</string>
     <string name="wind_unit">%1$skm/h</string>
     <string name="xiaomi_weather_description_content">Sää on järjestelmäsovellus. Et voi tarkastella säätietoja tai käyttää niihin liittyviä widgettejä sovelluksen poistamisen jälkeen.</string>
     <string name="xiaomi_weather_description_content_remove">Sää on järjestelmäsovellus. Et voi tarkastella säätietoja tai käyttää niihin liittyviä widgettejä, kun olet poistanut aloitusnäytön pikavalinnan.</string>

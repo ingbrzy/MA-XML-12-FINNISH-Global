@@ -47,6 +47,7 @@
     <string name="calibrate_failed">Korkeuden kalibrointi epäonnistui</string>
     <string name="calibrate_failed_no_location">Ei voi kalibroida</string>
     <string name="calibrate_failed_timeout">Palvelimeen ei saada yhteyttä</string>
+    <string name="calibrate_new_tip">Kallista laitetta jyrkästi pyörittääksesi palloa ympyrän ympäri</string>
     <string name="calibrate_rotate_again">Yritä uudelleen</string>
     <string name="calibrate_success">Kalibroitu</string>
     <string name="calibrate_tip">Vieritä palloa kehän ympäri kallistamalla laitettasi</string>
@@ -228,7 +229,7 @@
     <string name="morning">Aamu</string>
     <string name="new_cta_app_purpose">tarkastele ohjeita ja koordinaatteja</string>
     <string name="new_cta_v2_app_purpose">Reittiohjeiden, koordinaattien, ilmanpaineen ja nykyisen leveysasteen näyttäminen</string>
-    <string name="new_permission_camera_desc">Kalibrointia varten</string>
+    <string name="new_permission_camera_desc">Live-esikatselun näyttämiseen</string>
     <string name="new_permission_location_desc">Koordinaattien näyttämiseksi</string>
     <string name="night">Ilta</string>
     <string name="noon">Keskipäivä</string>

@@ -4,4 +4,69 @@
         <item>Mies</item>
         <item>Nainen</item>
     </string-array>
+    <string-array name="customer_service">
+        <item>@string/customer_service_apply</item>
+        <item>@string/customer_service_complain</item>
+        <item>@string/customer_service_station</item>
+    </string-array>
+    <string-array name="net_diag_err_link_quality">
+        <item>Huono Wi-Fi-yhteys. Vaihda langattomia taajuuksia tai käynnistä reititin uudelleen.</item>
+        <item>Ei pääse verkkoon. Yhdistä uudelleen Wi-Fi-verkkoon tai käynnistä reititin uudelleen.</item>
+    </string-array>
+    <string-array name="net_diag_err_link_quality_china">
+        <item>Huono WLAN-yhteys. Vaihda langattomia taajuuksia tai käynnistä reititin uudelleen.</item>
+        <item>Ei pääse verkkoon. Yhdistä uudelleen WLAN-verkkoon tai käynnistä reititin uudelleen.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_connectivity">
+        <item>Verkkoon pääsy edellyttää todennusta</item>
+        <item>Verkkoon pääsy on rajoitettu. Säädä tämän laitteen aikaa ja tarkista reitittimen verkkoasetukset.</item>
+        <item>Verkkovirhe. Tarkista HTTP-välityspalvelimen asetukset.</item>
+        <item>Verkkovirhe. Tarkista, voiko reititin käyttää Internetiä.</item>
+        <item>Ei voi muodostaa yhteyttä verkkoon. Yhdistä uudelleen Wi-Fi-verkkoon tai käynnistä reititin uudelleen.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_connectivity_china">
+        <item>Verkkoon pääsy edellyttää todennusta</item>
+        <item>Verkkoon pääsy on rajoitettu. Säädä tämän laitteen aikaa ja tarkista reitittimen verkkoasetukset.</item>
+        <item>Verkkovirhe. Tarkista HTTP-välityspalvelimen asetukset.</item>
+        <item>Verkkovirhe. Tarkista, voiko reititin käyttää Internetiä.</item>
+        <item>Ei voi muodostaa yhteyttä verkkoon. Yhdistä uudelleen WLAN-verkkoon tai käynnistä reititin uudelleen.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_dns">
+        <item>DNS-palvelinvirhe. Tarkista reitittimen DNS-asetukset.</item>
+        <item>Merkittäviä viiveitä DNS-palvelimelta. Tarkista reitittimen DNS-asetukset.</item>
+        <item>Ei pääse yhdyskäytävään. Yhdistä uudelleen Wi-Fi-verkkoon tai käynnistä reititin uudelleen.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_dns_china">
+        <item>DNS-palvelinvirhe. Tarkista reitittimen DNS-asetukset.</item>
+        <item>Merkittäviä viiveitä DNS-palvelimelta. Tarkista reitittimen DNS-asetukset.</item>
+        <item>Ei pääse yhdyskäytävään. Yhdistä uudelleen WLAN-verkkoon tai käynnistä reititin uudelleen.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_latency">
+        <item>Suuria viivästyksiä paikallisverkosta. Käynnistä reititin uudelleen tai muodosta yhteys toiseen verkkoon.</item>
+        <item>Suuria viivästyksiä Internetistä. Tarkista operaattorin verkkoasetukset tai muodosta yhteys toiseen verkkoon.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_parameters">
+        <item>Vaihda staattisesta IP:stä DHCP:hen</item>
+    </string-array>
+    <string-array name="net_diag_err_network_protocol">
+        <item>Verkkoprotokollavirhe. Yhdistä uudelleen Wi-Fi-verkkoon tai käynnistä laite uudelleen.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_protocol_china">
+        <item>Verkkoprotokollavirhe. Yhdistä uudelleen WLAN-verkkoon tai käynnistä laite uudelleen.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_rssi">
+        <item>Siirry alueelle, jossa on parempi Wi-Fi-kattavuus</item>
+    </string-array>
+    <string-array name="net_diag_err_network_rssi_china">
+        <item>Siirry alueelle, jossa on parempi WLAN-kattavuus</item>
+    </string-array>
+    <string-array name="net_diag_err_network_topology">
+        <item>Tarkista reitittimen DHCP-asetukset ja langallinen yhteys</item>
+    </string-array>
+    <string-array name="reproductivity">
+        <item>@string/feedback_reproductivity_everytime</item>
+        <item>@string/feedback_reproductivity_often</item>
+        <item>@string/feedback_reproductivity_occasionally</item>
+        <item>@string/feedback_reproductivity_once</item>
+    </string-array>
 </resources>

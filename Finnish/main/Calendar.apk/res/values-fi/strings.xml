@@ -91,6 +91,7 @@
     <string name="birthday_saved">Syntymäpäivä tallennettu</string>
     <string name="birthday_term">syntymäpäivä</string>
     <string name="button_record_menstruation">Tallenna</string>
+    <string name="calendar_account_settings">Tiliasetukset</string>
     <string name="calendar_permission_desc">Hallitse tapahtumia</string>
     <string name="calendar_privacy_policy">Tietosuojakäytäntö</string>
     <string name="can_not_create_long_event">Tapahtuman nimi on liian pitkä</string>
@@ -112,6 +113,7 @@
     <string name="change">Muuta</string>
     <string name="change_response_title">Muuta vastausta</string>
     <string name="change_zodiac">Muuta horoskooppimerkkiä</string>
+    <string name="check_new_version">Tarkista päivitykset</string>
     <string name="chips_action_cancel">Peruuta</string>
     <string name="chips_action_copy">Kopioi</string>
     <string name="chips_permission_text">Salli yhteystietoehdotukset</string>
@@ -180,6 +182,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Perinteinen kiinalainen kalenteri</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Aseta päivä ja aika</string>
     <string name="date_today">" (tänään)"</string>
     <string name="date_view">Päivämäärä</string>
@@ -194,6 +197,7 @@
     <string name="description_calendar_edit_event">Järjestelmäsovellukset/Kalenteri/Asialista</string>
     <string name="directory_searching_fmt">Etsitään %s…</string>
     <string name="discard_label">Peruuta</string>
+    <string name="display_to_calendar">Näytä kalenterissa</string>
     <string name="does_not_repeat">Kertaluontoinen tapahtuma</string>
     <string name="dropdown_delete_button_desc">Poista %s vastaanottajista</string>
     <string name="early_morning">Aamu</string>
@@ -387,6 +391,7 @@
     <string name="horoscope">Horoskooppi</string>
     <string name="horoscope_card_title">Päivän horoskooppi</string>
     <string name="horoscope_select_activity_label">Valitse horoskooppi</string>
+    <string name="hour_1">%d tunti</string>
     <string name="image_processing">Kuva ei ole vielä valmis</string>
     <string name="import_action">Tuo</string>
     <string name="import_birthday">Tuo syntymäpäivä</string>
@@ -451,6 +456,10 @@
     <string name="mesens_card_title_today_begin">Kuukautiset saattavat alkaa tänään</string>
     <string name="mesens_card_title_tomorrow_begin">Kuukautiset saattavat alkaa huomenna</string>
     <string name="midnight">Yö</string>
+    <string name="minutes_10">%d minuuttia</string>
+    <string name="minutes_15">%d minuuttia</string>
+    <string name="minutes_30">%d minuuttia</string>
+    <string name="minutes_5">%d minuuttia</string>
     <string name="missing_name">(Nimetön)</string>
     <string name="missing_required_permission">Olet rajoittanut vaaditut käyttöoikeudet.</string>
     <string name="miuix_access_state_desc">Valittu</string>
@@ -713,7 +722,6 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="save">Tallenna</string>
     <string name="saving_event">Tapahtuma tallennettu</string>
     <string name="saving_event_with_guest">Lähetetään päivityksiä…</string>
-    <string name="search_calendar">Päivä;Aurinko;Kuu;Almanakka;Kohtalo;Asialista;Kokous;Muistutus;Loma;Loma;Syntymäpäivä;2016;2017;Kevätjuhla;Uudenvuodenpäivä;Kansainvälinen työpäivä;Keskisyksyn juhla</string>
     <string name="search_calendar_edit_event">Tapaaminen;Muistutus;Asialista</string>
     <string name="search_calendar_settings">Kalenteri;Asialista;Muistutus</string>
     <string name="search_events">Hae tapahtumia</string>
@@ -753,6 +761,9 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="share_image_label">Jaa käyttäen kohdetta</string>
     <string name="share_title">Jaa</string>
     <string name="short_date_format">d. MMM</string>
+    <string name="shortcut_new_event">Lisää tapahtuma</string>
+    <string name="shortcut_next_agenda">Seuraava tapahtuma</string>
+    <string name="shortcut_settings">Asetukset</string>
     <string name="show_day_view">Näytä päivä</string>
     <string name="show_indic_date_summary">Intialainen kalenteri on saatavilla, kun yksi Intian kielistä on valittu järjestelmäsi kieleksi</string>
     <string name="show_menstruation_info">Näytä kuukautistiedot</string>
@@ -792,6 +803,7 @@ Voit myös lisätä muistutuksia, jotta et ohita mitään tärkeää."</string>
     <string name="subtitle_mi_calendar_predict_menstruation">Tallenna ja arvioi tulevat kuukautiset Kalenterin avulla</string>
     <string name="subtitle_record_and_start_predict">Pidä kirjaa kuukautisista arvioidaksesi, milloin seuraava alkaa</string>
     <string name="subtitle_stick_record">Pidä kirjaa kuukautisistasi saadaksesi tarkempia ennusteita</string>
+    <string name="suggestions_and_feedback">Palaute</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>
@@ -935,8 +947,8 @@ Voit myös lisätä muistutuksia, jotta et ohita mitään tärkeää."</string>
     <string name="tuesday">Tiistai</string>
     <string name="tuesday_short">Ti</string>
     <string name="tuesday_shortest">Ti</string>
-    <string name="twelve_hour_time_format">hh:mm aa</string>
-    <string name="twenty_four_hour_time_format">HH:mm</string>
+    <string name="twelve_hour_time_format">hh.mm aa</string>
+    <string name="twenty_four_hour_time_format">HH.mm</string>
     <string name="two_selected_holiday">%1$s ja %2$s ovat vapaapäiviä</string>
     <string name="unable_record_future_menstruation">Ei voi pitää kirjaa tulevista kuukautisista</string>
     <string name="unsubscribe_card">Lopeta tilaus</string>

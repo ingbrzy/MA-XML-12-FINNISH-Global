@@ -23,6 +23,5 @@
     <string name="holiday_update_summary">Napauta päivittääksesi kalenterin tiedot.</string>
     <string name="holiday_update_title">Päivitys saatavilla</string>
     <string name="provider_label">Kalenteri</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="upgrade_msg">Päivitetään kalenterin tietokantaa…</string>
 </resources>

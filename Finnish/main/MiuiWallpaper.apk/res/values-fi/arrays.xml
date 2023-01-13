@@ -30,9 +30,4 @@
         <item>Taustakuva/Supertaustakuvat</item>
         <item>Supertaustakuvat;Taustakuva;Dynaaminen taustakuva;3D-taustakuva</item>
     </string-array>
-    <string-array name="settings_search_weather">
-        <item>Sää</item>
-        <item>Taustakuva/Supertaustakuvat/Sää</item>
-        <item>Sää;Säätiedot;Supertaustakuva;Taustakuva</item>
-    </string-array>
 </resources>

@@ -32,7 +32,8 @@
     <string name="am">ap.</string>
     <string name="cancel">Peruuta</string>
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
-    <string name="close">Sulje</string>
+    <string name="close">Pois</string>
+    <string name="common_google_play_services_unknown_issue">Sovelluksella %1$s on ongelmia Google Play Palveluiden kanssa. Yritä uudelleen.</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -125,7 +126,13 @@
     <string name="friday">Perjantai</string>
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
+    <string name="grant_permission_go_and_set_2">Asetukset</string>
+    <string name="grant_permission_item">%s</string>
+    <string name="grant_permission_remind_title">Käyttöoikeuksia vaaditaan</string>
+    <string name="grant_permission_storage">Salli tämän sovelluksen käyttää tallennustilaa.</string>
+    <string name="grant_permission_text">Galleriaeditori tarvitsee seuraavan luvan toimiakseen normaalisti: %s. Myönnä napauttamalla \"Asetukset\".</string>
     <string name="midnight">Yö</string>
+    <string name="miuix_access_state_desc">Valittu</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
@@ -204,6 +211,7 @@
     <string name="night">Ilta</string>
     <string name="noon">Keskipäivä</string>
     <string name="ok">OK</string>
+    <string name="open">Päällä</string>
     <string name="pm">ip.</string>
     <string name="refocus_discard_confirm_message">Tallenna muutokset?</string>
     <string name="refocus_discard_negative_btn">Hylkää</string>
@@ -246,6 +254,14 @@
     <string name="refocus_type_relighting_small_face">Studiovalaistus toimii valokuvissa joissa kasvoilla on enemmän kuva-alaa kuin tässä.</string>
     <string name="refocus_type_static">Sumenna</string>
     <string name="refocus_type_video">Valojuovat</string>
+    <string name="saf_operation_guide_1">"Galleriaeditori tarvitsee lupaasi voidakseen suojata ja hallita tietojasi. "</string>
+    <string name="saf_operation_guide_2">Myönnä lupa napauttamalla \"%1$s\" ja valitsemalla sitten \"%2$s\".</string>
+    <string name="saf_operation_guide_param1">Seuraava</string>
+    <string name="saf_operation_guide_param2">Avaa tämä kansio</string>
+    <string name="saf_requester_cancel">Peruuta</string>
+    <string name="saf_requester_title">Salli Galleriaeditorin käyttää kohdetta %s</string>
+    <string name="saf_secret_album">Yksityinen albumi</string>
+    <string name="saf_secret_album_guide">Tämä sovellus tarvitsee käyttöoikeudet yksityisen albumin kohteiden näyttämiseen.</string>
     <string name="saturday">Lauantai</string>
     <string name="saturday_short">La</string>
     <string name="saturday_shortest">La</string>

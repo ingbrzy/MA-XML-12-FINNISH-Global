@@ -36,6 +36,10 @@
         <item quantity="other">%d minuuttia sitten</item>
         <item quantity="one">1 minuutti sitten</item>
     </plurals>
+    <plurals name="backup_action_long_time_not_backup_content">
+        <item quantity="other">Näyttää siltä, ettet ole varmuuskopioinut kohteita %s viikkoon. Luo varmuuskopioita, jottet menetä mitään tärkeää.</item>
+        <item quantity="one">Näyttää siltä, ettet ole varmuuskopioinut kohteita %s viikkoon. Luo varmuuskopioita, jottet menetä mitään tärkeää.</item>
+    </plurals>
     <plurals name="cloud_backup_detail_manage_summary">
         <item quantity="other">%1$s varmuuskopiota (%2$s)</item>
         <item quantity="one">%1$s varmuuskopio (%2$s)</item>
@@ -72,16 +76,16 @@
         <item quantity="other">%d minuuttia sitten</item>
         <item quantity="one">1 minuutti sitten</item>
     </plurals>
-    <plurals name="restore_app_order_installed">
-        <item quantity="other">%d sovellusta tällä laitteella</item>
-        <item quantity="one">%d sovellus tällä laitteella</item>
+    <plurals name="session_starting_app_count_backup_text">
+        <item quantity="other">%d sovellusta varmuuskopioitu</item>
+        <item quantity="one">%d sovellus varmuuskopioitu</item>
     </plurals>
-    <plurals name="restore_app_order_normal">
-        <item quantity="other">Normaali prioriteetti: %d sovellusta</item>
-        <item quantity="one">Normaali prioriteetti: %d sovellus</item>
+    <plurals name="session_starting_app_count_restore_text">
+        <item quantity="other">Palautettiin %d sovellusta</item>
+        <item quantity="one">Palautettiin %d sovellus</item>
     </plurals>
-    <plurals name="restore_app_order_prior">
-        <item quantity="other">Korkea prioriteetti: %d sovellusta</item>
-        <item quantity="one">Korkea prioriteetti: %d sovellus</item>
+    <plurals name="session_time_remain">
+        <item quantity="other">Noin %s minuuttia jäljellä</item>
+        <item quantity="one">Noin %s minuutti jäljellä</item>
     </plurals>
 </resources>

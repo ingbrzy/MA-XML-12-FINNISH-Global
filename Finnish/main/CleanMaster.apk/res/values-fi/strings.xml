@@ -215,6 +215,7 @@
     <string name="conn_of_function_safe">Tietoturvan verkkoyhteys</string>
     <string name="connecting">Yhdistetään…</string>
     <string name="copy">Kopioi</string>
+    <string name="copy_toast_msg">Linkki kopioitu leikepöydälle</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -301,6 +302,7 @@
     <string name="download">Lataa</string>
     <string name="downloading">Ladataan</string>
     <string name="early_morning">Aamu</string>
+    <string name="empty">" "</string>
     <string name="empty_content_no_ignore_image">Tyhjä</string>
     <string name="empty_content_no_privacy">Tyhjä</string>
     <string name="empty_content_no_similar_image">Ei kuvia</string>
@@ -318,6 +320,15 @@
     <string name="eras_ad">jKr.</string>
     <string name="eras_bc">eKr.</string>
     <string name="evening">Iltapäivä</string>
+    <string name="exo_download_completed">Lataus valmis</string>
+    <string name="exo_download_description">Lataa</string>
+    <string name="exo_download_downloading">Ladataan</string>
+    <string name="exo_download_failed">Lataus epäonnistui</string>
+    <string name="exo_download_notification_channel_name">Lataukset</string>
+    <string name="exo_download_paused">Lataukset keskeytetty</string>
+    <string name="exo_download_paused_for_network">Lataukse odottavat verkkoyhteyttä</string>
+    <string name="exo_download_paused_for_wifi">Lataukset odottavat Wi-Fi-yhteyttä</string>
+    <string name="exo_download_removing">Poistetaan latauksia</string>
     <string name="expand_button_title">Lisäasetukset</string>
     <string name="facebook_clean_exit_confirm_cancel">Jatka skannausta</string>
     <string name="facebook_clean_exit_confirm_msg">Facebookin skannaus ei ole vielä valmis. Lopetetaanko skannaus nyt?</string>
@@ -328,6 +339,9 @@
     <string name="facebook_group_gif">GIF-animaatiot</string>
     <string name="facebook_group_image">Kuvat</string>
     <string name="facebook_group_video">Videot</string>
+    <string name="fallback_menu_item_copy_link">Kopioi linkki</string>
+    <string name="fallback_menu_item_open_in_browser">Avaa selaimessa</string>
+    <string name="fallback_menu_item_share_link">Jaa linkki</string>
     <string name="file">Tiedostot</string>
     <string name="file_not_found">Tiedostoa ei löydy</string>
     <string name="flow_rank_title">Datan käyttö</string>
@@ -477,6 +491,7 @@
     <string name="hints_garbage_cleanup_result_safe">Kaikki näyttää hyvältä</string>
     <string name="hints_garbage_handle_item_content">%1$d kohdetta, %2$s</string>
     <string name="hints_garbage_handle_item_empty_content">Tyhjä</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_installed_app_fewer">Harvoin käytetty</string>
     <string name="hints_installed_app_near">Käytetty äskettäin</string>
     <string name="hints_installed_app_never">Ei käytetty koskaan</string>

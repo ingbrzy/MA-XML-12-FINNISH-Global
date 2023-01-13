@@ -259,6 +259,8 @@ d.M"</string>
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_cancel">Peru</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -285,6 +287,8 @@ d.M"</string>
     <string name="mtrl_picker_toggle_to_day_selection">Siirry päivän valintaan napauttamalla</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Valitse syöttötavaksi teksti</string>
     <string name="mtrl_picker_toggle_to_year_selection">Siirry vuoden valintaan napauttamalla</string>
+    <string name="mtrl_timepicker_cancel">Peru</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="my_style_title">Teemani</string>
     <string name="night">Ilta</string>
     <string name="noon">Keskipäivä</string>
@@ -311,7 +315,7 @@ d.M"</string>
     <string name="saturday_short">La</string>
     <string name="saturday_shortest">La</string>
     <string name="scheduled_mode_dialog_msg">Kohteet näytetään Aina näytössä -näytöllä tänä aikana: %s.</string>
-    <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
+    <string name="scheduled_mode_dialog_msg_12">hh.mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Aktiivinen aika: %s</string>
     <string name="scheduled_style">Suunniteltu</string>
@@ -323,6 +327,8 @@ d.M"</string>
     <string name="select_notification_animation_style">Valitse erikoistehoste</string>
     <string name="select_notification_notify_style">Valitse ilmoitusvaikutus</string>
     <string name="send">Lähetä</string>
+    <string name="settings_view_btn_check_off">Pois</string>
+    <string name="settings_view_btn_check_on">Päällä</string>
     <string name="share">Jaa</string>
     <string name="share_to_community">Jaa kohteeseen Xiaomi Community</string>
     <string name="show_battery">Näytä akun tila</string>
@@ -337,6 +343,7 @@ d.M"</string>
 upeaa tapahtuu"</string>
     <string name="standard_clock_panel">Standardi</string>
     <string name="standard_style">Vakio</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Askellaskelman tarjoaa Xiaomi Health. Hyväksy Xiaomi Health -käyttöehdot jatkaaksesi.</string>
     <string name="step_component_info_desc">Askelmäärä muuttuu palkinnoksi, kun tavoitteesi saavutetaan. Askellaskelman tarjoaa Xiaomi Health.</string>
     <string name="step_component_info_tip">Askellaskelman tarjoaa Xiaomi Health. Asenna tai päivitä Xiaomi Health ja hyväksy sen käyttöehdot jatkaaksesi.</string>

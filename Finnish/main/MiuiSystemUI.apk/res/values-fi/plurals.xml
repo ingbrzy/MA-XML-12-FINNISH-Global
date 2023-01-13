@@ -41,8 +41,8 @@
         <item quantity="one">%d päivä sitten</item>
     </plurals>
     <plurals name="abc_slice_duration_min">
-        <item quantity="other">%d min sitten</item>
-        <item quantity="one">%d min sitten</item>
+        <item quantity="other">%d min sitten</item>
+        <item quantity="one">%d min sitten</item>
     </plurals>
     <plurals name="abc_slice_duration_years">
         <item quantity="other">%d vuotta sitten</item>
@@ -51,6 +51,10 @@
     <plurals name="controls_number_of_favorites">
         <item quantity="other">%s säädintä lisätty</item>
         <item quantity="one">%s säädin lisätty</item>
+    </plurals>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="other">%s sovellusta on aktiivisia</item>
+        <item quantity="one">%s sovellus on aktiivinen</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Puoli tuntia sitten</item>
@@ -140,22 +144,6 @@
         <item quantity="other">Virheellinen SIM-kortin PUK-koodi. Sinulla on %d yritystä jäljellä, ennen kuin SIM-kortista tulee pysyvästi käyttökelvoton.</item>
         <item quantity="one">Virheellinen SIM-kortin PUK-koodi. Sinulla on %d yritys jäljellä, ennen kuin SIM-kortista tulee pysyvästi käyttökelvoton.</item>
     </plurals>
-    <plurals name="kg_prompt_reason_time_password">
-        <item quantity="other">Laitteen lukitusta ei ole avattu %d tuntiin. Vahvista salasana.</item>
-        <item quantity="one">Laitteen lukitusta ei ole avattu %d tuntiin. Vahvista salasana.</item>
-    </plurals>
-    <plurals name="kg_prompt_reason_time_pattern">
-        <item quantity="other">Laitteen lukitusta ei ole avattu %d tuntiin. Vahvista kuvio.</item>
-        <item quantity="one">Laitteen lukitusta ei ole avattu %d tuntiin. Vahvista kuvio.</item>
-    </plurals>
-    <plurals name="kg_prompt_reason_time_pin">
-        <item quantity="other">Laitteen lukitusta ei ole avattu %d tuntiin. Vahvista PIN-koodi.</item>
-        <item quantity="one">Laitteen lukitusta ei ole avattu %d tuntiin. Vahvista PIN-koodi.</item>
-    </plurals>
-    <plurals name="kg_too_many_failed_attempts_countdown">
-        <item quantity="other">Yritä uudelleen %d sekunnin kuluttua.</item>
-        <item quantity="one">Yritä uudelleen 1 sekunnin kuluttua.</item>
-    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Juuri nyt</item>
         <item quantity="one">Juuri nyt</item>
@@ -203,9 +191,5 @@
     <plurals name="user_limit_reached_message">
         <item quantity="other">Voit lisätä korkeintaan %d käyttäjää.</item>
         <item quantity="one">Käyttäjiä voi olla vain yksi.</item>
-    </plurals>
-    <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d laitetta yhdistettynä</item>
-        <item quantity="one">%1$d laite yhdistettynä</item>
     </plurals>
 </resources>

@@ -130,6 +130,10 @@ Huomautus: Tiedosto poistetaan myös tältä laitteelta."</item>
         <item quantity="other">Siirry taaksepäin %d sekuntia</item>
         <item quantity="one">Siirry taaksepäin %d sekunti</item>
     </plurals>
+    <plurals name="feed_play_times">
+        <item quantity="other">%s katselukertaa</item>
+        <item quantity="one">%s katselukerta</item>
+    </plurals>
     <plurals name="free_downloads_num_hint">
         <item quantity="other">%d ilmainen lataus jäljellä</item>
         <item quantity="one">%d ilmainen lataus jäljellä</item>
