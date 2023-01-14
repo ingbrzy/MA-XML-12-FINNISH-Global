@@ -195,7 +195,6 @@
     <string name="b_contacts_remove_tips">Poistetaanko tämä osoite estolistalta?</string>
     <string name="back">Takaisin</string>
     <string name="bcc">Bcc</string>
-    <string name="bcc_heading">"Bcc: "</string>
     <string name="blank_feedback_toast">Sinun täytyy kirjoittaa palautetta</string>
     <string name="body_forward_email_text">[Forward]</string>
     <string name="body_hint">Kirjoita sähköpostiviesti</string>
@@ -206,7 +205,6 @@
     <string name="cancel">Peruuta</string>
     <string name="cancel_action">Peruuta</string>
     <string name="cc">Cc</string>
-    <string name="cc_attribution">Cc: %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Cc: "</string>
     <string name="certificate_add_failed">Ei voitu lisätä \"%s\" varmennetta</string>
@@ -230,7 +228,6 @@
     <string name="click_to_reload">Napauta näyttöä päivittääksesi</string>
     <string name="close">Sulje</string>
     <string name="collapse_recipient_details">Pienennä vastaanottajan tiedot</string>
-    <string name="colon">:</string>
     <string name="compose">Kirjoita</string>
     <string name="compose_event">Kutsu</string>
     <string name="compose_paste_address_oob">Liian monta merkkiä</string>
@@ -471,7 +468,6 @@
     <string name="installation_failed">Asennus epäonnistui.</string>
     <string name="installing_module">Asennusmoduuli:</string>
     <string name="kilobytes">%s Kt</string>
-    <string name="label_notification_ticker">%1$s: %2$s</string>
     <string name="load_from_remote">Etsi postilaatikosta palvelimella</string>
     <string name="load_more">Lataa lisää</string>
     <string name="loading_conversation">Ladataan…</string>
@@ -872,7 +868,6 @@ Odota kunnes se on täysin synkronoitu tai katsele viestiä omalta tietokoneelta
     <string name="size_tera_byte">Tt</string>
     <string name="smtp_password_error">Lähtevän sähköpostipalvelimen salasana on virheellinen</string>
     <string name="sort_attachment">Lajittele</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="str_select_all">Valitse kaikki</string>
     <string name="str_select_none">Kumoa kaikkien valinta</string>
     <string name="subject_and_snippet">%1$s - %2$s</string>

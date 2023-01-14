@@ -139,7 +139,6 @@
     <string name="cast_forward">Kelaa eteenpäin</string>
     <string name="cast_forward_10">Kelaa eteenpäin 10 sekuntia</string>
     <string name="cast_forward_30">Kelaa eteenpäin 30 sekuntia</string>
-    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
     <string name="cast_live_label">LIVE</string>
     <string name="cast_mute">Mykistä</string>
     <string name="cast_notification_connected_message">Yhdistetty näyttöön %1$s</string>
@@ -1066,7 +1065,6 @@ videoille"</string>
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
