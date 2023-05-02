@@ -36,6 +36,18 @@
         <item quantity="other">%d minuuttia sitten</item>
         <item quantity="one">1 minuutti sitten</item>
     </plurals>
+    <plurals name="download_canceled_title_multi">
+        <item quantity="other">Hylätty %2$d tiedostoa, mukaan lukien %1$s</item>
+        <item quantity="one">Hylätty %2$d tiedosto, mukaan lukien %1$s</item>
+    </plurals>
+    <plurals name="download_succeeded_title_multi">
+        <item quantity="other">Vastaanotettu %2$d tiedostoa, mukaan lukien %1$s</item>
+        <item quantity="one">Vastaanotettu %2$d tiedosto, mukaan lukien %1$s</item>
+    </plurals>
+    <plurals name="download_title_multi">
+        <item quantity="other">%2$d-tiedostoa, mukaan lukien %1$s</item>
+        <item quantity="one">%2$d-tiedosto, mukaan lukien %1$s</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Puoli tuntia sitten</item>
         <item quantity="one">Puoli tuntia sitten</item>

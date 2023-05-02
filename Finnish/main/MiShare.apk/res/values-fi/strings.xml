@@ -396,7 +396,6 @@ Ennen Mi Share -sovelluksen käyttöä sinun on myönnettävä seuraavat oikeude
     <string name="somepc_send_muchfile_files">%1$s lähettää sinulle enemmän kuin %2$d tiedostoa…</string>
     <string name="start_receive_much_files_from_pc">Vastaanotetaan enemmän kuin %2$d tiedostoa kohteesta %1$s…</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="sub_title_mishare_switch">Tämä ominaisuus sammuu automaattisesti %d minuutin kuluttua</string>
     <string name="success_receive_much_file_from_pc">Vastaanotettu yli %2$d tiedostoa kohteesta %1$s. Näytä napauttamalla.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sunnuntai</string>
@@ -458,8 +457,6 @@ Ennen Mi Share -sovelluksen käyttöä sinun on myönnettävä seuraavat oikeude
     <string name="tips_p2p_support_use5g_china">For best results, use a 5 GHz WLAN network.</string>
     <string name="tips_prompt_enable_midrop">Mi Share</string>
     <string name="to_feedback">Raportoi</string>
-    <string name="toast_auto_close_in_minutes">Mi Share sammuu %d minuutin kuluttua</string>
-    <string name="toast_transfering">Siirretään kohteita. Yritä myöhemmin uudelleen.</string>
     <string name="today">Tänään</string>
     <string name="tomorrow">Huomenna</string>
     <string name="transfer_intercept_to_remote">Ei voitu lähettää: %1$s</string>
@@ -467,10 +464,8 @@ Ennen Mi Share -sovelluksen käyttöä sinun on myönnettävä seuraavat oikeude
     <string name="transfer_to_pc_summary_new">&lt;Data>Mi Muistioihin asennettu uusin MIUI+ -versio on yhteensopiva kohteen Mi Share kanssa. Voit tarkistaa luettelon tuetuista kannettavista tietokonemalleista MIUI+ -sivustolta(&lt;a href=%1$s>%2$s&lt;/a>). Jos kannettava tietokoneesi on luettelossa, mutta MIUI+ ei ole asennettu siihen, päivitä kannettavan tietokoneen BIOS ja verkkosovittimen ohjain ja lataa MIUI+.&lt;/Data></string>
     <string name="transfer_to_pc_title">Lähetä tiedostoja tietokoneisiin</string>
     <string name="transfer_to_phone_summary">Kytke Mi Share päälle ilmoitusalueen kytkimellä. Sen jälkeen näet lähellä olevat laitteet, kun aloitat valokuvan tai tiedoston jakamisen. Napauta vastaanottajan laitetta lähettääksesi jaettavan kohteen.</string>
-    <string name="transfer_to_phone_summary_new">Ota Mi Share käyttöön ohjauskeskuksessa, jotta voit helposti lähettää ja vastaanottaa kohteita. Kun olet kytkenyt sen päälle, voit jakaa kohteita lähellä olevien laitteiden kanssa %d minuuttia ennen kuin se sammuu automaattisesti.</string>
     <string name="transfer_to_phone_title">Lähetä tiedostoja puhelimiin</string>
     <string name="transfer_to_summary">Kytke Mi Share päälle ilmoitusalueen kytkimellä. Sen jälkeen näet lähellä olevat laitteet, kun aloitat valokuvan tai tiedoston jakamisen. Napauta vastaanottajan laitetta lähettääksesi jaettavan kohteen.</string>
-    <string name="transfer_to_summary_new">Ota Mi Share käyttöön ohjauskeskuksessa, jotta voit helposti lähettää ja vastaanottaa kohteita. Kun olet kytkenyt sen päälle, voit jakaa kohteita lähellä olevien laitteiden kanssa %d minuuttia ennen kuin se sammuu automaattisesti.</string>
     <string name="transfer_to_title">Lähetä tiedostoja mobiililaitteisiin</string>
     <string name="tuesday">Tiistai</string>
     <string name="tuesday_short">Ti</string>
