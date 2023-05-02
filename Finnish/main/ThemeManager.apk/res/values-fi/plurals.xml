@@ -40,6 +40,22 @@
         <item quantity="other">%1s kolikkoa</item>
         <item quantity="one">%1s kolikko</item>
     </plurals>
+    <plurals name="confirm_delete_tasks">
+        <item quantity="other">Poistetaanko %d tehtävää nyt?</item>
+        <item quantity="one">Poistetaanko %d tehtävä nyt?</item>
+    </plurals>
+    <plurals name="delete_tasks_successfully">
+        <item quantity="other">%d tehtävää poistettiin onnistuneesti</item>
+        <item quantity="one">%d tehtävä poistettiin onnistuneesti</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Siirry eteenpäin %d sekuntia</item>
+        <item quantity="one">Siirry eteenpäin %d sekunti</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Siirry taaksepäin %d sekuntia</item>
+        <item quantity="one">Siirry taaksepäin %d sekunti</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Puoli tuntia sitten</item>
         <item quantity="one">Puoli tuntia sitten</item>
@@ -68,6 +84,10 @@
         <item quantity="other">%d kohdetta valittu</item>
         <item quantity="one">%d kohde valittu</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d uutta ilmoitusta</item>
+        <item quantity="one">%d uusi ilmoitus</item>
+    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minuuttia sitten</item>
         <item quantity="one">1 minuutti sitten</item>
@@ -81,6 +101,22 @@ Kolikoilla ei ole palautusoikeutta"</item>
     <plurals name="portfolio">
         <item quantity="other">%d teosta</item>
         <item quantity="one">%d teos</item>
+    </plurals>
+    <plurals name="purchase_refund_success_diag_notice_one">
+        <item quantity="other">"%d tilausta hyvitetty onnistuneesti. "</item>
+        <item quantity="one">"%d tilaus hyvitetty onnistuneesti. "</item>
+    </plurals>
+    <plurals name="purchase_refund_success_diag_notice_two">
+        <item quantity="other">Kolikkosi talletetaan %d tunnin kuluessa.</item>
+        <item quantity="one">Kolikkosi talletetaan %d tunnin kuluessa.</item>
+    </plurals>
+    <plurals name="purchase_refund_success_notice">
+        <item quantity="other">Hyvitys on käsitelty. Kolikkosi talletetaan %d tunnin kuluessa.</item>
+        <item quantity="one">Hyvitys on käsitelty. Kolikkosi talletetaan %d tunnin kuluessa.</item>
+    </plurals>
+    <plurals name="purchased_authorizing_dialog_content">
+        <item quantity="other">Tämä voi kestää hetken. Jos et ole saanut ostamiasi tuotteita %d tunnin kuluessa, lähetä palautetta ja kerro meille ongelmasta.</item>
+        <item quantity="one">Tämä voi kestää hetken. Jos et ole saanut ostamiasi tuotteita %d tunnin kuluessa, lähetä palautetta ja kerro meille ongelmasta.</item>
     </plurals>
     <plurals name="purchased_instructions">
         <item quantity="other">&lt;Data>Suorittamalla maksun hyväksyt &lt;a href=\"%1$s\">Ilmoituksen sovelluksen sisäisistä ostoksista&lt;/a>.&lt;br>Hyvitykset ovat saatavilla &lt;xliff:g id=time>%2$d&lt;/xliff:g> tunnin kuluttua ostosten tekemisestä.&lt;/Data></item>
