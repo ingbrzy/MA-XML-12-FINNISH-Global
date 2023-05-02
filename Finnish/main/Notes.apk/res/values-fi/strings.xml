@@ -499,7 +499,6 @@
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -566,7 +565,6 @@
     <string name="note_write_hint">Aloita kirjoittaminen</string>
     <string name="notealert_enter">Avaa muistiinpano</string>
     <string name="notealert_ok">Hylkää</string>
-    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Muistio on järjestelmäsovellus. Et voi käyttää tätä sovellusta sen poistamisen jälkeen.</string>
     <string name="notes_description_title">Poistetaanko Muistio?</string>
     <string name="notification_content_add_todo_from_other_app">Lisäsit uuden tehtävän. Napauta katsellaksesi.</string>

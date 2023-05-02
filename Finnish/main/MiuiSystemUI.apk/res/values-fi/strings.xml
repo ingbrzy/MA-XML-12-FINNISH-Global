@@ -1456,7 +1456,6 @@ Saat lisätietoja järjestelmänvalvojalta."</string>
     <string name="monitoring_description_personal_profile_named_vpn">Henkilökohtaiset sovelluksesi on yhdistetty internetiin tämän kautta: %1$s. Verkkotoimintasi, mukaan lukien sähköpostit ja selausdata, näkyy VPN-palveluntarjoajalle.</string>
     <string name="monitoring_description_two_named_vpns">Laite on yhdistetty internetiin näiden kautta: %1$s ja %2$s. Verkkotoimintasi, mukaan lukien sähköpostit ja selausdata, näkyy IT-järjestelmänvalvojalle.</string>
     <string name="monitoring_description_vpn_settings">Avaa VPN-asetukset</string>
-    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s voi saada pääsyn tähän laitteeseen liittyvään dataan, ylläpitää sovelluksia ja muuttaa laitteen asetuksia.
 
 Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
@@ -1535,7 +1534,6 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -1565,7 +1563,6 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="music_controls_no_title">Ei nimeä</string>
     <string name="nav_bar">Navigointipalkki</string>
     <string name="nav_bar_layout">Asettelu</string>
-    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="new_notification_image_content_description">%1$s lähetti kuvan</string>
     <string name="new_notification_text_content_description">%1$s lähetti viestin: %2$s</string>
     <string name="new_status_content_description">%1$s on päivittänyt tilansa: %2$s</string>
@@ -1771,7 +1768,6 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="private_dns_mode_provider">Yksityisen DNS-tarjoajan isäntänimi</string>
     <string name="private_dns_mode_provider_failure">Ei yhteyttä</string>
     <string name="private_dns_mode_provider_hostname_hint">Anna isäntänimi tai DNS-tarjoaja</string>
-    <string name="process_kernel_label">Android-käyttöjärjestelmä</string>
     <string name="profile_connect_timeout_subtext">Yhteysvirhe. Sammuta laite ja käynnistä se uudelleen.</string>
     <string name="profile_info_settings_title">Profiilin tiedot</string>
     <string name="qr_code_scanner_title">Skannaa QR-koodi</string>
@@ -2111,8 +2107,6 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="status_bar_clock_date_time_format_12">h.mm a, E d. MMM</string>
     <string name="status_bar_clock_date_weekday_format">EEEE, d. MMMM</string>
     <string name="status_bar_clock_date_weekday_format_12">EEEE, d. MMMM</string>
-    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
-    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"E
 d. MMM"</string>
     <string name="status_bar_date_format_12">"E

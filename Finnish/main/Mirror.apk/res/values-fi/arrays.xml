@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="buffer_size_values">
-        <item>\@null</item>
-        <item>%1$d kt</item>
-        <item>%1$d kt</item>
-        <item>%1$d kt</item>
-        <item>%1$d kt</item>
-        <item>%1$d Mt</item>
-    </string-array>
     <string-array name="settings_search_mirror">
         <item>MIUI+ Beta</item>
         <item>Yhteys &amp; jakaminen/MIUI+ Beta</item>

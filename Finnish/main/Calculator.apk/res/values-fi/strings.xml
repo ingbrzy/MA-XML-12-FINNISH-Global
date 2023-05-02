@@ -697,7 +697,6 @@ Yhden ja viiden vuoden LPR:t noteerataan kunkin kuukauden 20. päivänä (viivä
     <string name="unit_data_display_currency_btn">Bhutanin ngultrum</string>
     <string name="unit_data_display_currency_bwp">Botswanan pula</string>
     <string name="unit_data_display_currency_byn">Valko-Venäjän rupla</string>
-    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Kanadan dollari</string>
     <string name="unit_data_display_currency_cdf">Kongon frangi</string>
     <string name="unit_data_display_currency_chf">Sveitsin frangi</string>
@@ -1040,15 +1039,12 @@ Yhden ja viiden vuoden LPR:t noteerataan kunkin kuukauden 20. päivänä (viivä
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
-    <string name="xiaomi_bytes_unit">%1$s t</string>
     <string name="xiaomi_calculator_delete_description">Laskin on järjestelmäsovellus. Et voi käyttää useita muuntimia ja lisäominaisuuksia sovelluksen poistamisen jälkeen.</string>
     <string name="xiaomi_calculator_delete_title">Poistetaanko Laskin?</string>
     <string name="xiaomi_calculator_remove_icon_description">Laskin on järjestelmäsovellus. Et voi käyttää useita muuntimia ja lisäominaisuuksia poistettuasi aloitusnäytön pikavalinnan.</string>
     <string name="xiaomi_calculator_remove_icon_title">Poistetaanko Laskin aloitusnäytöltä?</string>
     <string name="xiaomi_connect_download_manager_fail">Ei voitu yhdistää Latauksiin. Tarkista, että tällä sovelluksella on kaikki tarvittavat käyttöoikeudet kohdasta Asetukset > Asennetut sovellukset.</string>
     <string name="xiaomi_external_storage_unavailable">Tallennustila ei ole käytettävissä. Tarkista SD-korttisi.</string>
-    <string name="xiaomi_kilobytes_unit">%1$s Kt</string>
-    <string name="xiaomi_megabytes_unit">%1$s Mt</string>
     <string name="xiaomi_update_dialog_message">"Esitellyssä versio %1$s
 Koko: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Esittelyssä versio %1$s
