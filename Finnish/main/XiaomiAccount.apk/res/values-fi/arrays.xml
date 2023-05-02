@@ -19,16 +19,6 @@
         <item>Vaihda Xiaomi-tilin salasana</item>
         <item>Vaihda salasana;Päivitä salasana;Mi-tili;Tili;Xiaomi-tili</item>
     </string-array>
-    <string-array name="settings_search_cloud_space_share">
-        <item>Perheen säilytystilaa</item>
-        <item>Näytä/ota käyttöön perheen tallennustila</item>
-        <item>Perheen tallennustila;Tallennustilan jakaminen</item>
-    </string-array>
-    <string-array name="settings_search_family_service">
-        <item>Perhepalvelut</item>
-        <item>Näytä/ota käyttöön perhepalvelut</item>
-        <item>Perhe;Perhepalvelut;Perhejakaminen</item>
-    </string-array>
     <string-array name="settings_search_help_center">
         <item>Tuki</item>
         <item>Hae Xiaomi-tilin apua ja tukea</item>

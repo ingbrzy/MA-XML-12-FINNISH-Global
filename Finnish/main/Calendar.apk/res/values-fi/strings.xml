@@ -48,10 +48,11 @@
     <string name="add_holiday_desc">Lisää lomat tähän</string>
     <string name="add_holiday_title">Lisää loma</string>
     <string name="additional_cal_dialog_title">Valitse kalenteri</string>
-    <string name="additional_cal_pref_title">Lisäkalenteri</string>
+    <string name="additional_cal_pref_title">Lisäkalenterit</string>
     <string name="additional_calendar_note">Joitakin lisäkalentereita ei ehkä ole saatavana tai ne voivat vaihdella epäyhtenäisten tekijöiden perusteella</string>
     <string name="afternoon">Iltapäivä</string>
     <string name="agenda_month_empty_hint">Ei tapahtumia tänään</string>
+    <string name="agenda_not_today_empty_hint">Ei tapahtumia täällä vielä. Luo sellainen napauttamalla.</string>
     <string name="agenda_tomorrow">HUOMENNA, %1$s</string>
     <string name="agenda_view">Tapahtumat</string>
     <string name="alarm_label">Hylkää</string>
@@ -182,6 +183,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Perinteinen kiinalainen kalenteri</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Aseta päivä ja aika</string>
     <string name="date_today">" (tänään)"</string>
     <string name="date_view">Päivämäärä</string>
@@ -194,6 +196,8 @@
     <string name="delete_this_event_title">Poistetaanko tämä tapahtuma?</string>
     <string name="description_calendar">Järjestelmäsovellukset/Kalenteri</string>
     <string name="description_calendar_edit_event">Järjestelmäsovellukset/Kalenteri/Asialista</string>
+    <string name="description_calendar_huangli" />
+    <string name="description_calendar_subscribe_group" />
     <string name="directory_searching_fmt">Etsitään %s…</string>
     <string name="discard_label">Peruuta</string>
     <string name="display_to_calendar">Näytä kalenterissa</string>
@@ -270,6 +274,7 @@
     <string name="event_info_when">Milloin</string>
     <string name="event_info_where">Missä</string>
     <string name="event_reminder_allday_day_zero">Sinä päivänä kello %2$s</string>
+    <string name="event_reminder_custom">Muokattu</string>
     <string name="event_reminder_value_zero">Ennen tapahtumaa</string>
     <string name="event_title">Otsikko</string>
     <string name="event_view">Näytä tapahtuma</string>
@@ -389,6 +394,7 @@
     <string name="holidays_title">Lomat</string>
     <string name="horoscope">Horoskooppi</string>
     <string name="horoscope_card_title">Päivän horoskooppi</string>
+    <string name="horoscope_partner" />
     <string name="horoscope_select_activity_label">Valitse horoskooppi</string>
     <string name="hour_1">%d tunti</string>
     <string name="image_processing">Kuva ei ole vielä valmis</string>
@@ -422,6 +428,8 @@
     <string name="long_holiday_week_off">Viikoittaiset vapaapäivät</string>
     <string name="long_month_date_format">d. MMMM yyyy</string>
     <string name="lunar_date">Kuupäivä</string>
+    <string name="lunar_day" />
+    <string name="lunar_to_solar" />
     <string name="manage_holidays">Hallitse lomia</string>
     <string name="manage_title">Hallitse</string>
     <string name="mark_end">Kuukautiset päättyneet</string>
@@ -579,7 +587,7 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="no_visiable_calendar_title">Lisää tili</string>
     <string name="none">Ei mitään</string>
     <string name="noon">Keskipäivä</string>
-    <string name="not_more_than_three_weekday">Voit valita enintään 3 päivää</string>
+    <string name="not_more_than_three_weekday">Voit valita enintään %d päivää</string>
     <string name="not_set">Ei asetettu</string>
     <string name="notes_hint">Napauta lisätäksesi tehtävän</string>
     <string name="notes_reminders_channel">Muistion muistutukset</string>
@@ -594,6 +602,10 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="notes_weekly">Viikoittain</string>
     <string name="notification_channel_description" />
     <string name="notification_channel_name">Kalenterimuistutukset</string>
+    <string name="notification_open_setting_button_exit">Ei kiitos</string>
+    <string name="notification_open_setting_button_ok">Salli</string>
+    <string name="notification_open_setting_message">Et voi vastaanottaa ilmoituksia tapahtumista, ellet anna Kalenterin lähettää sinulle ilmoituksia.</string>
+    <string name="notification_open_setting_title">Salli Kalenteri-ilmoitukset?</string>
     <string name="numbers">%d</string>
     <string name="pack_up">收起</string>
     <string name="panchang_amanta">Amanta</string>
@@ -621,6 +633,7 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="panchang_yog">Yog</string>
     <string name="partner_compatibility">Parin yhteensopivuus</string>
     <string name="path_calendar_settings">Järjestelmäsovellukset/Kalenteri/Asetukset</string>
+    <string name="permission_denial">Myönnä käyttöoikeudet, jotta voit käyttää tätä ominaisuutta</string>
     <string name="permission_description">Käyttöoikeustiedot</string>
     <string name="picker_day">Valittu päivä: %1$d. Valitse pyyhkäisemällä pystysuunnassa.</string>
     <string name="picker_month">Valittu kuukausi: %1$d. Valitse pyyhkäisemällä pystysuunnassa.</string>
@@ -634,7 +647,6 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="pref_title_no_remind">Ei muistutuksia</string>
     <string name="pref_title_notification_remind">Ilmoitusmuistutukset</string>
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
-    <string name="preferences_additional_cal_default">0</string>
     <string name="preferences_alarms_category_title">Hälytysmuistutukset</string>
     <string name="preferences_alarms_sound">Ääni</string>
     <string name="preferences_alarms_vibrateWhen">Värinä</string>
@@ -653,9 +665,9 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="preferences_title">Kalenteri</string>
     <string name="preferences_use_home_tz_descrip">Näyttää kalenterit ja tapahtuma-ajat kotiaikavyöhykkeesi mukaan matkustettaessa</string>
     <string name="preferences_use_home_tz_title">Käytä kotiaikavyöhykettä</string>
-    <string name="preferences_week_start_day_default">-1</string>
     <string name="preferences_week_start_day_dialog">Viikon alku</string>
     <string name="preferences_week_start_day_title">Viikon alku</string>
+    <string name="premission_description_notice">Ilmoitusten lähettämiseen tapahtumista ja lomista</string>
     <string name="privacy_and_permissions">Tietosuoja ja käyttöoikeudet</string>
     <string name="privacy_card_description">Hyväksy tietosuojakäytäntömme käyttääksesi kaikkia ominaisuuksia.</string>
     <string name="privacy_policy_dialog_agree">Hyväksy</string>
@@ -681,6 +693,8 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="remind_title_menstruation_start">Muistuta, kun kuukautiset alkavat</string>
     <string name="remind_title_record">Muistuta pitämään kirjaa</string>
     <string name="repeat_activity_label">Toista</string>
+    <string name="repeat_alarm_close_title">Tämä on toistuva tapahtuma. Poistetaanko hälytysmuistutus käytöstä?</string>
+    <string name="repeat_alarm_open_title">Tämä on toistuva tapahtuma. Asetetaanko hälytysmuistutus?</string>
     <string name="repeat_custom_activity_label">Mukautettu</string>
     <string name="repeat_custom_prompt_daily">joka %1$s</string>
     <string name="repeat_custom_prompt_sentence">Tapahtuma toistuu %1$s</string>
@@ -702,6 +716,7 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="repeat_label_frequency">Toistuvuus</string>
     <string name="repeat_label_interval">Joka</string>
     <string name="repeat_label_week">Viikko</string>
+    <string name="repeat_lunar_yearly" />
     <string name="repeat_month_day_splitter">" "</string>
     <string name="repeat_week_info">" %1$s %2$s"</string>
     <string name="repeats_label">Toista</string>
@@ -722,7 +737,9 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="saving_event">Tapahtuma tallennettu</string>
     <string name="saving_event_with_guest">Lähetetään päivityksiä…</string>
     <string name="search_calendar_edit_event">Tapaaminen;Muistutus;Asialista</string>
+    <string name="search_calendar_huangli" />
     <string name="search_calendar_settings">Kalenteri;Asialista;Muistutus</string>
+    <string name="search_calendar_subscribe_group" />
     <string name="search_events">Hae tapahtumia</string>
     <string name="search_history">Hakuhistoria</string>
     <string name="search_menu_title">Haku</string>
@@ -740,7 +757,7 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="setting_about_summary">Versio:</string>
     <string name="setting_accounts">Kalenteritilit</string>
     <string name="setting_change_language">Valitse Kalenterin kieli</string>
-    <string name="setting_desc_import_todo">Tuo ajoitetut tehtävät Muistiosta</string>
+    <string name="setting_desc_import_todo">Tuo aikaherkät tehtävät Muistiosta</string>
     <string name="setting_features_title">Ominaisuuksien asetukset</string>
     <string name="setting_holiday_display_desc">Juhlapyhäkortit sijaitsevat kotisivun asialistan alapuolella</string>
     <string name="setting_holiday_reminder">Juhlapyhän muistutus</string>
@@ -777,6 +794,10 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="size_tera_byte">Tt</string>
     <string name="skip">Ohita</string>
     <string name="small_week_date_format">EEE d.M.yyyy</string>
+    <string name="solar_lunar_convert_date" />
+    <string name="solar_lunar_convert_description" />
+    <string name="solar_lunar_convert_tab" />
+    <string name="solar_to_lunar" />
     <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
     <string name="spec_agenda_view">Erityiset tapahtumat</string>
     <string name="start_date_calculate">Laske</string>

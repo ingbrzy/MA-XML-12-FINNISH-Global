@@ -6,7 +6,7 @@
 Laitteen tunnuksen on oltava kelvollinen IMEI- tai MAC-osoite. Ilman laitteen tunnusta jotkin Xiaomi-tilin ja Xiaomi Cloud -ominaisuudet eivät ole käytettävissä."</string>
     <string name="error_device_id_title">Ei saatu voimassa olevan laitteen ID-tunnusta</string>
     <string name="explain_send_sms_permission_button">Varmista</string>
-    <string name="explain_send_sms_permission_msg">Jos haluat ottaa %s käyttöön, Xiaomi Service Framework lähettää tekstiviestin vahvistaaksesi puhelinnumerosi. Operaattorisi saattaa veloittaa normaalin tekstiviestin hinnan.</string>
+    <string name="explain_send_sms_permission_msg">Ota %s käyttöön Xiaomi-palvelukehys lähettää tekstiviestin vahvistaakseen puhelinnumerosi. Operaattori veloittaa sinua tavallisesta tekstiviestistä.</string>
     <string name="explain_send_sms_permission_title">Vahvista puhelinnumerosi</string>
     <string name="pop_up_allow_notify_dialog">Salli</string>
     <string name="pop_up_deny_notify_dialog">Kiellä</string>

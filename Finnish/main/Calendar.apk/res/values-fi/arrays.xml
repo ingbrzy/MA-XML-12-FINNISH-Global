@@ -2,9 +2,9 @@
 <resources>
     <string-array name="additional_cal_dialog_labels">
         <item>Ei mitään</item>
-        <item>Hijri Samvat</item>
-        <item>Shaka Samvat</item>
-        <item>Vikrami Samvat</item>
+        <item>Islamilainen kalenteri</item>
+        <item>Intian kansallinen kalenteri</item>
+        <item>Vikram-kalenteri</item>
     </string-array>
     <string-array name="aquarius_info">
         <item>aquarius</item>
@@ -29,6 +29,10 @@
     <string-array name="change_response_labels">
         <item>Vain tämä tapahtuma</item>
         <item>Kaikki tapahtumat sarjassa</item>
+    </string-array>
+    <string-array name="close_alarm_repeating_labels">
+        <item>Sammuta kerran</item>
+        <item>Aina pois päältä</item>
     </string-array>
     <string-array name="date_calculate_spinner">
         <item>Eteenpäin</item>
@@ -78,6 +82,10 @@
         <item>libra</item>
         <item>Vaaka</item>
         <item>23/9 - 23/10</item>
+    </string-array>
+    <string-array name="open_alarm_repeating_labels">
+        <item>Ota käyttöön kerran</item>
+        <item>Aina käytössä</item>
     </string-array>
     <string-array name="panchang_weeks">
         <item>Sunnuntai</item>

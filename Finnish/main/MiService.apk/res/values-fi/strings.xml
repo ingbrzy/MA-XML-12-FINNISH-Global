@@ -32,7 +32,6 @@
     <string name="am">ap.</string>
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
     <string name="close">Sulje</string>
-    <string name="common_google_play_services_unknown_issue">Sovelluksella %1$s on ongelmia Google Play Palveluiden kanssa. Yritä uudelleen.</string>
     <string name="copy">Kopioi</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -184,6 +183,7 @@
     <string name="miui_feedback_edit_toast_module_required">Valitse kohde</string>
     <string name="miui_feedback_edit_toast_more_desc_required">Kuvauksesi pitää olla pidempi</string>
     <string name="miui_feedback_edit_toast_problem_class_required">Valitse kategoria</string>
+    <string name="miui_feedback_edit_toast_screenshot_too_large">Kuvia tai videoita, joiden koko on suurempi kuin 100 Mt, ei voi ladata</string>
     <string name="miui_feedback_edit_toast_third_packagename_required">Syötä sovelluksen nimi</string>
     <string name="miui_feedback_main_answer_title">Tähän kysymykseen on vastaus</string>
     <string name="miui_feedback_main_customer_service_onfo_for_jp">"Palvelupuhelin: 0120-300-521

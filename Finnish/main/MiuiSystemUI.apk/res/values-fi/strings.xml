@@ -629,6 +629,10 @@ Riippuu laitteen sovelluksesta, mitä laitteita voi ohjata näin."</string>
     <string name="daltonizer_mode_protanomaly">Protanomalia (puna-vihersokeus)</string>
     <string name="daltonizer_mode_tritanomaly">Tritanomalia (sini-keltasokeus)</string>
     <string name="daltonizer_type_overridden">Tämän ohittaa %1$s</string>
+    <string name="dark_mode_power_save_alert_dialog_confirm">Selvä</string>
+    <string name="dark_mode_power_save_alert_dialog_message">"Jos poistat MIUI-optimoinnin käytöstä ja otat Virransäästön käyttöön, tumma tila otetaan käyttöön automaattisesti.
+Jos haluat poistaa tumman tilan käytöstä, poista Virransäästö käytöstä tai ota MIUI-optimointi käyttöön kohdassa Asetukset > Kehittäjäasetukset > Ota MIUI-optimointi käyttöön."</string>
+    <string name="dark_mode_power_save_alert_dialog_title">Tumma tila</string>
     <string name="data_connection_3_5g">H</string>
     <string name="data_connection_3_5g_plus">H+</string>
     <string name="data_connection_3g">3G</string>
@@ -1452,6 +1456,7 @@ Saat lisätietoja järjestelmänvalvojalta."</string>
     <string name="monitoring_description_personal_profile_named_vpn">Henkilökohtaiset sovelluksesi on yhdistetty internetiin tämän kautta: %1$s. Verkkotoimintasi, mukaan lukien sähköpostit ja selausdata, näkyy VPN-palveluntarjoajalle.</string>
     <string name="monitoring_description_two_named_vpns">Laite on yhdistetty internetiin näiden kautta: %1$s ja %2$s. Verkkotoimintasi, mukaan lukien sähköpostit ja selausdata, näkyy IT-järjestelmänvalvojalle.</string>
     <string name="monitoring_description_vpn_settings">Avaa VPN-asetukset</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s voi saada pääsyn tähän laitteeseen liittyvään dataan, ylläpitää sovelluksia ja muuttaa laitteen asetuksia.
 
 Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
@@ -1530,6 +1535,7 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -1559,6 +1565,7 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="music_controls_no_title">Ei nimeä</string>
     <string name="nav_bar">Navigointipalkki</string>
     <string name="nav_bar_layout">Asettelu</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="new_notification_image_content_description">%1$s lähetti kuvan</string>
     <string name="new_notification_text_content_description">%1$s lähetti viestin: %2$s</string>
     <string name="new_status_content_description">%1$s on päivittänyt tilansa: %2$s</string>
@@ -1764,6 +1771,7 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="private_dns_mode_provider">Yksityisen DNS-tarjoajan isäntänimi</string>
     <string name="private_dns_mode_provider_failure">Ei yhteyttä</string>
     <string name="private_dns_mode_provider_hostname_hint">Anna isäntänimi tai DNS-tarjoaja</string>
+    <string name="process_kernel_label">Android-käyttöjärjestelmä</string>
     <string name="profile_connect_timeout_subtext">Yhteysvirhe. Sammuta laite ja käynnistä se uudelleen.</string>
     <string name="profile_info_settings_title">Profiilin tiedot</string>
     <string name="qr_code_scanner_title">Skannaa QR-koodi</string>
@@ -1930,8 +1938,8 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="reboot_info_shutdown_alarm_global">Sammutushälytys: %s</string>
     <string name="recent_conversations">Uusimmat keskustelut</string>
     <string name="recent_used_camera">Tämä sovellus käytti kameraa</string>
-    <string name="recent_used_camera_and_microphone">Tämä sovellus tallensi ääntä ja käytti kameraa</string>
-    <string name="recent_used_microphone">Tämä sovellus tallensi ääntä</string>
+    <string name="recent_used_camera_and_microphone">Tämä sovellus käytti kameraa ja mikrofonia</string>
+    <string name="recent_used_microphone">Tämä sovellus käytti mikrofonia</string>
     <string name="remaining_length_format">%1$s jäljellä</string>
     <string name="remote_input_image_insertion_text">lähetti kuvan</string>
     <string name="remove_from_settings">Poista Asetuksista</string>
@@ -2103,6 +2111,8 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="status_bar_clock_date_time_format_12">h.mm a, E d. MMM</string>
     <string name="status_bar_clock_date_weekday_format">EEEE, d. MMMM</string>
     <string name="status_bar_clock_date_weekday_format_12">EEEE, d. MMMM</string>
+    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
+    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"E
 d. MMM"</string>
     <string name="status_bar_date_format_12">"E
@@ -2353,8 +2363,8 @@ Kaikki käyttäjät voivat päivittää sovelluksia muille käyttäjille."</stri
     <string name="user_setup_profile_dialog_message">Määritetäänkö profiilin asetukset nyt?</string>
     <string name="user_switch_to_user">Vaihda tähän käyttäjään: %s</string>
     <string name="using_camera">Tämä sovellus käyttää kameraa</string>
-    <string name="using_camera_and_microphone">Tämä sovellus tallentaa ääntä ja käyttää kameraa</string>
-    <string name="using_microphone">Tämä sovellus tallentaa ääntä</string>
+    <string name="using_camera_and_microphone">Tämä sovellus käyttää kameraa ja mikrofonia</string>
+    <string name="using_microphone">Tämä sovellus käyttää mikrofonia</string>
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
     <string name="v7_preference_on">KÄYTÖSSÄ</string>
     <string name="verify_apps_over_usb_summary">Tarkista ADB:n/ADT:n kautta asennetut sovellukset haitallisen toiminnan varalta</string>

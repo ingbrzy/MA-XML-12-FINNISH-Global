@@ -152,8 +152,6 @@ Yritä uudelleen"</string>
     <string name="cloud_backup_detail_state_summary_china">Laitteen on oltava yhdistetty WLAN-verkkoon, ladattuna ja lukittuna</string>
     <string name="cloud_backup_detail_time">Viimeisin varmuuskopio: %1$s</string>
     <string name="cloud_backup_detail_title">Varmuuskopioitavat kohteet</string>
-    <string name="cloud_backup_get_installed_apps_summary">Aloitusnäytön sovellusten varmuuskopiointiin ja palauttamiseen</string>
-    <string name="cloud_backup_get_installed_apps_title">Pääsy tähän laitteeseen asennettujen sovellusten luetteloon</string>
     <string name="cloud_backup_have_data">Varmuuskopio löytyi kohteesta Xiaomi Cloud</string>
     <string name="cloud_backup_in_cancel">Peruuta</string>
     <string name="cloud_backup_in_process">Varmuuskopioidaan</string>
@@ -172,11 +170,8 @@ Yritä uudelleen"</string>
     <string name="confirm_restore_summary">Aloitusnäyttösi käynnistetään uudelleen. Varmuuskopioidut sovellukset ladataan automaattisesti.</string>
     <string name="confirm_restore_title">Palauta</string>
     <string name="copy">Kopioi</string>
-    <string name="cta_dialog_all_purpose">Tervetuloa Pilvivarmuuskopiointiin! Tämän sovelluksen avulla voit varmuuskopioida aloitusnäytön asettelun, sovellukset, järjestelmäasetukset ja WeChat-tiedot pilveen. Varmista, että käytät uusinta versiota, jotta voit hyödyntää kaikkia ominaisuuksiamme.</string>
-    <string name="cta_dialog_permission_description_get_installed_apps">Sovelluksien varmuuskopiointiin ja palauttamiseen</string>
-    <string name="cta_dialog_permission_description_storage">Kohteiden varmuuskopiointiin ja palauttamiseen</string>
     <string name="customization"><u>Muokkaa</u></string>
-    <string name="date_format">HH.mm.ss d.M.yyyy</string>
+    <string name="date_format">HH:mm:ss d.M.yyyy</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -402,6 +397,8 @@ Yritä uudelleen"</string>
     <string name="open_backup_switch">Vaihda varmuuskopiokytkin</string>
     <string name="other_device_main_space">Ensimmäinen tila</string>
     <string name="other_device_second_space">Toinen näkymä</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Kohteita ei voi palauttaa työpöytätilassa. Sammuta työpöytätila ja yritä uudelleen.</string>
     <string name="permission_to_use">Käyttöoikeustiedot</string>
     <string name="pm">ip.</string>

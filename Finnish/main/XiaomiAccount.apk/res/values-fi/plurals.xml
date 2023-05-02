@@ -40,10 +40,6 @@
         <item quantity="other">Löytyi %d tulosta</item>
         <item quantity="one">Löytyi %d tulos</item>
     </plurals>
-    <plurals name="family_service_member_count">
-        <item quantity="other">%d henkilöä</item>
-        <item quantity="one">%d henkilö</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Puoli tuntia sitten</item>
         <item quantity="one">Puoli tuntia sitten</item>

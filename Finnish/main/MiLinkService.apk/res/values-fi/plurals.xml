@@ -36,14 +36,6 @@
         <item quantity="other">%d minuuttia sitten</item>
         <item quantity="one">1 minuutti sitten</item>
     </plurals>
-    <plurals name="circulate_audio_group_subtitle_format">
-        <item quantity="other">%1$d laitetta</item>
-        <item quantity="one">%1$d laite</item>
-    </plurals>
-    <plurals name="circulate_audio_group_title_format">
-        <item quantity="other">%1$d laitetta</item>
-        <item quantity="one">%1$d laite</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Puoli tuntia sitten</item>
         <item quantity="one">Puoli tuntia sitten</item>

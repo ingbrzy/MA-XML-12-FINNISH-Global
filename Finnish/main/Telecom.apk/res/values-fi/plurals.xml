@@ -64,10 +64,6 @@
         <item quantity="other">%d kohdetta valittu</item>
         <item quantity="one">%d kohde valittu</item>
     </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d uutta ilmoitusta</item>
-        <item quantity="one">%d uusi ilmoitus</item>
-    </plurals>
     <plurals name="notification_missedCallTitle_miui">
         <item quantity="other">Vastaamattomat puhelut</item>
         <item quantity="one">Vastaamaton puhelu</item>
@@ -75,9 +71,5 @@
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minuuttia sitten</item>
         <item quantity="one">1 minuutti sitten</item>
-    </plurals>
-    <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d laitetta yhdistettynä</item>
-        <item quantity="one">%1$d laite yhdistettynä</item>
     </plurals>
 </resources>

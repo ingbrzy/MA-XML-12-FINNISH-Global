@@ -42,7 +42,7 @@
     <string name="app_name">Laskin</string>
     <string name="app_notification_info">Laskin toimii taustalla</string>
     <string name="base_rate">Peruskorkotaso</string>
-    <string name="bmi_error_text">Tämä BMI ei näytä oikealta. Varmista, että antamasi pituus ja paino ovat oikeat.</string>
+    <string name="bmi_error_text">Anna kelvolliset parametrit</string>
     <string name="bmi_label_information">Tiedot</string>
     <string name="bmi_label_normal">Normaali</string>
     <string name="bmi_label_overweight">Ylipainoinen</string>
@@ -220,6 +220,7 @@
     <string name="global_search_key_word_figure">Taloudelliset merkit</string>
     <string name="golbal_search_calculator_setting">Laskin;Laskimen asetukset;Asetukset</string>
     <string name="golbal_search_path_calculator_setting">Järjestelmäsovellukset/Laskin/Asetukset</string>
+    <string name="gst_initial_value">%d</string>
     <string name="gst_percentage">%s</string>
     <string name="height_prompt">Pituus</string>
     <string name="help_content_desc">Tuki</string>
@@ -235,6 +236,7 @@
     <string name="install_scanner_to_continued_use">Skanneri on poistetettu. Asennetaanko uudelleen?</string>
     <string name="interest_rate_hint">Syötä korkotaso</string>
     <string name="investment_invalid_duration">Sijoituksen keston on oltava yli nolla</string>
+    <string name="investment_loan_result">Tiedot</string>
     <string name="investment_type_once">Kertaluontoinen</string>
     <string name="investment_type_recurring">Toistuva</string>
     <string name="item_page_title_investment">Sijoituslaskin</string>
@@ -593,7 +595,6 @@ Yhden ja viiden vuoden LPR:t noteerataan kunkin kuukauden 20. päivänä (viivä
     <string name="tax_result_real_get">Verojen jälkeen</string>
     <string name="tax_social_insurance">Sosiaalivakuutus</string>
     <string name="tax_thershold_foreign">%s (Ulkomaalaiset)</string>
-    <string name="tax_thershold_native">%s (Manner-Kiina)</string>
     <string name="tax_thershold_native_new">%s (uusi)</string>
     <string name="tax_thershold_native_new_description">Verot lasketaan 1. lokakuuta 2018 alkavan uuden verolain mukaisesti</string>
     <string name="tax_threshold">Verottomat kynnysarvot</string>
@@ -696,6 +697,7 @@ Yhden ja viiden vuoden LPR:t noteerataan kunkin kuukauden 20. päivänä (viivä
     <string name="unit_data_display_currency_btn">Bhutanin ngultrum</string>
     <string name="unit_data_display_currency_bwp">Botswanan pula</string>
     <string name="unit_data_display_currency_byn">Valko-Venäjän rupla</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Kanadan dollari</string>
     <string name="unit_data_display_currency_cdf">Kongon frangi</string>
     <string name="unit_data_display_currency_chf">Sveitsin frangi</string>
@@ -801,7 +803,7 @@ Yhden ja viiden vuoden LPR:t noteerataan kunkin kuukauden 20. päivänä (viivä
     <string name="unit_data_display_length_fen">Fen</string>
     <string name="unit_data_display_length_fm">Syli</string>
     <string name="unit_data_display_length_ft">Jalka</string>
-    <string name="unit_data_display_length_fur">Femara</string>
+    <string name="unit_data_display_length_fur">Furlong</string>
     <string name="unit_data_display_length_gongli">Gongli</string>
     <string name="unit_data_display_length_hao">Hao</string>
     <string name="unit_data_display_length_in">Tuuma</string>
@@ -1038,12 +1040,15 @@ Yhden ja viiden vuoden LPR:t noteerataan kunkin kuukauden 20. päivänä (viivä
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$s t</string>
     <string name="xiaomi_calculator_delete_description">Laskin on järjestelmäsovellus. Et voi käyttää useita muuntimia ja lisäominaisuuksia sovelluksen poistamisen jälkeen.</string>
     <string name="xiaomi_calculator_delete_title">Poistetaanko Laskin?</string>
     <string name="xiaomi_calculator_remove_icon_description">Laskin on järjestelmäsovellus. Et voi käyttää useita muuntimia ja lisäominaisuuksia poistettuasi aloitusnäytön pikavalinnan.</string>
     <string name="xiaomi_calculator_remove_icon_title">Poistetaanko Laskin aloitusnäytöltä?</string>
     <string name="xiaomi_connect_download_manager_fail">Ei voitu yhdistää Latauksiin. Tarkista, että tällä sovelluksella on kaikki tarvittavat käyttöoikeudet kohdasta Asetukset > Asennetut sovellukset.</string>
     <string name="xiaomi_external_storage_unavailable">Tallennustila ei ole käytettävissä. Tarkista SD-korttisi.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s Kt</string>
+    <string name="xiaomi_megabytes_unit">%1$s Mt</string>
     <string name="xiaomi_update_dialog_message">"Esitellyssä versio %1$s
 Koko: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Esittelyssä versio %1$s
