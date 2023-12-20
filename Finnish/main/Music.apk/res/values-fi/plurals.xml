@@ -49,16 +49,16 @@ yhteensä %2$d kappale"</item>
         <item quantity="one">1 tunti sitten</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 tunti sitten</item>
-        <item quantity="one">1 tunti sitten</item>
+        <item quantity="other">%d tunti sitten</item>
+        <item quantity="one">%d tunti sitten</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Puoli tuntia sitten</item>
         <item quantity="one">Puoli tuntia sitten</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">1 tunnin kuluttua</item>
-        <item quantity="one">1 tunnin kuluttua</item>
+        <item quantity="other">%d tunnin päästä</item>
+        <item quantity="one">%d tunnin päästä</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Puolen tunnin kuluttua</item>
@@ -69,16 +69,16 @@ yhteensä %2$d kappale"</item>
         <item quantity="one">Heti</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">%d minuutin kuluttua</item>
-        <item quantity="one">1 min kuluttua</item>
+        <item quantity="other">%d min päästä</item>
+        <item quantity="one">%d min päästä</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Juuri nyt</item>
         <item quantity="one">Juuri nyt</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d minuuttia sitten</item>
-        <item quantity="one">1 minuutti sitten</item>
+        <item quantity="other">%d min sitten</item>
+        <item quantity="one">%d min sitten</item>
     </plurals>
     <plurals name="comment_count">
         <item quantity="other">%d kommenttia</item>
@@ -142,6 +142,10 @@ Huomautus: Tiedosto poistetaan myös tältä laitteelta."</item>
         <item quantity="other">Puoli tuntia sitten</item>
         <item quantity="one">Puoli tuntia sitten</item>
     </plurals>
+    <plurals name="hide_reason_duration">
+        <item quantity="other">Alle %1$d s</item>
+        <item quantity="one">Alle %1$d s</item>
+    </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">1 tunnin kuluttua</item>
         <item quantity="one">1 tunnin kuluttua</item>
@@ -170,6 +174,10 @@ Huomautus: Tiedosto poistetaan myös tältä laitteelta."</item>
         <item quantity="other">Seurataan %d henkilöä</item>
         <item quantity="one">Seurataan %d henkilöä</item>
     </plurals>
+    <plurals name="media_store_new_songs_add">
+        <item quantity="other">%d uutta kappaletta</item>
+        <item quantity="one">%d uusi kappale</item>
+    </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d kohdetta valittu</item>
         <item quantity="one">%d kohde valittu</item>
@@ -197,6 +205,10 @@ Huomautus: Tiedosto poistetaan myös tältä laitteelta."</item>
     <plurals name="reader_count">
         <item quantity="other">%d seuraajaa</item>
         <item quantity="one">%d seuraaja</item>
+    </plurals>
+    <plurals name="reward_seconds_remaining">
+        <item quantity="other">VIP-jäsenyys %d sekunnissa</item>
+        <item quantity="one">VIP-jäsenyys %d sekunnissa</item>
     </plurals>
     <plurals name="send_songs_toast">
         <item quantity="other">%d kappaletta lähetetään</item>
@@ -233,5 +245,17 @@ Huomautus: Tiedosto poistetaan myös tältä laitteelta."</item>
     <plurals name="vip_remain_days_hint">
         <item quantity="other">%d päivää jäljellä</item>
         <item quantity="one">%d päivä jäljellä</item>
+    </plurals>
+    <plurals name="web_reward_dialog_title">
+        <item quantity="other">Jos katsot %d sekuntia, saat palkinnoksi VIP-jäsenyyden. Poistu silti?</item>
+        <item quantity="one">Jos katsot %d sekunnin, saat palkinnoksi VIP-jäsenyyden. Poistu silti?</item>
+    </plurals>
+    <plurals name="whitelist_multi_added">
+        <item quantity="other">Lisätty %d tiedostoa</item>
+        <item quantity="one">Lisätty %d tiedosto</item>
+    </plurals>
+    <plurals name="whitelist_multi_added_before">
+        <item quantity="other">%d tiedostoa oli lisätty aiemmin</item>
+        <item quantity="one">%d tiedosto oli lisätty aiemmin</item>
     </plurals>
 </resources>

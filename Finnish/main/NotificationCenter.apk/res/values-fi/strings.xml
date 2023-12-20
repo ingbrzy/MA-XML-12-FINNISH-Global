@@ -31,7 +31,6 @@
     <string name="afternoon">Iltapäivä</string>
     <string name="am">ap.</string>
     <string name="app_name">Ilmoitukset</string>
-    <string name="back">Takaisin</string>
     <string name="channel_keyguard_hide_content">Näytä kaikki ilmoitukset, mutta piilota sisältö</string>
     <string name="channel_keyguard_show_content">Näytä kaikki ilmoitukset ja niiden sisältö</string>
     <string name="channel_keyguard_show_nothing">Älä näytä ilmoitusta lainkaan</string>
@@ -61,6 +60,9 @@
     <string name="feedback">Palaute</string>
     <string name="float_notification_snooze_strategy">Piilota tilapäisesti</string>
     <string name="float_notification_snooze_summary">Piilota tulevat ilmoitukset tilapäisesti pyyhkäisemällä kelluvaa ilmoitusta</string>
+    <string name="float_notification_snooze_summary_1_min">Pyyhkäise ylös kelluvassa ilmoituksessa piilottaaksesi tulevat ilmoitukset %d min ajan</string>
+    <string name="float_notification_snooze_summary_always_float">Näytä aina kelluvat ilmoitukset</string>
+    <string name="float_notification_snooze_summary_until_unlock">Pyyhkäise ylös kelluvassa ilmoituksessa piilottaaksesi tulevat ilmoitukset, kunnes laite lukitaan</string>
     <string name="float_notifications">Kelluvat ilmoitukset</string>
     <string name="float_notifications_short">Kelluva</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -135,18 +137,17 @@
     <string name="lockscreen_notifications_short">Lukitusnäyttö</string>
     <string name="midnight">Yö</string>
     <string name="miui_snooze_always_float">Älä piilota</string>
-    <string name="miui_snooze_cancel">Peruuta</string>
     <string name="miui_snooze_default_time">%d minuutin ajan</string>
     <string name="miui_snooze_until_unlock_screen">Kunnes lukittu</string>
     <string name="miuix_access_state_desc">Valittu</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Lisää</string>
     <string name="miuix_appcompat_cancel_description">Peruuta</string>
     <string name="miuix_appcompat_confirm_description">Vahvista</string>
     <string name="miuix_appcompat_delete_description">Poista</string>
-    <string name="miuix_appcompat_deselect_all">Poista valinta</string>
+    <string name="miuix_appcompat_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_deselect_all_description">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Peruuta</string>
     <string name="miuix_appcompat_search_input_description">Etsi</string>
@@ -209,7 +210,7 @@
     <string name="notch_and_status_bar_setting">Ohjauskeskus &amp; tilapalkki</string>
     <string name="notification_display_setting">Ilmoitusalue</string>
     <string name="notification_display_style">Ilmoitustyyli</string>
-    <string name="notification_fold_description1">Ilmoitukset-kansio esiteltiin MIUI 9:ssä. Tämä ominaisuus suodattaa tarpeettomat ilmoitukset ja asettaa ne erilliseen kansioon.</string>
+    <string name="notification_fold_description1">Ilmoitukset-kansion avulla voit suodattaa tarpeettomat ilmoitukset ja sijoittaa ne erilliseen kansioon.</string>
     <string name="notification_fold_description2">MIUI muistaa, mitä ilmoituksia napautat ja käyttää sitten erilaisia kriteereitä määrittääkseen onko ilmoitus tärkeä.</string>
     <string name="notification_fold_description3">Jos tärkeinä pitämäsi ilmoitukset menevät edelleen Ilmoitukset-kansioon, muista ilmoittaa asiasta meille. Arvostamme palautettasi.</string>
     <string name="notification_fold_footer_icon_summary">Näytä sovelluskuvakkeet, kun merkityksettömät ilmoitukset on koottu yhteen</string>
@@ -219,9 +220,8 @@
     <string name="notification_keyguard_hide_content">Näytä ilmoitukset, mutta piilota sisältö</string>
     <string name="notification_keyguard_show_content">Näytä ilmoitus ja sisältö</string>
     <string name="notification_keyguard_show_nothing">Älä näytä lukitusnäytön ilmoituksia</string>
-    <string name="notification_manager">Sovellusilmoitukset</string>
     <string name="notification_style_android">Android</string>
-    <string name="notification_style_miui">MIUI</string>
+    <string name="notification_style_miui">Klassinen</string>
     <string name="off">Pois</string>
     <string name="on">Päällä</string>
     <string name="pm">ip.</string>
@@ -235,6 +235,7 @@
     <string name="settings_guide_title">Tarvitsetko muita asetuksia?</string>
     <string name="show_badge_notifications">Ilmoitusmerkit</string>
     <string name="show_badge_notifications_short">Merkit</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Tilapalkki</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">Kelluvia ilmoituksia ei ole sallittu</string>

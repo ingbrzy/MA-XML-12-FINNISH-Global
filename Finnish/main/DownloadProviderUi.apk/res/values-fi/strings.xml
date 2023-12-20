@@ -74,6 +74,7 @@
     <string name="continue_download">Jatka</string>
     <string name="copy">Kopioi</string>
     <string name="copy_info">Kopioitu leikepöydälle. Voit jakaa sen ystäviesi kanssa!</string>
+    <string name="copy_toast_msg">Linkki kopioitu leikepöydälle</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -131,8 +132,20 @@
     <string name="eras_ad">jKr.</string>
     <string name="eras_bc">eKr.</string>
     <string name="evening">Iltapäivä</string>
+    <string name="exo_download_completed">Lataus valmis</string>
+    <string name="exo_download_description">Lataa</string>
+    <string name="exo_download_downloading">Ladataan</string>
+    <string name="exo_download_failed">Lataus epäonnistui</string>
+    <string name="exo_download_notification_channel_name">Lataukset</string>
+    <string name="exo_download_paused">Lataukset keskeytetty</string>
+    <string name="exo_download_paused_for_network">Lataukse odottavat verkkoyhteyttä</string>
+    <string name="exo_download_paused_for_wifi">Lataukset odottavat Wi-Fi-yhteyttä</string>
+    <string name="exo_download_removing">Poistetaan latauksia</string>
     <string name="expand_button_title">Lisäasetukset</string>
     <string name="extend">Lisää</string>
+    <string name="fallback_menu_item_copy_link">Kopioi linkki</string>
+    <string name="fallback_menu_item_open_in_browser">Avaa selaimessa</string>
+    <string name="fallback_menu_item_share_link">Jaa linkki</string>
     <string name="file_size">Koko:</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -190,6 +203,9 @@
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
     <string name="gigabyteShort_per_seconds">Gb/s</string>
+    <string name="icon_create_failure">Pikakuvaketta ei voitu lisätä</string>
+    <string name="icon_create_success">Pikakuvake lisätty onnistuneesti</string>
+    <string name="icon_restore">Napauta lisätäksesi aloitusnäytön pikakuvakkeen Latauksille</string>
     <string name="info_download_progress">Näytä latauksen edistyminen</string>
     <string name="info_flow_show">Näytä suositeltu sisältö</string>
     <string name="insufficient_space">Ei tarpeeksi tilaa</string>
@@ -212,14 +228,14 @@
     <string name="midnight">Yö</string>
     <string name="missing_title">&lt;Tuntematon></string>
     <string name="miuix_access_state_desc">Valittu</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Lisää</string>
     <string name="miuix_appcompat_cancel_description">Peruuta</string>
     <string name="miuix_appcompat_confirm_description">Vahvista</string>
     <string name="miuix_appcompat_delete_description">Poista</string>
-    <string name="miuix_appcompat_deselect_all">Poista valinta</string>
+    <string name="miuix_appcompat_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_deselect_all_description">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Peruuta</string>
     <string name="miuix_appcompat_search_input_description">Etsi</string>
@@ -306,6 +322,7 @@
     <string name="preferences_title">Asetukset</string>
     <string name="privacy_agree_dialog_msg">&lt;Data>Tervetuloa Latauksiin! Voit käyttää tätä sovellusta tiedostojen lataamiseen.&lt;BR>Latausten on kerättävä tarvittavat henkilökohtaiset tiedot voidakseen tarjota sinulle palveluja, jotka tuottavat lataustilastoja. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=\"%1$s\">Tietosuojakäytännöstä&lt;/a>.&lt;BR>Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%1$s\">Tietosuojakäytäntö&lt;/a> ennen kuin käytät Latauksia.&lt;BR>Voit peruuttaa suostumuksesi Lataukset-tietosuojakäytäntöön kohdassa Asetukset milloin tahansa. Jos et hyväksy tietosuojakäytäntöämme, et voi käyttää joitain tämän sovelluksen ominaisuuksia. Sen perustoiminnot ovat kuitenkin edelleen käytettävissäsi.&lt;/Data></string>
     <string name="privacy_agree_dialog_title">Käyttöehdot</string>
+    <string name="privacy_policy">Tietosuojakäytäntö</string>
     <string name="privacy_revoke_dialog_later">Peruuta</string>
     <string name="privacy_revoke_dialog_msg">Vaihtamalla kytkimen pois peruutat suostumuksesi Lataukset-tietosuojakäytäntöön. Lopetamme henkilötietojesi keräämisen. Valmiiksi kerätyt ja säilytetyt henkilötiedot poistetaan tietyn ajan kuluessa sovellettavan lain vaatimalla tavalla. Latausten on kerättävä tarvittavat henkilökohtaiset tiedot voidakseen tarjota sinulle palveluja, jotka tuottavat lataustilastoja. Suostumuksesi peruuttaminen sen tietosuojakäytäntöön katsotaan sinun kieltäytymiseksi hyväksyä tällaisia palveluita kerättyjen henkilökohtaisten tietojen perusteella.</string>
     <string name="privacy_revoke_dialog_ok">Peruuta suostumus</string>

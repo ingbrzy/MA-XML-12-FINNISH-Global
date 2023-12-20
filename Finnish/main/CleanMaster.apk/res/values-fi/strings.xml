@@ -52,6 +52,7 @@
     <string name="activity_title_uninstall_apps">Sovellukset</string>
     <string name="activity_title_video">Poista videot</string>
     <string name="activity_title_white_list">Poikkeukset</string>
+    <string name="ad_flag_text">MAINOS</string>
     <string name="ad_install_success_dialog_lunch">Avaa</string>
     <string name="ad_install_success_dialog_title">Asennettu %1$s onnistuneesti. Avataanko nyt?</string>
     <string name="afternoon">Iltapäivä</string>
@@ -239,6 +240,7 @@
     <string name="dc_item_title_wechat_chat">Tyhjennä WeChat-historia</string>
     <string name="dc_storage_cleaned">Vapautettu %s</string>
     <string name="dc_storage_info">Saatavilla %1$s | Yhteensä %2$s</string>
+    <string name="dc_storage_info_new">%1$s käytettävissä</string>
     <string name="deep_clean_completed_tips">Puhdistettu onnistuneesti</string>
     <string name="deep_clean_data_path_clean_title">Tyhjennä välimuisti</string>
     <string name="deep_clean_uninstall_completed_tips">Poistettu onnistuneesti</string>
@@ -302,6 +304,7 @@
     <string name="download">Lataa</string>
     <string name="downloading">Ladataan</string>
     <string name="early_morning">Aamu</string>
+    <string name="empty">" "</string>
     <string name="empty_content_no_ignore_image">Tyhjä</string>
     <string name="empty_content_no_privacy">Tyhjä</string>
     <string name="empty_content_no_similar_image">Ei kuvia</string>
@@ -462,7 +465,6 @@
     <string name="guide_dc_dialog_negative">Peruuta</string>
     <string name="guide_dc_dialog_positive">OK</string>
     <string name="guide_dc_dialog_title">Tallennustila on vähissä</string>
-    <string name="guide_secure_dialog_message">Laitteesi optimointipisteytys on alle 80. Optimoi nyt?</string>
     <string name="guide_secure_dialog_message_new">Laitteesi optimointipisteytys on alle %d. Optimoi nyt?</string>
     <string name="guide_secure_dialog_negative">Peruuta</string>
     <string name="guide_secure_dialog_positive">Optimoi</string>
@@ -490,6 +492,7 @@
     <string name="hints_garbage_cleanup_result_safe">Kaikki näyttää hyvältä</string>
     <string name="hints_garbage_handle_item_content">%1$d kohdetta, %2$s</string>
     <string name="hints_garbage_handle_item_empty_content">Tyhjä</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_installed_app_fewer">Harvoin käytetty</string>
     <string name="hints_installed_app_near">Käytetty äskettäin</string>
     <string name="hints_installed_app_never">Ei käytetty koskaan</string>
@@ -539,6 +542,7 @@
     <string name="last_check_canceled">Edellinen skannaus peruutettiin</string>
     <string name="load_only_under_wlan">Lataa käyttämällä vain Wi-Fi-verkkoa</string>
     <string name="location_not_found">Tiedostoa ei löytynyt</string>
+    <string name="lock_device_toast">Tämä laite on lukittu. Avaa lukitus käyttääksesi Puhdistajaa.</string>
     <string name="login_immediately">Kirjaudu</string>
     <string name="long_click_dialog_summary">Paina pitkään lisätäksesi poikkeuksiin.</string>
     <string name="long_click_dialog_title">Ilmoitus</string>
@@ -566,14 +570,14 @@
     <string name="menu_view">Näytä kansiossa</string>
     <string name="midnight">Yö</string>
     <string name="miuix_access_state_desc">Valittu</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Lisää</string>
     <string name="miuix_appcompat_cancel_description">Peruuta</string>
     <string name="miuix_appcompat_confirm_description">Vahvista</string>
     <string name="miuix_appcompat_delete_description">Poista</string>
-    <string name="miuix_appcompat_deselect_all">Poista valinta</string>
+    <string name="miuix_appcompat_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_deselect_all_description">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Peruuta</string>
     <string name="miuix_appcompat_search_input_description">Etsi</string>
@@ -638,6 +642,9 @@
     <string name="msg_update_error_code_success">Valmis</string>
     <string name="msg_update_error_code_unknown_error">Palvelimet ovat varattuja. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="name_debuglog_dir">BSP-vianetsintäloki</string>
+    <string name="native_body">Tekstiosa</string>
+    <string name="native_headline">Otsikko</string>
+    <string name="native_media_view">Medianäkymä</string>
     <string name="nb_clear_set">Tyhjennä välimuisti, näe akun ja estolistan tiedot ilmoitusalueella</string>
     <string name="network_not_available">Ei voi yhdistää verkkoon</string>
     <string name="news_change">Muuta</string>
@@ -744,12 +751,7 @@
     <string name="pref_title_open_optimizer_cloud_scan">Lähetä tiedostonimet</string>
     <string name="pref_title_open_optimizer_memory_scan">Skannaa sovelluksen muisti</string>
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
-    <string name="privacy_app_desc">Tili ja salasana</string>
-    <string name="privacy_app_desc_message">Tili, salasanat ja viestit</string>
-    <string name="privacy_app_desc_search">Tili, salasanat ja hakuhistoria</string>
-    <string name="privacy_app_desc_setting">Tili, salasanat ja asetukset</string>
     <string name="privacy_browser_desc">Etsityt kohteet</string>
-    <string name="privacy_cache_desc">Tili, salasana, historia, asetukset ja muuta</string>
     <string name="privacy_cache_empty">Ei yksityisiä tietoja</string>
     <string name="privacy_cache_scaning">Tarkistetaan…</string>
     <string name="privacy_cache_title">Henkilökohtaiset tiedot</string>
@@ -807,6 +809,7 @@
     <string name="size_peta_byte">Pt</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">Tt</string>
+    <string name="skip_ad">Ohita</string>
     <string name="sponsored">Sponsoroitu</string>
     <string name="start_downloading_app">Aloitetaan latausta: %1$s</string>
     <string name="start_install">Asenna nyt</string>
@@ -868,9 +871,7 @@
     <string name="time_picker_label_hour">T</string>
     <string name="time_picker_label_minute">M</string>
     <string name="tips_low_storage_dialog_cancel">Peruuta</string>
-    <string name="tips_low_storage_dialog_msg_qq">QQ-sovelluksen välimuisti on 3 Gt kokoinen. Tämä saattaa hidastaa laitteesi toimintaa. Puhdistetaanko QQ-sovelluksen välimuisti nyt?</string>
     <string name="tips_low_storage_dialog_msg_qq_new">QQ-välimuisti on %d Gt kokoinen. Tämä saattaa hidastaa laitteesi toimintaa. Puhdistetaanko QQ-välimuisti nyt?</string>
-    <string name="tips_low_storage_dialog_msg_storage">Käytät 90% tallennustilastasi. Poista sovelluksia, joita et käytä.</string>
     <string name="tips_low_storage_dialog_msg_storage_new">Käytät %s tallennustilastasi. Poista sovelluksia, joita et käytä.</string>
     <string name="tips_low_storage_dialog_msg_wechat_new">WeChat-välimuisti on %d Gt kokoinen. Tämä saattaa hidastaa laitteesi toimintaa. Puhdistetaanko WeChat-välimuisti nyt?</string>
     <string name="tips_low_storage_dialog_ok">Tyhjennä</string>
@@ -938,6 +939,7 @@
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
     <string name="v7_preference_on">KÄYTÖSSÄ</string>
     <string name="virus_scan">Virusskannaus</string>
+    <string name="watermark_label_prefix">AdMob -</string>
     <string name="wechat_chat_data_type_cache">WeChat-välimuisti</string>
     <string name="wechat_chat_data_type_cache_desc">Voit palauttaa nämä tiedostot, kun yhdistät ensin internettiin.</string>
     <string name="wechat_chat_data_type_chat">Keskusteluhistoria</string>

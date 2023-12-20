@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="accept">Hyväksy</string>
+    <string name="apm_enabled_first_time_message">Laitteen Wi-Fi-yhteys pysyy päällä lentokonetilassa. Voit halutessasi laittaa Wi-Fi-yhteyden pois päältä.</string>
+    <string name="apm_enabled_first_time_title">Wi‑Fi pysyy päällä</string>
     <string name="decline">Hylkää</string>
     <string name="dlg_ok">OK</string>
+    <string name="notification_channel_apm_alerts">APM-ilmoitukset</string>
     <string name="notification_channel_network_alerts">Verkkoilmoitukset</string>
     <string name="notification_channel_network_available">Verkko käytettävissä</string>
     <string name="notification_channel_network_status">Verkon tila</string>
@@ -21,6 +24,10 @@
 %1$s
 
 "</string>
+    <string name="wifi_ca_cert_dialog_message_expiration_text">"Varmenne vanhenee:
+%1$s
+
+"</string>
     <string name="wifi_ca_cert_dialog_message_hint">"Salli yhteys tähän verkkoon vain, jos alla olevat tiedot näyttävät olevan oikein.
 
 "</string>
@@ -36,12 +43,12 @@
 %1$s
 
 "</string>
-    <string name="wifi_ca_cert_dialog_message_signature_name_text">"Allekirjoitus:
+    <string name="wifi_ca_cert_dialog_message_signature_name_text">"SHA-256-tunnistetiedosto:
 %1$s
 
 "</string>
-    <string name="wifi_ca_cert_dialog_preT_abort_text">Älä yhdistä</string>
-    <string name="wifi_ca_cert_dialog_preT_continue_text">Yhdistä silti</string>
+    <string name="wifi_ca_cert_dialog_preT_abort_text">Katkaise yhteys nyt</string>
+    <string name="wifi_ca_cert_dialog_preT_continue_text">Pysy yhteydessä</string>
     <string name="wifi_ca_cert_dialog_preT_message_hint">Verkolta (%1$s) puuttuu varmenne.</string>
     <string name="wifi_ca_cert_dialog_preT_message_link">Katso, miten voit lisätä varmenteita</string>
     <string name="wifi_ca_cert_dialog_preT_title">Verkkoa ei voi todentaa</string>
@@ -82,14 +89,29 @@ Tämä muutos voi sallia lähellä olevien laitteiden seurata laitteesi sijainti
     <string name="wifi_enable_request_dialog_negative_button">Älä salli</string>
     <string name="wifi_enable_request_dialog_positive_button">Salli</string>
     <string name="wifi_enable_request_dialog_title">Sallitaanko %1$s-sovelluksen laittaa Wi-Fi-yhteys päälle?</string>
+    <string name="wifi_enabled_apm_first_time_message">Jos pidät Wi-Fi-yhteyden päällä, laite pitää sen päällä, kun seuraavan kerran olet lentokonetilassa</string>
+    <string name="wifi_enabled_apm_first_time_title">Wi‑Fi päällä lentokonetilassa</string>
     <string name="wifi_interface_priority_approve">Salli</string>
+    <string name="wifi_interface_priority_interface_name_ap">Wi‑Fi-hotspot</string>
+    <string name="wifi_interface_priority_interface_name_ap_bridge">Wi‑Fi-hotspot</string>
+    <string name="wifi_interface_priority_interface_name_nan">Wi‑Fi Aware</string>
+    <string name="wifi_interface_priority_interface_name_p2p">Wi-Fi Direct</string>
+    <string name="wifi_interface_priority_interface_name_sta">STA</string>
     <string name="wifi_interface_priority_message">%3$s ei välttämättä toimi ongelmitta.</string>
     <string name="wifi_interface_priority_message_plural">Tämä voi aiheuttaa ongelmia näissä sovelluksissa: %3$s.</string>
     <string name="wifi_interface_priority_reject">Älä salli</string>
     <string name="wifi_interface_priority_title">%1$s pyytää lupaa käyttää verkkoresurssia</string>
+    <string name="wifi_network_disabled_by_admin_button">Sulje</string>
+    <string name="wifi_network_disabled_by_admin_message">%1$s on järjestelmänvalvojan käytöstä poistama.</string>
+    <string name="wifi_network_disabled_by_admin_title">Verkko ei ole käytettävissä</string>
+    <string name="wifi_network_switch_dialog_negative_button">Älä vaihda</string>
+    <string name="wifi_network_switch_dialog_positive_button">Vaihda</string>
+    <string name="wifi_network_switch_dialog_title_bad_internet">%1$s on heikkolaatuinen. Otetaanko %2$s käyttöön?</string>
+    <string name="wifi_network_switch_dialog_title_no_internet">%1$s ei näytä olevan yhteydessä internetiin. Otetaanko %2$s käyttöön?</string>
     <string name="wifi_p2p_enter_pin_message">Kirjoita pyydetty PIN-koodi:</string>
     <string name="wifi_p2p_frequency_conflict_message">Puhelimen yhteys Wi-Fi-verkkoon katkaistaan väliaikaisesti puhelimen ollessa yhdistettynä laitteeseen %1$s</string>
     <string name="wifi_p2p_from_message">Lähde:</string>
+    <string name="wifi_p2p_invitation_seconds_remaining">{0,plural, =1{Hyväksy # sekunnissa.}other{Hyväksy # sekunnissa.}}</string>
     <string name="wifi_p2p_invitation_sent_title">Kutsu lähetetty.</string>
     <string name="wifi_p2p_invitation_to_connect_title">Yhdistämiskutsu</string>
     <string name="wifi_p2p_show_pin_message">PIN-koodi:</string>

@@ -76,6 +76,8 @@
     <string name="dialog_miplay_permission_message">Salli kohteen Casting nauhoittaa ääntä, käyttää tiedostoja sisäisessä tallennustilassa ja käyttää sijaintiasi voidaksesi käyttää tätä ominaisuutta normaalisti. Napauta \"Asetukset\" ja valitse \"Sovelluksen käyttöoikeudet\" jatkaaksesi.</string>
     <string name="dialog_miplay_permission_positive">Asetukset</string>
     <string name="dialog_miplay_permission_title">Käyttöoikeuksia vaaditaan</string>
+    <string name="dialog_nearbydevice_permission_message">Salli tämän laitteen käyttää lähellä olevia laitteita, jotta se voi käyttää suoratoisto-ominaisuuksia.</string>
+    <string name="dialog_nearbydevice_permission_title">Käyttöoikeuksia vaaditaan</string>
     <string name="dialog_nfc_cast_wifi_off">Kytke WLAN päälle, jotta peilaus voi tapahtua kohdetta NFC käyttämällä. Ota nyt käyttöön?</string>
     <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Yhdistä mobiililaite ja televisio samaan Wi-Fi-verkkoon.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Joissakin televisiomalleissa tämä ominaisuus on käytettävissä vain, kun näytön peilaus on käytössä. Katso &lt;a href=milink://com.milink.service/specification>\"Ohje\"&lt;/a> tutustuaksesi lisää.&lt;/Data></string>
     <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
@@ -348,6 +350,7 @@ Jos sinun tarvitsee ottaa Miracast käyttöön, paina [MENU]-painiketta ja valit
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -562,6 +565,7 @@ Lue ja hyväksy meidän &lt;a href=%1$s>Käyttäjäsopimus&lt;/a> ja &lt;a href=
     <string name="toast_msg_for_multi_window">Tätä toimintoa ei voi käyttää jaetussa näytössä</string>
     <string name="toast_msg_for_small_window">Voit pienentää ikkunan, jota peilataan muiden ominaisuuksien käyttämiseksi puhelimellasi ilman peilausprosessin keskeyttämistä.</string>
     <string name="toast_nfc_dont_move">Älä siirrä puhelinta poispäin</string>
+    <string name="toast_nfc_same_wifi">Yhdistä sekä televisio että tämä laite samaan verkkoon</string>
     <string name="toast_title_for_small_window">Valitse \"Pienennä ikkuna\" sovelluksessa</string>
     <string name="toast_turn_off_hotspot_before_cast">Sammuta kannettava tukiasema ennen peilausta</string>
     <string name="today">Tänään</string>

@@ -64,10 +64,15 @@
     <string name="actionbar_button_up_description">Takaisin</string>
     <string name="ad_close">Sulje</string>
     <string name="ad_data_exception">Mainostietovirhe</string>
+    <string name="ad_flag_text">MAINOS</string>
     <string name="ad_recommend">Näytä mainoksia</string>
     <string name="ad_setting">Lisäasetukset</string>
     <string name="add">Lisää</string>
     <string name="add_music">Lisää kappaleita</string>
+    <string name="add_songs_manually_bottom">Lisää</string>
+    <string name="add_songs_manually_home">Lisää kappaleita manuaalisesti</string>
+    <string name="add_songs_manually_setting">Lisää kappaleita manuaalisesti</string>
+    <string name="add_songs_to_playlist">Lisää soittolistaan</string>
     <string name="add_to_last_of_playlist">Lisää soittolistan loppuun</string>
     <string name="add_to_playlist">Lisää jonoon</string>
     <string name="add_to_playlist_successful">Lisätty onnistuneesti</string>
@@ -98,6 +103,13 @@
     <string name="app_disable_description_content">Mi-musiikki on järjestelmäsovellus. Jos poistat sen käytöstä, se voi vaikuttaa muiden sovellusten käyttöön. Poistetaanko silti käytöstä?</string>
     <string name="app_disable_description_title">Poistetaanko järjestelmäsovellus käytöstä?</string>
     <string name="app_label">Lataukset</string>
+    <string name="app_notify_dialog_btn_desc">Asetukset</string>
+    <string name="app_notify_dialog_check_desc">Ota ilmoitusaluevinjetti käyttöön, mutta älä salli pysyviä ilmoituksia</string>
+    <string name="app_notify_dialog_path">Asetukset > Ilmoitukset &amp; tilapalkki > Sovellusilmoitukset > Musiikki</string>
+    <string name="app_notify_dialog_path_10">Asetukset > Ilmoitukset &amp; tilapalkki > Sovellusilmoitukset > Musiikki</string>
+    <string name="app_notify_dialog_path_8">Asetukset > Ilmoitukset &amp; tilapalkki > Sovellusilmoitukset > Musiikki</string>
+    <string name="app_notify_dialog_subtitle">Ota Mi Musiikin ilmoitukset käyttöön, jotta voit ohjata musiikin toistoa ilmoitusalueella.</string>
+    <string name="app_notify_dialog_title">Käyttöoikeuksia vaaditaan</string>
     <string name="app_permission_confirm">Selvä</string>
     <string name="app_permission_optional">Valinnaiset käyttöoikeudet</string>
     <string name="app_permission_require">Vaaditut käyttöoikeudet</string>
@@ -108,8 +120,10 @@
     <string name="app_permission_use_group_phone_desc">Google Push -palveluille</string>
     <string name="app_permission_use_group_storage">Tallennustila</string>
     <string name="app_permission_use_group_storage_desc">Laitteelle tallennettujen ja siltä toistettavien kappaleiden etsimiseen</string>
+    <string name="app_resident_push_switch">Salli pysyvät ilmoitukset</string>
     <string name="apply_for_the_following_permissions">Tämä sovellus pyytää seuraavia käyttöoikeuksia:</string>
     <string name="apply_permissions_greater_than_pie">Voit myöntää tämän luvan kohdassa Asetukset > Sovellukset > Käyttöoikeudet > Käyttöoikeudet > Tiedostot ja media > Musiikki.</string>
+    <string name="apply_permissions_greater_than_tiramisu">Voit myöntää tämän luvan kohdassa Asetukset > Sovellukset > Käyttöoikeudet > Käyttöoikeudet > Musiikki ja ääni/Valokuvat ja videot > Musiikki.</string>
     <string name="apply_permissions_less_than_pie">Voit myöntää tämän luvan kohdassa Asetukset > Sovellukset > Käyttöoikeudet > Käyttöoikeudet > Käytä ja muuta sisäisessä tallennustilassa olevia tiedostoja > Musiikki.</string>
     <string name="apply_permissions_tips_content">Salli tämän sovelluksen käyttää tiedostoja löytääkseen musiikkia laitteestasi.</string>
     <string name="artist">Artistit</string>
@@ -141,7 +155,7 @@
     <string name="avoid_to_use_traffic_summary">Älä käytä mobiiliverkkoa musiikin suoratoistoon</string>
     <string name="avoid_to_use_traffic_title">Ilmoita kun käytät mobiilidataa kappaleiden toistamiseen</string>
     <string name="back">Takaisin</string>
-    <string name="back_confirm">Napauta uudelleen työntääksesi sovelluksen taustalle</string>
+    <string name="back_confirm">Poistu napauttamalla uudelleen</string>
     <string name="best_experience">Paras kokemus</string>
     <string name="billion_char">%st</string>
     <string name="bluetooth_device">Bluetooth-audiolaite</string>
@@ -207,6 +221,7 @@
     <string name="create_playlist">Luo soittolista</string>
     <string name="create_playlist_failure">Soittolistaa ei voitu luoda</string>
     <string name="create_playlist_input_hint">Anna soittolistan nimi</string>
+    <string name="create_shortcut_for_playlist">Luodaanko soittolistalle aloitusnäytön pikakuvake?</string>
     <string name="current_album">Nykyinen albumikansi</string>
     <string name="current_lyric">Nykyiset sanat</string>
     <string name="current_version">Nykyinen versio</string>
@@ -327,7 +342,9 @@
     <string name="download_method">Lataa</string>
     <string name="download_no_application_title">Tiedostoa ei voitu avata</string>
     <string name="download_paused_in_power_save_mode">Lataukset keskeytettiin, koska virransäästö on päällä</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Ladataan…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Latauksen laatuz</string>
     <string name="download_quality_summary">Lisäasetukset ladattaville kappaleille</string>
     <string name="download_queued">Jonossa</string>
@@ -435,7 +452,9 @@
     <string name="exo_media_action_repeat_all_description">Toista kaikki uudelleen</string>
     <string name="exo_media_action_repeat_off_description">Ei uudelleentoistoa</string>
     <string name="exo_media_action_repeat_one_description">Toista yksi uudelleen</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Vaihtoehtoinen</string>
     <string name="exo_track_role_closed_captions">Tekstitykset</string>
     <string name="exo_track_role_commentary">Kommenttiraita</string>
@@ -559,9 +578,11 @@
     <string name="get_more_favorite_content_after_login">Kirjaudu sisään löytääksesi lisää kappaleita ja videoita.</string>
     <string name="get_one_day_vip">Sait %d päivän VIP:in!</string>
     <string name="get_one_hour_vip">Sait %d tunnin VIP:in!</string>
+    <string name="get_one_minute_vip">Ansaitsit %d minuutin VIP-palvelun!</string>
     <string name="get_vip">Hanki VIP</string>
     <string name="go_agree">OK</string>
     <string name="google_account_login">Kirjaudu sisään kohteella Google</string>
+    <string name="google_download_music">Lataa %1$s Googlen avulla</string>
     <string name="goto_local_search">Etsi laitteelta</string>
     <string name="goto_online_search">Etsi netistä</string>
     <string name="handle_later">Ei nyt</string>
@@ -569,11 +590,19 @@
     <string name="headset_and_audio_effect_category">Kuulokkeet &amp; äänitehosteet</string>
     <string name="headset_and_audio_effect_summary">Kuulokkeet &amp; taajuuskorjain</string>
     <string name="headset_and_audio_effect_title">Kuulokkeet &amp; äänitehosteet</string>
+    <string name="hgm_failed_to_connect_hint">Tarkista verkkoasetukset ja yritä uudelleen. Jos ongelma on hungama-palvelinvirhe, korjaamme sen mahdollisimman pian.</string>
+    <string name="hgm_has_offline">hungaman tarjoamaa musiikkia ei voi toistaa</string>
+    <string name="hgm_network_request_error_toast">Ei voitu muodostaa yhteyttä hungama-palvelimiin. Yritä uudelleen.</string>
     <string name="hgm_vip_btn_desc">Aloita ilmaiskokeilu</string>
     <string name="hgm_vip_high_quality">Laadukkaat lataukset</string>
     <string name="hgm_vip_no_ads">Ei mainoksia tai rajoituksia</string>
     <string name="hide_album">Piilota albumikansi</string>
     <string name="hide_lyric">Piilota sanat</string>
+    <string name="hide_or_add_songs_manually">Näytä piilotetut kappaleet</string>
+    <string name="hide_reason_folder">Piilotettu kansio</string>
+    <string name="hide_reason_other">Muu syy</string>
+    <string name="hide_reason_size">Suurempi kuin %1$s</string>
+    <string name="hide_songs_title">Piilotetut kappaleet</string>
     <string name="hifi_quality">Hi-Fi-laatu</string>
     <string name="high_sound_quality">Korkea</string>
     <string name="higher_quality_music">Korkealaatuinen ääni</string>
@@ -587,6 +616,7 @@
     <string name="home_tab_recommend">Online</string>
     <string name="home_tab_search">Etsi</string>
     <string name="hot_icon_in_fast_indexer">H</string>
+    <string name="hot_recommend">Suosittua juuri nyt</string>
     <string name="hungama_batch_download_alert_summary">Vain Gold-jäsenet voivat ladata useita kappaleita. Hanki Gold-jäsenyys nyt?</string>
     <string name="hungama_batch_download_alert_summary_toast">Hanki tilaus ladataksesi koko soittolistan.</string>
     <string name="hungama_download_subscription_toast">Tilaa hungama Music ladataksesi tämän kappaleen</string>
@@ -665,6 +695,10 @@
     <string name="joox_search_result_more">Lisää</string>
     <string name="joox_vip_check_to_pay">Osta</string>
     <string name="joox_vip_expired_hint">VIP-jäsenyytesi vanheni. Kohteesta JOOX ladatut kappaleet näytetään vain latauksissa.</string>
+    <string name="jump_to_ytb_dialog_cancel">Peruuta</string>
+    <string name="jump_to_ytb_dialog_desc">Poistut Mi Musiikista ja avaat YouTuben. Avaa YouTube nyt?</string>
+    <string name="jump_to_ytb_dialog_ok">Vahvista</string>
+    <string name="jump_to_ytb_dialog_title">Poistutaan Mi Musiikista</string>
     <string name="just_hit_next">Paina vain seuraavaa</string>
     <string name="keep_queued_download">Pidä</string>
     <string name="ktv_playlist">KTV-soittolista</string>
@@ -681,9 +715,19 @@
     <string name="loading_hint">Hetki vain…</string>
     <string name="loading_reached_the_bottom">Siinä kaikki tältä erää.</string>
     <string name="loading_text">Hetki vain…</string>
+    <string name="local_download_download">Lataa</string>
+    <string name="local_download_hint">Ota Wi-Fi käyttöön ennen lataamista</string>
+    <string name="local_download_item">Lataa ilmaiseksi</string>
+    <string name="local_download_title">Valitse ladattavat kappaleet</string>
+    <string name="local_download_toast">Ladataan…</string>
+    <string name="local_download_toast_notify">Ladataan. Tarkastele etenemistä Ilmoitusalueella.</string>
     <string name="local_header_title">Paikallinen musiikki</string>
     <string name="local_music">Paikalliset kappaleet</string>
     <string name="local_music_is_not_available">Laitteellasi ei ole kappaleita.</string>
+    <string name="local_out_dialog_cancel">Peruuta</string>
+    <string name="local_out_dialog_desc">Olet avaamassa toisen sovelluksen, jota ei ole liitetty Mi Musiikkiin.</string>
+    <string name="local_out_dialog_ok">OK</string>
+    <string name="local_out_dialog_title">Poistutaan Mi Musiikista</string>
     <string name="local_page_album_more">Näytä kaikki</string>
     <string name="local_page_artist_more">Enemmän kappaleita esittäjältä %s</string>
     <string name="local_page_playlist">Soittolistat</string>
@@ -701,6 +745,13 @@
     <string name="lyric_label">Sanat</string>
     <string name="lyric_open_other_connect">Lataa sanoitukset käyttäen matkapuhelinverkkoja</string>
     <string name="lyric_setting">Sanoitusten asetukset</string>
+    <string name="lyrics_guide_button_text">Kokeile sitä</string>
+    <string name="lyrics_guide_four">Palaa sanoitussivulle nähdäksesi</string>
+    <string name="lyrics_guide_one">Valitse hakutulos napauttamalla sitä</string>
+    <string name="lyrics_guide_three">Muokkaa ja tallenna sanoitukset</string>
+    <string name="lyrics_guide_title">Kuinka etsiä ja tallentaa sanoituksia</string>
+    <string name="lyrics_guide_two">Valitse haluamasi sanoitukset ja kopioi ne</string>
+    <string name="lyrics_popup_title">Napauta etsiäksesi sanoituksia</string>
     <string name="material_clock_toggle_content_description">Valitse AP tai IP</string>
     <string name="material_hour_selection">Valitse tunti</string>
     <string name="material_hour_suffix">klo %1$s</string>
@@ -744,14 +795,14 @@
     <string name="miuishare_title_more">Lisää</string>
     <string name="miuishare_title_share">Jaa</string>
     <string name="miuix_access_state_desc">Valittu</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Lisää</string>
     <string name="miuix_appcompat_cancel_description">Peruuta</string>
     <string name="miuix_appcompat_confirm_description">Vahvista</string>
     <string name="miuix_appcompat_delete_description">Poista</string>
-    <string name="miuix_appcompat_deselect_all">Poista valinta</string>
+    <string name="miuix_appcompat_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_deselect_all_description">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Peruuta</string>
     <string name="miuix_appcompat_search_input_description">Etsi</string>
@@ -826,6 +877,7 @@
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -931,6 +983,7 @@
     <string name="ok">OK</string>
     <string name="one_day_vip">%d päivän VIP</string>
     <string name="one_hour_vip">%d tunnin VIP</string>
+    <string name="one_minute_vip">%d minuutin VIP-palvelu</string>
     <string name="online_apk_acquired">%d%% ladattu</string>
     <string name="online_apk_acquiring">Ladataan…%d%%</string>
     <string name="online_apk_download_error_no_enough_space">Ei voitu ladata, koska tallennustilaa ei ole tarpeeksi.</string>
@@ -1194,9 +1247,10 @@
     <string name="privacy_authorize_revoking">Peruutetaan valtuutusta…</string>
     <string name="privacy_desc">Tietosuojakäytäntö (pakollinen)</string>
     <string name="privacy_policy">Tietosuojakäytäntö</string>
-    <string name="privacy_request_desc">"&lt;Data>Mi Musiikin on kerättävä tarvittavat henkilökohtaiset tiedot voidakseen tarjota sinulle suoratoistopalveluja. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=\"%1$s\">Tietosuojakäytännöstä&lt;/a>. Voit milloin tahansa peruuttaa suostumuksesi Mi Musiikin tietosuojakäytäntöön kohdassa Asetukset.
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=fi_FI</string>
+    <string name="privacy_request_desc"><Data>"Mi Musiikin on kerättävä tarvittavat henkilökohtaiset tiedot voidakseen tarjota sinulle suoratoistopalveluja. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=\"%1$s\">Tietosuojakäytännöstä&lt;/a>. Voit milloin tahansa peruuttaa suostumuksesi Mi Musiikin tietosuojakäytäntöön kohdassa Asetukset.
 Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%1$s\">Tietosuojakäytäntö&lt;/a> ennen kuin käytät Mi Musiikkia.
-Jos et suostu käyttämään edellä mainittuja palveluita, et voi käyttää joitain tämän sovelluksen ominaisuuksia. Sen perustoiminnot ovat kuitenkin edelleen käytettävissäsi.&lt;/Data>"</string>
+Jos et suostu käyttämään edellä mainittuja palveluita, et voi käyttää joitain tämän sovelluksen ominaisuuksia. Sen perustoiminnot ovat kuitenkin edelleen käytettävissäsi."</Data></string>
     <string name="privacy_request_subtitle">"Tervetuloa Mi Musiikkiin! Tämä sovellus tarjoaa seuraavat palvelut:
 - Paikallinen audiosoitin
 - Online-suoratoistopalvelut"</string>
@@ -1209,9 +1263,9 @@ Jos et suostu käyttämään edellä mainittuja palveluita, et voi käyttää jo
     <string name="pulluprefreshrecyclerview_loading_finished">Ladattu onnistuneesti</string>
     <string name="pulluprefreshrecyclerview_loading_running">Ladataan…</string>
     <string name="queue_is_empty">Jono on tyhjä.</string>
-    <string name="read_and_agree_hungama_protocol">&lt;Data>Olen lukenut ja hyväksynyt &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">hungama-tietosuojakäytännön&lt;/a>&lt;/font>&lt;/Data></string>
-    <string name="read_and_agree_joox_protocol">&lt;Data>Olen lukenut ja hyväksynyt &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">JOOX-tietosuojakäytännön&lt;/a>&lt;/font>&lt;/Data></string>
-    <string name="read_and_agree_mi_protocol">&lt;Data>Olen lukenut ja hyväksynyt Xiaomin &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">käyttäjäsopimuksen&lt;/a>&lt;/font> ja &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%2$s\">tietosuojakäytännön&lt;/a>&lt;/font>&lt;/Data></string>
+    <string name="read_and_agree_hungama_protocol"><Data>Olen lukenut ja hyväksynyt &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">hungama-tietosuojakäytännön&lt;/a>&lt;/font></Data></string>
+    <string name="read_and_agree_joox_protocol"><Data>Olen lukenut ja hyväksynyt &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">JOOX-tietosuojakäytännön&lt;/a>&lt;/font></Data></string>
+    <string name="read_and_agree_mi_protocol"><Data>Olen lukenut ja hyväksynyt Xiaomin &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">käyttäjäsopimuksen&lt;/a>&lt;/font> ja &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%2$s\">tietosuojakäytännön&lt;/a>&lt;/font></Data></string>
     <string name="read_and_agree_protocol">Lue ja hyväksy käyttäjäsopimuksemme ja tietosuojakäytäntömme ennen kuin jatkat.</string>
     <string name="ready_to_play">Seuraavaksi</string>
     <string name="recently_played">Viimeksi toistettu</string>
@@ -1219,7 +1273,6 @@ Jos et suostu käyttämään edellä mainittuja palveluita, et voi käyttää jo
     <string name="recommend_songs_when_playing_audio_files">Saa kappalesuosituksia kuunnellessasi musiikkia</string>
     <string name="recommended_file_size_download_in_mobile">Käytetäänkö %s mobiilidataa tämän tiedoston lataamiseksi?</string>
     <string name="recommended_no_file_size_download_in_mobile">Käytetäänkö mobiilidatayhteyttäsi tämän tiedoston lataamiseksi?</string>
-    <string name="refresh">Virkistä</string>
     <string name="remove">Poista</string>
     <string name="remove_download">Poista</string>
     <string name="remove_user_privacy_dialog_message">Vaihtamalla kytkimen pois peruutat suostumuksesi Mi Musiikin tietosuojakäytäntöön. Lopetamme henkilötietojesi keräämisen, ja jo kerätyt ja säilytetyt henkilötiedot poistetaan tietyn ajan kuluessa sovellettavien lakien edellyttämällä tavalla. Mi Musiikin on kerättävä tarvittavat henkilökohtaiset tiedot peruspalveluiden tarjoamiseksi. Suostumuksesi peruuttaminen sen tietosuojakäytäntöön katsotaan sinun kieltäytymiseksi hyväksyä sen palvelut kerättyjen henkilötietojen perusteella.</string>
@@ -1236,6 +1289,7 @@ Jos et suostu käyttämään edellä mainittuja palveluita, et voi käyttää jo
     <string name="retry_after_network_available">Ei voi yhdistää verkkoon. Tarkista verkkoyhteytesi ja yritä uudelleen.</string>
     <string name="retry_download">Yritä uudelleen</string>
     <string name="revoke_upload_playlist_to_hungama_toast">Online-kappaleita ei synkronoida hungamaan</string>
+    <string name="reward_received">Ansaitsit VIP-jäsenyyden!</string>
     <string name="ringtone_editing">Soittoäänen muokkaaja</string>
     <string name="ringtone_not_support">Kappaleen muotoa ei tueta</string>
     <string name="ringtone_selected">Valittu</string>
@@ -1286,6 +1340,7 @@ Jos et suostu käyttämään edellä mainittuja palveluita, et voi käyttää jo
     <string name="select_local_cover">Valitse paikallinen kansikuva</string>
     <string name="select_local_lyric">Valitse tiedosto</string>
     <string name="select_local_lyric_file">Valitse paikallinen sanoitustiedosto</string>
+    <string name="select_lyrics_copy">Valitse ja kopioi lyriikkaa</string>
     <string name="select_none">Kumoa kaikkien valinta</string>
     <string name="select_one_language">Valitse enintään %d kieli</string>
     <string name="select_three_languages">Voit valita enintään %d kieltä</string>
@@ -1329,6 +1384,7 @@ Jos et suostu käyttämään edellä mainittuja palveluita, et voi käyttää jo
     <string name="similar_songs">Vastaavia kappaleita</string>
     <string name="similar_videos">Vastaavia videoita</string>
     <string name="skip">Ohita</string>
+    <string name="skip_ad">Ohita</string>
     <string name="sleep_mode">Uniajastin</string>
     <string name="sleep_mode_canceled">Lepotila on pois päältä</string>
     <string name="sleep_mode_summary">Pysäytä soitin tietyn ajan kuluttua</string>
@@ -1344,6 +1400,7 @@ Jos et suostu käyttämään edellä mainittuja palveluita, et voi käyttää jo
     <string name="song_offline">Tämä kappale ei ole enää saatavilla.</string>
     <string name="song_picker_complete">Valmis</string>
     <string name="song_quality_category">Musiikki</string>
+    <string name="song_swipe_navigation">Vaihda kappaletta pyyhkäisemällä vasemmalle tai oikealle</string>
     <string name="songgroup_pick_album">Albumit</string>
     <string name="songgroup_pick_playlist">Soittolistat</string>
     <string name="sort_by_name">Nimi</string>
@@ -1353,6 +1410,7 @@ Jos et suostu käyttämään edellä mainittuja palveluita, et voi käyttää jo
     <string name="start_to_download">Ladataan…</string>
     <string name="start_to_play">Valmistaudutaan toistamaan…</string>
     <string name="start_update">Asennetaan uutta versiota…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Kaksoissovelluksien tallennustila</string>
     <string name="storage_internal">Sisäinen tallennustila</string>
     <string name="storage_sd_card">SD-kortti</string>
@@ -1517,6 +1575,7 @@ Jos et suostu käyttämään edellä mainittuja palveluita, et voi käyttää jo
     <string name="upload_playlist_to_hungama_title">Synkronoi online-kappaleet hungamaan voidaksesi käyttää niitä muilla laitteilla, joissa käytät Xiaomi-tiliäsi.</string>
     <string name="upload_playlist_to_hungama_toast">Online-kappaleet synkronoidaan hungamaan</string>
     <string name="user_agreement">Käyttäjäsopimus</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=fi_FI</string>
     <string name="user_experience_program_open">Tekijänoikeusrajoitusten vuoksi sinun on rekisteröidyttävä käyttäjäkokemusohjelmaan, jotta voit toistaa ladattuja kappaleita. Voit tehdä tämän kohdassa Asetukset > Salasanat &amp; tietoturva > Tietosuoja > Ilmoittaudu käyttäjäkokemusohjelmaan.</string>
     <string name="user_playlist_plaza">Soittolistat</string>
     <string name="user_privacy_dialog_negative_text">Peruuta</string>
@@ -1530,6 +1589,7 @@ Jos et suostu käyttämään edellä mainittuja palveluita, et voi käyttää jo
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
     <string name="v7_preference_on">KÄYTÖSSÄ</string>
     <string name="version_info">Versio</string>
+    <string name="video_loading_fail">Videota ei voitu ladata</string>
     <string name="video_play_cellular">Laitettasi ei ole yhdistetty Wi-Fi-verkkoon. Käytetäänkä mobiilidataa?</string>
     <string name="video_replay_btn">Toista uudelleen</string>
     <string name="video_retry_btn">Kokeile uudestaan</string>
@@ -1538,10 +1598,22 @@ Jos et suostu käyttämään edellä mainittuja palveluita, et voi käyttää jo
     <string name="vip_required_with_song">%s on saatavilla vain Gold-jäsenille. Ohitetaan tämä kappale.</string>
     <string name="voice_search_first_hint">Kokeile äänihakua!</string>
     <string name="watch_video">Katso video</string>
+    <string name="web_reward_dialog_cancle">Peruuta</string>
+    <string name="web_reward_dialog_ok">Poistu</string>
     <string name="wednesday">Keskiviikko</string>
     <string name="wednesday_short">Ke</string>
     <string name="wednesday_shortest">Ke</string>
     <string name="welcome_to_entertainment">Tutustu uuden Viihde-ominaisuuden musiikkipeleihin ja muuhun</string>
+    <string name="whitelist_add_exist">Jotkut kappaleet on jo lueteltu Paikallisissa kappaleissa, eikä niitä näytetä tässä</string>
+    <string name="whitelist_add_failed">Tiedostoja ei voitu lisätä</string>
+    <string name="whitelist_desc_1">Jos Mi Musiikki ei löydä etsimiäsi kappaleita laitteeltasi, voit lisätä ne manuaalisesti.</string>
+    <string name="whitelist_desc_2">Nämä tiedostot näytetään, vaikka tiedostokoko ja kappaleen pituus eivät täsmää tai ne olisivat piilokansioissa.</string>
+    <string name="whitelist_dialog_content">Poistetut tiedostot eivät enää näy Mi Musiikin poikkeuksissa, mutta niitä ei poisteta laitteestasi. Poistetaanko nyt?</string>
+    <string name="whitelist_dialog_title">Poista tiedostot?</string>
+    <string name="whitelist_entrance_desc">Lisää manuaalisesti tiedostoja, joita Mi Musiikki ei löydä automaattisesti</string>
+    <string name="whitelist_entrance_text_1">"Eikö kappaletta löydy? "</string>
+    <string name="whitelist_multi_add_tips">%1$s. %2$s.</string>
+    <string name="whitelist_title">Tiedoston poikkeukset</string>
     <string name="wifi_required_body" formatted="false">"Yhdistä Wi-Fi-verkkoon suorittaaksesi tämän %s latauksen. 
 
 Kosketa %s aloittaaksesi tämän latauksen seuraavalla kerralla, kun olet yhteydessä Wi-Fi-verkkoon."</string>
@@ -1550,6 +1622,10 @@ Kosketa %s aloittaaksesi tämän latauksen seuraavalla kerralla, kun olet yhteyd
     <string name="you_can_switch_mode_in_settings">Voit vaihtaa tilojen välillä Asetuksissa</string>
     <string name="you_may_like">Saatat pitää myös</string>
     <string name="you_might_like_it">Saatat pitää</string>
+    <string name="youtube_delete_dialog_cancel">Peruuta</string>
+    <string name="youtube_delete_dialog_desc">Poistetaanko tämä kappale suosikeista nyt?</string>
+    <string name="youtube_delete_dialog_ok">Poista</string>
+    <string name="youtube_delete_dialog_title">Poista suosikeista</string>
     <string name="youtube_download_canl">Peruuta</string>
     <string name="youtube_download_fail_net">Ei voitu yhdistä verkkoon. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
     <string name="youtube_download_fail_source">Tapahtui virhe. Odota pari minuuttia ja yritä uudelleen.</string>
@@ -1561,6 +1637,12 @@ Kosketa %s aloittaaksesi tämän latauksen seuraavalla kerralla, kun olet yhteyd
     <string name="youtube_download_suc">Ladattu onnistuneesti</string>
     <string name="youtube_play_history">Toistohistoria</string>
     <string name="youtube_share_guide_tip">Voit nyt jakaa videoita ystävien kanssa</string>
+    <string name="youtube_store_dialog_desc">Löydät suosikkeihin lisäämäsi online-videot täältä. Jos video on ladattu aiemmin, sinun ei tarvitse käyttää mobiilidataa katsoaksesi sitä seuraavan kerran.</string>
+    <string name="youtube_store_dialog_ok">Selvä</string>
     <string name="youtube_tab_explore">Tutustu</string>
     <string name="youtube_tab_playlist">Soittolistat</string>
+    <string name="youtube_tab_popular">Suosittua</string>
+    <string name="youtube_tab_radar">Tutka</string>
+    <string name="youtube_tab_shorts">Kelat</string>
+    <string name="youtube_tab_trend">Nousussa</string>
 </resources>

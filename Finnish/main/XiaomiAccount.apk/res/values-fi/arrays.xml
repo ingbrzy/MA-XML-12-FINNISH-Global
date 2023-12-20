@@ -4,6 +4,10 @@
         <item>Mies</item>
         <item>Nainen</item>
     </string-array>
+    <string-array name="passport_account_user_gender_name">
+        <item>Mies</item>
+        <item>Nainen</item>
+    </string-array>
     <string-array name="settings_search_account_and_authority_global">
         <item>Tilit</item>
         <item>Lisää ja hallinnoi kolmansien osapuolien tilejä</item>
@@ -19,15 +23,20 @@
         <item>Vaihda Xiaomi-tilin salasana</item>
         <item>Vaihda salasana;Päivitä salasana;Mi-tili;Tili;Xiaomi-tili</item>
     </string-array>
+    <string-array name="settings_search_cloud_space_share">
+        <item>Perheen säilytystilaa</item>
+        <item>Näytä/ota käyttöön perheen tallennustila</item>
+        <item>Perheen tallennustila;Tallennustilan jakaminen</item>
+    </string-array>
+    <string-array name="settings_search_family_service">
+        <item>Perhepalvelut</item>
+        <item>Näytä/ota käyttöön perhepalvelut</item>
+        <item>Perhe;Perhepalvelut;Perhejakaminen</item>
+    </string-array>
     <string-array name="settings_search_help_center">
         <item>Tuki</item>
         <item>Hae Xiaomi-tilin apua ja tukea</item>
         <item>Mi-tili;Tili;Xiaomi-tili;Tilin ohje;Ohjekeskus</item>
-    </string-array>
-    <string-array name="settings_search_login_2_step_verify">
-        <item>2-vaiheinen todennus</item>
-        <item>Aseta 2-vaiheinen todennus Xiaomi-tilillesi</item>
-        <item>Kirjaudu sisään;Kirjaudu sisään;2-vaiheinen;todennus;Xiaomi;Tili;Mi-tili;Tili;Xiaomi-tili</item>
     </string-array>
     <string-array name="settings_search_login_and_security">
         <item>Tilin turvallisuus</item>

@@ -31,6 +31,7 @@
     <string name="add_sound">Lisää mukautettu esiasetus</string>
     <string name="afternoon">Iltapäivä</string>
     <string name="am">ap.</string>
+    <string name="app_disable_description_title">Poistetaanko tämä sovellus käytöstä?</string>
     <string name="app_name">Kuulokkeet</string>
     <string name="apply_sound">Käytä</string>
     <string name="bottomsheet_action_expand_halfway">Laajenna puoliväliin</string>
@@ -64,8 +65,14 @@
     <string name="effect_3dsurround">Mukaansatempaava ääni</string>
     <string name="effect_3dsurround_summary">Paranna äänentoiston syvyyttä kuulokkeissa ja kaiuttimissa</string>
     <string name="effect_3dsurround_summary_headphone">Paranna äänentoiston syvyyttä kuulokkeissa</string>
+    <string name="effect_dolby">Dolby Atmos</string>
+    <string name="effect_misound">Xiaomi Ääni</string>
+    <string name="effect_none">Original</string>
+    <string name="effect_selection">Äänitehosteet</string>
+    <string name="effect_selection_headset">Kuulokkeiden tehosteet</string>
     <string name="effect_virtual_surround">Virtuaalinen mukaansatempaava ääni</string>
     <string name="effect_virtual_surround_summary">Paranna äänen syvyyttä ääni- ja videotoistoa varten kuulokkeissa (Tämä ominaisuus ei toimi, kun %.1f-ääntä toistetaan)</string>
+    <string name="effect_virtual_surround_summary_spk">Paranna äänen syvyyttä ääni- ja videotoistoa varten</string>
     <string name="empty" />
     <string name="end_wireless_transmission">Lopeta</string>
     <string name="eq_auto">Muokattu</string>
@@ -201,14 +208,14 @@
     <string name="midnight">Yö</string>
     <string name="misound_effect_setting">Mi Ääni</string>
     <string name="miuix_access_state_desc">Valittu</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Lisää</string>
     <string name="miuix_appcompat_cancel_description">Peruuta</string>
     <string name="miuix_appcompat_confirm_description">Vahvista</string>
     <string name="miuix_appcompat_delete_description">Poista</string>
-    <string name="miuix_appcompat_deselect_all">Poista valinta</string>
+    <string name="miuix_appcompat_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_deselect_all_description">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Peruuta</string>
     <string name="miuix_appcompat_search_input_description">Etsi</string>
@@ -270,6 +277,7 @@
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -417,6 +425,9 @@
     <string name="now_here">Entä nyt?</string>
     <string name="original_sound">Toista alkuperäinen ääni</string>
     <string name="password_toggle_content_description">Näytä salasana</string>
+    <string name="permission_go_to_settings">Asetukset</string>
+    <string name="permission_requesr_content">Salli tämän sovelluksen muodostaa yhteys lähellä oleviin laitteisiin asetuksissa.</string>
+    <string name="permission_requesr_title">Käyttöoikeudet vaaditaan</string>
     <string name="personal_sound">Toista sovitulla esiasetuksella</string>
     <string name="pm">ip.</string>
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
@@ -457,18 +468,13 @@
     <string name="sound_id_function_description">Mukauta EQ-käyrä mieltymystesi mukaan</string>
     <string name="sound_id_function_name">Yksilöity ääni</string>
     <string name="sound_id_headset_status">Nykyiset kuulokkeet</string>
-    <string name="sound_id_hz_high">"Diskantti
-%d Hz"</string>
-    <string name="sound_id_hz_low">"Basso
-%d Hz"</string>
-    <string name="sound_id_hz_media">"Keskialue
-%d Hz"</string>
+    <string name="sound_id_hz"> %d Hz</string>
+    <string name="sound_id_hz_high">Diskantti %d Hz</string>
+    <string name="sound_id_hz_low">Basso %d Hz</string>
+    <string name="sound_id_hz_media">Keskialue %d Hz</string>
     <string name="sound_id_music_one_description">Kevyt | %ds</string>
-    <string name="sound_id_music_one_title">Rainy city</string>
     <string name="sound_id_music_three_description">Melodinen | %ds</string>
-    <string name="sound_id_music_three_title">Trace</string>
     <string name="sound_id_music_two_description">Rytminen | %ds</string>
-    <string name="sound_id_music_two_title">Night fever</string>
     <string name="sound_id_no_effect_msg">Älä käytä yksilöityä ääntä</string>
     <string name="sound_id_notice_headset_change_msg">Näyttää siltä, että käytät eri kuulokkeita. Testi keskeytettiin.</string>
     <string name="sound_id_notice_headset_change_msg2">Näyttää siltä, että käytät eri kuulokkeita. Varmista, että tämä yksilöity ääni sopii tähän kuulokepariin.</string>
@@ -514,6 +520,7 @@
     <string name="sound_transmission_title">Langaton mikrofoni</string>
     <string name="spatial_audio">Mukaansatempaava ääni</string>
     <string name="spatial_audio_summary">Koe uppoutuminen ja tilan tunne, kun ääntä toistetaan kuulokkeiden kautta</string>
+    <string name="spatial_audio_summary_spk">Koe uppoutuminen ja tilan tunne, kun ääntä toistetaan</string>
     <string name="speaker_scenario_resume">Palauta alkuperäiset efektit</string>
     <string name="start_test_sound">Aloita testi</string>
     <string name="status_bar_notification_info_overflow">999+</string>

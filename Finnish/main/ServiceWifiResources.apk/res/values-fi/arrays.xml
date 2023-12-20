@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="wifi_eap_error_message_code_16384_carrier_overrides">
-        <item>:::1839:::%1$s: Verizon Wi-Fiin yhdistämisessä on ongelma virheen 16384 takia.</item>
+        <item>:::1839:::%1$s: Ongelma yhdistettäessä Verizonin Wi-Fiin. (Virhe = 16384)</item>
     </string-array>
     <string-array name="wifi_eap_error_message_code_16385_carrier_overrides">
-        <item>:::1839:::%1$s: Verizon Wi-Fiin yhdistämisessä on ongelma virheen 16385 takia.</item>
+        <item>:::1839:::%1$s: Ongelma yhdistettäessä Verizonin Wi-Fiin. (Virhe = 16385)</item>
     </string-array>
     <string-array name="wifi_eap_error_message_code_32760_carrier_overrides">
         <item>:::1839:::%1$s: Verizonin Wi-Fi‑yhteyttä ei voi muodostaa Verizonin kattavuusalueen ulkopuolelta. (Virhe = 32760)</item>
@@ -28,9 +28,9 @@
         <item>:::1839:::%1$s: Verizon Wi-Fi ei ole saatavilla sijainnissasi. Yritä uudelleen tai toisesta sijainnista. (Virhe = 32766)</item>
     </string-array>
     <string-array name="wifi_eap_error_message_code_32767_carrier_overrides">
-        <item>:::1839:::%1$s: Ongelma yhdistettäessä Verizonin Wi-Fiin. Yritä uudelleen tai toisesta sijainnista.</item>
+        <item>:::1839:::%1$s: Ongelma yhdistettäessä Verizonin Wi-Fiin. Yritä uudelleen tai toisesta paikasta. (Virhe = 32767)</item>
     </string-array>
     <string-array name="wifi_eap_error_message_unknown_error_code_carrier_overrides">
-        <item>:::1839:::%1$s: Ongelma yhdistettäessä Verizonin Wi-Fiin.</item>
+        <item>:::1839:::%1$s: Ongelma yhdistettäessä Verizonin Wi-Fiin. (Virhe = tuntematon)</item>
     </string-array>
 </resources>

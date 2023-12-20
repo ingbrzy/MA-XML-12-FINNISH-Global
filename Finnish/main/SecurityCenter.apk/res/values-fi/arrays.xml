@@ -40,14 +40,14 @@
     </string-array>
     <string-array name="daily_brand">
         <item>Mukautettu</item>
-        <item>Mi Fan -kortti</item>
+        <item>Xiaomi-fanikortti</item>
         <item>Xiao Tiansheng -kortti</item>
         <item>Tencent King -kortti</item>
     </string-array>
     <string-array name="daily_rent_card_brands">
         <item>Mukautettu</item>
         <item>Mi Mobiili</item>
-        <item>Mi Fan -kortti</item>
+        <item>Xiaomi-fanikortti</item>
         <item>Tianshen-kortti</item>
         <item>Tencent-kortti</item>
     </string-array>
@@ -89,6 +89,15 @@
         <item>Voit seurata ja tallentaa näytön sisältöä etäyhteyden kautta.</item>
         <item>Laitteesi yksityiskohtaisia tietoja on mahdollista käyttää.</item>
     </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normaali</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
     <string-array name="gb_adv_touch_custom_level">
         <item>Matalin</item>
         <item>Matala</item>
@@ -96,10 +105,20 @@
         <item>Korkea</item>
         <item>Korkein</item>
     </string-array>
+    <string-array name="gb_voice_change_gender">
+        <item>@string/gb_voice_changer_gender_man</item>
+        <item>@string/gb_voice_changer_gender_female</item>
+    </string-array>
     <string-array name="input_package_names">
         <item>com.baidu.input_mi</item>
         <item>com.iflytek.inputmethod.miui</item>
         <item>com.sohu.inputmethod.sogou.xiaomi</item>
+    </string-array>
+    <string-array name="key_app_info">
+        <item>install_source</item>
+        <item>install_time</item>
+        <item>update_source</item>
+        <item>update_time</item>
     </string-array>
     <string-array name="lock_mode">
         <item>Kun laite on lukittu</item>
@@ -114,10 +133,20 @@
         <item>Tärkeää: Useat järjestelmäsovellukset voivat lakata toimimasta oikein.</item>
         <item>Tekstiasettelut, tilit ja sisältö eivät ehkä näy oikein.</item>
     </string-array>
+    <string-array name="operate_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
+    </string-array>
     <string-array name="operate_entryValues">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="operate_memory_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
     </string-array>
     <string-array name="operate_memory_entryValues">
         <item>0</item>
@@ -127,6 +156,20 @@
     <string-array name="over_limit_traffic_waring_style">
         <item>Näytä varoitus</item>
         <item>Varoita ja sammuta mobiilidata</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/power_center_battery_all</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice_new">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/power_center_battery_all</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
     </string-array>
     <string-array name="pc_fast_charge_entry">
         <item>10%</item>
@@ -178,14 +221,14 @@
         <item>Puhelin saldo</item>
     </string-array>
     <string-array name="sort_title_new">
-        <item>Lajittele sovelluksen nimen mukaan</item>
-        <item>Järjestä käyttötaajuuden mukaan</item>
-        <item>Lajittele käytetyn muistin mukaan</item>
+        <item>Järjestä sovelluksen nimen mukaan</item>
+        <item>Järjestä viimeksi käytetyn mukaan</item>
+        <item>Järjestä käytetyn tallennustilan mukaan</item>
         <item>Järjestä asennusajan mukaan</item>
     </string-array>
     <string-array name="sort_type_new">
         <item>Sovelluksen nimi</item>
-        <item>Käyttötaajuus</item>
+        <item>Äskettäin käytetty</item>
         <item>Käytetty tallennustila</item>
         <item>Asennusaika</item>
     </string-array>

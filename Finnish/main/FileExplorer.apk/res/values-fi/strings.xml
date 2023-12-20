@@ -44,6 +44,7 @@
     <string name="agree">Hyväksy</string>
     <string name="am">ap.</string>
     <string name="app_all_purpose">Tervetuloa Tiedostonhallintaan! Voit käyttää tätä sovellusta laitteellesi tallennettujen tiedostojen hallintaan.</string>
+    <string name="app_all_purpose_global">Tervetuloa Tiedostonhallintaan! Tämän sovelluksen avulla voit esikatsella ja hallita laitteellesi tallennettuja tiedostoja.</string>
     <string name="app_all_purpose_pad">Tervetuloa Tiedostonhallintaan! Voit käyttää tätä sovellusta laitteellesi tallennettujen tiedostojen hallintaan.</string>
     <string name="app_function">Hallitse tiedostoja laitteessasi</string>
     <string name="app_name">Tiedostonhallinta</string>
@@ -52,7 +53,7 @@
     <string name="app_name_downloadedrom">Paketit</string>
     <string name="app_name_downloads">Lataukset</string>
     <string name="app_name_market">Sovelluskauppa</string>
-    <string name="app_name_miui">MIUI</string>
+    <string name="app_name_miui">Järjestelmäresurssit</string>
     <string name="app_name_miuimusic">Musiikki</string>
     <string name="app_name_miuiringtone">Soittoääni</string>
     <string name="app_name_miuiwallpaper">Taustakuvat</string>
@@ -65,6 +66,13 @@
     <string name="by_name">Nimi</string>
     <string name="by_size">Koko</string>
     <string name="by_type">Tyyppi</string>
+    <string name="call_notification_answer_action">Vastaa</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Hylkää</string>
+    <string name="call_notification_hang_up_action">Lopeta puhelu</string>
+    <string name="call_notification_incoming_text">Saapuva puhelu</string>
+    <string name="call_notification_ongoing_text">Käynnissä oleva puhelu</string>
+    <string name="call_notification_screening_text">Seulotaan saapuvaa puhelua</string>
     <string name="can_not_send_with_too_many">Useita kohteita ei voi lähettää kerralla</string>
     <string name="cancel">Peruuta</string>
     <string name="cancel_error">Ei voitu poistaa. Yritä uudelleen.</string>
@@ -145,6 +153,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="cloud_transfer_wait_download">Odotetaan latausta</string>
     <string name="cloud_transfer_wait_network">Odotetaan internetiä</string>
     <string name="cloud_transfer_wait_upload">Odotetaan latausta</string>
+    <string name="common_google_play_services_unknown_issue">Sovelluksella %1$s on ongelmia Google Play Palveluiden kanssa. Yritä uudelleen.</string>
     <string name="compress_fail">Pakkaaminen epäonnistui. Samanniminen tiedosto on jo olemassa.</string>
     <string name="compress_fail_unknown">Pakkaaminen epäonnistui. Tallennustila on täynnä tai tapahtui tuntematon virhe.</string>
     <string name="compress_message">Pakataan kohteeseen…</string>
@@ -160,6 +169,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="create_folder">Luo</string>
     <string name="create_shortcut_success">Pikavalinta lisätty onnistuneesti</string>
     <string name="cta_function_account_operation">Nopea kirjautuminen Xiaomi-tilillesi</string>
+    <string name="cta_use_sync_midrive_file">Tiedostojen synkronointi Mi Driveen</string>
     <string name="data_consume_dialog_message">Käytät tällä hetkellä mobiilidataa. Jos jatkat, tämä käyttää %s dataa.</string>
     <string name="data_consume_dialog_title">Käytä mobiilidataa?</string>
     <string name="data_consume_dialog_upload_title">Lataa mobiilidatan avulla</string>
@@ -179,6 +189,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="decompress_destination_error">Tiedostoja ei voi purkaa tähän sijaintiin.</string>
     <string name="decompress_encrypted_rar_not_supported">Salatut RAR-tiedostot eivät ole tuettuja.</string>
     <string name="decompress_fail">Ei voitu purkaa.</string>
+    <string name="decompress_fail_contains_special_characters">Ei voi pakata. Pakattujen tiedostojen nimet eivät saa sisältää erikoismerkkejä.</string>
     <string name="decompress_input_password">Anna salasana</string>
     <string name="decompress_password_error">Antamasi salasana on virheellinen.</string>
     <string name="decompress_success">Purku valmistui</string>
@@ -211,6 +222,9 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="dialog_type_video">Videot</string>
     <string name="disk_available">Saatavilla: </string>
     <string name="disk_total">Yhteensä: </string>
+    <string name="display_all_dirs">Kaikki kansiot</string>
+    <string name="display_hide_sys_dirs">Piilotetut järjestelmäkansiot</string>
+    <string name="display_mode">Näyttö</string>
     <string name="display_setting">Esillä olevat kohteet</string>
     <string name="doc_all">Kaikki</string>
     <string name="downloading">Ladataan</string>
@@ -261,6 +275,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="favorite_photo">Valokuvat</string>
     <string name="favorite_ringtone">Soittoäänet</string>
     <string name="favorite_screen_cap">Kuvakaappaukset</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Lukukelpoinen: </string>
     <string name="file_info_canwrite">Kirjoitettavissa: </string>
     <string name="file_info_ishidden">Piilotettu: </string>
@@ -330,10 +345,11 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="friday">Perjantai</string>
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
-    <string name="ftp_account_req_notice">Käyttäjätunnus ja salasana tunnistavat isot ja pienet kirjaimet, ja niiden tulee sisältää %1$d-%2$d merkkiä. Voit yhdistää englanninkielisiä kirjaimia, erikoismerkkejä ja numeroita.</string>
+    <string name="ftp_account_req_notice">Käyttäjätunnuksen ja salasanan tulee sisältää %1$d–%2$d merkkiä, isot ja pienet kirjaimet erottuvat, eivätkä ne saa sisältää erikoismerkkejä.</string>
     <string name="ftp_anonymous_login">Kirjaudu sisään anonyymisti</string>
     <string name="ftp_anonymous_warning_msg">Anonymisointiominaisuudet voivat aiheuttaa tietoturvariskejä. Käytetäänkö ominaisuutta siitä huolimatta?</string>
     <string name="ftp_anonymous_warning_title">Huomio</string>
+    <string name="ftp_invalid_username">Käyttäjätunnus ei voi sisältää erikoismerkkejä. Syötä toinen nimi.</string>
     <string name="ftp_invalid_username_or_password">Syöttämäsi käyttäjänimi tai salasana on väärin.</string>
     <string name="ftp_open_port_error">Portin avaaminen epäonnistui. Tarkasta verkkoyhteytesi tai nollaa portin numero.</string>
     <string name="ftp_password_hint">Salasana</string>
@@ -341,6 +357,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="ftp_transfer_secure">Turvallisuus</string>
     <string name="ftp_username_and_passworld">Kirjaudu sisään</string>
     <string name="ftp_username_hint">Käyttäjänimi</string>
+    <string name="func_settings">Ominaisuuksien asetukset</string>
     <string name="function_file_operation">Tiedostojen näyttämiseen tai muokkaamiseen</string>
     <string name="function_set_private">Tiedostojen tarkasteluun ja salaamiseen</string>
     <string name="function_use_imei">Kohteen IMEI käyttämiseen ja tiedostojen salaamiseen</string>
@@ -378,6 +395,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="instruction_pre_pad">Hallitse tämän laitteen tiedostoja tietokoneella</string>
     <string name="instruction_pre_phone">Hallitse tämän laitteen tiedostoja tietokoneella</string>
     <string name="internal_storage">Sisäinen tallennustila</string>
+    <string name="internal_storage_device">Laite</string>
     <string name="just_now">Juuri nyt</string>
     <string name="lack_perm_msg">Tiedostonhallinta vaatii seuraavat käyttöoikeudet toimiakseen normaalisti: &lt;b>%s&lt;/b></string>
     <string name="lack_perm_title">Käyttöoikeuksia vaaditaan</string>
@@ -401,6 +419,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="manage_cloud_space">Hallitse pilvitallennustilaa</string>
     <string name="menu_item_cleanup">Puhdista</string>
     <string name="menu_item_ftp">Yhdistä tietokoneeseen</string>
+    <string name="menu_item_midrop">Siirrä tiedostoja</string>
     <string name="menu_item_router">Reititin</string>
     <string name="menu_item_search">Etsi</string>
     <string name="menu_item_sort">Järjestä</string>
@@ -448,20 +467,23 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="mirror_tip_refresh">Virkistä</string>
     <string name="mirror_tip_show_type">Järjestä</string>
     <string name="miuix_access_state_desc">Valittu</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Lisää</string>
     <string name="miuix_appcompat_cancel_description">Peruuta</string>
     <string name="miuix_appcompat_confirm_description">Vahvista</string>
     <string name="miuix_appcompat_delete_description">Poista</string>
-    <string name="miuix_appcompat_deselect_all">Poista valinta</string>
+    <string name="miuix_appcompat_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_deselect_all_description">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Peruuta</string>
     <string name="miuix_appcompat_search_input_description">Etsi</string>
     <string name="miuix_appcompat_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_select_all_description">Valitse kaikki</string>
     <string name="miuix_appcompat_select_item">Valitse kohteet</string>
+    <string name="miuix_navigator_content_switch_description">Näytä sivupalkki</string>
+    <string name="miuix_navigator_multiple_choice">Valitse</string>
+    <string name="miuix_navigator_navigator_switch_description">Piilota sivupalkki</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Virkistä vetämällä alas</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Virkistetty onnistuneesti</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Virkistetään…</string>
@@ -521,6 +543,8 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="mtp_device">Medialaite (MTP)</string>
     <string name="mtp_label">MTP</string>
     <string name="name_empty">Syötä nimi</string>
+    <string name="navigator_label_all_files">Kaikki tiedostot</string>
+    <string name="navigator_label_external_devices">Ulkoiset laitteet</string>
     <string name="need_open_content">Salli Tiedostonhallinnan käyttää valokuviasi ja tiedostojasi käyttääksesi tätä ominaisuutta.</string>
     <string name="need_open_permission">Käyttöoikeuksia vaaditaan</string>
     <string name="need_read_storage_permission">Tiedostonhallinta vaatii oikeuden käyttää laitteen tallennustilaa toimiakseen normaalisti.</string>
@@ -563,6 +587,8 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="operation_compress">Pakkaa</string>
     <string name="operation_compressing">Pakataan…</string>
     <string name="operation_copy">Kopioi</string>
+    <string name="operation_copy_clipboard">Kopioi leikepöydälle</string>
+    <string name="operation_copy_local">Kopioi kansioon</string>
     <string name="operation_create_folder">Luo kansio</string>
     <string name="operation_create_folder_message">Nimeä kansio</string>
     <string name="operation_create_folder_name_conflict">Kansiota ei voitu luoda. Tämänniminen kansio on jo olemassa.</string>
@@ -573,6 +599,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="operation_decompressing">Puretaan…</string>
     <string name="operation_del_fav">Poistetaan suosikeista…</string>
     <string name="operation_delete">Poista</string>
+    <string name="operation_delete_confirm_dcim_message_folder">DCIM on Galleria-kansio. Jos poistat tämän kansion, myös kaikki siinä olevat kohteet poistetaan pysyvästi Galleriasta. Poistetaanko tämä kansio silti?</string>
     <string name="operation_delete_confirm_message">Poistetaanko?</string>
     <string name="operation_delete_confirm_message_folder">"Kaikki kansiossa oleva sisältö poistetaan.
 "</string>
@@ -648,12 +675,16 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="permission_account_title_pad">Pääsy laitetileihin</string>
     <string name="permission_denial">Tiedostoja ei voitu käyttää. Salli Tiedostonhallinnalle käyttöoikeus tiedostoihin Asetuksista.</string>
     <string name="permission_description">Käyttöoikeustiedot</string>
+    <string name="permission_group_description_phone">Kun asetat tiedoston yksityiseksi, tämä sovellus kerää laitteesi IMEI-koodin tunnistamista, tallennusta ja lukituksen avaamista varten</string>
+    <string name="permission_group_description_storage_space">Käytä ja lisää kohteita tallennustilaan</string>
+    <string name="permission_group_name_phone">Puhelin</string>
+    <string name="permission_group_name_storage_space">Tallennustila</string>
     <string name="permission_required">Tiedostoja ei voitu käyttää. Salli Tiedostonhallinnalle käyttöoikeus tiedostoihin Asetuksista.​</string>
     <string name="permission_storage_desc_pad">Valokuvien ja asiakirjojen tallentamiseen laitteellesi</string>
     <string name="permission_storage_title">Pääsy laitteen tallennustilaan</string>
     <string name="permission_storage_title_pad">Pääsy laitteen tallennustilaan</string>
-    <string name="phone">Sisäinen tallennustila</string>
-    <string name="phone_storage">Muisti</string>
+    <string name="phone">Tallennustila</string>
+    <string name="phone_storage">Tallennustila</string>
     <string name="phone_storage_apk_title">APK:t:</string>
     <string name="phone_storage_audio_title">Musiikki:</string>
     <string name="phone_storage_cal">Tarkistetaan…</string>
@@ -670,6 +701,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="pick_folder">Valitse kansio</string>
     <string name="pm">ip.</string>
     <string name="port_range">Portin numeron on oltava välillä 1024-65535</string>
+    <string name="positive_order">Lähetä edelleen</string>
     <string name="pre_privacy_recall">Suostumuksen peruuttaminen</string>
     <string name="pref_permission_allowed">Myönnetty</string>
     <string name="pref_permission_manage_key_storage">Pääsy laitteen valokuviin tai tiedostoihin</string>
@@ -677,7 +709,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
     <string name="privacy_policy">Tietosuojakäytäntö</string>
     <string name="privacy_policy_renew">Päivitetty tietosuojakäytäntö</string>
-    <string name="privacy_policy_renew_content">&lt;Data>Tiedostonhallinnan &lt;a href=\"%1$s\">tietosuojakäytäntö&lt;/a> päivitettiin. Ymmärtääksesi täysin oikeutesi käyttäjänä sekä tavat, joilla käytämme tietojasi, lue ja hyväksy tietosuojakäytännön uusi versio ennen kuin jatkat.&lt;/Data></string>
+    <string name="privacy_policy_renew_content"><Data>Tiedostonhallinnan &lt;a href=\"%1$s\">tietosuojakäytäntö&lt;/a> päivitettiin. Ymmärtääksesi täysin oikeutesi käyttäjänä sekä tavat, joilla käytämme tietojasi, lue ja hyväksy tietosuojakäytännön uusi versio ennen kuin jatkat.</Data></string>
     <string name="privacy_recall_alert_description" formatted="false">Tyhjennä kaikki kohteet Mi Drivesta, jotta voit peruuttaa suostumuksen. Tyhjennä kohteet seuraavasti:&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_1 refersto=1>%1d&lt;/xliff:g>. Paina ja pidä Mi Driven aloitussivulla kohdetta, jolloin \"Valitse kaikki\" -painike tulee näkyviin. Tällä painikkeella voit valita enintään 200 tiedostoa kerralla ja poistaa ne.&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_2 refersto=2>%2d&lt;/xliff:g>. Tämän jälkeen tyhjennä äskettäin poistetut kohteet.</string>
     <string name="privacy_recall_alert_reminder_card_summary" formatted="false">&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Suosittelemme varmuuskopioimaan kohteet ennen niiden poistamista. Voit tehdä tämän siirtymällä osoitteeseen i.mi.com, napsauttamalla Mi Drivea ja lataamalla kohteet tietokoneelle.&lt;br />&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g> . Huomaathan, että äskettäin poistettuja kohteita ei voi palauttaa poistamisen jälkeen.</string>
     <string name="privacy_recall_confirm_button">Peruuta suostumus</string>
@@ -699,6 +731,9 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="qq_title">WeChat-asiakirjoihin ei pääse</string>
     <string name="query_quota_exception">Tapahtui palvelinvirhe. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="query_quota_searching">Hetki vain…</string>
+    <string name="recent_file_by_source">Tiedoston lähde</string>
+    <string name="recent_file_sort_by_date">Päivämäärä</string>
+    <string name="recent_file_sort_type">Järjestä</string>
     <string name="recent_hide_camera_and_screenshots">Älä näytä Gallerian kohteita ja kuvakaappauksia viimeisimpien tiedostojen joukossa</string>
     <string name="recent_hide_cloud_drive_files">Älä näytä Mi Drive -tiedostoja Viimeaikaisissa</string>
     <string name="refresh_success">Virkistys valmis</string>
@@ -720,6 +755,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="request_timeout">Verkkopyynnön aikakatkaisu</string>
     <string name="reset_password">Vaihda salasana</string>
     <string name="restoring">Palautetaan…</string>
+    <string name="reverse_order">Kumoa</string>
     <string name="rlv_last_refreshing_time">Päivitetty %1$s</string>
     <string name="rlv_loading_more">Hetki vain…</string>
     <string name="rlv_pull_to_refresh">Virkistä vetämällä alas</string>
@@ -733,9 +769,10 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="search_app_more">Lisää</string>
     <string name="search_category">Kategoriat</string>
     <string name="search_category_folder">Kansiot</string>
+    <string name="search_category_type">Hae kategorian mukaan</string>
     <string name="search_description">Etsi kaikki laitteen tiedostot</string>
     <string name="search_empty_view_hint">Mitään ei löytynyt</string>
-    <string name="search_error_hint">Hae</string>
+    <string name="search_error_hint">Etsi</string>
     <string name="search_file_type_apk">Apk</string>
     <string name="search_file_type_doc">Asiakirja</string>
     <string name="search_file_type_music">Musiikki</string>
@@ -748,11 +785,13 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="search_more_category">Lisää</string>
     <string name="search_result">Tulokset</string>
     <string name="search_result_more">Lisää</string>
+    <string name="search_text_hint">Etsi tiedostoja</string>
     <string name="search_title">Etsi</string>
     <string name="search_title_hint">Etsi</string>
     <string name="select_dest_folder">Valitse kansio</string>
     <string name="select_image">Kuvat</string>
     <string name="select_music">Äänitiedostot</string>
+    <string name="select_pdf">Valitse PDF</string>
     <string name="select_video">Videotiedostot</string>
     <string name="select_volume">Valitse tallennuspaikka</string>
     <string name="send">Lähetä</string>
@@ -762,6 +801,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="set_pattern">Päivitä salasanasi</string>
     <string name="set_pattern_btn">Aseta</string>
     <string name="set_pattern_msg">Aseta salasanasi uudelleen. Yksityisyydensuojan salasana toimii myös valokuvien, viestien ja muistiinpanojen yhteydessä.</string>
+    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">Pienempi kuin %d kt</string>
     <string name="size_lv2" formatted="false">%1d kt - %2d Mt</string>
     <string name="size_lv3" formatted="false">%1d Mt - %2d Mt</string>
@@ -774,8 +814,10 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="sort_hint_name">Järjestetty nimen mukaan</string>
     <string name="sort_hint_time">Järjestetty ajan mukaan</string>
     <string name="sort_hint_type">Järjestetty tyypin mukaan</string>
+    <string name="sort_mode">Järjestelyperuste</string>
     <string name="sort_size_asc">Pienimmästä suurimpaan</string>
     <string name="sort_size_desc">Suurimmasta pienimpään</string>
+    <string name="sort_type">Suodatin</string>
     <string name="start_all">Näytä kaikki</string>
     <string name="start_doc">Asiakirjat</string>
     <string name="start_phone">Tiedostot</string>
@@ -863,6 +905,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="title_select_volume">Valitse kansio</string>
     <string name="to_open">Asetukset</string>
     <string name="to_setting">Asetukset</string>
+    <string name="toast_copy_clipboard">Lisätty leikepöydälle</string>
     <string name="toast_file_not_can_read">Tälle toiminnolle ei löytynyt yhtään sovellusta.</string>
     <string name="today">Tänään</string>
     <string name="tomorrow">Huomenna</string>
@@ -898,7 +941,10 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="v7_preference_on">KÄYTÖSSÄ</string>
     <string name="video_data_consume_dialog_confirm">Jatka</string>
     <string name="video_data_consume_dialog_title">Käytä mobiilidataa?</string>
+    <string name="view_mode_grid">Ruudukko</string>
+    <string name="view_mode_list">Lista</string>
     <string name="view_type">Näytä</string>
+    <string name="view_type_mode">Asettelu</string>
     <string name="web_sso_login_fail">Sinun täytyy kirjautua uudelleen</string>
     <string name="web_sso_login_message">Kirjaudutaan…</string>
     <string name="webview_reload">Yritä uudelleen</string>

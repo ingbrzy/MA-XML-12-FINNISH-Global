@@ -32,9 +32,8 @@
     <string name="am">ap.</string>
     <string name="app_name">Näytöntallennin</string>
     <string name="app_notification_channel_record_complete">Ilmoitukset valmiista tallennuksista</string>
-    <string name="app_notification_info">Näytöntallennin toimii taustalla</string>
-    <string name="app_notification_record_saved">"Tallennus onnistui
-Näytä napauttamalla"</string>
+    <string name="app_notification_info">Nyt tallennetaan näyttöä…</string>
+    <string name="app_notification_record_saved">Näytön tallennus tallennettu. Näytä napauttamalla.</string>
     <string name="app_notification_title">Näytöntallennin</string>
     <string name="auto_stop_title">Video tallennettu onnistuneesti</string>
     <string name="battery_not_allowed_warning">Ei voi tallentaa, kun akun varaus on alle %1$s. Varmista, että akkua on ladattu vähintään %2$s.</string>
@@ -61,7 +60,7 @@ Näytä napauttamalla"</string>
     <string name="date_picker_lunar">Perinteinen kiinalainen kalenteri</string>
     <string name="date_time_picker_dialog_title">Aseta päivä ja aika</string>
     <string name="date_year">/</string>
-    <string name="description_content">Näytöntallennin tarjoaa järjestelmätason tallennusominaisuuksia. Et voi käyttää Näytöntallennin -ohjelmaa, jos jatkat. Vahvista jatkaaksesi.</string>
+    <string name="description_content">Näytöntallennin tarjoaa järjestelmätason tallennusominaisuuksia. Et voi käyttää Näytöntallenninta, jos jatkat. Vahvista jatkaaksesi.</string>
     <string name="description_title">Tietoja Näytöntallentimesta</string>
     <string name="deselect_all">Kumoa kaikkien valinta</string>
     <string name="early_morning">Aamu</string>
@@ -148,7 +147,7 @@ Näytä napauttamalla"</string>
     <string name="loopback_sound">Kaiutin</string>
     <string name="low_battery">Lataa puhelimesi ennen nauhoituksen aloittamista</string>
     <string name="low_battery_for_pad">Lataa laite ennen tallennuksen aloittamista</string>
-    <string name="low_battery_title">Alhainen akunvaraus</string>
+    <string name="low_battery_title">Akku vähissä</string>
     <string name="low_battery_warning">Akkua on liian vähän. Tallennus pysäytetty ja video tallennettu.</string>
     <string name="low_memory_for_pad">Sinulla on alle %1$d Gt muistia käytettävisää. Voit tallentaa enintään %2$d minuuttia nyt.</string>
     <string name="low_memory_for_phone">Sinulla on alle %1$d Gt muistia käytettävisää. Voit tallentaa enintään %2$d minuuttia nyt.</string>
@@ -158,14 +157,14 @@ Näytä napauttamalla"</string>
     <string name="mic_sound">Mikrofoni</string>
     <string name="midnight">Yö</string>
     <string name="miuix_access_state_desc">Valittu</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Lisää</string>
     <string name="miuix_appcompat_cancel_description">Peruuta</string>
     <string name="miuix_appcompat_confirm_description">Vahvista</string>
     <string name="miuix_appcompat_delete_description">Poista</string>
-    <string name="miuix_appcompat_deselect_all">Poista valinta</string>
+    <string name="miuix_appcompat_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_deselect_all_description">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Peruuta</string>
     <string name="miuix_appcompat_search_input_description">Etsi</string>
@@ -236,7 +235,9 @@ Näytä napauttamalla"</string>
     <string name="pm">ip.</string>
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
     <string name="privacy_settings">Tietosuoja</string>
+    <string name="protect_oneself_when_recording">Puhelun tallennus. Suojaa omaa ja muiden ihmisten yksityisyyttä käyttäessäsi tätä ominaisuutta.</string>
     <string name="quit_recording">Sulje Näytöntallennin</string>
+    <string name="record_time_too_short">Nauhoitettu video on liian lyhyt</string>
     <string name="recording_failure">Ei voitu tallentaa, aloita uudestaan</string>
     <string name="recording_max_size">Tallennus keskeytettiin ja tallennettiin, koska videotiedosto saavutti kokorajoituksensa. Aloita tallennus siitä, mistä lopetit, jos et ole vielä päättänyt.</string>
     <string name="recording_without_mic">Mikrofoni on käytössä ja ei voi nauhoittaa ääntä nyt.</string>
@@ -253,7 +254,7 @@ Näytä napauttamalla"</string>
     <string name="select_all">Valitse kaikki</string>
     <string name="send">Lähetä</string>
     <string name="settings">Asetukset</string>
-    <string name="settings_other">Muut</string>
+    <string name="settings_other">Muu</string>
     <string name="settings_privacy">Tietosuojakäytäntö</string>
     <string name="show_hard_key">Tarkastele navigointipainikkeita</string>
     <string name="show_hard_key_new">Näytä painikkeiden napautukset</string>
@@ -263,7 +264,7 @@ Näytä napauttamalla"</string>
     <string name="show_screen_touch_summary">Tarkastele eleitä valkoisen pisteen avulla</string>
     <string name="size_byte">t</string>
     <string name="size_gigabyte">Gt</string>
-    <string name="size_kilobyte">Kt</string>
+    <string name="size_kilobyte">kt</string>
     <string name="size_megabyte">Mt</string>
     <string name="sound_source">Äänilähde</string>
     <string name="sound_source_summary">Järjestelmän äänet tai mikrofoni</string>
