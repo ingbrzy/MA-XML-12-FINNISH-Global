@@ -206,7 +206,6 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="dialog_backup_password_change_machine_tips">Et voi siirtää salasanalla suojattuja varmuuskopioita. Poista varmuuskopioinnin salasana käytöstä ennen kuin käytät kohdetta Mi Mover.</string>
     <string name="dialog_backup_password_restore_tips">Kohteiden palautus ei onnistu, kun varmuuskopioinnin salasana on käytössä. Poista varmuuskopioinnin salasana käytöstä ensin.</string>
     <string name="dialog_backup_password_to_settings">Asetukset</string>
-    <string name="digit_percent">%</string>
     <string name="dir_date_format">ddMMyyyy_HHmmss</string>
     <string name="disable_encrypt_description">Ei salattu</string>
     <string name="disable_encrypt_title">Poista salaus käytöstä</string>
@@ -369,7 +368,6 @@ sinun on luotava ensin iCloud-varmuuskopio."</string>
     <string name="import_data_from_icloud">Tuo tietoja kohteesta iCloud</string>
     <string name="import_from_xiaomi_account_hint2">Jos sinulla on jo varmuuskopio, paina Seuraava.</string>
     <string name="import_from_xiaomi_account_hint_title">Käytä kohdetta Mi Talk varmuuskopioidaksesi yhteystietosi laitteelta toiselle.</string>
-    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">Yhteensopivuusongelmien vuoksi voit siirtää vain osittain tiedostoja iOS-laitteista. Varmista, että luot iCloud-varmuuskopion ennen siirron aloittamista.</string>
     <string name="item_view_role_description">Välilehti</string>
     <string name="lack_perm_msg">Mi Mover vaatii seuraavat käyttöoikeudet: &lt;b>%s&lt;/b>.</string>
@@ -506,7 +504,6 @@ sinun on luotava ensin iCloud-varmuuskopio."</string>
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>

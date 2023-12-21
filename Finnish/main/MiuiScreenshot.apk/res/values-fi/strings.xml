@@ -364,17 +364,12 @@ vierivän kuvakaappauksen"</string>
     <string name="screen_editor_btn_save">Tallenna</string>
     <string name="screen_editor_btn_shell_off">Poista laitekehys</string>
     <string name="screen_editor_btn_shell_on">Lisää laitekehys</string>
-    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
     <string name="screen_editor_delete_dialog_msg">Poistetaanko tämä kuvakaappaus?</string>
     <string name="screen_editor_delete_dialog_picture_msg">Poistetaanko tämä kuva nyt?</string>
-    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Valmis</string>
-    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
-    <string name="screen_editor_send">@string/operation_send</string>
     <string name="screen_editor_shell_disallowed_with_crop">Laitekehystä ei voi lisätä rajattuihin kuvakaappauksiin</string>
     <string name="screen_editor_shell_net_error">Yhdistä verkkoon ladataksesi laitekehyksen</string>
     <string name="screen_editor_shell_res_downloading">Ladataan laitekehystä…</string>
-    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Peruuta</string>
     <string name="screen_save_dialog_btn_delete">Poista kuvakaappaus</string>
     <string name="screen_save_dialog_btn_save">Tallenna Galleriaan</string>

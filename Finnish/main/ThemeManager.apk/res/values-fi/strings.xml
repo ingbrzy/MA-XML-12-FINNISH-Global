@@ -252,9 +252,7 @@
     <string name="exo_download_paused_for_wifi">Lataukset odottavat Wi-Fi-yhteyttä</string>
     <string name="exo_download_removing">Poistetaan latauksia</string>
     <string name="exo_item_list">%1$s, %2$s</string>
-    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Mono</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Vaihtoehtoinen</string>
     <string name="exo_track_role_closed_captions">Tekstitykset</string>
     <string name="exo_track_role_commentary">Kommenttiraita</string>
@@ -394,7 +392,6 @@
     <string name="incompatible_dialog_ok">Selvä</string>
     <string name="incompatible_dialog_title">Yhteensopivuusongelmat</string>
     <string name="is_setting_wallpaper_message">Asetetaan taustakuvaa…</string>
-    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Hälytykset</string>
     <string name="item_resource_audio_optional_color_ring">Soittoääni</string>
     <string name="item_resource_audio_optional_notification_ring">Ilmoitukset</string>
@@ -564,7 +561,6 @@ mm"</string>
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -833,7 +829,6 @@ mm"</string>
     <string name="resource_pack_price_info">Alkuperäinen hinta: %1$s</string>
     <string name="resource_pack_warning">Olet jo ostanut %1$d osaa tästä teemasta. On halvempaa, jos ostat jäljellä olevat osat erikseen.</string>
     <string name="resource_present">Lahja</string>
-    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Ilmainen</string>
     <string name="resource_price_unit">Mi Credits</string>
     <string name="resource_purchase_common_error">Tapahtui virhe, yritä myöhemmin uudelleen</string>
@@ -971,7 +966,6 @@ mm"</string>
     <string name="somatosensory_temperature_format">Tuntuu kuin %s°</string>
     <string name="special_topic">Kategoriat</string>
     <string name="start_all">Jatka kaikkia</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="still_apply">Ota käyttöön</string>
     <string name="storage_file">Ladattujen kohteiden tallentamiseksi</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -1103,7 +1097,6 @@ mm"</string>
     <string name="theme_is_external_priority_storage">Tallenna SD-kortille</string>
     <string name="theme_is_external_priority_storage_summary">Teema-sovellus käynnistyy uudelleen heti tämän asetuksen asettamisen jälkeen.</string>
     <string name="theme_multiple_button_title_customize">Muokkaa</string>
-    <string name="theme_name">%1$s</string>
     <string name="theme_no">Ei</string>
     <string name="theme_on_the_phone_alert">Ei voi toistaa puheluiden aikana</string>
     <string name="theme_recommend">Samankaltaiset teemat</string>

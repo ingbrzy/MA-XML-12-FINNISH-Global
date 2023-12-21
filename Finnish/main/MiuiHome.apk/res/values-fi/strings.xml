@@ -519,7 +519,6 @@ Parannettu suojaus."</string>
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -732,7 +731,6 @@ Parannettu suojaus."</string>
     <string name="small_window">Kelluva ikkuna</string>
     <string name="start_activity_failed">Käynnistysohjelmaa ei voi käynnistää</string>
     <string name="start_new_window">Uusi ikkuna</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s Gt</string>
     <string name="status_bar_recent_memory_info1">%1$s/%2$s saatavilla</string>
     <string name="status_bar_recent_memory_info2" />
