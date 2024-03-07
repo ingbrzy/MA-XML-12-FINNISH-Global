@@ -16,7 +16,6 @@
     <string name="provider_label">Yhteystiedot</string>
     <string name="sharedUserLabel">Android Core-sovellukset</string>
     <string name="sim_state_changed">SIM-kortti vaihdettu</string>
-    <string name="third_party_delete_contact_info">\"%s\" yrittää poistaa yhteystietosi. Kolmannen osapuolen sovellukset eivät voi suorittaa tätä toimintoa. Jos haluat poistaa yhteystietoja, käytä sen sijaan MIUI:n sisäänrakennettua yhteystietosovellusta.</string>
     <string name="update_accounts_changed">Tilit vaihdettu</string>
     <string name="upgrade_out_of_memory_notification_text">Napauta, jos haluat suorittaa päivityksen.</string>
     <string name="upgrade_out_of_memory_notification_ticker">Päivitys vaatii enemmän muistia.</string>

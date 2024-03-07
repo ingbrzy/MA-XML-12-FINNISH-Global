@@ -34,19 +34,22 @@
     <string name="app_name">Peilaus</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
-    <string name="app_ver_name">1.0</string>
+    <string name="app_ver_name">1,0</string>
     <string name="bottomsheet_action_expand_halfway">Laajenna puoliväliin</string>
+    <string name="cast_auth_count_down">Aloita suoratoisto antamalla koodi kohteesta %1$s (%2$ds)</string>
+    <string name="cast_auth_title">Syötä koodi</string>
     <string name="cast_image_des">Suoratoisto-ohje</string>
-    <string name="casting_tips">Peilataan…</string>
+    <string name="casting_tips">Jaetaan näyttöä…</string>
     <string name="character_counter_content_description">%1$d/%2$d merkkiä kirjoitettu</string>
     <string name="character_counter_overflowed_content_description">Merkkiraja ylitetty: %1$d/%2$d</string>
     <string name="clear_text_end_icon_content_description">Tyhjennä teksti</string>
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
     <string name="close">Sulje</string>
-    <string name="close_hotspot_hint">Sammuta kannettava tukiasema ennen peilausta</string>
+    <string name="close_auxiliary_wifi_hint">Poista \"Kaksoisrannekkeen Wi-Fi-nopeuden lisäys\" käytöstä, jotta voit jakaa näytön</string>
+    <string name="close_auxiliary_wifi_hint_china">Turn off \"Dual band WLAN speed boost\" to be able to cast</string>
+    <string name="close_dp_casting_hint">Irrota kaapeli ja yritä uudelleen</string>
+    <string name="close_hotspot_hint">Sammuta kannettava tukiasema ennen näytönjakoa</string>
     <string name="close_hotspot_hint_DFS">Jos haluat siirtää kohteita televisioon, sammuta ensin tukiasema.</string>
-    <string name="close_slave_wifi_hint">Katkaise yhteys ylimääräisistä Wi-Fi-verkoista ennen peilausta</string>
-    <string name="close_slave_wifi_hint_china">Disconnect from auxiliary WLAN networks before casting</string>
     <string name="common_google_play_services_unknown_issue">Sovelluksella %1$s on ongelmia Google Play Palveluiden kanssa. Yritä uudelleen.</string>
     <string name="config_wifi_label_china">Xiaomi Conference Tapcast WLAN</string>
     <string name="config_wifi_label_global">Xiaomi Conference Tapcast Wi-Fi</string>
@@ -63,30 +66,31 @@
     <string name="date_picker_lunar">Perinteinen kiinalainen kalenteri</string>
     <string name="date_time_picker_dialog_title">Aseta päivä ja aika</string>
     <string name="device_desc_trust">Luotetut laitteet</string>
-    <string name="dialog_can_not_find_device">Laitteita ei löytynyt lähistöllä</string>
+    <string name="dialog_can_not_find_device">Laitteita ei löytynyt lähellä</string>
     <string name="dialog_cancle">Peruuta</string>
+    <string name="dialog_close">Sammuta</string>
     <string name="dialog_connect_fail">Ei voitu yhdistää</string>
     <string name="dialog_connect_retry">Yritä uudelleen napauttamalla</string>
-    <string name="dialog_connect_verify_perssion">Valtuuta peilaus televisiossasi ensin</string>
-    <string name="dialog_connect_verify_perssion_fail">Television peilauksen valtuuttaminen epäonnistui. Odota pari minuuttia ja yritä uudelleen.</string>
+    <string name="dialog_connect_verify_perssion">Valtuuta näytönjako televisiossasi ensin</string>
+    <string name="dialog_connect_verify_perssion_fail">Television näytönjaon valtuuttaminen epäonnistui. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="dialog_connected">Yhdistetty</string>
     <string name="dialog_connecting">Yhdistetään…</string>
     <string name="dialog_location_permission_message">Tämän sovelluksen on päästävä sijaintiisi, jotta se voi löytää lähistöltä ulkoisia näyttöjä. Valitse \"Salli koko ajan\" samalla kun annat tämän luvan mahdollisten virheiden välttämiseksi.</string>
     <string name="dialog_location_permission_title">Käyttöoikeuksia vaaditaan</string>
-    <string name="dialog_miplay_permission_message">Salli kohteen Casting nauhoittaa ääntä, käyttää tiedostoja sisäisessä tallennustilassa ja käyttää sijaintiasi voidaksesi käyttää tätä ominaisuutta normaalisti. Napauta \"Asetukset\" ja valitse \"Sovelluksen käyttöoikeudet\" jatkaaksesi.</string>
+    <string name="dialog_miplay_permission_message">Salli Näytönjaon nauhoittaa ääntä, käyttää tiedostoja sisäisessä tallennustilassa ja käyttää sijaintiasi voidaksesi käyttää tätä ominaisuutta normaalisti. Napauta \"Asetukset\" ja valitse \"Sovelluksen käyttöoikeudet\" jatkaaksesi.</string>
     <string name="dialog_miplay_permission_positive">Asetukset</string>
     <string name="dialog_miplay_permission_title">Käyttöoikeuksia vaaditaan</string>
-    <string name="dialog_nearbydevice_permission_message">Salli tämän laitteen käyttää lähellä olevia laitteita, jotta se voi käyttää suoratoisto-ominaisuuksia.</string>
+    <string name="dialog_nearbydevice_permission_message">Salli tämän laitteen käyttää lähellä olevia laitteita, jotta se voi käyttää näytönjako-ominaisuuksia.</string>
     <string name="dialog_nearbydevice_permission_title">Käyttöoikeuksia vaaditaan</string>
     <string name="dialog_nfc_cast_wifi_off">Kytke WLAN päälle, jotta peilaus voi tapahtua kohdetta NFC käyttämällä. Ota nyt käyttöön?</string>
-    <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Yhdistä mobiililaite ja televisio samaan Wi-Fi-verkkoon.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Joissakin televisiomalleissa tämä ominaisuus on käytettävissä vain, kun näytön peilaus on käytössä. Katso &lt;a href=milink://com.milink.service/specification>\"Ohje\"&lt;/a> tutustuaksesi lisää.&lt;/Data></string>
-    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
+    <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Yhdistä mobiililaite ja televisio samaan Wi-Fi-verkkoon.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Joissakin televisiomalleissa tämä ominaisuus on käytettävissä vain, kun näytön peilaus on käytössä. Katso &lt;a href=milink://com.milink.service/specification>\"Ohje\"&lt;/a> tutustuaksesi lisää.</Data></string>
+    <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Suoratoista valokuvia, videoita tai musiikkia</string>
     <string name="dialog_open_wifi_bt">Ota käyttöön</string>
-    <string name="dialog_please_make_sure_tv_ok_or_help">"Varmista, että langaton lähetystoiminto on kytketty päälle kohdelaitteessa.
+    <string name="dialog_please_make_sure_tv_ok_or_help">"Varmista, että langaton näytönjakotoiminto on kytketty päälle kohdelaitteessa.
 Katso ohjeita, jos yhteyden muodostamisessa on ongelmia."</string>
-    <string name="dialog_recent_connected">Viimeaikaiset</string>
+    <string name="dialog_recent_connected">Viimeaikainen</string>
     <string name="dialog_retry">Yritä uudelleen</string>
     <string name="dialog_scan_message">"%1$d. Yhdistä mobiililaite ja televisio samaan Wi-Fi-verkkoon.
 
@@ -94,18 +98,23 @@ Katso ohjeita, jos yhteyden muodostamisessa on ongelmia."</string>
     <string name="dialog_scan_message_china">"%1$d. Yhdistä mobiililaite ja televisio samaan WLAN-verkkoon.
 
 %2$d. Katso \"Ohje\" saadaksesi lisätietoja."</string>
-    <string name="dialog_scanning_device">Etsitään lähistöllä olevia laitteita…</string>
+    <string name="dialog_scanning_close_dual_wifi_china">Turn off \"Dual band WLAN speed boost\" to be able to cast. Turn this feature off now?</string>
+    <string name="dialog_scanning_close_dual_wifi_global">Poista \"Kaksoisrannekkeen Wi-Fi-nopeuden lisäys\" käytöstä, jotta voit jakaa näytön. Poistetaanko tämä ominaisuus käytöstä nyt?</string>
+    <string name="dialog_scanning_close_tethering">Sammuta tukiasema, jotta voit suoratoistaa. Poistetaanko tukiasema käytöstä nyt?</string>
+    <string name="dialog_scanning_device">Etsitään lähellä olevia laitteita…</string>
     <string name="dialog_scanning_precondition">Ota langaton näyttö käyttöön puhelimen Wi-Fi:n ja Bluetoothin avulla.</string>
     <string name="dialog_scanning_precondition_new_china">Ota WLAN, Bluetooth ja sijaintipalvelut käyttöön, jotta voit käyttää peilausta. Otetaanko nyt käyttöön?</string>
-    <string name="dialog_scanning_precondition_new_global">Ota Wi-Fi ja sijaintipalvelut käyttöön, jotta voit käyttää peilausta. Otetaanko nyt käyttöön?</string>
+    <string name="dialog_scanning_precondition_new_global">Ota Wi-Fi ja sijaintipalvelut käyttöön, jotta voit käyttää näytönjakoa. Otetaanko nyt käyttöön?</string>
     <string name="dialog_select_tv">Valitse laite (%1$d)</string>
-    <string name="dialog_show_help">Ohje</string>
-    <string name="disconnect">Lopeta peilaus</string>
+    <string name="dialog_show_help">Tuki</string>
+    <string name="disconnect">Lopeta näytönjako</string>
+    <string name="dp_casting_start_hint">Kytketty kaapelilla. Suoratoisto on päättynyt.</string>
     <string name="dual_wifi_warning_china">Turn off dual WLAN and try again</string>
     <string name="dual_wifi_warning_global">Poista kaksois-Wi-Fi käytöstä ja yritä uudelleen</string>
     <string name="early_morning">Aamu</string>
     <string name="empty" />
     <string name="enable_screen_projection_summary">Peilaa näytön sisältö ulkoiseen näyttöön</string>
+    <string name="enable_screen_projection_summary_new">Suoratoista mobiililaitteen näyttö lähellä oleviin televisioihin ja muihin ulkoisiin monitoreihin</string>
     <string name="eras_ad">jKr.</string>
     <string name="eras_bc">eKr.</string>
     <string name="error_icon_content_description">Virhe</string>
@@ -168,24 +177,32 @@ Katso ohjeita, jos yhteyden muodostamisessa on ongelmia."</string>
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
     <string name="global_privacy">Käyttöehdot</string>
-    <string name="global_privacy_detail">&lt;Data>Lue ja hyväksy meidän &lt;a href=%1$s>Käyttäjäsopimus&lt;/a> ja &lt;a href=%2$s>Tietosuojakäytäntö&lt;/a> ennen kuin käytät tätä sovellusta.&lt;br>Jos et suostu käyttämään edellä mainittuja palveluita, et voi käyttää joitain tämän sovelluksen ominaisuuksia. Sen perustoiminnot ovat kuitenkin edelleen käytettävissäsi.&lt;/Data></string>
+    <string name="global_privacy_detail"><Data>Lue ja hyväksy meidän &lt;a href=%1$s>Käyttäjäsopimus&lt;/a> ja &lt;a href=%2$s>Tietosuojakäytäntö&lt;/a> ennen kuin käytät tätä sovellusta.&lt;br>Jos et suostu käyttämään edellä mainittuja palveluita, et voi käyttää joitain tämän sovelluksen ominaisuuksia. Sen perustoiminnot ovat kuitenkin edelleen käytettävissäsi.</Data></string>
     <string name="global_privacy_explain">Tervetuloa kohteeseen Casting! Tämä sovellus tarjoaa seuraavat palvelut:</string>
     <string name="global_privacy_feature">Pienennettyjen ikkunoiden käyttäminen, suoratoisto näytön ollessa sammuksissa ja yksityisten kohteiden piilottaminen.</string>
     <string name="global_privacy_main">Kohteiden heijastaminen puhelimen näytöltä suuremmalle ulkoiselle näytölle.</string>
     <string name="global_privacy_negative">Älä hyväksy</string>
     <string name="global_privacy_positive">Hyväksy</string>
     <string name="global_privacy_screencast">Tallennuksen tai suoratoiston aikana tämän ominaisuuden tarjoava palvelu voi tallentaa mitä tahansa arkaluonteisia tietoja, jotka näkyvät näytölläsi tai toistetaan laitteeltasi, mukaan lukien arkaluontoiset tiedot, kuten ääni, salasanat, maksutiedot, valokuvat ja viestit.</string>
-    <string name="global_privacy_tip">&lt;Data>Meidän on kerättävä tarvittavat henkilökohtaiset tiedot tarjotaksemme sinulle peruspalveluja ja optimoidaksemme suoratoistoprosessin. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=%1$s>Tietosuojakäytännössä&lt;/a>. Voit peruuttaa suostumuksesi tietosuojakäytäntöön kohdassa Asetukset milloin tahansa.&lt;/Data></string>
+    <string name="global_privacy_tip"><Data>Meidän on kerättävä tarvittavat henkilökohtaiset tiedot tarjotaksemme sinulle peruspalveluja ja optimoidaksemme suoratoistoprosessin. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=%1$s>Tietosuojakäytännössä&lt;/a>. Voit peruuttaa suostumuksesi tietosuojakäytäntöön kohdassa Asetukset milloin tahansa.</Data></string>
     <string name="hang_up">Peilaa näytön ollessa sammuksissa</string>
     <string name="hang_up_alert_dialog_content">Jatka peilausta, kun laitteen näyttö on sammutettu. Tämä ominaisuus vähentää virran kulutusta. Kytke näyttö takaisin päälle painamalla virtapainiketta.</string>
     <string name="hang_up_alert_dialog_neg">Peruuta</string>
     <string name="hang_up_alert_dialog_pos">OK</string>
     <string name="hang_up_alert_dialog_title">Valmiina peilaamaan näyttö pois päältä…</string>
-    <string name="help_page_text_01">Ohje</string>
-    <string name="help_page_text_02">Mikä on peilaaminen?</string>
-    <string name="help_page_text_03">Peilaaminen heijastaa kohteita puhelimesi näytöltä suuremmalle ulkoiselle näytölle. Sen avulla voit jakaa kuvia ja videoita ystävien ja perheen kanssa käyttämättä mobiilidataa.</string>
+    <string name="head_toast_connecting">Yhdistetään…</string>
+    <string name="head_toast_fail">Ei voitu yhdistää</string>
+    <string name="head_toast_success">Yhdistetty onnistuneesti</string>
+    <string name="help_page_question_1st_01_international">"%1$d. Kun laite, johon suoratoistat, on Xiaomi-TV, ota Miracast käyttöön siinä.
+%2$d. Kun laite, johon suoratoistat, on muu kuin Xiaomi-TV, varmista, että televisio tukee Miracastia ja että tämä ominaisuus on käytössä. Tällä ominaisuudella voi olla eri nimi joissakin TV-malleissa, kuten Langaton näyttö, Näytön peilaus tai Useat näytöt."</string>
+    <string name="help_page_setp_1st_02_international">%1$d. Joidenkin TV-merkkien Miracast voi olla päällä automaattisesti.</string>
+    <string name="help_page_step_1st_01_international">%1$d. Ota Miracast käyttöön Xiaomi-televisiossasi.</string>
+    <string name="help_page_text_01">Tuki</string>
+    <string name="help_page_text_02">Mikä on näytönjako?</string>
+    <string name="help_page_text_03">Näytönjako heijastaa kohteita puhelimesi näytöltä suuremmalle ulkoiselle näytölle. Sen avulla voit jakaa kuvia ja videoita ystävien ja perheen kanssa käyttämättä mobiilidataa.</string>
     <string name="help_page_text_04">Kuinka lähetän kohteita suuremmalle näytölle?</string>
     <string name="help_page_text_05">Vaihe %1$d: Tarkista laitteesi ja verkkoympäristösi</string>
+    <string name="help_page_text_05_new">Vaihe %1$d: Tarkista laitteesi ja verkkoympäristösi</string>
     <string name="help_page_text_06">"%1$d. Xiaomi-televisiot, digisovittimet, projektorit:
 Kytke mobiililaite ja ulkoinen näyttö samaan WLAN-verkkoon parhaan mahdollisen tehon saamiseksi. Jos ne on yhdistetty eri verkkoihin, ulkoisen näytön etsiminen ja yhdistäminen voi viedä enemmän aikaa.
 Huomautus: Vanhemmat televisiomallit eivät ehkä tue suoratoistoa eri verkoissa.
@@ -193,16 +210,36 @@ Huomautus: Vanhemmat televisiomallit eivät ehkä tue suoratoistoa eri verkoissa
 Jos kahta laitetta ei voi yhdistää samaan verkkoon, ota Miracast käyttöön ulkoisessa näytössä. Miracast-toimintojen nimet voivat vaihdella."</string>
     <string name="help_page_text_06_global">"%1$d. Xiaomi-televisiot, digisovittimet, projektorit:
 Kytke mobiililaite ja ulkoinen näyttö samaan Wi-Fi-verkkoon parhaan mahdollisen tehon saamiseksi. Jos ne on yhdistetty eri verkkoihin, ulkoisen näytön etsiminen ja yhdistäminen voi viedä enemmän aikaa.
-Huomautus: Vanhemmat televisiomallit eivät ehkä tue suoratoistoa eri verkoissa.
+Huomautus: Vanhemmat televisiomallit eivät ehkä tue näytönjakoa eri verkoissa.
 %2$d. Jos käytät televisioita, digisovittimia tai muiden merkkien projektoreita, yhdistä mobiililaite ja ulkoinen näyttö samaan Wi-Fi-verkkoon.
 Jos kahta laitetta ei voi yhdistää samaan verkkoon, ota Miracast käyttöön ulkoisessa näytössä. Miracast-toimintojen nimet voivat vaihdella."</string>
-    <string name="help_page_text_08">Vaihe %1$d: Ota suoratoisto käyttöön</string>
+    <string name="help_page_text_06_new_1">Xiaomi-televisiot, digisovittimet ja projektorit:</string>
+    <string name="help_page_text_06_new_2">"%1$d. Varmista, että mobiililaitteesi ja ulkoinen näyttö on yhdistetty samaan Wi-Fi-verkkoon.
+%2$d. Joissakin Xiaomi-televisioissa voit määrittää suoratoiston televisiosta sekä mukauttaa laitteen haku- ja vahvistusmenetelmiä."</string>
+    <string name="help_page_text_06_new_3">*Voit määrittää televisiosi suoratoistoasetukset suoratoistoasetuksissa.</string>
+    <string name="help_page_text_06_new_4">Muut kuin Xiaomi-televisiot, digisovittimet ja projektorit:</string>
+    <string name="help_page_text_06_new_5">"%1$d. Varmista, että mobiililaitteesi ja ulkoinen näyttö on yhdistetty samaan Wi-Fi-verkkoon.
+%2$d. Joidenkin merkkien televisioissa sinun on otettava Miracast käyttöön, jotta voit suoratoistaa."</string>
+    <string name="help_page_text_06_new_6">Tutustu lisää</string>
+    <string name="help_page_text_08">Vaihe %1$d: Ota näytönjako käyttöön</string>
+    <string name="help_page_text_08_new">Vaihe %1$d: Ota näytönjako käyttöön</string>
     <string name="help_page_text_09">Napauta \"Peilaa\" -vaihtoehtoa puhelimen ilmoitusalueella. Ota käyttöön sekä WLAN että Bluetooth saadaksesi vakaampi yhteys.</string>
-    <string name="help_page_text_09_global">Napauta \"Peilaa\" -vaihtoehtoa laitteesi ilmoitusalueella. Ota käyttöön sekä Wi-Fi että Bluetooth saadaksesi vakaampi yhteys.</string>
-    <string name="help_page_text_10">Jos haluat lähettää valokuvia, videoita, pelejä tai esityksiä, voit käyttää vastaavien sovellusten sisäänrakennettuja suoratoistotoimintoja.</string>
+    <string name="help_page_text_09_global">Napauta \"Peilaa\"-vaihtoehtoa laitteesi ilmoitusalueella. Ota käyttöön sekä Wi-Fi että Bluetooth saadaksesi vakaampi yhteys.</string>
+    <string name="help_page_text_09_new_1">Ota suoratoisto käyttöön laitteesi ohjauskeskuksessa ja etsi ulkoinen näyttö.</string>
+    <string name="help_page_text_10">Jos haluat näyttää valokuvia, videoita, pelejä tai esityksiä, voit käyttää vastaavien sovellusten sisäänrakennettuja näytönjako-toimintoja.</string>
     <string name="help_page_text_11">Vaihe %1$d: Valitse laite</string>
-    <string name="help_page_text_12">Aloita peilaus valitsemalla ulkoinen laite käytettävissä olevien laitteiden luettelosta.</string>
+    <string name="help_page_text_11_new">Vaihe %1$d: Valitse laite</string>
+    <string name="help_page_text_12">Aloita näytönjako valitsemalla ulkoinen laite käytettävissä olevien laitteiden luettelosta.</string>
+    <string name="help_page_text_12_new_1">Aloita näytönjako valitsemalla ulkoinen laite käytettävissä olevien laitteiden luettelosta.</string>
     <string name="help_page_text_13">Etkö voi muodostaa yhteyttä ulkoiseen laitteeseen?</string>
+    <string name="help_page_text_13_act_label_1">Ohje</string>
+    <string name="help_page_text_13_desc_1">"%1$d. Varmista, että mobiililaitteesi ja ulkoinen näyttö on yhdistetty samaan Wi-Fi-verkkoon tai tukiasemaan.
+%2$d. Varmista, että verkkoympäristö on vakaa. Jos ei, yritä käynnistää reititin uudelleen tai vaihda %3$d GHz:n verkkokaistalle.
+%4$d. Kun suoratoistat Xiaomi-televisioon, ota langattoman suoratoiston ominaisuus käyttöön televisiossa. Pysy suoratoistosivulla yhteyden muodostamisen aikana.
+%5$d. Jotkut suuret julkiset lähiverkot, kuten yritysten ja koulujen, eivät tue mahdollisuutta löytää laitteita samasta lähiverkosta."</string>
+    <string name="help_page_text_13_desc_2">Jotkut televisiot käyttävät muuta kuin LAN-yhteyttä suoratoiston aikana. On normaalia, että nämä laitteet irrotetaan verkosta. Ne muodostavat yleensä yhteyden uudelleen %1$d-%2$d sekunnissa suoratoiston päättymisen jälkeen.</string>
+    <string name="help_page_text_13_summary_1">Etkö voi muodostaa yhteyttä ulkoiseen laitteeseen</string>
+    <string name="help_page_text_13_summary_2">Verkkokatkoksia suoratoiston aikana</string>
     <string name="help_page_text_14">"%1$d. If you want to use a Xiaomi device, but can't find it in the list of available devices, try the following:
 Connect both your mobile device and the external monitor (e.g. your TV) to the same network, or connect the external monitor to your mobile device's hotspot. If there aren't any networks available or you can't connect both devices to the same network, check whether the casting features on your external monitor are up to date, turn on Bluetooth both on your mobile device and the external monitor, and turn on Miracast on your TV.
 %2$d. If you're casting on a Xiaomi device for the first time, you need to complete verification.
@@ -218,6 +255,7 @@ Kytke sekä mobiililaitteesi että ulkoinen näyttö (esim. televisio) samaan ve
     <string name="help_page_text_17">"Voit projisoida kohteita Mi-puhelimestasi useimmissa Mi-TV-malleissa, joissa on Bluetooth-ominaisuudet kytkemättä Miracastia päälle manuaalisesti.
 Jos sinun tarvitsee ottaa Miracast käyttöön, paina [MENU]-painiketta ja valitse Minun sovellukseni > Peilaaminen > Miracast."</string>
     <string name="help_page_text_17_1">Xiaomi-asiakaspalvelu: 400-100-5678</string>
+    <string name="help_page_text_17_content">You can project items from your Xiaomi phone on most Xiaomi TV models with Bluetooth capabilities without turning on Miracast manually. If you need to turn on Miracast, press the [MENU] button and start casting by using the option for other Android phones.</string>
     <string name="help_page_text_18">Samsung TV</string>
     <string name="help_page_text_19">Varmista ensin, että laitteesi tukee Miracast-toimintoa. Joissakin malleissa voit painaa kaukosäätimen [SOURCE]-painiketta ja valita sitten \"Näytön peilikuva\". Tämä ominaisuus on oletuksena käytössä eri malleissa.</string>
     <string name="help_page_text_20">Samsung-asiakaspalvelu: 400-810-5858</string>
@@ -280,14 +318,14 @@ Jos sinun tarvitsee ottaa Miracast käyttöön, paina [MENU]-painiketta ja valit
     <string name="material_timepicker_text_input_mode_description">Vaihda ajan syöttämiseen tekstitilassa.</string>
     <string name="midnight">Yö</string>
     <string name="miuix_access_state_desc">Valittu</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Lisää</string>
     <string name="miuix_appcompat_cancel_description">Peruuta</string>
     <string name="miuix_appcompat_confirm_description">Vahvista</string>
     <string name="miuix_appcompat_delete_description">Poista</string>
-    <string name="miuix_appcompat_deselect_all">Poista valinta</string>
+    <string name="miuix_appcompat_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_deselect_all_description">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Peruuta</string>
     <string name="miuix_appcompat_search_input_description">Etsi</string>
@@ -350,6 +388,7 @@ Jos sinun tarvitsee ottaa Miracast käyttöön, paina [MENU]-painiketta ja valit
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -386,7 +425,7 @@ Jos sinun tarvitsee ottaa Miracast käyttöön, paina [MENU]-painiketta ja valit
     <string name="not_set">Ei asetettu</string>
     <string name="notification_cast_desc">Peilataan…</string>
     <string name="notification_desc_scanning">Etsitään lähistöllä olevia laitteita…</string>
-    <string name="notification_rc_title">XiaoMi TV-avustaja</string>
+    <string name="notification_rc_title">XiaoMi TV -avustaja</string>
     <string name="notification_show_more">Napauta nähdäksesi lisää ominaisuuksia</string>
     <string name="notify_wifiap_dialog_msg">Jos haluat skannata koodin ja määrittää verkon, sammuta ensin kannettava tukipiste.</string>
     <string name="notify_wifiap_dialog_negative">Selvä</string>
@@ -398,13 +437,13 @@ Jos sinun tarvitsee ottaa Miracast käyttöön, paina [MENU]-painiketta ja valit
     <string name="paipai_error_dialog_msg">Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
     <string name="paipai_error_dialog_negative">Selvä</string>
     <string name="password_toggle_content_description">Näytä salasana</string>
-    <string name="path_setting_cast">Yhteys ja jakaminen/Peilaaminen</string>
-    <string name="path_setting_cast_demo">Yhteys ja jakaminen/Peilaaminen/Demot</string>
-    <string name="path_setting_cast_demo_document">Yhteys ja jakaminen/Peilaaminen/Asiakirjat</string>
-    <string name="path_setting_cast_demo_gallery">Yhteys ja jakaminen/Peilaaminen/Demot/Kuvat ja videot</string>
-    <string name="path_setting_cast_demo_game">Yhteys ja jakaminen/Peilaaminen/Demot/Pelit</string>
-    <string name="path_setting_cast_feature">Yhteys ja jakaminen /Peilaaminen/Lisäominaisuudet</string>
-    <string name="path_setting_cast_help">Yhteys ja jakaminen/Peilaaminen/Tuki</string>
+    <string name="path_setting_cast">Lisää liitäntävaihtoehtoja/Cast</string>
+    <string name="path_setting_cast_demo">Lisää liitäntävaihtoehtoja/Cast/Demot</string>
+    <string name="path_setting_cast_demo_document">Lisää liitäntävaihtoehtoja/Cast/Demot/Asiakirjat</string>
+    <string name="path_setting_cast_demo_gallery">Lisää liitäntävaihtoehtoja/Cast/Demot/Kuvat ja videot</string>
+    <string name="path_setting_cast_demo_game">Lisää liitäntävaihtoehtoja/Cast/Demot/Pelit</string>
+    <string name="path_setting_cast_feature">Lisää liitäntävaihtoehtoja/Cast/Erikoisominaisuudet</string>
+    <string name="path_setting_cast_help">Lisää liitäntävaihtoehtoja/Cast/Ohje</string>
     <string name="permission_allowed">Myönnetty</string>
     <string name="permission_uballowed">Ei myönnetty</string>
     <string name="pm">ip.</string>
@@ -412,7 +451,7 @@ Jos sinun tarvitsee ottaa Miracast käyttöön, paina [MENU]-painiketta ja valit
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
     <string name="privacy_agree">Hyväksy</string>
     <string name="privacy_detail">Salli tämän sovelluksen muodostaa yhteys Internetiin ja myöntää tarvittavat käyttöoikeudet ennen kuin jatkat.</string>
-    <string name="privacy_detail_extra">&lt;Data>Joitakin ominaisuuksia tarjoaa kolmannen osapuolen palveluntarjoaja HappyCast. Ennen kuin käytät tätä ominaisuutta, lue ja hyväksy &lt;a href=%1$s>HappyCast-tietosuojakäytöntö&lt;/a> ja &lt;a href=%2$s>HappyCastin oikeudellinen lausunto&lt;/a>.&lt;/Data></string>
+    <string name="privacy_detail_extra"><Data>Joitakin ominaisuuksia tarjoaa kolmannen osapuolen palveluntarjoaja HappyCast. Ennen kuin käytät tätä ominaisuutta, lue ja hyväksy &lt;a href=%1$s>HappyCast-tietosuojakäytöntö&lt;/a> ja &lt;a href=%2$s>HappyCastin oikeudellinen lausunto&lt;/a>.</Data></string>
     <string name="privacy_explain">Tervetuloa kohteeseen Casting! Casting mahdollistaa kohteiden projisoinnin puhelimen näytöltä suuremmalle ulkoiselle näytölle. Tämän sovelluksen on oltava yhteydessä Internettiin ja se tarvitsee seuraavat oikeudet toimiakseen normaalisti:</string>
     <string name="privacy_negative">Poistu</string>
     <string name="privacy_permission_ble">Bluetoothin kytkeminen päälle ja pois</string>
@@ -454,11 +493,11 @@ Jos sinun tarvitsee ottaa Miracast käyttöön, paina [MENU]-painiketta ja valit
     <string name="privacy_setting_show_lelink_policy">Katso HappyCast-tietosuojakäytäntö</string>
     <string name="privacy_setting_show_policy">Katso Tietosuojakäytäntö</string>
     <string name="privacy_setting_show_user_agreement">Katso Käyttäjäsopimus</string>
-    <string name="privacy_text_1">"&lt;Data>Tervetuloa kohteeseen Casting! Casting mahdollistaa kohteiden heijastamisen puhelinnäytöltä suuremmalle ulkoiselle näytölle.
+    <string name="privacy_text_1"><Data>"Tervetuloa kohteeseen Casting! Casting mahdollistaa kohteiden heijastamisen puhelinnäytöltä suuremmalle ulkoiselle näytölle.
 Suojelemme henkilötietojasi asiaankuuluvien lakien, asetusten ja tietosuojakäytäntöjen mukaisesti. Joitakin ominaisuuksia tarjoaa kolmannen osapuolen palveluntarjoaja HappyCast. Ennen tämän ominaisuuden käyttämistä lue ja hyväksy &lt;a href=%2$s>HappyCastin oikeudellinen lausuma&lt;/a> ja &lt;a href=%1$s>HappyCast-tietosuojakäytäntö&lt;/a>.
-Voidakseen toimia normaalisti, tämän sovelluksen on muodostettava yhteys Internettiin ja vaatii seuraavia oikeuksia kerätäkseen henkilökohtaisia tietoja:&lt;/Data>"</string>
-    <string name="privacy_text_2">"&lt;Data>Jos et suostu myöntämään tällaisia oikeuksia tai jakamaan ja lataamaan henkilökohtaisia tietojasi, et voi käyttää tätä sovellusta. Voit valita tämän sovelluksen poistamisen, kirjautua ulos tai rajoittaa käyttöoikeuksia tällaisissa tapauksissa.
-Lue ja hyväksy meidän &lt;a href=%1$s>Käyttäjäsopimus&lt;/a> ja &lt;a href=%2$s>Tietosuojakäytäntö&lt;/a> ennen tämän ominaisuuden käyttöönottoa.&lt;/Data>"</string>
+Voidakseen toimia normaalisti, tämän sovelluksen on muodostettava yhteys Internettiin ja vaatii seuraavia oikeuksia kerätäkseen henkilökohtaisia tietoja:"</Data></string>
+    <string name="privacy_text_2"><Data>"Jos et suostu myöntämään tällaisia oikeuksia tai jakamaan ja lataamaan henkilökohtaisia tietojasi, et voi käyttää tätä sovellusta. Voit valita tämän sovelluksen poistamisen, kirjautua ulos tai rajoittaa käyttöoikeuksia tällaisissa tapauksissa.
+Lue ja hyväksy meidän &lt;a href=%1$s>Käyttäjäsopimus&lt;/a> ja &lt;a href=%2$s>Tietosuojakäytäntö&lt;/a> ennen tämän ominaisuuden käyttöönottoa."</Data></string>
     <string name="privacy_text_pemission">"　　•Voit käyttää ja tallentaa kuvia laitteellesi, jotta nämä kohteet voidaan ottaa käyttöön ulkoisissa näytöissä
 　　•Nauhoita puheluja ja ääntä, joita voidaan suoratoistaa ulkoisilla laitteilla
 　　•Käytä puhelinnumeroa, kohteita IMEI ja IMSI laitteesi tunnistamiseen
@@ -480,35 +519,51 @@ Lue ja hyväksy meidän &lt;a href=%1$s>Käyttäjäsopimus&lt;/a> ja &lt;a href=
     <string name="scan_wifi_label_global">Yhdistä Wi-Fi-verkkoon</string>
     <string name="screen_projection">Peilaa</string>
     <string name="screen_projection_characteristics">Erityisominaisuudet</string>
+    <string name="screen_projection_characteristics_cast_summary">Jaa näytön sisältö läheiseen televisioon</string>
+    <string name="screen_projection_characteristics_hang_up_summary_new">Sammuta mobiililaitteen näyttö suoratoiston ajaksi säästääksesi akkua ja välttääksesi ylikuumenemisen</string>
     <string name="screen_projection_characteristics_off_screen_summary">Voit jatkaa peilausta, kun laitteen näyttö on sammuksissa. Tämä ominaisuus vähentää virrankulutusta.</string>
     <string name="screen_projection_characteristics_off_screen_title">Peilaa näytön ollessa sammuksissa</string>
     <string name="screen_projection_characteristics_privacy_protect_summary">Älä näytä kelluvia ilmoituksia, saapuvia puheluita ja muita yksityisiä kohteita ulkoisissa näytöissä.</string>
     <string name="screen_projection_characteristics_privacy_protect_title">Piilota yksityiset kohteet</string>
+    <string name="screen_projection_characteristics_private_summary_new">Suojaa yksityisyyttäsi: suoratoiston aikana laitteesi ei näytä kelluvia ilmoituksia, saapuvia puheluita tai muita yksityisiä kohteita</string>
     <string name="screen_projection_characteristics_small_window_summary">Pienennä peilattava ikkuna, jotta voit käyttää puhelimesi muita ominaisuuksia.</string>
+    <string name="screen_projection_characteristics_small_window_summary_new">Suoratoista näyttöä ja näytä sen sisältö kelluvassa ikkunassa käyttäessäsi muita sovelluksia</string>
     <string name="screen_projection_characteristics_small_window_title">Pienennä ikkuna</string>
+    <string name="screen_projection_entrance_list">Näytä saatavilla olevat laitteet</string>
+    <string name="screen_projection_entrance_list_new">Tarkastele suoratoistoa varten käytettävissä olevien laitteiden luetteloa</string>
+    <string name="screen_projection_example_document_hint_miui15">*Kohteet näkyvät läheisessä televisiossa</string>
+    <string name="screen_projection_example_document_hint_new"><Data>*Voit käyttää tätä ominaisuutta siirtymällä kohtaan Tiedostot > Asiakirjat ja napauttamalla &lt;img src=../drawable/ic_cast_icon_photo.png/>-kuvaketta.</Data></string>
     <string name="screen_projection_example_document_summary">Näytä esitykset ulkoisella näytöllä, kun käytät puhelinta diojen ja muistiinpanojen välillä. Siirry kohteeseen Tiedostonhallinta > Asiakirjat kokeillaksesi tätä ominaisuutta.</string>
+    <string name="screen_projection_example_document_summary_miui15">Näytä esitysdiat televisiossa, kun käytät tätä laitetta kaukosäätimenä</string>
     <string name="screen_projection_example_document_title">Asiakirjat</string>
+    <string name="screen_projection_example_gallery_hint_miui15">*Voit jakaa valokuvia ja videoita valitsemalla kohteen Galleriasta, napauttamalla \"Jaa\" ja napauttamalla sitten \"Ruudunjako\"-kuvaketta.</string>
+    <string name="screen_projection_example_gallery_hint_new"><Data>*Voit käyttää tätä ominaisuutta siirtymällä Galleriaan, valitsemalla valokuvan, napauttamalla alapalkissa \"Lähetä\" ja napauttamalla &lt;img src=../drawable/ic_cast_icon_photo.png/>-kuvaketta..</Data></string>
     <string name="screen_projection_example_gallery_summary">Napauta Jaa-painiketta Galleria-sovelluksen kohteen alla, niin näet sen ulkoisella näytöllä.</string>
+    <string name="screen_projection_example_gallery_summary_miui15">Katsele valokuviasi ja videoitasi TV-ruudulla</string>
     <string name="screen_projection_example_gallery_title">Valokuvat ja videot</string>
+    <string name="screen_projection_example_game_hint_miui15">"*Voit suoratoistaa pelejä napauttamalla \"Ruudunjako\" Game Turbossa pelaamisen aikana.
+Varmista, että olet ottanut Game Turbon käyttöön ennen pelien ruudunjakoa."</string>
     <string name="screen_projection_example_game_summary">Game Turbo antaa sinun siirtää pelejä ulkoiseen näyttöön. Ota tämä ominaisuus käyttöön Game Turbo -työkalurivin pikavalinnan avulla.</string>
+    <string name="screen_projection_example_game_summary_miui15">Katso peliistuntojasi televisiosta</string>
     <string name="screen_projection_example_game_title">Pelit</string>
     <string name="screen_projection_help">Ohje</string>
     <string name="screen_projection_sample_summary">Peilataan asiakirjoja, pelejä, valokuvia ja videoita</string>
     <string name="screen_projection_sample_title">Demot</string>
     <string name="screen_projection_title">Peilaa</string>
+    <string name="screen_projection_title_miui15">Ruudunjako</string>
     <string name="search_menu_title">Haku</string>
     <string name="send">Lähetä</string>
     <string name="show_result_on_tv">Näytä tulokset televisiossa</string>
     <string name="small_window">Pienennä ikkuna</string>
     <string name="small_window_not_supported">Tätä sovellusta ei voi minimoida, kun sitä peilataan</string>
-    <string name="status_bar_in_casting">Peilataan…</string>
-    <string name="status_bar_in_casting_long">Napauta nähdäksesi lisää peilausominaisuuksia</string>
+    <string name="status_bar_in_casting">Jaetaan näyttöä…</string>
+    <string name="status_bar_in_casting_long">Napauta nähdäksesi lisää näytönjako-ominaisuuksia</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>
     <string name="sunday_shortest">Su</string>
-    <string name="synergy_casting">Peilausta ei voi käyttää, kun Screen Combo toimii</string>
+    <string name="synergy_casting">Näytönjakoa ei voi käyttää, kun Screen Combo toimii</string>
     <string name="the_anniversary_of_lifting_martial_law">Sotalain nostamisen vuosipäivä</string>
     <string name="the_anti_aggression_day">Anti-Aggression Day</string>
     <string name="the_arbor_day">Arbor Day</string>
@@ -553,6 +608,7 @@ Lue ja hyväksy meidän &lt;a href=%1$s>Käyttäjäsopimus&lt;/a> ja &lt;a href=
     <string name="thursday_short">To</string>
     <string name="thursday_shortest">To</string>
     <string name="tile_label">Peilaa</string>
+    <string name="tile_label_v2">Yhteenliittämispalvelut</string>
     <string name="time_picker_dialog_title">Aseta aika</string>
     <string name="time_picker_label_hour">T</string>
     <string name="time_picker_label_minute">M</string>
@@ -566,11 +622,11 @@ Lue ja hyväksy meidän &lt;a href=%1$s>Käyttäjäsopimus&lt;/a> ja &lt;a href=
     <string name="toast_nfc_dont_move">Älä siirrä puhelinta poispäin</string>
     <string name="toast_nfc_same_wifi">Yhdistä sekä televisio että tämä laite samaan verkkoon</string>
     <string name="toast_title_for_small_window">Valitse \"Pienennä ikkuna\" sovelluksessa</string>
-    <string name="toast_turn_off_hotspot_before_cast">Sammuta kannettava tukiasema ennen peilausta</string>
+    <string name="toast_turn_off_hotspot_before_cast">Sammuta kannettava tukiasema ennen näytönjakoa</string>
     <string name="today">Tänään</string>
     <string name="tomorrow">Huomenna</string>
     <string name="trust_device_desc">Nämä laitteet näkyvät täällä ensin, kun ne ovat lähellä</string>
-    <string name="trust_device_dialog_desc">&lt;Data>%s näkyy ensin käytettävissä olevien laitteiden joukossa lähellä ollessa, jos merkitset sen luotettavaksi.&lt;br>&lt;br>Voit &lt;a href=milink://com.milink.service/trust>hallita luotettavia laitteita&lt;/a> kohdassa Asetukset.&lt;/Data></string>
+    <string name="trust_device_dialog_desc"><Data>%s näkyy ensin käytettävissä olevien laitteiden joukossa lähellä ollessa, jos merkitset sen luotettavaksi.&lt;br>&lt;br>Voit &lt;a href=milink://com.milink.service/trust>hallita luotettavia laitteita&lt;/a> kohdassa Asetukset.</Data></string>
     <string name="trust_device_dialog_pos">Luota</string>
     <string name="trust_device_dialog_title">Luota tähän laitteeseen?</string>
     <string name="trust_device_manager">Hallitse luotettavia laitteita</string>

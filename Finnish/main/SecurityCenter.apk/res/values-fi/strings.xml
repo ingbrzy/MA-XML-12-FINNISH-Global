@@ -968,6 +968,7 @@ Jotkin tapahtumistasi eivät kuitenkaan ole vielä suoritettuja. Jos haluat peru
     <string name="card_main_private_space_summary">Toisen tilan käyttäminen on, kuin olisi kaksi laitetta</string>
     <string name="card_main_private_space_title">Toinen näkymä</string>
     <string name="card_main_sectool_title">Työkalut</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_video_manage_title">Hallitse videoita</string>
     <string name="card_main_whatsappclean_title">WhatsApp-puhdistaja</string>
     <string name="card_main_xspace_action">Luo</string>
@@ -1337,6 +1338,7 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="dynamic_performance_optimization_title">Dynaaminen suorituskyky</string>
     <string name="early_morning">Aamu</string>
     <string name="edit_phone_num">Muokkaa SIM-puhelinnumeroa</string>
+    <string name="ellipsis">…</string>
     <string name="email">Sähköposti</string>
     <string name="empty" />
     <string name="empty_app">Ei sovelluksia</string>
@@ -1414,7 +1416,9 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="exo_download_paused_for_wifi">Lataukset odottavat Wi-Fi-yhteyttä</string>
     <string name="exo_download_removing">Poistetaan latauksia</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Vaihtoehtoinen</string>
     <string name="exo_track_role_closed_captions">Tekstitykset</string>
     <string name="exo_track_role_commentary">Kommenttiraita</string>
@@ -2122,8 +2126,8 @@ tärkeimmät hetket"</string>
     <string name="group_clipboard">Leikepöytä</string>
     <string name="group_connect_device">Yhteenliitettävyys</string>
     <string name="group_file">Tiedostot ja kansiot</string>
+    <string name="group_file_less_t">Access files and media</string>
     <string name="group_head_data_ai_clipboard">Leikepöydän suojaus</string>
-    <string name="group_head_data_ai_clipboard_desc">Anna järjestelmän päättää, voivatko sovellukset käyttää leikepöydän kohteita</string>
     <string name="group_head_data_camera_desc">Poista käytöstä rajoittaaksesi kameran pääsyä kaikille sovelluksille</string>
     <string name="group_head_data_clipboard_desc">Poista käytöstä rajoittaaksesi leikepöydän pääsyä kaikille sovelluksille</string>
     <string name="group_head_data_location_desc">Poista käytöstä rajoittaaksesi kaikkien sovellusten sijaintia</string>
@@ -2599,6 +2603,7 @@ Laitteesi on %s nopeampi nyt."</string>
     <string name="menu_text_license_manager">Käyttöoikeudet</string>
     <string name="menu_text_networkassistants">Datan käyttö</string>
     <string name="menu_text_networkassistants_danger">%s yli</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s jäljellä</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">Gt</string>
@@ -2607,6 +2612,7 @@ Laitteesi on %s nopeampi nyt."</string>
     <string name="menu_text_optimize_manage">Nopeuta</string>
     <string name="menu_text_optimize_manage_1">Nopeuta</string>
     <string name="menu_text_power_manager">Akku</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Poista poikkeuksista</string>
     <string name="menu_white">Lisää poikkeuksiin</string>
     <string name="mi_ime_not_used">Käytä Xiaomin hyväksymää näppäimistöä</string>
@@ -2615,6 +2621,9 @@ Laitteesi on %s nopeampi nyt."</string>
     <string name="mi_service_traffic_detail">Rungon tiedot</string>
     <string name="mi_sim_link">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Tap to top up open Mi Sim.&lt;/U>&lt;/font>"</string>
     <string name="mi_sim_link_custom">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>%2$s&lt;/U>&lt;/font>"</string>
+    <string name="mic_noise_reduction_mode_standard">Vakio</string>
+    <string name="mic_noise_reduction_mode_ultimate">Valitse</string>
+    <string name="mic_noise_reduction_voiceprint_desc">Säilytä vain tietyn käyttäjän ääni</string>
     <string name="midnight">Yö</string>
     <string name="midrop_post_notification_contentTitle">Tarvitseeko sinun jakaa tiedostoja?</string>
     <string name="miui_blur_location">Salli kaikkien sovellusten käyttää likimääräistä sijaintia</string>
@@ -2712,6 +2721,7 @@ Laitteesi on %s nopeampi nyt."</string>
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -3102,6 +3112,7 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="pc_battery_history_total_consumption_title">Kokonaisvirrankulutus</string>
     <string name="pc_battery_history_usetime_title">Aktiivinen</string>
     <string name="pc_battery_low_health_reminder">On aika vaihtaa akku</string>
+    <string name="pc_button_go_to_setting">Asetukset</string>
     <string name="pc_category_charge_settings">Latausasetukset</string>
     <string name="pc_charged_auto_close_summary">Sammuta, kun akku on ​%1$s tai täyteen ladattu</string>
     <string name="pc_charged_auto_close_title">Sammuta, kun ladattu</string>
@@ -3141,6 +3152,7 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="pc_going_to_exit_extreme_mode">Poistuminen horrostilasta</string>
     <string name="pc_going_to_exit_extreme_mode_summary">Laitteesi latautuu. Horrostila on pois käytöstä.</string>
     <string name="pc_going_to_extreme_mode">Siirtyminen horrostilaan</string>
+    <string name="pc_handle_battery_level">Kahva</string>
     <string name="pc_have_no_battery_issue">Ei ongelmia</string>
     <string name="pc_hide_more_power_rank_apps">Piilota</string>
     <string name="pc_hidemode_normal">Tasapainotettu</string>
@@ -3200,11 +3212,14 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="pc_performance_mode_dialog_title">Suorituskykytila</string>
     <string name="pc_performance_mode_noti_summary">Suoritustila saattaa lisätä virrankulutusta ja johtaa ylikuumenemiseen</string>
     <string name="pc_performance_mode_noti_title">Parempi laitteen suorituskyky</string>
+    <string name="pc_phone_battery_level">Puhelin</string>
     <string name="pc_power_consume_check">Akun tarkastus</string>
     <string name="pc_power_consume_check_ing">Tarkistetaan…</string>
+    <string name="pc_power_mode_has_performance">Suoritustila on käytössä</string>
     <string name="pc_power_save_settings_new">Virransäästöasetukset</string>
     <string name="pc_remind_close_cover_to_charge_summary">Taita laite ennen lataamista nopeamman ja vakaamman latauskokemuksen saavuttamiseksi.</string>
     <string name="pc_remind_close_cover_to_charge_title">Taita ladataksesi</string>
+    <string name="pc_reminder_always_protect_summary">Vaihda rajoitettuun lataukseen vähentääksesi akun ikääntymistä</string>
     <string name="pc_save_charge">Ladataan</string>
     <string name="pc_save_other_setting">Muut asetukset</string>
     <string name="pc_save_power">Virransäästö</string>
@@ -3234,6 +3249,11 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="pc_wait_device_cools_down">Odota, kunnes laitteesi jäähtyy, jotta voit käyttää tätä ominaisuutta.</string>
     <string name="pc_wireless_charge_adjust_position_summary">Aseta se langattomaan laturiin</string>
     <string name="pc_wireless_charge_adjust_position_title">Lataa laitteesi nopeammin</string>
+    <string name="pc_wireless_charging_special_stand_summary1">Asenna laitteesi telineeseen, joka tuli langattoman laturin mukana</string>
+    <string name="pc_wireless_charging_special_stand_summary2">Asenna laitteesi langattoman laturin mukana tulleeseen telineeseen parhaan lataustehon saavuttamiseksi</string>
+    <string name="pc_wireless_charging_special_stand_title">Käytä mukana toimitettua lataustelinettä</string>
+    <string name="pc_wireless_handle_connected">Laite yhdistetty</string>
+    <string name="pc_wireless_handle_title">Langattoman kameran kahva</string>
     <string name="pc_work_in_save_mode">Virransäästö</string>
     <string name="pc_work_in_super_save_mode">Ultravirransäästö</string>
     <string name="pc_xiaoai_create_auto_task">Uusi tehtävä kohteelta Mi AI</string>
@@ -3294,6 +3314,7 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="permission_group_camera">Tämä lupa sallii sovellusten käyttää kameraa valokuvien ottamiseen tai videoiden tallentamiseen.</string>
     <string name="permission_group_contact">Tämän luvan avulla sovellukset voivat käyttää tai muokata yhteystietoja sekä tarkastella tällä laitteella luotuja sovellusten yhteystietoja.</string>
     <string name="permission_group_file">Tämä lupa antaa sovelluksille pääsyn kaikkiin tähän laitteeseen tallennettuihin tiedostoihin.</string>
+    <string name="permission_group_file_less_t">This permission allows apps to access photos, videos, audio, and other files stored on this device.</string>
     <string name="permission_group_image_video">Tämän luvan avulla sovellukset voivat käyttää tähän laitteeseen tallennettuja valokuvia ja videoita.</string>
     <string name="permission_group_location">Tämän luvan avulla sovellukset voivat käyttää sijaintitietoja verkon tai satelliitin kautta.</string>
     <string name="permission_group_microphone">Tämä lupa sallii sovellusten käyttää mikrofonia äänen tallentamiseen.</string>
@@ -3458,7 +3479,7 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="power_center_batteryrank_all">Koko akunkäyttö</string>
     <string name="power_center_batteryrank_hardware">Laitteiston akunkäyttö %s</string>
     <string name="power_center_batteryrank_software">Ohjelmiston akunkäyttö %s</string>
-    <string name="power_center_batteryscan_normal">Ei akun käyttöongelmia. Näytä tulokset.</string>
+    <string name="power_center_batteryscan_normal">Kaikki näyttää hyvältä. Näytä tulokset.</string>
     <string name="power_center_charge_status">Ladataan</string>
     <string name="power_center_charge_time">%1$skunnes täynnä</string>
     <string name="power_center_consume_fast">Tyhjentää akkua</string>
@@ -3468,6 +3489,11 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="power_center_dialog_msg_top">Kun virransäästö on käytössä, seuraavat optimoinnit suoritetaan:</string>
     <string name="power_center_hints_scan_danger_result">Voit korjata akkuongelmat nyt</string>
     <string name="power_center_list_item_auto_brightness">Säädä näytön kirkkautta automaattisesti</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">t</string>
     <string name="power_center_list_item_close_bluetooth">Poista Bluetooth käytöstä</string>
     <string name="power_center_list_item_deep_save_title">Lisäasetukset</string>
@@ -3490,7 +3516,7 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="power_center_optimize_title">Ehdotukset</string>
     <string name="power_center_power_save_summary_text">Pidentää jäljellä olevaa kestoa jopa %1$dt %2$dmin</string>
     <string name="power_center_power_save_title_text">Virransäästö</string>
-    <string name="power_center_problem_title">Korjaa ongelmia</string>
+    <string name="power_center_problem_title">Korkea virrankulutus</string>
     <string name="power_center_reduce_dpi_summary">QHD+ kuluttaa enemmän virtaa</string>
     <string name="power_center_reduce_resolution">Vähennä näytön resoluutiota</string>
     <string name="power_center_repeat">Toista</string>
@@ -3581,6 +3607,9 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="power_main_battery_last_hour_minute">%1$st %2$smin jäljellä</string>
     <string name="power_main_battery_last_hour_minute_screen_on">%1$s %2$s käyttöaikaa jäljellä</string>
     <string name="power_main_open_last_hour_minute_screen_on">Ota käyttöön lisätäksesi %1$s %2$s käyttöaikaa</string>
+    <string name="power_ntc_dialog_btn_finish">Selvä</string>
+    <string name="power_ntc_dialog_msg">Irrota laturi nyt. Puhdista ja kuivaa latausportti ennen kuin käytät sitä uudelleen.</string>
+    <string name="power_ntc_dialog_title">Vieras esine tai neste havaittu</string>
     <string name="power_off_warning_button_ok">Selvä</string>
     <string name="power_off_warning_message">Akku vähissä. Laitteesi sammuu %d sekunnissa. Kytke laturi.</string>
     <string name="power_off_warning_notification_title">Valmiina sammumaan</string>
@@ -3723,11 +3752,16 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="pp_app_warning_permission_tips">Arkaluonteiset lupamuistutukset</string>
     <string name="pp_app_warning_permission_tips_detail">Näytä muistutus, kun sovellus pyytää sijaintia, kameraa tai mikrofonia</string>
     <string name="pp_clipboard">Leikepöytä</string>
+    <string name="pp_none_read_clipboard_item">Älä ilmoita</string>
+    <string name="pp_privacy_lab_clipboard_summary">Anna laitteesi päättää, voiko sovellus käyttää leikepöytää ja vastaanottaa ilmoituksia, kun se tekee niin</string>
     <string name="pp_privacy_lab_operator_get_number_summary">Vaadi sovelluksia kysymään lupaasi, kun he haluavat käyttää puhelinnumeroasi sisäänkirjautumista varten</string>
     <string name="pp_privacy_protection">Suojaus</string>
+    <string name="pp_protect_read_clipboard_item">Suojaa</string>
     <string name="pp_read_phone_info_summary">Pääsy SIM-tietoihin</string>
     <string name="pp_sms_and_contacts">Yhteystiedot ja viestit</string>
     <string name="pp_special_permission_settings">Erikoiskäyttöoikeudet</string>
+    <string name="pp_toast_read_clipboard">Ilmoita, kun sovellukset käyttävät leikepöydän kohteita</string>
+    <string name="pp_toast_read_clipboard_item">Ilmoita</string>
     <string name="precise_location_title">Tarkka sijainti</string>
     <string name="pref_about_traffic_title">Datankäyttöasetukset</string>
     <string name="pref_adjust_data_usage">Operaattorin viestipohja</string>
@@ -3772,6 +3806,7 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="pref_normal_traffic_limit">Kun päiväkohtainen datasuunnitelma on käytetty</string>
     <string name="pref_open_adjust_traffic">Päivitä datan käyttö päivittäin käyttäen operaattorilta saamia tilastoja</string>
     <string name="pref_operator_not_set">Operaattoria ei ole asetettu</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Kun menet yli datasuunnitelmasi</string>
     <string name="pref_package_traffic_settings">Datasuunnitelma</string>
     <string name="pref_pkg_begin_date">Käytön palautuspäivä</string>
@@ -4004,6 +4039,7 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="privacy_risk_result_protection">Yksityisyydensuoja</string>
     <string name="privacy_risk_result_screen_fuzzy">Sumenna sovellusten esikatselut</string>
     <string name="privacy_risk_result_screen_fuzzy_msg">Sumenna kohteessa Viimeaikaiset näkyvien arkaluontoisten sovellusten esikatselut</string>
+    <string name="privacy_risk_result_screen_shield_msg">Arkaluontoisia henkilökohtaisia tietoja sisältävät sovellukset näkyvät Viimeaikaiset-kohdassa ja niiden esikatselu on peitetty</string>
     <string name="privacy_risk_result_set_btn">Asetukset</string>
     <string name="privacy_risk_result_success_empty_msg">Hyvältä näyttää!</string>
     <string name="privacy_risk_result_success_msg">Kaikki ongelmat korjattu. Jee!</string>
@@ -4071,6 +4107,7 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="privacy_using_record">Äänen tallentaminen</string>
     <string name="privacyapp_number_masked_text">Ilmoituksen sisältö on piilotettu</string>
     <string name="privacyapp_number_unmasked_text">Ilmoituksen sisällön voi piilottaa</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediapalvelin</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
     <string name="promotion">Mainos</string>
@@ -4084,10 +4121,10 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="qucick_replay_instrument">Käytä pikavastaamista valittujen viestintäsovelluksien (esim. WhatsApp, WeChat, QQ) ilmoituksissa</string>
     <string name="quick_optimize_checking">Skannataan</string>
     <string name="quick_optimize_no_fix_issue_subtitle">Ei voitu pidentää akun käyttöaikaa</string>
-    <string name="quick_optimize_no_fix_issue_title">Ei voitu korjata akkuongelmia</string>
+    <string name="quick_optimize_no_fix_issue_title">Ei voitu optimoida kohteita, joilla on suuri virrankulutus</string>
     <string name="quick_optimize_no_issue">Ei akkuongelmia</string>
     <string name="quick_optimize_no_issue_subtitle">Kaikki näyttää hyvältä</string>
-    <string name="quick_optimize_no_issue_title">Ei löydetty akkuongelmia</string>
+    <string name="quick_optimize_no_issue_title">Ei kohteita korkealla virrankulutuksella</string>
     <string name="quick_optimize_sub_battery_text">Noin %s jäljellä</string>
     <string name="quick_optimize_sub_summary_text">Lisätty %s akunkestoon</string>
     <string name="quick_optimize_sub_summary_with_battery_text">Lisätty %1$s, noin %2$s jäljellä</string>
@@ -4267,7 +4304,7 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="settings">Datankäyttöasetukset</string>
     <string name="settings_battery_consume_abnormal_summary">Vastaanota ilmoituksia, kun akku tyhjentyy nopeasti</string>
     <string name="settings_battery_consume_abnormal_title">Akun tyhjennysilmoitukset</string>
-    <string name="settings_battery_power_save_suggest_title">Akunsäästäjän ehdotukset ja varoitukset</string>
+    <string name="settings_battery_power_save_suggest_title">Virransäästöehdotukset</string>
     <string name="settings_camera_subtitle_no">Ei metatietoja</string>
     <string name="settings_category_other">Muut asetukset</string>
     <string name="settings_category_overheat">Lämmitys</string>
@@ -4689,6 +4726,8 @@ Käyttääksesi tätä ^1, sinun täytyy asettaa se ensin."</string>
     <string name="storage_dialog_unsupported">"Tämä laite ei tue tätä ^1.
 
 Käyttääksesi tätä ^1 tällä laitteella sinun täytyy asettaa se ensin."</string>
+    <string name="storage_fbo_clear">Tallennustilan päivitys</string>
+    <string name="storage_fbo_des">Sisäinen tallennus kärsii pirstoutumisesta, mikä saattaa hidastaa laitettasi merkittävästi. Tallennustilan päivitys toimii automaattisesti, kun et käytä laitetta. Se järjestää tiedostosi fyysisesti pienimpään määrään fragmentteja vähentäen viivettä.</string>
     <string name="storage_fbo_number_tip">Käsitelty %1$s</string>
     <string name="storage_fbo_tools">Tallennuksen optimointi</string>
     <string name="storage_file_delete_tip">Poistetaanko valitut kohteet pysyvästi? Jotkut niistä voidaan ladata uudelleen tarvittaessa.</string>
@@ -4780,6 +4819,7 @@ Alustaminen poistaa nykyisen sisällön kohteesta ^2. Sisällön menettämisen v
     <string name="summary_usb">Estä haittaohjelmien lähettämistä USB:n kautta</string>
     <string name="summary_virus">Poista virukset pitääksesi laitteen turvallisena</string>
     <string name="summary_virus_cloudscan">Lähetä sovelluksien nimet ja tiedot ja skannaa käyttämällä online virustunnisteita</string>
+    <string name="summary_virus_scan_model">Poista nämä tietoturvariskit mahdollisimman pian</string>
     <string name="summary_virus_update">Hae uusimmat virustunnisteet automaattisesti</string>
     <string name="summary_xiaomi_roaming">CNY 0.01/Mt mobiilidata roamingista.</string>
     <string name="sunday">Sunnuntai</string>
@@ -5237,6 +5277,7 @@ Jäljellä oleva data sisältää datan, joka jäi viime kuukaudeltä yli."</str
     <string name="vb_movie_power_hint">"Teatteritila tarjoaa mukaansatempaavan katselukokemuksen.
 Laitteesi saattaa lämmetä ja kuluttaa enemmän virtaa."</string>
     <string name="vb_movie_subtitle">Vaatii korkeaa suorituskykyä</string>
+    <string name="vb_mv_style_close_toast">Tyyli on pois päältä</string>
     <string name="vb_power_performance_mode_conflict_toast">Tätä ominaisuutta ei voi käyttää, kun suorituskykytila on päällä</string>
     <string name="vb_power_save_mode_conflict_toast">Tätä ominaisuutta ei voi käyttää, kun virransäästö on päällä</string>
     <string name="vb_quick_func_auto_bgm">Tunnista taustamusiikki</string>
@@ -5310,6 +5351,7 @@ Tämä ominaisuus ei toimi liikkeen tasoittamisen kanssa.
 Yhden ominaisuuden kytkeminen päälle poistaa toisen käytöstä."</string>
     <string name="vb_video_super_division_tips">"Ei tarpeeksi selkeä?
 Kokeile resoluution korottamista!"</string>
+    <string name="vb_vison_dynamic_enhance_close_toast">Tehostetut animaatiot ovat pois käytöstä</string>
     <string name="vb_voice_adjust">Teatteriääni</string>
     <string name="video_repeat">Toista uudelleen</string>
     <string name="videobox_hangup_tips_content">Näyttösi lukitaan, mutta sovellus toimii edelleen taustalla, kun tämä ominaisuus on käytössä. Kytke näyttö takaisin päälle painamalla virtapainiketta. Otetaanko tämä ominaisuus käyttöön nyt?</string>

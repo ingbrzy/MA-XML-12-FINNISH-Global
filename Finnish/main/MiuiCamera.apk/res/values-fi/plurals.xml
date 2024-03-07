@@ -36,6 +36,10 @@
         <item quantity="other">%d minuuttia sitten</item>
         <item quantity="one">1 minuutti sitten</item>
     </plurals>
+    <plurals name="accessibility_auto_night_tip">
+        <item quantity="other">%d-second timer for Night mode</item>
+        <item quantity="one">%d-second timer for Night mode</item>
+    </plurals>
     <plurals name="accessibility_focus_face_detect">
         <item quantity="other">Tarkennettu. %d kasvot havaittu</item>
         <item quantity="one">Tarkennettu. %d kasvot havaittu</item>
@@ -52,6 +56,14 @@
         <item quantity="other">Kesto: %d sekuntia</item>
         <item quantity="one">Kesto: %d sekunti</item>
     </plurals>
+    <plurals name="cinemaster_toast_camera_overflow">
+        <item quantity="other">Voit yhdistää enintään %d kameraa samaan verkkoon</item>
+        <item quantity="one">Voit yhdistää enintään %d kameran samaan verkkoon</item>
+    </plurals>
+    <plurals name="cinemaster_toast_monitor_overflow">
+        <item quantity="other">Voit liittää enintään %d monitoria samaan verkkoon</item>
+        <item quantity="one">Voit liittää enintään %d monitorin samaan verkkoon</item>
+    </plurals>
     <plurals name="clone_guide_tip2">
         <item quantity="other">Voit luoda enintään %d kloonia kerralla.</item>
         <item quantity="one">Voit luoda enintään %d kloonin kerralla.</item>
@@ -64,6 +76,10 @@
         <item quantity="other">&lt;Data>Tämä laite on nyt liian kuuma.&lt;br>Tämä sovellus suljetaan &lt;font color=#FFCE16>&lt;b>%1$d sekunnin kuluttua&lt;/b>&lt;/font>. Tämänhetkinen edistyminen tallennettiin automaattisesti.&lt;/Data></item>
         <item quantity="one">&lt;Data>Tämä laite on nyt liian kuuma.&lt;br>Tämä sovellus suljetaan &lt;font color=#FFCE16>&lt;b>%1$d sekunnin kuluttua&lt;/b>&lt;/font>. Tämänhetkinen edistyminen tallennettiin automaattisesti.&lt;/Data></item>
     </plurals>
+    <plurals name="exit_version_hint">
+        <item quantity="other">&lt;Data>Käyttämäsi Kamera-versio ei ole yhteensopiva laitemallisi kanssa.&lt;br>Sovellus sulkeutuu &lt;font color=#FFCE16>&lt;b>%1$d sek kuluttua&lt;/b>&lt;/font >. Poista Kamera-päivitykset ja yritä uudelleen.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Käyttämäsi Kamera-versio ei ole yhteensopiva laitemallisi kanssa.&lt;br>Sovellus sulkeutuu &lt;font color=#FFCE16>&lt;b>%1$d sek kuluttua&lt;/b>&lt;/font >. Poista Kamera-päivitykset ja yritä uudelleen.&lt;/Data></item>
+    </plurals>
     <plurals name="fastmotion_pro_min_unit">
         <item quantity="other">%1$d minuuttia</item>
         <item quantity="one">%1$d minuutti</item>
@@ -71,6 +87,10 @@
     <plurals name="fastmotion_pro_sec_unit">
         <item quantity="other">%1$d sekuntia</item>
         <item quantity="one">%1$d sekunti</item>
+    </plurals>
+    <plurals name="friend_mode_display_first_dialog">
+        <item quantity="other">Ajastin päällä (%1$d sek). Valokuvat siirretään tälle laitteelle.</item>
+        <item quantity="one">Ajastin päällä (%1$d sek). Valokuvat siirretään tälle laitteelle.</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Puoli tuntia sitten</item>
@@ -107,6 +127,10 @@
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minuuttia sitten</item>
         <item quantity="one">1 minuutti sitten</item>
+    </plurals>
+    <plurals name="number_unit_seconds_split">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
     </plurals>
     <plurals name="pad_ccc_temperature_warning_msg">
         <item quantity="other">Laitteesi on ylikumentunut. Kamera suljetaan %d sekunnissa. Kuvasi tai videosi tallennetaan automaattisesti.</item>

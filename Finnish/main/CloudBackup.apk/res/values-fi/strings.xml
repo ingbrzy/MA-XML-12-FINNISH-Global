@@ -438,6 +438,8 @@ Yritä uudelleen"</string>
     <string name="other_device_main_space">Ensimmäinen tila</string>
     <string name="other_device_second_space">Toinen näkymä</string>
     <string name="page_title_more_backup_options">Lisävarmuuskopiointipalvelut</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Kohteita ei voi palauttaa työpöytätilassa. Sammuta työpöytätila ja yritä uudelleen.</string>
     <string name="permission_to_use">Käyttöoikeustiedot</string>
     <string name="pm">ip.</string>
@@ -449,6 +451,7 @@ Yritä uudelleen"</string>
     <string name="provision_error_connect_title">Ei voi yhdistää</string>
     <string name="provision_next">Seuraava</string>
     <string name="provision_restore_data">Palautetaan kohteita</string>
+    <string name="provision_restore_item_backup_name_with_size">%1$s | ≈%2$s</string>
     <string name="provision_skip_underline">Ohita</string>
     <string name="query_restore_description">Jos palautat aloitusnäytön asettelun ja asetukset, valmiiksi asennetut sovellukset palautetaan alkuperäisiin paikkoihinsa aloitusnäytössä. Sovellukset, jotka eivät ole osa tätä varmuuskopiota, siirretään aloitusnäytön viimeiselle sivulle.</string>
     <string name="query_restore_summary">Löytyi Xiaomi Cloud -varmuuskopio tälle laitteelle. Palauta aloitusnäytön sovellukset ja asetukset tai käytä uutena laitteena ja poista aiemmat Xiaomi Cloud -varmuuskopiot?</string>

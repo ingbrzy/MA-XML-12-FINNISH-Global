@@ -68,7 +68,7 @@
     <string name="cta_agree_desc">Salli tämän sovelluksen muodostaa yhteys Internetiin ja myöntää yllä lueteltut pakolliset käyttöoikeudet.</string>
     <string name="cta_btn_agree">Hyväksy</string>
     <string name="cta_btn_disagree">Älä hyväksy</string>
-    <string name="cta_main_purpose">Tervetuloa Kuvakaappauseditoriin! Tämän sovelluksen avulla voit rajata ja muokata kuvakaappauksiasi.</string>
+    <string name="cta_main_purpose"><string name="cta_main_purpose">Welcome to Screenshot Editor! You can use this app to crop and edit your screenshots. This app needs to connect to the internet and access audio and video files on your device to be able to provide necessary services.</string></string>
     <string name="custom_define_permission_desc_android.permission_group.STORAGE">Kuvakaappausten tallentamiseen</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -170,6 +170,10 @@
     <string name="lenovo">Lenovo</string>
     <string name="lenovo_phone">Lenovo</string>
     <string name="loading_text_format" formatted="false">Poistetaan yksityisiä tietoja valokuvista (%d/%d)…</string>
+    <string name="long_screenshot_content_auto">Otetaan kuvakaappausta…</string>
+    <string name="long_screenshot_content_loading">Hetki vain…</string>
+    <string name="long_screenshot_content_manual">Säädä kuvakaappauksen päätepistettä manuaalisesti ja napauta sitten \"Valmis\".</string>
+    <string name="long_screenshot_done">Valmis</string>
     <string name="long_screenshot_error">Tapahtui virhe. Yritä uudelleen.</string>
     <string name="long_screenshot_guide_text">"Napauta ottaaksesi
 vierivän kuvakaappauksen"</string>
@@ -178,6 +182,7 @@ vierivän kuvakaappauksen"</string>
     <string name="long_screenshot_processing">Käsitellään…</string>
     <string name="long_screenshot_processing_description_accessibility">Käsitellään</string>
     <string name="long_screenshot_stop">Valmis</string>
+    <string name="long_screenshot_title">Rullaava kuvakaappaus</string>
     <string name="long_screenshot_top_msg">Luodaan kuvakaappausta…</string>
     <string name="long_screenshot_top_msg_description_accessibility">Luodaan kuvakaappausta</string>
     <string name="long_screenshot_top_msg_manual">Rajaa kuvakaappaus ja lopeta napauttamalla painiketta</string>
@@ -209,6 +214,7 @@ vierivän kuvakaappauksen"</string>
     <string name="miuix_appcompat_delete_description">Poista</string>
     <string name="miuix_appcompat_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_deselect_all_description">Kumoa kaikkien valinta</string>
+    <string name="miuix_appcompat_edit">Muokkaa</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Peruuta</string>
     <string name="miuix_appcompat_search_input_description">Etsi</string>
     <string name="miuix_appcompat_select_all">Valitse kaikki</string>
@@ -364,12 +370,17 @@ vierivän kuvakaappauksen"</string>
     <string name="screen_editor_btn_save">Tallenna</string>
     <string name="screen_editor_btn_shell_off">Poista laitekehys</string>
     <string name="screen_editor_btn_shell_on">Lisää laitekehys</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
     <string name="screen_editor_delete_dialog_msg">Poistetaanko tämä kuvakaappaus?</string>
     <string name="screen_editor_delete_dialog_picture_msg">Poistetaanko tämä kuva nyt?</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Valmis</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
     <string name="screen_editor_shell_disallowed_with_crop">Laitekehystä ei voi lisätä rajattuihin kuvakaappauksiin</string>
     <string name="screen_editor_shell_net_error">Yhdistä verkkoon ladataksesi laitekehyksen</string>
     <string name="screen_editor_shell_res_downloading">Ladataan laitekehystä…</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Peruuta</string>
     <string name="screen_save_dialog_btn_delete">Poista kuvakaappaus</string>
     <string name="screen_save_dialog_btn_save">Tallenna Galleriaan</string>
@@ -397,6 +408,7 @@ vierivän kuvakaappauksen"</string>
     <string name="screenshot_long_screenshot">Vieritä</string>
     <string name="screenshot_save">Tallenna</string>
     <string name="screenshot_send">Lähetä</string>
+    <string name="screenshot_succeed">Kuvakaappaus otettu onnistuneesti</string>
     <string name="screenshot_thumbnail">Näyttökuvan kuvake</string>
     <string name="scroll_annotation">Vieritä ja merkitse</string>
     <string name="scroll_annotation_btn_quit">Poistu merkinnöistä</string>

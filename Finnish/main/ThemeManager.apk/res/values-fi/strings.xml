@@ -46,6 +46,7 @@
     <string name="actionbar_button_up_description">Takaisin</string>
     <string name="ad_app_download_start">Lataus aloitettiin…</string>
     <string name="ad_app_is_downloading">Ladataan…</string>
+    <string name="ad_flag_text">MAINOS</string>
     <string name="ad_service">Näytä mainoksia</string>
     <string name="add_resource_detail_fail">Lähdettä ei voi lisätä</string>
     <string name="add_ringtone">Lisää soittoääni</string>
@@ -252,7 +253,9 @@
     <string name="exo_download_paused_for_wifi">Lataukset odottavat Wi-Fi-yhteyttä</string>
     <string name="exo_download_removing">Poistetaan latauksia</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Vaihtoehtoinen</string>
     <string name="exo_track_role_closed_captions">Tekstitykset</string>
     <string name="exo_track_role_commentary">Kommenttiraita</string>
@@ -271,6 +274,7 @@
     <string name="expect_more">Pysy ajan tasalla päivityksien varalta!</string>
     <string name="explore_new_and_popular_themes">Tutustu uusiin ja suosittuihin teemoihin</string>
     <string name="exposed_dropdown_menu_content_description">Näytä avattava valikko</string>
+    <string name="external_wallpaper">Ulkoisen näytön taustakuva</string>
     <string name="extreme_mode_dialog_message">Tämä ominaisuus ei ole käytettävissä ääritilassa. Sammuta ääritila käyttääksesi sitä.</string>
     <string name="extreme_mode_dialog_ok">Selvä</string>
     <string name="extreme_mode_dialog_title">Hälytys</string>
@@ -392,6 +396,7 @@
     <string name="incompatible_dialog_ok">Selvä</string>
     <string name="incompatible_dialog_title">Yhteensopivuusongelmat</string>
     <string name="is_setting_wallpaper_message">Asetetaan taustakuvaa…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Hälytykset</string>
     <string name="item_resource_audio_optional_color_ring">Soittoääni</string>
     <string name="item_resource_audio_optional_notification_ring">Ilmoitukset</string>
@@ -549,7 +554,7 @@ mm"</string>
     <string name="month_september">Syyskuu</string>
     <string name="month_september_short">Syys</string>
     <string name="month_september_shortest">Syys</string>
-    <string name="more">LISÄÄ</string>
+    <string name="more">Lisää</string>
     <string name="more_personal_setting">Lisäasetukset</string>
     <string name="more_ringtones">Lisää soittoääniä</string>
     <string name="more_system_wallpaper">Lisää järjestelmän taustakuvia</string>
@@ -561,6 +566,7 @@ mm"</string>
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -659,7 +665,7 @@ mm"</string>
     <string name="payment_coins_balance">(Saldo: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Riittämätön saldo)</string>
     <string name="payment_data_move_tips">Tilisi tiedot siirretään alueesi palvelimille tietosuojamääräysten mukaisesti. Tietojen katoamisen vaara on olemassa siirron aikana.</string>
-    <string name="payment_instructions">&lt;Data>Suorittamalla maksun hyväksyt kohteen &lt;a href=\"%1$s\"> sovelluksen sisäisiä ostoja koskevan ilmoituksen&lt;/a>.&lt;/Data></string>
+    <string name="payment_instructions"><Data>Suorittamalla maksun hyväksyt kohteen &lt;a href=\"%1$s\"> sovelluksen sisäisiä ostoja koskevan ilmoituksen&lt;/a>.</Data></string>
     <string name="payment_method">Maksutapa</string>
     <string name="permission_desc">Tallennettujen teemojen ja muiden kohteiden tallentamiseen</string>
     <string name="permission_pop_desc">Jotta voit muuttaa yksilöintiasetuksia ja tallentaa ladatut kohteet, anna Teemojen käyttää tallennustilaa ensin.</string>
@@ -829,6 +835,7 @@ mm"</string>
     <string name="resource_pack_price_info">Alkuperäinen hinta: %1$s</string>
     <string name="resource_pack_warning">Olet jo ostanut %1$d osaa tästä teemasta. On halvempaa, jos ostat jäljellä olevat osat erikseen.</string>
     <string name="resource_present">Lahja</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Ilmainen</string>
     <string name="resource_price_unit">Mi Credits</string>
     <string name="resource_purchase_common_error">Tapahtui virhe, yritä myöhemmin uudelleen</string>
@@ -966,6 +973,7 @@ mm"</string>
     <string name="somatosensory_temperature_format">Tuntuu kuin %s°</string>
     <string name="special_topic">Kategoriat</string>
     <string name="start_all">Jatka kaikkia</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="still_apply">Ota käyttöön</string>
     <string name="storage_file">Ladattujen kohteiden tallentamiseksi</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -992,6 +1000,7 @@ mm"</string>
     <string name="system_aod_dialog_title">Aina näytössä</string>
     <string name="system_phone">Puhelut</string>
     <string name="system_precust">Esiasennettu</string>
+    <string name="text_play">Pelaa</string>
     <string name="the_anniversary_of_lifting_martial_law">Sotalain nostamisen vuosipäivä</string>
     <string name="the_anti_aggression_day">Anti-Aggression Day</string>
     <string name="the_arbor_day">Arbor Day</string>
@@ -1097,6 +1106,7 @@ mm"</string>
     <string name="theme_is_external_priority_storage">Tallenna SD-kortille</string>
     <string name="theme_is_external_priority_storage_summary">Teema-sovellus käynnistyy uudelleen heti tämän asetuksen asettamisen jälkeen.</string>
     <string name="theme_multiple_button_title_customize">Muokkaa</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Ei</string>
     <string name="theme_on_the_phone_alert">Ei voi toistaa puheluiden aikana</string>
     <string name="theme_recommend">Samankaltaiset teemat</string>
@@ -1117,6 +1127,7 @@ mm"</string>
     <string name="themes_has_an_updated_version">Uusi versio Teemoista on saatavilla</string>
     <string name="themes_might_like">Teemat, joista saatat pitää</string>
     <string name="third_party_pickers_activity_title">Lisää %1$s</string>
+    <string name="third_privacy_policies">Kolmansien osapuolien tietosuojakäytännöt</string>
     <string name="thursday">Torstai</string>
     <string name="thursday_short">To</string>
     <string name="thursday_shortest">To</string>
@@ -1169,14 +1180,15 @@ mm"</string>
     <string name="update_push_content">Päivitä nyt</string>
     <string name="update_push_title">Teemastasi on uusi versio saatavilla</string>
     <string name="update_title">UUSI PÄIVITYS SAATAVILLA</string>
+    <string name="used_wallpaper">Viimeksi käytetty</string>
     <string name="user_agree">Hyväksy</string>
     <string name="user_attention_new_theme">Uusi sisältö käyttäjältä %s</string>
     <string name="user_authorization_dialog_agree">Hyväksy</string>
     <string name="user_authorization_dialog_agree_a">Hyväksy</string>
     <string name="user_authorization_dialog_disagree">Poistu</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>Meidän on kerättävä tarvittavat henkilökohtaiset tiedot, jotta voimme tarjota sinulle peruspalveluja. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=\"%1$s\">Tietosuojakäytännöstä&lt;/a>. Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%3$s\">Tietosuojakäytäntö&lt;/a> ennen Teemojen käyttämistä.
-Voit milloin tahansa peruuttaa suostumuksesi Teemat-tietosuojakäytäntöön kohdassa Asetukset.&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>Hyväksy meidän &lt;a href=\"%1$s\">käyttäjäsopimus&lt;/a> ja &lt;a href=\"%2$s\">tietosuojakäytäntö&lt;/a> ennen kuin jatkat. Voit muuttaa asetuksiasi milloin tahansa asetuksissa.&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"Meidän on kerättävä tarvittavat henkilökohtaiset tiedot, jotta voimme tarjota sinulle peruspalveluja. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=\"%1$s\">Tietosuojakäytännöstä&lt;/a>. Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%3$s\">Tietosuojakäytäntö&lt;/a> ennen Teemojen käyttämistä.
+Voit milloin tahansa peruuttaa suostumuksesi Teemat-tietosuojakäytäntöön kohdassa Asetukset."</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>Hyväksy meidän &lt;a href=\"%1$s\">käyttäjäsopimus&lt;/a> ja &lt;a href=\"%2$s\">tietosuojakäytäntö&lt;/a> ennen kuin jatkat. Voit muuttaa asetuksiasi milloin tahansa asetuksissa.</Data></string>
     <string name="user_authorization_dialog_title">Käyttöehdot</string>
     <string name="user_know">Selvä</string>
     <string name="using_theme_has_update_tips">Päivitys tähän teemaan on saatavilla.</string>
@@ -1225,6 +1237,11 @@ Voit milloin tahansa peruuttaa suostumuksesi Teemat-tietosuojakäytäntöön koh
     <string name="wallpaper_settings_no_history">Ei historiaa</string>
     <string name="wallpaper_settings_pad_more_page_title">Lisää taustakuvia</string>
     <string name="wallpaper_settings_page_title">Taustakuva</string>
+    <string name="warning_miui_optimization_closed_dialog_agree">Asetukset</string>
+    <string name="warning_miui_optimization_closed_dialog_disagree">Aseta</string>
+    <string name="warning_miui_optimization_closed_dialog_message">Näyttää siltä, ettet ole ottanut MIUI-optimointia käyttöön. Ilman sitä tämä teema ei toimi oikein, kun sitä käytetään. Voit ottaa sen käyttöön joka tapauksessa tai ottaa MIUI-optimoinnin käyttöön asetuksista.</string>
+    <string name="warning_miui_optimization_closed_dialog_message2">Näyttää siltä, ettet ole ottanut järjestelmäoptimointia käyttöön. Ilman sitä tämä teema ei toimi oikein, kun sitä käytetään. Voit ottaa sen käyttöön joka tapauksessa tai ottaa järjestelmäoptimoinnin käyttöön asetuksista.</string>
+    <string name="warning_miui_optimization_closed_dialog_title">Huomio</string>
     <string name="watermark_label_prefix">AdMob -</string>
     <string name="weather_no_data">Ei säätietoja</string>
     <string name="wednesday">Keskiviikko</string>

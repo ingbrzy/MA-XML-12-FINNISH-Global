@@ -15,8 +15,8 @@
     </string-array>
     <string-array name="settings_search_account_and_authority_non_global">
         <item>Tilit</item>
-        <item>Lisää ja hallinnoi kolmansien osapuolien tilejä</item>
-        <item>Tilit;SNS;WeChat;QQ;Mi-tili;Tili;Xiaomi-tili</item>
+        <item>Tarkastele yhdistettyjä WeChat- ja muita SNS-tilejäsi</item>
+        <item>käyttöoikeudet;SNS;WeChat;Xiaomi-tili;tili</item>
     </string-array>
     <string-array name="settings_search_change_password">
         <item>Vaihda salasana</item>

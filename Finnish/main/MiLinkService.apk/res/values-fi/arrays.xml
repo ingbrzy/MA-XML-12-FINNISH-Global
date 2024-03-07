@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_search_connect_car">
+        <item>Yhdistä sovelluksia</item>
+        <item>Yhteenliitettävyys/Yhdistä sovelluksia</item>
+        <item>Auto-ominaisuudet</item>
+    </string-array>
+    <string-array name="settings_search_connection_home">
+        <item>Yhteenliitettävyys</item>
+        <item>Yhteenliitettävyys/Yhteenliitettävyys</item>
+        <item>Laitteiden yhteenliitettävyys, Laitteiden yhteenliitettävyyspalvelut, Xiaomi, Xiaomi AIoT, AIoT, Screen Combo, älykäs yhteys, Mi Smart Hub, yhteenliitettävyys, Duo, Xiaomi-puhelin, Xiaomi-kannettava, Moninäyttö, Duet, näytönjako, sovellusten yhdistäminen, kanavanvaihto, sovelluksen vaihto, peili, Xiaomi Ekosysteemi, laiteliitäntä</item>
+    </string-array>
+    <string-array name="settings_search_connection_privacy">
+        <item>Tietosuoja</item>
+        <item>Yhteenliitettävyys/Tietosuoja</item>
+        <item>Tietosuoja ja yhteenliitettävyys, Tietosuoja</item>
+    </string-array>
+    <string-array name="settings_search_connection_service">
+        <item>Xiaomi-yhteenliitettävyys</item>
+        <item>Yhteenliitettävyys/Xiaomi-yhteenliitettävyys</item>
+        <item>Xiaomi-yhteenliitettävyyspalvelut, Xiaomi-yhteenliitettävyys</item>
+    </string-array>
+    <string-array name="settings_search_relay_app">
+        <item>Sovelluksen vaihto</item>
+        <item>Yhteenliitettävyys/Sovelluksen vaihto</item>
+        <item>Siirrä sovelluksia, kanavanvaihto, siirto</item>
+    </string-array>
+    <string-array name="settings_search_relay_call">
+        <item>Puhelut</item>
+        <item>Yhteenliitettävyys/Puhelut</item>
+        <item>Puhelut</item>
+    </string-array>
+    <string-array name="settings_search_relay_network">
+        <item>Verkkotuki</item>
+        <item>Yhteenliitettävyys/Verkkotuki</item>
+        <item>Verkkotuki, jakaminen, tukiasemajakaminen</item>
+    </string-array>
+    <string-array name="settings_search_share_Launcher">
+        <item>Aloitusnäyttö+</item>
+        <item>Yhteenliitettävyys/aloitusnäyttö+</item>
+        <item>Aloitusnäyttö+, Mi Smart Hub, näytön jakaminen</item>
+    </string-array>
+    <string-array name="settings_search_share_clipboard">
+        <item>Leikepöytä</item>
+        <item>Yhteenliitettävyys/Leikepöytä</item>
+        <item>Leikepöytä</item>
+    </string-array>
+    <string-array name="settings_search_share_notify">
+        <item>Laitteidenväliset ilmoitukset</item>
+        <item>Yhteenliitettävyys/Ilmoitukset</item>
+        <item>Laitteidenväliset ilmoitukset</item>
+    </string-array>
+</resources>

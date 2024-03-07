@@ -10,6 +10,7 @@
     <string name="download_queued">Jonossa</string>
     <string name="download_remaining">%s jäljellä</string>
     <string name="download_running">Ladataan</string>
+    <string name="download_running_percent">Ladataan %s</string>
     <string name="download_unknown_title">&lt;Nimetön></string>
     <string name="notif_title_file_size">%1$d yhteensä</string>
     <string name="notif_title_single_downloading">Ladataan %1$s</string>
@@ -32,7 +33,6 @@
     <string name="permlab_downloadManager">Pääsy latauksiin.</string>
     <string name="permlab_downloadManagerAdvanced">Latausten lisäominaisuudet.</string>
     <string name="permlab_downloadWithoutNotification">Lataa tiedostoja ilman ilmoitusta</string>
-    <string name="permlab_seeAllExternal">Näytä kaikki lataukset USB-tallennustilaan</string>
     <string name="root_downloads">Lataukset</string>
     <string name="wifi_recommended_body">"Tämän käynnistäminen %1$s  lataus voi lyhentää akun käyttöikää ja / tai johtaa mobiilidatayhteyksien liialliseen käyttöön, joka voi johtaa maksujen suorittamiseen matkapuhelinoperaattorisi tietosuunnitelmasi mukaan.
  Aloita tämä lataus koskettamalla%2$s

@@ -33,7 +33,7 @@
     <string name="abrupt_weather_settings_summary_type">Vastaanota hälytyksiä odotetuista sademääristä, ilmanlaadun muutoksista ja muista merkittävistä muutoksista</string>
     <string name="act_find_city_hint">Anna sijainti</string>
     <string name="act_find_city_hot_city_title">Suositut kaupungit</string>
-    <string name="act_location_error_to_find_city">Sijaintitietoja ei saatu. Voit lisätä kaupungin manuaalisesti.</string>
+    <string name="act_location_error_to_find_city">Sijaintitietoja ei saatu. Voit lisätä sijainnin manuaalisesti.</string>
     <string name="act_set_city_find_side">Sijainti</string>
     <string name="act_set_city_find_side_error">Laitetta ei voitu paikantaa</string>
     <string name="act_weather_find_city_added">Lisätty</string>
@@ -78,17 +78,11 @@
     <string name="aqi_fifteen_dates_time_format">d.M</string>
     <string name="aqi_publish_time">Päivitetty %1$s</string>
     <string name="aqi_quality_co_desc">Häkä</string>
-    <string name="aqi_quality_co_pad">CO: %1$s</string>
     <string name="aqi_quality_no2_desc">Typpidioksidi</string>
-    <string name="aqi_quality_no2_pad">NO₂: %1$s</string>
     <string name="aqi_quality_o3_desc">Otsoni</string>
-    <string name="aqi_quality_o3_pad">O₃: %1$s</string>
     <string name="aqi_quality_pm10_desc">Hengitettävät karkeat hiukkaset</string>
-    <string name="aqi_quality_pm10_pad">PM10: %1$s</string>
     <string name="aqi_quality_pm25_desc">Hienoja hiukkasia</string>
-    <string name="aqi_quality_pm25_pad">PM2.5: %1$s</string>
     <string name="aqi_quality_so2_desc">Rikkidioksidi</string>
-    <string name="aqi_quality_so2_pad">SO₂: %1$s</string>
     <string name="aqi_station_best_quality_station">Paras ympärillä</string>
     <string name="aqi_station_min_distance_station">Lähin asema</string>
     <string name="aqi_title_pad">AQI: %1$s</string>
@@ -163,6 +157,7 @@
     <string name="dynamic_weather">Sää</string>
     <string name="early_morning">Aamu</string>
     <string name="edit_city">Hallitse kaupunkeja</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Päivitetään…</string>
     <string name="empty_view_net_unavailable">Ei voitu yhdistää verkkoon</string>
     <string name="empty_view_refresh">Yritä uudelleen</string>
@@ -213,8 +208,8 @@
     <string name="feedback_result_fail_no_choice">Valitse nykyiset sääolosuhteet</string>
     <string name="feedback_result_fail_no_reason">Kiitos palautteestasi!</string>
     <string name="feedback_result_fail_same_type">Näyttää siltä, ettei raporttisi poikkea tämänhetkisestä säästä. Yritä uudelleen.</string>
-    <string name="feedback_result_success">Lähetetty onnistuneesti, kiitos palautteestasi.</string>
-    <string name="feedback_sandy">Hiekkainen</string>
+    <string name="feedback_result_success">Lähetetty onnistuneesti. Kiitos palautteestasi.</string>
+    <string name="feedback_sandy">Pölymyrsky</string>
     <string name="feedback_sunny">Selkeää</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -272,18 +267,21 @@
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
     <string name="hourly_forcast_now">Nyt</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d.M</string>
     <string name="index_item_experience_now">Asenna nyt</string>
     <string name="indices_title_chance_of_rain">Sateen mahdollisuus</string>
     <string name="indices_title_feel">Tuntuu kuin</string>
     <string name="indices_title_pressure">Paine</string>
     <string name="indices_title_uv">UV</string>
-    <string name="indices_title_wind_speed">Tuulen nopeus</string>
     <string name="indices_wind_direction_east">E</string>
     <string name="indices_wind_direction_north">N</string>
     <string name="indices_wind_direction_south">S</string>
     <string name="indices_wind_direction_west">W</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV-Indeksi</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Ota sijaintipalvelut käyttöön</string>
     <string name="location_tag">Paikanna</string>
     <string name="manager_city_option_add_home">Lisää aloitussivulle</string>
@@ -294,16 +292,15 @@
     <string name="minute_rain_feedback_title">Säätiedot näyttävät virheellisiltä.</string>
     <string name="minute_rain_now">Nyt</string>
     <string name="minute_rain_progress_indicator_original_time">- -</string>
-    <string name="missing_required_permission">Olet poistanut vaaditun käyttöoikeuden.</string>
     <string name="miuix_access_state_desc">Valittu</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Lisää</string>
     <string name="miuix_appcompat_cancel_description">Peruuta</string>
     <string name="miuix_appcompat_confirm_description">Vahvista</string>
     <string name="miuix_appcompat_delete_description">Poista</string>
-    <string name="miuix_appcompat_deselect_all">Poista valinta</string>
+    <string name="miuix_appcompat_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_deselect_all_description">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Peruuta</string>
     <string name="miuix_appcompat_search_input_description">Etsi</string>
@@ -392,8 +389,8 @@
     <string name="privacy_grant_or_revoke_settings">Suostumuksen peruuttaminen</string>
     <string name="privacy_grant_success">Valtuutus hyväksytty onnistuneesti</string>
     <string name="privacy_policy">Tietosuojakäytäntö</string>
-    <string name="privacy_policy_msg">&lt;Data>Tämä sovellus sisältää seuraavat ominaisuudet:&lt;br/>• Sijaintiisi asiaankuuluvat säätiedot&lt;br/>• Sääennusteet&lt;br/>• Säävaroitukset&lt;br/>&lt;br/>Sään on kerättävä tarvittavat henkilökohtaiset tiedot peruspalveluiden tarjoamiseksi. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=\"%1$s\">Tietosuojakäytännössä&lt;/a>. Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%3$s\">Tietosuojakäytäntö&lt;/a> ennen Sään käyttämistä. Voit milloin tahansa peruuttaa suostumuksesi Sää-tietosuojakäytäntöön kohdassa Asetukset.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>Tämä sovellus sisältää seuraavat ominaisuudet:&lt;br/>• Sijaintiisi asiaankuuluvat säätiedot&lt;br/>• Sääennusteet&lt;br/>• Säävaroitukset&lt;br/>&lt;br/>Sään on kerättävä tarvittavat henkilökohtaiset tiedot, mukaan lukien sijaintitiedot, jotta nämä ominaisuudet olisivat käytettävissä, vaikka sovellus olisi suljettu tai sitä ei käytetä. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=\"%1$s\">Tietosuojakäytännöstä&lt;/a>. Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%3$s\">Tietosuojakäytäntö&lt;/a> ennen Sään käyttämistä. Voit milloin tahansa peruuttaa suostumuksesi Sää-tietosuojakäytäntöön kohdassa Asetukset.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>Tämä sovellus sisältää seuraavat ominaisuudet:&lt;br/>• Sijaintiisi asiaankuuluvat säätiedot&lt;br/>• Sääennusteet&lt;br/>• Säävaroitukset&lt;br/>&lt;br/>Sään on kerättävä tarvittavat henkilökohtaiset tiedot peruspalveluiden tarjoamiseksi. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=\"%1$s\">Tietosuojakäytännössä&lt;/a>. Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%3$s\">Tietosuojakäytäntö&lt;/a> ennen Sään käyttämistä. Voit milloin tahansa peruuttaa suostumuksesi Sää-tietosuojakäytäntöön kohdassa Asetukset.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>Tämä sovellus sisältää seuraavat ominaisuudet:&lt;br/>• Sijaintiisi asiaankuuluvat säätiedot&lt;br/>• Sääennusteet&lt;br/>• Säävaroitukset&lt;br/>&lt;br/>Sään on kerättävä tarvittavat henkilökohtaiset tiedot, mukaan lukien sijaintitiedot, jotta nämä ominaisuudet olisivat käytettävissä, vaikka sovellus olisi suljettu tai sitä ei käytetä. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=\"%1$s\">Tietosuojakäytännöstä&lt;/a>. Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%3$s\">Tietosuojakäytäntö&lt;/a> ennen Sään käyttämistä. Voit milloin tahansa peruuttaa suostumuksesi Sää-tietosuojakäytäntöön kohdassa Asetukset.</Data></string>
     <string name="privacy_revoke_success">Valtuutus peruutettu onnistuneesti</string>
     <string name="privacy_settings">Tietosuojakäytäntö</string>
     <string name="pull_fresh_updated">Päivitetty onnistuneesti</string>
@@ -412,10 +409,6 @@
     <string name="realtime_wind_default_title">Wind</string>
     <string name="refresh_fail">Ei voitu yhdistää verkkoon</string>
     <string name="reminder_from_xiaomi_weather_app">Mi Sää -hälytys</string>
-    <string name="request_cta_connect_net">Salli tämän sovelluksen muodostaa yhteys Internettiin ja myöntää yllä lueteltut pakolliset käyttöoikeudet.</string>
-    <string name="request_permission_location_dialog_content">Nykyiseen sijaintiisi liittyvien säätietojen näyttämiseen</string>
-    <string name="request_permission_main_purpose">Näytetään säätiedot</string>
-    <string name="request_permission_storage_dialog_content">Säätietojen jakamiseen kuvamuodossa</string>
     <string name="revoke_fail">Ei voi yhdistää verkkoon</string>
     <string name="revoke_privacy_policy_title">Suostumuksen peruuttaminen</string>
     <string name="saturday">Lauantai</string>
@@ -441,7 +434,7 @@
     <string name="share_button">Jaa</string>
     <string name="share_menu_title">Jaa</string>
     <string name="share_subject">Jaa</string>
-    <string name="share_weather_desc">\#MIUI Sää#Tänään %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kuvakaappausta ei voitu ottaa</string>
     <string name="shortcut_short_label_24_hour_forecast">%d tunnin ennuste</string>
@@ -568,9 +561,6 @@
     <string name="user_agreement">Käyttäjäsopimus</string>
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
     <string name="v7_preference_on">KÄYTÖSSÄ</string>
-    <string name="video_banner_regional_weather_update">Alueelliset sääpäivitykset</string>
-    <string name="video_banner_weather_forecast">Sääennuste</string>
-    <string name="video_banner_weather_update">Viimeisimmät sääpäivitykset</string>
     <string name="view_forecast_item_yesterday">Eilen</string>
     <string name="view_indexes_item_today">Tänään</string>
     <string name="view_indexes_item_tommorrow">Huomenna</string>
@@ -591,9 +581,7 @@
     <string name="wind_power">%d</string>
     <string name="wind_unit">%1$skm/h</string>
     <string name="xiaomi_weather_description_content">Sää on järjestelmäsovellus. Et voi tarkastella säätietoja tai käyttää niihin liittyviä widgettejä sovelluksen poistamisen jälkeen.</string>
-    <string name="xiaomi_weather_description_content_remove">Sää on järjestelmäsovellus. Et voi tarkastella säätietoja tai käyttää niihin liittyviä widgettejä, kun olet poistanut aloitusnäytön pikavalinnan.</string>
     <string name="xiaomi_weather_description_title">Poistetaanko \"Sää\"?</string>
-    <string name="xiaomi_weather_description_title_remove">Poistetaanko Sää aloitusnäytöltä?</string>
     <string name="yes_vote_ratio">Puolesta %1$s%%</string>
     <string name="yesterday">Eilen</string>
 </resources>

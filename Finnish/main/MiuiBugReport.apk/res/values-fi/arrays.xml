@@ -9,7 +9,7 @@
         <item>Ei pääse verkkoon. Yhdistä uudelleen Wi-Fi-verkkoon tai käynnistä reititin uudelleen.</item>
     </string-array>
     <string-array name="net_diag_err_link_quality_china">
-        <item>Huono WLAN-yhteys. Vaihda langattomia taajuuksia tai käynnistä reititin uudelleen.</item>
+        <item>Huono Wi-Fi-yhteys. Vaihda langattomia taajuuksia tai käynnistä reititin uudelleen.</item>
         <item>Ei pääse verkkoon. Yhdistä uudelleen WLAN-verkkoon tai käynnistä reititin uudelleen.</item>
     </string-array>
     <string-array name="net_diag_err_network_connectivity">
@@ -17,7 +17,7 @@
         <item>Verkkoon pääsy on rajoitettu. Säädä tämän laitteen aikaa ja tarkista reitittimen verkkoasetukset.</item>
         <item>Verkkovirhe. Tarkista HTTP-välityspalvelimen asetukset.</item>
         <item>Verkkovirhe. Tarkista, voiko reititin käyttää Internetiä.</item>
-        <item>Ei voi muodostaa yhteyttä verkkoon. Yhdistä uudelleen Wi-Fi-verkkoon tai käynnistä reititin uudelleen.</item>
+        <item>Verkkoyhteyttä ei voida muodostaa. Yhdistä uudelleen Wi-Fi-verkkoon tai käynnistä reititin uudelleen.</item>
     </string-array>
     <string-array name="net_diag_err_network_connectivity_china">
         <item>Verkkoon pääsy edellyttää todennusta</item>
@@ -29,7 +29,7 @@
     <string-array name="net_diag_err_network_dns">
         <item>DNS-palvelinvirhe. Tarkista reitittimen DNS-asetukset.</item>
         <item>Merkittäviä viiveitä DNS-palvelimelta. Tarkista reitittimen DNS-asetukset.</item>
-        <item>Ei pääse yhdyskäytävään. Yhdistä uudelleen Wi-Fi-verkkoon tai käynnistä reititin uudelleen.</item>
+        <item>Verkkoyhteyttä ei voida muodostaa. Yhdistä uudelleen Wi-Fi-verkkoon tai käynnistä reititin uudelleen.</item>
     </string-array>
     <string-array name="net_diag_err_network_dns_china">
         <item>DNS-palvelinvirhe. Tarkista reitittimen DNS-asetukset.</item>

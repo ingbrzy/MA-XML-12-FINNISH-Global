@@ -47,8 +47,10 @@
     <string name="anti_flicker_mode">Vilkkumisen esto</string>
     <string name="anti_flicker_mode_categroy">Tilat</string>
     <string name="anti_flicker_mode_summary">Estä ylenpalttinen vilkkuminen ja vähennä silmien rasitusta heikossa valaistuksessa</string>
+    <string name="anti_flicker_mode_summary_new">Käytä DC-himmennystä hämärässä vähentääksesi silmien rasitusta</string>
     <string name="anti_flicker_title">Vilkkumisen estotila</string>
     <string name="app_name">Asetukset</string>
+    <string name="app_use">Sovelluksen käyttöaika</string>
     <string name="application_sound">Sovellusilmoitukset</string>
     <string name="apply_ringtone">Apply</string>
     <string name="arctic_fox">Arctic fox</string>
@@ -111,7 +113,6 @@
     <string name="branch_whipbird">Turdidae</string>
     <string name="brown_pelican">Brown pelican</string>
     <string name="calendar_sound">Tapahtumamuistutukset</string>
-    <string name="calendar_tip">Tapahtumamuistutuksen äänet toimivat kalenterimerkinnöille, ​​muistiinpanoille ja tehtäville</string>
     <string name="canada_goose">Canada goose</string>
     <string name="capybara">Capybara</string>
     <string name="capybara_info">Capybaras are semiaquatic herbivore rodents who can hold their breath underwater for up to five minutes at a time.</string>
@@ -307,6 +308,10 @@ ei ole luotu toisessa tilassa"</string>
     <string name="focus_time_exception_tip">Näyttää siltä, että järjestelmän aika on muuttunut. Tarkennustila poistettu käytöstä.</string>
     <string name="follow_apps_settings">Sovellusasetusten perusteella</string>
     <string name="follow_sim1">Käytä SIM 1 -asetuksia</string>
+    <string name="footer_global_fps">"
+%1$d. Kun otat suorituskykytilan käyttöön, virkistystaajuus vaihdetaan järjestelmän maksimiarvoon %2$d Hz. Sovelluksen korkean virkistystaajuuden asetukset ovat tilapäisesti pois käytöstä."</string>
+    <string name="footer_max_fps" formatted="false">"
+%d. Tuettujen sovellusten ja pelien virkistystaajuutta voidaan säätää enintään arvoon %s  Hz."</string>
     <string name="force_rest">Käytä istunnon taukoja</string>
     <string name="force_rest_summary">Pidä pakollisia taukoja, kun istunnot saavuttavat asetetun rajan</string>
     <string name="force_rest_time">Tauon kesto</string>
@@ -419,17 +424,20 @@ ei ole luotu toisessa tilassa"</string>
     <string name="marabou_stork">Marabou stork</string>
     <string name="marabou_stork_info">The marabou stork is a massive bird, a frequent scavenger.</string>
     <string name="masked_palm_civet">Masked palm civet</string>
+    <string name="max_fps_string">Jopa %s Hz</string>
     <string name="medium_tree_finch">Medium tree finch</string>
+    <string name="mi_transfer_banner_summary">Useita laitemerkkejä tuetaan</string>
+    <string name="mi_transfer_banner_title">Siirrä kohteita vanhalta laitteeltasi</string>
     <string name="midnight">Yö</string>
     <string name="miuix_access_state_desc">Valittu</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Poista valinnat</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Lisää</string>
     <string name="miuix_appcompat_cancel_description">Peruuta</string>
     <string name="miuix_appcompat_confirm_description">Vahvista</string>
     <string name="miuix_appcompat_delete_description">Poista</string>
-    <string name="miuix_appcompat_deselect_all">Poista valinta</string>
+    <string name="miuix_appcompat_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_deselect_all_description">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Peruuta</string>
     <string name="miuix_appcompat_search_input_description">Etsi</string>
@@ -582,6 +590,7 @@ ei ole luotu toisessa tilassa"</string>
     <string name="screen_fps_unit">%d Hz</string>
     <string name="screen_fps_unit_power_save">%dHz (Säästää akkua)</string>
     <string name="screen_fps_unit_smooth">%dHz (Parempi laatu)</string>
+    <string name="screen_fps_unit_string">%s Hz</string>
     <string name="screen_original_gamut">Ehostettu</string>
     <string name="screen_original_gamut_summary">Näytä kaikki näytön sisältö laajimman mahdollisen väriasteikon avulla</string>
     <string name="screen_paper_mode_apps_loading">Hetki vain…</string>
@@ -640,6 +649,7 @@ ei ole luotu toisessa tilassa"</string>
     <string name="stop_summary">Kaikki näyttöaikatilastot ja -tiedot poistetaan, kun otat tämän toiminnon pois käytöstä</string>
     <string name="suggestion">Palaute</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="summary_max_fps_for_intelligent">Säädä virkistystaajuutta dynaamisesti arvoon %s  Hz skenaarioiden perusteella tasapainottaaksesi suorituskykyä virrankulutuksen kanssa</string>
     <string name="sunday">Sunnuntai</string>
     <string name="sunday_short">Su</string>
     <string name="sunday_shortest">Su</string>
@@ -794,7 +804,7 @@ Voidakseen työskennellä normaalisti tämän sovelluksen tarvitsee kerätä nä
 Tämän sovelluksen on myös muodostettava yhteys Internettiin ja vaatii seuraavat oikeudet voidakseen kerätä henkilökohtaisia tietojasi:"</string>
     <string name="usage_home_premission_second_summary">Tämän sovelluksen on kerättävä henkilökohtaiset tietosi toimiakseen normaalisti. Suojaamme henkilökohtaisia tietojasi asiaankuuluvien lakien, asetusten ja tietosuojakäytäntöjen mukaisesti.</string>
     <string name="usage_home_premission_second_summary_double_link_prefix">Suojelemme henkilötietojasi asiaankuuluvien lakien, asetusten ja tietosuojakäytäntöjen mukaisesti. Jos et suostu myöntämään tällaisia oikeuksia tai jakamaan ja lataamaan henkilökohtaisia tietojasi, et voi käyttää tätä sovellusta. Voit peruuttaa valtuutuksesi kohdassa Näyttöaika > Asetukset > Poista näyttöaika käytöstä.</string>
-    <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>Ennen sovelluksen käyttöä, sinun tulee lukea ja hyväksyä meidän &lt;a href='%1s'>Käyttäjäsopimus&lt;/a> ja &lt;a href='%2s'>Tietosuojakäytäntö&lt;/a>.&lt;/Data>"</string>
+    <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false"><Data>"Ennen sovelluksen käyttöä, sinun tulee lukea ja hyväksyä meidän &lt;a href='%1s'>Käyttäjäsopimus&lt;/a> ja &lt;a href='%2s'>Tietosuojakäytäntö&lt;/a>."</Data></string>
     <string name="usage_home_premission_second_summary_new">Suojelemme henkilötietojasi asiaankuuluvien lakien, asetusten ja tietosuojakäytäntöjen mukaisesti. Jos et suostu myöntämään tällaisia oikeuksia tai jakamaan ja lataamaan henkilökohtaisia tietojasi, et voi käyttää tätä sovellusta. Voit peruuttaa valtuutuksesi kohdassa Näyttöaika > Asetukset > Poista Näyttöaika käytöstä. Jos sinulla on kysyttävää yksityisyydestä, voit ottaa meihin yhteyttä osoitteessa privacy@xiaomi.com.</string>
     <string name="usage_new_category_limit_summary">Aseta päivittäiset käyttörajat kaikille tämän luokan sovelluksille</string>
     <string name="usage_new_category_limit_title">Rajoita sovellusluokan käyttöä</string>
@@ -842,7 +852,7 @@ Tämän sovelluksen on myös muodostettava yhteys Internettiin ja vaatii seuraav
     <string name="usage_optional_title">Valinnaiset käyttöoikeudet</string>
     <string name="usage_permisison_agree_desc_o">Näyttöajan saamiseksi sinulle tämän sovelluksen on kerättävä seuraavat tiedot: laitteen lukituksen avauksien lukumäärä, sovellusluettelo ja vastaava käyttöaika.</string>
     <string name="usage_permisison_agree_desc_p">Näyttöajan ja tarkennustilan saamiseksi sinulle tämän sovelluksen on kerättävä seuraavat tiedot: laitteen lukituksen avauksien lukumäärä, sovellusluettelo ja vastaava käyttöaika, näytön syttymisen lukumäärä ja tarkennustilan asetukset.</string>
-    <string name="usage_permission_double_link" formatted="false">"&lt;Data>Tämän sovelluksen on oltava yhteydessä Internettiin ja kerättävä tarvittavat henkilötiedot voidakseen toimia normaalisti. Ymmärtääksesi täysin käyttäjänoikeutesi sekä tavat, joilla käytämme tietojasi, lue ja hyväksy meidän &lt;a href='%1s'>Käyttäjäsopimus&lt;/a> ja &lt;a href='%2s'>Tietosuojakäytäntö&lt;/a>.&lt;/Data>"</string>
+    <string name="usage_permission_double_link" formatted="false"><Data>"Tämän sovelluksen on oltava yhteydessä Internettiin ja kerättävä tarvittavat henkilötiedot voidakseen toimia normaalisti. Ymmärtääksesi täysin käyttäjänoikeutesi sekä tavat, joilla käytämme tietojasi, lue ja hyväksy meidän &lt;a href='%1s'>Käyttäjäsopimus&lt;/a> ja &lt;a href='%2s'>Tietosuojakäytäntö&lt;/a>."</Data></string>
     <string name="usage_permission_main_desc">"Tervetuloa Näyttöaikaan!
 Tämän sovelluksen on oltava yhteydessä Internettiin ja se tarvitsee seuraavat oikeudet toimiakseen normaalisti:"</string>
     <string name="usage_permission_title">Huomio</string>

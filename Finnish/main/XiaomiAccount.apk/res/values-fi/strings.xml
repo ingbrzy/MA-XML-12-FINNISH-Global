@@ -31,6 +31,7 @@
     <string name="about_mi_account">Tietoja Xiaomi-tilistä</string>
     <string name="accept">Salli</string>
     <string name="account_and_password">Salasana</string>
+    <string name="account_auth_failed_message">Xiaomi-tilin %1$s kirjautumistiedot ovat vanhentuneet. Yritä uudelleen.</string>
     <string name="account_bind_devices">Laitteet</string>
     <string name="account_bind_secure_email_title">Lisää sähköposti</string>
     <string name="account_bind_secure_phone_title">Lisää puhelin numero</string>
@@ -219,6 +220,23 @@ Voit kirjautua Xiaomi-tilillesi kohteen %s avulla nyt."</string>
     <string name="failed_dup_secure_phone_number">Tämä puhelinnumero on jo liitetty toiseen Xiaomi-tiliin</string>
     <string name="family_service">Perhepalvelut</string>
     <string name="family_service_not_open">Kutsu jäseniä</string>
+    <string name="fido2_client_for_fingerprint_auth">Vahvista sormenjäljellä napauttamalla</string>
+    <string name="fido2_close_fingerprint_auth">Poistetaan käytöstä</string>
+    <string name="fido2_close_fingerprint_auth_desc">Poistetaanko sormenjälkitarkistus nyt?</string>
+    <string name="fido2_err_already_registered">Tämä ominaisuus on jo otettu käyttöön tällä tilillä</string>
+    <string name="fido2_err_def">Tapahtui virhe. Odota pari minuuttia ja yritä uudelleen.</string>
+    <string name="fido2_err_not_regisetered">Tämä tili ei ole vielä ottanut tätä ominaisuutta käyttöön</string>
+    <string name="fido2_err_not_support">Tätä ominaisuutta ei tueta tällä laitteella</string>
+    <string name="fido2_err_security">Tietoturvariskit havaittu. Tätä ominaisuutta ei voi käyttää.</string>
+    <string name="fido2_err_service_exception">Tapahtui palvelinvirhe. Odota pari minuuttia ja yritä uudelleen.</string>
+    <string name="fido2_err_timeout">Pyyntö aikakatkaistiin. Odota pari minuuttia ja yritä uudelleen.</string>
+    <string name="fido2_fingerprint_auth">Sormenjälkitarkistus</string>
+    <string name="fido2_fingerprint_auth_desc">&lt;Data>Kirjaudu sisään Xiaomi-tilillesi ja vahvista henkilöllisyytesi sormenjäljelläsi. &lt;a href=>Tutustu lisää&lt;/a>&lt;/Data></string>
+    <string name="fido2_fingerprint_changed_and_afresh_register">Laitteesi sormenjälki on muuttunut. Vahvista tilisi uudelleen, jotta voit ottaa sormenjälkivahvistuksen käyttöön.</string>
+    <string name="fido2_fingerprint_verify">Sormenjälkitarkistus</string>
+    <string name="fido2_psw_changed_and_afresh_register">Salasanasi on muuttunut. Vahvista sormenjälkesi uudelleen.</string>
+    <string name="fido2_setting_ps_notify">Sinun on asetettava tilin salasana, jotta voit käyttää sormenjälkivahvistusta. Voit tehdä tämän kohdassa Asetukset > Xiaomi-tili > Tilin suojaus > Salasana.</string>
+    <string name="fido2_verify_fingerprint">Vahvista sormenjälki</string>
     <string name="find_device">Etsi laite</string>
     <string name="find_device_access_denied">Tilaa ei voitu hakea, pääsy kielletty</string>
     <string name="find_device_account_error">Tilaa ei voitu hakea tilivirheen takia</string>
@@ -309,6 +327,7 @@ Voit kirjautua Xiaomi-tilillesi kohteen %s avulla nyt."</string>
     <string name="get_identity_auth_url_failed">Henkilöllisyyttä ei voitu vahvistaa</string>
     <string name="get_phone_bind_exceed_limit">Voit liittää enintään %d Xiaomi-tiliä puhelinnumeroon. Uusia tilejä ei voi lisätä.</string>
     <string name="get_phone_verifycode_exceed_limit">Tähän numeroon ei voi lähettää enempää vahvistuskoodeja</string>
+    <string name="go_to_setting">Asetukset</string>
     <string name="google">Google</string>
     <string name="google_login">Kirjaudu sisään kohteella Google</string>
     <string name="has_no_new_version">Ajantasalla</string>
@@ -329,6 +348,7 @@ Voit kirjautua Xiaomi-tilillesi kohteen %s avulla nyt."</string>
     <string name="indeterminate">Ei valittu eikä valitsematta</string>
     <string name="input_email_address_notice">Lähetämme vahvistuskoodin sähköpostitse antamaasi osoitteeseen.</string>
     <string name="input_new_pwd">Anna uusi salasana</string>
+    <string name="input_ps">Syötä salasana</string>
     <string name="io_error_title">Vahvista verkkosi</string>
     <string name="item_view_role_description">Välilehti</string>
     <string name="just_a_second">Hetki vain…</string>
@@ -346,6 +366,7 @@ Voit kirjautua Xiaomi-tilillesi kohteen %s avulla nyt."</string>
     <string name="login_notification_button_text">Kirjaudu sisään</string>
     <string name="login_notification_desc">Nauti pilvipalveluista, perhetallennustilasta ja muusta</string>
     <string name="login_notification_title">Kirjaudu sisään Xiaomi-tilillesi</string>
+    <string name="login_or_register_by_other_way">Käytä toista menetelmää</string>
     <string name="login_with_other">Lisää vaihtoehtoja</string>
     <string name="logout_account">Kirjaudu ulos</string>
     <string name="logout_failed">Uloskirjautuminen epäonnistui</string>
@@ -437,6 +458,7 @@ Voit kirjautua Xiaomi-tilillesi kohteen %s avulla nyt."</string>
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -836,6 +858,7 @@ Voit kirjautua Xiaomi-tilillesi kohteen %s avulla nyt."</string>
     <string name="recycle_phone_notification_msg">Näyttää siltä, että puhelinnumerosi on kierrätetty. Napauta päivittääksesi.</string>
     <string name="recycle_phone_notification_title">Xiaomi-tilin tietoturvariski</string>
     <string name="removing_account">Kirjaudutaan ulos…</string>
+    <string name="reopen">Ota käyttöön</string>
     <string name="request_open_permission">Käyttöoikeuksia vaaditaan</string>
     <string name="request_use_camera_message">Salli Xiaomi-tilin käyttää puhelimesi kameraa?</string>
     <string name="request_use_camera_title">Pääsy kameraan</string>
@@ -876,6 +899,7 @@ Voit kirjautua Xiaomi-tilillesi kohteen %s avulla nyt."</string>
     <string name="send">Lähetä</string>
     <string name="service_error">Palvelinvirhe</string>
     <string name="set_success">Muutettu onnistuneesti</string>
+    <string name="setting_ps">Salasana-asetukset</string>
     <string name="sign_in">Kirjaudutaan</string>
     <string name="sim_card">SIM-kortti</string>
     <string name="sim_changed_notification_msg">Napauta päivittääksesi puhelimesi recovery-tilassa ja pidä tilisi turvassa.</string>

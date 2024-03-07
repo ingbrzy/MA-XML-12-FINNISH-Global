@@ -2,10 +2,10 @@
 <resources>
     <string-array name="aqi_detail_title">
         <item>Hyvä</item>
+        <item>Kelvollinen</item>
         <item>Kohtalainen</item>
-        <item>Epäterveellinen herkille ryhmille</item>
         <item>Epäterveellinen</item>
-        <item>Hyvin epäterveellinen</item>
+        <item>Vakava</item>
         <item>Vaarallinen</item>
     </string-array>
     <string-array name="aqi_title">
@@ -34,11 +34,11 @@
     </string-array>
     <string-array name="aqi_value">
         <item>Hyvä</item>
-        <item>Tyydyttävä</item>
-        <item>Kohtuullisen saastunut</item>
-        <item>Huono</item>
-        <item>Hyvin huono</item>
-        <item>Vaikea</item>
+        <item>Kelvollinen</item>
+        <item>Kohtalainen</item>
+        <item>Epäterveellinen</item>
+        <item>Vakava</item>
+        <item>Haitallinen</item>
         <item>Indeksin ulkopuolella</item>
     </string-array>
     <string-array name="hot_city">
@@ -70,29 +70,60 @@
         <item>Kohtalainen</item>
         <item>Valo</item>
     </string-array>
+    <string-array name="realtime_humidity_status">
+        <item>Kuiva</item>
+        <item>Mukava</item>
+        <item>Kostea</item>
+    </string-array>
+    <string-array name="realtime_pressure_status">
+        <item>Korkea</item>
+        <item>Kohtalainen</item>
+        <item>Matala</item>
+    </string-array>
+    <string-array name="realtime_temperature_status">
+        <item>Kylmä</item>
+        <item>Viileä</item>
+        <item>Mukava</item>
+        <item>Lämmin</item>
+        <item>Kuuma</item>
+    </string-array>
+    <string-array name="realtime_uv_level">
+        <item>Heikko</item>
+        <item>Kohtalainen</item>
+        <item>Vahva</item>
+        <item>Hyvin vahva</item>
+        <item>Voimakas</item>
+    </string-array>
+    <string-array name="settings_atmospheric_pressure_unit_detail">
+        <item>@string/settings_atmospheric_pressure_hpa</item>
+        <item>@string/settings_atmospheric_pressure_mbar</item>
+        <item>@string/settings_atmospheric_pressure_mmhg</item>
+        <item>@string/settings_atmospheric_pressure_inhg</item>
+        <item>@string/settings_atmospheric_pressure_atm</item>
+    </string-array>
     <string-array name="weather_type">
         <item>Selkeää</item>
         <item>Pilvinen</item>
         <item>Pilvinen</item>
-        <item>Sumuinen</item>
+        <item>Usvaa</item>
         <item>Raskas rankkasade</item>
         <item>Kaatosade</item>
         <item>Rankkasade</item>
         <item>Ukonilma</item>
-        <item>Sateinen</item>
-        <item>Rankkasateinen</item>
+        <item>Sadekuuroja</item>
+        <item>Rankkasadetta</item>
         <item>Kohtalainen sade</item>
         <item>Kevyt sade</item>
-        <item>Räntäsade</item>
+        <item>Räntää</item>
         <item>Lumimyrsky</item>
-        <item>Lumi</item>
+        <item>Lumikuuroja</item>
         <item>Rankka lumisade</item>
         <item>Kohtalainen lumisade</item>
         <item>Kevyt lumisade</item>
         <item>Kova hiekkamyrsky</item>
         <item>Hiekkamyrsky</item>
-        <item>Hiekka</item>
-        <item>Tuulinen</item>
+        <item>Kevyt hiekkamyrsky</item>
+        <item>Pölymyrsky</item>
         <item>Raesade</item>
         <item>Pöly</item>
         <item>Usva</item>

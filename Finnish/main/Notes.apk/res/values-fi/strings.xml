@@ -478,6 +478,7 @@
     <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
     <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
     <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
@@ -537,6 +538,7 @@
     <string name="note_write_hint">Aloita kirjoittaminen</string>
     <string name="notealert_enter">Avaa muistiinpano</string>
     <string name="notealert_ok">Hylkää</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Muistio on järjestelmäsovellus. Et voi käyttää tätä sovellusta sen poistamisen jälkeen.</string>
     <string name="notes_description_title">Poistetaanko Muistio?</string>
     <string name="notification_content_add_todo_from_other_app">Lisäsit uuden tehtävän. Napauta katsellaksesi.</string>
@@ -601,9 +603,9 @@
     <string name="permission_read_contact_desc">Puhelujen aikana luotujen muistiinpanojen yhdistäminen yhteystietoihin</string>
     <string name="permission_storage_desc_new_v12">Kuvien lisäämiseen muistiinpanoihin ja muistiinpanojen tallentamiseen kuvina</string>
     <string name="permission_storage_desc_pad_new_v12">Kuvien lisäämiseen muistiinpanoihin ja muistiinpanojen tallentamiseen kuvina</string>
-    <string name="permission_xiaoai_desc">&lt;Data>Mi AI kerää äänitallenteesi ja laitteen tunnuksen äänen muuntamiseksi tekstimuotoon ja äänimuistiinpanojen luomiseksi. Lisätietoja kohteesta Mi AI &lt;a href=\"%1$s\">Tietosuojakäytännössä&lt;/a>.&lt;/Data></string>
-    <string name="permission_xiaoai_desc_m">&lt;Data>Synteettinen puhe -transkriptiopalvelujen tarjoamiseksi Mi AI:n on kerättävä äänitulo ja laitteesi IMEI. Lue ja hyväksy &lt;a href=\"%1$s\">Muistion kolmannen osapuolen tietojen jakamista koskeva lausunto&lt;/a> ennen kuin jatkat. Voit myös lukea lisää lukemalla Mi AI &lt;a href=\"%2$s\">-tietosuojakäytännön&lt;/a>.&lt;/Data></string>
-    <string name="permission_xiaoai_desc_new">&lt;Data>Voidakseen tarjota puheesta tekstiksi -transkriptiopalveluita, kohteen Mi AI on kerättävä äänitulo ja laitteesi tunnus, joka luodaan satunnaisesti. Lue ja hyväksy meidän &lt;a href=\"%1$s\">Muistion kolmannen osapuolen tiedonjakolausunto&lt;/a> ennen kuin jatkat. Saat myös lisätietoja lukemalla Mi AI -&lt;a href=\"%2$s\">tietosuojakäytännön&lt;/a>.&lt;/Data></string>
+    <string name="permission_xiaoai_desc"><Data>Mi AI kerää äänitallenteesi ja laitteen tunnuksen äänen muuntamiseksi tekstimuotoon ja äänimuistiinpanojen luomiseksi. Lisätietoja kohteesta Mi AI &lt;a href=\"%1$s\">Tietosuojakäytännössä&lt;/a>.</Data></string>
+    <string name="permission_xiaoai_desc_m"><Data>Synteettinen puhe -transkriptiopalvelujen tarjoamiseksi Mi AI:n on kerättävä äänitulo ja laitteesi IMEI. Lue ja hyväksy &lt;a href=\"%1$s\">Muistion kolmannen osapuolen tietojen jakamista koskeva lausunto&lt;/a> ennen kuin jatkat. Voit myös lukea lisää lukemalla Mi AI &lt;a href=\"%2$s\">-tietosuojakäytännön&lt;/a>.</Data></string>
+    <string name="permission_xiaoai_desc_new"><Data>Voidakseen tarjota puheesta tekstiksi -transkriptiopalveluita, kohteen Mi AI on kerättävä äänitulo ja laitteesi tunnus, joka luodaan satunnaisesti. Lue ja hyväksy meidän &lt;a href=\"%1$s\">Muistion kolmannen osapuolen tiedonjakolausunto&lt;/a> ennen kuin jatkat. Saat myös lisätietoja lukemalla Mi AI -&lt;a href=\"%2$s\">tietosuojakäytännön&lt;/a>.</Data></string>
     <string name="permission_xiaoai_title">Puhe tekstiksi</string>
     <string name="permlab_accessNote">Pääsy muistiinpanoihin</string>
     <string name="pm">ip.</string>
@@ -797,6 +799,7 @@
     <string name="time_picker_dialog_title">Aseta aika</string>
     <string name="time_picker_label_hour">T</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="to_view_alarm_content">Napauta katsoaksesi</string>
     <string name="toast_cancel_to_insert_image">Kuvan lisääminen ei onnistunut.</string>
     <string name="toast_excerpt_end">Ote luotu onnistuneesti</string>
     <string name="toast_excerpt_no_content">Ei otteita täällä</string>
@@ -896,6 +899,7 @@ Salli Muistiinpanojen äänittää."</string>
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
     <string name="v7_preference_on">KÄYTÖSSÄ</string>
     <string name="view_all_notes">Näytä kaikki</string>
+    <string name="warn_cannot_add_more_content">Tämä muistiinpano on saavuttanut enimmäispituutensa. Lisäämääsi sisältöä ei tallenneta.</string>
     <string name="warn_cannot_add_new_bullet">Uutta luettelomerkittyä luetteloa ei voi lisätä, koska muistiinpano on liian pitkä</string>
     <string name="warn_cannot_add_new_checkbox">Uutta valintaruutua ei voi lisätä, koska muistiinpano on liian pitkä</string>
     <string name="warn_cannot_add_new_content">Uutta sisältöä ei voi lisätä, koska muistiinpano on liian pitkä</string>

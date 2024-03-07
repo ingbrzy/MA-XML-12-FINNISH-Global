@@ -501,8 +501,8 @@ Voit saada %d päivän ilmaiskokeilun nyt!"</item>
         <item quantity="one">Poista %d APK-jäännös</item>
     </plurals>
     <plurals name="notification_power_consume_issue">
-        <item quantity="other">%d akun käyttöongelmaa</item>
-        <item quantity="one">%d akun käyttöongelma</item>
+        <item quantity="other">%d suuren virrankulutuksen omaavaa kohdetta</item>
+        <item quantity="one">%d suuren virrankulutuksen omaava kohde</item>
     </plurals>
     <plurals name="notification_power_consume_suggest">
         <item quantity="other">Optimoi %d kohdetta säästääksesi akkua</item>
@@ -653,8 +653,8 @@ Voit saada %d päivän ilmaiskokeilun nyt!"</item>
         <item quantity="one">kerran</item>
     </plurals>
     <plurals name="power_center_battery_consume_prolblem">
-        <item quantity="other">%d akun käyttöongelmaa</item>
-        <item quantity="one">%d akun käyttöongelma</item>
+        <item quantity="other">%d suuren virrankulutuksen omaavaa kohdetta</item>
+        <item quantity="one">%d suuren virrankulutuksen omaava kohde</item>
     </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d päivää "</item>
@@ -685,8 +685,8 @@ Voit saada %d päivän ilmaiskokeilun nyt!"</item>
         <item quantity="one">Korjaa %d akun käyttöongelma</item>
     </plurals>
     <plurals name="power_center_battery_problem_result">
-        <item quantity="other">Voit korjata %d akun käyttöongelmaa</item>
-        <item quantity="one">Voit korjata %d akun käyttöongelman</item>
+        <item quantity="other">Voit optimoida virrankulutuksen %d kohteelle</item>
+        <item quantity="one">Voit optimoida virrankulutuksen %d kohteelle</item>
     </plurals>
     <plurals name="power_center_battery_save_suggest">
         <item quantity="other">" %d kohdetta voidaan optimoida"</item>
@@ -739,6 +739,10 @@ Voit saada %d päivän ilmaiskokeilun nyt!"</item>
     <plurals name="power_main_open_last_minute_screen_on">
         <item quantity="other">Ota käyttöön lisätäksesi käyttöaikaa %s min</item>
         <item quantity="one">Ota käyttöön lisätäksesi käyttöaikaa %s min</item>
+    </plurals>
+    <plurals name="power_ntc_dialog_btn">
+        <item quantity="other">Selvä (%d)</item>
+        <item quantity="one">Selvä (%d)</item>
     </plurals>
     <plurals name="power_off_warning_button_ok_time">
         <item quantity="other">Selvä (%ds)</item>
@@ -833,8 +837,8 @@ Voit saada %d päivän ilmaiskokeilun nyt!"</item>
         <item quantity="one">Löytyi %d akkuongelma, korjaa se</item>
     </plurals>
     <plurals name="quick_optimize_summary_text">
-        <item quantity="other">Ratkaistu %d akkuongelmaa</item>
-        <item quantity="one">Ratkaistu %d akkuongelma</item>
+        <item quantity="other">Optimoitu %d kohdetta korkealla virrankulutuksella</item>
+        <item quantity="one">Optimoitu %d kohde korkealla virrankulutuksella</item>
     </plurals>
     <plurals name="reset_data_dialog_ok_tick">
         <item quantity="other">Tehdasasetukset (%ds)</item>
@@ -919,6 +923,10 @@ Voit saada %d päivän ilmaiskokeilun nyt!"</item>
     <plurals name="title_virus_clean">
         <item quantity="other">Puhdistettu %d virusta</item>
         <item quantity="one">Puhdistettu %d virus</item>
+    </plurals>
+    <plurals name="title_virus_scan_model">
+        <item quantity="other">%d virusta tai riskialtista sovellusta</item>
+        <item quantity="one">%d virus tai riskialtis sovellus</item>
     </plurals>
     <plurals name="traffic_setting_app_count">
         <item quantity="other">%d sovellusta</item>
