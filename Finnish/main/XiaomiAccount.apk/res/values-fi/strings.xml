@@ -93,18 +93,14 @@
     <string name="binded">Yhdistetty</string>
     <string name="binded_description" formatted="false">"%s on yhdistetty Xiaomi-tiliisi.
 Voit kirjautua Xiaomi-tilillesi kohteen %s avulla nyt."</string>
-    <string name="bottomsheet_action_expand_halfway">Laajenna puoliväliin</string>
     <string name="button_agree">Hyväksy</string>
     <string name="button_close">Sulje</string>
     <string name="button_refuse">Älä hyväksy</string>
     <string name="button_unbind">Katkaise yhteys</string>
     <string name="cancel">Peruuta</string>
     <string name="change_password">Vaihda salasana</string>
-    <string name="character_counter_content_description">%1$d/%2$d merkkiä kirjoitettu</string>
-    <string name="character_counter_overflowed_content_description">Merkkiraja ylitetty: %1$d/%2$d</string>
     <string name="check_apk_update">Tarkista päivitykset</string>
     <string name="child_account_system_ad_disable_hint">Tämä ominaisuus ei ole käytettävissä lapsitileille</string>
-    <string name="clear_text_end_icon_content_description">Tyhjennä teksti</string>
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
     <string name="close">Sulje</string>
     <string name="close_drawer">Sulje navigointivalikko</string>
@@ -208,13 +204,11 @@ Voit kirjautua Xiaomi-tilillesi kohteen %s avulla nyt."</string>
     <string name="eras_ad">jKr.</string>
     <string name="eras_bc">eKr.</string>
     <string name="error_dup_binded_email">Tämä sähköpostiosoite on jo olemassa toisella Xiaomi-tilillä.</string>
-    <string name="error_icon_content_description">Virhe</string>
     <string name="error_invalid_bind_address">Syöttämäsi sähköpostiosoite on väärin.</string>
     <string name="evening">Iltapäivä</string>
     <string name="exceed_binded_phone_times_notice">Tämä puhelinnumero on jo liitetty toiseen Xiaomi-tiliin.</string>
     <string name="exit">Poistu</string>
     <string name="expand_button_title">Lisäasetukset</string>
-    <string name="exposed_dropdown_menu_content_description">Näytä avattava valikko</string>
     <string name="facebook">Facebook</string>
     <string name="facebook_login">Kirjaudu sisään kohteella Facebook</string>
     <string name="failed_dup_secure_phone_number">Tämä puhelinnumero on jo liitetty toiseen Xiaomi-tiliin</string>
@@ -341,7 +335,6 @@ Voit kirjautua Xiaomi-tilillesi kohteen %s avulla nyt."</string>
     <string name="help_center">Tuki</string>
     <string name="i_agree">OK</string>
     <string name="i_agree_continue">Hyväksy</string>
-    <string name="icon_content_description">Valintaikkunan kuvake</string>
     <string name="identity">Tunniste</string>
     <string name="in_progress">Kesken</string>
     <string name="inconsistent_pwd">Salasanat eivät täsmää</string>
@@ -350,7 +343,6 @@ Voit kirjautua Xiaomi-tilillesi kohteen %s avulla nyt."</string>
     <string name="input_new_pwd">Anna uusi salasana</string>
     <string name="input_ps">Syötä salasana</string>
     <string name="io_error_title">Vahvista verkkosi</string>
-    <string name="item_view_role_description">Välilehti</string>
     <string name="just_a_second">Hetki vain…</string>
     <string name="keep_phone_ticket_login">Kirjaudu sisään vahvistuskoodilla</string>
     <string name="kr_license_desc">Sinun on hyväksyttävä meidän käyttäjäsopimus ja tietosuojakäytäntö ennen kuin käytät Xiaomi-tiliä ja Xiaomi Cloud -palveluita.</string>
@@ -370,18 +362,6 @@ Voit kirjautua Xiaomi-tilillesi kohteen %s avulla nyt."</string>
     <string name="login_with_other">Lisää vaihtoehtoja</string>
     <string name="logout_account">Kirjaudu ulos</string>
     <string name="logout_failed">Uloskirjautuminen epäonnistui</string>
-    <string name="material_clock_toggle_content_description">Valitse AP tai IP</string>
-    <string name="material_hour_selection">Valitse tunti</string>
-    <string name="material_hour_suffix">klo %1$s</string>
-    <string name="material_minute_selection">Valitse minuutit</string>
-    <string name="material_minute_suffix">%1$s minuuttia</string>
-    <string name="material_timepicker_am">ap</string>
-    <string name="material_timepicker_clock_mode_description">Vaihda ajan syöttämiseen kellotilassa.</string>
-    <string name="material_timepicker_hour">Tunnit</string>
-    <string name="material_timepicker_minute">Minuutti</string>
-    <string name="material_timepicker_pm">ip</string>
-    <string name="material_timepicker_select_time">Valitse aika</string>
-    <string name="material_timepicker_text_input_mode_description">Vaihda ajan syöttämiseen tekstitilassa.</string>
     <string name="mi_account">Minun tili</string>
     <string name="mi_health">Xiaomi Health</string>
     <string name="midnight">Yö</string>
@@ -398,6 +378,7 @@ Voit kirjautua Xiaomi-tilillesi kohteen %s avulla nyt."</string>
     <string name="miuix_appcompat_delete_description">Poista</string>
     <string name="miuix_appcompat_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_deselect_all_description">Kumoa kaikkien valinta</string>
+    <string name="miuix_appcompat_edit">Muokkaa</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Peruuta</string>
     <string name="miuix_appcompat_search_input_description">Etsi</string>
     <string name="miuix_appcompat_select_all">Valitse kaikki</string>
@@ -452,39 +433,6 @@ Voit kirjautua Xiaomi-tilillesi kohteen %s avulla nyt."</string>
     <string name="month_september_shortest">Syys</string>
     <string name="more">Lisää</string>
     <string name="morning">Aamu</string>
-    <string name="mtrl_badge_numberless_content_description">Uusi ilmoitus</string>
-    <string name="mtrl_chip_close_icon_content_description">Poista %1$s</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Yli %1$d uutta ilmoitusta</string>
-    <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
-    <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
-    <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
-    <string name="mtrl_picker_date_header_selected">%1$s</string>
-    <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
-    <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
-    <string name="mtrl_picker_day_of_week_column_header">Päiväsarake: %1$s</string>
-    <string name="mtrl_picker_invalid_format">Virheellinen muoto</string>
-    <string name="mtrl_picker_invalid_format_example">Esimerkki: %1$s</string>
-    <string name="mtrl_picker_invalid_format_use">Käytä muotoa %1$s</string>
-    <string name="mtrl_picker_invalid_range">Virheellinen alue</string>
-    <string name="mtrl_picker_navigate_to_year_description">Siirry vuoteen %1$s</string>
-    <string name="mtrl_picker_out_of_range">Aikavälin ulkop.: %1$s</string>
-    <string name="mtrl_picker_range_header_only_end_selected">Alkamispäivä – %1$s</string>
-    <string name="mtrl_picker_range_header_only_start_selected">%1$s – päättymispäivä</string>
-    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
-    <string name="mtrl_picker_range_header_title">Valitse jakso</string>
-    <string name="mtrl_picker_range_header_unselected">Alkamispäivä – päättymispäivä</string>
-    <string name="mtrl_picker_save">Tallenna</string>
-    <string name="mtrl_picker_text_input_date_hint">Päivämäärä</string>
-    <string name="mtrl_picker_text_input_date_range_end_hint">Päättymispäivä</string>
-    <string name="mtrl_picker_text_input_date_range_start_hint">Alkamispäivä</string>
-    <string name="mtrl_picker_text_input_day_abbr">p</string>
-    <string name="mtrl_picker_text_input_month_abbr">k</string>
-    <string name="mtrl_picker_text_input_year_abbr">v</string>
-    <string name="mtrl_picker_toggle_to_calendar_input_mode">Vaihda syöttötavaksi kalenteri</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Siirry päivän valintaan napauttamalla</string>
-    <string name="mtrl_picker_toggle_to_text_input_mode">Valitse syöttötavaksi teksti</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Siirry vuoden valintaan napauttamalla</string>
     <string name="multi_user_not_show_sync_activity_message_1">Näyttää siltä, että käytät Xiaomi-tiliä ensimmäisessä tilassa.</string>
     <string name="multi_user_not_show_sync_activity_message_2">Tällaisessa tapauksessa kaikki tiedot synkronoidaan Toiseen tilaasi. Tämän välttämiseksi älä laita pilven synkronointia päälle.</string>
     <string name="multi_user_not_show_sync_activity_title">Älä ota pilven synkronointia käyttöön</string>
@@ -821,7 +769,6 @@ Voit kirjautua Xiaomi-tilillesi kohteen %s avulla nyt."</string>
     <string name="passport_wrong_phone_number_format">Syöttämäsi puhelinnumeron muoto ei kelpaa</string>
     <string name="passport_wrong_vcode">Syöttämäsi koodi on väärin</string>
     <string name="passport_wrong_voice">Syöttämäsi koodi on väärin</string>
-    <string name="password_toggle_content_description">Näytä salasana</string>
     <string name="password_view_hide_password">Piilota salasana</string>
     <string name="password_view_show_password">Näytä salasana</string>
     <string name="permission_group_contacts">Yhteystiedot</string>
@@ -983,7 +930,7 @@ Voit kirjautua Xiaomi-tilillesi kohteen %s avulla nyt."</string>
 %2$d. Jos et voi nollata salasanaasi tai joku on lukinnut laitteesi, avaa se osoitteessa i.mi.com.
 %3$d. Avausnumerosi: %4$s"</string>
     <string name="update_apk_version_later">Ei nyt</string>
-    <string name="update_apk_version_now">Päivitä</string>
+    <string name="update_apk_version_now">Asenna</string>
     <string name="update_email_address_dialog_message">Sinun täytyy vahvistaa henkilöllisyytesi ennen kuin voit päivittää sähköpostin.</string>
     <string name="update_email_address_dialog_title">Päivitä Sähköposti</string>
     <string name="update_phone_notice">Muuta suojausasetuksia</string>
@@ -995,7 +942,6 @@ Voit kirjautua Xiaomi-tilillesi kohteen %s avulla nyt."</string>
     <string name="user_agreement_read_phone_permission_desc">Puhelinnumerolla kirjautumiseen</string>
     <string name="user_agreement_read_phone_permission_title">Lue puhelinnumeroja</string>
     <string name="user_agreement_use_account_msg">Xiaomi-tilin avulla voit käyttää kaikkia Xiaomin tarjoamia palveluita.</string>
-    <string name="user_agreement_wifi_permission_title">Kytke Wi-Fi päälle ja pois päältä</string>
     <string name="user_agreement_wlan_permission_desc">Kirjautumisympäristön tietoturvaongelmien tarkistamiseen</string>
     <string name="user_agreement_wlan_permission_title_china">Kytke WLAN päälle ja pois päältä</string>
     <string name="user_avatar_update_title">Muuta profiilikuva</string>

@@ -44,9 +44,9 @@
     <string name="fmradio_clear_confirm_msg">Kaikki esiasetukset poistetaan.</string>
     <string name="frequency_mhz_fomart">%s MHz</string>
     <string name="global_app_description_content">FM-radio on järjestelmäsovellus. Et voi kuunnella radiolähetyksiä sovelluksen poistamisen jälkeen.</string>
-    <string name="global_app_description_title">Poistetaanko FM Radio?</string>
-    <string name="global_remove_app_description_content">FM Radio on järjestelmäsovellus. Et voi kuunnella radiolähetyksiä poistettuasi aloitusnäytön pikavalinnan.</string>
-    <string name="global_remove_app_description_title">Poistetaanko \"FM Radio\" aloitusnäytöltä?</string>
+    <string name="global_app_description_title">Poistetaanko FM-radio?</string>
+    <string name="global_remove_app_description_content">FM-radio on järjestelmäsovellus. Et voi kuunnella radiolähetyksiä poistettuasi aloitusnäytön pikavalinnan.</string>
+    <string name="global_remove_app_description_title">Poistetaanko \"FM-radio\" aloitusnäytöltä?</string>
     <string name="group_favor">Esiasetukset</string>
     <string name="group_other">Muut</string>
     <string name="hint_frequency">Taajuus: %1$s ~ %2$s</string>
@@ -69,7 +69,7 @@
     <string name="menu_speaker">Vaihda kaiuttimeen</string>
     <string name="msg_do_not_support_fm">Tämä laite ei tue FM-radiota</string>
     <string name="msg_fm_starting">Aloitetaan…</string>
-    <string name="msg_internalantenna_optimal">Kytke kuulokkeet parhaan efektin saamiseksi</string>
+    <string name="msg_internalantenna_optimal">Kytke kuulokkeet parhaan vaikutuksen saamiseksi</string>
     <string name="msg_noantenna_message">Kuulokkeita ei havaittu. Jotkin toiminnot eivät välttämättä ole käytettävissä.</string>
     <string name="msg_try_plug_headset">Liitä kuulokkeet ja yritä uudelleen.</string>
     <string name="new_frequency">Uusi taajuus</string>
@@ -77,7 +77,7 @@
     <string name="noheadset_dialog_info">Vaikuttaa siltä, että radiosignaali on nyt heikko. Voit kuunnella nettiradiota sen sijasta.</string>
     <string name="noheadset_dialog_insert">Yhdistä kuulokkeet</string>
     <string name="noheadset_dialog_more">Lisää radioasemia</string>
-    <string name="online_tip_text">Salli sovelluksen yhdistää internettiin, jotta voit kuunnella nettiradiota</string>
+    <string name="online_tip_text">Salli sovelluksen yhdistää internetiin, jotta voit kuunnella nettiradiota</string>
     <string name="open_online_service_tip">Verkkopalvelut otettu käyttöön onnistuneesti</string>
     <string name="pre_station">Edellinen asema</string>
     <string name="runtime_permission_ungranted">Tallentamista ei voi aloittaa sallimattomien käyttöoikeuksien vuoksi</string>
@@ -87,6 +87,9 @@
     <string name="stations_list">Asemalista</string>
     <string name="stations_list_empty">Ei esiasetuksia</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="talkback_back">Mene takaisin</string>
+    <string name="talkback_close">Sulje</string>
+    <string name="talkback_speed">Nopeus</string>
     <string name="toast_added_to_list">Lisätty listaan</string>
     <string name="toast_added_to_presets">Lisätty esiasetuksiin</string>
     <string name="toast_fm_error_startfailed">Tallennusvirhe. Toinen sovellus saattaa käyttää tallennustoimintoa.</string>
@@ -99,9 +102,8 @@
     <string name="toast_sleep_mode">Radio lopettaa toistamisen %s</string>
     <string name="toast_sleep_mode_exit">Uniajastin peruutettu</string>
     <string name="turn_off_fm">Sammuta FM</string>
-    <string name="txt_divider">" | "</string>
     <string name="txt_sleep_mode">Lepotila</string>
-    <string name="using_recorder_cancel">Kieltäydy</string>
+    <string name="using_recorder_cancel">Hylkää</string>
     <string name="using_recorder_confirm">Salli</string>
     <string name="using_recorder_dialog_message">Radiolla on oltava oikeus käyttää laitteesi tallennuspalveluita toimiakseen normaalisti.</string>
     <string name="using_recorder_dialog_title">Käyttöoikeus vaaditaan</string>

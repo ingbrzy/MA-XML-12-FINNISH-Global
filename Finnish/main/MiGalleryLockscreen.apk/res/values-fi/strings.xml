@@ -122,10 +122,14 @@ mm"</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Lisää</string>
     <string name="miuix_appcompat_cancel_description">Peruuta</string>
+    <string name="miuix_appcompat_cloud_state_disabled">Pilven synkronointi on pois päältä</string>
+    <string name="miuix_appcompat_cloud_state_finished">Synkronoitu pilven kanssa onnistuneesti</string>
+    <string name="miuix_appcompat_cloud_state_syncing">Synkronoidaan pilveen…</string>
     <string name="miuix_appcompat_confirm_description">Vahvista</string>
     <string name="miuix_appcompat_delete_description">Poista</string>
     <string name="miuix_appcompat_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_deselect_all_description">Kumoa kaikkien valinta</string>
+    <string name="miuix_appcompat_edit">Muokkaa</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Peruuta</string>
     <string name="miuix_appcompat_search_input_description">Etsi</string>
     <string name="miuix_appcompat_select_all">Valitse kaikki</string>
@@ -139,6 +143,11 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Siinä kaikki tältä erää</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Hetki vain…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kohteita ei voitu ladata</string>
+    <string name="miuix_search_action_mode_cancel">Peruuta</string>
+    <string name="miuix_search_history_clear">Tyhjennä hakuhistoria</string>
+    <string name="miuix_search_history_default_title">Hakuhistoria</string>
+    <string name="miuix_search_recommendation_default_title">Saatat olla kiinnostunut näistä</string>
+    <string name="miuix_search_recommendation_item_del_des">Poista</string>
     <string name="monday">Maanantai</string>
     <string name="monday_short">Ma</string>
     <string name="monday_shortest">Ma</string>

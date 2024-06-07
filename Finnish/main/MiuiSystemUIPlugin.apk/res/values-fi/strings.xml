@@ -188,7 +188,7 @@
     <string name="kddi_miui_toast_zen_standard_to_off">Äänetön tila on pois päältä. Puheluja ja ilmoituksia ei mykistetä.</string>
     <string name="kddi_miui_toast_zen_to_standard">Vaihdettu äänettömään tilaan. Puhelut ja ilmoitukset mykistetään nyt.</string>
     <string name="loading">Tila tuntematon</string>
-    <string name="mi_smart_hub_entry_title">Mi Smart Hub</string>
+    <string name="mi_smart_hub_entry_title">Xiaomi Smart Hub</string>
     <string name="midnight">Yö</string>
     <string name="miplay_accessibility_cast">Valitse laite</string>
     <string name="miplay_accessibility_cover">Kansi</string>
@@ -201,6 +201,8 @@
     <string name="miplay_bluetooth_share_des_text">"Xiaomi-nappikuulokkeiden käyttäjät: avaa latauskotelo tai pidä kuoren painiketta painettuna %ds
 Niille, jotka eivät käytä Xiaomi-nappikuulokkeita: nollaa kuulokkeet Bluetooth-asetuksissa ja muodosta yhteys"</string>
     <string name="miplay_bluetooth_share_headphone_pairing">Lisää kuulokkeet äänen jakamiseen</string>
+    <string name="miplay_bluetooth_share_music_cancel_btn_content_des">Äänen jakaminen valmis</string>
+    <string name="miplay_bluetooth_share_music_together_btn_content_des">Lisää kuulokkeet äänen jakamiseen</string>
     <string name="miplay_bluetooth_share_subTitle_text">Jaa laitteen ääni toisen henkilön kanssa</string>
     <string name="miplay_bluetooth_share_title_text">Jaa ääni</string>
     <string name="miplay_detail_divider_title">Kaiuttimet</string>

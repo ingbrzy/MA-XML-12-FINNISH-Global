@@ -390,6 +390,7 @@
     <string name="humidity_format_with_unit">%s</string>
     <string name="icon_content_description">Valintaikkunan kuvake</string>
     <string name="icon_size">Kuvakekoko</string>
+    <string name="icon_style">Kuvakkeet</string>
     <string name="in_the_end">Ei enää näytettäviä kohteita</string>
     <string name="incompatible_dialog_cancel">Älä ota käyttöön</string>
     <string name="incompatible_dialog_message">Tämä teema ei ole yhteensopiva laitteesi järjestelmäversion kanssa. Jotkut järjestelmän ominaisuudet eivät ehkä toimi oikein, jos käytät tätä teemaa.</string>
@@ -489,6 +490,7 @@ mm"</string>
     <string name="miuix_appcompat_delete_description">Poista</string>
     <string name="miuix_appcompat_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_deselect_all_description">Kumoa kaikkien valinta</string>
+    <string name="miuix_appcompat_edit">Muokkaa</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Peruuta</string>
     <string name="miuix_appcompat_search_input_description">Etsi</string>
     <string name="miuix_appcompat_select_all">Valitse kaikki</string>
@@ -631,6 +633,9 @@ mm"</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_prompt_again">Älä näytä uudelleen</string>
     <string name="not_set">Ei asetettu</string>
+    <string name="notifications_permission_confirm">Salli</string>
+    <string name="notifications_permission_decline">Älä salli</string>
+    <string name="notifications_permission_title">Haluatko sallia sovellusilmoitukset?</string>
     <string name="notify_style">Ilmoitustehosteet</string>
     <string name="offline_notification_text">Avaa mainos napauttamalla</string>
     <string name="offline_notification_title">Katso mainos, jonka tallensit ollessasi offline-tilassa</string>

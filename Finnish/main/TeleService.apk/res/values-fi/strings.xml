@@ -1696,7 +1696,7 @@ Vahvista oletusarvoisen puhelutilin asetus."</string>
     <string name="smart_switch_dual_sim_title">Vaihda data-SIM-korttien välillä</string>
     <string name="sms_messages_title">Tekstiviesti</string>
     <string name="smsc_dialog_message">Varmista, että antamasi numero on oikein. Muutoin et voi lähettää tai vastaanottaa tekstiviestejä. Ota yhteys operaattoriinsi vahvistaaksesi SMSC-numerosi.</string>
-    <string name="speed_limit_card_toast">Olet käyttänyt täyden nopeuden dataa. Yhteysnopeutta rajoitetaan nyt.</string>
+    <string name="speed_limit_card_toast">Yhteyden nopeus saattaa nyt olla rajoitettu. Ota yhteyttä operaattoriisi vahvistusta varten.</string>
     <string name="sports_news_settings">Urheilu-uutiset</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_hint_label_incoming_wifi_call">Wi-Fi-puhelu henkilöltä</string>
@@ -1913,6 +1913,8 @@ Ota yhteyttä operaattoriin, jos ongelma jatkuu."</string>
     <string name="vm_change_pin_old_pin">Vanha PIN-koodi</string>
     <string name="vm_change_pin_progress_message">Odota.</string>
     <string name="vm_changed">Puhelinvastaajan numero muutettiin.</string>
+    <string name="voice_link_switch_summary">Käytä data-SIM-korttia puhelujen yhdistämiseen, kun internetiä ei ole yhdistetty</string>
+    <string name="voice_link_switch_title">Data-avusteiset puhelut</string>
     <string name="voice_number_setting_primary_user_only">Vain ensisijainen käyttäjä voi muuttaa vastaajan asetuksia.</string>
     <string name="voice_privacy">Voicen tietosuoja</string>
     <string name="voice_privacy_summary">Ota parannettu tietosuojatila käyttöön</string>

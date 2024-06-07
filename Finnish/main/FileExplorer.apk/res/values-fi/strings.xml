@@ -238,7 +238,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="encrypt_prefix">YKSITYINEN</string>
     <string name="encrypt_setting">Salaus</string>
     <string name="encrypt_success">Valitut kohteet ovat nyt yksityisiä</string>
-    <string name="encrypt_success_first_five">Tämä kohde on nyt yksityinen. Voit tarkastella yksityisiä tiedostoja vetämällä alas Tiedostonhallinnan aloitussivulle.</string>
+    <string name="encrypt_success_first_five">Tämä kohde on nyt yksityinen. Vedä alas Tiedostonhallinnan aloitussivua nähdäksesi sen.</string>
     <string name="encrypting">Salataan…</string>
     <string name="enter">Avaa Tiedostonhallinta</string>
     <string name="entry_phone_storage_internal">Sisäinen tallennustila</string>
@@ -670,6 +670,14 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="partial_delete_failure">Joitakin tiedostoja ei voitu poistaa. Yritä uudelleen.</string>
     <string name="partial_encrypt_success">Joitakin tiedostoja ei voitu tehdä yksityisiksi. Yritä uudelleen.</string>
     <string name="path_name_email">Sähköposti</string>
+    <string name="pattern_hour_minute_12">hh.mm a</string>
+    <string name="pattern_hour_minute_24">HH.mm</string>
+    <string name="pattern_month_day">d.M</string>
+    <string name="pattern_month_day_hh_mm_12">d.M hh.mm a</string>
+    <string name="pattern_month_day_hh_mm_24">d.M HH.mm</string>
+    <string name="pattern_year_month_day">d.M.yyyy</string>
+    <string name="pattern_year_month_day_hh_mm_12">d.M.yyyy hh.mm a</string>
+    <string name="pattern_year_month_day_hh_mm_24">d.M.yyyy HH.mm</string>
     <string name="perm_manage_external_storage">Käytä kaikkia tiedostoja</string>
     <string name="permission_account_desc">Pääsy laitteellesi tallennettuihin tilitietoihin</string>
     <string name="permission_account_desc_pad">Pääsy laitteellesi tallennettuihin tilitietoihin</string>

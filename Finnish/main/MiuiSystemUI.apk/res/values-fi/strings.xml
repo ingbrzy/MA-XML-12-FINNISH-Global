@@ -1423,6 +1423,8 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Valitse &lt;font color=#a5220e>\"Puuhi &amp;amp; Tyhjennä\"&lt;/font> ja odota, kunnes laite käynnistyy uudelleen.&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">Kuinka poistaa tiedot?</string>
     <string name="phone_locked_string">Tämä laite on lukittu</string>
+    <string name="pin_toast">"Liu'uta ylös näytön alareunasta ja keskeytä tämän sovelluksen kiinnitys"</string>
+    <string name="pin_toast_nav">Irrota tämä sovellus pitämällä takaisin- ja esikatselupainikkeita painettuna</string>
     <string name="pip_close">Sulje</string>
     <string name="pip_collapse">Tiivistä</string>
     <string name="pip_edu_text">Asetukset: paina <annotation icon="home_icon">ALOITUSNÄYTTÖPAINIKETTA</annotation> kahdesti</string>

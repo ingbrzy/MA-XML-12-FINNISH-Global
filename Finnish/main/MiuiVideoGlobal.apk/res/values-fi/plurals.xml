@@ -52,10 +52,6 @@
         <item quantity="other">Siirry taaksepäin %d sekuntia</item>
         <item quantity="one">Siirry taaksepäin %d sekunti</item>
     </plurals>
-    <plurals name="feed_back_home">
-        <item quantity="other">Palataan takaisin kotisivulle %1$d sekunnissa…</item>
-        <item quantity="one">Palataan takaisin kotisivulle %1$d sekunnissa…</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Puoli tuntia sitten</item>
         <item quantity="one">Puoli tuntia sitten</item>

@@ -75,6 +75,7 @@
     <string name="ad_bar_notification_setting_title">Tapahtumat</string>
     <string name="ad_click_to_play">Napauta pelataksesi</string>
     <string name="ad_flag_text">MAINOS</string>
+    <string name="ad_topview_repeat_play">Toista uudelleen napauttamalla</string>
     <string name="add_local_shortcut_add">Lisää</string>
     <string name="add_local_shortcut_des">Lisää \"Omat videot\" aloitusnäyttöön, niin voit käyttää paikallisia videotiedostoja yhdellä napautuksella.</string>
     <string name="add_search_channel_link">URL</string>
@@ -262,7 +263,7 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="dialog_cancel">Peruuta</string>
     <string name="dialog_clearn_content">Tyhjennä selaushistoria nyt?</string>
     <string name="dialog_clearn_title">Tyhjennä historia</string>
-    <string name="dialog_confirm">OK</string>
+    <string name="dialog_confirm">Lisää</string>
     <string name="dialog_delete_bookmarks_content">Poista kirjanmerkki nyt?</string>
     <string name="dialog_disagree_continue">Jatka</string>
     <string name="dialog_disagree_info">Jos et hyväksy Mi Videon tietosuojakäytäntöä, et voi käyttää verkkopalveluitamme ja voit katsella vain laitteellesi tallennettuja videoita. Jatka silti?</string>
@@ -331,6 +332,8 @@ Mi Videon on kerättävä tarvittavat henkilötiedot voidakseen tarjota sinulle 
     <string name="download_unable_tip">Tätä kohdetta ei voi ladata</string>
     <string name="download_video">Ladataan videota</string>
     <string name="downloading">Ladataan…</string>
+    <string name="draw_ad_button_click_text">Avaa ravistamalla tai napauttamalla</string>
+    <string name="draw_ad_button_slide_text">"Liu'uta saadaksesi lisätietoja"</string>
     <string name="early_morning">Aamu</string>
     <string name="empty" />
     <string name="empty_channels">Hallitse kanavia</string>
@@ -415,14 +418,10 @@ Mi Videon on kerättävä tarvittavat henkilötiedot voidakseen tarjota sinulle 
     <string name="feedback_activity_title">Palaute</string>
     <string name="feedback_contact_empty">Anna yhteystietosi</string>
     <string name="feedback_contact_title">Yhteystiedot</string>
-    <string name="feedback_detail_input_hint">Kirjoita viestisi</string>
-    <string name="feedback_hint">Kuvaile ongelmaa, jonka olet kohdannut.</string>
     <string name="feedback_hint_contact">Puhelin/QQ/Sähköposti</string>
     <string name="feedback_hint_text">Kuvaile ongelmaa, jonka olet kohdannut.</string>
-    <string name="feedback_input_tip">Voit kuvata ongelmia tai antaa ehdotuksia täällä.</string>
     <string name="feedback_net_error">Ei voitu lähettää. Tarkasta verkkoasetuksesi ja yritä uudelleen.</string>
     <string name="feedback_sent">Lähetä</string>
-    <string name="feedback_success">Lähetetty onnistuneesti</string>
     <string name="feedback_success_toast">Lähetetty onnistuneesti. Kiitos palautteestasi!</string>
     <string name="feedback_tag_title">Kategoria</string>
     <string name="feedback_text_empty_toast">Kirjoita ensin palautteesi.</string>
@@ -643,6 +642,7 @@ Tämä toiminto ei vaikuta galleriakuviin."</string>
     <string name="hidden_channels">Seuraavia kanavia ei näytetä aloitussivulla.</string>
     <string name="hide">Piilota</string>
     <string name="hide_video_toast">Tämä kohde on piilotettu. Voit etsiä ja hallita piilotettuja kohteita kohdassa Paikallinen > Kansiot > Piilotetut kohteet.</string>
+    <string name="hiding_dialog_ok">Aseta</string>
     <string name="hint_icon_ad_title">Suositeltu</string>
     <string name="hint_in_mivideo">Voit nyt tarkistaa lisäominaisuudet sivupaneelista</string>
     <string name="history">Historia</string>
@@ -696,7 +696,6 @@ Tämä toiminto ei vaikuta galleriakuviin."</string>
     <string name="inline_mute_click_tip">Napauta poistaaksesi mykistys</string>
     <string name="input_email_address_notice">Käytämme tätä sähköpostia tilisi vahvistamiseen</string>
     <string name="input_new_pwd">Syötä uusi salasana</string>
-    <string name="input_size_tips_new">Voit syöttää enintään %d merkkiä</string>
     <string name="isornot_your_mi_account">Onko tämä sinun Mi-tilisi?</string>
     <string name="item_card_all_replies">Kaikki vastaukset</string>
     <string name="item_card_continue_play">Automaattinen toisto</string>
@@ -800,7 +799,6 @@ videoille"</string>
     <string name="local_zoom_adjust_button">Vaihda näyttötilaa</string>
     <string name="lock_screen">Lukitusnäyttö</string>
     <string name="login">Kirjaudu sisään</string>
-    <string name="login_tip">Kirjaudu sisään, jotta voit saada vastauksemme palautteeseesi.</string>
     <string name="logo_neverthink">Curated by Neverthink.tv</string>
     <string name="logout">Kirjaudu ulos</string>
     <string name="logout_account">Kirjaudu ulos</string>
@@ -888,6 +886,7 @@ Käytämme tätä lupaa vain etsimiesi videoiden löytämiseen, emmekä käytä 
     <string name="manager_request_continue">Salli</string>
     <string name="manager_request_tip">Älä näytä uudelleen</string>
     <string name="manager_request_title">Tätä tiedostoa ei voi käyttää</string>
+    <string name="mangotv_episode">Jakso %d</string>
     <string name="mangotv_feature_list_title3">Jakso %s lisätty</string>
     <string name="mangotv_feature_more">Lisää</string>
     <string name="mangotv_feature_title1">Jaksot</string>
@@ -917,11 +916,13 @@ Käytämme tätä lupaa vain etsimiesi videoiden löytämiseen, emmekä käytä 
     <string name="miuix_appcompat_delete_description">Poista</string>
     <string name="miuix_appcompat_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_deselect_all_description">Kumoa kaikkien valinta</string>
+    <string name="miuix_appcompat_edit">Muokkaa</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Peruuta</string>
     <string name="miuix_appcompat_search_input_description">Etsi</string>
     <string name="miuix_appcompat_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_select_all_description">Valitse kaikki</string>
     <string name="miuix_appcompat_select_item">Valitse kohteet</string>
+    <string name="miuix_dialog_ok">OK</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Virkistä vetämällä alas</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Virkistetty onnistuneesti</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Virkistetään…</string>
@@ -1047,7 +1048,6 @@ Käytämme tätä lupaa vain etsimiesi videoiden löytämiseen, emmekä käytä 
     <string name="music_new_user_dialog_got_it">Selvä</string>
     <string name="music_new_user_dialog_tip">Tervetuloa Mi Videoon! Tämä sovellus tarjoaa paikallisen videosoittimen ja online-musiikin ja videoiden suoratoistopalvelut.</string>
     <string name="my_favorite_channels">Suosikkikanavani</string>
-    <string name="my_feedback_title">Palautteeni</string>
     <string name="native_body">Tekstiosa</string>
     <string name="native_headline">Otsikko</string>
     <string name="native_media_view">Medianäkymä</string>
@@ -1058,6 +1058,7 @@ Käytämme tätä lupaa vain etsimiesi videoiden löytämiseen, emmekä käytä 
     <string name="network_failed">Ei voitu yhdistää verkkoon</string>
     <string name="newyearfestival_go_to_draw_prizes">Siirry arvontaan</string>
     <string name="newyearfestival_watch_the_video_to_draw_prizes">Katso videot osallistuaksesi onnenarvontaan</string>
+    <string name="next_button">Seuraava</string>
     <string name="nick_name">Lempinimi</string>
     <string name="night">Ilta</string>
     <string name="no_account">Et ole kirjautunut</string>
@@ -1244,6 +1245,8 @@ Käytämme tätä lupaa vain etsimiesi videoiden löytämiseen, emmekä käytä 
     <string name="photoPickerNotFoundText">Kuvia ei saatavilla.</string>
     <string name="pip">Kuva kuvassa</string>
     <string name="pip_not_supported_toast">Päivitä uusimpaan järjestelmäversioon, jotta voit käyttää kuva kuvassa -toimintoa.</string>
+    <string name="play_at_normal_speed">Toistetaan 1X nopeudella</string>
+    <string name="play_at_speed">Toistetaan %.1fX nopeudella</string>
     <string name="play_list_player_skeleton_file">mnc_live_tv_list_player_skeleton.json</string>
     <string name="play_list_save_dialog_create">Luo soittolista</string>
     <string name="play_list_save_dialog_title">Lisää soittolistaan</string>
@@ -1415,6 +1418,7 @@ Käytämme tätä lupaa vain etsimiesi videoiden löytämiseen, emmekä käytä 
     <string name="remaining_space_not_enough">Ei voi ladata, koska tallennustilaa ei ole tarpeeksi</string>
     <string name="reminder">Huomio</string>
     <string name="rename">Nimeä uudelleen</string>
+    <string name="rename_dialog_ok">OK</string>
     <string name="rename_word_out">Tämä tiedostonimi on liian pitkä</string>
     <string name="report">Raportoi</string>
     <string name="report_content_dislike">Väkivalta tai epäasianmukainen käyttäytyminen</string>
@@ -1468,7 +1472,7 @@ Käytämme tätä lupaa vain etsimiesi videoiden löytämiseen, emmekä käytä 
     <string name="sending">Lähetetään…</string>
     <string name="service_error">Palvelinvirhe</string>
     <string name="set_success">Muutettu onnistuneesti</string>
-    <string name="setting_privacy_title">Terms and conditions</string>
+    <string name="setting_privacy_title">Käyttöehdot</string>
     <string name="settings_inline_auto_play">Aina automaattinen toisto</string>
     <string name="settings_inline_auto_play_close">Automaattinen toisto pois päältä</string>
     <string name="settings_inline_auto_play_tip_close_forever">Aina pois päältä</string>
@@ -1483,6 +1487,7 @@ Käytämme tätä lupaa vain etsimiesi videoiden löytämiseen, emmekä käytä 
     <string name="shake_to_open_ad">Tutustu lisää ravistamalla</string>
     <string name="share">Jaa</string>
     <string name="share_text_before_link">Katso ja lataa upeita videoita ilmaiseksi Mi Videosta</string>
+    <string name="share_title">Jaa</string>
     <string name="share_ugc_waitting">Luodaan linkkiä…</string>
     <string name="shorts_assemble_ad_recommend">Suositeltu</string>
     <string name="show_the_location">Ilmoitustyypit</string>
@@ -1497,6 +1502,7 @@ Käytämme tätä lupaa vain etsimiesi videoiden löytämiseen, emmekä käytä 
     <string name="slide_or_click_to_open_ad">"Tutustu lisää liu'uttamalla tai napauttamalla"</string>
     <string name="slide_save_message">Luodaan videota…</string>
     <string name="slide_to_open_ad">"Tutustu lisää liu'uttamalla"</string>
+    <string name="small_mango_play_next_episode">Seuraava jakso</string>
     <string name="small_video_load_more_hint">Toista lisää videoita pyyhkäisemällä ylös</string>
     <string name="small_video_report">Raportoi</string>
     <string name="small_video_report_dialog_title">Valitse syy</string>
@@ -1512,7 +1518,6 @@ Käytämme tätä lupaa vain etsimiesi videoiden löytämiseen, emmekä käytä 
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kortti</string>
     <string name="storage_internal_sdcard">Sisäinen tallennustila</string>
-    <string name="submit">Lähetä</string>
     <string name="subscribe">TILAA</string>
     <string name="subscribe_author_recommend_btn">Tilaa</string>
     <string name="subscribe_author_recommend_title">Tilaa nähdäksesi näiden sisällöntuottajien uusimmat videot</string>
@@ -1532,6 +1537,7 @@ Käytämme tätä lupaa vain etsimiesi videoiden löytämiseen, emmekä käytä 
     <string name="sunday_short">Su</string>
     <string name="sunday_shortest">Su</string>
     <string name="sure_to_logout">Kirjaudutaanko ulos nyt?</string>
+    <string name="swipe_to_exit">Poistu pyyhkäisemällä uudelleen</string>
     <string name="switch_ratio_pause">Toistonopeus on epävakaa. Palautetaan oletusnopeus.</string>
     <string name="sync_favorites_limit_new">Suosikeissasi on yli %d videota. Meidän on poistettava joitain aikaisempia videoita synkronoinnin jatkamiseksi.</string>
     <string name="sync_favorites_message">Synkronoidaanko tämän laitteen suosikit tilillesi? Kohteet, joita ei enää ole saatavana, poistetaan.</string>
@@ -1658,7 +1664,6 @@ Käytämme tätä lupaa vain etsimiesi videoiden löytämiseen, emmekä käytä 
     <string name="toast_incentive_redeem_fail_short_of_storage_2002">Tämä palkinto ei ole tällä hetkellä saatavilla. Yritä myöhemmin uudelleen.</string>
     <string name="toast_m3u8_download_path_tip">M3u8-muodossa olevan sisällön latauspolkua ei voi muuttaa</string>
     <string name="toast_play_error_tip">Tätä tiedostoa ei voi toistaa</string>
-    <string name="toast_request_too_frequently">Ei niin nopeasti!</string>
     <string name="toast_share_failed">Ei voitu jakaa. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="today">Tänään</string>
     <string name="tomorrow">Huomenna</string>
@@ -1667,9 +1672,6 @@ Käytämme tätä lupaa vain etsimiesi videoiden löytämiseen, emmekä käytä 
     <string name="tuesday">Tiistai</string>
     <string name="tuesday_short">Ti</string>
     <string name="tuesday_shortest">Ti</string>
-    <string name="type_content">Sisältö</string>
-    <string name="type_issue">Ongelma</string>
-    <string name="type_suggestion">Ehdotus</string>
     <string name="ugc_no_net">Ei voitu yhdistä verkkoon. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
     <string name="ui_common_title_back">Takaisin</string>
     <string name="unknow">Tuntematon</string>
@@ -1694,7 +1696,7 @@ Käytämme tätä lupaa vain etsimiesi videoiden löytämiseen, emmekä käytä 
     <string name="v_menu_hide">Piilota</string>
     <string name="v_more">Lisää</string>
     <string name="v_next">Seuraava</string>
-    <string name="v_ok">OK</string>
+    <string name="v_ok">Seuraava</string>
     <string name="v_online_play">Striimaa verkossa</string>
     <string name="v_pw_need_update_app">Päivitä Mi Video käyttääksesi kaikkia sen ominaisuuksia</string>
     <string name="v_save">Tallenna</string>
@@ -1705,6 +1707,7 @@ Käytämme tätä lupaa vain etsimiesi videoiden löytämiseen, emmekä käytä 
     <string name="video_download_fail">Videota ei voitu ladata</string>
     <string name="video_download_fail_hint">Ei voitu ladata</string>
     <string name="video_download_floating_guide">Lataa videoita ilmaiseksi</string>
+    <string name="video_download_folder">Ladatut videot</string>
     <string name="video_download_folder_title">Mi Video -lataukset</string>
     <string name="video_download_forbidden">Ei voi ladata tältä verkkosivustolta</string>
     <string name="video_download_login_guide">Kirjaudu sisään kohteeseen %s, jotta voit ladata videoita</string>

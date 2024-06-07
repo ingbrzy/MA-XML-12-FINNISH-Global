@@ -343,6 +343,9 @@
     <string name="app_manager_copy_pkg_to_clip">Kopioitu leikepöydälle</string>
     <string name="app_manager_data_size">Käyttäjädata</string>
     <string name="app_manager_default_cleared">Tyhjennetty</string>
+    <string name="app_manager_default_close_summary">Oletuksia ei ole asetettu.</string>
+    <string name="app_manager_default_open_summary">Olet valinnut käynnistääksesi tämän sovelluksen oletuksena joillekin toimille.</string>
+    <string name="app_manager_default_open_title">Poista oletukset</string>
     <string name="app_manager_defaults_setting">Oletussovellukset</string>
     <string name="app_manager_details_electric_title">Akku</string>
     <string name="app_manager_details_storage_title">Muisti</string>
@@ -1605,6 +1608,7 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="fod_finger_notice_title">Aseta sormesi näytölle</string>
     <string name="fod_finger_windows_tips">Varmista sormenjälkesi</string>
     <string name="fod_tips_split_screen_more_than_half">Anna salasana</string>
+    <string name="fold_application_mode_name">Sovelluksen asettelut</string>
     <string name="forbid_autobright_summary">Automaattinen kirkkaudensäätö on pois käytöstä pelatessa, ja se palautetaan käyttöön lopetettuasi</string>
     <string name="forbid_autobright_title">Korjaa näytön kirkkaus</string>
     <string name="foreground_traffic">Etualalla %s</string>
@@ -2126,7 +2130,7 @@ tärkeimmät hetket"</string>
     <string name="group_clipboard">Leikepöytä</string>
     <string name="group_connect_device">Yhteenliitettävyys</string>
     <string name="group_file">Tiedostot ja kansiot</string>
-    <string name="group_file_less_t">Access files and media</string>
+    <string name="group_file_less_t">Pääsy tiedostoihin ja mediaan</string>
     <string name="group_head_data_ai_clipboard">Leikepöydän suojaus</string>
     <string name="group_head_data_camera_desc">Poista käytöstä rajoittaaksesi kameran pääsyä kaikille sovelluksille</string>
     <string name="group_head_data_clipboard_desc">Poista käytöstä rajoittaaksesi leikepöydän pääsyä kaikille sovelluksille</string>
@@ -3253,7 +3257,7 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="pc_wireless_charging_special_stand_summary2">Asenna laitteesi langattoman laturin mukana tulleeseen telineeseen parhaan lataustehon saavuttamiseksi</string>
     <string name="pc_wireless_charging_special_stand_title">Käytä mukana toimitettua lataustelinettä</string>
     <string name="pc_wireless_handle_connected">Laite yhdistetty</string>
-    <string name="pc_wireless_handle_title">Langattoman kameran kahva</string>
+    <string name="pc_wireless_handle_title">Kameran pidike</string>
     <string name="pc_work_in_save_mode">Virransäästö</string>
     <string name="pc_work_in_super_save_mode">Ultravirransäästö</string>
     <string name="pc_xiaoai_create_auto_task">Uusi tehtävä kohteelta Mi AI</string>
@@ -3314,7 +3318,7 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="permission_group_camera">Tämä lupa sallii sovellusten käyttää kameraa valokuvien ottamiseen tai videoiden tallentamiseen.</string>
     <string name="permission_group_contact">Tämän luvan avulla sovellukset voivat käyttää tai muokata yhteystietoja sekä tarkastella tällä laitteella luotuja sovellusten yhteystietoja.</string>
     <string name="permission_group_file">Tämä lupa antaa sovelluksille pääsyn kaikkiin tähän laitteeseen tallennettuihin tiedostoihin.</string>
-    <string name="permission_group_file_less_t">This permission allows apps to access photos, videos, audio, and other files stored on this device.</string>
+    <string name="permission_group_file_less_t">Tämän luvan avulla sovellukset voivat käyttää kuvia, videoita, ääntä ja muita tähän laitteeseen tallennettuja tiedostoja.</string>
     <string name="permission_group_image_video">Tämän luvan avulla sovellukset voivat käyttää tähän laitteeseen tallennettuja valokuvia ja videoita.</string>
     <string name="permission_group_location">Tämän luvan avulla sovellukset voivat käyttää sijaintitietoja verkon tai satelliitin kautta.</string>
     <string name="permission_group_microphone">Tämä lupa sallii sovellusten käyttää mikrofonia äänen tallentamiseen.</string>
@@ -3433,7 +3437,7 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="pm_remember_choice">Muista valintani</string>
     <string name="pm_root_success_notification_infomation">Varmista, että ymmärrät pääkäyttäjän oikeuksien riskit</string>
     <string name="pm_root_success_notification_title">Sallittiin pääkäyttäjän oikeudet</string>
-    <string name="popular_action_anti_spam_title_global">Estä puhelut ja viestit</string>
+    <string name="popular_action_anti_spam_title_global">Block spam calls</string>
     <string name="popular_action_app_lock_title_global">Suojaa sovelluksia sovelluslukolla</string>
     <string name="popular_action_card_title">Suositut ominaisuudet</string>
     <string name="popular_action_first_aid_title_global">Uusille käyttäjille</string>
@@ -5343,11 +5347,11 @@ Yhden päälle kytkeminen sammuttaa toisen."</string>
     <string name="vb_video_effects_spatial_summary_new">Koe parannettu tilan ja suunnan tunne tuetulle äänelle, kun käytät kuulokkeita</string>
     <string name="vb_video_effects_srs_premium_sound">Ääni</string>
     <string name="vb_video_super_division">Korota</string>
-    <string name="vb_video_super_division_desc">"Korota resoluutiota automaattisesti, kun se on ≤ 720p.
+    <string name="vb_video_super_division_desc">"Korota resoluutiota automaattisesti, kun se on ≤720P.
 
 Tämän ominaisuuden käyttö lisää virrankulutusta.
 
-Tämä ominaisuus ei toimi liikkeen tasoittamisen kanssa.
+Tämä ominaisuus ei toimi liikkeen pehmennyksen kanssa.
 Yhden ominaisuuden kytkeminen päälle poistaa toisen käytöstä."</string>
     <string name="vb_video_super_division_tips">"Ei tarpeeksi selkeä?
 Kokeile resoluution korottamista!"</string>
@@ -5393,6 +5397,7 @@ Kokeile resoluution korottamista!"</string>
     <string name="virus_update_tips_title">Varoitus</string>
     <string name="virus_wait_network_dialog_message">Puhelimesi ei ole yhteydessä Wi-Fi-verkkoon. Käytetäänkö mobiilidatayhteyttä?</string>
     <string name="vtb_ai_subtitle">Tekstitykset</string>
+    <string name="vtb_ai_subtitle_intl">AI-tekstitykset</string>
     <string name="vtb_func_desc">Tietoja tästä ominaisuudesta</string>
     <string name="vtb_func_display_style_desc0">Tekoäly tunnistaa ihmiset, eläimet, kasvit, taivaan, rakennukset ja muut videoissa esitetyt kohteet ja ehostaa niitä dynaamisesti.</string>
     <string name="vtb_func_display_style_desc1">Valittuja tehosteita ei sovelleta HDR-videoihin valituilla laitteilla.</string>

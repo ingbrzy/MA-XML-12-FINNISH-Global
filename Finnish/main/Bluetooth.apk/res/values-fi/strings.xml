@@ -56,6 +56,9 @@
     <string name="bluetooth_sap_notif_message">Pyydetäänkö asiakassovellusta katkaisemaan yhteys?</string>
     <string name="bluetooth_sap_notif_ticker">Bluetooth SIM -käyttö</string>
     <string name="bluetooth_sap_notif_title">Bluetooth SIM -käyttö</string>
+    <string name="bt_Auracast_audio_share_notification_content">Näytä tiedot napauttamalla</string>
+    <string name="bt_Auracast_audio_share_notification_title">Lähetetään ääntä tästä laitteesta…</string>
+    <string name="bt_audio_share_assistant_notification_title">Lähetyksen vastaanottaminen lähellä olevalta laitteelta…</string>
     <string name="bt_audio_share_notification_content">Napauta nähdäksesi vaihtoehdot</string>
     <string name="bt_audio_share_notification_title">Jaetaan ääntä</string>
     <string name="bt_enable_cancel">Peruuta</string>
@@ -84,6 +87,7 @@
     <string name="call_notification_screening_text">Seulotaan saapuvaa puhelua</string>
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
     <string name="close">Sulje</string>
+    <string name="close_broadcast_audio">Pysäytä</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -259,6 +263,7 @@
     <string name="not_exist_file">Ei tiedostoa</string>
     <string name="not_exist_file_desc">"Tiedostoa ei ole olemassa. 
 "</string>
+    <string name="notice_audio_share_classic_disconnected">Äänen jakaminen lopetettu</string>
     <string name="notice_audio_share_disconnected">Ääntä ei enää jaeta keskeytyneen yhteyden takia</string>
     <string name="notification_received">Bluetooth-jako: %1$s vastaanotettu</string>
     <string name="notification_received_fail">Bluetooth-jako: tiedostoa %1$s ei vastaanotettu</string>

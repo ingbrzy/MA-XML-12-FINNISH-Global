@@ -22,13 +22,13 @@
     </string-array>
     <string-array name="settings_search_relay_app">
         <item>Sovelluksen vaihto</item>
-        <item>Yhteenliitettävyys/Sovelluksen vaihto</item>
+        <item>Yhteenliitettävyys/Sovellukset</item>
         <item>Siirrä sovelluksia, kanavanvaihto, siirto</item>
     </string-array>
     <string-array name="settings_search_relay_call">
-        <item>Puhelut</item>
-        <item>Yhteenliitettävyys/Puhelut</item>
-        <item>Puhelut</item>
+        <item>Call sync</item>
+        <item>Interconnectivity/Call sync</item>
+        <item>Call sync, cross-device calls, call handoff, calls</item>
     </string-array>
     <string-array name="settings_search_relay_network">
         <item>Verkkotuki</item>

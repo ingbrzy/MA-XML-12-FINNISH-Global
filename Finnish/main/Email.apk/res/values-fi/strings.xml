@@ -33,7 +33,6 @@
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
     <string name="close">Sulje</string>
     <string name="copy">Kopioi</string>
-    <string name="copy_toast_msg">Linkki kopioitu leikepöydälle</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -45,9 +44,6 @@
     <string name="eras_bc">eKr.</string>
     <string name="evening">Iltapäivä</string>
     <string name="expand_button_title">Lisäasetukset</string>
-    <string name="fallback_menu_item_copy_link">Kopioi linkki</string>
-    <string name="fallback_menu_item_open_in_browser">Avaa selaimessa</string>
-    <string name="fallback_menu_item_share_link">Jaa linkki</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>

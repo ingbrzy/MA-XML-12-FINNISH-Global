@@ -102,7 +102,7 @@
     <string name="error_p2p_create_group_failure_china">"Couldn't connect. Reconnect to WLAN on both devices and try again."</string>
     <string name="error_p2p_recv_connect_timeout">Yhteyttä ei voitu muodostaa. Yhdistä uudelleen Wi-Fi-verkkoon molemmilla laitteilla ja yritä uudelleen.</string>
     <string name="error_p2p_recv_connect_timeout_china">"Couldn't connect. Reconnect to WLAN on both devices and try again."</string>
-    <string name="error_permission_denied">Jotta voisit käyttää tätä ominaisuutta anna kohteelle Mi Share kaikki tarvittavat käyttöoikeudet kohdassa Asetukset.</string>
+    <string name="error_permission_denied">Jotta voisit käyttää tätä ominaisuutta anna kohteelle Xiaomi Share kaikki tarvittavat käyttöoikeudet kohdassa Asetukset.</string>
     <string name="error_receive_file_cannot_read">Tiedostoa ei voitu vastaanottaa</string>
     <string name="error_receive_file_changed">Ei voi vastaanottaa. Kohde vaihtunut.</string>
     <string name="error_receive_file_file_opened">Tätä kohdetta ei voitu vastaanottaa. Näyttää siltä, että sitä käytetään nyt.</string>
@@ -121,8 +121,8 @@
     <string name="error_send_file_service_disabled">Peruutettu lähtevä siirto</string>
     <string name="error_send_transfer_error">Kohteita ei voitu lähettää. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="error_send_transfer_pc_error">Transfer timed out. Update Xiaomi PC Manager to the latest version and try again.</string>
-    <string name="error_slave_wifi_in_use">Mi Share ei toimi, kun kaksois-Wi-Fi on käytössä. Sammuta kaksois-Wi-Fi Asetuksissa ja yritä uudelleen.</string>
-    <string name="error_slave_wifi_in_use_china">Mi Share ei toimi, kun kaksois-WLAN on käytössä. Sammuta kaksois-WLAN Asetuksissa ja yritä uudelleen.</string>
+    <string name="error_slave_wifi_in_use">Xiaomi Share ei toimi, kun kaksois-Wi-Fi on käytössä. Sammuta kaksois-Wi-Fi Asetuksissa ja yritä uudelleen.</string>
+    <string name="error_slave_wifi_in_use_china">Xiaomi Share ei toimi, kun kaksois-WLAN on käytössä. Sammuta kaksois-WLAN Asetuksissa ja yritä uudelleen.</string>
     <string name="error_timeout">Istunto aikakatkaistiin. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="error_user_refuse">Ei voi lähettää. Siirto hylättiin.</string>
     <string name="error_wifi_display_in_use">Tiedostoja ei voi lähettää muille laitteille suoratoiston aikana</string>
@@ -201,17 +201,17 @@
     <string name="go_to_settings">Asetukset</string>
     <string name="guide_summary_1">Toinen henkilö voi napauttaa ilmoitusalueen kytkintä</string>
     <string name="guide_summary_2">Valitse laite, jolle haluat lähettää kohteita, ja napauta sen kuvaketta</string>
-    <string name="guide_title_1">Ota Mi Share käyttöön molemmissa laitteissa</string>
+    <string name="guide_title_1">Ota Xiaomi Share käyttöön molemmissa laitteissa</string>
     <string name="guide_title_2">Valitse laite jakaaksesi</string>
     <string name="help">Etkö löydä laitteita?</string>
-    <string name="help_content">Jos et löydä tarvitsemaasi laitetta, pyydä toinen henkilö ottamaan Mi Share käyttöön.</string>
+    <string name="help_content">Jos et löydä tarvitsemaasi laitetta, pyydä toinen henkilö ottamaan Xiaomi Share käyttöön.</string>
     <string name="hide">Piilota</string>
     <string name="hisense">Hisense</string>
     <string name="hisense_phone">Hisense</string>
     <string name="i_know">Selvä</string>
     <string name="lenovo">Lenovo</string>
     <string name="lenovo_phone">Lenovo</string>
-    <string name="location_enabled">Mi Share otettu käyttöön, jotta lähellä olevat laitteet löytyvät</string>
+    <string name="location_enabled">Xiaomi Share otettu käyttöön, jotta lähellä olevat laitteet löytyvät</string>
     <string name="meizu">Meizu</string>
     <string name="meizu_phone">Meizu</string>
     <string name="menu_item_permission_manager_and_use_guide_title">Käyttöoikeustiedot</string>
@@ -231,7 +231,7 @@
     <string name="mi_9_lite">Mi 9 Lite</string>
     <string name="mi_9t">Mi 9T</string>
     <string name="mi_9t_pro">Mi 9T Pro</string>
-    <string name="mi_drop">Mi Share</string>
+    <string name="mi_drop">Xiaomi Share</string>
     <string name="mi_note_10">Mi Note 10</string>
     <string name="mi_pad_5">Xiaomi Pad 5</string>
     <string name="mi_pad_5_pro">Xiaomi Pad 5 Pro</string>
@@ -239,14 +239,14 @@
     <string name="mi_share_turbo_mode">Turbosiirto</string>
     <string name="midnight">Yö</string>
     <string name="mini_pc_xiaomi_device_model_name">Xiaomi Mini PC</string>
-    <string name="mishare_folder_in_file_explorer">Tiedostonhallinta > MiShare</string>
-    <string name="mishare_service_channel_desc">Ilmoituksia Mi Share -menetelmistä</string>
-    <string name="mishare_settings_summary_international">"Kohteen Mi Share avulla voit lähettää kohteita langattomasti muihin lähellä oleviin laitteisiin.
+    <string name="mishare_folder_in_file_explorer">Tiedostonhallinta > Xiaomi Share</string>
+    <string name="mishare_service_channel_desc">Ilmoituksia Xiaomi Share -menetelmistä</string>
+    <string name="mishare_settings_summary_international">"Kohteen Xiaomi Share avulla voit lähettää kohteita langattomasti muihin lähellä oleviin laitteisiin.
 Tätä ominaisuutta tukevat OPPO, vivo, realme ja muut älypuhelinvalmistajat. Voit tarkistaa tuettujen laitteiden luettelon minkä tahansa valitun tuotemerkin virallisella verkkosivustolla."</string>
-    <string name="mishare_state_protection">Käynnistä Mi Share automaattisesti</string>
-    <string name="mishare_state_protection_summary">Kytke Mi Share takaisin päälle automaattisesti, kun Bluetooth tai Wi-Fi otetaan uudelleen käyttöön</string>
-    <string name="mishare_state_protection_summary_china">Kytke Mi Share takaisin päälle automaattisesti, kun Bluetooth tai WLAN otetaan uudelleen käyttöön</string>
-    <string name="mishare_transefer_channel_desc">Ilmoituksia kohteen Mi Share lähettämien ja vastaanottamien kohteiden ilmoituksista</string>
+    <string name="mishare_state_protection">Käynnistä Xiaomi Share automaattisesti</string>
+    <string name="mishare_state_protection_summary">Kytke Xiaomi Share takaisin päälle automaattisesti, kun Bluetooth tai Wi-Fi otetaan uudelleen käyttöön</string>
+    <string name="mishare_state_protection_summary_china">Kytke Xiaomi Share takaisin päälle automaattisesti, kun Bluetooth tai WLAN otetaan uudelleen käyttöön</string>
+    <string name="mishare_transefer_channel_desc">Ilmoituksia kohteen Xiaomi Share lähettämien ja vastaanottamien kohteiden ilmoituksista</string>
     <string name="miuix_access_state_desc">Valittu</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
@@ -317,8 +317,8 @@ Tätä ominaisuutta tukevat OPPO, vivo, realme ja muut älypuhelinvalmistajat. V
     <string name="nfc_check_the_touch_device">Laitteiden yhdistämiseksi Wi-Fin ja Bluetoothin tulee olla päällä myös toisessa laitteessa. Tarkista, onko yhteys toiselle laitteelle sallittu kohdassa Asetukset > Yhteys ja jakaminen > Yhdistetyt laitteet ja yritä uudelleen.</string>
     <string name="nfc_check_the_touch_device_china">Laitteiden yhdistämiseksi WLAN ja Bluetoothin tulee olla päällä myös toisessa laitteessa. Tarkista, onko yhteys toiselle laitteelle sallittu kohdassa Asetukset > Yhteys ja jakaminen > Yhdistetyt laitteet ja yritä uudelleen.</string>
     <string name="nfc_connect_fail">Yhteyden muodostaminen epäonnistui. Odota pari minuuttia ja yritä uudelleen.</string>
-    <string name="nfc_connect_fail_lyra_secure">Ota Mi Share käyttöön laitteesi ohjauskeskuksessa.</string>
-    <string name="nfc_connect_fail_lyra_secure_title">Mi Share ei ole käytössä</string>
+    <string name="nfc_connect_fail_lyra_secure">Ota Xiaomi Share käyttöön laitteesi ohjauskeskuksessa.</string>
+    <string name="nfc_connect_fail_lyra_secure_title">Xiaomi Share ei ole käytössä</string>
     <string name="nfc_connect_fail_pad">Ei voitu yhdistää</string>
     <string name="nfc_connecting">Yhdistetään…</string>
     <string name="nfc_need_to_enable_your_bluetooth_and_wlan">Yhdistä laitteet kytkemällä ensin Wi-Fi ja Bluetooth päälle tässä laitteessa. Laitetaanko nyt päälle?</string>
@@ -344,16 +344,16 @@ Tätä ominaisuutta tukevat OPPO, vivo, realme ja muut älypuhelinvalmistajat. V
     <string name="pc_device_model_name">Tietokone</string>
     <string name="pc_redmi_device_model_name">Redmi -kannettava tietokone</string>
     <string name="pc_xiaomi_device_model_name">Xiaomi- kannettava tietokone</string>
-    <string name="permission_apply_purpose">Anna Mi Sharen löytää lähellä olevia laitteita ja muodostaa niihin yhteyden, jotta se voi siirtää tiedostoja.</string>
-    <string name="permission_denied_hint">Myönnä tarvittavat käyttöoikeudet voidaksesi käyttää kohdetta Mi Share</string>
+    <string name="permission_apply_purpose">Anna Xiaomi Sharen löytää lähellä olevia laitteita ja muodostaa niihin yhteyden, jotta se voi siirtää tiedostoja.</string>
+    <string name="permission_denied_hint">Myönnä tarvittavat käyttöoikeudet voidaksesi käyttää kohdetta Xiaomi Share</string>
     <string name="permission_related">Käyttöoikeudet</string>
     <string name="pm">ip.</string>
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
     <string name="privacy_authorize">Valtuutus</string>
     <string name="progress_ratio">%1$d%%</string>
-    <string name="purpose">"Tervetuloa kohteeseen Mi Share! Voit käyttää tätä sovellusta tiedostojen siirtoon laitteiden välillä. Suojaamme henkilökohtaisia ​​tietojasi asiaankuuluvien lakien, asetusten ja käytäntöjen mukaisesti.
-Ennen Mi Share -sovelluksen käyttöä sinun on myönnettävä seuraavat oikeudet sekä sallia sen kerätä tarvittavia henkilökohtaisia ​​tietoja:"</string>
-    <string name="purpose_v12">Tervetuloa kohteeseen Mi Share! Voit käyttää tätä sovellusta tiedostojen siirtoon laitteiden välillä.</string>
+    <string name="purpose">"Tervetuloa kohteeseen Xiaomi Share! Voit käyttää tätä sovellusta tiedostojen siirtoon laitteiden välillä. Suojaamme henkilökohtaisia ​​tietojasi asiaankuuluvien lakien, asetusten ja käytäntöjen mukaisesti.
+Ennen Xiaomi Share -sovelluksen käyttöä sinun on myönnettävä seuraavat oikeudet sekä sallia sen kerätä tarvittavia henkilökohtaisia ​​tietoja:"</string>
+    <string name="purpose_v12">Tervetuloa kohteeseen Xiaomi Share! Voit käyttää tätä sovellusta tiedostojen siirtoon laitteiden välillä.</string>
     <string name="queue_full">Viimeistele käynnissä olevat siirrot ennen kuin lisäät uusia.</string>
     <string name="realme">realme</string>
     <string name="realme_phone">realme</string>
@@ -435,7 +435,7 @@ Ennen Mi Share -sovelluksen käyttöä sinun on myönnettävä seuraavat oikeude
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sub_title_mishare_switch">Tämä ominaisuus sammuu automaattisesti %d minuutin kuluttua</string>
     <string name="sub_title_turbo_mode">Supernopeat siirrot Xiaomi-puhelimien ja -tablettien välillä. Verkko katkaistaan siirron aikana.</string>
-    <string name="sub_title_withdraw_privacy_policy_consent">Tietosuojakäytännön suostumuksen peruuttaminen poistaa käytöstä Mi Sharen</string>
+    <string name="sub_title_withdraw_privacy_policy_consent">Tietosuojakäytännön suostumuksen peruuttaminen poistaa käytöstä Xiaomi Sharen</string>
     <string name="success_receive_much_file_from_pc">Vastaanotettu yli %2$d tiedostoa kohteesta %1$s. Näytä napauttamalla.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sunnuntai</string>
@@ -495,22 +495,20 @@ Ennen Mi Share -sovelluksen käyttöä sinun on myönnettävä seuraavat oikeude
     <string name="time_picker_label_minute">M</string>
     <string name="tips_p2p_support_use5g">Saat parhaat tulokset käyttämällä 5 GHz Wi-Fi-verkkoa.</string>
     <string name="tips_p2p_support_use5g_china">For best results, use a 5 GHz WLAN network.</string>
-    <string name="tips_prompt_enable_midrop">Mi Share</string>
+    <string name="tips_prompt_enable_midrop">Xiaomi Share</string>
     <string name="to_feedback">Raportoi</string>
-    <string name="toast_auto_close_in_minutes">Mi Share sammuu automaattisesti %d minuutin kuluttua</string>
+    <string name="toast_auto_close_in_minutes">Xiaomi Share sammuu automaattisesti %d minuutin kuluttua</string>
     <string name="toast_transfering">Siirretään kohteita. Yritä myöhemmin uudelleen.</string>
     <string name="today">Tänään</string>
     <string name="tomorrow">Huomenna</string>
     <string name="transfer_intercept_to_remote">Ei voitu lähettää: %1$s</string>
-    <string name="transfer_to_pc_summary">Mi Notebooksiin asennettu uusin AIoT-ohjelmisto on yhteensopiva kohteen Mi Share kanssa. Voit tarkistaa tuettujen kannettavien tietokonemallien luettelon MIUI-verkkosivustolla. Jos sinun kannettava tietokone on luettelossa, mutta AIoT:ta ei ole asennettu siihen, päivitä kannettavan tietokoneen BIOS sekä verkkosovittimen ohjain ja lataa AIoT.</string>
-    <string name="transfer_to_pc_summary_new">&lt;Data>Mi Muistioihin asennettu uusin MIUI+ -versio on yhteensopiva kohteen Mi Share kanssa. Voit tarkistaa luettelon tuetuista kannettavista tietokonemalleista MIUI+ -sivustolta(&lt;a href=%1$s>%2$s&lt;/a>). Jos kannettava tietokoneesi on luettelossa, mutta MIUI+ ei ole asennettu siihen, päivitä kannettavan tietokoneen BIOS ja verkkosovittimen ohjain ja lataa MIUI+.&lt;/Data></string>
-    <string name="transfer_to_pc_summary_new_plus">&lt;Data>Xiaomi PC Manager now supports Mi Share! You can find a list of supported computer models &lt;a href=%1$s>here&lt;/a>.&lt;/Data></string>
+    <string name="transfer_to_pc_summary_new_plus"><Data>Xiaomi PC Manager tukee nyt Xiaomi Sharea! Löydät luettelon tuetuista tietokonemalleista &lt;a href=%1$s>täältä&lt;/a>.</Data></string>
     <string name="transfer_to_pc_title">Lähetä tiedostoja tietokoneisiin</string>
-    <string name="transfer_to_phone_summary">Kytke Mi Share päälle ilmoitusalueen kytkimellä. Sen jälkeen näet lähellä olevat laitteet, kun aloitat valokuvan tai tiedoston jakamisen. Napauta vastaanottajan laitetta lähettääksesi jaettavan kohteen.</string>
-    <string name="transfer_to_phone_summary_new">Ota Mi Share käyttöön ohjauskeskuksessa, jotta voit helposti lähettää ja vastaanottaa kohteita. Kun olet kytkenyt sen päälle, voit jakaa kohteita lähellä olevien laitteiden kanssa %d minuuttia ennen kuin se sammuu automaattisesti.</string>
+    <string name="transfer_to_phone_summary">Kytke Xiaomi Share päälle ilmoitusalueen kytkimellä. Sen jälkeen näet lähellä olevat laitteet, kun aloitat valokuvan tai tiedoston jakamisen. Napauta vastaanottajan laitetta lähettääksesi jaettavan kohteen.</string>
+    <string name="transfer_to_phone_summary_new">Ota Xiaomi Share käyttöön ohjauskeskuksessa, jotta voit helposti lähettää ja vastaanottaa kohteita. Kun olet kytkenyt sen päälle, voit jakaa kohteita lähellä olevien laitteiden kanssa %d minuuttia ennen kuin se sammuu automaattisesti.</string>
     <string name="transfer_to_phone_title">Lähetä tiedostoja puhelimiin</string>
-    <string name="transfer_to_summary">Kytke Mi Share päälle ilmoitusalueen kytkimellä. Sen jälkeen näet lähellä olevat laitteet, kun aloitat valokuvan tai tiedoston jakamisen. Napauta vastaanottajan laitetta lähettääksesi jaettavan kohteen.</string>
-    <string name="transfer_to_summary_new">Ota Mi Share käyttöön ohjauskeskuksessa, jotta voit helposti lähettää ja vastaanottaa kohteita. Kun olet kytkenyt sen päälle, voit jakaa kohteita lähellä olevien laitteiden kanssa %d minuuttia ennen kuin se sammuu automaattisesti.</string>
+    <string name="transfer_to_summary">Kytke Xiaomi Share päälle ilmoitusalueen kytkimellä. Sen jälkeen näet lähellä olevat laitteet, kun aloitat valokuvan tai tiedoston jakamisen. Napauta vastaanottajan laitetta lähettääksesi jaettavan kohteen.</string>
+    <string name="transfer_to_summary_new">Ota Xiaomi Share käyttöön ohjauskeskuksessa, jotta voit helposti lähettää ja vastaanottaa kohteita. Kun olet kytkenyt sen päälle, voit jakaa kohteita lähellä olevien laitteiden kanssa %d minuuttia ennen kuin se sammuu automaattisesti.</string>
     <string name="transfer_to_title">Lähetä tiedostoja mobiililaitteisiin</string>
     <string name="tuesday">Tiistai</string>
     <string name="tuesday_short">Ti</string>
@@ -519,8 +517,8 @@ Ennen Mi Share -sovelluksen käyttöä sinun on myönnettävä seuraavat oikeude
     <string name="unrecognized_manufacture">Tuntematon</string>
     <string name="unrecognized_model">Tuntematon laite</string>
     <string name="user_instructions">Huomio</string>
-    <string name="uwb_guide_summary_1">Jos et löydä kohdelaitetta, pyydä toista henkilöä kytkemään Mi Share ohjauskeskuksessaan.</string>
-    <string name="uwb_guide_title_1">Pyydä toista henkilöä ottamaan Mi Share käyttöön</string>
+    <string name="uwb_guide_summary_1">Jos et löydä kohdelaitetta, pyydä toista henkilöä kytkemään Xiaomi Share ohjauskeskuksessaan.</string>
+    <string name="uwb_guide_title_1">Pyydä toista henkilöä ottamaan Xiaomi Share käyttöön</string>
     <string name="uwb_guide_title_2">Löydä kohdelaite nopeammin Beamin avulla</string>
     <string name="uwb_setting_guide">Tutustu lisää</string>
     <string name="uwb_setting_guide_summary">Beam tunnistaa kohdelaitteet langattomasti UWB-tekniikan avulla. Kun kohdelaite tunnistetaan, sen kuvake tulee etualalle.</string>
@@ -542,7 +540,7 @@ Ennen Mi Share -sovelluksen käyttöä sinun on myönnettävä seuraavat oikeude
     <string name="wifi_is_not_enabled">Ota ensin Wi-Fi käyttöön</string>
     <string name="wifi_is_not_enabled_china">Ota ensin WLAN käyttöön</string>
     <string name="withdraw">Peruuta suostumus</string>
-    <string name="withdraw_consent_message">Jos jatkat, peruutat suostumuksesi Mi Share -tietosuojakäytäntöön. Jo kerätyt ja säilytetyt henkilötiedot poistetaan tietyn ajan kuluessa sovellettavien lakien ja määräysten mukaisesti, ellei toisin vaadita. Koska Mi Share tarjoaa palvelujaan tarvittavien henkilötietojen keräämisen perusteella, suostumuksesi peruuttaminen katsotaan kieltäytymiseksi hyväksyä Mi Share -palveluita.</string>
+    <string name="withdraw_consent_message">Jos jatkat, peruutat suostumuksesi Xiaomi Share -tietosuojakäytäntöön. Jo kerätyt ja säilytetyt henkilötiedot poistetaan tietyn ajan kuluessa sovellettavien lakien ja määräysten mukaisesti, ellei toisin vaadita. Koska Xiaomi Share tarjoaa palvelujaan tarvittavien henkilötietojen keräämisen perusteella, suostumuksesi peruuttaminen katsotaan kieltäytymiseksi hyväksyä Xiaomi Share -palveluita.</string>
     <string name="withdraw_consent_title">Suostumuksen peruuttaminen</string>
     <string name="withdraw_with_time">Peruuta (%1$ds)</string>
     <string name="xiaomi">Mi</string>

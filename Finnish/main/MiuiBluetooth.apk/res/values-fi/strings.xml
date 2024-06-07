@@ -88,6 +88,7 @@ Tarkista tiedot kohdasta Asetukset."</string>
     <string name="fast_connect_device_battery">Akku</string>
     <string name="fast_connect_device_box">Kotelo</string>
     <string name="fast_connect_device_box_name">%1$s Box</string>
+    <string name="fast_connect_device_button_audio_share_fail">Selvä</string>
     <string name="fast_connect_device_connect_cancel">Peruuta</string>
     <string name="fast_connect_device_connect_ok">Yhdistä</string>
     <string name="fast_connect_device_connect_retry">Yritä uudelleen</string>
@@ -96,6 +97,12 @@ Tarkista tiedot kohdasta Asetukset."</string>
     <string name="fast_connect_device_headset_l">Vasen</string>
     <string name="fast_connect_device_headset_r">Oikea</string>
     <string name="fast_connect_device_headset_reset">Pidä kotelon painiketta painettuna</string>
+    <string name="fast_connect_device_message_audio_share">Jaa tämän laitteen ääni näillä kuulokkeilla</string>
+    <string name="fast_connect_device_replace_current_device">Vaihda laitetta</string>
+    <string name="fast_connect_device_start_audio_share">Jaa</string>
+    <string name="fast_connect_device_title_audio_share">Kuuntele yhdessä laitteen %1$s kanssa</string>
+    <string name="fast_connect_device_title_audio_share_fail">Ei voitu yhdistää laitteeseen %1$s.yritä uudelleen.</string>
+    <string name="fast_connect_device_title_audio_share_success">Kuunnellaan yhdessä laitteen %1$s kanssa</string>
     <string name="fast_connect_device_title_connect_fail">Ei voitu yhdistää %1$s</string>
     <string name="fast_connect_device_title_connecting">Yhdistetään…</string>
     <string name="fast_connect_device_title_find_headset">Etsi %1$s</string>

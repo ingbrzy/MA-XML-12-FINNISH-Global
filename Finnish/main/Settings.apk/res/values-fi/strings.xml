@@ -2965,6 +2965,9 @@ Tämä asetus vaikuttaa kaikkiin tämän laitteen käyttäjiin."</string>
     <string name="display_cutout_emulation">Näyttölovi</string>
     <string name="display_cutout_emulation_keywords">näyttölovi, näytön lovi</string>
     <string name="display_dashboard_summary">Tumma teema, fonttikoko, kirkkaus</string>
+    <string name="display_notification_icon_0">Ei mitään</string>
+    <string name="display_notification_icon_1">%d kuvake</string>
+    <string name="display_notification_icon_3">%d kuvaketta</string>
     <string name="display_prompt_confirm">Selvä</string>
     <string name="display_settings">Näyttö</string>
     <string name="display_settings_new">Näyttö &amp; kirkkaus</string>
@@ -7422,19 +7425,14 @@ Käynnistä laite uudelleen ja yritä sitten uudelleen."</string>
     <string name="screen_paper_mode_update_white_pkg_list_summary">Päivitä lista sovelluksista, jotka käyttävät automaattisesti lukutilaa</string>
     <string name="screen_paper_mode_update_white_pkg_list_title">Päivitä automaattisesti</string>
     <string name="screen_paper_texture">Tekstuuri</string>
-    <string name="screen_pinning_description">"Kun sovellus on kiinnitetty, sillä voi avata muita sovelluksia ja saada pääsyn henkilökohtaiseen dataan. 
+    <string name="screen_pinning_description">Kiinnitetyt sovellukset voivat avata muita sovelluksia ja käyttää henkilökohtaisia tietojasi</string>
+    <string name="screen_pinning_dialog_message">"Kiinnitetyt sovellukset voivat tehdä näin:
 
-Sovelluksen kiinnitys: \u0009
-1. Laita sovelluksen kiinnitys päälle \u0009
-2. Avaa Viimeisimmät \u0009
-3. Valitse näytön yläreunasta sovelluksen kuvake ja sitten Kiinnitä"</string>
-    <string name="screen_pinning_dialog_message">"Kun sovellus on kiinnitetty: 
+• Käyttää henkilökohtaisia tietojasi
+ (esim. yhteystietoja ja sähköposteja)
+• Avata muita sovelluksia
 
-• Henkilökohtaisiin tietoihin saattaa olla pääsy 
- (esim. yhteystiedot ja sähköpostin sisältö) 
-•\u0009\u0009Kiinnitetty sovellus voi avata muita sovelluksia 
-
-Käytä sovelluksen kiinnitystä vain ihmisten kanssa, joihin luotat."</string>
+Käytä tätä ominaisuutta varoen, kun jaat tämän laitteen muiden kanssa."</string>
     <string name="screen_pinning_guest_user_description">"Kun sovellus on kiinnitetty, sillä voi avata muita sovelluksia ja saada pääsyn henkilökohtaiseen dataan. 
 
 Jos haluat jakaa laitteesi turvallisesti toisen henkilön kanssa, kokeile sen sijaan vieraskäyttäjää. 
@@ -7443,10 +7441,11 @@ Sovelluksen kiinnitys: \u0009
 1. Laita sovelluksen kiinnitys päälle \u0009
 2. Avaa Viimeisimmät \u0009
 3. Valitse näytön yläreunasta sovelluksen kuvake ja sitten Kiinnitä"</string>
+    <string name="screen_pinning_summary">Kiinnitetyt sovellukset pysyvät Viimeaikaiset-kansiossa, kunnes irrotat ne</string>
     <string name="screen_pinning_switch_off_text">Ei käytössä</string>
     <string name="screen_pinning_switch_on_text">Päällä</string>
-    <string name="screen_pinning_title">Sovelluksen kiinnitys</string>
-    <string name="screen_pinning_unlock_none">Lukitse laite irrotuksen aikana</string>
+    <string name="screen_pinning_title">Salli sovellusten kiinnitys</string>
+    <string name="screen_pinning_unlock_none">Vahvista näytön lukitus irrottaaksesi</string>
     <string name="screen_pinning_unlock_password">Pyydä salasana ennen irrotusta</string>
     <string name="screen_pinning_unlock_pattern">Pyydä lukituksenpoistokuviota ennen irrotusta</string>
     <string name="screen_pinning_unlock_pin">Pyydä PIN ennen irrotusta</string>
@@ -9180,6 +9179,7 @@ Kokeile ottaa käyttöön nopeampi ^3 tai käytä laitetta ^4 siirrettävänä t
     <string name="title_quick_control_all_devices">Näytä lähellä olevien laitteiden ohjaimet</string>
     <string name="title_regional_pref_footer">Jos sovellus ei tue alueellisia valintoja, se käyttää oletusarvoista kieli- ja maa-asetusta.</string>
     <string name="title_show_notification_icon">Näytä ilmoituskuvakkeet</string>
+    <string name="title_show_notification_icon_count">Näytettyjen ilmoituskuvakkeiden määrä</string>
     <string name="title_smart_device_control">Älylaitteen ohjaimet</string>
     <string name="title_special_features_health_global">Syke</string>
     <string name="title_unavailable_locale">%s ei ole saatavilla</string>

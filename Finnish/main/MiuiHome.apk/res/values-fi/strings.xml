@@ -353,6 +353,7 @@
     <string name="gadget_search_label">Etsi</string>
     <string name="gadget_weather_title">Sää</string>
     <string name="global_search">Etsi</string>
+    <string name="global_shelf">Sovellusten haku</string>
     <string name="got_it_botton">Selvä</string>
     <string name="guide_install_app_msg">Tätä sovellusta ei ole asennettu laitteellesi. Etsi ja asenna sovellus nyt?</string>
     <string name="guide_install_app_title">Etsi ja asenna sovellus?</string>
@@ -360,6 +361,7 @@
     <string name="guide_privacy_dialog_title">Käyttöehdot</string>
     <string name="home_gesture_content_center">Sisältökeskus</string>
     <string name="home_gesture_global_search">Etsi</string>
+    <string name="home_gesture_global_shelf">Sovellusten haku</string>
     <string name="home_gesture_no_action">Ei mitään</string>
     <string name="home_gesture_notification_and_control_center">Ilmoitusvarjostin ja ohjauskeskus</string>
     <string name="home_gesture_notification_bar">Ilmoitukset</string>
@@ -378,7 +380,7 @@
     <string name="international_home_pull_down_sub_content">Voit vaihtaa tämän eleen avaamaan Ohjauskeskuksen kohdassa Asetukset > Aloitusnäyttö > Pyyhkäise alas aloitusnäytössä.</string>
     <string name="international_home_pull_down_up_btn_get">Selvä</string>
     <string name="international_home_pull_up_content">Avaa Sisältökeskus pyyhkäisemällä ylös aloitusnäytössä.</string>
-    <string name="international_home_pull_up_sub_content">Avaa haku pyyhkäisemällä alas aloitusnäytön keskeltä.</string>
+    <string name="international_home_pull_up_sub_content">Löytääksesi sovelluksia ja sovellusehdotuksia, pyyhkäise alaspäin aloitusnäytön keskeltä.</string>
     <string name="item_view_role_description">Välilehti</string>
     <string name="jeejen_description">"Suuremmat käyttöliittymäelementit.
 Helpompi soittaminen.
@@ -443,7 +445,7 @@ Parannettu suojaus."</string>
     <string name="mi_wallpaper">MIUI-teemat</string>
     <string name="midnight">Yö</string>
     <string name="minus_one_screen">Sovellusholvi</string>
-    <string name="miui_screen_config_title">Aloitusnäytön asetukset</string>
+    <string name="miui_screen_config_title">Aloitusnäytön ulkoasu</string>
     <string name="miui_setting_config_title">Aloitusnäytön asetukset</string>
     <string name="miui_widget_menu_replace_text">Korvaa</string>
     <string name="miui_widget_toast_for_not_support_by_pa">Sovellusholvi ei tue tämän kokoisia vinjettejä</string>
@@ -586,7 +588,7 @@ Parannettu suojaus."</string>
     <string name="navigation_type_title">Järjestelmänavigointi</string>
     <string name="navigation_type_virtual_key">Painikkeet</string>
     <string name="network_error">Ei voitu yhdistää verkkoon. Yritä uudelleen.</string>
-    <string name="new_default_folder_title_tools">Järjestelmäsovellukset</string>
+    <string name="new_default_folder_title_tools">Järjestelmäappit</string>
     <string name="new_feature_title">Uutta</string>
     <string name="new_open_personal_assistant_settings_simplified">Sovellusholvi</string>
     <string name="new_privacy_thumbnail_blur_summary">Sumenna sovellusten esikatselut Viimeaikaisissa</string>
@@ -649,8 +651,9 @@ Parannettu suojaus."</string>
     <string name="recent_menu_item_info">Tietoja</string>
     <string name="recent_menu_item_lock">Lukitse</string>
     <string name="recent_menu_item_unlock">Avaa lukitus</string>
-    <string name="recent_menu_item_worldcirculate">应用流转</string>
-    <string name="recent_menu_item_worldcirculate_disable">应用无法流转</string>
+    <string name="recent_menu_item_worldcirculate">Siirrä sovellustehtäviä</string>
+    <string name="recent_menu_item_worldcirculate_disable">Sovellustehtäviä ei voi siirtää yhdistettyjen laitteiden välillä</string>
+    <string name="recent_pin_text">Kiinnitä</string>
     <string name="recents_app_info_button_label">Sovellustiedot</string>
     <string name="recents_config_title">Viimeaikaiset</string>
     <string name="recents_dimiss_task">Tyhjennä</string>
@@ -750,8 +753,10 @@ Parannettu suojaus."</string>
     <string name="switch_personal_assistant_app_vault">Sovellusholvi</string>
     <string name="switch_personal_assistant_google">Google Discover</string>
     <string name="switch_personal_assistant_none">Ei mitään</string>
+    <string name="switch_personal_assistant_summary">Avaa Google Discover sipaisemalla oikealle aloitusnäytöllä</string>
     <string name="switch_screen_button_order">Peilaa painikkeet</string>
     <string name="switch_screen_button_order_desc">Peilaa takaisin- ja valikkopainikkeet</string>
+    <string name="system_sdk_disabled_toast">Järjestelmän SDK on poistettu käytöstä. Ota se käyttöön ensin.</string>
     <string name="system_shortcuts_edit">Muokkaa</string>
     <string name="system_shortcuts_icon_remove">Poista</string>
     <string name="system_shortcuts_more_operation">Sovellustiedot</string>
