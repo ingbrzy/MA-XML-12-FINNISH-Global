@@ -942,7 +942,6 @@ Ota lisää kuvia ystävistäsi!"</string>
     <string name="face_name_edit">Muokkaa</string>
     <string name="face_name_input">Anna nimi</string>
     <string name="face_recommend">Suositukset</string>
-    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Toimintoa ei voitu suorittaa</string>
     <string name="fail_reason_migrate">Käsitellään kohteita… Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="fail_to_pick_email">Virheellinen sähköpostiosoite</string>
@@ -958,7 +957,6 @@ saatavilla"</string>
     <string name="feedback_my_reports">Palaute</string>
     <string name="feedback_problem">Ilmoita ongelmasta</string>
     <string name="feedback_suggest">Lähetä ehdotus</string>
-    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="finish_create_baby_album_toast">Albumi luotu kohteelle \"%s\" Xiaomi Cloudissa</string>
     <string name="finish_fill_baby">Luo</string>
     <string name="first_delete_media_for_cloud">Valitut kohteet poistetaan pilvestä ja kaikista synkronoiduista laitteista Äskettäin poistettuihin kohteisiin ja ne poistetaan pysyvästi %d päivän kuluttua, ellei sinulla ole pilvitallennussuunnitelma. Poistetaanko silti?</string>
@@ -1068,7 +1066,6 @@ saatavilla"</string>
     <string name="grant_permission_go_and_set">Aseta</string>
     <string name="grant_permission_go_and_set_2">Asetukset</string>
     <string name="grant_permission_go_and_set_3">Asetukset</string>
-    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_manage_storage">Käyttöoikeuksia vaaditaan</string>
     <string name="grant_permission_manage_storage_unlock">Avaa laitteesi lukitus ja anna tämän sovelluksen käyttää kaikkia tiedostoja, jotta se voi tarkastella kohteita.</string>
     <string name="grant_permission_shortcut">Anna tämän sovelluksen luoda ensin aloitusnäytön pikavalinnat.</string>
@@ -1750,7 +1747,6 @@ Transkoodaus voi viedä hetken, kun käytät tätä ominaisuutta ensimmäistä k
     <string name="people_page_label">Ihmiset</string>
     <string name="people_page_photo">Henkilön kuvake</string>
     <string name="people_page_unname">Nimeämätön</string>
-    <string name="percent_sign">%</string>
     <string name="permission_account_desc">Sisäänkirjautumiseen ja järjestelmän tilien hallintaan</string>
     <string name="permission_account_name">Pääsy tileille</string>
     <string name="permission_clipboard_desc">Voit käyttää ja tallentaa kohteita leikepöydälle</string>
@@ -2156,7 +2152,6 @@ Transkoodaus voi viedä hetken, kun käytät tätä ominaisuutta ensimmäistä k
     <string name="share_album_cancel_share">Lopeta jakaminen</string>
     <string name="share_album_change_background">Vaihda taustakuvaa</string>
     <string name="share_album_create_failed">Jaettua albumia ei voitu luoda</string>
-    <string name="share_album_create_processing">@string/cloud_bacup_disable_processing</string>
     <string name="share_album_exit_button_text">Lopeta jakaminen</string>
     <string name="share_album_exit_confirm">Et voi enää käyttää kaikkia tämän albumin kohteita, jos jatkat. Säilytä kaikki tärkeät kohteet ennen poistumista.</string>
     <string name="share_album_exit_confirm_title">Poistu tästä ryhmästä?</string>
@@ -2243,7 +2238,6 @@ Transkoodaus voi viedä hetken, kun käytät tätä ominaisuutta ensimmäistä k
     <string name="share_with_family">Jaa perheen kanssa</string>
     <string name="sharer_quota_fulfiled">Olet jakanut tämän albumin enimmäismäärälle ihmisiä.</string>
     <string name="show_cloud_albumlist_summary">Uusia kohteita valituista albumeista ei ladata pilveen synkronoinnin poistamisen jälkeen.</string>
-    <string name="show_cloud_albumlist_title">@string/album_cloud_list_page_title</string>
     <string name="show_hidden_album_summary">Näytä ja hallitse piilotettuja albumeita</string>
     <string name="show_hidden_album_title">Näytä piilotetut albumit</string>
     <string name="show_in_other_albums_disable_toast_long_press_menu">Poistettu onnistuneesti. Voit tarkastella tätä kohdetta nyt kohdassa \"Albumit\".</string>

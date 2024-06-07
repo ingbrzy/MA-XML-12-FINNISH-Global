@@ -574,7 +574,6 @@ Yhden ja viiden vuoden peruskorot noteerataan kunkin kuukauden 20. päivänä (v
     <string name="unit_data_display_currency_btn">Bhutanin ngultrum</string>
     <string name="unit_data_display_currency_bwp">Botswanan pula</string>
     <string name="unit_data_display_currency_byn">Valko-Venäjän rupla</string>
-    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Kanadan dollari</string>
     <string name="unit_data_display_currency_cdf">Kongon frangi</string>
     <string name="unit_data_display_currency_chf">Sveitsin frangi</string>

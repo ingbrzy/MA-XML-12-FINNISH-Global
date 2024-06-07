@@ -182,8 +182,6 @@
     <string name="feedback_custom_hint">Kuvaile täällä kohtaamiasi ongelmia. Jos annat ehdotuksia, olisimme kiitollisia lisätiedoista!</string>
     <string name="find_device">Etsi laite</string>
     <string name="find_device_dspt_provision">Jos kadotat laitteesi, voit mennä kohteeseen &lt;font color=#0097FF>%s&lt;/font> paikantaaksesi, lukitaksesi tai nollataksesi sen. Voit ottaa tämän ominaisuuden käyttöön tai poistaa sen käytöstä milloin tahansa kohdassa Asetukset.</string>
-    <string name="find_device_dspt_provision_2">i.mi.com</string>
-    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_gdpr_prompt">Ottamalla käyttöön Etsi laite hyväksyt meidän <u><a href="app://com.miui.cloudservice.gdpr.license">Tietosuojakäytännön</a></u>. Poista tämä ominaisuus käytöstä, jos haluat peruuttaa suostumuksesi.</string>
     <string name="find_device_operation_failure_rpc">RPC-virheen vuoksi toimintoa ei voitu suorittaa.</string>
     <string name="find_device_permissions_footer">Napauta \"Myönnä\" myöntääksesi valitsemasi käyttöoikeudet.</string>

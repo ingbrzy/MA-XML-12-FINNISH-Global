@@ -875,7 +875,6 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="set_pattern">Päivitä salasanasi</string>
     <string name="set_pattern_btn">Aseta</string>
     <string name="set_pattern_msg">Aseta salasanasi uudelleen. Yksityisyydensuojan salasana toimii myös valokuvien, viestien ja muistiinpanojen yhteydessä.</string>
-    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">Pienempi kuin %d kt</string>
     <string name="size_lv2" formatted="false">%1d kt - %2d Mt</string>
     <string name="size_lv3" formatted="false">%1d Mt - %2d Mt</string>

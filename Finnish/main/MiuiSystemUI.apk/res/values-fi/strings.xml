@@ -1223,7 +1223,6 @@ Saat lisätietoja järjestelmänvalvojalta."</string>
     <string name="monitoring_description_personal_profile_named_vpn">Henkilökohtaiset sovelluksesi on yhdistetty internetiin tämän kautta: %1$s. Verkkotoimintasi, mukaan lukien sähköpostit ja selausdata, näkyy VPN-palveluntarjoajalle.</string>
     <string name="monitoring_description_two_named_vpns">Laite on yhdistetty internetiin näiden kautta: %1$s ja %2$s. Verkkotoimintasi, mukaan lukien sähköpostit ja selausdata, näkyy IT-järjestelmänvalvojalle.</string>
     <string name="monitoring_description_vpn_settings">Avaa VPN-asetukset</string>
-    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s voi saada pääsyn tähän laitteeseen liittyvään dataan, ylläpitää sovelluksia ja muuttaa laitteen asetuksia.
 
 Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
@@ -1826,8 +1825,6 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="status_bar_clock_date_format_12">E d. MMM</string>
     <string name="status_bar_clock_date_time_format">H.mm E d. MMM</string>
     <string name="status_bar_clock_date_time_format_12">h.mm a, E d. MMM</string>
-    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
-    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_ethernet">Ethernet</string>
     <string name="status_bar_settings_auto_rotation">Näytön automaattinen kääntö</string>
     <string name="status_bar_work">Työprofiili</string>
